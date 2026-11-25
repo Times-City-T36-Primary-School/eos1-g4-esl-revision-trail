@@ -462,7 +462,7 @@
           "drink",
           "drinking"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'My sister' is one person (she), so the verb needs -s.",
@@ -482,7 +482,7 @@
           "play",
           "playing"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'Omar' is one person (he), so the verb needs -s.",
@@ -510,7 +510,7 @@
           "Do",
           "Is"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'Do' goes with I, you, we and they. 'your dad' is he.",
@@ -770,7 +770,7 @@
           "draws",
           "drew"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'draws' is for a habit, but 'Look!' means it is happening now.",
@@ -818,7 +818,7 @@
           "have",
           "had"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "After 'is', the verb needs -ing.",
@@ -910,7 +910,7 @@
           "help",
           "helping"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'who' here means Mai, one person, so the verb needs -s.",
@@ -958,7 +958,7 @@
           "were",
           "is"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'were' goes with many things, but 'one small shop' is one.",
@@ -1006,7 +1006,7 @@
           "does",
           "did"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "'does' is for a habit, but 'at the moment' means now.",
@@ -1026,7 +1026,7 @@
           "make",
           "made"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "After 'is', the verb needs -ing.",
@@ -1062,7 +1062,7 @@
           "were visiting",
           "visited"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'were visiting' is the past, but 'this evening' and 'We'll be back' show it hasn't happened yet.",
@@ -1089,7 +1089,7 @@
           "was looking",
           "looked"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'was looking' is the past, but Isla says 'right now'.",
@@ -1124,7 +1124,7 @@
           "leaves",
           "is leaving"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "'leaves' is for a habit, but 'yesterday' is in the past.",
@@ -1151,7 +1151,7 @@
           "have",
           "are having"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'have' is for now or habits, but Remy says 'Twelve friends came', so it is finished.",
@@ -1186,7 +1186,7 @@
           "saw",
           "is seeing"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'saw' is the past, but 'every weekday' is a routine that is still true.",
@@ -1250,7 +1250,7 @@
          },
          "worked": "Long ago and one road: 'There was only one road'.",
          "type": "tfill",
-         "q": "Read the letter. Write ONE word from the box for gap 1.",
+         "q": "Read the letter. Write ONE word from the box for gap (1).",
          "lines": [
           "There {0} only one road and it was very narrow."
          ],
@@ -1273,7 +1273,7 @@
          },
          "worked": "'last night' is finished, so the past of have: 'I had a bad cough'.",
          "type": "tfill",
-         "q": "Read the email. Write ONE word from the box for gap 1.",
+         "q": "Read the email. Write ONE word from the box for gap (1).",
          "lines": [
           "I {0} a bad cough and a fever last night."
          ],
@@ -1305,7 +1305,7 @@
          },
          "worked": "A routine with she: 'Grandma gets up at five o'clock'.",
          "type": "tfill",
-         "q": "Read the letter. Write ONE word from the box for gap 2.",
+         "q": "Read the letter. Write ONE word from the box for gap (2).",
          "lines": [
           "Every morning, Grandma {0} up at five o'clock and feeds her chickens."
          ],
@@ -1328,7 +1328,7 @@
          },
          "worked": "'told' is past, so the other verb is past too: the past of give is 'gave'.",
          "type": "tfill",
-         "q": "Read the email. Write ONE word from the box for gap 2.",
+         "q": "Read the email. Write ONE word from the box for gap (2).",
          "lines": [
           "The doctor {0} me some medicine and told me to drink lots of water."
          ],
@@ -1359,7 +1359,7 @@
          },
          "worked": "A plan with we: 'we are picking oranges'.",
          "type": "tfill",
-         "q": "Read the letter. Write ONE word from the box for gap 3.",
+         "q": "Read the letter. Write ONE word from the box for gap (3).",
          "lines": [
           "Tomorrow we {0} picking oranges in her garden."
          ],
@@ -1383,7 +1383,7 @@
          },
          "worked": "Now, with I: 'I am lying on the sofa'.",
          "type": "tfill",
-         "q": "Read the email. Write ONE word from the box for gap 3.",
+         "q": "Read the email. Write ONE word from the box for gap (3).",
          "lines": [
           "At the moment I {0} lying on the sofa with a blanket and a book!"
          ],
@@ -1526,7 +1526,7 @@
        "help",
        "helping"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "With she, the present simple verb needs -s.",
@@ -1554,7 +1554,7 @@
        "washes",
        "washing"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "'washes' is the present, but 'Last year' is finished.",
@@ -1574,7 +1574,7 @@
        "brings",
        "bringing"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "'brings' is the present, but 'Last Sunday' is finished.",
@@ -1602,7 +1602,7 @@
        "was",
        "are"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "'was' goes with one thing, but 'twenty cakes' is many.",
@@ -1650,7 +1650,7 @@
        "doesn't go",
        "isn't going"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "'doesn't go' is for a habit now, but 'wanted' tells you it is the past.",
@@ -1670,7 +1670,7 @@
        "doesn't know",
        "don't know"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "'doesn't know' is the present, but 'called' tells you it is the past.",
@@ -1740,7 +1740,7 @@
       },
       "worked": "The party is finished and 'so many balloons' is plural: 'there were'.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word from the box for gap 6.",
+      "q": "Read the email. Write ONE word from the box for gap (6).",
       "lines": [
        "At the party, there {0} so many balloons and a huge cake!"
       ],
@@ -1763,7 +1763,7 @@
       },
       "worked": "The story is told in the past and 'hundreds of houses' is plural: 'there were'.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word from the box for gap 6.",
+      "q": "Read the email. Write ONE word from the box for gap (6).",
       "lines": [
        "In the story, there {0} hundreds of old stone houses and a golden gate."
       ],
@@ -1794,7 +1794,7 @@
       },
       "worked": "He lives in London, so he was not there, and the party is past: 'he wasn't at the party'.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word from the box for gap 7.",
+      "q": "Read the email. Write ONE word from the box for gap (7).",
       "lines": [
        "My uncle lives in London, so he {0} at the party."
       ],
@@ -1818,7 +1818,7 @@
       },
       "worked": "'didn't tell' is past, so this verb is past too: 'found the city with an old map'.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word from the box for gap 7.",
+      "q": "Read the email. Write ONE word from the box for gap (7).",
       "lines": [
        "A young explorer {0} the city with an old map, but she didn't tell anyone about it."
       ],
@@ -1850,7 +1850,7 @@
       },
       "worked": "The call is finished, like 'It was ten o'clock in London', so: 'in Hanoi it was five o'clock'.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word from the box for gap 8.",
+      "q": "Read the email. Write ONE word from the box for gap (8).",
       "lines": [
        "It was ten o'clock in the morning in London, but in Hanoi it {0} five o'clock in the afternoon."
       ],
@@ -1873,7 +1873,7 @@
       },
       "worked": "Ravi loves them, but his sister does not, and it is true now: 'my sister doesn't like them'.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word from the box for gap 8.",
+      "q": "Read the email. Write ONE word from the box for gap (8).",
       "lines": [
        "I love adventure stories, but my sister {0} like them."
       ],
@@ -1905,7 +1905,7 @@
       },
       "worked": "A plan for next month: 'Uncle is flying to Hanoi'.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word from the box for gap 9.",
+      "q": "Read the email. Write ONE word from the box for gap (9).",
       "lines": [
        "Guess what? Uncle {0} flying to Hanoi next month!"
       ],
@@ -1929,7 +1929,7 @@
       },
       "worked": "Happening now, with she: 'she is reading'.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word from the box for gap 9.",
+      "q": "Read the email. Write ONE word from the box for gap (9).",
       "lines": [
        "Right now she {0} reading a book about horses."
       ],
@@ -1961,7 +1961,7 @@
       },
       "worked": "A question about a habit with 'your family' (it): 'Does your family have...?'",
       "type": "tfill",
-      "q": "Read the email. Write ONE word from the box for gap 10.",
+      "q": "Read the email. Write ONE word from the box for gap (10).",
       "lines": [
        "{0} your family have a video call when someone has a birthday?"
       ],
@@ -1984,7 +1984,7 @@
       },
       "worked": "A present simple question with you: 'Do you want to borrow my book?'",
       "type": "tfill",
-      "q": "Read the email. Write ONE word from the box for gap 10.",
+      "q": "Read the email. Write ONE word from the box for gap (10).",
       "lines": [
        "{0} you want to borrow my book?"
       ],

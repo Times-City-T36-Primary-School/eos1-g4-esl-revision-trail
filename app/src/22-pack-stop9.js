@@ -972,7 +972,7 @@
         "Task achievement and content 2/2: all the bullet points are covered, with an example and a clear reason.",
         "Organisation and layout 1/2: one clear paragraph, but only a few linking words (For example, also, because). 'First' or 'Finally' would guide the reader.",
         "Grammar range and accuracy 2/2: a good range of modal verbs (should, need to, mustn't, shouldn't), all used correctly.",
-        "Vocabulary and spelling 1/2: all words are spelled correctly, but some are basic and repeated ('nice' twice); 'friendly' or 'kindness' would add variety.",
+        "Vocabulary and spelling 1/2: all words are spelt correctly, but some are basic and repeated ('nice' twice); 'friendly' or 'kindness' would add variety.",
         "Fluency 2/2: complete sentences with capital letters and full stops; easy to read."
        ],
        "marks": {
@@ -990,7 +990,7 @@
         "Task achievement and content 2/2: every bullet point is covered and developed with details and a strong reason.",
         "Organisation and layout 2/2: two paragraphs (what to do, then what not to do and why) with First, For example, However and because.",
         "Grammar range and accuracy 2/2: modal verbs (should, need to, mustn't, shouldn't) and a comparative adverb ('learn better'), all accurate.",
-        "Vocabulary and spelling 2/2: varied topic words (greet, kindness, friendly, leave anyone out), all spelled correctly.",
+        "Vocabulary and spelling 2/2: varied topic words (greet, kindness, friendly, leave anyone out), all spelt correctly.",
         "Fluency 2/2: the sentences flow smoothly from one idea to the next."
        ],
        "marks": {
@@ -1068,7 +1068,7 @@
         "Task achievement and content 2/2: all bullet points are covered with useful detail and a clear reason.",
         "Organisation and layout 2/2: two paragraphs (good habits, then what not to do and why) linked with First, However, so and because.",
         "Grammar range and accuracy 2/2: a range of modal verbs used accurately, plus a comparative (safer) and a superlative (the cleanest).",
-        "Vocabulary and spelling 2/2: varied topic words (litter, recycling, sort, cycle), all spelled correctly.",
+        "Vocabulary and spelling 2/2: varied topic words (litter, recycling, sort, cycle), all spelt correctly.",
         "Fluency 2/2: smooth, complete sentences with a strong ending."
        ],
        "marks": {
@@ -1146,7 +1146,7 @@
         "Task achievement and content 2/2: all bullet points are covered and developed with useful details.",
         "Organisation and layout 2/2: two paragraphs (before, then during the show) with clear time words and linking words.",
         "Grammar range and accuracy 2/2: a range of modal verbs used accurately, plus a superlative (the most exciting).",
-        "Vocabulary and spelling 2/2: precise topic words (safety line, crowd, burns, colourful), all spelled correctly.",
+        "Vocabulary and spelling 2/2: precise topic words (safety line, crowd, burns, colourful), all spelt correctly.",
         "Fluency 2/2: the sentences flow well and the ending is cheerful."
        ],
        "marks": {
@@ -1205,7 +1205,7 @@
         "Task achievement and content 2/2: every bullet point is covered with relevant details.",
         "Organisation and layout 1/2: one paragraph in a clear order, but apart from 'and', only 'because' links the ideas.",
         "Grammar range and accuracy 2/2: a correct comparative (brighter than) and correct use of 'would'.",
-        "Vocabulary and spelling 2/2: good adjectives (sweet, crunchy, colourful, tasty), all spelled correctly.",
+        "Vocabulary and spelling 2/2: good adjectives (sweet, crunchy, colourful, tasty), all spelt correctly.",
         "Fluency 1/2: mostly easy to read, but one sentence joins too many ideas with 'and ... and ... and'. Split it into two sentences."
        ],
        "marks": {
@@ -1223,7 +1223,7 @@
         "Task achievement and content 2/2: all four bullet points are covered with lively detail.",
         "Organisation and layout 2/2: two paragraphs (what it looks like, then why it is special and who shares it) linked with also, because and so.",
         "Grammar range and accuracy 2/2: a superlative (the most delicious), a comparative (more colourful than) and 'would', all accurate.",
-        "Vocabulary and spelling 2/2: rich adjectives (sticky, soft, crunchy, purple, delicious), all spelled correctly.",
+        "Vocabulary and spelling 2/2: rich adjectives (sticky, soft, crunchy, purple, delicious), all spelt correctly.",
         "Fluency 2/2: varied sentences that are a pleasure to read."
        ],
        "marks": {
@@ -1300,7 +1300,7 @@
         "Task achievement and content 2/2: all four bullet points are covered and developed.",
         "Organisation and layout 2/2: two paragraphs (what she looks like, then what she does and why) with clear linking words.",
         "Grammar range and accuracy 2/2: superlatives (the cleverest, the strongest) and a comparative adverb (more quietly than), all accurate.",
-        "Vocabulary and spelling 2/2: rich adjectives (dark purple, soft, golden, calm, generous), all spelled correctly.",
+        "Vocabulary and spelling 2/2: rich adjectives (dark purple, soft, golden, calm, generous), all spelt correctly.",
         "Fluency 2/2: long and short sentences mix well, and the ending is strong."
        ],
        "marks": {
@@ -1377,7 +1377,7 @@
         "Task achievement and content 2/2: all four bullet points are covered and developed with imaginative detail.",
         "Organisation and layout 2/2: two paragraphs (what it looks like, then its magic and why) with but, For example and because.",
         "Grammar range and accuracy 2/2: a superlative (the most amazing), a comparative (lighter than) and 'would', all accurate.",
-        "Vocabulary and spelling 2/2: rich adjectives (ordinary, amazing, mysterious, tiny, silver), all spelled correctly.",
+        "Vocabulary and spelling 2/2: rich adjectives (ordinary, amazing, mysterious, tiny, silver), all spelt correctly.",
         "Fluency 2/2: smooth, varied sentences that are easy to read."
        ],
        "marks": {
@@ -1601,7 +1601,7 @@
        "because",
        "also"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "'because' gives a reason, but picking up rubbish is the result.",
@@ -1623,7 +1623,7 @@
       },
       "worked": "The right spelling is <b>beautiful</b>: b-e-a-u-t-i-f-u-l.",
       "type": "mcq",
-      "q": "Which word is spelled correctly?",
+      "q": "Which word is spelt correctly?",
       "opts": [
        "beautiful",
        "beautifull",
@@ -1643,7 +1643,7 @@
       },
       "worked": "The right British spelling is <b>favourite</b>.",
       "type": "mcq",
-      "q": "Which word is spelled correctly?",
+      "q": "Which word is spelt correctly?",
       "opts": [
        "favourite",
        "favourit",
@@ -1653,7 +1653,7 @@
       "whys": [
        null,
        "This word needs an e at the end.",
-       "The middle of the word is spelled -our-."
+       "The middle of the word is spelt -our-."
       ],
       "letters": true
      }
@@ -1698,7 +1698,7 @@
        "as a list of single words",
        "as a letter with a greeting"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Single words are not sentences, so they cannot explain your ideas.",
@@ -1810,7 +1810,7 @@
        "The road near my school is very long and wide.",
        "Next, look left and right before you cross."
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "This describes the road; it does not give a reason.",
@@ -1859,7 +1859,7 @@
        "You mustn't feeding the ducks bread.",
        "You mustn't fed the ducks bread."
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "After 'mustn't' we use the base verb, not the -ing form.",
@@ -1957,7 +1957,7 @@
        "Our bathroom has a big blue tap and a small white sink.",
        "Next, you need a big bucket."
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "This is a small detail, not an ending that sums up.",

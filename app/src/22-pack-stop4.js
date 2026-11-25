@@ -2,7 +2,7 @@
    Made by scripts/convert.py from content/stop4.json (written from the exam-style guide only; no real paper seen). */
 (function (T) {
   'use strict';
-  window.T_ART = Object.assign(window.T_ART || {}, {"e-s4-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"half past\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕧</text></svg>", "e-s4-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"quarter past\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏱️</text></svg>", "e-s4-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"quarter to\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏰</text></svg>", "e-s4-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"date\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📅</text></svg>", "e-s4-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"timetable\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🗓️</text></svg>", "e-s4-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"ticket\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🎟️</text></svg>", "e-s4-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"price\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏷️</text></svg>", "e-s4-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"register\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📋</text></svg>", "e-s4-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"costume\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🎭</text></svg>", "e-s4-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"packed lunch\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍱</text></svg>", "e-s4-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"instead\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔄</text></svg>", "e-s4-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"actually\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❗</text></svg>", "e-s4-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"sold out\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🚫</text></svg>", "e-s4-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"changed his mind\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🤔</text></svg>"});
+  window.T_ART = Object.assign(window.T_ART || {}, {"e-s4-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"half past\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕧</text></svg>", "e-s4-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"quarter past\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕒</text></svg>", "e-s4-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"quarter to\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕘</text></svg>", "e-s4-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"date\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📅</text></svg>", "e-s4-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"timetable\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🗓️</text></svg>", "e-s4-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"ticket\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🎟️</text></svg>", "e-s4-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"price\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏷️</text></svg>", "e-s4-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"register\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📋</text></svg>", "e-s4-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"costume\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🎭</text></svg>", "e-s4-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"packed lunch\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍱</text></svg>", "e-s4-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"instead\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔄</text></svg>", "e-s4-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"actually\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❗</text></svg>", "e-s4-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"sold out\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🚫</text></svg>", "e-s4-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"changed his mind\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🤔</text></svg>"});
   T.packs[4] = {
  "n": 4,
  "title": "Listening: pictures and notes",
@@ -312,7 +312,7 @@
             "pic": "🧩",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "jigsaw puzzle piece"
           },
           {
            "html": "",
@@ -321,7 +321,7 @@
             "pic": "📚",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "books"
           },
           {
            "html": "",
@@ -330,7 +330,7 @@
             "pic": "📿",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "prayer beads"
           }
          ],
          "at": 1,
@@ -385,7 +385,7 @@
             "pic": "🧘",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "person in lotus position"
           },
           {
            "html": "",
@@ -394,7 +394,7 @@
             "pic": "🎣",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "fishing pole and fish"
           },
           {
            "html": "",
@@ -403,10 +403,10 @@
             "pic": "🚲",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "bicycle"
           }
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Grandpa used to go fishing, but his back hurts now.",
@@ -466,7 +466,7 @@
             "pic": "📅",
             "tag": "Sat"
            },
-           "alt": "Sat picture"
+           "alt": "calendar, Sat"
           },
           {
            "html": "",
@@ -475,7 +475,7 @@
             "pic": "📅",
             "tag": "Fri"
            },
-           "alt": "Fri picture"
+           "alt": "calendar, Fri"
           },
           {
            "html": "",
@@ -484,7 +484,7 @@
             "pic": "📅",
             "tag": "Sun"
            },
-           "alt": "Sun picture"
+           "alt": "calendar, Sun"
           }
          ],
          "at": 2,
@@ -539,7 +539,7 @@
             "pic": "🎟️",
             "tag": "£6"
            },
-           "alt": "£6 picture"
+           "alt": "admission tickets, £6"
           },
           {
            "html": "",
@@ -548,7 +548,7 @@
             "pic": "🎟️",
             "tag": "£10"
            },
-           "alt": "£10 picture"
+           "alt": "admission tickets, £10"
           },
           {
            "html": "",
@@ -557,10 +557,10 @@
             "pic": "🎟️",
             "tag": "free"
            },
-           "alt": "free picture"
+           "alt": "admission tickets, free"
           }
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Ten pounds is the price for adults.",
@@ -620,7 +620,7 @@
             "pic": "🥛",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "glass of milk"
           },
           {
            "html": "",
@@ -629,7 +629,7 @@
             "pic": "🥚",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "egg"
           },
           {
            "html": "",
@@ -638,7 +638,7 @@
             "pic": "🍞",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "bread"
           }
          ],
          "at": 1,
@@ -693,7 +693,7 @@
             "pic": "⛺",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "tent"
           },
           {
            "html": "",
@@ -702,7 +702,7 @@
             "pic": "🏨",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "hotel"
           },
           {
            "html": "",
@@ -711,10 +711,10 @@
             "pic": "🏢",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "office building"
           }
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Raj asks about a hotel, but Ngoc says no.",
@@ -774,7 +774,7 @@
             "pic": "🐕",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "dog"
           },
           {
            "html": "",
@@ -783,7 +783,7 @@
             "pic": "🕷️",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "spider"
           },
           {
            "html": "",
@@ -792,7 +792,7 @@
             "pic": "🌙",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "crescent moon"
           }
          ],
          "at": 0,
@@ -847,7 +847,7 @@
             "pic": "🍽️",
             "tag": "8:00"
            },
-           "alt": "8:00 picture"
+           "alt": "fork and knife with plate, 8:00"
           },
           {
            "html": "",
@@ -856,7 +856,7 @@
             "pic": "🍽️",
             "tag": "7:00"
            },
-           "alt": "7:00 picture"
+           "alt": "fork and knife with plate, 7:00"
           },
           {
            "html": "",
@@ -865,7 +865,7 @@
             "pic": "🍽️",
             "tag": "5:00"
            },
-           "alt": "5:00 picture"
+           "alt": "fork and knife with plate, 5:00"
           }
          ],
          "at": 2,
@@ -953,7 +953,7 @@
             "pic": "🎹",
             "tag": "4:30"
            },
-           "alt": "4:30 picture"
+           "alt": "musical keyboard, 4:30"
           },
           {
            "html": "",
@@ -962,7 +962,7 @@
             "pic": "🎹",
             "tag": "4:00"
            },
-           "alt": "4:00 picture"
+           "alt": "musical keyboard, 4:00"
           },
           {
            "html": "",
@@ -971,7 +971,7 @@
             "pic": "🎹",
             "tag": "5:30"
            },
-           "alt": "5:30 picture"
+           "alt": "musical keyboard, 5:30"
           }
          ],
          "at": 1,
@@ -1026,7 +1026,7 @@
             "pic": "🎤",
             "tag": "6:15"
            },
-           "alt": "6:15 picture"
+           "alt": "microphone, 6:15"
           },
           {
            "html": "",
@@ -1035,7 +1035,7 @@
             "pic": "🎤",
             "tag": "6:00"
            },
-           "alt": "6:00 picture"
+           "alt": "microphone, 6:00"
           },
           {
            "html": "",
@@ -1044,10 +1044,10 @@
             "pic": "🎤",
             "tag": "7:30"
            },
-           "alt": "7:30 picture"
+           "alt": "microphone, 7:30"
           }
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Six o'clock is when the doors open.",
@@ -1108,7 +1108,7 @@
             "pic": "🍌",
             "tag": "£2"
            },
-           "alt": "£2 picture"
+           "alt": "banana, £2"
           },
           {
            "html": "",
@@ -1117,7 +1117,7 @@
             "pic": "🍌",
             "tag": "£3"
            },
-           "alt": "£3 picture"
+           "alt": "banana, £3"
           },
           {
            "html": "",
@@ -1126,7 +1126,7 @@
             "pic": "🍍",
             "tag": "£1.50"
            },
-           "alt": "£1.50 picture"
+           "alt": "pineapple, £1.50"
           }
          ],
          "at": 0,
@@ -1186,7 +1186,7 @@
             "pic": "🎟️",
             "tag": "£5"
            },
-           "alt": "£5 picture"
+           "alt": "admission tickets, £5"
           },
           {
            "html": "",
@@ -1195,7 +1195,7 @@
             "pic": "🎟️",
             "tag": "£4"
            },
-           "alt": "£4 picture"
+           "alt": "admission tickets, £4"
           },
           {
            "html": "",
@@ -1204,10 +1204,10 @@
             "pic": "🎟️",
             "tag": "£2"
            },
-           "alt": "£2 picture"
+           "alt": "admission tickets, £2"
           }
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Four pounds was the price last year.",
@@ -1273,7 +1273,7 @@
             "pic": "📅",
             "tag": "Wed"
            },
-           "alt": "Wed picture"
+           "alt": "calendar, Wed"
           },
           {
            "html": "",
@@ -1282,7 +1282,7 @@
             "pic": "📅",
             "tag": "Mon"
            },
-           "alt": "Mon picture"
+           "alt": "calendar, Mon"
           },
           {
            "html": "",
@@ -1291,7 +1291,7 @@
             "pic": "📅",
             "tag": "Tue"
            },
-           "alt": "Tue picture"
+           "alt": "calendar, Tue"
           }
          ],
          "at": 2,
@@ -1346,7 +1346,7 @@
             "pic": "🎂",
             "tag": "15 June"
            },
-           "alt": "15 June picture"
+           "alt": "birthday cake, 15 June"
           },
           {
            "html": "",
@@ -1355,7 +1355,7 @@
             "pic": "🎂",
             "tag": "12 June"
            },
-           "alt": "12 June picture"
+           "alt": "birthday cake, 12 June"
           },
           {
            "html": "",
@@ -1364,7 +1364,7 @@
             "pic": "🎂",
             "tag": "20 June"
            },
-           "alt": "20 June picture"
+           "alt": "birthday cake, 20 June"
           }
          ],
          "at": 1,
@@ -1436,7 +1436,7 @@
             "pic": "🎲",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "game die"
           },
           {
            "html": "",
@@ -1445,7 +1445,7 @@
             "pic": "⚽",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "soccer ball"
           },
           {
            "html": "",
@@ -1454,7 +1454,7 @@
             "pic": "🗺️",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "world map"
           }
          ],
          "at": 0,
@@ -1509,7 +1509,7 @@
             "pic": "🦷",
             "tag": "toothache"
            },
-           "alt": "toothache picture"
+           "alt": "tooth, toothache"
           },
           {
            "html": "",
@@ -1518,7 +1518,7 @@
             "pic": "🤕",
             "tag": "headache"
            },
-           "alt": "headache picture"
+           "alt": "face with head-bandage, headache"
           },
           {
            "html": "",
@@ -1527,10 +1527,10 @@
             "pic": "🤒",
             "tag": "fever"
            },
-           "alt": "fever picture"
+           "alt": "face with thermometer, fever"
           }
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Mum guesses a headache, but Lucy says her head is OK.",
@@ -1591,7 +1591,7 @@
             "pic": "🧁",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "cupcake"
           },
           {
            "html": "",
@@ -1600,7 +1600,7 @@
             "pic": "🍰",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "shortcake"
           },
           {
            "html": "",
@@ -1609,7 +1609,7 @@
             "pic": "🎂",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "birthday cake"
           }
          ],
          "at": 2,
@@ -1664,7 +1664,7 @@
             "pic": "🦒",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "giraffe face"
           },
           {
            "html": "",
@@ -1673,7 +1673,7 @@
             "pic": "🏛️",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "classical building"
           },
           {
            "html": "",
@@ -1682,10 +1682,10 @@
             "pic": "🎬",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "clapper board"
           }
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Clara wanted to go to the museum, but it was closed.",
@@ -1746,7 +1746,7 @@
             "pic": "📱",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "mobile phone"
           },
           {
            "html": "",
@@ -1755,7 +1755,7 @@
             "pic": "📷",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "camera"
           },
           {
            "html": "",
@@ -1764,7 +1764,7 @@
             "pic": "🎥",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "movie camera"
           }
          ],
          "at": 1,
@@ -1819,7 +1819,7 @@
             "pic": "⚽",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "soccer ball"
           },
           {
            "html": "",
@@ -1828,7 +1828,7 @@
             "pic": "🧸",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "teddy bear"
           },
           {
            "html": "",
@@ -1837,7 +1837,7 @@
             "pic": "✏️",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "pencil"
           }
          ],
          "at": 0,
@@ -2243,7 +2243,7 @@
             "pic": "👩‍⚕️",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "woman and staff of aesculapius"
           },
           {
            "html": "",
@@ -2252,7 +2252,7 @@
             "pic": "👩‍🏫",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "woman and school"
           },
           {
            "html": "",
@@ -2261,7 +2261,7 @@
             "pic": "🧑‍🚒",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "adult and fire engine"
           }
          ],
          "at": 2,
@@ -2316,7 +2316,7 @@
             "pic": "🍌",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "banana"
           },
           {
            "html": "",
@@ -2325,7 +2325,7 @@
             "pic": "🥣",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "bowl with spoon"
           },
           {
            "html": "",
@@ -2334,10 +2334,10 @@
             "pic": "🍚",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "cooked rice"
           }
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Dad asks about cereal, but Aisha says no.",
@@ -2398,7 +2398,7 @@
             "pic": "🎭",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "performing arts"
           },
           {
            "html": "",
@@ -2407,7 +2407,7 @@
             "pic": "🎨",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "artist palette"
           },
           {
            "html": "",
@@ -2416,7 +2416,7 @@
             "pic": "🎵",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "musical note"
           }
          ],
          "at": 1,
@@ -2471,7 +2471,7 @@
             "pic": "🎈",
             "tag": "8"
            },
-           "alt": "8 picture"
+           "alt": "balloon, 8"
           },
           {
            "html": "",
@@ -2480,7 +2480,7 @@
             "pic": "🎈",
             "tag": "10"
            },
-           "alt": "10 picture"
+           "alt": "balloon, 10"
           },
           {
            "html": "",
@@ -2489,7 +2489,7 @@
             "pic": "🎈",
             "tag": "2"
            },
-           "alt": "2 picture"
+           "alt": "balloon, 2"
           }
          ],
          "at": 0,
@@ -2553,7 +2553,7 @@
             "pic": "🏢",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "office building"
           },
           {
            "html": "",
@@ -2562,7 +2562,7 @@
             "pic": "🚜",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "tractor"
           },
           {
            "html": "",
@@ -2571,7 +2571,7 @@
             "pic": "🏡",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "house with garden"
           }
          ],
          "at": 0,
@@ -2626,7 +2626,7 @@
             "pic": "🦁",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "lion face"
           },
           {
            "html": "",
@@ -2635,7 +2635,7 @@
             "pic": "🎆",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "fireworks"
           },
           {
            "html": "",
@@ -2644,10 +2644,10 @@
             "pic": "🎶",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "multiple musical notes"
           }
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Lucy can't watch the fireworks, because her sister is afraid of the noise.",
@@ -2716,7 +2716,7 @@
             "pic": "📞",
             "tag": "4:00"
            },
-           "alt": "4:00 picture"
+           "alt": "telephone receiver, 4:00"
           },
           {
            "html": "",
@@ -2725,7 +2725,7 @@
             "pic": "📞",
             "tag": "6:00"
            },
-           "alt": "6:00 picture"
+           "alt": "telephone receiver, 6:00"
           },
           {
            "html": "",
@@ -2734,7 +2734,7 @@
             "pic": "📞",
             "tag": "11:00"
            },
-           "alt": "11:00 picture"
+           "alt": "telephone receiver, 11:00"
           }
          ],
          "at": 1,
@@ -2789,7 +2789,7 @@
             "pic": "🧴",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "lotion bottle"
           },
           {
            "html": "",
@@ -2798,7 +2798,7 @@
             "pic": "👖",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "jeans"
           },
           {
            "html": "",
@@ -2807,10 +2807,10 @@
             "pic": "👒",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "womans hat"
           }
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Jack's long trousers are wet, so he can't wear them.",
@@ -2876,7 +2876,7 @@
             "pic": "🌉",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "bridge at night"
           },
           {
            "html": "",
@@ -2885,7 +2885,7 @@
             "pic": "🕳️",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "hole"
           },
           {
            "html": "",
@@ -2894,7 +2894,7 @@
             "pic": "🦈",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "shark"
           }
          ],
          "at": 0,
@@ -2949,7 +2949,7 @@
             "pic": "🛒",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "shopping trolley"
           },
           {
            "html": "",
@@ -2958,7 +2958,7 @@
             "pic": "🎬",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "clapper board"
           },
           {
            "html": "",
@@ -2967,7 +2967,7 @@
             "pic": "📚",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "books"
           }
          ],
          "at": 2,
@@ -3031,7 +3031,7 @@
             "pic": "📖",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "open book"
           },
           {
            "html": "",
@@ -3040,7 +3040,7 @@
             "pic": "📿",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "prayer beads"
           },
           {
            "html": "",
@@ -3049,7 +3049,7 @@
             "pic": "🧩",
             "tag": ""
            },
-           "alt": " picture"
+           "alt": "jigsaw puzzle piece"
           }
          ],
          "at": 2,
@@ -3109,7 +3109,7 @@
             "pic": "😷",
             "tag": "cough"
            },
-           "alt": "cough picture"
+           "alt": "face with medical mask, cough"
           },
           {
            "html": "",
@@ -3118,7 +3118,7 @@
             "pic": "🦵",
             "tag": "hurt leg"
            },
-           "alt": "hurt leg picture"
+           "alt": "leg, hurt leg"
           },
           {
            "html": "",
@@ -3127,7 +3127,7 @@
             "pic": "🎂",
             "tag": "party"
            },
-           "alt": "party picture"
+           "alt": "birthday cake, party"
           }
          ],
          "at": 1,
@@ -3937,7 +3937,7 @@
          "pic": "🍲",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "pot of food"
        },
        {
         "html": "",
@@ -3946,7 +3946,7 @@
          "pic": "🍙",
          "tag": "rice cake"
         },
-        "alt": "rice cake picture"
+        "alt": "rice ball, rice cake"
        },
        {
         "html": "",
@@ -3955,7 +3955,7 @@
          "pic": "🍬",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "candy"
        }
       ],
       "at": 0,
@@ -4010,7 +4010,7 @@
          "pic": "🐕",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "dog"
        },
        {
         "html": "",
@@ -4019,7 +4019,7 @@
          "pic": "🚲",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "bicycle"
        },
        {
         "html": "",
@@ -4028,10 +4028,10 @@
          "pic": "🪴",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "potted plant"
        }
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "The neighbour's son usually cleans her bike.",
@@ -4092,7 +4092,7 @@
          "pic": "🍕",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "slice of pizza"
        },
        {
         "html": "",
@@ -4101,7 +4101,7 @@
          "pic": "🎳",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "bowling"
        },
        {
         "html": "",
@@ -4110,7 +4110,7 @@
          "pic": "🌳",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "deciduous tree"
        }
       ],
       "at": 2,
@@ -4170,7 +4170,7 @@
          "pic": "🍊",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "tangerine"
        },
        {
         "html": "",
@@ -4179,7 +4179,7 @@
          "pic": "🍉",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "watermelon"
        },
        {
         "html": "",
@@ -4188,10 +4188,10 @@
          "pic": "🍇",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "grapes"
        }
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "The watermelon is too heavy to carry on Aisha's bike.",
@@ -4252,7 +4252,7 @@
          "pic": "🛏️",
          "tag": "10:00"
         },
-        "alt": "10:00 picture"
+        "alt": "bed, 10:00"
        },
        {
         "html": "",
@@ -4261,7 +4261,7 @@
          "pic": "🛏️",
          "tag": "9:00"
         },
-        "alt": "9:00 picture"
+        "alt": "bed, 9:00"
        },
        {
         "html": "",
@@ -4270,7 +4270,7 @@
          "pic": "🛏️",
          "tag": "12:00"
         },
-        "alt": "12:00 picture"
+        "alt": "bed, 12:00"
        }
       ],
       "at": 1,
@@ -4325,7 +4325,7 @@
          "pic": "⚽",
          "tag": "£12"
         },
-        "alt": "£12 picture"
+        "alt": "soccer ball, £12"
        },
        {
         "html": "",
@@ -4334,7 +4334,7 @@
          "pic": "⚽",
          "tag": "£20"
         },
-        "alt": "£20 picture"
+        "alt": "soccer ball, £20"
        },
        {
         "html": "",
@@ -4343,10 +4343,10 @@
          "pic": "⚽",
          "tag": "£15"
         },
-        "alt": "£15 picture"
+        "alt": "soccer ball, £15"
        }
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Twenty pounds was the old price.",
@@ -4407,7 +4407,7 @@
          "pic": "🏸",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "badminton racquet and shuttlecock"
        },
        {
         "html": "",
@@ -4416,7 +4416,7 @@
          "pic": "🏊",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "swimmer"
        },
        {
         "html": "",
@@ -4425,7 +4425,7 @@
          "pic": "🎾",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "tennis racquet and ball"
        }
       ],
       "at": 2,
@@ -4480,7 +4480,7 @@
          "pic": "🦚",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "peacock"
        },
        {
         "html": "",
@@ -4489,7 +4489,7 @@
          "pic": "🏰",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "european castle"
        },
        {
         "html": "",
@@ -4498,7 +4498,7 @@
          "pic": "🏪",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "convenience store"
        }
       ],
       "at": 2,
@@ -4562,7 +4562,7 @@
          "pic": "🍰",
          "tag": "cake stall"
         },
-        "alt": "cake stall picture"
+        "alt": "shortcake, cake stall"
        },
        {
         "html": "",
@@ -4571,7 +4571,7 @@
          "pic": "🎾",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "tennis racquet and ball"
        },
        {
         "html": "",
@@ -4580,7 +4580,7 @@
          "pic": "🚲",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "bicycle"
        }
       ],
       "at": 1,
@@ -4635,7 +4635,7 @@
          "pic": "🏝️",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "desert island"
        },
        {
         "html": "",
@@ -4644,7 +4644,7 @@
          "pic": "🐉",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "dragon"
        },
        {
         "html": "",
@@ -4653,7 +4653,7 @@
          "pic": "🏰",
          "tag": ""
         },
-        "alt": " picture"
+        "alt": "european castle"
        }
       ],
       "at": 0,

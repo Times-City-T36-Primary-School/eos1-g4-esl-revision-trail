@@ -509,7 +509,7 @@
           "You must bring one to the film.",
           "You can use them if you are quiet."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "The sign doesn't ask you to bring a phone. It asks you to switch it off.",
@@ -536,7 +536,7 @@
           "Students must bring a bottle from home.",
           "Students mustn't drink at the tent."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'Don't have to' means it is not necessary to bring water.",
@@ -571,7 +571,7 @@
           "Yes, but only the fresh bread.",
           "Yes, because it's open every day."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "At 7 p.m. the bakery is closed, so you can't buy any bread.",
@@ -598,7 +598,7 @@
           "on Friday or later",
           "after the weekend"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'Before Friday' means Friday is already too late.",
@@ -660,7 +660,7 @@
           "every student in the school",
           "students who clean brushes"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "All students wash their brushes, but only Grade 4 can use the big paints.",
@@ -730,7 +730,7 @@
           "to ask Toby to play in the park",
           "to say Toby's football is flat"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Alice doesn't invite Toby. She tells him what she did.",
@@ -766,7 +766,7 @@
           "move the plant to the window",
           "buy a new plant for the class"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "The plant is already on the window. Trang doesn't need to move it.",
@@ -793,7 +793,7 @@
           "bring some fish home",
           "finish work at half past five"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Dad is bringing the fish home, not Luca.",
@@ -828,7 +828,7 @@
           "worried about his test",
           "bored with spelling"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Sami got 10 out of 10, so he isn't worried.",
@@ -996,7 +996,7 @@
           "Because she's always very kind to all of us.",
           "No, I didn't make it."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'Why don't we...?' is a suggestion, not a real 'why' question.",
@@ -1016,7 +1016,7 @@
           "I don't like milk very much.",
           "We bought some yesterday."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "An says 'Let's go there', so Sami must name a place.",
@@ -1450,7 +1450,7 @@
          },
          "worked": "'Shall we visit her?' 'Good idea, but we should <b>ask her mum first</b>.' 'Don't worry. <b>I phoned her mum</b>.' (E)",
          "type": "bank",
-         "q": "Choose the best answer for gap 13.",
+         "q": "Choose the best answer for gap (1).",
          "bank": [
           [
            "A",
@@ -1491,7 +1491,7 @@
           "id": "s6-d1",
           "kind": "text",
           "head": "Conversation: Sami and Iris",
-          "html": "Sami: Hi Iris! Is Trang at school today?<br>Iris: (0) <b>C</b><br>Sami: Oh no! Shall we visit her on Saturday?<br>Iris: (13) ________<br>Sami: Don't worry. I phoned her mum this morning, and she said yes.<br>Iris: (14) ________<br>Sami: After lunch, at about two. Trang sleeps a lot in the morning.<br>Iris: (15) ________<br>Sami: We can walk. Her flat is only ten minutes from the park.<br>Iris: (16) ________<br>Sami: Yes! Some oranges. She loves them, and they've got lots of vitamins.<br>Iris: (17) ________<br>Sami: Lovely. See you at the park gate at two, then."
+          "html": "Sami: Hi Iris! Is Trang at school today?<br>Iris: (0) <b>C</b><br>Sami: Oh no! Shall we visit her on Saturday?<br>Iris: (1) ________<br>Sami: Don't worry. I phoned her mum this morning, and she said yes.<br>Iris: (2) ________<br>Sami: After lunch, at about two. Trang sleeps a lot in the morning.<br>Iris: (3) ________<br>Sami: We can walk. Her flat is only ten minutes from the park.<br>Iris: (4) ________<br>Sami: Yes! Some oranges. She loves them, and they've got lots of vitamins.<br>Iris: (5) ________<br>Sami: Lovely. See you at the park gate at two, then."
          }
         },
         {
@@ -1500,7 +1500,7 @@
          },
          "worked": "'Do you want to come?' '<b>I'd love to!</b>' 'Great.' (B)",
          "type": "bank",
-         "q": "Choose the best answer for gap 13.",
+         "q": "Choose the best answer for gap (1).",
          "bank": [
           [
            "A",
@@ -1541,7 +1541,7 @@
           "id": "s6-d2",
           "kind": "text",
           "head": "Conversation: An and Toby",
-          "html": "An: Hi Toby! Are you doing anything on New Year's Eve?<br>Toby: (0) <b>D</b><br>An: Yes! My grandpa's flat is on the tenth floor, near the lake. We can watch the fireworks from his balcony. Do you want to come?<br>Toby: (13) ________<br>An: Great. The fireworks start at midnight.<br>Toby: (14) ________<br>An: I know! But Grandpa says we can have a nap on his sofa first.<br>Toby: (15) ________<br>An: My dad can pick you up at eight. We're going by car.<br>Toby: (16) ________<br>An: Yes, please. Grandma is cooking a big feast, but could you bring some fruit?<br>Toby: (17) ________<br>An: Perfect! It's going to be an amazing night."
+          "html": "An: Hi Toby! Are you doing anything on New Year's Eve?<br>Toby: (0) <b>D</b><br>An: Yes! My grandpa's flat is on the tenth floor, near the lake. We can watch the fireworks from his balcony. Do you want to come?<br>Toby: (1) ________<br>An: Great. The fireworks start at midnight.<br>Toby: (2) ________<br>An: I know! But Grandpa says we can have a nap on his sofa first.<br>Toby: (3) ________<br>An: My dad can pick you up at eight. We're going by car.<br>Toby: (4) ________<br>An: Yes, please. Grandma is cooking a big feast, but could you bring some fruit?<br>Toby: (5) ________<br>An: Perfect! It's going to be an amazing night."
          }
         }
        ]
@@ -1559,7 +1559,7 @@
          },
          "worked": "'<b>What time</b> shall we go?' '<b>After lunch, at about two</b>.' (A)",
          "type": "bank",
-         "q": "Choose the best answer for gap 14.",
+         "q": "Choose the best answer for gap (2).",
          "bank": [
           [
            "A",
@@ -1600,7 +1600,7 @@
           "id": "s6-d1",
           "kind": "text",
           "head": "Conversation: Sami and Iris",
-          "html": "Sami: Hi Iris! Is Trang at school today?<br>Iris: (0) <b>C</b><br>Sami: Oh no! Shall we visit her on Saturday?<br>Iris: (13) ________<br>Sami: Don't worry. I phoned her mum this morning, and she said yes.<br>Iris: (14) ________<br>Sami: After lunch, at about two. Trang sleeps a lot in the morning.<br>Iris: (15) ________<br>Sami: We can walk. Her flat is only ten minutes from the park.<br>Iris: (16) ________<br>Sami: Yes! Some oranges. She loves them, and they've got lots of vitamins.<br>Iris: (17) ________<br>Sami: Lovely. See you at the park gate at two, then."
+          "html": "Sami: Hi Iris! Is Trang at school today?<br>Iris: (0) <b>C</b><br>Sami: Oh no! Shall we visit her on Saturday?<br>Iris: (1) ________<br>Sami: Don't worry. I phoned her mum this morning, and she said yes.<br>Iris: (2) ________<br>Sami: After lunch, at about two. Trang sleeps a lot in the morning.<br>Iris: (3) ________<br>Sami: We can walk. Her flat is only ten minutes from the park.<br>Iris: (4) ________<br>Sami: Yes! Some oranges. She loves them, and they've got lots of vitamins.<br>Iris: (5) ________<br>Sami: Lovely. See you at the park gate at two, then."
          }
         },
         {
@@ -1609,7 +1609,7 @@
          },
          "worked": "'The fireworks start at <b>midnight</b>.' '<b>Midnight? I'm usually asleep at nine!</b>' 'I know! But we can have a nap first.' (F)",
          "type": "bank",
-         "q": "Choose the best answer for gap 14.",
+         "q": "Choose the best answer for gap (2).",
          "bank": [
           [
            "A",
@@ -1650,7 +1650,7 @@
           "id": "s6-d2",
           "kind": "text",
           "head": "Conversation: An and Toby",
-          "html": "An: Hi Toby! Are you doing anything on New Year's Eve?<br>Toby: (0) <b>D</b><br>An: Yes! My grandpa's flat is on the tenth floor, near the lake. We can watch the fireworks from his balcony. Do you want to come?<br>Toby: (13) ________<br>An: Great. The fireworks start at midnight.<br>Toby: (14) ________<br>An: I know! But Grandpa says we can have a nap on his sofa first.<br>Toby: (15) ________<br>An: My dad can pick you up at eight. We're going by car.<br>Toby: (16) ________<br>An: Yes, please. Grandma is cooking a big feast, but could you bring some fruit?<br>Toby: (17) ________<br>An: Perfect! It's going to be an amazing night."
+          "html": "An: Hi Toby! Are you doing anything on New Year's Eve?<br>Toby: (0) <b>D</b><br>An: Yes! My grandpa's flat is on the tenth floor, near the lake. We can watch the fireworks from his balcony. Do you want to come?<br>Toby: (1) ________<br>An: Great. The fireworks start at midnight.<br>Toby: (2) ________<br>An: I know! But Grandpa says we can have a nap on his sofa first.<br>Toby: (3) ________<br>An: My dad can pick you up at eight. We're going by car.<br>Toby: (4) ________<br>An: Yes, please. Grandma is cooking a big feast, but could you bring some fruit?<br>Toby: (5) ________<br>An: Perfect! It's going to be an amazing night."
          }
         }
        ]
@@ -1668,7 +1668,7 @@
          },
          "worked": "'<b>How</b> are we getting there?' '<b>We can walk</b>.' A 'How' question needs a way. (G)",
          "type": "bank",
-         "q": "Choose the best answer for gap 15.",
+         "q": "Choose the best answer for gap (3).",
          "bank": [
           [
            "A",
@@ -1709,7 +1709,7 @@
           "id": "s6-d1",
           "kind": "text",
           "head": "Conversation: Sami and Iris",
-          "html": "Sami: Hi Iris! Is Trang at school today?<br>Iris: (0) <b>C</b><br>Sami: Oh no! Shall we visit her on Saturday?<br>Iris: (13) ________<br>Sami: Don't worry. I phoned her mum this morning, and she said yes.<br>Iris: (14) ________<br>Sami: After lunch, at about two. Trang sleeps a lot in the morning.<br>Iris: (15) ________<br>Sami: We can walk. Her flat is only ten minutes from the park.<br>Iris: (16) ________<br>Sami: Yes! Some oranges. She loves them, and they've got lots of vitamins.<br>Iris: (17) ________<br>Sami: Lovely. See you at the park gate at two, then."
+          "html": "Sami: Hi Iris! Is Trang at school today?<br>Iris: (0) <b>C</b><br>Sami: Oh no! Shall we visit her on Saturday?<br>Iris: (1) ________<br>Sami: Don't worry. I phoned her mum this morning, and she said yes.<br>Iris: (2) ________<br>Sami: After lunch, at about two. Trang sleeps a lot in the morning.<br>Iris: (3) ________<br>Sami: We can walk. Her flat is only ten minutes from the park.<br>Iris: (4) ________<br>Sami: Yes! Some oranges. She loves them, and they've got lots of vitamins.<br>Iris: (5) ________<br>Sami: Lovely. See you at the park gate at two, then."
          }
         },
         {
@@ -1718,7 +1718,7 @@
          },
          "worked": "'<b>How can I get to his flat?</b>' 'My dad can <b>pick you up</b>... We're going <b>by car</b>.' (A)",
          "type": "bank",
-         "q": "Choose the best answer for gap 15.",
+         "q": "Choose the best answer for gap (3).",
          "bank": [
           [
            "A",
@@ -1759,7 +1759,7 @@
           "id": "s6-d2",
           "kind": "text",
           "head": "Conversation: An and Toby",
-          "html": "An: Hi Toby! Are you doing anything on New Year's Eve?<br>Toby: (0) <b>D</b><br>An: Yes! My grandpa's flat is on the tenth floor, near the lake. We can watch the fireworks from his balcony. Do you want to come?<br>Toby: (13) ________<br>An: Great. The fireworks start at midnight.<br>Toby: (14) ________<br>An: I know! But Grandpa says we can have a nap on his sofa first.<br>Toby: (15) ________<br>An: My dad can pick you up at eight. We're going by car.<br>Toby: (16) ________<br>An: Yes, please. Grandma is cooking a big feast, but could you bring some fruit?<br>Toby: (17) ________<br>An: Perfect! It's going to be an amazing night."
+          "html": "An: Hi Toby! Are you doing anything on New Year's Eve?<br>Toby: (0) <b>D</b><br>An: Yes! My grandpa's flat is on the tenth floor, near the lake. We can watch the fireworks from his balcony. Do you want to come?<br>Toby: (1) ________<br>An: Great. The fireworks start at midnight.<br>Toby: (2) ________<br>An: I know! But Grandpa says we can have a nap on his sofa first.<br>Toby: (3) ________<br>An: My dad can pick you up at eight. We're going by car.<br>Toby: (4) ________<br>An: Yes, please. Grandma is cooking a big feast, but could you bring some fruit?<br>Toby: (5) ________<br>An: Perfect! It's going to be an amazing night."
          }
         }
        ]
@@ -1777,7 +1777,7 @@
          },
          "worked": "'<b>Shall we take her something?</b>' '<b>Yes! Some oranges</b>.' (B)",
          "type": "bank",
-         "q": "Choose the best answer for gap 16.",
+         "q": "Choose the best answer for gap (4).",
          "bank": [
           [
            "A",
@@ -1818,7 +1818,7 @@
           "id": "s6-d1",
           "kind": "text",
           "head": "Conversation: Sami and Iris",
-          "html": "Sami: Hi Iris! Is Trang at school today?<br>Iris: (0) <b>C</b><br>Sami: Oh no! Shall we visit her on Saturday?<br>Iris: (13) ________<br>Sami: Don't worry. I phoned her mum this morning, and she said yes.<br>Iris: (14) ________<br>Sami: After lunch, at about two. Trang sleeps a lot in the morning.<br>Iris: (15) ________<br>Sami: We can walk. Her flat is only ten minutes from the park.<br>Iris: (16) ________<br>Sami: Yes! Some oranges. She loves them, and they've got lots of vitamins.<br>Iris: (17) ________<br>Sami: Lovely. See you at the park gate at two, then."
+          "html": "Sami: Hi Iris! Is Trang at school today?<br>Iris: (0) <b>C</b><br>Sami: Oh no! Shall we visit her on Saturday?<br>Iris: (1) ________<br>Sami: Don't worry. I phoned her mum this morning, and she said yes.<br>Iris: (2) ________<br>Sami: After lunch, at about two. Trang sleeps a lot in the morning.<br>Iris: (3) ________<br>Sami: We can walk. Her flat is only ten minutes from the park.<br>Iris: (4) ________<br>Sami: Yes! Some oranges. She loves them, and they've got lots of vitamins.<br>Iris: (5) ________<br>Sami: Lovely. See you at the park gate at two, then."
          }
         },
         {
@@ -1827,7 +1827,7 @@
          },
          "worked": "'<b>Shall I bring some food?</b>' '<b>Yes, please</b>... could you bring some fruit?' (G)",
          "type": "bank",
-         "q": "Choose the best answer for gap 16.",
+         "q": "Choose the best answer for gap (4).",
          "bank": [
           [
            "A",
@@ -1868,7 +1868,7 @@
           "id": "s6-d2",
           "kind": "text",
           "head": "Conversation: An and Toby",
-          "html": "An: Hi Toby! Are you doing anything on New Year's Eve?<br>Toby: (0) <b>D</b><br>An: Yes! My grandpa's flat is on the tenth floor, near the lake. We can watch the fireworks from his balcony. Do you want to come?<br>Toby: (13) ________<br>An: Great. The fireworks start at midnight.<br>Toby: (14) ________<br>An: I know! But Grandpa says we can have a nap on his sofa first.<br>Toby: (15) ________<br>An: My dad can pick you up at eight. We're going by car.<br>Toby: (16) ________<br>An: Yes, please. Grandma is cooking a big feast, but could you bring some fruit?<br>Toby: (17) ________<br>An: Perfect! It's going to be an amazing night."
+          "html": "An: Hi Toby! Are you doing anything on New Year's Eve?<br>Toby: (0) <b>D</b><br>An: Yes! My grandpa's flat is on the tenth floor, near the lake. We can watch the fireworks from his balcony. Do you want to come?<br>Toby: (1) ________<br>An: Great. The fireworks start at midnight.<br>Toby: (2) ________<br>An: I know! But Grandpa says we can have a nap on his sofa first.<br>Toby: (3) ________<br>An: My dad can pick you up at eight. We're going by car.<br>Toby: (4) ________<br>An: Yes, please. Grandma is cooking a big feast, but could you bring some fruit?<br>Toby: (5) ________<br>An: Perfect! It's going to be an amazing night."
          }
         }
        ]
@@ -1886,7 +1886,7 @@
          },
          "worked": "'<b>I'll make her a get-well card too</b>.' '<b>Lovely</b>.' (F)",
          "type": "bank",
-         "q": "Choose the best answer for gap 17.",
+         "q": "Choose the best answer for gap (5).",
          "bank": [
           [
            "A",
@@ -1927,7 +1927,7 @@
           "id": "s6-d1",
           "kind": "text",
           "head": "Conversation: Sami and Iris",
-          "html": "Sami: Hi Iris! Is Trang at school today?<br>Iris: (0) <b>C</b><br>Sami: Oh no! Shall we visit her on Saturday?<br>Iris: (13) ________<br>Sami: Don't worry. I phoned her mum this morning, and she said yes.<br>Iris: (14) ________<br>Sami: After lunch, at about two. Trang sleeps a lot in the morning.<br>Iris: (15) ________<br>Sami: We can walk. Her flat is only ten minutes from the park.<br>Iris: (16) ________<br>Sami: Yes! Some oranges. She loves them, and they've got lots of vitamins.<br>Iris: (17) ________<br>Sami: Lovely. See you at the park gate at two, then."
+          "html": "Sami: Hi Iris! Is Trang at school today?<br>Iris: (0) <b>C</b><br>Sami: Oh no! Shall we visit her on Saturday?<br>Iris: (1) ________<br>Sami: Don't worry. I phoned her mum this morning, and she said yes.<br>Iris: (2) ________<br>Sami: After lunch, at about two. Trang sleeps a lot in the morning.<br>Iris: (3) ________<br>Sami: We can walk. Her flat is only ten minutes from the park.<br>Iris: (4) ________<br>Sami: Yes! Some oranges. She loves them, and they've got lots of vitamins.<br>Iris: (5) ________<br>Sami: Lovely. See you at the park gate at two, then."
          }
         },
         {
@@ -1936,7 +1936,7 @@
          },
          "worked": "'Could you bring some fruit?' '<b>Sure. I'll bring a big bunch of grapes</b>.' (C)",
          "type": "bank",
-         "q": "Choose the best answer for gap 17.",
+         "q": "Choose the best answer for gap (5).",
          "bank": [
           [
            "A",
@@ -1977,7 +1977,7 @@
           "id": "s6-d2",
           "kind": "text",
           "head": "Conversation: An and Toby",
-          "html": "An: Hi Toby! Are you doing anything on New Year's Eve?<br>Toby: (0) <b>D</b><br>An: Yes! My grandpa's flat is on the tenth floor, near the lake. We can watch the fireworks from his balcony. Do you want to come?<br>Toby: (13) ________<br>An: Great. The fireworks start at midnight.<br>Toby: (14) ________<br>An: I know! But Grandpa says we can have a nap on his sofa first.<br>Toby: (15) ________<br>An: My dad can pick you up at eight. We're going by car.<br>Toby: (16) ________<br>An: Yes, please. Grandma is cooking a big feast, but could you bring some fruit?<br>Toby: (17) ________<br>An: Perfect! It's going to be an amazing night."
+          "html": "An: Hi Toby! Are you doing anything on New Year's Eve?<br>Toby: (0) <b>D</b><br>An: Yes! My grandpa's flat is on the tenth floor, near the lake. We can watch the fireworks from his balcony. Do you want to come?<br>Toby: (1) ________<br>An: Great. The fireworks start at midnight.<br>Toby: (2) ________<br>An: I know! But Grandpa says we can have a nap on his sofa first.<br>Toby: (3) ________<br>An: My dad can pick you up at eight. We're going by car.<br>Toby: (4) ________<br>An: Yes, please. Grandma is cooking a big feast, but could you bring some fruit?<br>Toby: (5) ________<br>An: Perfect! It's going to be an amazing night."
          }
         }
        ]
@@ -2085,7 +2085,7 @@
        "You mustn't take any photos of the fish.",
        "The fish like photos with bright light."
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Photos are fine. Only the flash is not allowed.",
@@ -2112,7 +2112,7 @@
        "The library is closed on Tuesday.",
        "The library usually opens at 7.30 a.m."
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "The library is closed on Monday, not Tuesday.",
@@ -2147,7 +2147,7 @@
        "mustn't",
        "could"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "The driver waits until all belts are on, so wearing one is necessary, not forbidden.",
@@ -2209,7 +2209,7 @@
        "came",
        "come"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "'Came' is the past, but dinner is tonight.",
@@ -2298,7 +2298,7 @@
        "the one about a brave tiger",
        "all three stories the same"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "The tiger story was the first one, but it isn't her favourite.",
@@ -2333,7 +2333,7 @@
        "go to the clinic alone to see the nurse",
        "wait for the nurse in the classroom"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "The notice says please DON'T come to the clinic alone.",
@@ -2390,7 +2390,7 @@
       },
       "worked": "'Do you want to come with us?' '<b>I'd love to! How long is the trip?</b>' '<b>About two hours</b>.' (B)",
       "type": "bank",
-      "q": "Choose the best answer for gap 13.",
+      "q": "Choose the best answer for gap (6).",
       "bank": [
        [
         "A",
@@ -2431,7 +2431,7 @@
        "id": "s6-d3",
        "kind": "text",
        "head": "Conversation: Alice and Luca",
-       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. I'll phone you at eight to wake you up.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
+       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (6) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (7) ________<br>Alice: Don't worry. I'll phone you at eight to wake you up.<br>Luca: (8) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (9) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (10) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
       }
      },
      {
@@ -2440,7 +2440,7 @@
       },
       "worked": "'Have you bought a present?' '<b>Not yet. I don't know what she likes</b>.' 'Well, she's really interested in space.' (A)",
       "type": "bank",
-      "q": "Choose the best answer for gap 13.",
+      "q": "Choose the best answer for gap (6).",
       "bank": [
        [
         "A",
@@ -2481,7 +2481,7 @@
        "id": "s6-d4",
        "kind": "text",
        "head": "Conversation: Holly and Viet",
-       "html": "Holly: Hi Viet! Are you going to Zoe's birthday party on Saturday?<br>Viet: (0) <b>C</b><br>Holly: Yum! Have you bought a present for her yet?<br>Viet: (13) ________<br>Holly: Well, she's really interested in space. She wants to be an astronaut one day.<br>Viet: (14) ________<br>Holly: Exactly! There's a great one at the bookshop near school.<br>Viet: (15) ________<br>Holly: It's £10, so we can pay £5 each.<br>Viet: (16) ________<br>Holly: I can't tomorrow. I've got a piano lesson.<br>Viet: (17) ________<br>Holly: Thursday is fine. See you at the school gate!"
+       "html": "Holly: Hi Viet! Are you going to Zoe's birthday party on Saturday?<br>Viet: (0) <b>C</b><br>Holly: Yum! Have you bought a present for her yet?<br>Viet: (6) ________<br>Holly: Well, she's really interested in space. She wants to be an astronaut one day.<br>Viet: (7) ________<br>Holly: Exactly! There's a great one at the bookshop near school.<br>Viet: (8) ________<br>Holly: It's £10, so we can pay £5 each.<br>Viet: (9) ________<br>Holly: I can't tomorrow. I've got a piano lesson.<br>Viet: (10) ________<br>Holly: Thursday is fine. See you at the school gate!"
       }
      }
     ]
@@ -2499,7 +2499,7 @@
       },
       "worked": "'The boat leaves at <b>nine</b>.' '<b>Nine? That's early! I usually sleep until ten on Sundays.</b>' 'Don't worry. I'll <b>phone you at eight</b> to wake you up.' (G)",
       "type": "bank",
-      "q": "Choose the best answer for gap 14.",
+      "q": "Choose the best answer for gap (7).",
       "bank": [
        [
         "A",
@@ -2540,7 +2540,7 @@
        "id": "s6-d3",
        "kind": "text",
        "head": "Conversation: Alice and Luca",
-       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. I'll phone you at eight to wake you up.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
+       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (6) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (7) ________<br>Alice: Don't worry. I'll phone you at eight to wake you up.<br>Luca: (8) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (9) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (10) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
       }
      },
      {
@@ -2549,7 +2549,7 @@
       },
       "worked": "'She's interested in space.' '<b>Then let's buy her a book about the planets!</b>' '<b>Exactly!</b>' (E)",
       "type": "bank",
-      "q": "Choose the best answer for gap 14.",
+      "q": "Choose the best answer for gap (7).",
       "bank": [
        [
         "A",
@@ -2590,7 +2590,7 @@
        "id": "s6-d4",
        "kind": "text",
        "head": "Conversation: Holly and Viet",
-       "html": "Holly: Hi Viet! Are you going to Zoe's birthday party on Saturday?<br>Viet: (0) <b>C</b><br>Holly: Yum! Have you bought a present for her yet?<br>Viet: (13) ________<br>Holly: Well, she's really interested in space. She wants to be an astronaut one day.<br>Viet: (14) ________<br>Holly: Exactly! There's a great one at the bookshop near school.<br>Viet: (15) ________<br>Holly: It's £10, so we can pay £5 each.<br>Viet: (16) ________<br>Holly: I can't tomorrow. I've got a piano lesson.<br>Viet: (17) ________<br>Holly: Thursday is fine. See you at the school gate!"
+       "html": "Holly: Hi Viet! Are you going to Zoe's birthday party on Saturday?<br>Viet: (0) <b>C</b><br>Holly: Yum! Have you bought a present for her yet?<br>Viet: (6) ________<br>Holly: Well, she's really interested in space. She wants to be an astronaut one day.<br>Viet: (7) ________<br>Holly: Exactly! There's a great one at the bookshop near school.<br>Viet: (8) ________<br>Holly: It's £10, so we can pay £5 each.<br>Viet: (9) ________<br>Holly: I can't tomorrow. I've got a piano lesson.<br>Viet: (10) ________<br>Holly: Thursday is fine. See you at the school gate!"
       }
      }
     ]
@@ -2608,7 +2608,7 @@
       },
       "worked": "'<b>What birds can we see</b> on the lake?' '<b>Lots! Ducks, herons and kingfishers</b>.' (A)",
       "type": "bank",
-      "q": "Choose the best answer for gap 15.",
+      "q": "Choose the best answer for gap (8).",
       "bank": [
        [
         "A",
@@ -2649,7 +2649,7 @@
        "id": "s6-d3",
        "kind": "text",
        "head": "Conversation: Alice and Luca",
-       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. I'll phone you at eight to wake you up.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
+       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (6) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (7) ________<br>Alice: Don't worry. I'll phone you at eight to wake you up.<br>Luca: (8) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (9) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (10) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
       }
      },
      {
@@ -2658,7 +2658,7 @@
       },
       "worked": "'<b>How much is it?</b> I've only got £6.' '<b>It's £10</b>, so we can pay £5 each.' (F)",
       "type": "bank",
-      "q": "Choose the best answer for gap 15.",
+      "q": "Choose the best answer for gap (8).",
       "bank": [
        [
         "A",
@@ -2699,7 +2699,7 @@
        "id": "s6-d4",
        "kind": "text",
        "head": "Conversation: Holly and Viet",
-       "html": "Holly: Hi Viet! Are you going to Zoe's birthday party on Saturday?<br>Viet: (0) <b>C</b><br>Holly: Yum! Have you bought a present for her yet?<br>Viet: (13) ________<br>Holly: Well, she's really interested in space. She wants to be an astronaut one day.<br>Viet: (14) ________<br>Holly: Exactly! There's a great one at the bookshop near school.<br>Viet: (15) ________<br>Holly: It's £10, so we can pay £5 each.<br>Viet: (16) ________<br>Holly: I can't tomorrow. I've got a piano lesson.<br>Viet: (17) ________<br>Holly: Thursday is fine. See you at the school gate!"
+       "html": "Holly: Hi Viet! Are you going to Zoe's birthday party on Saturday?<br>Viet: (0) <b>C</b><br>Holly: Yum! Have you bought a present for her yet?<br>Viet: (6) ________<br>Holly: Well, she's really interested in space. She wants to be an astronaut one day.<br>Viet: (7) ________<br>Holly: Exactly! There's a great one at the bookshop near school.<br>Viet: (8) ________<br>Holly: It's £10, so we can pay £5 each.<br>Viet: (9) ________<br>Holly: I can't tomorrow. I've got a piano lesson.<br>Viet: (10) ________<br>Holly: Thursday is fine. See you at the school gate!"
       }
      }
     ]
@@ -2717,7 +2717,7 @@
       },
       "worked": "'<b>Shall I bring my grandpa's binoculars?</b>' '<b>Good idea</b>.' (D)",
       "type": "bank",
-      "q": "Choose the best answer for gap 16.",
+      "q": "Choose the best answer for gap (9).",
       "bank": [
        [
         "A",
@@ -2758,7 +2758,7 @@
        "id": "s6-d3",
        "kind": "text",
        "head": "Conversation: Alice and Luca",
-       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. I'll phone you at eight to wake you up.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
+       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (6) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (7) ________<br>Alice: Don't worry. I'll phone you at eight to wake you up.<br>Luca: (8) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (9) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (10) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
       }
      },
      {
@@ -2767,7 +2767,7 @@
       },
       "worked": "'Shall we go to the shop <b>after school tomorrow</b>?' '<b>I can't tomorrow</b>. I've got a piano lesson.' (G)",
       "type": "bank",
-      "q": "Choose the best answer for gap 16.",
+      "q": "Choose the best answer for gap (9).",
       "bank": [
        [
         "A",
@@ -2808,7 +2808,7 @@
        "id": "s6-d4",
        "kind": "text",
        "head": "Conversation: Holly and Viet",
-       "html": "Holly: Hi Viet! Are you going to Zoe's birthday party on Saturday?<br>Viet: (0) <b>C</b><br>Holly: Yum! Have you bought a present for her yet?<br>Viet: (13) ________<br>Holly: Well, she's really interested in space. She wants to be an astronaut one day.<br>Viet: (14) ________<br>Holly: Exactly! There's a great one at the bookshop near school.<br>Viet: (15) ________<br>Holly: It's £10, so we can pay £5 each.<br>Viet: (16) ________<br>Holly: I can't tomorrow. I've got a piano lesson.<br>Viet: (17) ________<br>Holly: Thursday is fine. See you at the school gate!"
+       "html": "Holly: Hi Viet! Are you going to Zoe's birthday party on Saturday?<br>Viet: (0) <b>C</b><br>Holly: Yum! Have you bought a present for her yet?<br>Viet: (6) ________<br>Holly: Well, she's really interested in space. She wants to be an astronaut one day.<br>Viet: (7) ________<br>Holly: Exactly! There's a great one at the bookshop near school.<br>Viet: (8) ________<br>Holly: It's £10, so we can pay £5 each.<br>Viet: (9) ________<br>Holly: I can't tomorrow. I've got a piano lesson.<br>Viet: (10) ________<br>Holly: Thursday is fine. See you at the school gate!"
       }
      }
     ]
@@ -2826,7 +2826,7 @@
       },
       "worked": "'<b>Do I need anything else?</b>' '<b>Yes, mosquito spray</b>.' (H)",
       "type": "bank",
-      "q": "Choose the best answer for gap 17.",
+      "q": "Choose the best answer for gap (10).",
       "bank": [
        [
         "A",
@@ -2867,7 +2867,7 @@
        "id": "s6-d3",
        "kind": "text",
        "head": "Conversation: Alice and Luca",
-       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. I'll phone you at eight to wake you up.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
+       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (6) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (7) ________<br>Alice: Don't worry. I'll phone you at eight to wake you up.<br>Luca: (8) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (9) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (10) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
       }
      },
      {
@@ -2876,7 +2876,7 @@
       },
       "worked": "'I can't tomorrow.' '<b>Never mind. What about Thursday?</b>' '<b>Thursday is fine</b>.' (D)",
       "type": "bank",
-      "q": "Choose the best answer for gap 17.",
+      "q": "Choose the best answer for gap (10).",
       "bank": [
        [
         "A",
@@ -2917,7 +2917,7 @@
        "id": "s6-d4",
        "kind": "text",
        "head": "Conversation: Holly and Viet",
-       "html": "Holly: Hi Viet! Are you going to Zoe's birthday party on Saturday?<br>Viet: (0) <b>C</b><br>Holly: Yum! Have you bought a present for her yet?<br>Viet: (13) ________<br>Holly: Well, she's really interested in space. She wants to be an astronaut one day.<br>Viet: (14) ________<br>Holly: Exactly! There's a great one at the bookshop near school.<br>Viet: (15) ________<br>Holly: It's £10, so we can pay £5 each.<br>Viet: (16) ________<br>Holly: I can't tomorrow. I've got a piano lesson.<br>Viet: (17) ________<br>Holly: Thursday is fine. See you at the school gate!"
+       "html": "Holly: Hi Viet! Are you going to Zoe's birthday party on Saturday?<br>Viet: (0) <b>C</b><br>Holly: Yum! Have you bought a present for her yet?<br>Viet: (6) ________<br>Holly: Well, she's really interested in space. She wants to be an astronaut one day.<br>Viet: (7) ________<br>Holly: Exactly! There's a great one at the bookshop near school.<br>Viet: (8) ________<br>Holly: It's £10, so we can pay £5 each.<br>Viet: (9) ________<br>Holly: I can't tomorrow. I've got a piano lesson.<br>Viet: (10) ________<br>Holly: Thursday is fine. See you at the school gate!"
       }
      }
     ]

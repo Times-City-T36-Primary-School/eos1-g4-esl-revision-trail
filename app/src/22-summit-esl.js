@@ -34,7 +34,7 @@
            "pic": "🧣",
            "tag": "scarf"
           },
-          "alt": "scarf picture"
+          "alt": "scarf, scarf"
          },
          {
           "html": "",
@@ -43,7 +43,7 @@
            "pic": "💐",
            "tag": "flowers"
           },
-          "alt": "flowers picture"
+          "alt": "bouquet, flowers"
          },
          {
           "html": "",
@@ -52,7 +52,7 @@
            "pic": "🍵",
            "tag": "tea"
           },
-          "alt": "tea picture"
+          "alt": "teacup without handle, tea"
          }
         ],
         "at": 2,
@@ -121,7 +121,7 @@
            "pic": "🕖",
            "tag": "7:00"
           },
-          "alt": "7:00 picture"
+          "alt": "clock face seven oclock, 7:00"
          },
          {
           "html": "",
@@ -130,7 +130,7 @@
            "pic": "🕡",
            "tag": "6:30"
           },
-          "alt": "6:30 picture"
+          "alt": "clock face six-thirty, 6:30"
          },
          {
           "html": "",
@@ -139,7 +139,7 @@
            "pic": "🕢",
            "tag": "7:30"
           },
-          "alt": "7:30 picture"
+          "alt": "clock face seven-thirty, 7:30"
          }
         ],
         "at": 0,
@@ -203,7 +203,7 @@
            "pic": "👂",
            "tag": "earache"
           },
-          "alt": "earache picture"
+          "alt": "ear, earache"
          },
          {
           "html": "",
@@ -212,7 +212,7 @@
            "pic": "🤒",
            "tag": "fever"
           },
-          "alt": "fever picture"
+          "alt": "face with thermometer, fever"
          },
          {
           "html": "",
@@ -221,7 +221,7 @@
            "pic": "😷",
            "tag": "cough"
           },
-          "alt": "cough picture"
+          "alt": "face with medical mask, cough"
          }
         ],
         "at": 1,
@@ -286,7 +286,7 @@
            "pic": "🦖",
            "tag": "dinosaur"
           },
-          "alt": "dinosaur picture"
+          "alt": "t-rex, dinosaur"
          },
          {
           "html": "",
@@ -295,7 +295,7 @@
            "pic": "🏴‍☠️",
            "tag": "pirate"
           },
-          "alt": "pirate picture"
+          "alt": "waving black flag and skull and crossbones, pirate"
          },
          {
           "html": "",
@@ -304,7 +304,7 @@
            "pic": "🧑‍🚀",
            "tag": "astronaut"
           },
-          "alt": "astronaut picture"
+          "alt": "adult and rocket, astronaut"
          }
         ],
         "at": 2,
@@ -369,7 +369,7 @@
            "pic": "🥭🎂",
            "tag": "£10"
           },
-          "alt": "£10 picture"
+          "alt": "mango and birthday cake, £10"
          },
          {
           "html": "",
@@ -378,7 +378,7 @@
            "pic": "🥭🎂",
            "tag": "£12"
           },
-          "alt": "£12 picture"
+          "alt": "mango and birthday cake, £12"
          },
          {
           "html": "",
@@ -387,7 +387,7 @@
            "pic": "🥭🎂",
            "tag": "£8"
           },
-          "alt": "£8 picture"
+          "alt": "mango and birthday cake, £8"
          }
         ],
         "at": 1,
@@ -679,7 +679,7 @@
          "in a big hotel",
          "at Tam's house"
         ],
-        "at": 2,
+        "at": 1,
         "whys": [
          null,
          "Tam expected a hotel, but he says the wedding wasn't there.",
@@ -874,7 +874,7 @@
          "it was too small for him.",
          "Dad told him to take it off."
         ],
-        "at": 1,
+        "at": 0,
         "whys": [
          null,
          "The small jacket was Luna's brother's. Tam says 'No, it fitted me.'",
@@ -972,7 +972,7 @@
          "the dancing",
          "the food"
         ],
-        "at": 2,
+        "at": 1,
         "whys": [
          null,
          "The dancing was more fun than the food, but Tam says the fireworks were the best.",
@@ -1070,7 +1070,7 @@
          "watch the wedding video",
          "help choose some flowers"
         ],
-        "at": 0,
+        "at": 2,
         "whys": [
          null,
          "That was the first plan, but the video isn't ready.",
@@ -1179,7 +1179,7 @@
          "goes",
          "going"
         ],
-        "at": 1,
+        "at": 0,
         "whys": [
          null,
          "'Goes' is for every day or every week. 'Last Sunday' is finished.",
@@ -1208,7 +1208,7 @@
          "which",
          "where"
         ],
-        "at": 0,
+        "at": 1,
         "whys": [
          null,
          "'Which' is for things and animals. A cook is a person.",
@@ -1237,7 +1237,7 @@
          "of",
          "in"
         ],
-        "at": 2,
+        "at": 0,
         "whys": [
          null,
          "We say 'afraid of' or 'proud of', but not 'good of'.",
@@ -1295,7 +1295,7 @@
          "anyone",
          "no-one"
         ],
-        "at": 0,
+        "at": 2,
         "whys": [
          null,
          "We use 'anyone' in questions and 'not' sentences. This sentence is positive.",
@@ -1358,21 +1358,21 @@
       "v": [
        {
         "hint": {
-         "step": "Read the question at the end of the message. What does Emily want to do?"
+         "step": "Read the question at the end of the message. What does Isla want to do?"
         },
-        "worked": "Emily can't go 'tomorrow' and asks 'Can we go next Saturday?', so she wants to change the day.",
+        "worked": "Isla can't go 'tomorrow' and asks 'Can we go next Saturday?', so she wants to change the day.",
         "type": "mcq",
-        "q": "Why has Emily written to Owen?",
+        "q": "Why has Isla written to Felix?",
         "opts": [
          "to change the day of their trip",
-         "to invite Owen to her house tomorrow",
-         "to ask Owen to meet her grandparents"
+         "to invite Felix to her house tomorrow",
+         "to ask Felix to meet her grandparents"
         ],
-        "at": 0,
+        "at": 1,
         "whys": [
          null,
-         "Emily must be at home, but she doesn't ask Owen to come to her house.",
-         "Emily says her grandparents are coming, but she doesn't ask Owen to meet them."
+         "Isla must be at home, but she doesn't ask Felix to come to her house.",
+         "Isla says her grandparents are coming, but she doesn't ask Felix to meet them."
         ],
         "letters": true,
         "fig": {
@@ -1380,7 +1380,7 @@
          "id": "sm-summit-r2-7",
          "kind": "text",
          "head": "Text message",
-         "html": "Hi Owen, sorry, I can't come to the ice rink with you tomorrow. My grandparents are arriving from Da Nang, and Mum says I must be at home. Can we go next Saturday? Emily"
+         "html": "Hi Felix, sorry, I can't come to the ice rink with you tomorrow. My grandparents are arriving from Da Nang, and Mum says I must be at home. Can we go next Saturday? Isla"
         }
        }
       ]
@@ -1394,7 +1394,7 @@
       "v": [
        {
         "hint": {
-         "step": "Look for the time words. Is Seb talking about the past, every week or a plan?"
+         "step": "Look for the time words. Is Hugo talking about the past, every week or a plan?"
         },
         "worked": "'Next Saturday' is a plan for the future, so we use the present continuous: I <b>am buying</b> a new football.",
         "type": "mcq",
@@ -1404,7 +1404,7 @@
          "bought",
          "buy"
         ],
-        "at": 1,
+        "at": 0,
         "whys": [
          null,
          "'Bought' is the past, but 'next Saturday' is in the future.",
@@ -1416,7 +1416,7 @@
          "id": "sm-summit-r2-8",
          "kind": "text",
          "head": "Email",
-         "html": "Dear Uncle Rob,<br>Thank you for the gift card for my birthday! I ________ a new football with it next Saturday. Dad is taking me to the sports shop in town. I can't wait!<br>Love, Seb"
+         "html": "Dear Uncle Rob,<br>Thank you for the gift card for my birthday! I ________ a new football with it next Saturday. Dad is taking me to the sports shop in town. I can't wait!<br>Love, Hugo"
         }
        }
       ]
@@ -1440,7 +1440,7 @@
          "Students can buy lunch at the centre.",
          "The coach leaves the centre at 8.40."
         ],
-        "at": 2,
+        "at": 1,
         "whys": [
          null,
          "The notice asks students to bring a packed lunch, so they don't buy it there.",
@@ -1466,7 +1466,7 @@
       "v": [
        {
         "hint": {
-         "step": "Matilda is asking her dad for help. Which word starts a polite request?"
+         "step": "Clara is asking her dad for help. Which word starts a polite request?"
         },
         "worked": "We start a polite request with <b>Could</b>: '<b>Could</b> you help me with my poster tonight?'",
         "type": "mcq",
@@ -1476,11 +1476,11 @@
          "Must",
          "Should"
         ],
-        "at": 0,
+        "at": 2,
         "whys": [
          null,
          "'Must you ...?' asks if something is really necessary. It is not a polite way to ask for help.",
-         "'Should you ...?' asks for advice. Matilda wants to ask for help."
+         "'Should you ...?' asks for advice. Clara wants to ask for help."
         ],
         "letters": true,
         "fig": {
@@ -1488,7 +1488,7 @@
          "id": "sm-summit-r2-10",
          "kind": "text",
          "head": "Note",
-         "html": "Dad,<br>________ you help me with my street art poster tonight? I need to finish it by Thursday, and I can't draw the shadows on the bricks. Thanks!<br>Matilda"
+         "html": "Dad,<br>________ you help me with my street art poster tonight? I need to finish it by Thursday, and I can't draw the shadows on the bricks. Thanks!<br>Clara"
         }
        }
       ]
@@ -1513,7 +1513,7 @@
          "make signs but not plant trees",
          "plant trees in the school garden"
         ],
-        "at": 1,
+        "at": 0,
         "whys": [
          null,
          "'Also' means Grades 4 and 5 do both jobs, not only the signs.",
@@ -1544,7 +1544,7 @@
         },
         "worked": "The visit 'starts at ten now, not nine', and 'the firefighters are cooking for us', so they will get lunch there.",
         "type": "mcq",
-        "q": "What does Nora want Chi to know?",
+        "q": "What does Grace want Ngoc to know?",
         "opts": [
          "It starts later, and lunch is at the fire station.",
          "They need to take their lunch to the fire station on Tuesday.",
@@ -1553,8 +1553,8 @@
         "at": 2,
         "whys": [
          null,
-         "Nora says they DON'T need to bring lunch any more.",
-         "Nora says the visit is still on Tuesday. Only the start time has changed."
+         "Grace says they DON'T need to bring lunch any more.",
+         "Grace says the visit is still on Tuesday. Only the start time has changed."
         ],
         "letters": true,
         "fig": {
@@ -1562,7 +1562,7 @@
          "id": "sm-summit-r2-12",
          "kind": "text",
          "head": "Phone message",
-         "html": "Hi Chi, it's Nora. Our visit to the old fire station is still on Tuesday, but it starts at ten now, not nine. We don't need to bring lunch, because the firefighters are cooking for us. See you!"
+         "html": "Hi Ngoc, it's Grace. Our visit to the old fire station is still on Tuesday, but it starts at ten now, not nine. We don't need to bring lunch, because the firefighters are cooking for us. See you!"
         }
        }
       ]
@@ -1907,8 +1907,8 @@
          "k": "stim",
          "id": "sm-summit-r4",
          "kind": "text",
-         "head": "Letter from Yusuf",
-         "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Emily,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we climbed up to the old lighthouse (21) ________ you can see the whole beach. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Do you want to come too?<br>Write soon,<br>Yusuf"
+         "head": "Letter from Kenji",
+         "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Freya,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we climbed up to the old lighthouse (21) ________ you can see the whole beach. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Do you want to come too?<br>Write soon,<br>Kenji"
         }
        }
       ]
@@ -1939,8 +1939,8 @@
          "k": "stim",
          "id": "sm-summit-r4",
          "kind": "text",
-         "head": "Letter from Yusuf",
-         "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Emily,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we climbed up to the old lighthouse (21) ________ you can see the whole beach. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Do you want to come too?<br>Write soon,<br>Yusuf"
+         "head": "Letter from Kenji",
+         "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Freya,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we climbed up to the old lighthouse (21) ________ you can see the whole beach. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Do you want to come too?<br>Write soon,<br>Kenji"
         }
        }
       ]
@@ -1971,8 +1971,8 @@
          "k": "stim",
          "id": "sm-summit-r4",
          "kind": "text",
-         "head": "Letter from Yusuf",
-         "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Emily,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we climbed up to the old lighthouse (21) ________ you can see the whole beach. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Do you want to come too?<br>Write soon,<br>Yusuf"
+         "head": "Letter from Kenji",
+         "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Freya,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we climbed up to the old lighthouse (21) ________ you can see the whole beach. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Do you want to come too?<br>Write soon,<br>Kenji"
         }
        }
       ]
@@ -2003,8 +2003,8 @@
          "k": "stim",
          "id": "sm-summit-r4",
          "kind": "text",
-         "head": "Letter from Yusuf",
-         "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Emily,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we climbed up to the old lighthouse (21) ________ you can see the whole beach. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Do you want to come too?<br>Write soon,<br>Yusuf"
+         "head": "Letter from Kenji",
+         "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Freya,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we climbed up to the old lighthouse (21) ________ you can see the whole beach. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Do you want to come too?<br>Write soon,<br>Kenji"
         }
        }
       ]
@@ -2035,8 +2035,8 @@
          "k": "stim",
          "id": "sm-summit-r4",
          "kind": "text",
-         "head": "Letter from Yusuf",
-         "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Emily,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we climbed up to the old lighthouse (21) ________ you can see the whole beach. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Do you want to come too?<br>Write soon,<br>Yusuf"
+         "head": "Letter from Kenji",
+         "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Freya,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we climbed up to the old lighthouse (21) ________ you can see the whole beach. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Do you want to come too?<br>Write soon,<br>Kenji"
         }
        }
       ]
@@ -2067,8 +2067,8 @@
          "k": "stim",
          "id": "sm-summit-r4",
          "kind": "text",
-         "head": "Letter from Yusuf",
-         "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Emily,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we climbed up to the old lighthouse (21) ________ you can see the whole beach. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Do you want to come too?<br>Write soon,<br>Yusuf"
+         "head": "Letter from Kenji",
+         "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Freya,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we climbed up to the old lighthouse (21) ________ you can see the whole beach. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Do you want to come too?<br>Write soon,<br>Kenji"
         }
        }
       ]
@@ -2100,8 +2100,8 @@
          "k": "stim",
          "id": "sm-summit-r4",
          "kind": "text",
-         "head": "Letter from Yusuf",
-         "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Emily,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we climbed up to the old lighthouse (21) ________ you can see the whole beach. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Do you want to come too?<br>Write soon,<br>Yusuf"
+         "head": "Letter from Kenji",
+         "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Freya,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we climbed up to the old lighthouse (21) ________ you can see the whole beach. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Do you want to come too?<br>Write soon,<br>Kenji"
         }
        }
       ]
@@ -2125,19 +2125,19 @@
         "hint": {
          "step": "'Worried' has a similar meaning to another feeling word. Look for it in the three texts."
         },
-        "worked": "Chi writes 'Cooking used to make me nervous'. Nervous is like worried.",
+        "worked": "Mai writes 'Cooking used to make me nervous'. Nervous is like worried.",
         "type": "mcq",
         "q": "Which person was worried about doing a job at first?",
         "opts": [
-         "Chi",
-         "Owen",
-         "Matilda"
+         "Mai",
+         "Theo",
+         "Harriet"
         ],
         "at": 1,
         "whys": [
          null,
-         "Owen hated washing the car because it took a long time. He wasn't worried about it.",
-         "Matilda says her jobs are important, but she never says she was worried about them."
+         "Theo hated washing the car because it took a long time. He wasn't worried about it.",
+         "Harriet says her jobs are important, but she never says she was worried about them."
         ],
         "letters": true,
         "fig": {
@@ -2145,7 +2145,7 @@
          "id": "sm-summit-r5",
          "kind": "text",
          "head": "Magazine page",
-         "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. I feed our two cats and wash their bowls. At the weekend, I help Dad clean the car. I used to hate that job, because it took all morning. Now my friend from next door helps us, so we finish quickly. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money, and I'm saving it for a skateboard.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I'm proud of our meals.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the bottles and paper for recycling. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! Helping at home is good practice for when I'm older."
+         "html": "<b>Helping at home</b><br><br><b>Theo</b><br>I help at home every day. I feed our two cats and wash their bowls. At the weekend, I help Dad clean the car. I used to hate that job, because it took all morning. Now my friend from next door helps us, so we finish quickly. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money, and I'm saving it for a skateboard.<br><br><b>Mai</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I'm proud of our meals.<br><br><b>Harriet</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the bottles and paper for recycling. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! Helping at home is good practice for when I'm older."
         }
        }
       ]
@@ -2162,19 +2162,19 @@
         "hint": {
          "step": "Look for words about money in all three texts. Be careful: one text says 'don't'."
         },
-        "worked": "Owen writes 'Dad gives me a little <b>pocket money</b>'. Pocket money is money for children.",
+        "worked": "Theo writes 'Dad gives me a little <b>pocket money</b>'. Pocket money is money for children.",
         "type": "mcq",
         "q": "Which person is paid for the jobs they do at home?",
         "opts": [
-         "Owen",
-         "Chi",
-         "Matilda"
+         "Theo",
+         "Mai",
+         "Harriet"
         ],
         "at": 0,
         "whys": [
          null,
-         "Chi feels proud of the meals, but she doesn't talk about money.",
-         "Matilda says 'I don't get any money for it'."
+         "Mai feels proud of the meals, but she doesn't talk about money.",
+         "Harriet says 'I don't get any money for it'."
         ],
         "letters": true,
         "fig": {
@@ -2182,7 +2182,7 @@
          "id": "sm-summit-r5",
          "kind": "text",
          "head": "Magazine page",
-         "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. I feed our two cats and wash their bowls. At the weekend, I help Dad clean the car. I used to hate that job, because it took all morning. Now my friend from next door helps us, so we finish quickly. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money, and I'm saving it for a skateboard.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I'm proud of our meals.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the bottles and paper for recycling. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! Helping at home is good practice for when I'm older."
+         "html": "<b>Helping at home</b><br><br><b>Theo</b><br>I help at home every day. I feed our two cats and wash their bowls. At the weekend, I help Dad clean the car. I used to hate that job, because it took all morning. Now my friend from next door helps us, so we finish quickly. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money, and I'm saving it for a skateboard.<br><br><b>Mai</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I'm proud of our meals.<br><br><b>Harriet</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the bottles and paper for recycling. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! Helping at home is good practice for when I'm older."
         }
        }
       ]
@@ -2199,19 +2199,19 @@
         "hint": {
          "step": "All three texts talk about a mistake. Who did something so the mistake stopped?"
         },
-        "worked": "Matilda made a poster because Dad 'used to put paper in the wrong bin'. 'Now he never makes that mistake!'",
+        "worked": "Harriet made a poster because Dad 'used to put paper in the wrong bin'. 'Now he never makes that mistake!'",
         "type": "mcq",
         "q": "Which person helped someone in the family to stop making a mistake?",
         "opts": [
-         "Matilda",
-         "Owen",
-         "Chi"
+         "Harriet",
+         "Theo",
+         "Mai"
         ],
         "at": 2,
         "whys": [
          null,
-         "Owen is the one who makes a mistake: he forgets the cats' dinner.",
-         "Chi's brother puts the forks in the wrong place, but Chi doesn't help him change it. She says 'I don't mind'."
+         "Theo is the one who makes a mistake: he forgets the cats' dinner.",
+         "Mai's brother puts the forks in the wrong place, but Mai doesn't help him change it. She says 'I don't mind'."
         ],
         "letters": true,
         "fig": {
@@ -2219,7 +2219,7 @@
          "id": "sm-summit-r5",
          "kind": "text",
          "head": "Magazine page",
-         "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. I feed our two cats and wash their bowls. At the weekend, I help Dad clean the car. I used to hate that job, because it took all morning. Now my friend from next door helps us, so we finish quickly. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money, and I'm saving it for a skateboard.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I'm proud of our meals.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the bottles and paper for recycling. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! Helping at home is good practice for when I'm older."
+         "html": "<b>Helping at home</b><br><br><b>Theo</b><br>I help at home every day. I feed our two cats and wash their bowls. At the weekend, I help Dad clean the car. I used to hate that job, because it took all morning. Now my friend from next door helps us, so we finish quickly. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money, and I'm saving it for a skateboard.<br><br><b>Mai</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I'm proud of our meals.<br><br><b>Harriet</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the bottles and paper for recycling. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! Helping at home is good practice for when I'm older."
         }
        }
       ]
@@ -2236,19 +2236,19 @@
         "hint": {
          "step": "Look for a word with the opposite meaning of 'remember'. Who is it about: the writer or someone else?"
         },
-        "worked": "Owen writes 'sometimes I <b>forget</b> the cats' dinner'. Forget means you don't remember.",
+        "worked": "Theo writes 'sometimes I <b>forget</b> the cats' dinner'. Forget means you don't remember.",
         "type": "mcq",
         "q": "Which person sometimes doesn't remember to do a job?",
         "opts": [
-         "Owen",
-         "Chi",
-         "Matilda"
+         "Theo",
+         "Mai",
+         "Harriet"
         ],
         "at": 0,
         "whys": [
          null,
-         "Chi's little brother gets the forks wrong, but nobody forgets a job in Chi's text.",
-         "Matilda's dad made a mistake with the bins. That is not forgetting."
+         "Mai's little brother gets the forks wrong, but nobody forgets a job in Mai's text.",
+         "Harriet's dad made a mistake with the bins. That is not forgetting."
         ],
         "letters": true,
         "fig": {
@@ -2256,7 +2256,7 @@
          "id": "sm-summit-r5",
          "kind": "text",
          "head": "Magazine page",
-         "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. I feed our two cats and wash their bowls. At the weekend, I help Dad clean the car. I used to hate that job, because it took all morning. Now my friend from next door helps us, so we finish quickly. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money, and I'm saving it for a skateboard.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I'm proud of our meals.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the bottles and paper for recycling. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! Helping at home is good practice for when I'm older."
+         "html": "<b>Helping at home</b><br><br><b>Theo</b><br>I help at home every day. I feed our two cats and wash their bowls. At the weekend, I help Dad clean the car. I used to hate that job, because it took all morning. Now my friend from next door helps us, so we finish quickly. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money, and I'm saving it for a skateboard.<br><br><b>Mai</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I'm proud of our meals.<br><br><b>Harriet</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the bottles and paper for recycling. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! Helping at home is good practice for when I'm older."
         }
        }
       ]
@@ -2273,19 +2273,19 @@
         "hint": {
          "step": "Look for 'showed me' or 'taught me' in the texts. Who did the showing?"
         },
-        "worked": "Chi writes that Grandma 'showed me how to cut carrots safely'.",
+        "worked": "Mai writes that Grandma 'showed me how to cut carrots safely'.",
         "type": "mcq",
         "q": "Which person learned how to do something from an older person?",
         "opts": [
-         "Chi",
-         "Owen",
-         "Matilda"
+         "Mai",
+         "Theo",
+         "Harriet"
         ],
         "at": 1,
         "whys": [
          null,
-         "Owen's friend helps with the car, but he doesn't teach Owen anything.",
-         "Matilda taught her dad. She didn't learn from an older person."
+         "Theo's friend helps with the car, but he doesn't teach Theo anything.",
+         "Harriet taught her dad. She didn't learn from an older person."
         ],
         "letters": true,
         "fig": {
@@ -2293,7 +2293,7 @@
          "id": "sm-summit-r5",
          "kind": "text",
          "head": "Magazine page",
-         "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. I feed our two cats and wash their bowls. At the weekend, I help Dad clean the car. I used to hate that job, because it took all morning. Now my friend from next door helps us, so we finish quickly. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money, and I'm saving it for a skateboard.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I'm proud of our meals.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the bottles and paper for recycling. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! Helping at home is good practice for when I'm older."
+         "html": "<b>Helping at home</b><br><br><b>Theo</b><br>I help at home every day. I feed our two cats and wash their bowls. At the weekend, I help Dad clean the car. I used to hate that job, because it took all morning. Now my friend from next door helps us, so we finish quickly. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money, and I'm saving it for a skateboard.<br><br><b>Mai</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I'm proud of our meals.<br><br><b>Harriet</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the bottles and paper for recycling. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! Helping at home is good practice for when I'm older."
         }
        }
       ]
@@ -2316,7 +2316,7 @@
         "hint": {
          "step": "Read the first paragraph. What happened 'one morning'?"
         },
-        "worked": "'One morning, the head teacher asked Nora's class for ideas to make it brighter.'",
+        "worked": "'One morning, the head teacher asked Iris's class for ideas to make it brighter.'",
         "type": "mcq",
         "q": "What started the project?",
         "opts": [
@@ -2336,7 +2336,7 @@
          "id": "sm-summit-r6",
          "kind": "text",
          "head": "Magazine article",
-         "html": "<b>A Wall Full of Colour</b><br><i>Nora, aged 10, helped her class to paint a huge picture on their school wall.</i><br><br>The wall next to Nora's school playground was grey and dirty. One morning, the head teacher asked Nora's class for ideas to make it brighter. Some children wanted to plant flowers. Nora had a different idea: a mural, a big painting on the wall.<br><br>Nora thought the planning would be quick. She was wrong! The class chose the theme 'Our sports day', and everyone drew sketches. Her friends loved drawing, but Nora found it slow and tiring. The planning took three weeks, much longer than the painting.<br><br>When the painting began, Nora wanted to paint the runners, because she is good at faces. But a quiet boy in her class was even better at tiny details. So Nora let him paint the faces, and she painted the sky.<br><br>Later, a local artist came to see the mural. He said the colours were bright, but the thing he liked most was a small dog asleep under a bench.<br><br>Now younger children stop to look at it every day. Nora's classmates want to paint the wall in the school hall next. But Nora has a bigger plan. She wants to ask the town if children can paint the walls of the town library."
+         "html": "<b>A Wall Full of Colour</b><br><i>Iris, aged 10, helped her class to paint a huge picture on their school wall.</i><br><br>The wall next to Iris's school playground was grey and dirty. One morning, the head teacher asked Iris's class for ideas to make it brighter. Some children wanted to plant flowers. Iris had a different idea: a mural, a big painting on the wall.<br><br>Iris thought the planning would be quick. She was wrong! The class chose the theme 'Our sports day', and everyone drew sketches. Her friends loved drawing, but Iris found it slow and tiring. The planning took three weeks, much longer than the painting.<br><br>When the painting began, Iris wanted to paint the runners, because she is good at faces. But a quiet boy in her class was even better at tiny details. So Iris let him paint the faces, and she painted the sky.<br><br>Later, a local artist came to see the mural. He said the colours were bright, but the thing he liked most was a small dog asleep under a bench.<br><br>Now younger children stop to look at it every day. Iris's classmates want to paint the wall in the school hall next. But Iris has a bigger plan. She wants to ask the town if children can paint the walls of the town library."
         }
        }
       ]
@@ -2351,11 +2351,11 @@
       "v": [
        {
         "hint": {
-         "step": "Read the second paragraph. What did Nora think BEFORE, and what really happened?"
+         "step": "Read the second paragraph. What did Iris think BEFORE, and what really happened?"
         },
-        "worked": "'Nora thought the planning would be quick. She was wrong!' It took three weeks and she 'found it slow and tiring'.",
+        "worked": "'Iris thought the planning would be quick. She was wrong!' It took three weeks and she 'found it slow and tiring'.",
         "type": "mcq",
-        "q": "What did Nora think about the planning?",
+        "q": "What did Iris think about the planning?",
         "opts": [
          "It was slower than she expected.",
          "It was the best part of the project.",
@@ -2364,7 +2364,7 @@
         "at": 2,
         "whys": [
          null,
-         "Nora's friends loved drawing the sketches, but Nora found the planning slow and tiring.",
+         "Iris's friends loved drawing the sketches, but Iris found the planning slow and tiring.",
          "The planning took three weeks, much longer than the painting."
         ],
         "letters": true,
@@ -2373,7 +2373,7 @@
          "id": "sm-summit-r6",
          "kind": "text",
          "head": "Magazine article",
-         "html": "<b>A Wall Full of Colour</b><br><i>Nora, aged 10, helped her class to paint a huge picture on their school wall.</i><br><br>The wall next to Nora's school playground was grey and dirty. One morning, the head teacher asked Nora's class for ideas to make it brighter. Some children wanted to plant flowers. Nora had a different idea: a mural, a big painting on the wall.<br><br>Nora thought the planning would be quick. She was wrong! The class chose the theme 'Our sports day', and everyone drew sketches. Her friends loved drawing, but Nora found it slow and tiring. The planning took three weeks, much longer than the painting.<br><br>When the painting began, Nora wanted to paint the runners, because she is good at faces. But a quiet boy in her class was even better at tiny details. So Nora let him paint the faces, and she painted the sky.<br><br>Later, a local artist came to see the mural. He said the colours were bright, but the thing he liked most was a small dog asleep under a bench.<br><br>Now younger children stop to look at it every day. Nora's classmates want to paint the wall in the school hall next. But Nora has a bigger plan. She wants to ask the town if children can paint the walls of the town library."
+         "html": "<b>A Wall Full of Colour</b><br><i>Iris, aged 10, helped her class to paint a huge picture on their school wall.</i><br><br>The wall next to Iris's school playground was grey and dirty. One morning, the head teacher asked Iris's class for ideas to make it brighter. Some children wanted to plant flowers. Iris had a different idea: a mural, a big painting on the wall.<br><br>Iris thought the planning would be quick. She was wrong! The class chose the theme 'Our sports day', and everyone drew sketches. Her friends loved drawing, but Iris found it slow and tiring. The planning took three weeks, much longer than the painting.<br><br>When the painting began, Iris wanted to paint the runners, because she is good at faces. But a quiet boy in her class was even better at tiny details. So Iris let him paint the faces, and she painted the sky.<br><br>Later, a local artist came to see the mural. He said the colours were bright, but the thing he liked most was a small dog asleep under a bench.<br><br>Now younger children stop to look at it every day. Iris's classmates want to paint the wall in the school hall next. But Iris has a bigger plan. She wants to ask the town if children can paint the walls of the town library."
         }
        }
       ]
@@ -2390,9 +2390,9 @@
         "hint": {
          "step": "Look for 'even better' in the third paragraph. Who was better, and at what?"
         },
-        "worked": "'A quiet boy in her class was even better at tiny details', so Nora 'let him paint the faces'.",
+        "worked": "'A quiet boy in her class was even better at tiny details', so Iris 'let him paint the faces'.",
         "type": "mcq",
-        "q": "Why did Nora let the boy paint the faces?",
+        "q": "Why did Iris let the boy paint the faces?",
         "opts": [
          "He could paint small things better than her.",
          "She wasn't very good at painting faces.",
@@ -2401,8 +2401,8 @@
         "at": 0,
         "whys": [
          null,
-         "The text says Nora IS good at faces. The boy was even better.",
-         "Nora painted the sky, but the text doesn't say a teacher asked her to."
+         "The text says Iris IS good at faces. The boy was even better.",
+         "Iris painted the sky, but the text doesn't say a teacher asked her to."
         ],
         "letters": true,
         "fig": {
@@ -2410,7 +2410,7 @@
          "id": "sm-summit-r6",
          "kind": "text",
          "head": "Magazine article",
-         "html": "<b>A Wall Full of Colour</b><br><i>Nora, aged 10, helped her class to paint a huge picture on their school wall.</i><br><br>The wall next to Nora's school playground was grey and dirty. One morning, the head teacher asked Nora's class for ideas to make it brighter. Some children wanted to plant flowers. Nora had a different idea: a mural, a big painting on the wall.<br><br>Nora thought the planning would be quick. She was wrong! The class chose the theme 'Our sports day', and everyone drew sketches. Her friends loved drawing, but Nora found it slow and tiring. The planning took three weeks, much longer than the painting.<br><br>When the painting began, Nora wanted to paint the runners, because she is good at faces. But a quiet boy in her class was even better at tiny details. So Nora let him paint the faces, and she painted the sky.<br><br>Later, a local artist came to see the mural. He said the colours were bright, but the thing he liked most was a small dog asleep under a bench.<br><br>Now younger children stop to look at it every day. Nora's classmates want to paint the wall in the school hall next. But Nora has a bigger plan. She wants to ask the town if children can paint the walls of the town library."
+         "html": "<b>A Wall Full of Colour</b><br><i>Iris, aged 10, helped her class to paint a huge picture on their school wall.</i><br><br>The wall next to Iris's school playground was grey and dirty. One morning, the head teacher asked Iris's class for ideas to make it brighter. Some children wanted to plant flowers. Iris had a different idea: a mural, a big painting on the wall.<br><br>Iris thought the planning would be quick. She was wrong! The class chose the theme 'Our sports day', and everyone drew sketches. Her friends loved drawing, but Iris found it slow and tiring. The planning took three weeks, much longer than the painting.<br><br>When the painting began, Iris wanted to paint the runners, because she is good at faces. But a quiet boy in her class was even better at tiny details. So Iris let him paint the faces, and she painted the sky.<br><br>Later, a local artist came to see the mural. He said the colours were bright, but the thing he liked most was a small dog asleep under a bench.<br><br>Now younger children stop to look at it every day. Iris's classmates want to paint the wall in the school hall next. But Iris has a bigger plan. She wants to ask the town if children can paint the walls of the town library."
         }
        }
       ]
@@ -2446,7 +2446,7 @@
          "id": "sm-summit-r6",
          "kind": "text",
          "head": "Magazine article",
-         "html": "<b>A Wall Full of Colour</b><br><i>Nora, aged 10, helped her class to paint a huge picture on their school wall.</i><br><br>The wall next to Nora's school playground was grey and dirty. One morning, the head teacher asked Nora's class for ideas to make it brighter. Some children wanted to plant flowers. Nora had a different idea: a mural, a big painting on the wall.<br><br>Nora thought the planning would be quick. She was wrong! The class chose the theme 'Our sports day', and everyone drew sketches. Her friends loved drawing, but Nora found it slow and tiring. The planning took three weeks, much longer than the painting.<br><br>When the painting began, Nora wanted to paint the runners, because she is good at faces. But a quiet boy in her class was even better at tiny details. So Nora let him paint the faces, and she painted the sky.<br><br>Later, a local artist came to see the mural. He said the colours were bright, but the thing he liked most was a small dog asleep under a bench.<br><br>Now younger children stop to look at it every day. Nora's classmates want to paint the wall in the school hall next. But Nora has a bigger plan. She wants to ask the town if children can paint the walls of the town library."
+         "html": "<b>A Wall Full of Colour</b><br><i>Iris, aged 10, helped her class to paint a huge picture on their school wall.</i><br><br>The wall next to Iris's school playground was grey and dirty. One morning, the head teacher asked Iris's class for ideas to make it brighter. Some children wanted to plant flowers. Iris had a different idea: a mural, a big painting on the wall.<br><br>Iris thought the planning would be quick. She was wrong! The class chose the theme 'Our sports day', and everyone drew sketches. Her friends loved drawing, but Iris found it slow and tiring. The planning took three weeks, much longer than the painting.<br><br>When the painting began, Iris wanted to paint the runners, because she is good at faces. But a quiet boy in her class was even better at tiny details. So Iris let him paint the faces, and she painted the sky.<br><br>Later, a local artist came to see the mural. He said the colours were bright, but the thing he liked most was a small dog asleep under a bench.<br><br>Now younger children stop to look at it every day. Iris's classmates want to paint the wall in the school hall next. But Iris has a bigger plan. She wants to ask the town if children can paint the walls of the town library."
         }
        }
       ]
@@ -2461,11 +2461,11 @@
       "v": [
        {
         "hint": {
-         "step": "Read the last paragraph. Whose plan is each idea: the classmates' or Nora's?"
+         "step": "Read the last paragraph. Whose plan is each idea: the classmates' or Iris's?"
         },
-        "worked": "'Nora has a bigger plan. She wants to ask the town if children can paint the walls of the <b>town library</b>.' The library is a building in the town.",
+        "worked": "'Iris has a bigger plan. She wants to ask the town if children can paint the walls of the <b>town library</b>.' The library is a building in the town.",
         "type": "mcq",
-        "q": "What does Nora want to do next?",
+        "q": "What does Iris want to do next?",
         "opts": [
          "paint walls on a building in the town",
          "paint a wall in the school hall",
@@ -2474,8 +2474,8 @@
         "at": 1,
         "whys": [
          null,
-         "Painting the school hall is her classmates' plan, not Nora's.",
-         "Younger children look at the wall, but Nora doesn't say she will teach them."
+         "Painting the school hall is her classmates' plan, not Iris's.",
+         "Younger children look at the wall, but Iris doesn't say she will teach them."
         ],
         "letters": true,
         "fig": {
@@ -2483,7 +2483,7 @@
          "id": "sm-summit-r6",
          "kind": "text",
          "head": "Magazine article",
-         "html": "<b>A Wall Full of Colour</b><br><i>Nora, aged 10, helped her class to paint a huge picture on their school wall.</i><br><br>The wall next to Nora's school playground was grey and dirty. One morning, the head teacher asked Nora's class for ideas to make it brighter. Some children wanted to plant flowers. Nora had a different idea: a mural, a big painting on the wall.<br><br>Nora thought the planning would be quick. She was wrong! The class chose the theme 'Our sports day', and everyone drew sketches. Her friends loved drawing, but Nora found it slow and tiring. The planning took three weeks, much longer than the painting.<br><br>When the painting began, Nora wanted to paint the runners, because she is good at faces. But a quiet boy in her class was even better at tiny details. So Nora let him paint the faces, and she painted the sky.<br><br>Later, a local artist came to see the mural. He said the colours were bright, but the thing he liked most was a small dog asleep under a bench.<br><br>Now younger children stop to look at it every day. Nora's classmates want to paint the wall in the school hall next. But Nora has a bigger plan. She wants to ask the town if children can paint the walls of the town library."
+         "html": "<b>A Wall Full of Colour</b><br><i>Iris, aged 10, helped her class to paint a huge picture on their school wall.</i><br><br>The wall next to Iris's school playground was grey and dirty. One morning, the head teacher asked Iris's class for ideas to make it brighter. Some children wanted to plant flowers. Iris had a different idea: a mural, a big painting on the wall.<br><br>Iris thought the planning would be quick. She was wrong! The class chose the theme 'Our sports day', and everyone drew sketches. Her friends loved drawing, but Iris found it slow and tiring. The planning took three weeks, much longer than the painting.<br><br>When the painting began, Iris wanted to paint the runners, because she is good at faces. But a quiet boy in her class was even better at tiny details. So Iris let him paint the faces, and she painted the sky.<br><br>Later, a local artist came to see the mural. He said the colours were bright, but the thing he liked most was a small dog asleep under a bench.<br><br>Now younger children stop to look at it every day. Iris's classmates want to paint the wall in the school hall next. But Iris has a bigger plan. She wants to ask the town if children can paint the walls of the town library."
         }
        }
       ]
@@ -2569,7 +2569,7 @@
        "Task achievement and content 2/2: all bullet points are covered with useful detail (names on bags, why to sleep, feeling safe).",
        "Organisation and layout 2/2: a clear opening and ending, and the advice is in order with First, However and Finally.",
        "Grammar range and accuracy 2/2: accurate and varied modal verbs (need to, should, must, mustn't, shouldn't) and an 'If' sentence.",
-       "Vocabulary and spelling 2/2: good topic words (comfortable, instructions, wander, corridors, prepare), all spelled correctly.",
+       "Vocabulary and spelling 2/2: good topic words (comfortable, instructions, wander, corridors, prepare), all spelt correctly.",
        "Fluency 2/2: 7 smooth, complete sentences that are easy to read."
       ],
       "marks": {
@@ -2657,7 +2657,7 @@
        "Task achievement and content 2/2: every bullet point is covered with interesting detail (the boat, the lights, the video, the reason).",
        "Organisation and layout 2/2: ideas are in a clear order with First, Then and because, and the ending sums up the choice.",
        "Grammar range and accuracy 2/2: accurate 'would' sentences, a comparative ('more special than') and two superlatives ('happiest', 'the most wonderful').",
-       "Vocabulary and spelling 2/2: rich adjectives (tiny, golden, delicious, sticky, funny, wonderful) and topic words (anniversary, feast), all spelled correctly.",
+       "Vocabulary and spelling 2/2: rich adjectives (tiny, golden, delicious, sticky, funny, wonderful) and topic words (anniversary, feast), all spelt correctly.",
        "Fluency 2/2: 7 smooth, varied sentences that are easy and enjoyable to read."
       ],
       "marks": {

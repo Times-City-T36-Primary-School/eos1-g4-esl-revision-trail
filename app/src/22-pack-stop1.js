@@ -268,7 +268,7 @@
           "amazed",
           "amaze"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Amazed is how a person feels. Here we talk about the painting.",
@@ -296,7 +296,7 @@
           "softest",
           "soft"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Softest is for the top one in a group. Look at 'than'.",
@@ -344,7 +344,7 @@
           "in",
           "for"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "We say 'interested in', but not 'good in' for a skill.",
@@ -532,7 +532,7 @@
           "grains",
           "vegetables"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Grains are rice, bread and cereals. What are milk and cheese made from?",
@@ -608,7 +608,7 @@
           "interested",
           "interest"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Interested is how a person feels. Here we talk about the film.",
@@ -676,7 +676,7 @@
           "white small new",
           "new white small"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Colour (white) comes after size and age.",
@@ -752,7 +752,7 @@
           "at",
           "in"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "'Afraid at' is not English. Check the partner of 'afraid'.",
@@ -772,7 +772,7 @@
           "of",
           "at"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "We say 'proud of', but 'famous' has a different partner.",
@@ -860,7 +860,7 @@
           "afraid",
           "interested"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "We say 'afraid of', not 'afraid to' a person.",
@@ -910,7 +910,7 @@
           "exciting",
           "excitement"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Exciting is for the thing that makes you feel excited, like the trip. Felix is a person.",
@@ -930,7 +930,7 @@
           "tired",
           "tiredness"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Tired is how a person feels. Here the gap is about the week.",
@@ -958,7 +958,7 @@
           "biggest",
           "big"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Biggest is for the top one in a group. Look at 'than'.",
@@ -978,7 +978,7 @@
           "more beautiful",
           "beautiful"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "More beautiful compares two things. Read 'in the whole group'.",
@@ -1089,7 +1089,7 @@
           "of",
           "at"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "We say 'afraid of', but 'worried' has a different partner.",
@@ -1186,7 +1186,7 @@
           "blue plastic small",
           "plastic small blue"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Size (small) comes before colour, not at the end.",
@@ -1213,7 +1213,7 @@
           "best",
           "good"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Best is for the top one in a group. Look at 'than'.",
@@ -1503,7 +1503,7 @@
        "in",
        "on"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "We say 'interested in', but 'good' has a different partner for a skill.",
@@ -1551,7 +1551,7 @@
        "at",
        "in"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "'Kind at' is not English. 'At' goes with 'good'.",
@@ -1619,7 +1619,7 @@
        "biggest",
        "big"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Biggest is for the top one in a group. Look at 'than'.",
@@ -1695,7 +1695,7 @@
        "a feast",
        "some fibre"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "A feast is a big special meal, not an illness.",
@@ -1715,7 +1715,7 @@
        "the presents",
        "the feasts"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "Presents are gifts we give. They are not in the sky.",
@@ -1791,7 +1791,7 @@
        "black old big",
        "old big black"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Colour (black) comes after size and age.",
@@ -1847,7 +1847,7 @@
       },
       "worked": "The partner of worried is <b>about</b>: 'worried about missing our class trip'.",
       "type": "tfill",
-      "q": "Read Jade's email. Choose a word from the box for gap (1).",
+      "q": "Read Jade's email. Choose a word from the box for gap (8).",
       "lines": [
        "I was worried {0} missing our class trip to the farm."
       ],
@@ -1861,7 +1861,7 @@
        "id": "s1-t-letter-jade",
        "kind": "text",
        "head": "Email from Jade to her friend Kai",
-       "html": "<b>Word box:</b> about, at, in, than, to, was<br><br>Hi Kai,<br>Sorry I wasn't at school last week. I (0) <u>was</u> ill with a fever and a sore throat. The doctor told me to rest and drink lots of water. I was worried (1) ________ missing our class trip to the farm, but Mum says the trip is next month now. Today I feel much better (2) ________ I did on Saturday, and I can eat properly again. Grandma brought me a bowl of chicken soup and a bunch of grapes. Everyone was so kind (3) ________ me! I'm coming back to school on Monday.<br>See you soon,<br>Jade"
+       "html": "<b>Word box:</b> about, at, in, than, to, was<br><br>Hi Kai,<br>Sorry I wasn't at school last week. I (0) <u>was</u> ill with a fever and a sore throat. The doctor told me to rest and drink lots of water. I was worried (8) ________ missing our class trip to the farm, but Mum says the trip is next month now. Today I feel much better (9) ________ I did on Saturday, and I can eat properly again. Grandma brought me a bowl of chicken soup and a bunch of grapes. Everyone was so kind (10) ________ me! I'm coming back to school on Monday.<br>See you soon,<br>Jade"
       }
      },
      {
@@ -1870,7 +1870,7 @@
       },
       "worked": "For a skill we say <b>good at</b>: 'very good at climbing'.",
       "type": "tfill",
-      "q": "Read Anya's email. Choose a word from the box for gap (1).",
+      "q": "Read Anya's email. Choose a word from the box for gap (8).",
       "lines": [
        "The girl is very good {0} climbing."
       ],
@@ -1884,7 +1884,7 @@
        "id": "s1-t-letter-anya",
        "kind": "text",
        "head": "Email from Anya to her friend Theo",
-       "html": "<b>Word box:</b> at, for, is, most, of, than<br><br>Hi Theo,<br>I've just finished a brilliant book! It (0) <u>is</u> about a girl who finds an old map in her grandpa's box. The map shows a lost city in an enormous, mysterious jungle. The girl is very good (1) ________ climbing, so she climbs the tallest trees to look for the city. That is the (2) ________ exciting part of the book! At the end, she finds the city. It is famous (3) ________ its golden gates, but nobody has seen them for a hundred years. You can borrow the book next week.<br>Your friend,<br>Anya"
+       "html": "<b>Word box:</b> at, for, is, most, of, than<br><br>Hi Theo,<br>I've just finished a brilliant book! It (0) <u>is</u> about a girl who finds an old map in her grandpa's box. The map shows a lost city in an enormous, mysterious jungle. The girl is very good (8) ________ climbing, so she climbs the tallest trees to look for the city. That is the (9) ________ exciting part of the book! At the end, she finds the city. It is famous (10) ________ its golden gates, but nobody has seen them for a hundred years. You can borrow the book next week.<br>Your friend,<br>Anya"
       }
      }
     ]
@@ -1901,7 +1901,7 @@
       },
       "worked": "She compares today and Saturday: 'much better <b>than</b> I did on Saturday'.",
       "type": "tfill",
-      "q": "Read Jade's email. Choose a word from the box for gap (2).",
+      "q": "Read Jade's email. Choose a word from the box for gap (9).",
       "lines": [
        "Today I feel much better {0} I did on Saturday."
       ],
@@ -1915,7 +1915,7 @@
        "id": "s1-t-letter-jade",
        "kind": "text",
        "head": "Email from Jade to her friend Kai",
-       "html": "<b>Word box:</b> about, at, in, than, to, was<br><br>Hi Kai,<br>Sorry I wasn't at school last week. I (0) <u>was</u> ill with a fever and a sore throat. The doctor told me to rest and drink lots of water. I was worried (1) ________ missing our class trip to the farm, but Mum says the trip is next month now. Today I feel much better (2) ________ I did on Saturday, and I can eat properly again. Grandma brought me a bowl of chicken soup and a bunch of grapes. Everyone was so kind (3) ________ me! I'm coming back to school on Monday.<br>See you soon,<br>Jade"
+       "html": "<b>Word box:</b> about, at, in, than, to, was<br><br>Hi Kai,<br>Sorry I wasn't at school last week. I (0) <u>was</u> ill with a fever and a sore throat. The doctor told me to rest and drink lots of water. I was worried (8) ________ missing our class trip to the farm, but Mum says the trip is next month now. Today I feel much better (9) ________ I did on Saturday, and I can eat properly again. Grandma brought me a bowl of chicken soup and a bunch of grapes. Everyone was so kind (10) ________ me! I'm coming back to school on Monday.<br>See you soon,<br>Jade"
       }
      },
      {
@@ -1924,7 +1924,7 @@
       },
       "worked": "It is the top part of the whole book: 'the <b>most</b> exciting part'.",
       "type": "tfill",
-      "q": "Read Anya's email. Choose a word from the box for gap (2).",
+      "q": "Read Anya's email. Choose a word from the box for gap (9).",
       "lines": [
        "That is the {0} exciting part of the book!"
       ],
@@ -1938,7 +1938,7 @@
        "id": "s1-t-letter-anya",
        "kind": "text",
        "head": "Email from Anya to her friend Theo",
-       "html": "<b>Word box:</b> at, for, is, most, of, than<br><br>Hi Theo,<br>I've just finished a brilliant book! It (0) <u>is</u> about a girl who finds an old map in her grandpa's box. The map shows a lost city in an enormous, mysterious jungle. The girl is very good (1) ________ climbing, so she climbs the tallest trees to look for the city. That is the (2) ________ exciting part of the book! At the end, she finds the city. It is famous (3) ________ its golden gates, but nobody has seen them for a hundred years. You can borrow the book next week.<br>Your friend,<br>Anya"
+       "html": "<b>Word box:</b> at, for, is, most, of, than<br><br>Hi Theo,<br>I've just finished a brilliant book! It (0) <u>is</u> about a girl who finds an old map in her grandpa's box. The map shows a lost city in an enormous, mysterious jungle. The girl is very good (8) ________ climbing, so she climbs the tallest trees to look for the city. That is the (9) ________ exciting part of the book! At the end, she finds the city. It is famous (10) ________ its golden gates, but nobody has seen them for a hundred years. You can borrow the book next week.<br>Your friend,<br>Anya"
       }
      }
     ]
@@ -1955,7 +1955,7 @@
       },
       "worked": "We are kind <b>to</b> people: 'Everyone was so kind to me!'",
       "type": "tfill",
-      "q": "Read Jade's email. Choose a word from the box for gap (3).",
+      "q": "Read Jade's email. Choose a word from the box for gap (10).",
       "lines": [
        "Everyone was so kind {0} me!"
       ],
@@ -1969,7 +1969,7 @@
        "id": "s1-t-letter-jade",
        "kind": "text",
        "head": "Email from Jade to her friend Kai",
-       "html": "<b>Word box:</b> about, at, in, than, to, was<br><br>Hi Kai,<br>Sorry I wasn't at school last week. I (0) <u>was</u> ill with a fever and a sore throat. The doctor told me to rest and drink lots of water. I was worried (1) ________ missing our class trip to the farm, but Mum says the trip is next month now. Today I feel much better (2) ________ I did on Saturday, and I can eat properly again. Grandma brought me a bowl of chicken soup and a bunch of grapes. Everyone was so kind (3) ________ me! I'm coming back to school on Monday.<br>See you soon,<br>Jade"
+       "html": "<b>Word box:</b> about, at, in, than, to, was<br><br>Hi Kai,<br>Sorry I wasn't at school last week. I (0) <u>was</u> ill with a fever and a sore throat. The doctor told me to rest and drink lots of water. I was worried (8) ________ missing our class trip to the farm, but Mum says the trip is next month now. Today I feel much better (9) ________ I did on Saturday, and I can eat properly again. Grandma brought me a bowl of chicken soup and a bunch of grapes. Everyone was so kind (10) ________ me! I'm coming back to school on Monday.<br>See you soon,<br>Jade"
       }
      },
      {
@@ -1978,7 +1978,7 @@
       },
       "worked": "The partner of famous is <b>for</b>: 'famous for its golden gates'.",
       "type": "tfill",
-      "q": "Read Anya's email. Choose a word from the box for gap (3).",
+      "q": "Read Anya's email. Choose a word from the box for gap (10).",
       "lines": [
        "It is famous {0} its golden gates."
       ],
@@ -1992,7 +1992,7 @@
        "id": "s1-t-letter-anya",
        "kind": "text",
        "head": "Email from Anya to her friend Theo",
-       "html": "<b>Word box:</b> at, for, is, most, of, than<br><br>Hi Theo,<br>I've just finished a brilliant book! It (0) <u>is</u> about a girl who finds an old map in her grandpa's box. The map shows a lost city in an enormous, mysterious jungle. The girl is very good (1) ________ climbing, so she climbs the tallest trees to look for the city. That is the (2) ________ exciting part of the book! At the end, she finds the city. It is famous (3) ________ its golden gates, but nobody has seen them for a hundred years. You can borrow the book next week.<br>Your friend,<br>Anya"
+       "html": "<b>Word box:</b> at, for, is, most, of, than<br><br>Hi Theo,<br>I've just finished a brilliant book! It (0) <u>is</u> about a girl who finds an old map in her grandpa's box. The map shows a lost city in an enormous, mysterious jungle. The girl is very good (8) ________ climbing, so she climbs the tallest trees to look for the city. That is the (9) ________ exciting part of the book! At the end, she finds the city. It is famous (10) ________ its golden gates, but nobody has seen them for a hundred years. You can borrow the book next week.<br>Your friend,<br>Anya"
       }
      }
     ]

@@ -2,7 +2,7 @@
    Made by scripts/convert.py from content/stop7.json (written from the exam-style guide only; no real paper seen). */
 (function (T) {
   'use strict';
-  window.T_ART = Object.assign(window.T_ART || {}, {"e-s7-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"past simple\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏪</text></svg>", "e-s7-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"present continuous\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">▶️</text></svg>", "e-s7-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"plan\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🗓️</text></svg>", "e-s7-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"time clue\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏰</text></svg>", "e-s7-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"preposition\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📍</text></svg>", "e-s7-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"quantifier\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔢</text></svg>", "e-s7-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"relative word\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👉</text></svg>", "e-s7-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"indefinite pronoun\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❓</text></svg>", "e-s7-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"comparative\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📏</text></svg>", "e-s7-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"word box\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🗃️</text></svg>", "e-s7-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"gap\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕳️</text></svg>", "e-s7-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"extra\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">➕</text></svg>", "e-s7-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"countable\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍎</text></svg>", "e-s7-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"uncountable\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💧</text></svg>"});
+  window.T_ART = Object.assign(window.T_ART || {}, {"e-s7-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"past simple\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏪</text></svg>", "e-s7-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"present continuous\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏃</text></svg>", "e-s7-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"plan\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🗓️</text></svg>", "e-s7-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"time clue\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏰</text></svg>", "e-s7-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"preposition\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📍</text></svg>", "e-s7-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"quantifier\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔢</text></svg>", "e-s7-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"relative word\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👉</text></svg>", "e-s7-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"indefinite pronoun\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❓</text></svg>", "e-s7-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"comparative\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📏</text></svg>", "e-s7-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"word box\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🗃️</text></svg>", "e-s7-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"gap\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕳️</text></svg>", "e-s7-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"extra\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">➕</text></svg>", "e-s7-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"countable\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍎</text></svg>", "e-s7-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"uncountable\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💧</text></svg>"});
   T.packs[7] = {
  "n": 7,
  "title": "Grammar in sentences and letters",
@@ -462,7 +462,7 @@
           "tells",
           "telling"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "'tells' is for every day, but 'Yesterday' is in the past.",
@@ -558,7 +558,7 @@
           "excited",
           "excite"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'excited' is how a person feels. A film doesn't have feelings.",
@@ -614,7 +614,7 @@
           "in",
           "of"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "We say 'interested in', but not 'good in'.",
@@ -662,7 +662,7 @@
           "fewer",
           "many"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'fewer' is for things we can count. We can't count water.",
@@ -710,7 +710,7 @@
           "nothing",
           "something"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'isn't' already says 'not', so 'nothing' makes two 'not' words.",
@@ -909,7 +909,7 @@
           "spend",
           "spending"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'Last summer' is finished time, so the base form is wrong.",
@@ -929,7 +929,7 @@
           "go",
           "going"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'Last Sunday' is finished time, so the base form is wrong.",
@@ -957,7 +957,7 @@
           "annoyed",
           "annoy"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'annoyed' is how a person feels. Bites don't have feelings.",
@@ -977,7 +977,7 @@
           "amazed",
           "amaze"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'amazed' is how a person feels. A picture doesn't have feelings.",
@@ -1005,7 +1005,7 @@
           "anything",
           "nothing"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "We use 'anything' in questions and after 'not'. This sentence is positive.",
@@ -1025,7 +1025,7 @@
           "anyone",
           "no-one"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "We use 'anyone' in questions and after 'not'. This sentence is positive.",
@@ -1053,7 +1053,7 @@
           "who",
           "where"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "'who' is for people, but a net is a thing.",
@@ -1073,7 +1073,7 @@
           "which",
           "where"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "'which' is for things, but a young woman is a person.",
@@ -1101,7 +1101,7 @@
           "visited",
           "visit"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'visited' is past, but 'next month' is in the future.",
@@ -1135,8 +1135,8 @@
     },
     {
      "title": {
-      "en": "Part 4: a letter (gaps 18 to 21)",
-      "vi": "Phần 4: lá thư (chỗ trống 18 đến 21)"
+      "en": "Part 4: a letter (gaps 1 to 4)",
+      "vi": "Phần 4: lá thư (chỗ trống 1 đến 4)"
      },
      "rounds": [
       {
@@ -1151,7 +1151,7 @@
          },
          "worked": "'much <b>bigger than</b> our old one': after a comparative we use <b>than</b>.",
          "type": "tfill",
-         "q": "Read the letter. Write ONE word from the box for gap 18.",
+         "q": "Read the letter. Write ONE word from the box for gap (1).",
          "lines": [
           "It is much bigger {0} our old one."
          ],
@@ -1165,7 +1165,7 @@
           "id": "s7-e1",
           "kind": "text",
           "head": "Letter from Ivy",
-          "html": "<b>Word box:</b> about, are, at, both, everyone, for, than, were, who, with<br><br><b>Our new flat</b><br>Dear Ana,<br>How are you? Last month we moved to a new flat. It is (0) <b>at</b> the top of a tall building, and it is much bigger (18) ________ our old one. From my bedroom window I can see the river and the bridge!<br>When we arrived, there (19) ________ boxes everywhere, and we couldn't find our plates. Our neighbour is a friendly old man (20) ________ grows tomatoes and herbs on his balcony. He gave us a big bowl of soup on the first night.<br>At first I was worried (21) ________ making new friends, but (22) ________ in my new class is kind to me. My brother and I (23) ________ joining the school swimming club next week. (24) ________ my parents love the big park near our building, and we go there every evening.<br>Please write soon!<br>Love,<br>Ivy"
+          "html": "<b>Word box:</b> about, are, at, both, everyone, for, than, were, who, with<br><br><b>Our new flat</b><br>Dear Ana,<br>How are you? Last month we moved to a new flat. It is (0) <b>at</b> the top of a tall building, and it is much bigger (1) ________ our old one. From my bedroom window I can see the river and the bridge!<br>When we arrived, there (2) ________ boxes everywhere, and we couldn't find our plates. Our neighbour is a friendly old man (3) ________ grows tomatoes and herbs on his balcony. He gave us a big bowl of soup on the first night.<br>At first I was worried (4) ________ making new friends, but (5) ________ in my new class is kind to me. My brother and I (6) ________ joining the school swimming club next week. (7) ________ my parents love the big park near our building, and we go there every evening.<br>Please write soon!<br>Love,<br>Ivy"
          }
         },
         {
@@ -1174,7 +1174,7 @@
          },
          "worked": "'even <b>bigger than</b> his party last year': after a comparative we use <b>than</b>.",
          "type": "tfill",
-         "q": "Read the letter. Write ONE word from the box for gap 18.",
+         "q": "Read the letter. Write ONE word from the box for gap (1).",
          "lines": [
           "It was even bigger {0} his party last year!"
          ],
@@ -1188,7 +1188,7 @@
           "id": "s7-e2",
           "kind": "text",
           "head": "Letter from Phuc",
-          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. Then I heard (22) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc"
+          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (1) ________ his party last year! There (2) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (3) ________ Grandpa loves. Grandpa is very good (4) ________ telling funny stories, and he told us about his first job. Then I heard (5) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (6) ________ staying at his house for two nights. (7) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc"
          }
         }
        ]
@@ -1205,7 +1205,7 @@
          },
          "worked": "Past + many <b>boxes</b>: there <b>were</b>.",
          "type": "tfill",
-         "q": "Read the letter. Write ONE word from the box for gap 19.",
+         "q": "Read the letter. Write ONE word from the box for gap (2).",
          "lines": [
           "When we arrived, there {0} boxes everywhere."
          ],
@@ -1219,7 +1219,7 @@
           "id": "s7-e1",
           "kind": "text",
           "head": "Letter from Ivy",
-          "html": "<b>Word box:</b> about, are, at, both, everyone, for, than, were, who, with<br><br><b>Our new flat</b><br>Dear Ana,<br>How are you? Last month we moved to a new flat. It is (0) <b>at</b> the top of a tall building, and it is much bigger (18) ________ our old one. From my bedroom window I can see the river and the bridge!<br>When we arrived, there (19) ________ boxes everywhere, and we couldn't find our plates. Our neighbour is a friendly old man (20) ________ grows tomatoes and herbs on his balcony. He gave us a big bowl of soup on the first night.<br>At first I was worried (21) ________ making new friends, but (22) ________ in my new class is kind to me. My brother and I (23) ________ joining the school swimming club next week. (24) ________ my parents love the big park near our building, and we go there every evening.<br>Please write soon!<br>Love,<br>Ivy"
+          "html": "<b>Word box:</b> about, are, at, both, everyone, for, than, were, who, with<br><br><b>Our new flat</b><br>Dear Ana,<br>How are you? Last month we moved to a new flat. It is (0) <b>at</b> the top of a tall building, and it is much bigger (1) ________ our old one. From my bedroom window I can see the river and the bridge!<br>When we arrived, there (2) ________ boxes everywhere, and we couldn't find our plates. Our neighbour is a friendly old man (3) ________ grows tomatoes and herbs on his balcony. He gave us a big bowl of soup on the first night.<br>At first I was worried (4) ________ making new friends, but (5) ________ in my new class is kind to me. My brother and I (6) ________ joining the school swimming club next week. (7) ________ my parents love the big park near our building, and we go there every evening.<br>Please write soon!<br>Love,<br>Ivy"
          }
         },
         {
@@ -1228,7 +1228,7 @@
          },
          "worked": "Past + one <b>cake</b>: there <b>was</b>.",
          "type": "tfill",
-         "q": "Read the letter. Write ONE word from the box for gap 19.",
+         "q": "Read the letter. Write ONE word from the box for gap (2).",
          "lines": [
           "There {0} a huge cake with seventy candles on it."
          ],
@@ -1242,7 +1242,7 @@
           "id": "s7-e2",
           "kind": "text",
           "head": "Letter from Phuc",
-          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. Then I heard (22) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc"
+          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (1) ________ his party last year! There (2) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (3) ________ Grandpa loves. Grandpa is very good (4) ________ telling funny stories, and he told us about his first job. Then I heard (5) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (6) ________ staying at his house for two nights. (7) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc"
          }
         }
        ]
@@ -1259,7 +1259,7 @@
          },
          "worked": "'a friendly old <b>man who</b> grows tomatoes': for a person we use <b>who</b>.",
          "type": "tfill",
-         "q": "Read the letter. Write ONE word from the box for gap 20.",
+         "q": "Read the letter. Write ONE word from the box for gap (3).",
          "lines": [
           "Our neighbour is a friendly old man {0} grows tomatoes and herbs on his balcony."
          ],
@@ -1274,7 +1274,7 @@
           "id": "s7-e1",
           "kind": "text",
           "head": "Letter from Ivy",
-          "html": "<b>Word box:</b> about, are, at, both, everyone, for, than, were, who, with<br><br><b>Our new flat</b><br>Dear Ana,<br>How are you? Last month we moved to a new flat. It is (0) <b>at</b> the top of a tall building, and it is much bigger (18) ________ our old one. From my bedroom window I can see the river and the bridge!<br>When we arrived, there (19) ________ boxes everywhere, and we couldn't find our plates. Our neighbour is a friendly old man (20) ________ grows tomatoes and herbs on his balcony. He gave us a big bowl of soup on the first night.<br>At first I was worried (21) ________ making new friends, but (22) ________ in my new class is kind to me. My brother and I (23) ________ joining the school swimming club next week. (24) ________ my parents love the big park near our building, and we go there every evening.<br>Please write soon!<br>Love,<br>Ivy"
+          "html": "<b>Word box:</b> about, are, at, both, everyone, for, than, were, who, with<br><br><b>Our new flat</b><br>Dear Ana,<br>How are you? Last month we moved to a new flat. It is (0) <b>at</b> the top of a tall building, and it is much bigger (1) ________ our old one. From my bedroom window I can see the river and the bridge!<br>When we arrived, there (2) ________ boxes everywhere, and we couldn't find our plates. Our neighbour is a friendly old man (3) ________ grows tomatoes and herbs on his balcony. He gave us a big bowl of soup on the first night.<br>At first I was worried (4) ________ making new friends, but (5) ________ in my new class is kind to me. My brother and I (6) ________ joining the school swimming club next week. (7) ________ my parents love the big park near our building, and we go there every evening.<br>Please write soon!<br>Love,<br>Ivy"
          }
         },
         {
@@ -1283,7 +1283,7 @@
          },
          "worked": "'a special chicken <b>soup which</b> Grandpa loves': for a thing we use <b>which</b>.",
          "type": "tfill",
-         "q": "Read the letter. Write ONE word from the box for gap 20.",
+         "q": "Read the letter. Write ONE word from the box for gap (3).",
          "lines": [
           "My aunt cooked a special chicken soup {0} Grandpa loves."
          ],
@@ -1298,7 +1298,7 @@
           "id": "s7-e2",
           "kind": "text",
           "head": "Letter from Phuc",
-          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. Then I heard (22) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc"
+          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (1) ________ his party last year! There (2) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (3) ________ Grandpa loves. Grandpa is very good (4) ________ telling funny stories, and he told us about his first job. Then I heard (5) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (6) ________ staying at his house for two nights. (7) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc"
          }
         }
        ]
@@ -1315,7 +1315,7 @@
          },
          "worked": "We always say <b>worried about</b>.",
          "type": "tfill",
-         "q": "Read the letter. Write ONE word from the box for gap 21.",
+         "q": "Read the letter. Write ONE word from the box for gap (4).",
          "lines": [
           "At first I was worried {0} making new friends."
          ],
@@ -1329,7 +1329,7 @@
           "id": "s7-e1",
           "kind": "text",
           "head": "Letter from Ivy",
-          "html": "<b>Word box:</b> about, are, at, both, everyone, for, than, were, who, with<br><br><b>Our new flat</b><br>Dear Ana,<br>How are you? Last month we moved to a new flat. It is (0) <b>at</b> the top of a tall building, and it is much bigger (18) ________ our old one. From my bedroom window I can see the river and the bridge!<br>When we arrived, there (19) ________ boxes everywhere, and we couldn't find our plates. Our neighbour is a friendly old man (20) ________ grows tomatoes and herbs on his balcony. He gave us a big bowl of soup on the first night.<br>At first I was worried (21) ________ making new friends, but (22) ________ in my new class is kind to me. My brother and I (23) ________ joining the school swimming club next week. (24) ________ my parents love the big park near our building, and we go there every evening.<br>Please write soon!<br>Love,<br>Ivy"
+          "html": "<b>Word box:</b> about, are, at, both, everyone, for, than, were, who, with<br><br><b>Our new flat</b><br>Dear Ana,<br>How are you? Last month we moved to a new flat. It is (0) <b>at</b> the top of a tall building, and it is much bigger (1) ________ our old one. From my bedroom window I can see the river and the bridge!<br>When we arrived, there (2) ________ boxes everywhere, and we couldn't find our plates. Our neighbour is a friendly old man (3) ________ grows tomatoes and herbs on his balcony. He gave us a big bowl of soup on the first night.<br>At first I was worried (4) ________ making new friends, but (5) ________ in my new class is kind to me. My brother and I (6) ________ joining the school swimming club next week. (7) ________ my parents love the big park near our building, and we go there every evening.<br>Please write soon!<br>Love,<br>Ivy"
          }
         },
         {
@@ -1338,7 +1338,7 @@
          },
          "worked": "We always say <b>good at</b>: good <b>at</b> telling stories.",
          "type": "tfill",
-         "q": "Read the letter. Write ONE word from the box for gap 21.",
+         "q": "Read the letter. Write ONE word from the box for gap (4).",
          "lines": [
           "Grandpa is very good {0} telling funny stories."
          ],
@@ -1352,7 +1352,7 @@
           "id": "s7-e2",
           "kind": "text",
           "head": "Letter from Phuc",
-          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. Then I heard (22) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc"
+          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (1) ________ his party last year! There (2) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (3) ________ Grandpa loves. Grandpa is very good (4) ________ telling funny stories, and he told us about his first job. Then I heard (5) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (6) ________ staying at his house for two nights. (7) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc"
          }
         }
        ]
@@ -1361,8 +1361,8 @@
     },
     {
      "title": {
-      "en": "Part 4: a letter (gaps 22 to 24)",
-      "vi": "Phần 4: lá thư (chỗ trống 22 đến 24)"
+      "en": "Part 4: a letter (gaps 5 to 7)",
+      "vi": "Phần 4: lá thư (chỗ trống 5 đến 7)"
      },
      "rounds": [
       {
@@ -1377,7 +1377,7 @@
          },
          "worked": "The worry was about friends, <b>but</b> now <b>everyone</b> in the class is kind.",
          "type": "tfill",
-         "q": "Read the letter. Write ONE word from the box for gap 22.",
+         "q": "Read the letter. Write ONE word from the box for gap (5).",
          "lines": [
           "At first I was worried about making new friends, but {0} in my new class is kind to me."
          ],
@@ -1391,7 +1391,7 @@
           "id": "s7-e1",
           "kind": "text",
           "head": "Letter from Ivy",
-          "html": "<b>Word box:</b> about, are, at, both, everyone, for, than, were, who, with<br><br><b>Our new flat</b><br>Dear Ana,<br>How are you? Last month we moved to a new flat. It is (0) <b>at</b> the top of a tall building, and it is much bigger (18) ________ our old one. From my bedroom window I can see the river and the bridge!<br>When we arrived, there (19) ________ boxes everywhere, and we couldn't find our plates. Our neighbour is a friendly old man (20) ________ grows tomatoes and herbs on his balcony. He gave us a big bowl of soup on the first night.<br>At first I was worried (21) ________ making new friends, but (22) ________ in my new class is kind to me. My brother and I (23) ________ joining the school swimming club next week. (24) ________ my parents love the big park near our building, and we go there every evening.<br>Please write soon!<br>Love,<br>Ivy"
+          "html": "<b>Word box:</b> about, are, at, both, everyone, for, than, were, who, with<br><br><b>Our new flat</b><br>Dear Ana,<br>How are you? Last month we moved to a new flat. It is (0) <b>at</b> the top of a tall building, and it is much bigger (1) ________ our old one. From my bedroom window I can see the river and the bridge!<br>When we arrived, there (2) ________ boxes everywhere, and we couldn't find our plates. Our neighbour is a friendly old man (3) ________ grows tomatoes and herbs on his balcony. He gave us a big bowl of soup on the first night.<br>At first I was worried (4) ________ making new friends, but (5) ________ in my new class is kind to me. My brother and I (6) ________ joining the school swimming club next week. (7) ________ my parents love the big park near our building, and we go there every evening.<br>Please write soon!<br>Love,<br>Ivy"
          }
         },
         {
@@ -1400,7 +1400,7 @@
          },
          "worked": "A thing (the puppy eating cake), in a positive sentence: I heard <b>something</b> strange.",
          "type": "tfill",
-         "q": "Read the letter. Write ONE word from the box for gap 22.",
+         "q": "Read the letter. Write ONE word from the box for gap (5).",
          "lines": [
           "Then I heard {0} strange under the table."
          ],
@@ -1414,7 +1414,7 @@
           "id": "s7-e2",
           "kind": "text",
           "head": "Letter from Phuc",
-          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. Then I heard (22) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc"
+          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (1) ________ his party last year! There (2) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (3) ________ Grandpa loves. Grandpa is very good (4) ________ telling funny stories, and he told us about his first job. Then I heard (5) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (6) ________ staying at his house for two nights. (7) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc"
          }
         }
        ]
@@ -1431,7 +1431,7 @@
          },
          "worked": "A plan with <b>next week</b>: we <b>are joining</b> (present continuous).",
          "type": "tfill",
-         "q": "Read the letter. Write ONE word from the box for gap 23.",
+         "q": "Read the letter. Write ONE word from the box for gap (6).",
          "lines": [
           "My brother and I {0} joining the school swimming club next week."
          ],
@@ -1446,7 +1446,7 @@
           "id": "s7-e1",
           "kind": "text",
           "head": "Letter from Ivy",
-          "html": "<b>Word box:</b> about, are, at, both, everyone, for, than, were, who, with<br><br><b>Our new flat</b><br>Dear Ana,<br>How are you? Last month we moved to a new flat. It is (0) <b>at</b> the top of a tall building, and it is much bigger (18) ________ our old one. From my bedroom window I can see the river and the bridge!<br>When we arrived, there (19) ________ boxes everywhere, and we couldn't find our plates. Our neighbour is a friendly old man (20) ________ grows tomatoes and herbs on his balcony. He gave us a big bowl of soup on the first night.<br>At first I was worried (21) ________ making new friends, but (22) ________ in my new class is kind to me. My brother and I (23) ________ joining the school swimming club next week. (24) ________ my parents love the big park near our building, and we go there every evening.<br>Please write soon!<br>Love,<br>Ivy"
+          "html": "<b>Word box:</b> about, are, at, both, everyone, for, than, were, who, with<br><br><b>Our new flat</b><br>Dear Ana,<br>How are you? Last month we moved to a new flat. It is (0) <b>at</b> the top of a tall building, and it is much bigger (1) ________ our old one. From my bedroom window I can see the river and the bridge!<br>When we arrived, there (2) ________ boxes everywhere, and we couldn't find our plates. Our neighbour is a friendly old man (3) ________ grows tomatoes and herbs on his balcony. He gave us a big bowl of soup on the first night.<br>At first I was worried (4) ________ making new friends, but (5) ________ in my new class is kind to me. My brother and I (6) ________ joining the school swimming club next week. (7) ________ my parents love the big park near our building, and we go there every evening.<br>Please write soon!<br>Love,<br>Ivy"
          }
         },
         {
@@ -1455,7 +1455,7 @@
          },
          "worked": "A plan with <b>Next weekend</b>: I <b>am staying</b> (present continuous).",
          "type": "tfill",
-         "q": "Read the letter. Write ONE word from the box for gap 23.",
+         "q": "Read the letter. Write ONE word from the box for gap (6).",
          "lines": [
           "Next weekend I {0} staying at his house for two nights."
          ],
@@ -1470,7 +1470,7 @@
           "id": "s7-e2",
           "kind": "text",
           "head": "Letter from Phuc",
-          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. Then I heard (22) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc"
+          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (1) ________ his party last year! There (2) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (3) ________ Grandpa loves. Grandpa is very good (4) ________ telling funny stories, and he told us about his first job. Then I heard (5) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (6) ________ staying at his house for two nights. (7) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc"
          }
         }
        ]
@@ -1487,7 +1487,7 @@
          },
          "worked": "Two parents, so we use <b>Both</b>: <b>Both</b> my parents.",
          "type": "tfill",
-         "q": "Read the letter. Write ONE word from the box for gap 24.",
+         "q": "Read the letter. Write ONE word from the box for gap (7).",
          "lines": [
           "{0} my parents love the big park near our building."
          ],
@@ -1501,7 +1501,7 @@
           "id": "s7-e1",
           "kind": "text",
           "head": "Letter from Ivy",
-          "html": "<b>Word box:</b> about, are, at, both, everyone, for, than, were, who, with<br><br><b>Our new flat</b><br>Dear Ana,<br>How are you? Last month we moved to a new flat. It is (0) <b>at</b> the top of a tall building, and it is much bigger (18) ________ our old one. From my bedroom window I can see the river and the bridge!<br>When we arrived, there (19) ________ boxes everywhere, and we couldn't find our plates. Our neighbour is a friendly old man (20) ________ grows tomatoes and herbs on his balcony. He gave us a big bowl of soup on the first night.<br>At first I was worried (21) ________ making new friends, but (22) ________ in my new class is kind to me. My brother and I (23) ________ joining the school swimming club next week. (24) ________ my parents love the big park near our building, and we go there every evening.<br>Please write soon!<br>Love,<br>Ivy"
+          "html": "<b>Word box:</b> about, are, at, both, everyone, for, than, were, who, with<br><br><b>Our new flat</b><br>Dear Ana,<br>How are you? Last month we moved to a new flat. It is (0) <b>at</b> the top of a tall building, and it is much bigger (1) ________ our old one. From my bedroom window I can see the river and the bridge!<br>When we arrived, there (2) ________ boxes everywhere, and we couldn't find our plates. Our neighbour is a friendly old man (3) ________ grows tomatoes and herbs on his balcony. He gave us a big bowl of soup on the first night.<br>At first I was worried (4) ________ making new friends, but (5) ________ in my new class is kind to me. My brother and I (6) ________ joining the school swimming club next week. (7) ________ my parents love the big park near our building, and we go there every evening.<br>Please write soon!<br>Love,<br>Ivy"
          }
         },
         {
@@ -1510,7 +1510,7 @@
          },
          "worked": "Many cousins and a very busy house: <b>All</b> my cousins.",
          "type": "tfill",
-         "q": "Read the letter. Write ONE word from the box for gap 24.",
+         "q": "Read the letter. Write ONE word from the box for gap (7).",
          "lines": [
           "{0} my cousins are staying there too, so the house will be very busy!"
          ],
@@ -1524,7 +1524,7 @@
           "id": "s7-e2",
           "kind": "text",
           "head": "Letter from Phuc",
-          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. Then I heard (22) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc"
+          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (1) ________ his party last year! There (2) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (3) ________ Grandpa loves. Grandpa is very good (4) ________ telling funny stories, and he told us about his first job. Then I heard (5) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (6) ________ staying at his house for two nights. (7) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc"
          }
         }
        ]
@@ -1626,7 +1626,7 @@
       },
       "worked": "Last week, with <b>I</b>: I <b>was</b> too tired.",
       "type": "tfill",
-      "q": "Read the letter. Write ONE word from the box for gap 18.",
+      "q": "Read the letter. Write ONE word from the box for gap (1).",
       "lines": [
        "On Monday I {0} too tired to get out of bed."
       ],
@@ -1640,7 +1640,7 @@
        "id": "s7-t1",
        "kind": "text",
        "head": "Letter from Molly",
-       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (18) ________ too tired to get out of bed. Mum took me to see a doctor (19) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (20) ________ before! Are you still interested (21) ________ joining the chess club with me? I (22) ________ going back to school next Monday, so we can sign up together.<br>See you soon,<br>Molly"
+       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (1) ________ too tired to get out of bed. Mum took me to see a doctor (2) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (3) ________ before! Are you still interested (4) ________ joining the chess club with me? I (5) ________ going back to school next Monday, so we can sign up together.<br>See you soon,<br>Molly"
       }
      },
      {
@@ -1649,7 +1649,7 @@
       },
       "worked": "Past + many <b>races</b>: there <b>were</b>.",
       "type": "tfill",
-      "q": "Read the letter. Write ONE word from the box for gap 18.",
+      "q": "Read the letter. Write ONE word from the box for gap (1).",
       "lines": [
        "There {0} six races for each class."
       ],
@@ -1663,7 +1663,7 @@
        "id": "s7-t2",
        "kind": "text",
        "head": "Letter from Hamid",
-       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (18) ________ six races for each class, and the sun was shining all day. The boy (19) ________ lives next door to me won two races. I came second in the long race. It was harder (20) ________ I expected, but I didn't stop. Dad was very proud (21) ________ me! Next Saturday, my team (22) ________ having a picnic in the park to celebrate. Can you come too?<br>Best wishes,<br>Hamid"
+       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (1) ________ six races for each class, and the sun was shining all day. The boy (2) ________ lives next door to me won two races. I came second in the long race. It was harder (3) ________ I expected, but I didn't stop. Dad was very proud (4) ________ me! Next Saturday, my team (5) ________ having a picnic in the park to celebrate. Can you come too?<br>Best wishes,<br>Hamid"
       }
      }
     ]
@@ -1680,7 +1680,7 @@
       },
       "worked": "'a <b>doctor who</b> was very kind': for a person we use <b>who</b>.",
       "type": "tfill",
-      "q": "Read the letter. Write ONE word from the box for gap 19.",
+      "q": "Read the letter. Write ONE word from the box for gap (2).",
       "lines": [
        "Mum took me to see a doctor {0} was very kind."
       ],
@@ -1695,7 +1695,7 @@
        "id": "s7-t1",
        "kind": "text",
        "head": "Letter from Molly",
-       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (18) ________ too tired to get out of bed. Mum took me to see a doctor (19) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (20) ________ before! Are you still interested (21) ________ joining the chess club with me? I (22) ________ going back to school next Monday, so we can sign up together.<br>See you soon,<br>Molly"
+       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (1) ________ too tired to get out of bed. Mum took me to see a doctor (2) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (3) ________ before! Are you still interested (4) ________ joining the chess club with me? I (5) ________ going back to school next Monday, so we can sign up together.<br>See you soon,<br>Molly"
       }
      },
      {
@@ -1704,7 +1704,7 @@
       },
       "worked": "'The <b>boy who</b> lives next door': for a person we use <b>who</b>.",
       "type": "tfill",
-      "q": "Read the letter. Write ONE word from the box for gap 19.",
+      "q": "Read the letter. Write ONE word from the box for gap (2).",
       "lines": [
        "The boy {0} lives next door to me won two races."
       ],
@@ -1719,7 +1719,7 @@
        "id": "s7-t2",
        "kind": "text",
        "head": "Letter from Hamid",
-       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (18) ________ six races for each class, and the sun was shining all day. The boy (19) ________ lives next door to me won two races. I came second in the long race. It was harder (20) ________ I expected, but I didn't stop. Dad was very proud (21) ________ me! Next Saturday, my team (22) ________ having a picnic in the park to celebrate. Can you come too?<br>Best wishes,<br>Hamid"
+       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (1) ________ six races for each class, and the sun was shining all day. The boy (2) ________ lives next door to me won two races. I came second in the long race. It was harder (3) ________ I expected, but I didn't stop. Dad was very proud (4) ________ me! Next Saturday, my team (5) ________ having a picnic in the park to celebrate. Can you come too?<br>Best wishes,<br>Hamid"
       }
      }
     ]
@@ -1736,7 +1736,7 @@
       },
       "worked": "'<b>hungrier than</b> before': after a comparative we use <b>than</b>.",
       "type": "tfill",
-      "q": "Read the letter. Write ONE word from the box for gap 20.",
+      "q": "Read the letter. Write ONE word from the box for gap (3).",
       "lines": [
        "Now I'm feeling much better, and I'm hungrier {0} before!"
       ],
@@ -1750,7 +1750,7 @@
        "id": "s7-t1",
        "kind": "text",
        "head": "Letter from Molly",
-       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (18) ________ too tired to get out of bed. Mum took me to see a doctor (19) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (20) ________ before! Are you still interested (21) ________ joining the chess club with me? I (22) ________ going back to school next Monday, so we can sign up together.<br>See you soon,<br>Molly"
+       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (1) ________ too tired to get out of bed. Mum took me to see a doctor (2) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (3) ________ before! Are you still interested (4) ________ joining the chess club with me? I (5) ________ going back to school next Monday, so we can sign up together.<br>See you soon,<br>Molly"
       }
      },
      {
@@ -1759,7 +1759,7 @@
       },
       "worked": "'<b>harder than</b> I expected': after a comparative we use <b>than</b>.",
       "type": "tfill",
-      "q": "Read the letter. Write ONE word from the box for gap 20.",
+      "q": "Read the letter. Write ONE word from the box for gap (3).",
       "lines": [
        "It was harder {0} I expected, but I didn't stop."
       ],
@@ -1773,7 +1773,7 @@
        "id": "s7-t2",
        "kind": "text",
        "head": "Letter from Hamid",
-       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (18) ________ six races for each class, and the sun was shining all day. The boy (19) ________ lives next door to me won two races. I came second in the long race. It was harder (20) ________ I expected, but I didn't stop. Dad was very proud (21) ________ me! Next Saturday, my team (22) ________ having a picnic in the park to celebrate. Can you come too?<br>Best wishes,<br>Hamid"
+       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (1) ________ six races for each class, and the sun was shining all day. The boy (2) ________ lives next door to me won two races. I came second in the long race. It was harder (3) ________ I expected, but I didn't stop. Dad was very proud (4) ________ me! Next Saturday, my team (5) ________ having a picnic in the park to celebrate. Can you come too?<br>Best wishes,<br>Hamid"
       }
      }
     ]
@@ -1790,7 +1790,7 @@
       },
       "worked": "We always say <b>interested in</b>.",
       "type": "tfill",
-      "q": "Read the letter. Write ONE word from the box for gap 21.",
+      "q": "Read the letter. Write ONE word from the box for gap (4).",
       "lines": [
        "Are you still interested {0} joining the chess club with me?"
       ],
@@ -1804,7 +1804,7 @@
        "id": "s7-t1",
        "kind": "text",
        "head": "Letter from Molly",
-       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (18) ________ too tired to get out of bed. Mum took me to see a doctor (19) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (20) ________ before! Are you still interested (21) ________ joining the chess club with me? I (22) ________ going back to school next Monday, so we can sign up together.<br>See you soon,<br>Molly"
+       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (1) ________ too tired to get out of bed. Mum took me to see a doctor (2) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (3) ________ before! Are you still interested (4) ________ joining the chess club with me? I (5) ________ going back to school next Monday, so we can sign up together.<br>See you soon,<br>Molly"
       }
      },
      {
@@ -1813,7 +1813,7 @@
       },
       "worked": "We always say <b>proud of</b>.",
       "type": "tfill",
-      "q": "Read the letter. Write ONE word from the box for gap 21.",
+      "q": "Read the letter. Write ONE word from the box for gap (4).",
       "lines": [
        "Dad was very proud {0} me!"
       ],
@@ -1827,7 +1827,7 @@
        "id": "s7-t2",
        "kind": "text",
        "head": "Letter from Hamid",
-       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (18) ________ six races for each class, and the sun was shining all day. The boy (19) ________ lives next door to me won two races. I came second in the long race. It was harder (20) ________ I expected, but I didn't stop. Dad was very proud (21) ________ me! Next Saturday, my team (22) ________ having a picnic in the park to celebrate. Can you come too?<br>Best wishes,<br>Hamid"
+       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (1) ________ six races for each class, and the sun was shining all day. The boy (2) ________ lives next door to me won two races. I came second in the long race. It was harder (3) ________ I expected, but I didn't stop. Dad was very proud (4) ________ me! Next Saturday, my team (5) ________ having a picnic in the park to celebrate. Can you come too?<br>Best wishes,<br>Hamid"
       }
      }
     ]
@@ -1844,7 +1844,7 @@
       },
       "worked": "A plan with <b>next Monday</b>: I <b>am going</b> back to school (present continuous).",
       "type": "tfill",
-      "q": "Read the letter. Write ONE word from the box for gap 22.",
+      "q": "Read the letter. Write ONE word from the box for gap (5).",
       "lines": [
        "I {0} going back to school next Monday, so we can sign up together."
       ],
@@ -1859,7 +1859,7 @@
        "id": "s7-t1",
        "kind": "text",
        "head": "Letter from Molly",
-       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (18) ________ too tired to get out of bed. Mum took me to see a doctor (19) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (20) ________ before! Are you still interested (21) ________ joining the chess club with me? I (22) ________ going back to school next Monday, so we can sign up together.<br>See you soon,<br>Molly"
+       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (1) ________ too tired to get out of bed. Mum took me to see a doctor (2) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (3) ________ before! Are you still interested (4) ________ joining the chess club with me? I (5) ________ going back to school next Monday, so we can sign up together.<br>See you soon,<br>Molly"
       }
      },
      {
@@ -1868,7 +1868,7 @@
       },
       "worked": "A plan with <b>Next Saturday</b>: my team <b>is having</b> a picnic.",
       "type": "tfill",
-      "q": "Read the letter. Write ONE word from the box for gap 22.",
+      "q": "Read the letter. Write ONE word from the box for gap (5).",
       "lines": [
        "Next Saturday, my team {0} having a picnic in the park to celebrate."
       ],
@@ -1883,7 +1883,7 @@
        "id": "s7-t2",
        "kind": "text",
        "head": "Letter from Hamid",
-       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (18) ________ six races for each class, and the sun was shining all day. The boy (19) ________ lives next door to me won two races. I came second in the long race. It was harder (20) ________ I expected, but I didn't stop. Dad was very proud (21) ________ me! Next Saturday, my team (22) ________ having a picnic in the park to celebrate. Can you come too?<br>Best wishes,<br>Hamid"
+       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (1) ________ six races for each class, and the sun was shining all day. The boy (2) ________ lives next door to me won two races. I came second in the long race. It was harder (3) ________ I expected, but I didn't stop. Dad was very proud (4) ________ me! Next Saturday, my team (5) ________ having a picnic in the park to celebrate. Can you come too?<br>Best wishes,<br>Hamid"
       }
      }
     ]
@@ -1906,7 +1906,7 @@
        "celebrate",
        "celebrating"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "'Last Saturday' is finished time, so the base form is wrong.",
@@ -2022,7 +2022,7 @@
        "fewer",
        "many"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "'fewer' is for things we can count. We can't count sugar.",
@@ -2050,7 +2050,7 @@
        "which",
        "who"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "'which' is for things, but here the lake is the place the ducks live.",
@@ -2070,7 +2070,7 @@
        "who",
        "where"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "'who' is for people, but a drink is a thing.",
@@ -2098,7 +2098,7 @@
        "something",
        "nothing"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "After 'not' we don't use 'something'.",
@@ -2118,7 +2118,7 @@
        "anything",
        "something"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "'anything' is for questions and sentences with 'not'.",

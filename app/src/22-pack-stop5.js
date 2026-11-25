@@ -315,7 +315,7 @@
           "her sister",
           "her grandma"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Huy guesses her sister, but Vy says her sister was at her dance class.",
@@ -363,7 +363,7 @@
           "a famous footballer",
           "his football coach"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Freya guesses a footballer, but Noah says \"no\".",
@@ -419,7 +419,7 @@
           "on Saturday",
           "on Friday"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "The party was going to be on Saturday, but Dad has to work then.",
@@ -467,7 +467,7 @@
           "this afternoon",
           "on Thursday"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "The dentist had nothing this afternoon.",
@@ -571,7 +571,7 @@
           "It's bigger than her old flat.",
           "It's close to her school."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Pia says the new flat is smaller, not bigger.",
@@ -627,7 +627,7 @@
           "the lion dance",
           "the food"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Oscar says the lion dance was amazing.",
@@ -675,7 +675,7 @@
           "play tennis",
           "go to the cinema"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "The tennis courts are closed today.",
@@ -760,7 +760,7 @@
           "his mum",
           "his teacher"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Dan's mum was at work in another town, so she didn't take him.",
@@ -808,7 +808,7 @@
           "her dad",
           "a teacher at the pool"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Pia says her dad is too busy at the moment.",
@@ -917,7 +917,7 @@
           "next Tuesday",
           "next Friday"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Tuesday was the first plan, but the museum is closed on Tuesdays.",
@@ -1143,7 +1143,7 @@
           "the face painting",
           "the dance show"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Dan's little sister loved the face painting. Dan didn't do it.",
@@ -1199,7 +1199,7 @@
           "the cakes",
           "the fruit drinks"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Eva says the cakes are delicious.",
@@ -1463,7 +1463,7 @@
           "lonely",
           "worried"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Vy asks if he feels lonely, and Huy says \"Not now\".",
@@ -1519,7 +1519,7 @@
           "play in a football match",
           "visit his grandma"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "The next football match is in two weeks, not this Saturday.",
@@ -1567,7 +1567,7 @@
           "chocolate biscuits",
           "a pizza"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "The teacher said no sweets or chocolate.",
@@ -1623,7 +1623,7 @@
           "She's very shy.",
           "She gets angry easily."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Eva's grandma is shy, not Noah's.",
@@ -1671,7 +1671,7 @@
           "He lends Dan his bike.",
           "He helps Dan with homework."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Dan says his brother never lends him his bike.",
@@ -1827,7 +1827,7 @@
           "a peach tree",
           "some big yellow flowers"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "The peach trees were too expensive this year.",
@@ -1903,7 +1903,7 @@
           "a big market",
           "lots of busy shops"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "There used to be a big market, but not now.",
@@ -2135,7 +2135,7 @@
           "visit her grandparents' village",
           "help Grandma cook"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Vy is visiting her grandparents on the second day of Tet, not tomorrow.",
@@ -2287,7 +2287,7 @@
           "She was just very tired.",
           "She needed more water."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Mum thought she was tired, but that was wrong.",
@@ -2358,7 +2358,7 @@
           "the rice cakes",
           "the fish balls"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Huy says the rice cakes were only OK.",
@@ -2426,7 +2426,7 @@
           "He brought her some soup.",
           "He let her watch TV."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Mum brought Freya the water and soup, not her brother.",
@@ -2497,7 +2497,7 @@
           "the fruit and vegetables",
           "the grains"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Huy's friend is drawing the fruit and vegetables.",
@@ -2565,7 +2565,7 @@
           "go back to the zoo",
           "see the elephants again"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "The class went to the zoo yesterday. They aren't going back.",
@@ -2644,7 +2644,7 @@
           "Wren's own",
           "Wren's dad's"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Noah guesses it was Wren's idea, but she says \"No, I wish!\"",
@@ -2717,7 +2717,7 @@
           "a singer she likes",
           "her grandma"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Pia was going to write about the singer, but she changed her mind.",
@@ -2793,7 +2793,7 @@
           "getting up early",
           "picking up bottles"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "It was Wren's dad who doesn't like getting up early on Sundays.",
@@ -2942,7 +2942,7 @@
           "plant some flowers",
           "pick up rubbish again"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "There isn't any money for flowers yet.",
@@ -3015,7 +3015,7 @@
           "at the hospital",
           "at school"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Children can't go into the baby unit at the hospital.",
@@ -3264,7 +3264,7 @@
        "on Saturday",
        "next Saturday"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Noah guesses Saturday, but Vy says it was too busy on Saturday.",
@@ -3350,7 +3350,7 @@
        "his grandpa",
        "his friends from football"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "Huy says his grandpa came.",
@@ -3438,7 +3438,7 @@
        "the little cinema",
        "the room for making things"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Vy says there is a little cinema, but it isn't her favourite.",
@@ -3524,7 +3524,7 @@
        "the chocolate cake",
        "the camera"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "There was a chocolate cake. Grandpa didn't forget it.",
@@ -3612,7 +3612,7 @@
        "books about space",
        "some comics"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "The space books were too difficult for Vy.",
@@ -3698,7 +3698,7 @@
        "a football",
        "some books"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Huy got a football, but it wasn't his favourite.",
@@ -3786,7 +3786,7 @@
        "two weeks",
        "one week"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "Noah guesses two weeks, but Vy says \"No\".",
@@ -3872,7 +3872,7 @@
        "a computer game",
        "more books"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Huy was going to buy a game, but he changed his plan.",
@@ -3960,7 +3960,7 @@
        "a puppet show",
        "a film in the cinema"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "The puppet show is in the morning, when Vy has her piano lesson.",
@@ -4124,7 +4124,7 @@
        "He was cross.",
        "He felt too tired."
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "Pia says \"He wasn't cross\".",
@@ -4220,7 +4220,7 @@
        "His team didn't win.",
        "He came last in the race."
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Kenji's team won the cup.",
@@ -4394,7 +4394,7 @@
        "run more slowly",
        "not run the race at all"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "Eva asks this, but Kenji says \"No way!\"",
@@ -4472,7 +4472,7 @@
        "He doesn't like cake.",
        "The cake was very small."
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Pia says \"he loves cake!\"",
@@ -4568,7 +4568,7 @@
        "wear his hat every day",
        "eat more bananas"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "Kenji says he will wear his hat, but that is his own idea.",
@@ -4646,7 +4646,7 @@
        "It was really short.",
        "Grandma told funny stories."
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Grandpa talked for ten minutes, so it wasn't short.",
@@ -4820,7 +4820,7 @@
        "make a video",
        "choose the photos"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Dad wanted a video, but they're making a photo book instead.",

@@ -19,3 +19,14 @@
 
 ## Lessons from Grade 5 built in from the start
 Summit totals from the ESL papers; a Summit that does not repeat any stop's texts or writing prompts; no answer-length pattern (the right answer is the longest option in about a third of questions); real grammatical distractors only; listening distractors all heard in the talk; hints that teach a strategy; every correct typed answer accepted; honest DOK labels; definition-based Words step; writing models with marks per category; clearer recordings (exact letter names, equal loudness); separate saved-data keys; British spelling; no em dashes.
+
+## Expert review (25 November 2026, version 2)
+
+Asked by Jovan ("improve these two apps"). Four specialist reviewers (listening, grammar and Use of English, reading, writing) and a child play-through tester worked without seeing the papers; the checker then re-compared every change with the papers.
+
+| Area | Change |
+| --- | --- |
+| Content (96 fixes) | Questions with two right answers fixed; word-box gaps made single-answer; more accepted forms for times, dates and prices; listening talks trimmed to exam lengths and answers no longer always after "but" (12 recordings remade); Summit reading texts shortened; writing models re-marked to match the rubric exactly. |
+| Play-through content fixes | Gap numbers match question numbers in Mini tests and practice; answer positions re-mixed; clearer word pictures; different names for different people in the Summit and Stop 8. |
+| Engine | Letters A to J on 8-option questions; question kept in view beside long texts; word box and typing box stay visible above the letter pad on phones; letter pad fits a phone; Lightning cannot be won by random tapping; one compact letter row per gap; writing desk wording per grade, must mark before moving on; "Fluency" descriptor mentions run-on and choppy sentences; flip cards show bold words; Summit clock always visible; then/than and similar mix-ups no longer called spelling slips; many small phone layout fixes. |
+| Item security | Re-check after the review: 0 shared names; copied runs only on standard instructions; 3 reused situations or prompt wordings found and rewritten. The style guide now describes the writing prompts in general terms only. |

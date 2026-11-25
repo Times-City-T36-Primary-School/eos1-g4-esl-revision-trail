@@ -373,7 +373,8 @@
           node.classList.add('is-wrong');
           T.fx.sfx('no');
           // the right one turns green at once, beside the red one; Zip says what the word means
-          const item = words.items[key], mean = item ? partsOf(item).def.replace(/\*/g, '') : '';
+          const item = words.items[key], def0 = item ? partsOf(item).def.replace(/\*/g, '') : '';
+          const mean = /^[A-Z][a-z]/.test(def0) ? def0.charAt(0).toLowerCase() + def0.slice(1) : def0;   // "means: friendly and ..." 
           const w = str(ctx, 'wrong');
           ctx.instruct({ mood: 'oops', en: mean ? '*' + key + '* means: ' + mean : w.en, vi: mean && item.vi ? '*' + key + '*: ' + item.vi : w.vi });
           const good = all.filter(function (c) { return c.getAttribute('data-value') === key; })[0];
