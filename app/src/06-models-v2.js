@@ -67,7 +67,7 @@ function arrange(list, at) {
   out.splice(Math.max(0, Math.min(rest.length, at || 0)), 0, first);
   return out;
 }
-const LET = ["A", "B", "C", "D", "E"];
+const LET = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"];
 
 /* feedback for a wrong answer to n × by or n ÷ by */
 function slipMsg(n, op, by, v) {

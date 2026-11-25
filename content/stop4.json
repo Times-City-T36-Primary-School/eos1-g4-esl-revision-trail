@@ -57,13 +57,13 @@
     "ex": "The film starts at *half past* six, so write 6:30."
    },
    "quarter past": {
-    "emoji": "⏱️",
+    "emoji": "🕒",
     "vi": "hơn mười lăm phút",
     "def": "Fifteen minutes after the hour, for example 9:15 or 2:15.",
     "ex": "The coach leaves at *quarter past* eight, so write 8:15."
    },
    "quarter to": {
-    "emoji": "⏰",
+    "emoji": "🕘",
     "vi": "kém mười lăm",
     "def": "Fifteen minutes before the next hour, for example 4:45 or 9:45.",
     "ex": "Please come at *quarter to* ten. That's 9:45."
@@ -368,7 +368,7 @@
          "tag": ""
         }
        ],
-       "at": 0,
+       "at": 2,
        "whys": [
         null,
         "Grandpa used to go fishing, but his back hurts now.",
@@ -481,7 +481,7 @@
          "tag": "free"
         }
        ],
-       "at": 2,
+       "at": 0,
        "whys": [
         null,
         "Ten pounds is the price for adults.",
@@ -594,7 +594,7 @@
          "tag": ""
         }
        ],
-       "at": 0,
+       "at": 1,
        "whys": [
         null,
         "Raj asks about a hotel, but Ngoc says no.",
@@ -839,7 +839,7 @@
            "tag": "7:30"
           }
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Six o'clock is when the doors open.",
@@ -958,7 +958,7 @@
            "tag": "£2"
           }
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Four pounds was the price last year.",
@@ -1199,7 +1199,7 @@
            "tag": "fever"
           }
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Mum guesses a headache, but Lucy says her head is OK.",
@@ -1313,7 +1313,7 @@
            "tag": ""
           }
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Clara wanted to go to the museum, but it was closed.",
@@ -1858,7 +1858,7 @@
            "tag": ""
           }
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Dad asks about cereal, but Aisha says no.",
@@ -2086,7 +2086,7 @@
            "tag": ""
           }
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Lucy can't watch the fireworks, because her sister is afraid of the noise.",
@@ -2208,7 +2208,7 @@
            "tag": ""
           }
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Jack's long trousers are wet, so he can't wear them.",
@@ -3256,7 +3256,7 @@
         "tag": ""
        }
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "The neighbour's son usually cleans her bike.",
@@ -3376,7 +3376,7 @@
         "tag": ""
        }
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "The watermelon is too heavy to carry on Aisha's bike.",
@@ -3491,7 +3491,7 @@
         "tag": "£15"
        }
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Twenty pounds was the old price.",

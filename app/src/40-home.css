@@ -366,3 +366,5 @@
 }
 
 
+/* a phone: Zip stands a little to the left of the current stop, off its number badge */
+@media (max-width: 599px) { .map__nodes .map-node__zip { translate: -1.75rem -.375rem; } }

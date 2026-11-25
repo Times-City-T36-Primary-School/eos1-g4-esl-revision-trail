@@ -29,6 +29,16 @@ def stim_fig(st, keep_bank=False):
         f['html'] = st.get('html') or ''
     return f
 
+def pic_alt(x):
+    # the name of a picture answer for a screen reader: the emoji's Unicode name, then its tag ("alarm clock, 7:45")
+    import unicodedata
+    names = []
+    for ch in x.get('pic') or '':
+        try: nm = unicodedata.name(ch)
+        except ValueError: continue
+        if not any(w in nm for w in ('VARIATION SELECTOR', 'ZERO WIDTH', 'EMOJI MODIFIER')): names.append(nm.lower())
+    return ', '.join([w for w in (' and '.join(names), x.get('tag') or '') if w]) or 'picture'
+
 def hint(h):
     if not h: return None
     return h if isinstance(h, dict) else {'step': star2b(h)}
@@ -48,7 +58,7 @@ def item(it):
         for x in it['opts']:
             if isinstance(x, str): x = {'pic': x}
             opts.append({'html': '', 'fig': {'k': 'pico', 'pic': x.get('pic', ''), 'tag': x.get('tag', '')},
-                         'alt': (x.get('tag') or '') + ' picture'})
+                         'alt': pic_alt(x)})
         o = dict(base, type='mcq', q=star2b(it['q']), opts=opts, at=it.get('at', 0), whys=it.get('whys') or [],
                  letters=True, sub='Tap one picture.')
         f = stim_fig(st)

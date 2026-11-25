@@ -30,8 +30,6 @@
     { at: 6, k: 'bronze', name: 'Bronze medal' }
   ];
   const STRANDS = { L: 'Listening', U: 'Use of English', R: 'Reading', W: 'Writing' };
-  const INSTRUCTIONS = 'Answer all the questions. Tap a dotted line or a box to write. The bold words tell you what to do. ' +
-    'The number in [ ] brackets shows how many marks a part is worth.';
 
   // Zip's lines: at most 10 words each (Phase 3); how to write on the paper is in the paper's own instructions
   const STR = {
@@ -113,7 +111,7 @@
           return el('li', { class: 'tp-strand' }, el('b', k), STRANDS[k]);
         })));
       }
-      sheet.appendChild(el('p', { class: 'tp-instr' }, INSTRUCTIONS));
+      sheet.appendChild(T.testPaper.instr(qs.map(function (x) { return x.task; })));
 
       const padBox = el('div', { class: 'tp-pad' });
       function showPad(on) { tp.classList.toggle('is-typing', !!on); }
@@ -134,12 +132,12 @@
 
       function vals(x) { return pad ? pad.get().slice(x.off, x.off + x.Q.blanks.length) : []; }
       function intoView(node) {
-        ctx.later(function () { try { node.scrollIntoView({ block: 'nearest' }); } catch (e) { /* a nicety */ } }, 60);
+        ctx.later(function () { T.testPaper.keepInView(sheet, node); }, 60);
       }
 
       if (allBlanks.length) {
         pad = T.tools.numpad({
-          blanks: allBlanks, defs: allDefs, onChange: function () { showPad(true); recount(); },
+          blanks: allBlanks, defs: allDefs, onChange: function () { showPad(true); recount(); }, onFocus: intoView,
           onEnter: function () {
             const i = allBlanks.findIndex(function (b) { return b.classList.contains('is-on'); });
             if (i >= 0 && i < allBlanks.length - 1) { pad.focus(i + 1); intoView(allBlanks[i + 1]); }

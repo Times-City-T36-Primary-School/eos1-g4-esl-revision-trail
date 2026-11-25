@@ -1510,7 +1510,7 @@
        "because",
        "also"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "'because' gives a reason, but picking up rubbish is the result.",
@@ -1599,7 +1599,7 @@
        "as a list of single words",
        "as a letter with a greeting"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Single words are not sentences, so they cannot explain your ideas.",
@@ -1701,7 +1701,7 @@
        "The road near my school is very long and wide.",
        "Next, look left and right before you cross."
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "This describes the road; it does not give a reason.",
@@ -1746,7 +1746,7 @@
        "You mustn't feeding the ducks bread.",
        "You mustn't fed the ducks bread."
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "After 'mustn't' we use the base verb, not the -ing form.",
@@ -1836,7 +1836,7 @@
        "Our bathroom has a big blue tap and a small white sink.",
        "Next, you need a big bucket."
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "This is a small detail, not an ending that sums up.",

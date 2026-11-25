@@ -52,7 +52,7 @@
         return el('div', { class: 'howto__row', 'aria-hidden': 'true' }, fake('Hint', 'bulb'), fake('Show me how', 'bulb'));
       case 'paper':
         return el('div', { class: 'howto__paper', 'aria-hidden': 'true' },
-          el('p', el('b', '1 '), 'Write the number.'),
+          el('p', el('b', '1 '), 'Write the word.'),
           el('p', { class: 'howto__dots' }, el('span'), el('i', '[1]')),
           el('p', el('b', '2 '), 'Tick one box.'),
           el('p', { class: 'howto__ticks' }, el('span', { class: 'is-on' }, T.ui.icon('check')), el('span'), el('span')),

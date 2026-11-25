@@ -184,3 +184,6 @@
 }
 
 
+/* the instructions: one short line and its Vietnamese line */
+.tp-instr { display: flex; flex-direction: column; gap: .125rem; }
+.tp-instr__vi { font-size: .875rem; color: #555555; }

@@ -14,7 +14,7 @@
       vi: 'Đỉnh của hành trình! Hãy thể hiện điều em biết trong bài thi thử giống bài thi thật.' },
     zip: {
       locked: { en: 'Finish *{n} more* Mini tests to climb up here!', vi: 'Hoàn thành thêm *{n}* bài kiểm tra nhỏ để leo lên đây!' },
-      open: { en: 'You made it! Start with the *final test*.', vi: 'Em đã đến nơi! Hãy bắt đầu với *bài kiểm tra cuối*.' },
+      open: { en: 'Welcome to the *Summit*! Try the *final test* when ready.', vi: 'Chào mừng em đến *Đỉnh núi*! Hãy làm *bài kiểm tra cuối* khi em sẵn sàng.' },
       again: { en: 'Try the final test again with *new questions*.', vi: 'Làm lại bài kiểm tra cuối với *câu hỏi mới* nhé.' },
       won: { en: 'You won the *Summit Trophy*! Print your certificate.', vi: 'Em đã giành *Cúp Đỉnh núi*! Hãy in giấy chứng nhận.' }
     },
@@ -24,7 +24,7 @@
       card: 'Opens after 4 Mini tests'
     },
     cards: {
-      test: { label: 'Final test', line: 'Two papers, like the real test', best: 'Best: {s} out of {t} marks' },
+      test: { label: 'Final test', line: 'Papers 1 and 2: Listening, Reading (Writing has its own card)', best: 'Best: {s} out of {t} marks' },
       big: { label: 'Big Lightning round', line: '90 seconds, questions from every stop', best: 'Best: {b} right' },
       cert: { label: 'My certificate', line: 'Win the trophy to get it', ready: 'Ready to print' }
     },
@@ -36,7 +36,7 @@
       end: 'End of Paper {p}',
       intro: { en: 'Two papers, like the *real test*. Do your best!', vi: 'Hai bài, giống *bài thi thật*. Em cố gắng hết sức nhé!' },
       carry: { en: 'Paper 1 is marked. Now do *Paper 2*.', vi: 'Bài 1 đã chấm xong. Bây giờ làm *Bài 2* nhé.' },
-      facts: ['Paper 1, Listening: 15 questions, 25 minutes.', 'Paper 2, Reading and Use of English: 34 questions, 35 minutes.', 'Paper 3, Writing, is on its own card: 2 tasks, 35 minutes, 7 to 8 sentences each.',
+      facts: ['Paper 1, Listening: 15 questions, 25 minutes.', 'Paper 2, Reading and Use of English: 34 questions, 35 minutes.', 'Paper 3, Writing, is on its own card: 2 tasks, 35 minutes, 7 to 8 sentences (60 to 90 words) each.',
         'No hints. Check your answers, then mark your paper.', 'Get {w} of the {t} marks (70%) to win the Summit Trophy.'],
       best: 'Your best: {s} out of {t} marks.',
       first: { en: 'Answer every question. Then tap *Mark my paper*.', vi: 'Trả lời mọi câu hỏi. Rồi bấm *Mark my paper* (Chấm bài).' },

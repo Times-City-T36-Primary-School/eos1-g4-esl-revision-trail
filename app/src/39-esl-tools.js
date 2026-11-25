@@ -32,6 +32,14 @@
     let plays = 0, busy = false;
     const label = el('span', { class: 'au__label' }, 'Listen');
     const btn = el('button', { type: 'button', class: 'au__btn pressable' }, T.ui.icon('play'), label);
+    // the icon follows the button: a play triangle, or two bars (pause) while the recording plays
+    let iconNow = 'play';
+    function setIcon(k) {
+      if (k === iconNow) return;
+      iconNow = k;
+      const old = btn.querySelector('svg.icon');
+      if (old) btn.replaceChild(T.ui.icon(k), old);
+    }
     const bar = el('span', { class: 'au__bar' }, el('span', { class: 'au__fill' }));
     const dots = el('span', { class: 'au__dots', 'aria-hidden': 'true' }, el('i'), el('i'));
     const eq = el('span', { class: 'au__eq', 'aria-hidden': 'true' }, el('i'), el('i'), el('i'), el('i'));      // ink sound bars (99-cartoon.css)
@@ -68,6 +76,7 @@
       if (exam && exam.phase === 'done' && !onPaper()) exam = null;      // the paper is marked: free listening again
       if (exam) { paintExam(); words.hidden = true; return; }
       label.textContent = busy ? 'Pause' : plays === 0 ? 'Listen' : plays >= lim ? 'No more plays' : 'Listen again';
+      setIcon(busy ? 'pause' : 'play');
       btn.disabled = !busy && plays >= lim;
       count.textContent = lim === 2 ? 'Exam mode: tap Listen. You will hear it two times, like the real exam.' : plays ? 'Played ' + plays + (plays === 1 ? ' time' : ' times') + '.' : 'Listen two times, like the exam.';
       words.hidden = onPaper() || plays < 2 || !script.hidden;
@@ -183,6 +192,31 @@
       if (id && id === last) { const box = f.closest('.tp-stim') || f; box.remove(); }
       else last = id;
     });
+  };
+
+  /* ---------- a bank of lettered answers and a word box ---------- */
+  // the letter of the example gap of a conversation ("(0) <b>C</b>"), or '' when the text has none
+  T.esl.exampleLetter = function (fig) {
+    const m = /\(0\)\s*(?:<b>|\*)\s*([A-J])\s*(?:<\/b>|\*)/.exec(String((fig && fig.html) || ''));
+    return m ? m[1] : '';
+  };
+  // a bank question (task.bankLetters): the whole bank, once, under the conversation; the example's letter is marked
+  T.esl.bankList = function (task) {
+    const ex = T.esl.exampleLetter(task.fig), lets = task.bankLetters || [];
+    return el('ol', { class: 'bank', 'aria-label': 'Answers ' + lets[0] + ' to ' + lets[lets.length - 1] },
+      (task.opts || []).map(function (op, i) {
+        const li = el('li', { class: ['bank__item', lets[i] === ex && 'is-example'] }, el('b', { class: 'bank__let' }, lets[i]),
+          html(el('span', { class: 'bank__txt' }), op.html || ''));
+        if (lets[i] === ex) li.appendChild(el('span', { class: 'bank__ex' }, '(example)'));
+        return li;
+      }));
+  };
+  // the words of a word box at the start of a text ("<b>Word box:</b> about, are, at<br>..."), or null
+  T.esl.wordBox = function (fig) {
+    const m = /^\s*(?:<b>)?\s*Word box\s*:?\s*(?:<\/b>)?\s*:?\s*([^<]+)/i.exec(String((fig && fig.k === 'stim' && fig.html) || ''));
+    if (!m) return null;
+    const words = m[1].split(',').map(function (w) { return w.trim(); }).filter(Boolean);
+    return words.length ? words : null;
   };
 
   /* ---------- a See it scene ---------- */

@@ -198,7 +198,16 @@
     }
     if (task.name != null) card.appendChild(el('p', { class: 'mk__name' }, MX.words(task.name)));
     if (task.sum) card.appendChild(html(el('p', { class: 'mk__sum' }), task.sum));
-    if (task.fig) { const f = T.tools.pic(task.fig); if (f) card.insertBefore(f, isClaim || task.fig.k === 'stim' ? card.firstChild : null); }
+    let stimNode = null;
+    if (task.fig) {
+      const f = T.tools.pic(task.fig);
+      if (f) card.insertBefore(f, isClaim || task.fig.k === 'stim' ? card.firstChild : null);
+      if (f && task.fig.k === 'stim' && task.fig.kind !== 'audio') stimNode = f;
+    }
+    // a bank question (a conversation with gaps, answers A to H): the bank is listed once under the conversation,
+    // and the answers are the letters only; the example's letter cannot be chosen
+    const bank = !!(task.bankLetters && task.bankLetters.length && task.opts && T.esl && T.esl.bankList);
+    const exLet = bank ? T.esl.exampleLetter(task.fig) : '';
     // two columns on a wide screen when the question is big (a tool, a picture or a claim): the question on the
     // left, the answer and the help on the right; one column on a phone
     const big = !!(ui.k || task.fig || isClaim);
@@ -209,6 +218,14 @@
     const wideCols = !!(window.matchMedia && window.matchMedia('(min-width: 900px)').matches);
     const side = ui.k === 'msq' && wideCols ? left : right;
     if (big) root.classList.add('mk--split');
+    // a shared text (a story, an article, a letter): on a wide screen the question is repeated at the top of the
+    // right-hand column, which stays in view beside the long text (62-kit-model.css: .mk--stim)
+    if (stimNode && big) {
+      root.classList.add('mk--stim');
+      right.appendChild(html(el('p', { class: 'mk__q mk__q--side' }), task.q));
+    }
+    // the bank: beside the conversation, above the letters (two columns: the right one; one column: under the question)
+    if (bank) (big ? right : stimNode || card).appendChild(T.esl.bankList(task));
     scroller.appendChild(headRow);
     if (loRow) scroller.appendChild(loRow);
     scroller.appendChild(el('div', { class: 'mk__cols' }, left, right));
@@ -255,16 +272,21 @@
     let choices = null;
     const optNodes = [];
     if (task.opts) {
-      choices = el('div', { class: ['choices', 'mk__opts', task.opts.length === 4 && !isClaim && 'choices--2'], role: 'radiogroup', 'aria-label': 'Choose one answer' });
+      choices = el('div', { class: ['choices', 'mk__opts', task.opts.length === 4 && !isClaim && !bank && 'choices--2', bank && 'mk__opts--letters'], role: 'radiogroup', 'aria-label': 'Choose one answer' });
       task.opts.forEach(function (op, i) {
+        const letter = bank ? task.bankLetters[i] : MX.LET[i];
         const label = el('span', { class: 'mk__opt' },
-          task.letters ? el('b', { class: 'mk__let' }, MX.LET[i]) : null,
-          html(el('span'), op.html || ''));
+          task.letters ? el('b', { class: 'mk__let' }, letter) : null,
+          bank ? null : html(el('span'), op.html || ''));
         if (op.fig) { const f = T.tools.pic(op.fig); if (f) label.appendChild(f); }
         if (op.b) label.appendChild(T.tools.blocks(null, { b: op.b, counts: false, u: 6 }).el);
-        const aria = op.alt || (op.b ? 'Blocks ' + (task.letters ? MX.LET[i] + ': ' : '') + MX.say(op.b) : null);
+        // a picture answer with no name of its own ("picture") is at least named by its letter
+        const alt = op.alt && /^\s*picture\s*$/i.test(op.alt) ? 'Picture ' + letter : op.alt;
+        const aria = alt || (op.b ? 'Blocks ' + (task.letters ? letter + ': ' : '') + MX.say(op.b) : null) ||
+          (bank ? letter + ': ' + toLine(op.html) : null);
         const node = T.ui.choice({ label: label, value: String(i), sfx: 'pick', aria: aria,
           onClick: function () { if (over || crossed[i]) return; choose(i); } });
+        if (bank && letter === exLet) { crossed[i] = true; node.disabled = true; node.classList.add('is-example'); node.title = 'The example'; }
         node.setAttribute('role', 'radio');
         node.setAttribute('aria-checked', 'false');
         optNodes.push(node);
@@ -283,7 +305,10 @@
 
     const blanks = T.util.$$('.blank', root).sort(function (a, b) { return a.dataset.i - b.dataset.i; });
     if (task.blanks && blanks.length) {
-      pad = T.tools.numpad({ blanks: blanks, defs: task.blanks, onChange: change, onEnter: function () { if (!over && ready()) check(); } });
+      // a gap in a text with a word box: the words stay in view at the top of the letter pad
+      const words = T.esl && T.esl.wordBox ? T.esl.wordBox(task.fig) : null;
+      const defs = task.blanks.map(function (d) { return words ? Object.assign({}, d, { words: words }) : d; });
+      pad = T.tools.numpad({ blanks: blanks, defs: defs, onChange: change, onEnter: function () { if (!over && ready()) check(); }, onFocus: keepInView });
       root.appendChild(pad.el);
     }
 
@@ -511,6 +536,51 @@
     setButtons();
     ctx.secondary({ label: hintLabel(), icon: 'bulb', onClick: onHint });
     guideFirst();
+    nearQuestion();
+    // a box to type in (a form, a gap): in view above the letter pad from the start (not on a long text, which opens
+    // at its top or at the question, above)
+    if (pad && blanks.length && !stimNode) ctx.later(function () { if (!over) keepInView(blanks[0]); }, 40);
+
+    // the box being typed in stays in view above the letter pad, with as much of the question above it as fits:
+    // the whole question (a recording's Listen button, the form) when it fits, else the lines just above the box
+    function keepInView(b) {
+      if (!b || !root.isConnected) return;
+      const s = scroller.getBoundingClientRect(), r = b.getBoundingClientRect();
+      const lead = (task.fig && task.fig.k === 'stim' && card.querySelector('figure.stim')) || card;
+      const top = lead.getBoundingClientRect().top;
+      let to;
+      if (r.bottom - Math.min(top, r.top) + 16 <= s.height) to = scroller.scrollTop + Math.min(top, r.top) - s.top - 4;
+      else if (r.bottom > s.bottom - 8 || r.top < s.top) to = scroller.scrollTop + r.bottom - s.bottom + 16;
+      else return;
+      try { scroller.scrollTo({ top: Math.max(0, to), behavior: 'smooth' }); } catch (e) { scroller.scrollTop = Math.max(0, to); }
+    }
+
+    // a long shared text in one column (a phone, an upright tablet): a link at the top of the text goes down to
+    // the question; when the last question used the same text, the new one opens at its question, not at the top
+    function nearQuestion() {
+      const id = stimNode ? task.fig.id || '' : '';
+      const again = !!id && id === lastStim && meta.q > 0;
+      lastStim = id;
+      if (!stimNode) return;
+      const qNode = card.querySelector(':scope > .mk__q');
+      const oneCol = function () { return !(window.matchMedia && window.matchMedia('(min-width: 900px)').matches && big); };
+      function toQuestion(smooth) {
+        if (!qNode || !root.isConnected) return;
+        const s = scroller.getBoundingClientRect(), q = qNode.getBoundingClientRect(), b = box.getBoundingClientRect();
+        const top = scroller.scrollTop + q.top - s.top - 8;                 // the question at the top of the view
+        const fit = scroller.scrollTop + b.bottom - s.bottom + 12;          // or less, when the answers fit under it
+        const to = Math.max(0, Math.min(top, fit));
+        try { scroller.scrollTo({ top: to, behavior: smooth ? 'smooth' : 'auto' }); } catch (e) { scroller.scrollTop = to; }
+      }
+      ctx.later(function () {
+        if (!root.isConnected || !oneCol() || !qNode) return;
+        if (stimNode.offsetHeight > scroller.clientHeight * 0.8) {
+          const go = el('button', { type: 'button', class: 'mk__goq', onclick: function () { toQuestion(true); } }, 'Go to the question', T.ui.icon('down'));
+          stimNode.insertBefore(go, stimNode.querySelector('.stim__body'));
+        }
+        if (again) toQuestion(false);
+      }, 30);
+    }
 
     // the first time a child meets a tool or a kind of answer, a hand shows where to tap (one per question)
     function guideFirst() {
@@ -536,6 +606,7 @@
   /* ---------- a game: the levels of an entry ---------- */
 
   const tally = {};          // 'stop:id' -> right answers in this play (for the v2 star rule, Session 5)
+  let lastStim = '';         // the shared text of the last question (a phone opens the next one at its question)
 
   function game(entry, makeTask) {
     const levels = entry.levels || [];

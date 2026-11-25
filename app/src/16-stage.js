@@ -159,7 +159,9 @@
       // measured now, and again on the next frame (the title may still be laying out, e.g. a new scene's title)
       const fit = function () {
         const dots = progressEl.querySelector('.dots');
-        if (dots && dots.parentNode === progressEl && titleEl.scrollWidth > titleEl.clientWidth) {   // even 1 px: the title would end in "..."
+        // a phone lets a long title take two lines (10-shell.css): the dots go as soon as the title wraps
+        const lh = parseFloat(getComputedStyle(titleEl).lineHeight) || 20;
+        if (dots && dots.parentNode === progressEl && (titleEl.scrollWidth > titleEl.clientWidth || titleEl.scrollHeight > lh * 1.5)) {   // even 1 px: the title would end in "..."
           progressEl.removeChild(dots);
           text.removeAttribute('aria-hidden');
         }
@@ -172,8 +174,13 @@
       drawProgress();
     }
 
+    // a phone shows a shorter title when there is one (the full title stays for screen readers)
+    const SHORT = { 'Mini Practice test': 'Mini test' };
     function setTitle(text) {
-      titleEl.textContent = String(text == null ? '' : text);
+      const full = String(text == null ? '' : text);
+      const narrow = !!(window.matchMedia && window.matchMedia('(max-width: 30rem)').matches);
+      titleEl.textContent = narrow && SHORT[full] ? SHORT[full] : full;
+      if (titleEl.textContent !== full) titleEl.setAttribute('aria-label', full); else titleEl.removeAttribute('aria-label');
       drawProgress();
     }
 

@@ -117,3 +117,7 @@
 .sm-teacher__vi { font-weight: 700; color: var(--ink-2); }
 
 
+/* the clock in the bottom bar, beside "Mark my paper": always in view while the child works */
+.actionbar .sm-clock { margin-top: 0; min-height: 2.75rem; white-space: nowrap; text-decoration: none; font-variant-numeric: tabular-nums; }
+@media (max-width: 420px) { .actionbar .sm-clock { padding: 0 .5rem; font-size: .875rem; } }
+@media (max-width: 420px) { .actionbar:has(.sm-clock) .actionbar__primary { white-space: nowrap; padding-left: .875rem; padding-right: .875rem; } }

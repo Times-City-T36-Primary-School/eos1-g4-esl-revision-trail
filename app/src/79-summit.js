@@ -31,8 +31,6 @@
   const OPEN_AT = 0;                                  // Mini Practice tests done to open the Summit (0: open for everyone, Jovan 25 Nov 2026, the exam is on 27 Nov)
   const WIN = 0.7;
   const STRANDS = { L: 'Listening', U: 'Use of English', R: 'Reading', W: 'Writing' };
-  const INSTRUCTIONS = 'Answer all the questions. Tap a dotted line or a box to write. The bold words tell you what to do. ' +
-    'The number in [ ] brackets shows how many marks a part is worth.';
   const MIN = 35;                                     // minutes a paper (the calm clock)
 
   const W = function () { return T.SUMMIT; };
@@ -213,26 +211,31 @@
       const strands = [];
       qs.forEach(function (x) { if (strands.indexOf(x.q.strand) < 0) strands.push(x.q.strand); });
       strands.sort(function (a, b) { return 'NGS'.indexOf(a) - 'NGS'.indexOf(b); });
-      // the calm clock: minutes left, a tap hides it; at 0 it only says so (nothing is taken away)
-      const clockText = el('span', { class: 'sm-clock__t' });
-      const clock = el('button', { type: 'button', class: 'sm-clock', 'aria-pressed': 'false' }, T.ui.icon('clock'), clockText);
+      // the calm clock: minutes left, a tap hides it; at 0 it only says so (nothing is taken away). It sits in the
+      // bottom bar beside "Mark my paper", so it stays in view while the child works; minutes and seconds in the
+      // last 5 minutes
       const t0 = Date.now();
-      let hidden = false;
+      let hidden = false, said = '';
       const tick = function () {
-        const left = Math.max(0, Math.ceil((T.summit.minutes ? T.summit.minutes(k) : MIN) - (Date.now() - t0) / 60000));
-        clockText.textContent = hidden ? TX.timerShow : left > 0 ? fill(TX.timer, { n: left }) : TX.timerUp;
-        clock.classList.toggle('is-up', left <= 0 && !hidden);
+        const secs = Math.max(0, Math.ceil((T.summit.minutes ? T.summit.minutes(k) : MIN) * 60 - (Date.now() - t0) / 1000));
+        const left = Math.ceil(secs / 60);
+        const text = hidden ? TX.timerShow : secs <= 0 ? TX.timerUp.replace(/\..*$/, '')
+          : secs <= 300 ? Math.floor(secs / 60) + ':' + String(secs % 60).padStart(2, '0') + ' left' : left + ' min left';
+        if (text === said) return;
+        said = text;
+        ctx.secondary({ label: text, icon: 'clock', cls: ['sm-clock', secs <= 0 && !hidden ? 'is-up' : '', hidden ? 'is-hidden' : ''].join(' ').trim(),
+          aria: hidden ? TX.timerShow : (secs <= 0 ? TX.timerUp : fill(TX.timer, { n: left })) + ' ' + TX.timerHide + '.',
+          onClick: function () { hidden = !hidden; said = ''; tick(); } });
       };
-      clock.addEventListener('click', function () { hidden = !hidden; clock.setAttribute('aria-pressed', String(hidden)); clock.classList.toggle('is-hidden', hidden); tick(); });
       tick();
-      stopClock = ctx.every(tick, 15000);
+      stopClock = ctx.every(tick, 1000);
       sheet.appendChild(el('header', { class: 'tp-top' },
         el('div', { class: 'tp-top__words' },
           el('p', { class: 'tp-kicker' }, resume.full ? fill(TX.kicker, { p: k + 1 }) : TX.short),
           el('h2', { class: 'tp-title' }, T.summit.paperName ? T.summit.paperName(k) : TX.paperTitle)),
         el('div', { class: 'tp-total' }, el('span', 'Marks'), totalBox)));
       sheet.appendChild(el('ul', { class: 'tp-strands' }, strands.map(function (s) { return el('li', { class: 'tp-strand' }, el('b', s), STRANDS[s]); })));
-      sheet.appendChild(el('div', { class: 'sm-row' }, el('p', { class: 'tp-instr' }, INSTRUCTIONS), clock));
+      sheet.appendChild(el('div', { class: 'sm-row' }, T.testPaper.instr(qs.map(function (x) { return x.task; }))));
       const padBox = el('div', { class: 'tp-pad' });
       const showPad = function (on) { tp.classList.toggle('is-typing', !!on); };
       const allBlanks = [], allDefs = [];
@@ -252,10 +255,10 @@
       tp.appendChild(padBox);
       ctx.body.appendChild(tp);
       const vals = function (x) { return pad ? pad.get().slice(x.off, x.off + x.Q.blanks.length) : []; };
-      const intoView = function (node) { ctx.later(function () { try { node.scrollIntoView({ block: 'nearest' }); } catch (e) { /* a nicety */ } }, 60); };
+      const intoView = function (node) { ctx.later(function () { T.testPaper.keepInView(sheet, node); }, 60); };
       if (allBlanks.length) {
         pad = T.tools.numpad({
-          blanks: allBlanks, defs: allDefs, onChange: function () { showPad(true); recount(); },
+          blanks: allBlanks, defs: allDefs, onChange: function () { showPad(true); recount(); }, onFocus: intoView,
           onEnter: function () {
             const i = allBlanks.findIndex(function (b) { return b.classList.contains('is-on'); });
             if (i >= 0 && i < allBlanks.length - 1) { pad.focus(i + 1); intoView(allBlanks[i + 1]); }

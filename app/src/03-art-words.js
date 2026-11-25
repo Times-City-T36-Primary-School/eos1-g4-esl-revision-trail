@@ -203,6 +203,10 @@
     return svg(id, 'A ' + k + ' lightning bolt.', 96, 96,
       '<circle cx="48" cy="48" r="48" fill="#FFF7E3"/>' +
       '<circle cx="48" cy="48" r="36" fill="' + m[1] + '"/>' +
+      // rings round the disc tell the bolts apart in black and white too: gold 3, silver 2, bronze 1
+      [44, 40.5, 37].slice(0, { gold: 3, silver: 2, bronze: 1 }[k]).map(function (r) {
+        return '<circle cx="48" cy="48" r="' + r + '" fill="none" stroke="' + m[2] + '" stroke-width="2.2"/>';
+      }).join('') +
       '<path d="M54 12L26 54h20l-6 30 30-44H50z" fill="' + m[0] + '" stroke="' + m[2] + '" stroke-width="3.5"/>' +
       '<path d="M50 22L36 46" stroke="#FFFFFF" stroke-width="3" opacity=".7"/>');
   }

@@ -4,7 +4,8 @@
      (the Maths v2 Lightning pool of the stop; a plain list of items works too).
    Flow:  intro (the bolts, the best score) -> 3, 2, 1 -> the round: one question at a time, three answers in a
           new order each time (tap, or the keys 1, 2, 3); a right answer moves on at once, a wrong one shows the
-          right answer for a moment -> the result with a bolt.
+          right answer for a moment, takes one point away and locks the answers for about a second (so tapping at
+          random cannot win a bolt) -> the result with a bolt.
    Bolts (as in v2): gold 20 right, silver 14, bronze 8.
    Logged once per round, as in v2: T.events.log({s, g: 'l', v: '<number right>', ok: a bolt was won, q: last question}).
    Saved for the hub and the dashboards (docs/04 "bolt"): stops.N.lightning.best and stops.N.lightning.plays.
@@ -29,7 +30,8 @@
     ready: { en: 'Get ready...', vi: 'Chuẩn bị nào...' },
     go: { en: 'Tap the *right answer*. Be quick!', vi: 'Bấm vào *đáp án đúng*. Nhanh lên nào!' },
     won: { en: 'Lightning fast! Can you *beat* your score?', vi: 'Nhanh như chớp! Em có *vượt* được điểm của mình không?' },
-    none: { en: 'Get *8 right* to win a bolt. Go again!', vi: 'Làm đúng *8 câu* để nhận tia chớp. Chơi lại nhé!' }
+    none: { en: 'Get *8 right* to win a bolt. Go again!', vi: 'Làm đúng *8 câu* để nhận tia chớp. Chơi lại nhé!' },
+    oops: { en: 'Oops! You lose one point. Next one.', vi: 'Ôi! Em bị trừ một điểm. Câu tiếp nhé.' }
   };
 
   (T.zipLines = T.zipLines || {}).lightning = STR;      // checked by test/guide.mjs (at most 10 words)
@@ -76,7 +78,7 @@
       const card = el('section', { class: 'panel lt-intro rise' },
         el('p', { class: 'lt-intro__time' }, el('b', String(secs)), ' seconds'),
         el('ul', { class: 'mt-medals', 'aria-label': 'Bolts' }, BOLTS.slice().reverse().map(function (b) {
-          return el('li', { class: 'mt-medal' }, T.ui.art('bolt-' + b.k, { decorative: true }), el('span', b.at + ' or more'));
+          return el('li', { class: 'mt-medal' }, T.ui.art('bolt-' + b.k, { decorative: true }), el('span', el('b', b.name.replace(' bolt', '')), ': ' + b.at + ' or more'));
         })),
         big ? el('p', { class: 'lt-intro__from' }, T.SUMMIT.big.from) : null,
         best != null ? el('p', { class: 'mt-best' }, 'Your best: ', el('b', String(best))) : null);
@@ -113,7 +115,7 @@
       quit();
       ctx.instruct(Object.assign({ mood: 'happy' }, STR.go));
       const order = T.util.shuffle(items.slice());
-      let qi = 0, score = 0, streak = 0, busy = false, over = false;
+      let qi = 0, score = 0, streak = 0, busy = false, over = false, oops = false;
       const t0 = Date.now();
       const run = T.rewards.counter(big ? 0 : ctx.stop, 'lightning');   // the big round's runs are not kept (stop 0)   // Phase 6: "5 in a row!" on Zip (never a word when it ends)
 
@@ -156,16 +158,23 @@
           T.fx.sfx('ok', { streak: Math.min(streak, 8) });
           const line = run.hit(true);
           if (line) ctx.instruct(line);
+          else if (oops) ctx.instruct(Object.assign({ mood: 'happy' }, STR.go));
+          oops = false;
           ctx.later(next, 170);
         } else {
           streak = 0;
           run.hit(false);
+          // a wrong tap costs a point and a short wait: tapping at random cannot win a bolt
+          score = Math.max(0, score - 1);
+          scoreNum.textContent = String(score);
+          ctx.instruct(Object.assign({ mood: 'oops' }, STR.oops));
+          oops = true;
           b.classList.add('is-wrong');
           const good = opts.querySelector('[data-ok="1"]');
           if (good) good.classList.add('is-right');
           T.fx.sfx('no');
           card.classList.remove('gm-shake'); void card.offsetWidth; card.classList.add('gm-shake');
-          ctx.later(next, 850);
+          ctx.later(next, 1300);
         }
       }
 

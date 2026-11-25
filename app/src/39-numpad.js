@@ -5,8 +5,10 @@
      defs     one per box: { len: most digits, w: 'big' | 'cell' | 'cbox' | 'fr', neg: a minus sign is allowed, sym: < > = only,
               dec: 3 }   dec (Grade 5): a decimal point is allowed, with at most that many digits after it
               ('fr': one of the two small boxes of a fraction, MX.FB)
+              words (ESL): the words of the text's word box, shown on a strip at the top of the letter pad
               a 'cell' box holds one digit, and the pad moves on to the next box by itself
      el       the pad: 0 to 9, a minus sign (only when a box allows it), < > = (only for a sym box), rub out
+   onFocus(box, i), optional: called just after a box is tapped, to scroll it into view (else: scrollIntoView nearest).
    The keyboard works too: digits, - . < > =, Backspace, Enter (onEnter, for "Check").
    A typed 12345 shows as 12,345 and -4 with a real minus sign. get() -> the raw strings: ['12345', '-4', '0.75']. */
 (function (T) {
@@ -46,6 +48,23 @@
       ['<', '>', '='].map(function (x) { return key(x, x, SYMNAME[x], 'npad__key--sym'); }),
       key(T.ui.icon('back'), 'back', 'Rub out', 'npad__key--back'));
 
+    // ESL: a gap in a text with a word box: the words stay in view on a strip at the top of the pad (on a phone
+    // the text and its word box scroll away while the child types); defs[i].words, from T.esl.wordBox
+    const strip = el('p', { class: 'npad__words', hidden: true, 'aria-live': 'polite' });
+    let stripFor = null;
+    if (textMode) pad.insertBefore(strip, pad.firstChild);
+    function paintWords() {
+      const w = textMode && (defs[cur] || {}).words;
+      if (w === stripFor) return;
+      stripFor = w;
+      T.ui.empty(strip);
+      strip.hidden = !(w && w.length);
+      if (w && w.length) {
+        strip.appendChild(el('b', { class: 'npad__words-lab' }, 'Word box:'));
+        w.forEach(function (x) { strip.appendChild(el('span', { class: 'npad__word' }, x)); });
+      }
+    }
+
     function show(d, x) {
       if (d.text) return x;
       if (d.sym || d.w === 'cell') return x;
@@ -59,6 +78,7 @@
       const d0 = defs[cur] || {};
       pad.dataset.mode = d0.sym ? 'sym' : d0.neg ? 'neg' : 'num';
       pad.dataset.dec = d0.dec && !d0.sym ? '1' : '0';
+      paintWords();
       bl.forEach(function (b, i) {
         T.ui.empty(b);
         b.appendChild(el('span', { class: 'blank__val' }, show(defs[i], v[i])));
@@ -118,7 +138,15 @@
     }
 
     bl.forEach(function (b, i) {
-      b.addEventListener('click', function () { if (locked) return; cur = i; sfx('tap'); paint(); });
+      b.addEventListener('click', function () {
+        if (locked) return;
+        cur = i; sfx('tap'); paint();
+        // the box being filled stays in view above the pad (o.onFocus may keep more of the question in view)
+        setTimeout(function () {
+          if (o.onFocus) { o.onFocus(b, i); return; }
+          try { b.scrollIntoView({ block: 'nearest' }); } catch (e) { /* a nicety */ }
+        }, 80);
+      });
     });
 
     function onKey(e) {

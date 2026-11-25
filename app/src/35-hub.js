@@ -447,7 +447,7 @@
     scene.fit();
     document.addEventListener('trail:progress', refresh);
     // the first visit to a stop: a hand points at the card of the step to do next
-    T.guide.point('hub', function () { return sheet.querySelector('.step-card.is-next'); }, { delay: 900 });
+    T.guide.point('hub', function () { return sheet.querySelector('.step-card.is-next'); }, { delay: 900, x: 0.9 });   // at the card's end, not over its words
 
     return function cleanup() {
       document.removeEventListener('trail:progress', refresh);

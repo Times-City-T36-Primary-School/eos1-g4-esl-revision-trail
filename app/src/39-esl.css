@@ -175,3 +175,71 @@ image.emo-svg { filter: drop-shadow(0 3px 3px rgba(16, 48, 94, .16)); }
 .pico__clock { display: block; width: 4.25rem; height: 4.25rem; filter: drop-shadow(0 3px 3px rgba(16, 48, 94, .16)); }
 .pico__clock svg { width: 100%; height: 100%; display: block; }
 .choices.mk__opts .pico__clock { width: 5.25rem; height: 5.25rem; }
+
+/* ---------- a bank of answers A to H, listed once under the conversation (39-esl-tools.js T.esl.bankList) ---------- */
+.bank { list-style: none; margin: .75rem 0 0; padding: .65rem 0 0; border-top: 1px dashed var(--plate-line); display: flex; flex-direction: column; gap: .35rem; }
+.bank__item { display: flex; align-items: baseline; gap: .55rem; line-height: 1.45; }
+.bank__let { flex: none; display: inline-grid; place-items: center; width: 1.6rem; height: 1.6rem; border-radius: 50%; background: var(--ink); color: var(--bg); font: 600 .875rem/1 var(--font-display); }
+.bank__item.is-example { color: var(--plate-ink-2); }
+.bank__item.is-example .bank__let { background: var(--plate-line); color: var(--plate-ink); }
+.bank__ex { flex: none; font-size: var(--fs-small); font-style: italic; color: var(--plate-ink-2); }
+/* each gap: one row of letters (practice: buttons; a paper: letters with tick boxes) */
+.choices.mk__opts--letters { display: flex; flex-wrap: wrap; gap: .5rem; }
+.mk__opts--letters .choice { width: auto; min-width: 4.5rem; min-height: 3.25rem; padding: .375rem 2.25rem .375rem .625rem; }
+.mk__opts--letters .choice__mark { right: .5rem; }
+.mk__opts--letters .mk__let { width: 2rem; height: 2rem; font-size: 1.0625rem; }
+.choice.is-example, .tp-tick.is-example { opacity: .4; }
+.tp .tp-ticks--letters { flex-direction: row; flex-wrap: wrap; gap: .375rem .5rem; }
+.tp .tp-ticks--letters .tp-tick { width: auto; grid-template-columns: auto 2.25rem; column-gap: .375rem; padding: .25rem .375rem; min-height: 2.75rem; }
+.tp .tp-ticks--letters .tp-tick__let { font-size: 1.125rem; }
+
+/* ---------- a word box: the words stay in view at the top of the letter pad (39-numpad.js) ---------- */
+.npad__words { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: .25rem .375rem; margin: 0; padding: .25rem .5rem;
+  max-width: 100%; box-sizing: border-box; border-radius: var(--r-sm); background: var(--gold-soft); color: var(--ink); font-size: var(--fs-small); line-height: 1.3; }
+.npad__words[hidden] { display: none; }
+.npad__words-lab { font-weight: 800; }
+.npad__word { padding: .0625rem .4rem; border-radius: var(--r-pill); background: var(--surface); box-shadow: inset 0 0 0 1px var(--line); font-weight: 700; }
+/* a phone: every row of the letter pad fits the width (the keys shrink a little, the space bar stays wide) */
+.npad--text { width: 100%; box-sizing: border-box; }
+.npad--text .npad__row { max-width: 100%; }
+@media (max-width: 520px) {
+  .npad--text .npad__row { width: 100%; }
+  .npad--text .npad__key { flex: 0 1 2.35rem; min-width: 0; padding: 0; }
+  .npad--text .npad__key--back { flex-basis: 3rem; }
+  .npad--text .npad__key--space { flex: 0 1 14rem; }
+}
+
+/* ---------- a long shared text: the question beside it (wide) or a link down to it (one column) (52-kit-model.js) ---------- */
+.mk__q--side { display: none; }
+@media (min-width: 900px) {
+  .mk--stim .mk__card > .mk__q { display: none; }
+  .mk--stim .mk__q--side { display: block; }
+  .mk--split.mk--stim .mk__col:first-child { position: static; }
+  .mk--split.mk--stim .mk__col:last-child { position: sticky; top: 0; }
+}
+.mk__goq { display: inline-flex; align-items: center; gap: .3rem; align-self: flex-start; margin: 0 0 .4rem; padding: .3rem .7rem; border: 0; border-radius: var(--r-pill);
+  background: var(--accent-soft); color: var(--accent-text); font: 700 var(--fs-small) var(--font-body); cursor: pointer; }
+.mk__goq .icon { width: 1.1rem; height: 1.1rem; }
+/* the letter pad a little shorter, so more of the text above it stays in view while typing */
+.npad--text .npad__key { height: 2.625rem; }
+.npad--text { gap: .3rem; }
+
+/* the Writing desk: why Check is still grey; the Vietnamese line of a rubric row; every "I did this" box the same size */
+.wd-need { margin: 0; font-size: var(--fs-small); font-weight: 700; color: var(--ink-2); }
+.wd-need[hidden] { display: none; }
+.wd-crit__head { margin: 0 0 .35rem; }
+.wd-crit__head .wd-crit__name { margin: 0; }
+.wd-crit__vi { margin: .1rem 0 0; font-size: var(--fs-small); color: var(--ink-2); }
+.wd-li input { flex: none; }
+
+/* the "Level 1 of 3" pill of a question game or the Writing desk: on its own row above the scrolling question, so
+   it never sits over the text (it used to float over the top right corner) */
+.gm-level:has(.mk, .wd-page) > .gm-pill { position: relative; top: auto; right: auto; align-self: flex-end; flex: none; margin: 0 .25rem .25rem; box-shadow: inset 0 0 0 1px var(--line); }
+.gm-level:has(.mk) .mk__head { padding-right: 0; }
+.gm-lvcard__how { margin: 0; color: var(--ink-2); font-size: var(--fs-small); }
+/* a phone with a short screen: the letter pad a little lower again */
+@media (max-width: 520px) and (max-height: 800px) { .npad--text .npad__key { height: 2.375rem; min-height: 0; } }
+/* a laptop or a board has a real keyboard: a smaller letter pad leaves more of the paper in view */
+@media (min-width: 900px) { .npad--text .npad__key { height: 2.375rem; min-height: 0; font-size: 1.125rem; } }
+/* the bank in its own column (52-kit-model.js): a card like the text's */
+.mk__col > .bank { margin: 0; padding: .75rem 1rem; border: 2px solid var(--plate-line); border-radius: var(--r-md); background: var(--plate); color: var(--plate-ink); }

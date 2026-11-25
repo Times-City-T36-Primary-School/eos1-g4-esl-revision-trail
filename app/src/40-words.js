@@ -16,7 +16,7 @@
   const STR = {
     menu:      { en: 'Pick a *set* of words.', vi: 'Chọn một *nhóm* từ.' },
     menuDone:  { en: 'All sets done. Tap *Finish*.', vi: 'Đã xong hết các nhóm. Bấm *Finish* (Hoàn thành).' },
-    front:     { en: 'What is this? *Say the word.*', vi: 'Đây là gì? *Hãy nói từ đó.*' },
+    front:     { en: 'Which word goes with this picture? *Say it.*', vi: 'Từ nào đi với bức tranh này? *Hãy nói từ đó.*' },
     back:      { en: 'Do you *know* this word?', vi: 'Em đã *biết* từ này chưa?' },
     again:     { en: 'Try this one *again*.', vi: 'Hãy thử *lại* từ này nhé.' },
     pickWord:  { en: 'Tap the *word* for this picture.', vi: 'Chạm vào *từ* đúng với bức tranh này.' },
@@ -54,7 +54,7 @@
 
   function starsFor(score, max) {
     const f = max ? score / max : 0;
-    return f >= 0.9 ? 3 : f >= 0.75 ? 2 : 1;
+    return score <= 0 ? 0 : f >= 0.9 ? 3 : f >= 0.75 ? 2 : 1;          // no star at all for 0 right
   }
 
   // the cue sentence with its gap drawn as a line; '___' (two or more underscores) marks the gap
@@ -246,7 +246,8 @@
         el('div', { class: 'wd-back__body' },
           T.ui.plate(item.art, { cls: 'wd-back__pic', label: key }),
           el('div', { class: 'wd-back__meaning' },
-            item.def ? el('p', { class: 'wd-def' }, item.def) : null,
+            item.def ? el('p', { class: 'wd-def' }, partsOf(item).def) : null,
+            partsOf(item).ex ? starred(partsOf(item).ex) : null,
             viLine)));
 
       const inner = el('div', { class: 'wd-card__inner' }, front, back);
@@ -371,14 +372,17 @@
           streak = 0;
           node.classList.add('is-wrong');
           T.fx.sfx('no');
-          ctx.instruct(Object.assign({ mood: 'oops' }, str(ctx, 'wrong')));
+          // the right one turns green at once, beside the red one; Zip says what the word means
+          const item = words.items[key], mean = item ? partsOf(item).def.replace(/\*/g, '') : '';
+          const w = str(ctx, 'wrong');
+          ctx.instruct({ mood: 'oops', en: mean ? '*' + key + '* means: ' + mean : w.en, vi: mean && item.vi ? '*' + key + '*: ' + item.vi : w.vi });
           const good = all.filter(function (c) { return c.getAttribute('data-value') === key; })[0];
+          if (good) good.classList.add('is-right');
           ctx.later(function () {
             if (mine !== token) return;
             node.classList.remove('is-wrong');
             all.forEach(function (c) { if (c !== good) c.classList.add('is-dim'); });
-            if (good) good.classList.add('is-right');
-          }, 650);
+          }, 1200);
         }
         ctx.later(function () { i++; ask(); }, right ? 1900 : 3200);
       }

@@ -263,3 +263,8 @@
 }
 
 
+/* a phone: a long title takes two smaller lines instead of ending in "..." ("Mini Practice test", "Exam style") */
+@media (max-width: 30rem) {
+  .topbar__title { white-space: normal; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2;
+    font-size: 1rem; line-height: 1.1; overflow-wrap: break-word; hyphens: none; }
+}

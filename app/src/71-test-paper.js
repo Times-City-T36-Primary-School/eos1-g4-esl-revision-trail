@@ -210,21 +210,28 @@
     const p = function (cls, text) { return html(el('p', { class: cls }), text); };
 
     // tick boxes: one row per option, the box at the right
+    // a bank (a conversation with gaps, answers A to H): the bank is listed once under the text, and each
+    // gap has one short row of letters; the example's letter cannot be chosen
+    const bank = !!(task.bankLetters && task.bankLetters.length && T.esl && T.esl.bankList);
+    const exLet = bank ? T.esl.exampleLetter(task.fig) : '';
+    const letterOf = function (i) { return bank ? task.bankLetters[i] : MX.LET[i]; };
     function tickRows(opts, because) {
-      const list = el('div', { class: 'tp-ticks', role: 'group', 'aria-label': 'Tick one box' });
+      const list = el('div', { class: ['tp-ticks', bank && 'tp-ticks--letters'], role: 'group', 'aria-label': bank ? 'Tick one letter' : 'Tick one box' });
       opts.forEach(function (op, i) {
         const txt = el('span', { class: 'tp-tick__txt' });
-        if (task.letters && MX) txt.appendChild(el('b', { class: 'tp-tick__let' }, MX.LET[i]));
+        if (task.letters && MX) txt.appendChild(el('b', { class: 'tp-tick__let' }, letterOf(i)));
         const words = html(el('span'), (because ? 'because ' : '') + (op.html || ''));
-        if (op.html || because) txt.appendChild(words);
+        if ((op.html || because) && !bank) txt.appendChild(words);
         if (op.fig) { const f = T.tools.pic(op.fig); if (f) txt.appendChild(f); }
         // the flat drawn blocks show under the words (from a tablet up: 71-test-paper.css)
         if (op.b && T.tools.blocks) txt.appendChild(el('span', { class: 'tp-tick__pic' }, T.tools.blocks(null, { b: op.b, counts: false, u: 5, hmax: 96 }).el));
         const node = el('button', { type: 'button', class: 'tp-tick', 'aria-pressed': 'false', dataset: { i: String(i) },
-          'aria-label': op.alt || (op.b && MX ? 'Blocks: ' + MX.say(op.b) : null) },
+          'aria-label': (op.alt && /^\s*picture\s*$/i.test(op.alt) ? 'Picture ' + letterOf(i) : op.alt) ||
+            (op.b && MX ? 'Blocks: ' + MX.say(op.b) : null) || (bank ? letterOf(i) + ': ' + words.textContent : null) },
           txt, el('span', { class: 'tp-tick__box', 'aria-hidden': 'true' }));
+        if (bank && letterOf(i) === exLet) { node.disabled = true; node.classList.add('is-example'); node.title = 'The example'; }
         node.addEventListener('click', function () {
-          if (locked) return;
+          if (locked || node.classList.contains('is-example')) return;
           onTap();
           pick = pick === i ? -1 : i;
           rows.forEach(function (n, j) { setMark(n, j === pick, 'tick'); });
@@ -279,7 +286,11 @@
     } else {
       const cell = el('div', { class: 'tp-cell' });
       const stimFig = task.fig && task.fig.k === 'stim';
-      if (stimFig) { const f = T.tools.pic(task.fig); if (f) sec.appendChild(el('div', { class: 'tp-stim' }, f)); }
+      if (stimFig) {
+        const f = T.tools.pic(task.fig);
+        if (f && bank) f.appendChild(T.esl.bankList(task));
+        if (f) sec.appendChild(el('div', { class: 'tp-stim' }, f));
+      } else if (bank) cell.appendChild(T.esl.bankList(task));
       cell.appendChild(p('tp-text', cmd(task.q)));
       if (task.name != null && MX) cell.appendChild(el('p', { class: 'tp-name' }, MX.words(task.name)));
       if (task.sum) cell.appendChild(p('tp-text', task.sum));
@@ -297,6 +308,7 @@
     if (label) sec.appendChild(label);
 
     const blanks = T.util.$$('.blank', sec).sort(function (x, y) { return x.dataset.i - y.dataset.i; });
+    const words = T.esl && T.esl.wordBox ? T.esl.wordBox(task.fig) : null;     // a gap in a text with a word box
 
     function answer(vals) {
       const r = {};
@@ -367,13 +379,40 @@
 
     return {
       el: sec, task: task, parts: partsOf(task), blanks: blanks,
-      defs: (task.blanks || []).slice(0, blanks.length).concat(blanks.slice((task.blanks || []).length).map(function () { return { len: 1, w: 'cell' }; })),
+      defs: (task.blanks || []).slice(0, blanks.length).map(function (d) { return words ? Object.assign({}, d, { words: words }) : d; }).concat(blanks.slice((task.blanks || []).length).map(function () { return { len: 1, w: 'cell' }; })),
       answer: answer,
       complete: function (vals) { return answered(task, answer(vals)).every(Boolean); },
       lock: lock, review: review
     };
   }
 
-  T.testPaper = { question: question, mark: mark, partsOf: partsOf, answered: answered, pen: pen, tag: tag };
+  /* ---------- the paper's instructions: short, what this paper asks for (tick, write or both), with a VI line ---------- */
+  function instr(tasks) {
+    const tick = (tasks || []).some(function (t) { return t && (t.opts || t.type === 'claim'); });
+    const write = (tasks || []).some(function (t) { return t && t.blanks && t.blanks.length; });
+    const say = tick && write ? ['Tick one box or write on the line.', 'Đánh dấu (✓) vào một ô hoặc viết vào chỗ trống.']
+      : write ? ['Write on the line.', 'Viết vào chỗ trống.'] : ['Tick one box for each question.', 'Đánh dấu (✓) vào một ô cho mỗi câu.'];
+    return el('p', { class: 'tp-instr' }, el('span', say[0] + ' [1] = 1 mark.'),
+      el('span', { class: 'tp-instr__vi', lang: 'vi' }, say[1] + ' [1] = 1 điểm.'));
+  }
+
+  /* ---------- the box being typed in stays in view above the letter pad, with the lines above it ---------- */
+  // sheet = the scrolling paper; a shared text or recording above the box shows too when it fits (the Listen button)
+  function keepInView(sheet, node) {
+    if (!sheet || !node || !node.isConnected) return;
+    const s = sheet.getBoundingClientRect(), r = node.getBoundingClientRect();
+    // the text or recording of this question: its own, or the one shown once above it (T.esl.dedupe)
+    const q = node.closest('.tp-q');
+    let stim = q ? q.querySelector('.tp-stim') : null;
+    if (q && !stim) T.util.$$('.tp-stim', sheet).forEach(function (st) { if (st.getBoundingClientRect().top <= r.top) stim = st; });
+    const lead = stim ? stim.getBoundingClientRect().top : q ? q.getBoundingClientRect().top : r.top;
+    let to = null;
+    if (r.bottom - lead + 24 <= s.height && (lead < s.top || r.bottom > s.bottom - 16)) to = sheet.scrollTop + lead - s.top - 8;
+    else if (r.bottom > s.bottom - 16) to = sheet.scrollTop + r.bottom - s.bottom + 24;
+    else if (r.top < s.top + 8) to = sheet.scrollTop + r.top - s.top - 8;
+    if (to != null) sheet.scrollTop = Math.max(0, to);
+  }
+
+  T.testPaper = { keepInView: keepInView, question: question, mark: mark, partsOf: partsOf, answered: answered, pen: pen, tag: tag, instr: instr };
 })(window.T = window.T || {});
 

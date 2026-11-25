@@ -63,7 +63,7 @@
     "ex": "In 'Which person missed a show?', the *key idea* is 'missed'."
    },
    "similar": {
-    "emoji": "👯",
+    "emoji": "👥",
     "vi": "giống nhau, tương tự",
     "def": "Almost the same, but not exactly the same.",
     "ex": "All three texts are *similar*: each child talks about being ill."
@@ -146,7 +146,7 @@
     },
     "kind": "text",
     "head": "Part 5: three children write about animals",
-    "html": "<b>Ollie</b>: My cat sleeps all day. I'd love a dog too, but our flat is too small.<br><br><b>Tia</b>: I've got two rabbits. I feed them every morning before school.<br><br><b>Son</b>: I haven't got a pet, but I *walk my neighbour's dog* every Sunday.<br><br>Question: Which person *looks after an animal that isn't theirs*?",
+    "html": "<b>Finn</b>: My cat sleeps all day. I'd love a dog too, but our flat is too small.<br><br><b>Tia</b>: I've got two rabbits. I feed them every morning before school.<br><br><b>Son</b>: I haven't got a pet, but I *walk my neighbour's dog* every Sunday.<br><br>Question: Which person *looks after an animal that isn't theirs*?",
     "audio": null,
     "steps": [
      {
@@ -158,8 +158,8 @@
       "vi": "Cả ba bạn đều nói về động vật. Ở Phần 5 điều này rất bình thường: các đoạn văn *giống nhau*."
      },
      {
-      "en": "Ollie and Tia look after their *own* pets. Son walks his *neighbour's* dog.",
-      "vi": "Ollie và Tia chăm sóc thú cưng *của mình*. Son dắt chó *của hàng xóm* đi dạo."
+      "en": "Finn and Tia look after their *own* pets. Son walks his *neighbour's* dog.",
+      "vi": "Finn và Tia chăm sóc thú cưng *của mình*. Son dắt chó *của hàng xóm* đi dạo."
      },
      {
       "en": "So the answer is Son. Always check *all three* texts before you choose.",
@@ -318,20 +318,20 @@
      "v": [
       {
        "type": "mcq",
-       "q": "Ollie: 'I'd love to try surfing one day.' Daisy: 'I went surfing last summer.' Who has already been surfing?",
+       "q": "Toby: 'I'd love to try surfing one day.' Daisy: 'I went surfing last summer.' Who has already been surfing?",
        "opts": [
         "Daisy",
-        "Ollie",
+        "Toby",
         "both of them"
        ],
        "at": 1,
        "whys": [
         null,
-        "Ollie would like to try it 'one day', so he hasn't done it yet.",
+        "Toby would like to try it 'one day', so he hasn't done it yet.",
         "Only one of them has done it already."
        ],
        "hint": "Look at the verb forms: 'I'd love to' or 'I went'?",
-       "worked": "Daisy says 'I *went surfing* last summer'. Ollie only wants to try it.",
+       "worked": "Daisy says 'I *went surfing* last summer'. Toby only wants to try it.",
        "stim": null
       },
       {
@@ -422,20 +422,20 @@
        "v": [
         {
          "type": "mcq",
-         "q": "Ollie: 'I couldn't wait for the school trip to start.' Which sentence means the same?",
+         "q": "Oscar: 'I couldn't wait for the school trip to start.' Which sentence means the same?",
          "opts": [
-          "Ollie was excited about the trip.",
-          "Ollie was worried about the trip.",
-          "Ollie didn't want to wait for the bus."
+          "Oscar was excited about the trip.",
+          "Oscar was worried about the trip.",
+          "Oscar didn't want to wait for the bus."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'Couldn't wait' is a happy feeling, not a worried one.",
           "Nothing is said about a bus: 'couldn't wait' is about a feeling."
          ],
          "hint": "'I couldn't wait' is a fixed phrase. How do you feel before something you want?",
-         "worked": "'I *couldn't wait*' means Ollie was very excited.",
+         "worked": "'I *couldn't wait*' means Oscar was very excited.",
          "stim": null
         },
         {
@@ -446,7 +446,7 @@
           "Tia knew the class would be fun.",
           "Tia didn't enjoy the cooking class."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'I didn't expect to enjoy it' means she didn't know it would be fun.",
@@ -489,7 +489,7 @@
           "Daisy went out with a sore throat.",
           "Daisy's throat hurt after she went out."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "She 'stayed at home', so she didn't go out.",
@@ -514,7 +514,7 @@
           "Nobody came at all.",
           "Lots and lots of people came."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "'Hardly anyone' means a few people, not zero.",
@@ -532,7 +532,7 @@
           "Some of his friends had tried it already.",
           "All of his friends had tried it."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'None' means not one friend, so not 'some'.",
@@ -562,23 +562,23 @@
          "type": "mcq",
          "q": "Which person couldn't do what they wanted?",
          "opts": [
-          "Ollie",
+          "Jack",
           "Daisy",
           "Son"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Daisy swam in her aunt's pool all afternoon, so she did what she wanted.",
           "Son played football and swam in the river."
          ],
          "hint": "All three talk about swimming. Who wanted to swim but couldn't?",
-         "worked": "Ollie: 'I *wanted to swim*, but the sea was *too rough*.'",
+         "worked": "Jack: 'I *wanted to swim*, but the sea was *too rough*.'",
          "stim": {
           "id": "s8-r-weekend",
           "kind": "text",
           "head": "Three children write about their Saturday",
-          "html": "<b>Ollie</b>: On Saturday I went to the beach with my parents. I wanted to swim, but the sea was too rough.<br><br><b>Daisy</b>: On Saturday I visited my aunt. We swam in her pool all afternoon.<br><br><b>Son</b>: On Saturday I played football with my friends. Afterwards, we swam in the river.",
+          "html": "<b>Jack</b>: On Saturday I went to the beach with my parents. I wanted to swim, but the sea was too rough.<br><br><b>Daisy</b>: On Saturday I visited my aunt. We swam in her pool all afternoon.<br><br><b>Son</b>: On Saturday I played football with my friends. Afterwards, we swam in the river.",
           "bank": null
          }
         },
@@ -675,13 +675,13 @@
          "q": "Which person describes how their street has changed?",
          "opts": [
           "Kira",
-          "Ollie",
+          "Rhys",
           "Tia"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
-          "Ollie describes his street now; he doesn't say it was different before.",
+          "Rhys describes his street now; he doesn't say it was different before.",
           "Tia talks about the noise and lights now, not before."
          ],
          "hint": "Look for 'used to' or 'there was'. They talk about the past.",
@@ -690,7 +690,7 @@
           "id": "s8-r-street",
           "kind": "text",
           "head": "Three children write about their street",
-          "html": "<b>Kira</b>: There used to be a toy shop in my street, but now it's a bank.<br><br><b>Ollie</b>: My street is quiet. There's a small park where I play after school.<br><br><b>Tia</b>: My street is very busy, but I like the noise and the lights.",
+          "html": "<b>Kira</b>: There used to be a toy shop in my street, but now it's a bank.<br><br><b>Rhys</b>: My street is quiet. There's a small park where I play after school.<br><br><b>Tia</b>: My street is very busy, but I like the noise and the lights.",
           "bank": null
          }
         },
@@ -741,7 +741,7 @@
           "She was excited, but then she got bored.",
           "She was bored, so she stopped asking questions."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "It was the other way round: bored first, then happy.",
@@ -796,7 +796,7 @@
           "The coach wanted him to count goals.",
           "He didn't want to play on a Saturday."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Counting goals is what he did INSTEAD; it isn't the reason.",
@@ -820,7 +820,7 @@
           "Her mum asked her for a poem.",
           "The flower shop was closed."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Mum didn't ask for anything; the poem was Poppy's idea.",
@@ -926,7 +926,7 @@
           "Quan",
           "Adam"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Quan's cousin had a cold, but Quan still went to the party and sang.",
@@ -982,7 +982,7 @@
           "Quan",
           "Poppy"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Quan wants to try singing again, but singing isn't new for him.",
@@ -1102,7 +1102,7 @@
           "He found a library book about chalk art.",
           "His neighbours asked him for a picture."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "He found the library book LATER, after his first pictures.",
@@ -1158,7 +1158,7 @@
           "how to draw a giant curved staircase",
           "how to make his lines less wobbly"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "The staircase is a picture he drew later. The book was about shading.",
@@ -1532,7 +1532,7 @@
        "the fireworks in Hanoi at midnight",
        "his mum's plan for the family feast"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "The fireworks were his first plan for the call, not the idea for it.",
@@ -1646,7 +1646,7 @@
        "He thought they were fun.",
        "He thought they were easy."
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "He found the maths fun LATER, not at first.",
@@ -1817,7 +1817,7 @@
        "Lan",
        "Poppy"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Lan goes up to the roof garden to practise her dance steps on her own.",
@@ -1874,7 +1874,7 @@
        "Lan",
        "Jamal"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "Lan learned to plant seeds, but she doesn't say it was hard at first.",
@@ -1931,7 +1931,7 @@
        "Poppy",
        "Jamal"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Poppy goes to the library because it is quiet and she is shy.",
@@ -1988,7 +1988,7 @@
        "Poppy",
        "Lan"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Poppy borrows books from the library. She doesn't buy anything.",
@@ -2045,7 +2045,7 @@
        "Lan",
        "Jamal"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "Lan wants to grow strawberries next year, but that's a hobby, not a job.",

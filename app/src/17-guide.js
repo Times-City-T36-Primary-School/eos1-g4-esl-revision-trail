@@ -4,7 +4,7 @@
    T.guide.point(key, target, opts) -> off()
      key      what is being shown: 'hub', 'flip', 'mat-plus', 'numpad' ... (one hand per key, once per child)
      target   an element, or a function that finds it (a tool may draw its buttons again: the hand follows)
-     opts     { at: 0.55 (how far down the target the fingertip goes), delay: 650 ms, ms: 6000 (how long it stays),
+     opts     { at: 0.55 (how far down the target the fingertip goes), x: 0.5 (how far across), delay: 650 ms, ms: 6000 (how long it stays),
                 scope: 'device' (the start screen: nobody is playing yet, so it is remembered on this device) }
    The hand never takes a tap (pointer-events: none), goes away on the first tap or key press anywhere, after a
    few seconds, when the screen changes, or when its target goes. Only one hand at a time: a second request while
@@ -72,6 +72,11 @@
     if (!node || !node.isConnected || !node.getBoundingClientRect) return null;
     const r = node.getBoundingClientRect();
     if (r.width < 2 || r.height < 2 || node.closest('[hidden]')) return null;
+    // the hand never points through something that covers the target (the letter pad) or at a target scrolled out
+    // of its box: the middle of the target must be the target itself
+    const cx = r.left + r.width / 2, cy = r.top + r.height / 2;
+    const hit = cx >= 0 && cy >= 0 && cx < window.innerWidth && cy < window.innerHeight ? document.elementFromPoint(cx, cy) : null;
+    if (!hit || !(node === hit || node.contains(hit) || (hit.closest && hit.closest('.guide-layer')))) return null;
     return node;
   }
 
@@ -89,7 +94,7 @@
       if (!node) { off(); return; }
       const r = node.getBoundingClientRect();
       const size = hand.offsetWidth || 56, scale = size / W;
-      const x = r.left + r.width / 2, y = r.top + r.height * (opts.at == null ? 0.55 : opts.at);
+      const x = r.left + r.width * (opts.x == null ? 0.5 : opts.x), y = r.top + r.height * (opts.at == null ? 0.55 : opts.at);
       // a target near the bottom (the main button): the hand points down at it from above
       const flip = y + (H - TIP.y) * scale > window.innerHeight - 4;
       hand.classList.toggle('is-flip', flip);

@@ -606,7 +606,9 @@
         const card = el('div', { class: 'gm-lvcard', role: 'status' },
           el('h2', { class: 'gm-lvcard__title', text: 'Level ' + r.level + ' done!' }),
           el('div', { class: 'gm-lvcard__row' }, noHearts ? null : hearts, total),
-          el('p', { class: 'gm-lvcard__sub', text: noHearts ? 'Points so far: ' + r.earned + ' of ' + r.max : bonus ? 'Hearts left: ' + bonus : 'You kept going!' }));
+          el('p', { class: 'gm-lvcard__sub', text: noHearts ? 'Points so far: ' + r.earned + ' of ' + r.max : bonus ? 'Hearts left: ' + bonus : 'You kept going!' }),
+          // how the points of a question game are won (the Writing desk counts its own way)
+          noHearts && r.entry && r.entry.kit !== 'write' ? el('p', { class: 'gm-lvcard__how', text: '2 points for a first try, 1 point for a second try.' }) : null);
         wrap.appendChild(el('div', { class: 'gm-lvcard__scrim' }, card));
         ctx.progress(null);
         ctx.secondary(null);

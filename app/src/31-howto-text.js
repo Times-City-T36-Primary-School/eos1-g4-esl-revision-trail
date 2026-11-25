@@ -11,8 +11,8 @@
       extras: { t: '2 extras', en: 'Beat the clock. Then tell your teacher how it went.', vi: 'Thi nhanh với đồng hồ. Rồi cho thầy cô biết em học thế nào.' },
       win: { t: 'Win', en: 'Stars, a badge for each stop, medals and bolts.', vi: 'Sao, huy hiệu cho mỗi trạm, huy chương và tia chớp.' },
       zip: { t: 'Zip helps you', en: 'Zip says what to do. Tap VI for Vietnamese.', vi: 'Zip nói em cần làm gì. Bấm VI để xem tiếng Việt.' },
-      stuck: { t: 'Stuck?', en: 'Tap Hint for help. Show me how shows each step.', vi: 'Bấm Hint để được gợi ý. Show me how chỉ từng bước.' },
-      paper: { t: 'The test paper', en: 'Write on the dotted lines. Then tap Mark my paper.', vi: 'Viết vào dòng chấm. Rồi bấm Mark my paper (Chấm bài).' },
+      stuck: { t: 'Stuck?', en: 'Hint helps you. Then Show me how shows the answer.', vi: 'Hint giúp em. Rồi Show me how chỉ cho em đáp án.' },
+      paper: { t: 'The test paper', en: 'Tick a box or write the word. Then tap Mark my paper.', vi: 'Đánh dấu một ô hoặc viết từ. Rồi bấm Mark my paper (Chấm bài).' },
       hand: { t: 'Where to tap', en: 'The first time, a hand shows where to tap.', vi: 'Lần đầu, một bàn tay chỉ chỗ em cần bấm.' },
       saved: { t: 'Saved', en: 'Your stars are saved. Your teacher can see them.', vi: 'Sao của em được lưu. Thầy cô có thể xem.' },
       device: { t: 'Saved', en: 'Your stars are saved on this device.', vi: 'Sao của em được lưu trên thiết bị này.' }
