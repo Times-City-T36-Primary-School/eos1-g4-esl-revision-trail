@@ -59,13 +59,13 @@
    "quarter past": {
     "emoji": "⏱️",
     "vi": "hơn mười lăm phút",
-    "def": "Fifteen minutes after the hour. A quarter past nine is 9:15.",
+    "def": "Fifteen minutes after the hour, for example 9:15 or 2:15.",
     "ex": "The coach leaves at *quarter past* eight, so write 8:15."
    },
    "quarter to": {
     "emoji": "⏰",
     "vi": "kém mười lăm",
-    "def": "Fifteen minutes before the hour. A quarter to five is 4:45.",
+    "def": "Fifteen minutes before the next hour, for example 4:45 or 9:45.",
     "ex": "Please come at *quarter to* ten. That's 9:45."
    },
    "date": {
@@ -2794,7 +2794,7 @@
         [
          "bf_isabella",
          "Teacher",
-         "Good morning, Class 4. Next month, we're visiting Sunny Fields Farm to learn about healthy food. We're going on the fourteenth of October. That's a Tuesday. Please come to school by eight o'clock, because the coach leaves at quarter past eight. There are thirty children in our class, so we'll have five groups. There are six children in each group, and every group has a farmer to help. In the morning, you'll pick apples and carrots. After lunch, you'll make fruit salad. Last year we fed the goats, but this year the goats are too young. The trip costs nine pounds. That includes a drink and a snack. Please bring the money by Friday. Wear old shoes, and bring a hat and a raincoat. See you there!"
+         "Good morning, Class 4. Next month, we're visiting Sunny Fields Farm to learn about healthy food. We're going on the fourteenth of October. That's a Tuesday. Please come to school by eight o'clock, because the coach leaves at quarter past eight. We'll be back at school at three o'clock. There are thirty children in our class, so we'll have five groups. There are six children in each group, and every group has a farmer to help. In the morning, you'll pick apples and carrots. After lunch, you'll make fruit salad. Last year we fed the goats, but this year the goats are too young. The trip costs nine pounds. That includes a drink and a snack. Please bring the money by Friday. Wear old shoes, and bring a hat and a raincoat. See you there!"
         ]
        ]
       }
@@ -2825,7 +2825,7 @@
         [
          "bm_daniel",
          "Teacher",
-         "Hello, Class 4. I've got some news about our trip to the Old Town Museum. We're going there to learn how our town looked a hundred years ago. We were going to go on the twenty-seventh of October, but the museum is closed that week. So the trip is on the third of November. We'll leave school at half past nine, and we'll come back at two o'clock. In the morning, you can choose drawing or a quiz. In the afternoon, everyone will wear a costume and visit an old classroom. The ticket costs four pounds fifty. Please bring the money by Thursday. You don't need a packed lunch, because the museum café will give us soup and bread. Please bring a pencil and a ruler. Any questions? Come and ask me."
+         "Hello, Class 4. I've got some news about our trip to the Old Town Museum. We're going there to learn how our town looked a hundred years ago. There's an old street with shops and a school from the past. We were going to go on the twenty-seventh of October, but the museum is closed that week. So the trip is on the third of November. We'll leave school at half past nine, and we'll come back at two o'clock. In the morning, you can choose drawing or a quiz. In the afternoon, everyone will wear a costume and visit an old classroom. The ticket costs four pounds fifty. Please bring the money by Thursday. You don't need a packed lunch, because the museum café will give us soup and bread. Please bring a pencil and a ruler. Any questions? Come and ask me."
         ]
        ]
       }
@@ -2881,7 +2881,7 @@
         [
          "bf_isabella",
          "Teacher",
-         "Good morning, Class 4. Next month, we're visiting Sunny Fields Farm to learn about healthy food. We're going on the fourteenth of October. That's a Tuesday. Please come to school by eight o'clock, because the coach leaves at quarter past eight. There are thirty children in our class, so we'll have five groups. There are six children in each group, and every group has a farmer to help. In the morning, you'll pick apples and carrots. After lunch, you'll make fruit salad. Last year we fed the goats, but this year the goats are too young. The trip costs nine pounds. That includes a drink and a snack. Please bring the money by Friday. Wear old shoes, and bring a hat and a raincoat. See you there!"
+         "Good morning, Class 4. Next month, we're visiting Sunny Fields Farm to learn about healthy food. We're going on the fourteenth of October. That's a Tuesday. Please come to school by eight o'clock, because the coach leaves at quarter past eight. We'll be back at school at three o'clock. There are thirty children in our class, so we'll have five groups. There are six children in each group, and every group has a farmer to help. In the morning, you'll pick apples and carrots. After lunch, you'll make fruit salad. Last year we fed the goats, but this year the goats are too young. The trip costs nine pounds. That includes a drink and a snack. Please bring the money by Friday. Wear old shoes, and bring a hat and a raincoat. See you there!"
         ]
        ]
       }
@@ -2928,7 +2928,7 @@
         [
          "bm_daniel",
          "Teacher",
-         "Hello, Class 4. I've got some news about our trip to the Old Town Museum. We're going there to learn how our town looked a hundred years ago. We were going to go on the twenty-seventh of October, but the museum is closed that week. So the trip is on the third of November. We'll leave school at half past nine, and we'll come back at two o'clock. In the morning, you can choose drawing or a quiz. In the afternoon, everyone will wear a costume and visit an old classroom. The ticket costs four pounds fifty. Please bring the money by Thursday. You don't need a packed lunch, because the museum café will give us soup and bread. Please bring a pencil and a ruler. Any questions? Come and ask me."
+         "Hello, Class 4. I've got some news about our trip to the Old Town Museum. We're going there to learn how our town looked a hundred years ago. There's an old street with shops and a school from the past. We were going to go on the twenty-seventh of October, but the museum is closed that week. So the trip is on the third of November. We'll leave school at half past nine, and we'll come back at two o'clock. In the morning, you can choose drawing or a quiz. In the afternoon, everyone will wear a costume and visit an old classroom. The ticket costs four pounds fifty. Please bring the money by Thursday. You don't need a packed lunch, because the museum café will give us soup and bread. Please bring a pencil and a ruler. Any questions? Come and ask me."
         ]
        ]
       }
@@ -2964,7 +2964,7 @@
         [
          "bf_isabella",
          "Teacher",
-         "Good morning, Class 4. Next month, we're visiting Sunny Fields Farm to learn about healthy food. We're going on the fourteenth of October. That's a Tuesday. Please come to school by eight o'clock, because the coach leaves at quarter past eight. There are thirty children in our class, so we'll have five groups. There are six children in each group, and every group has a farmer to help. In the morning, you'll pick apples and carrots. After lunch, you'll make fruit salad. Last year we fed the goats, but this year the goats are too young. The trip costs nine pounds. That includes a drink and a snack. Please bring the money by Friday. Wear old shoes, and bring a hat and a raincoat. See you there!"
+         "Good morning, Class 4. Next month, we're visiting Sunny Fields Farm to learn about healthy food. We're going on the fourteenth of October. That's a Tuesday. Please come to school by eight o'clock, because the coach leaves at quarter past eight. We'll be back at school at three o'clock. There are thirty children in our class, so we'll have five groups. There are six children in each group, and every group has a farmer to help. In the morning, you'll pick apples and carrots. After lunch, you'll make fruit salad. Last year we fed the goats, but this year the goats are too young. The trip costs nine pounds. That includes a drink and a snack. Please bring the money by Friday. Wear old shoes, and bring a hat and a raincoat. See you there!"
         ]
        ]
       }
@@ -2990,7 +2990,7 @@
         [
          "bm_daniel",
          "Teacher",
-         "Hello, Class 4. I've got some news about our trip to the Old Town Museum. We're going there to learn how our town looked a hundred years ago. We were going to go on the twenty-seventh of October, but the museum is closed that week. So the trip is on the third of November. We'll leave school at half past nine, and we'll come back at two o'clock. In the morning, you can choose drawing or a quiz. In the afternoon, everyone will wear a costume and visit an old classroom. The ticket costs four pounds fifty. Please bring the money by Thursday. You don't need a packed lunch, because the museum café will give us soup and bread. Please bring a pencil and a ruler. Any questions? Come and ask me."
+         "Hello, Class 4. I've got some news about our trip to the Old Town Museum. We're going there to learn how our town looked a hundred years ago. There's an old street with shops and a school from the past. We were going to go on the twenty-seventh of October, but the museum is closed that week. So the trip is on the third of November. We'll leave school at half past nine, and we'll come back at two o'clock. In the morning, you can choose drawing or a quiz. In the afternoon, everyone will wear a costume and visit an old classroom. The ticket costs four pounds fifty. Please bring the money by Thursday. You don't need a packed lunch, because the museum café will give us soup and bread. Please bring a pencil and a ruler. Any questions? Come and ask me."
         ]
        ]
       }
@@ -3025,7 +3025,7 @@
         [
          "bf_isabella",
          "Teacher",
-         "Good morning, Class 4. Next month, we're visiting Sunny Fields Farm to learn about healthy food. We're going on the fourteenth of October. That's a Tuesday. Please come to school by eight o'clock, because the coach leaves at quarter past eight. There are thirty children in our class, so we'll have five groups. There are six children in each group, and every group has a farmer to help. In the morning, you'll pick apples and carrots. After lunch, you'll make fruit salad. Last year we fed the goats, but this year the goats are too young. The trip costs nine pounds. That includes a drink and a snack. Please bring the money by Friday. Wear old shoes, and bring a hat and a raincoat. See you there!"
+         "Good morning, Class 4. Next month, we're visiting Sunny Fields Farm to learn about healthy food. We're going on the fourteenth of October. That's a Tuesday. Please come to school by eight o'clock, because the coach leaves at quarter past eight. We'll be back at school at three o'clock. There are thirty children in our class, so we'll have five groups. There are six children in each group, and every group has a farmer to help. In the morning, you'll pick apples and carrots. After lunch, you'll make fruit salad. Last year we fed the goats, but this year the goats are too young. The trip costs nine pounds. That includes a drink and a snack. Please bring the money by Friday. Wear old shoes, and bring a hat and a raincoat. See you there!"
         ]
        ]
       }
@@ -3057,7 +3057,7 @@
         [
          "bm_daniel",
          "Teacher",
-         "Hello, Class 4. I've got some news about our trip to the Old Town Museum. We're going there to learn how our town looked a hundred years ago. We were going to go on the twenty-seventh of October, but the museum is closed that week. So the trip is on the third of November. We'll leave school at half past nine, and we'll come back at two o'clock. In the morning, you can choose drawing or a quiz. In the afternoon, everyone will wear a costume and visit an old classroom. The ticket costs four pounds fifty. Please bring the money by Thursday. You don't need a packed lunch, because the museum café will give us soup and bread. Please bring a pencil and a ruler. Any questions? Come and ask me."
+         "Hello, Class 4. I've got some news about our trip to the Old Town Museum. We're going there to learn how our town looked a hundred years ago. There's an old street with shops and a school from the past. We were going to go on the twenty-seventh of October, but the museum is closed that week. So the trip is on the third of November. We'll leave school at half past nine, and we'll come back at two o'clock. In the morning, you can choose drawing or a quiz. In the afternoon, everyone will wear a costume and visit an old classroom. The ticket costs four pounds fifty. Please bring the money by Thursday. You don't need a packed lunch, because the museum café will give us soup and bread. Please bring a pencil and a ruler. Any questions? Come and ask me."
         ]
        ]
       }
@@ -3098,7 +3098,7 @@
         [
          "bf_isabella",
          "Teacher",
-         "Good morning, Class 4. Next month, we're visiting Sunny Fields Farm to learn about healthy food. We're going on the fourteenth of October. That's a Tuesday. Please come to school by eight o'clock, because the coach leaves at quarter past eight. There are thirty children in our class, so we'll have five groups. There are six children in each group, and every group has a farmer to help. In the morning, you'll pick apples and carrots. After lunch, you'll make fruit salad. Last year we fed the goats, but this year the goats are too young. The trip costs nine pounds. That includes a drink and a snack. Please bring the money by Friday. Wear old shoes, and bring a hat and a raincoat. See you there!"
+         "Good morning, Class 4. Next month, we're visiting Sunny Fields Farm to learn about healthy food. We're going on the fourteenth of October. That's a Tuesday. Please come to school by eight o'clock, because the coach leaves at quarter past eight. We'll be back at school at three o'clock. There are thirty children in our class, so we'll have five groups. There are six children in each group, and every group has a farmer to help. In the morning, you'll pick apples and carrots. After lunch, you'll make fruit salad. Last year we fed the goats, but this year the goats are too young. The trip costs nine pounds. That includes a drink and a snack. Please bring the money by Friday. Wear old shoes, and bring a hat and a raincoat. See you there!"
         ]
        ]
       }
@@ -3124,7 +3124,7 @@
         [
          "bm_daniel",
          "Teacher",
-         "Hello, Class 4. I've got some news about our trip to the Old Town Museum. We're going there to learn how our town looked a hundred years ago. We were going to go on the twenty-seventh of October, but the museum is closed that week. So the trip is on the third of November. We'll leave school at half past nine, and we'll come back at two o'clock. In the morning, you can choose drawing or a quiz. In the afternoon, everyone will wear a costume and visit an old classroom. The ticket costs four pounds fifty. Please bring the money by Thursday. You don't need a packed lunch, because the museum café will give us soup and bread. Please bring a pencil and a ruler. Any questions? Come and ask me."
+         "Hello, Class 4. I've got some news about our trip to the Old Town Museum. We're going there to learn how our town looked a hundred years ago. There's an old street with shops and a school from the past. We were going to go on the twenty-seventh of October, but the museum is closed that week. So the trip is on the third of November. We'll leave school at half past nine, and we'll come back at two o'clock. In the morning, you can choose drawing or a quiz. In the afternoon, everyone will wear a costume and visit an old classroom. The ticket costs four pounds fifty. Please bring the money by Thursday. You don't need a packed lunch, because the museum café will give us soup and bread. Please bring a pencil and a ruler. Any questions? Come and ask me."
         ]
        ]
       }
