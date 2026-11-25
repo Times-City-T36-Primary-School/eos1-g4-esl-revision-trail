@@ -235,7 +235,7 @@
        "type": "mcq",
        "q": "Which sentence is about a routine?",
        "opts": [
-        "Mai brushes her teeth after every meal.",
+        "Mai brushes her teeth every day.",
         "Mai is brushing her teeth right now.",
         "Mai brushed her teeth an hour ago."
        ],
@@ -246,14 +246,14 @@
         "'an hour ago' tells you this happened once, in the past."
        ],
        "hint": "A routine happens again and again. Look for a time word like 'every'.",
-       "worked": "'after every meal' means again and again, so 'Mai brushes her teeth' is a routine.",
+       "worked": "'every day' means again and again, so 'Mai brushes her teeth every day' is a routine.",
        "stim": null
       },
       {
        "type": "mcq",
        "q": "Which sentence tells us about a habit?",
        "opts": [
-        "Grandpa walks in the park every morning.",
+        "Grandpa walks in the park every day.",
         "Grandpa walked in the park on Sunday.",
         "Grandpa is walking in the park now."
        ],
@@ -264,7 +264,7 @@
         "'is walking' and 'now' tell you this is happening at this moment."
        ],
        "hint": "A habit is something you do again and again. Which sentence has 'every'?",
-       "worked": "'every morning' shows a habit, and the present simple 'walks' goes with it.",
+       "worked": "'every day' shows a habit, and the present simple 'walks' goes with it.",
        "stim": null
       }
      ]
@@ -278,7 +278,7 @@
        "type": "mcq",
        "q": "Which sentence is about the past?",
        "opts": [
-        "There were lots of fireworks last night.",
+        "There were fireworks last night.",
         "There are lots of fireworks tonight.",
         "We are watching the fireworks now."
        ],
@@ -340,13 +340,13 @@
        "q": "Which sentence tells us what Isla is doing now?",
        "opts": [
         "Isla is drawing a cat on the wall.",
-        "Isla draws a cat on every card.",
+        "Isla draws a cat on every birthday card.",
         "Isla drew a cat on the wall."
        ],
        "at": 2,
        "whys": [
         null,
-        "'draws' and 'every card' tell you it is a habit, not this moment.",
+        "'draws' and 'every birthday card' tell you it is a habit, not this moment.",
         "'drew' is the past, so it is finished."
        ],
        "hint": "Something happening now uses am, is or are + -ing.",
@@ -572,7 +572,7 @@
         },
         {
          "type": "mcq",
-         "q": "Sam ________ eat his dinner last night because he had a stomach ache.",
+         "q": "Nina ________ eat her dinner last night because she had a stomach ache.",
          "opts": [
           "didn't",
           "doesn't",
@@ -582,7 +582,7 @@
          "whys": [
           null,
           "'doesn't' is for the present, but 'last night' is finished.",
-          "'don't' is for the present, and it does not go with he."
+          "'don't' is for the present, and it does not go with she."
          ],
          "hint": "Look at 'last night' and 'had'. Is this now or in the past?",
          "worked": "'last night' is the past, so the negative is 'didn't' + eat.",
@@ -688,14 +688,14 @@
          "q": "Shh! The baby ________ in her cot right now.",
          "opts": [
           "is sleeping",
-          "sleeps",
-          "slept"
+          "was sleeping",
+          "sleeps"
          ],
          "at": 1,
          "whys": [
           null,
-          "'sleeps' is for a habit, but 'right now' means this moment.",
-          "'slept' is the past, but 'right now' means this moment."
+          "'was sleeping' is the past, but 'right now' means this moment.",
+          "'sleeps' is for a habit, but 'right now' means this moment."
          ],
          "hint": "'Shh!' and 'right now' are clues. What is happening at this moment?",
          "worked": "'right now' = this moment, so: is + sleeping.",
@@ -746,7 +746,7 @@
         },
         {
          "type": "mcq",
-         "q": "Remy is ________ a party for his tenth birthday on Saturday.",
+         "q": "Chloe is ________ a party for her tenth birthday on Saturday.",
          "opts": [
           "having",
           "have",
@@ -968,16 +968,16 @@
          "q": "Which option correctly completes the message?",
          "opts": [
           "are visiting",
-          "visited",
-          "visits"
+          "were visiting",
+          "visited"
          ],
          "at": 2,
          "whys": [
           null,
-          "'visited' is the past, but Mum says they will be back at eight, so it hasn't happened yet.",
-          "'visits' goes with he or she, but the subject is 'Dad and I'."
+          "'were visiting' is the past, but 'this evening' and 'We'll be back' show it hasn't happened yet.",
+          "'visited' is the past, but Mum says they will be back at eight, so it hasn't happened yet."
          ],
-         "hint": "When is the visit: before or after Mum wrote the note? Who is visiting?",
+         "hint": "When is the visit: before or after Mum wrote the note?",
          "worked": "'this evening' and 'We'll be back at eight' show a plan: 'Dad and I are visiting'.",
          "stim": {
           "id": "s2-note-1",
@@ -992,14 +992,14 @@
          "q": "Which option correctly completes the message?",
          "opts": [
           "am looking",
-          "looked",
-          "look"
+          "was looking",
+          "looked"
          ],
          "at": 0,
          "whys": [
           null,
-          "'looked' is the past, but Isla says 'right now'.",
-          "'look' is for a habit, but Isla says 'right now'."
+          "'was looking' is the past, but Isla says 'right now'.",
+          "'looked' is the past, but Isla says 'right now'."
          ],
          "hint": "Find the time words in the message.",
          "worked": "'right now' tells you it is happening at this moment: 'I am looking'.",

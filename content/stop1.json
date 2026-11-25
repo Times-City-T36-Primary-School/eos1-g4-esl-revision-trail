@@ -1,0 +1,2258 @@
+{
+ "n": 1,
+ "title": "Topic words and word partners",
+ "blurb": {
+  "en": "Learn topic words, -ed and -ing words, comparing words and partners like good at.",
+  "vi": "Học từ vựng chủ đề, từ đuôi -ed và -ing, từ so sánh và cặp từ như good at."
+ },
+ "words": {
+  "sets": [
+   {
+    "id": "A",
+    "title": {
+     "en": "Describing people and places",
+     "vi": "Tả người và nơi chốn"
+    },
+    "keys": [
+     "generous",
+     "outgoing",
+     "bad-tempered",
+     "enormous",
+     "mysterious"
+    ]
+   },
+   {
+    "id": "B",
+    "title": {
+     "en": "Food and health",
+     "vi": "Thức ăn và sức khỏe"
+    },
+    "keys": [
+     "fever",
+     "sore throat",
+     "dairy products",
+     "fibre"
+    ]
+   },
+   {
+    "id": "C",
+    "title": {
+     "en": "Art and celebrations",
+     "vi": "Nghệ thuật và lễ hội"
+    },
+    "keys": [
+     "sketch",
+     "pattern",
+     "fireworks",
+     "feast",
+     "chewy"
+    ]
+   }
+  ],
+  "items": {
+   "generous": {
+    "emoji": "🎁",
+    "vi": "hào phóng, rộng lượng",
+    "def": "Happy to give your time, money or things to other people.",
+    "ex": "My *generous* uncle shared his sweets with all the children."
+   },
+   "outgoing": {
+    "emoji": "🙋",
+    "vi": "cởi mở, hòa đồng",
+    "def": "Friendly and happy to talk to new people.",
+    "ex": "Zara is very *outgoing*. She made five new friends on her first day."
+   },
+   "bad-tempered": {
+    "emoji": "😠",
+    "vi": "dễ nổi cáu, khó tính",
+    "def": "Often cross or angry, even about small things.",
+    "ex": "Our old cat gets *bad-tempered* when she is hungry."
+   },
+   "enormous": {
+    "emoji": "🐋",
+    "vi": "khổng lồ, rất to",
+    "def": "Very, very big.",
+    "ex": "There is an *enormous* tree in the middle of the square."
+   },
+   "mysterious": {
+    "emoji": "🔮",
+    "vi": "bí ẩn, huyền bí",
+    "def": "Strange, and hard to understand or explain.",
+    "ex": "We found a *mysterious* old key under the stairs."
+   },
+   "fever": {
+    "emoji": "🤒",
+    "vi": "sốt",
+    "def": "When your body is too hot because you are ill.",
+    "ex": "Kai stayed in bed because he had a *fever*."
+   },
+   "sore throat": {
+    "emoji": "😷",
+    "vi": "đau họng",
+    "def": "A pain inside your neck that makes it hurt to talk or swallow.",
+    "ex": "I have a *sore throat*, so Mum made me some warm honey water."
+   },
+   "dairy products": {
+    "emoji": "🧀",
+    "vi": "các sản phẩm từ sữa",
+    "def": "Food made from milk, like cheese, yoghurt and butter.",
+    "ex": "*Dairy products* give us calcium for strong bones and teeth."
+   },
+   "fibre": {
+    "emoji": "🥦",
+    "vi": "chất xơ",
+    "def": "A part of vegetables, fruit and brown rice that helps your stomach work well.",
+    "ex": "Beans and apples have lots of *fibre*."
+   },
+   "sketch": {
+    "emoji": "✏️",
+    "vi": "bản phác thảo; phác họa",
+    "def": "A quick drawing with a pencil, often made before a painting.",
+    "ex": "The artist made a *sketch* of the street before she painted it."
+   },
+   "pattern": {
+    "emoji": "🏁",
+    "vi": "họa tiết, hoa văn",
+    "def": "Shapes, lines or colours that repeat again and again.",
+    "ex": "My scarf has a *pattern* of red and white stars."
+   },
+   "fireworks": {
+    "emoji": "🎆",
+    "vi": "pháo hoa",
+    "def": "Things that explode in the night sky with bright colours and loud bangs.",
+    "ex": "At midnight we watched the *fireworks* over the river."
+   },
+   "feast": {
+    "emoji": "🍽️",
+    "vi": "bữa tiệc lớn, mâm cỗ",
+    "def": "A very big, special meal for a lot of people.",
+    "ex": "For the New Year, Grandma cooked a *feast* for twenty people."
+   },
+   "chewy": {
+    "emoji": "🍡",
+    "vi": "dai (phải nhai nhiều)",
+    "def": "Soft, but you need to bite it many times before you can swallow it.",
+    "ex": "The rice cakes were sweet and *chewy*."
+   }
+  }
+ },
+ "see": {
+  "scenes": [
+   {
+    "id": "s1",
+    "title": {
+     "en": "Feeling words and adjective order",
+     "vi": "Tính từ đuôi -ed / -ing và trật tự tính từ"
+    },
+    "kind": "text",
+    "head": "A page from Theo's diary",
+    "html": "On Saturday morning I was *bored*. The rain was *boring*, and I had nothing to do. Then Dad took me to see the street art in Chalk Lane. On one wall there was a *beautiful big blue* waterfall. It looked so real! I was *amazed*, and I touched it. It was only paint on a *tall old brick* wall! The artist showed us her pencil sketches. 'Tricks like this are *exciting*, aren't they?' she said. I was *excited* all the way home.",
+    "audio": null,
+    "steps": [
+     {
+      "en": "Words with *-ed* tell us how a person feels: I was *bored*, I was *amazed*, I was *excited*.",
+      "vi": "Từ có đuôi *-ed* cho biết một người cảm thấy thế nào: I was *bored*, I was *amazed*, I was *excited*."
+     },
+     {
+      "en": "Words with *-ing* tell us what makes us feel that way: the rain was *boring*, tricks are *exciting*.",
+      "vi": "Từ có đuôi *-ing* cho biết điều gì làm ta có cảm giác đó: the rain was *boring*, tricks are *exciting*."
+     },
+     {
+      "en": "Two or three adjectives before a noun go in this order: opinion, size, age, colour, material.",
+      "vi": "Khi có hai hoặc ba tính từ đứng trước danh từ, ta xếp theo thứ tự: ý kiến, kích thước, tuổi, màu sắc, chất liệu."
+     },
+     {
+      "en": "So we say a *beautiful big blue* waterfall and a *tall old brick* wall.",
+      "vi": "Vì vậy ta nói a *beautiful big blue* waterfall và a *tall old brick* wall."
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "title": {
+     "en": "Comparing: -er, the -est, more and most",
+     "vi": "So sánh hơn và so sánh nhất"
+    },
+    "kind": "text",
+    "head": "Ruby's food blog: New Year snacks",
+    "html": "At New Year, Grandma made three snacks. First, I tried the sticky rice cake. It was boiled for ten hours, so it was *softer than* bread. Next, I ate the coconut sweets. They were *sweeter than* the rice cake, and very chewy. But *the chewiest* snack was the ginger sweets! My favourite was the rice cake. It was *the most delicious* snack on the table, and it was *better than* any cake from a shop!",
+    "audio": null,
+    "steps": [
+     {
+      "en": "To compare two things, add *-er* and use *than*: *softer than*, *sweeter than*.",
+      "vi": "Để so sánh hai thứ, thêm *-er* và dùng *than*: *softer than*, *sweeter than*."
+     },
+     {
+      "en": "For the top one in a group, use *the* + *-est*: *the chewiest* snack.",
+      "vi": "Để nói thứ đứng đầu trong một nhóm, dùng *the* + *-est*: *the chewiest* snack."
+     },
+     {
+      "en": "Long adjectives use *more* and *the most*: *the most delicious*.",
+      "vi": "Tính từ dài dùng *more* và *the most*: *the most delicious*."
+     },
+     {
+      "en": "*Good* is special: good, *better*, *the best*.",
+      "vi": "*Good* là tính từ đặc biệt: good, *better*, *the best*."
+     }
+    ]
+   },
+   {
+    "id": "s3",
+    "title": {
+     "en": "Word partners and new words",
+     "vi": "Cặp từ (tính từ + giới từ) và đoán nghĩa từ mới"
+    },
+    "kind": "text",
+    "head": "From our class magazine: Our caretaker",
+    "html": "Everyone knows our school caretaker. He is *kind to* every child, and he is *good at* fixing things. Last week he mended our broken classroom door in ten minutes! He is *interested in* plants too, and he grows tomatoes behind the school hall. He is always <b>cheerful</b>. He smiles and sings, even on rainy days. When he was young, he was *afraid of* dogs, but now he looks after the school's old dog, Biscuit. We are all *proud of* him.",
+    "audio": null,
+    "steps": [
+     {
+      "en": "Some adjectives always have the same little word after them: *kind to*, *good at*, *interested in*.",
+      "vi": "Một số tính từ luôn đi với cùng một giới từ phía sau: *kind to*, *good at*, *interested in*."
+     },
+     {
+      "en": "Learn them as pairs: *afraid of*, *proud of*, *worried about*, *famous for*.",
+      "vi": "Hãy học chúng theo cặp: *afraid of*, *proud of*, *worried about*, *famous for*."
+     },
+     {
+      "en": "Don't know <b>cheerful</b>? Read the next sentence: he smiles and sings, even on rainy days. So he is always happy!",
+      "vi": "Chưa biết từ <b>cheerful</b>? Hãy đọc câu tiếp theo: ông ấy cười và hát, kể cả vào ngày mưa. Vậy ông ấy luôn vui vẻ!"
+     }
+    ]
+   }
+  ],
+  "challenge": {
+   "end": {
+    "en": "Great work! You found the special words in all three texts.",
+    "vi": "Làm tốt lắm! Em đã tìm được các từ đặc biệt trong cả ba bài đọc."
+   },
+   "result": "You spotted -ed and -ing words, comparing words, word partners and adjective order.",
+   "rounds": [
+    {
+     "lo": [
+      "5Ug.11"
+     ],
+     "v": [
+      {
+       "type": "mcq",
+       "q": "The rain was boring, so Theo felt ________.",
+       "opts": [
+        "bored",
+        "boring",
+        "boredom"
+       ],
+       "at": 0,
+       "whys": [
+        null,
+        "Boring is for the thing (the rain). Theo is a person with a feeling.",
+        "Boredom is a noun. After 'felt' we need an adjective."
+       ],
+       "hint": "Is the gap about a person's feeling or about the thing?",
+       "worked": "Theo is a person and the gap is his feeling, so we use *-ed*: 'Theo felt *bored*.'",
+       "stim": null
+      },
+      {
+       "type": "mcq",
+       "q": "The painting looked so real. It was ________!",
+       "opts": [
+        "amazing",
+        "amazed",
+        "amaze"
+       ],
+       "at": 1,
+       "whys": [
+        null,
+        "Amazed is how a person feels. Here we talk about the painting.",
+        "Amaze is a verb. After 'It was' we need an adjective."
+       ],
+       "hint": "Who or what is 'It'? A person or a thing?",
+       "worked": "'It' is the painting, a thing that makes us feel amazed, so we use *-ing*: 'It was *amazing*!'",
+       "stim": null
+      }
+     ]
+    },
+    {
+     "lo": [
+      "5Ug.11"
+     ],
+     "v": [
+      {
+       "type": "mcq",
+       "q": "Grandma's rice cake was ________ than bread.",
+       "opts": [
+        "softer",
+        "softest",
+        "soft"
+       ],
+       "at": 2,
+       "whys": [
+        null,
+        "Softest is for the top one in a group. Look at 'than'.",
+        "Soft does not compare. Look at the word after the gap."
+       ],
+       "hint": "Look at the word after the gap. What does 'than' tell you?",
+       "worked": "We compare two things with *-er* + *than*: 'softer than bread'.",
+       "stim": null
+      },
+      {
+       "type": "mcq",
+       "q": "The ________ snack of all was the ginger sweets.",
+       "opts": [
+        "chewiest",
+        "chewier",
+        "chewy"
+       ],
+       "at": 1,
+       "whys": [
+        null,
+        "Chewier compares only two things. Read 'of all'.",
+        "Chewy does not tell us it is the top one. Read 'of all'."
+       ],
+       "hint": "Read the end of the sentence. Is it one of two, or the top one of all?",
+       "worked": "'The ... of all' tells us it is the top one, so we use *the chewiest*.",
+       "stim": null
+      }
+     ]
+    },
+    {
+     "lo": [
+      "5Uv.01"
+     ],
+     "v": [
+      {
+       "type": "mcq",
+       "q": "The caretaker is good ________ fixing things.",
+       "opts": [
+        "at",
+        "in",
+        "for"
+       ],
+       "at": 2,
+       "whys": [
+        null,
+        "We say 'interested in', but not 'good in' for a skill.",
+        "'Good for' means healthy for you, like 'Fruit is good for you'."
+       ],
+       "hint": "Which little word goes with 'good' when you talk about a skill?",
+       "worked": "The partner of good for a skill is *at*: 'good at fixing things'.",
+       "stim": null
+      },
+      {
+       "type": "mcq",
+       "q": "He is interested ________ plants and grows tomatoes.",
+       "opts": [
+        "in",
+        "on",
+        "at"
+       ],
+       "at": 0,
+       "whys": [
+        null,
+        "'Interested on' is not English. Check the partner of 'interested'.",
+        "'Interested at' is not English. 'At' goes with 'good'."
+       ],
+       "hint": "Which little word always comes after 'interested'?",
+       "worked": "The partner of interested is *in*: 'interested in plants'.",
+       "stim": null
+      }
+     ]
+    },
+    {
+     "lo": [
+      "5Ug.11"
+     ],
+     "v": [
+      {
+       "type": "mcq",
+       "q": "On one wall there was a ________ waterfall.",
+       "opts": [
+        "beautiful big blue",
+        "big blue beautiful",
+        "blue beautiful big"
+       ],
+       "at": 2,
+       "whys": [
+        null,
+        "Your opinion (beautiful) comes first, before size and colour.",
+        "Colour comes after opinion and size, not first."
+       ],
+       "hint": "Remember the order: opinion, size, age, colour, material.",
+       "worked": "Opinion, size, colour: a *beautiful big blue* waterfall.",
+       "stim": null
+      },
+      {
+       "type": "mcq",
+       "q": "It was only paint on a ________ wall!",
+       "opts": [
+        "tall old brick",
+        "brick old tall",
+        "old brick tall"
+       ],
+       "at": 0,
+       "whys": [
+        null,
+        "Material (brick) comes last, just before the noun.",
+        "Size (tall) comes before age (old)."
+       ],
+       "hint": "Remember the order: opinion, size, age, colour, material.",
+       "worked": "Size, age, material: a *tall old brick* wall.",
+       "stim": null
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "practise": [
+  {
+   "id": "s1r",
+   "title": "Learn it",
+   "blurb": {
+    "en": "One step at a time: topic words, -ed and -ing words, comparing and word partners.",
+    "vi": "Từng bước một: từ vựng chủ đề, từ đuôi -ed và -ing, so sánh và cặp từ."
+   },
+   "levels": [
+    {
+     "title": {
+      "en": "Topic words from Units 1 to 4",
+      "vi": "Từ vựng chủ đề của Bài 1 đến Bài 4"
+     },
+     "rounds": [
+      {
+       "lo": [
+        "5Rd.03"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Anya always shares her snacks and lends her pens to everyone. She is ________.",
+         "opts": [
+          "generous",
+          "selfish",
+          "bad-tempered"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "A selfish person keeps things for himself or herself. Anya shares.",
+          "A bad-tempered person gets angry. The sentence is about sharing."
+         ],
+         "hint": "What does Anya do with her snacks and pens?",
+         "worked": "'Always shares her snacks and lends her pens' tells us Anya is *generous*.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "My little brother gets angry about small things and often shouts. He is ________.",
+         "opts": [
+          "bad-tempered",
+          "outgoing",
+          "generous"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "An outgoing person is friendly with new people. Is shouting friendly?",
+          "A generous person likes to give. The sentence is about getting angry."
+         ],
+         "hint": "What does the brother do when small things happen?",
+         "worked": "'Gets angry about small things and often shouts' tells us he is *bad-tempered*.",
+         "stim": null
+        }
+       ]
+      },
+      {
+       "lo": [
+        "5Rd.03"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "I can't stop coughing, and it hurts when I swallow. What have I got?",
+         "opts": [
+          "a sore throat",
+          "an earache",
+          "a runny nose"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "An earache is a pain in your ear. Where does it hurt when you swallow?",
+          "A runny nose is about your nose, not about swallowing."
+         ],
+         "hint": "Where in your body do you feel it when you swallow?",
+         "worked": "'It hurts when I swallow' tells us the pain is in the throat: *a sore throat*.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "Milk, cheese and yoghurt are all ...",
+         "opts": [
+          "dairy products",
+          "grains",
+          "vegetables"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Grains are rice, bread and cereals. What are milk and cheese made from?",
+          "Vegetables grow in the ground. Milk and cheese don't grow."
+         ],
+         "hint": "What do milk, cheese and yoghurt all come from?",
+         "worked": "Milk, cheese and yoghurt are all made from milk, so they are *dairy products*.",
+         "stim": null
+        }
+       ]
+      },
+      {
+       "lo": [
+        "5Rd.03"
+       ],
+       "v": [
+        {
+         "type": "tfill",
+         "q": "Type the missing word. It starts with f.",
+         "lines": [
+          "For the New Year, Grandma cooked a big {0} for all the family."
+         ],
+         "ans": [
+          [
+           "feast"
+          ]
+         ],
+         "hint": "Which word means a very big, special meal? It has 5 letters.",
+         "worked": "A very big, special meal for lots of people is a *feast*.",
+         "stim": null
+        },
+        {
+         "type": "tfill",
+         "q": "Type the missing word. It starts with s.",
+         "lines": [
+          "The artist drew a quick {0} with her pencil before she started to paint."
+         ],
+         "ans": [
+          [
+           "sketch"
+          ]
+         ],
+         "hint": "Which word means a quick pencil drawing? It has 6 letters.",
+         "worked": "A quick drawing with a pencil before a painting is a *sketch*.",
+         "stim": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Adjectives: feelings, order and comparing",
+      "vi": "Tính từ: cảm xúc, trật tự và so sánh"
+     },
+     "rounds": [
+      {
+       "lo": [
+        "5Ug.11"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "The film about the deep ocean was really ________. I want to see it again!",
+         "opts": [
+          "interesting",
+          "interested",
+          "interest"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "Interested is how a person feels. Here we talk about the film.",
+          "Interest is a noun or a verb. After 'was really' we need an adjective."
+         ],
+         "hint": "Is the gap about the film or about a person's feeling?",
+         "worked": "The film makes us feel interested, so the film is *interesting* (-ing for the thing).",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "Jade had nothing to do at home all day, so she felt ________.",
+         "opts": [
+          "bored",
+          "boring",
+          "boredom"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Boring is for a thing or an activity. Jade is a person.",
+          "Boredom is a noun. After 'felt' we need an adjective."
+         ],
+         "hint": "Jade is a person. Do we need -ed or -ing for a person's feeling?",
+         "worked": "Jade is a person describing her feeling, so we use *-ed*: 'she felt *bored*'.",
+         "stim": null
+        }
+       ]
+      },
+      {
+       "lo": [
+        "5Ug.11"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Choose the right order. Grandpa wears a ________ hat.",
+         "opts": [
+          "lovely old brown",
+          "brown lovely old",
+          "old brown lovely"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "Colour (brown) comes after opinion and age.",
+          "Your opinion (lovely) comes first, not last."
+         ],
+         "hint": "Remember: opinion, size, age, colour, material.",
+         "worked": "Opinion, age, colour: a *lovely old brown* hat.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "Choose the right order. We live in a ________ flat near the park.",
+         "opts": [
+          "small new white",
+          "white small new",
+          "new white small"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Colour (white) comes after size and age.",
+          "Size (small) comes before age (new)."
+         ],
+         "hint": "Remember: opinion, size, age, colour, material.",
+         "worked": "Size, age, colour: a *small new white* flat.",
+         "stim": null
+        }
+       ]
+      },
+      {
+       "lo": [
+        "5Ug.11"
+       ],
+       "v": [
+        {
+         "type": "tfill",
+         "q": "Type the right form of the word in brackets.",
+         "lines": [
+          "An elephant is {0} (big) than a horse."
+         ],
+         "ans": [
+          [
+           "bigger"
+          ]
+         ],
+         "hint": "Look at 'than'. For short words like big, double the last letter before you add the ending.",
+         "worked": "Two things with *than*: big becomes *bigger*: 'bigger than a horse'.",
+         "stim": null
+        },
+        {
+         "type": "tfill",
+         "q": "Type the right form of the word in brackets.",
+         "lines": [
+          "Today is the {0} (hot) day of the year!"
+         ],
+         "ans": [
+          [
+           "hottest"
+          ]
+         ],
+         "hint": "Look at 'the' and 'of the year'. For short words like hot, double the last letter.",
+         "worked": "The top one of a group: hot becomes *the hottest*: 'the hottest day of the year'.",
+         "stim": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Word partners: adjective + preposition",
+      "vi": "Cặp từ: tính từ + giới từ"
+     },
+     "rounds": [
+      {
+       "lo": [
+        "5Uv.01"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Minh is afraid ________ big dogs, so he crosses the road when he sees one.",
+         "opts": [
+          "of",
+          "at",
+          "in"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "'Afraid at' is not English. Check the partner of 'afraid'.",
+          "'Afraid in' is not English. 'In' goes with 'interested'."
+         ],
+         "hint": "Which little word always comes after 'afraid'?",
+         "worked": "The partner of afraid is *of*: 'afraid of big dogs'.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "Our town is famous ________ its old market and its noodle soup.",
+         "opts": [
+          "for",
+          "of",
+          "at"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "We say 'proud of', but 'famous' has a different partner.",
+          "'Famous at' is not English. 'At' goes with 'good'."
+         ],
+         "hint": "Which little word comes after 'famous' to give the reason?",
+         "worked": "The partner of famous is *for*: 'famous for its old market'.",
+         "stim": null
+        }
+       ]
+      },
+      {
+       "lo": [
+        "5Uv.01"
+       ],
+       "v": [
+        {
+         "type": "tfill",
+         "q": "Type the missing little word.",
+         "lines": [
+          "Kai is very good {0} drawing animals."
+         ],
+         "ans": [
+          [
+           "at"
+          ]
+         ],
+         "hint": "Drawing is a skill. Which little word goes with 'good' for a skill?",
+         "worked": "For a skill we say *good at*: 'good at drawing animals'.",
+         "stim": null
+        },
+        {
+         "type": "tfill",
+         "q": "Type the missing little word.",
+         "lines": [
+          "Linh is worried {0} her maths test tomorrow."
+         ],
+         "ans": [
+          [
+           "about"
+          ]
+         ],
+         "hint": "Which little word comes after 'worried'? It has 5 letters.",
+         "worked": "The partner of worried is *about*: 'worried about her maths test'.",
+         "stim": null
+        }
+       ]
+      },
+      {
+       "lo": [
+        "5Uv.01"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Our teacher was ________ of us because we all worked so hard.",
+         "opts": [
+          "proud",
+          "kind",
+          "good"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "Kind goes with 'to': kind to someone. Check the word after the gap.",
+          "Good goes with 'at': good at something. Check the word after the gap."
+         ],
+         "hint": "Look at the little word after the gap. Which adjective is its partner?",
+         "worked": "'Worked so hard' makes a teacher happy and *proud*: 'proud of us'.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "Please be ________ to the new boy. It's his first day at our school.",
+         "opts": [
+          "kind",
+          "afraid",
+          "interested"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "We say 'afraid of', not 'afraid to' a person.",
+          "We say 'interested in', not 'interested to' a person."
+         ],
+         "hint": "Look at the little word after the gap. Which adjective is its partner?",
+         "worked": "The partner of kind is *to*: 'be kind to the new boy'.",
+         "stim": null
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s1a",
+   "title": "Exam style",
+   "blurb": {
+    "en": "Like the real Reading paper: choose the word, complete a message and fill a letter from a word box.",
+    "vi": "Giống bài thi Đọc thật: chọn từ, hoàn thành tin nhắn và điền từ trong khung vào lá thư."
+   },
+   "levels": [
+    {
+     "title": {
+      "en": "Reading Part 1: choose the word",
+      "vi": "Đọc Phần 1: chọn từ đúng"
+     },
+     "rounds": [
+      {
+       "lo": [
+        "5Ug.11"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Felix was very ________ when his teacher said the class was going to visit Stone Hill Castle.",
+         "opts": [
+          "excited",
+          "exciting",
+          "excitement"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Exciting is for the thing that makes you feel excited, like the trip. Felix is a person.",
+          "Excitement is a noun. After 'was very' we need an adjective."
+         ],
+         "hint": "The gap is about Felix. Is it his feeling, or a thing?",
+         "worked": "Felix is a person and the gap is his feeling, so we use *-ed*: 'Felix was very *excited*'.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "Anya practised her New Year dance for two hours every evening, so the week was very ________ for her.",
+         "opts": [
+          "tiring",
+          "tired",
+          "tiredness"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "Tired is how a person feels. Here the gap is about the week.",
+          "Tiredness is a noun. After 'was very' we need an adjective."
+         ],
+         "hint": "What is the gap about: Anya, or the week?",
+         "worked": "The week made Anya feel tired, so the week was *tiring* (-ing for the thing).",
+         "stim": null
+        }
+       ]
+      },
+      {
+       "lo": [
+        "5Ug.11"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "The castle was much ________ than Felix expected, with forty rooms and five tall towers.",
+         "opts": [
+          "bigger",
+          "biggest",
+          "big"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Biggest is for the top one in a group. Look at 'than'.",
+          "Big does not compare. Look at 'much' and 'than'."
+         ],
+         "hint": "Look at the word after the gap.",
+         "worked": "'Much ... than' compares two things, so we use *bigger*: 'much bigger than Felix expected'.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "On the night of the show, Anya wore the ________ dress in the whole group, with gold and red stars.",
+         "opts": [
+          "most beautiful",
+          "more beautiful",
+          "beautiful"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "More beautiful compares two things. Read 'in the whole group'.",
+          "Beautiful does not say it is the top one. Read 'in the whole group'."
+         ],
+         "hint": "Read the end of the sentence. Is it one of two, or the top one of a group?",
+         "worked": "'The ... in the whole group' needs a superlative: *the most beautiful* dress.",
+         "stim": null
+        }
+       ]
+      },
+      {
+       "lo": [
+        "5Uv.01"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Inside the castle, Felix's friend Hugo was afraid ________ the dark rooms, so Felix held his hand.",
+         "opts": [
+          "of",
+          "at",
+          "about"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'Afraid at' is not English. 'At' goes with 'good'.",
+          "We say 'worried about', but 'afraid' has a different partner."
+         ],
+         "hint": "Which little word always comes after 'afraid'?",
+         "worked": "The partner of afraid is *of*: 'afraid of the dark rooms'.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "After the show, Anya's grandparents hugged her and said they were very proud ________ her.",
+         "opts": [
+          "of",
+          "for",
+          "at"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "'Proud for' is not the right partner. Check the word that goes with 'proud'.",
+          "'Proud at' is not English. 'At' goes with 'good'."
+         ],
+         "hint": "Which little word always comes after 'proud'?",
+         "worked": "The partner of proud is *of*: 'proud of her'.",
+         "stim": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Reading Part 2: complete the message",
+      "vi": "Đọc Phần 2: hoàn thành tin nhắn"
+     },
+     "rounds": [
+      {
+       "lo": [
+        "5Uv.01"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Which option correctly completes the message?",
+         "opts": [
+          "at",
+          "in",
+          "for"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "We say 'interested in', but 'good' has a different partner for a skill.",
+          "'Good for' means healthy for you. Building things is a skill."
+         ],
+         "hint": "Building things is a skill. Which little word goes with 'good' for a skill?",
+         "worked": "For a skill we say *good at*: 'You're really good at building things.'",
+         "stim": {
+          "id": "s1-msg-kai",
+          "kind": "text",
+          "head": "Text message",
+          "html": "Hi Jade! The science club needs one more person for the robot team. You're really good ________ building things. Do you want to join? Tell me by Friday.<br>Kai",
+          "bank": null
+         }
+        },
+        {
+         "type": "mcq",
+         "q": "Which option correctly completes the notice?",
+         "opts": [
+          "about",
+          "of",
+          "at"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "We say 'afraid of', but 'worried' has a different partner.",
+          "'Worried at' is not English. Check the partner of 'worried'."
+         ],
+         "hint": "Which little word comes after 'worried'?",
+         "worked": "The partner of worried is *about*: 'Are you worried about mosquito bites?'",
+         "stim": {
+          "id": "s1-notice-mosquito",
+          "kind": "text",
+          "head": "School notice",
+          "html": "HEALTH TALK<br>Are you worried ________ mosquito bites? Come and learn how to stay safe: nets, repellent and no standing water. Thursday, 3:30, in the school hall.",
+          "bank": null
+         }
+        }
+       ]
+      },
+      {
+       "lo": [
+        "5Ug.11"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Which option correctly completes the email?",
+         "opts": [
+          "exciting",
+          "excited",
+          "excitement"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "Excited is how a person feels. 'It' is the book.",
+          "Excitement is a noun. After 'It was so' we need an adjective."
+         ],
+         "hint": "What does 'It' mean here: Minh, or the book?",
+         "worked": "'It' is the book, a thing, so we use *-ing*: 'It was so *exciting*!'",
+         "stim": {
+          "id": "s1-email-minh",
+          "kind": "text",
+          "head": "Email",
+          "html": "Hi Theo,<br>Thanks for lending me your book about the secret island. It was so ________! I read it in two days. Can I borrow the next one?<br>Minh",
+          "bank": null
+         }
+        },
+        {
+         "type": "mcq",
+         "q": "Which option correctly completes the sign?",
+         "opts": [
+          "tired",
+          "tiring",
+          "tiredness"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Tiring is for the thing that makes you tired, like the sun. The sign asks about you.",
+          "Tiredness is a noun. After 'Feeling' we need an adjective here."
+         ],
+         "hint": "The sign is asking about YOU. Is it your feeling, or a thing?",
+         "worked": "The sign asks how a person feels, so we use *-ed*: 'Feeling *tired* in the hot sun?'",
+         "stim": {
+          "id": "s1-sign-field",
+          "kind": "text",
+          "head": "Sign at the sports field",
+          "html": "Feeling ________ in the hot sun? Sit in the shade and drink some water. If you feel dizzy, tell a teacher at once.",
+          "bank": null
+         }
+        }
+       ]
+      },
+      {
+       "lo": [
+        "5Ug.11"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Which option correctly completes the notice?",
+         "opts": [
+          "small blue plastic",
+          "blue plastic small",
+          "plastic small blue"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "Size (small) comes before colour, not at the end.",
+          "Material (plastic) comes last, just before the noun."
+         ],
+         "hint": "Remember: opinion, size, age, colour, material.",
+         "worked": "Size, colour, material: a *small blue plastic* pencil case.",
+         "stim": {
+          "id": "s1-notice-lost",
+          "kind": "text",
+          "head": "Notice",
+          "html": "LOST in the school library on Tuesday: a ________ pencil case with my name inside. Please bring it to Class 4B. Thank you!<br>Ruby",
+          "bank": null
+         }
+        },
+        {
+         "type": "mcq",
+         "q": "Which option correctly completes the message?",
+         "opts": [
+          "better",
+          "best",
+          "good"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Best is for the top one in a group. Look at 'than'.",
+          "Good does not compare. Look at 'than last year'."
+         ],
+         "hint": "Look at the word after the gap.",
+         "worked": "'Than last year' compares two years, and good becomes *better*: 'better than last year'.",
+         "stim": {
+          "id": "s1-msg-zara",
+          "kind": "text",
+          "head": "Text message",
+          "html": "Hi Anya! Did you see the New Year fireworks last night? They were ________ than last year! We watched from the bridge. Next year, come with us!<br>Zara",
+          "bank": null
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Reading Part 4: a letter with a word box",
+      "vi": "Đọc Phần 4: lá thư có khung từ"
+     },
+     "rounds": [
+      {
+       "lo": [
+        "5Ug.11"
+       ],
+       "v": [
+        {
+         "type": "tfill",
+         "q": "Read Linh's email. Choose a word from the box for gap (1).",
+         "lines": [
+          "Now it is much bigger {0} the old library."
+         ],
+         "ans": [
+          [
+           "than"
+          ]
+         ],
+         "hint": "Look at 'bigger'. Which word always comes after a comparing word?",
+         "worked": "We compare two libraries: 'bigger *than* the old library'.",
+         "stim": {
+          "id": "s1-letter-linh",
+          "kind": "text",
+          "head": "Email from Linh to her friend Ruby",
+          "html": "<b>Word box:</b> at, in, is, most, of, than<br><br>Hi Ruby,<br>Guess what? There (0) <u>is</u> a new library in our town! It used to be an old bus station. Now it is much bigger (1) ________ the old library, and it has an enormous window with a view of the river. The children's room is the (2) ________ colourful room I have ever seen. There are beanbags, plants and a big map of the world on the wall. I'm really interested (3) ________ books about mysterious places, so I go every Saturday morning. Would you like to come with me next week?<br>Love,<br>Linh",
+          "bank": null
+         }
+        },
+        {
+         "type": "tfill",
+         "q": "Read Hugo's email. Choose a word from the box for gap (1).",
+         "lines": [
+          "The birthday cake was even taller {0} my little cousin!"
+         ],
+         "ans": [
+          [
+           "than"
+          ]
+         ],
+         "hint": "Look at 'taller'. Which word always comes after a comparing word?",
+         "worked": "We compare the cake and the cousin: 'taller *than* my little cousin'.",
+         "stim": {
+          "id": "s1-letter-hugo",
+          "kind": "text",
+          "head": "Email from Hugo to his friend Felix",
+          "html": "<b>Word box:</b> about, for, most, of, than, was<br><br>Hi Felix,<br>Last Sunday we had a big party for Grandpa's seventieth birthday. It (0) <u>was</u> at our house, and thirty people came! Mum and my aunts cooked a feast with noodle soup, grilled fish and sticky rice. The birthday cake was even taller (1) ________ my little cousin! The (2) ________ exciting part was the dancing in the garden. Even Grandpa danced! At the end, he made a short speech. He said he was proud (3) ________ all his grandchildren, and Grandma cried a little.<br>See you at school,<br>Hugo",
+          "bank": null
+         }
+        }
+       ]
+      },
+      {
+       "lo": [
+        "5Ug.11"
+       ],
+       "v": [
+        {
+         "type": "tfill",
+         "q": "Read Linh's email. Choose a word from the box for gap (2).",
+         "lines": [
+          "The children's room is the {0} colourful room I have ever seen."
+         ],
+         "ans": [
+          [
+           "most"
+          ]
+         ],
+         "hint": "Look at 'the' and 'I have ever seen'. Colourful is a long word.",
+         "worked": "It is the top one of all the rooms she has seen: 'the *most* colourful room'.",
+         "stim": {
+          "id": "s1-letter-linh",
+          "kind": "text",
+          "head": "Email from Linh to her friend Ruby",
+          "html": "<b>Word box:</b> at, in, is, most, of, than<br><br>Hi Ruby,<br>Guess what? There (0) <u>is</u> a new library in our town! It used to be an old bus station. Now it is much bigger (1) ________ the old library, and it has an enormous window with a view of the river. The children's room is the (2) ________ colourful room I have ever seen. There are beanbags, plants and a big map of the world on the wall. I'm really interested (3) ________ books about mysterious places, so I go every Saturday morning. Would you like to come with me next week?<br>Love,<br>Linh",
+          "bank": null
+         }
+        },
+        {
+         "type": "tfill",
+         "q": "Read Hugo's email. Choose a word from the box for gap (2).",
+         "lines": [
+          "The {0} exciting part was the dancing in the garden."
+         ],
+         "ans": [
+          [
+           "most"
+          ]
+         ],
+         "hint": "Look at 'The'. Exciting is a long word. How do we make the top one?",
+         "worked": "The dancing was the top part of the party: 'The *most* exciting part'.",
+         "stim": {
+          "id": "s1-letter-hugo",
+          "kind": "text",
+          "head": "Email from Hugo to his friend Felix",
+          "html": "<b>Word box:</b> about, for, most, of, than, was<br><br>Hi Felix,<br>Last Sunday we had a big party for Grandpa's seventieth birthday. It (0) <u>was</u> at our house, and thirty people came! Mum and my aunts cooked a feast with noodle soup, grilled fish and sticky rice. The birthday cake was even taller (1) ________ my little cousin! The (2) ________ exciting part was the dancing in the garden. Even Grandpa danced! At the end, he made a short speech. He said he was proud (3) ________ all his grandchildren, and Grandma cried a little.<br>See you at school,<br>Hugo",
+          "bank": null
+         }
+        }
+       ]
+      },
+      {
+       "lo": [
+        "5Uv.01"
+       ],
+       "v": [
+        {
+         "type": "tfill",
+         "q": "Read Linh's email. Choose a word from the box for gap (3).",
+         "lines": [
+          "I'm really interested {0} books about mysterious places."
+         ],
+         "ans": [
+          [
+           "in"
+          ]
+         ],
+         "hint": "Which little word always comes after 'interested'?",
+         "worked": "The partner of interested is *in*: 'interested in books'.",
+         "stim": {
+          "id": "s1-letter-linh",
+          "kind": "text",
+          "head": "Email from Linh to her friend Ruby",
+          "html": "<b>Word box:</b> at, in, is, most, of, than<br><br>Hi Ruby,<br>Guess what? There (0) <u>is</u> a new library in our town! It used to be an old bus station. Now it is much bigger (1) ________ the old library, and it has an enormous window with a view of the river. The children's room is the (2) ________ colourful room I have ever seen. There are beanbags, plants and a big map of the world on the wall. I'm really interested (3) ________ books about mysterious places, so I go every Saturday morning. Would you like to come with me next week?<br>Love,<br>Linh",
+          "bank": null
+         }
+        },
+        {
+         "type": "tfill",
+         "q": "Read Hugo's email. Choose a word from the box for gap (3).",
+         "lines": [
+          "He said he was proud {0} all his grandchildren."
+         ],
+         "ans": [
+          [
+           "of"
+          ]
+         ],
+         "hint": "Which little word always comes after 'proud'?",
+         "worked": "The partner of proud is *of*: 'proud of all his grandchildren'.",
+         "stim": {
+          "id": "s1-letter-hugo",
+          "kind": "text",
+          "head": "Email from Hugo to his friend Felix",
+          "html": "<b>Word box:</b> about, for, most, of, than, was<br><br>Hi Felix,<br>Last Sunday we had a big party for Grandpa's seventieth birthday. It (0) <u>was</u> at our house, and thirty people came! Mum and my aunts cooked a feast with noodle soup, grilled fish and sticky rice. The birthday cake was even taller (1) ________ my little cousin! The (2) ________ exciting part was the dancing in the garden. Even Grandpa danced! At the end, he made a short speech. He said he was proud (3) ________ all his grandchildren, and Grandma cried a little.<br>See you at school,<br>Hugo",
+          "bank": null
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": {
+  "items": [
+   {
+    "en": "Use *-ed* for how a person feels. Use *-ing* for the thing that makes you feel it.",
+    "vi": "Dùng đuôi *-ed* để nói một người cảm thấy thế nào. Dùng đuôi *-ing* cho sự vật làm ta có cảm giác đó.",
+    "example": [
+     "I was *bored* because the film was *boring*.",
+     "The trip was *exciting*. We were all *excited*."
+    ]
+   },
+   {
+    "en": "Before a noun, put adjectives in this order: opinion, size, age, colour, material.",
+    "vi": "Trước danh từ, xếp tính từ theo thứ tự: ý kiến, kích thước, tuổi, màu sắc, chất liệu.",
+    "example": [
+     "a *lovely big* garden",
+     "a *small old wooden* box"
+    ]
+   },
+   {
+    "en": "To compare two things, use *-er + than* for short words and *more ... than* for long words.",
+    "vi": "Để so sánh hai thứ, dùng *-er + than* với từ ngắn và *more ... than* với từ dài.",
+    "example": [
+     "A cheetah is *faster than* a horse.",
+     "Science is *more interesting than* I thought."
+    ]
+   },
+   {
+    "en": "For the top one in a group, use *the -est* or *the most*. Good, better, best and bad, worse, worst are special.",
+    "vi": "Để nói thứ đứng đầu trong một nhóm, dùng *the -est* hoặc *the most*. Good, better, best và bad, worse, worst là dạng đặc biệt.",
+    "example": [
+     "It was *the hottest* day of the year.",
+     "This is *the best* party ever!"
+    ]
+   },
+   {
+    "en": "Some adjectives have a partner word: *good at*, *interested in*, *afraid of*, *proud of*, *kind to*, *worried about*, *famous for*.",
+    "vi": "Một số tính từ có giới từ đi kèm: *good at*, *interested in*, *afraid of*, *proud of*, *kind to*, *worried about*, *famous for*.",
+    "example": [
+     "Linh is *good at* singing.",
+     "I'm *worried about* my cat. She's ill."
+    ]
+   },
+   {
+    "en": "Don't know a word? Read the sentences *before* and *after* it. Look for an example or an explanation.",
+    "vi": "Không biết một từ? Hãy đọc câu *trước* và *sau* nó. Tìm ví dụ hoặc lời giải thích.",
+    "example": [
+     "Our neighbour is very <b>talkative</b>. *She chats to everyone for hours.*",
+     "The cave was <b>gloomy</b>. *It was dark and a bit scary.*"
+    ]
+   }
+  ],
+  "check": [
+   {
+    "sentence": "I felt {bored|boring|boredom} in the long queue at the bank.",
+    "answer": "bored"
+   },
+   {
+    "sentence": "My grandpa has a {lovely old brown|brown old lovely|old lovely brown} hat.",
+    "answer": "lovely old brown"
+   },
+   {
+    "sentence": "A train is {faster|fastest|fast} than a bike.",
+    "answer": "faster"
+   },
+   {
+    "sentence": "This is the {most beautiful|more beautiful|beautiful} park in our city.",
+    "answer": "most beautiful"
+   },
+   {
+    "sentence": "Zara is very good {at|in|on} drawing horses.",
+    "answer": "at"
+   },
+   {
+    "sentence": "Kai is <b>talkative</b>: he chats all day. Talkative means {he talks a lot|he is very quiet|he is often late}.",
+    "answer": "he talks a lot"
+   }
+  ]
+ },
+ "test": {
+  "items": [
+   {
+    "dok": 1,
+    "lo": [
+     "5Uv.01"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "Theo's big sister is really good ________ maths, so she helps him with his homework every evening.",
+      "opts": [
+       "at",
+       "in",
+       "on"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "We say 'interested in', but 'good' has a different partner for a skill.",
+       "'Good on' is not the right partner. Check the word that goes with 'good'."
+      ],
+      "hint": "Maths is a skill here. Which little word goes with 'good'?",
+      "worked": "For a skill we say *good at*: 'really good at maths'.",
+      "stim": null
+     },
+     {
+      "type": "mcq",
+      "q": "Zara is interested ________ animals, and she wants to be a vet when she grows up.",
+      "opts": [
+       "in",
+       "at",
+       "for"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "'At' goes with 'good', not with 'interested'.",
+       "'Interested for' is not English. Check the partner of 'interested'."
+      ],
+      "hint": "Which little word always comes after 'interested'?",
+      "worked": "The partner of interested is *in*: 'interested in animals'.",
+      "stim": null
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "5Uv.01"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "My grandma is very kind ________ everyone in our street, and she often cooks soup for her neighbours.",
+      "opts": [
+       "to",
+       "at",
+       "in"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "'Kind at' is not English. 'At' goes with 'good'.",
+       "'Kind in' is not English. 'In' goes with 'interested'."
+      ],
+      "hint": "Which little word comes after 'kind' when we talk about other people?",
+      "worked": "We are kind *to* people: 'kind to everyone in our street'.",
+      "stim": null
+     },
+     {
+      "type": "mcq",
+      "q": "Hugo was worried ________ his little sister because she had a high fever all night.",
+      "opts": [
+       "about",
+       "at",
+       "in"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "'Worried at' is not English. 'At' goes with 'good'.",
+       "'Worried in' is not English. Check the partner of 'worried'."
+      ],
+      "hint": "Which little word always comes after 'worried'?",
+      "worked": "The partner of worried is *about*: 'worried about his little sister'.",
+      "stim": null
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "5Ug.11"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "Brown rice has lots of fibre, so it is ________ for you than white rice.",
+      "opts": [
+       "better",
+       "best",
+       "good"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Best is for the top one in a group. Look at 'than'.",
+       "Good does not compare two things. Look at 'than'."
+      ],
+      "hint": "Find 'than' in the sentence. What does it tell you?",
+      "worked": "'Than white rice' compares two foods, and good becomes *better*.",
+      "stim": null
+     },
+     {
+      "type": "mcq",
+      "q": "The new shopping centre in our town is ________ than the old market, but it is not as friendly.",
+      "opts": [
+       "bigger",
+       "biggest",
+       "big"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Biggest is for the top one in a group. Look at 'than'.",
+       "Big does not compare two places. Look at 'than'."
+      ],
+      "hint": "Find 'than' in the sentence. What does it tell you?",
+      "worked": "'Than the old market' compares two places, so we use *bigger*.",
+      "stim": null
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "5Ug.11"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "The ________ building in our city is the new hotel. It has fifty floors!",
+      "opts": [
+       "tallest",
+       "taller",
+       "tall"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "Taller compares two things, but there is no 'than' here.",
+       "Tall does not tell us it is the top one 'in our city'."
+      ],
+      "hint": "Look at 'The' and 'in our city'. Is it the top one of a group?",
+      "worked": "'The ... in our city' tells us it is the top one: *the tallest* building.",
+      "stim": null
+     },
+     {
+      "type": "mcq",
+      "q": "Of all the dishes at the New Year feast, the sticky rice was the ________ popular with the children.",
+      "opts": [
+       "most",
+       "more",
+       "much"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "More compares two things. Read 'Of all the dishes'.",
+       "Much does not make a superlative. Read 'Of all the dishes'."
+      ],
+      "hint": "Read the start of the sentence: 'Of all the dishes'.",
+      "worked": "'Of all the dishes' means the top one, and popular is a long word: *the most popular*.",
+      "stim": null
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "5Rd.03"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "Kai stayed at home because he had a high ________ and felt very hot all night.",
+      "opts": [
+       "fever",
+       "feast",
+       "fibre"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "A feast is a big special meal, not an illness.",
+       "Fibre is part of healthy food, not an illness."
+      ],
+      "hint": "Kai felt very hot and stayed at home. What is wrong with him?",
+      "worked": "Feeling very hot when you are ill means you have a *fever*.",
+      "stim": null
+     },
+     {
+      "type": "mcq",
+      "q": "At midnight, everyone looked up at the colourful ________ in the night sky. Bang! Bang!",
+      "opts": [
+       "fireworks",
+       "presents",
+       "feasts"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Presents are gifts we give. They are not in the sky.",
+       "A feast is a big meal. It is not in the sky."
+      ],
+      "hint": "What makes colours and loud bangs in the night sky?",
+      "worked": "Colours and 'Bang! Bang!' in the night sky are *fireworks*.",
+      "stim": null
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "5Ug.11"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "Ruby thought the museum would be ________, but she loved the old maps and stayed for three hours.",
+      "opts": [
+       "boring",
+       "bored",
+       "boredom"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "Bored is how a person feels. Here we talk about the museum.",
+       "Boredom is a noun. After 'would be' we need an adjective."
+      ],
+      "hint": "What is the gap about: Ruby or the museum?",
+      "worked": "The museum is a thing that can make you feel bored, so we use *-ing*: 'the museum would be *boring*'.",
+      "stim": null
+     },
+     {
+      "type": "mcq",
+      "q": "Minh was ________ when he saw that his grandparents had come all the way from Hue for his birthday.",
+      "opts": [
+       "surprised",
+       "surprising",
+       "surprise"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Surprising is for the thing or the news. Minh is a person with a feeling.",
+       "Surprise is a noun or a verb. After 'was' we need an adjective here."
+      ],
+      "hint": "Who is the sentence about? Is the gap his feeling?",
+      "worked": "Minh is a person and the gap is his feeling, so we use *-ed*: 'Minh was *surprised*'.",
+      "stim": null
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "5Ug.11"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "Which option correctly completes the notice?",
+      "opts": [
+       "big old black",
+       "black old big",
+       "old big black"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Colour (black) comes after size and age.",
+       "Size (big) comes before age (old)."
+      ],
+      "hint": "Remember: opinion, size, age, colour, material.",
+      "worked": "Size, age, colour: a *big old black* umbrella.",
+      "stim": {
+       "id": "s1-t-notice-found",
+       "kind": "text",
+       "head": "School notice",
+       "html": "FOUND near the school gate on Monday morning: a ________ umbrella with a white handle. Is it yours? Please ask at the school office. It will stay there until Friday.",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "q": "Which option correctly completes the email?",
+      "opts": [
+       "most interesting",
+       "more interesting",
+       "interesting"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "More interesting compares two places. Read 'of all'.",
+       "Interesting does not say it is the top one. Read 'of all'."
+      ],
+      "hint": "Read the end of the sentence. Is it one of two, or the top one of all?",
+      "worked": "'The ... place of all' needs a superlative: *the most interesting* place.",
+      "stim": {
+       "id": "s1-t-email-zara",
+       "kind": "text",
+       "head": "Email",
+       "html": "Hi Jade,<br>Thanks for showing me around your town! Sun Lane, with all its street art, was the ________ place of all. I took fifty photos there!<br>See you soon,<br>Zara",
+       "bank": null
+      }
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "5Uv.01"
+    ],
+    "v": [
+     {
+      "type": "tfill",
+      "q": "Read Jade's email. Choose a word from the box for gap (1).",
+      "lines": [
+       "I was worried {0} missing our class trip to the farm."
+      ],
+      "ans": [
+       [
+        "about"
+       ]
+      ],
+      "hint": "Which word from the box is the partner of 'worried'?",
+      "worked": "The partner of worried is *about*: 'worried about missing our class trip'.",
+      "stim": {
+       "id": "s1-t-letter-jade",
+       "kind": "text",
+       "head": "Email from Jade to her friend Kai",
+       "html": "<b>Word box:</b> about, at, in, than, to, was<br><br>Hi Kai,<br>Sorry I wasn't at school last week. I (0) <u>was</u> ill with a fever and a sore throat. The doctor told me to rest and drink lots of water. I was worried (1) ________ missing our class trip to the farm, but Mum says the trip is next month now. Today I feel much better (2) ________ I did on Saturday, and I can eat properly again. Grandma brought me a bowl of chicken soup and a bunch of grapes. Everyone was so kind (3) ________ me! I'm coming back to school on Monday.<br>See you soon,<br>Jade",
+       "bank": null
+      }
+     },
+     {
+      "type": "tfill",
+      "q": "Read Anya's email. Choose a word from the box for gap (1).",
+      "lines": [
+       "The girl is very good {0} climbing."
+      ],
+      "ans": [
+       [
+        "at"
+       ]
+      ],
+      "hint": "Climbing is a skill. Which word from the box goes with 'good'?",
+      "worked": "For a skill we say *good at*: 'very good at climbing'.",
+      "stim": {
+       "id": "s1-t-letter-anya",
+       "kind": "text",
+       "head": "Email from Anya to her friend Theo",
+       "html": "<b>Word box:</b> at, for, is, most, of, than<br><br>Hi Theo,<br>I've just finished a brilliant book! It (0) <u>is</u> about a girl who finds an old map in her grandpa's box. The map shows a lost city in an enormous, mysterious jungle. The girl is very good (1) ________ climbing, so she climbs the tallest trees to look for the city. That is the (2) ________ exciting part of the book! At the end, she finds the city. It is famous (3) ________ its golden gates, but nobody has seen them for a hundred years. You can borrow the book next week.<br>Your friend,<br>Anya",
+       "bank": null
+      }
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "5Ug.11"
+    ],
+    "v": [
+     {
+      "type": "tfill",
+      "q": "Read Jade's email. Choose a word from the box for gap (2).",
+      "lines": [
+       "Today I feel much better {0} I did on Saturday."
+      ],
+      "ans": [
+       [
+        "than"
+       ]
+      ],
+      "hint": "Look at 'better'. She is comparing two days.",
+      "worked": "She compares today and Saturday: 'much better *than* I did on Saturday'.",
+      "stim": {
+       "id": "s1-t-letter-jade",
+       "kind": "text",
+       "head": "Email from Jade to her friend Kai",
+       "html": "<b>Word box:</b> about, at, in, than, to, was<br><br>Hi Kai,<br>Sorry I wasn't at school last week. I (0) <u>was</u> ill with a fever and a sore throat. The doctor told me to rest and drink lots of water. I was worried (1) ________ missing our class trip to the farm, but Mum says the trip is next month now. Today I feel much better (2) ________ I did on Saturday, and I can eat properly again. Grandma brought me a bowl of chicken soup and a bunch of grapes. Everyone was so kind (3) ________ me! I'm coming back to school on Monday.<br>See you soon,<br>Jade",
+       "bank": null
+      }
+     },
+     {
+      "type": "tfill",
+      "q": "Read Anya's email. Choose a word from the box for gap (2).",
+      "lines": [
+       "That is the {0} exciting part of the book!"
+      ],
+      "ans": [
+       [
+        "most"
+       ]
+      ],
+      "hint": "Look at 'the'. Exciting is a long word. How do we make the top one?",
+      "worked": "It is the top part of the whole book: 'the *most* exciting part'.",
+      "stim": {
+       "id": "s1-t-letter-anya",
+       "kind": "text",
+       "head": "Email from Anya to her friend Theo",
+       "html": "<b>Word box:</b> at, for, is, most, of, than<br><br>Hi Theo,<br>I've just finished a brilliant book! It (0) <u>is</u> about a girl who finds an old map in her grandpa's box. The map shows a lost city in an enormous, mysterious jungle. The girl is very good (1) ________ climbing, so she climbs the tallest trees to look for the city. That is the (2) ________ exciting part of the book! At the end, she finds the city. It is famous (3) ________ its golden gates, but nobody has seen them for a hundred years. You can borrow the book next week.<br>Your friend,<br>Anya",
+       "bank": null
+      }
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "5Uv.01"
+    ],
+    "v": [
+     {
+      "type": "tfill",
+      "q": "Read Jade's email. Choose a word from the box for gap (3).",
+      "lines": [
+       "Everyone was so kind {0} me!"
+      ],
+      "ans": [
+       [
+        "to"
+       ]
+      ],
+      "hint": "Which word from the box comes after 'kind' when we talk about people?",
+      "worked": "We are kind *to* people: 'Everyone was so kind to me!'",
+      "stim": {
+       "id": "s1-t-letter-jade",
+       "kind": "text",
+       "head": "Email from Jade to her friend Kai",
+       "html": "<b>Word box:</b> about, at, in, than, to, was<br><br>Hi Kai,<br>Sorry I wasn't at school last week. I (0) <u>was</u> ill with a fever and a sore throat. The doctor told me to rest and drink lots of water. I was worried (1) ________ missing our class trip to the farm, but Mum says the trip is next month now. Today I feel much better (2) ________ I did on Saturday, and I can eat properly again. Grandma brought me a bowl of chicken soup and a bunch of grapes. Everyone was so kind (3) ________ me! I'm coming back to school on Monday.<br>See you soon,<br>Jade",
+       "bank": null
+      }
+     },
+     {
+      "type": "tfill",
+      "q": "Read Anya's email. Choose a word from the box for gap (3).",
+      "lines": [
+       "It is famous {0} its golden gates."
+      ],
+      "ans": [
+       [
+        "for"
+       ]
+      ],
+      "hint": "Which word from the box comes after 'famous' to give the reason?",
+      "worked": "The partner of famous is *for*: 'famous for its golden gates'.",
+      "stim": {
+       "id": "s1-t-letter-anya",
+       "kind": "text",
+       "head": "Email from Anya to her friend Theo",
+       "html": "<b>Word box:</b> at, for, is, most, of, than<br><br>Hi Theo,<br>I've just finished a brilliant book! It (0) <u>is</u> about a girl who finds an old map in her grandpa's box. The map shows a lost city in an enormous, mysterious jungle. The girl is very good (1) ________ climbing, so she climbs the tallest trees to look for the city. That is the (2) ________ exciting part of the book! At the end, she finds the city. It is famous (3) ________ its golden gates, but nobody has seen them for a hundred years. You can borrow the book next week.<br>Your friend,<br>Anya",
+       "bank": null
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "lightning": {
+  "secs": 60,
+  "items": [
+   [
+    "I'm good ___ swimming.",
+    [
+     "at",
+     "in",
+     "of"
+    ]
+   ],
+   [
+    "She's afraid ___ spiders.",
+    [
+     "of",
+     "at",
+     "to"
+    ]
+   ],
+   [
+    "He's interested ___ music.",
+    [
+     "in",
+     "at",
+     "for"
+    ]
+   ],
+   [
+    "We're proud ___ our team.",
+    [
+     "of",
+     "at",
+     "in"
+    ]
+   ],
+   [
+    "Be kind ___ animals.",
+    [
+     "to",
+     "at",
+     "of"
+    ]
+   ],
+   [
+    "I'm worried ___ the test.",
+    [
+     "about",
+     "at",
+     "in"
+    ]
+   ],
+   [
+    "The town is famous ___ its cakes.",
+    [
+     "for",
+     "of",
+     "at"
+    ]
+   ],
+   [
+    "The film was ___. I fell asleep.",
+    [
+     "boring",
+     "bored",
+     "boredom"
+    ]
+   ],
+   [
+    "I was ___ in the long queue.",
+    [
+     "bored",
+     "boring",
+     "bore"
+    ]
+   ],
+   [
+    "The match was really ___!",
+    [
+     "exciting",
+     "excited",
+     "excite"
+    ]
+   ],
+   [
+    "We were ___ about the trip.",
+    [
+     "excited",
+     "exciting",
+     "excite"
+    ]
+   ],
+   [
+    "I'm very ___ in science.",
+    [
+     "interested",
+     "interesting",
+     "interest"
+    ]
+   ],
+   [
+    "That's an ___ book.",
+    [
+     "interesting",
+     "interested",
+     "interest"
+    ]
+   ],
+   [
+    "The long walk was ___.",
+    [
+     "tiring",
+     "tired",
+     "tire"
+    ]
+   ],
+   [
+    "A cheetah is ___ than a cat.",
+    [
+     "faster",
+     "fastest",
+     "fast"
+    ]
+   ],
+   [
+    "It's the ___ day of the year.",
+    [
+     "hottest",
+     "hotter",
+     "hot"
+    ]
+   ],
+   [
+    "My bag is ___ than yours.",
+    [
+     "heavier",
+     "heaviest",
+     "heavy"
+    ]
+   ],
+   [
+    "Maths is ___ than art for me.",
+    [
+     "more difficult",
+     "most difficult",
+     "difficult"
+    ]
+   ],
+   [
+    "It's the ___ beautiful beach here.",
+    [
+     "most",
+     "more",
+     "much"
+    ]
+   ],
+   [
+    "Your cake is ___ than mine!",
+    [
+     "better",
+     "best",
+     "good"
+    ]
+   ],
+   [
+    "That was the ___ day ever!",
+    [
+     "best",
+     "better",
+     "good"
+    ]
+   ],
+   [
+    "My cold is ___ today. I feel awful.",
+    [
+     "worse",
+     "worst",
+     "bad"
+    ]
+   ],
+   [
+    "a ___ dress",
+    [
+     "lovely long red",
+     "red long lovely",
+     "long red lovely"
+    ]
+   ],
+   [
+    "a ___ box",
+    [
+     "small old wooden",
+     "wooden small old",
+     "old wooden small"
+    ]
+   ],
+   [
+    "a ___ house",
+    [
+     "big new white",
+     "white new big",
+     "new white big"
+    ]
+   ],
+   [
+    "Always shares his toys:",
+    [
+     "generous",
+     "selfish",
+     "lazy"
+    ]
+   ],
+   [
+    "Talks a lot:",
+    [
+     "talkative",
+     "shy",
+     "quiet"
+    ]
+   ],
+   [
+    "Gets angry very easily:",
+    [
+     "bad-tempered",
+     "calm",
+     "cheerful"
+    ]
+   ],
+   [
+    "Works very hard all the time:",
+    [
+     "hard-working",
+     "lazy",
+     "selfish"
+    ]
+   ],
+   [
+    "Loves meeting new people:",
+    [
+     "outgoing",
+     "shy",
+     "nervous"
+    ]
+   ],
+   [
+    "Only thinks about herself:",
+    [
+     "selfish",
+     "generous",
+     "kind"
+    ]
+   ],
+   [
+    "Your body is too hot when ill:",
+    [
+     "fever",
+     "feast",
+     "fibre"
+    ]
+   ],
+   [
+    "It hurts to swallow:",
+    [
+     "sore throat",
+     "earache",
+     "runny nose"
+    ]
+   ],
+   [
+    "Milk, cheese and yoghurt:",
+    [
+     "dairy products",
+     "grains",
+     "vegetables"
+    ]
+   ],
+   [
+    "Good for strong bones and teeth:",
+    [
+     "calcium",
+     "sugar",
+     "fat"
+    ]
+   ],
+   [
+    "A ___ of cereal",
+    [
+     "bowl",
+     "bunch",
+     "sack"
+    ]
+   ],
+   [
+    "A ___ of bananas",
+    [
+     "bunch",
+     "bowl",
+     "pinch"
+    ]
+   ],
+   [
+    "A ___ of salt",
+    [
+     "pinch",
+     "bunch",
+     "sack"
+    ]
+   ],
+   [
+    "A very big bag of rice:",
+    [
+     "a sack",
+     "a pinch",
+     "a bunch"
+    ]
+   ],
+   [
+    "Mosquitoes lay eggs in ___ water.",
+    [
+     "standing",
+     "boiling",
+     "hot"
+    ]
+   ],
+   [
+    "Very, very big:",
+    [
+     "enormous",
+     "tiny",
+     "curved"
+    ]
+   ],
+   [
+    "Strange and hard to explain:",
+    [
+     "mysterious",
+     "ordinary",
+     "cheerful"
+    ]
+   ],
+   [
+    "A quick pencil drawing:",
+    [
+     "sketch",
+     "pattern",
+     "feast"
+    ]
+   ],
+   [
+    "Shapes that repeat again and again:",
+    [
+     "pattern",
+     "sketch",
+     "shade"
+    ]
+   ],
+   [
+    "Long ago there ___ a castle here.",
+    [
+     "used to be",
+     "is",
+     "will be"
+    ]
+   ],
+   [
+    "Bright colours and bangs in the sky:",
+    [
+     "fireworks",
+     "presents",
+     "feasts"
+    ]
+   ],
+   [
+    "A very big, special meal:",
+    [
+     "feast",
+     "fever",
+     "gift"
+    ]
+   ],
+   [
+    "You need to bite it a lot:",
+    [
+     "chewy",
+     "boiled",
+     "sour"
+    ]
+   ],
+   [
+    "The party after a wedding:",
+    [
+     "reception",
+     "fever",
+     "sketch"
+    ]
+   ],
+   [
+    "Things that make a room pretty:",
+    [
+     "decorations",
+     "fireworks",
+     "fibre"
+    ]
+   ]
+  ]
+ },
+ "selfcheck": {
+  "goals": [
+   "say how people feel and what things are like (bored / boring, excited / exciting)",
+   "put adjectives in the right order and compare things (bigger than, the most beautiful, the best)",
+   "use word partners like good at, afraid of, proud of and worried about",
+   "use topic words from all four units and guess a new word from the sentences around it"
+  ],
+  "again": [
+   "c",
+   "r",
+   "a",
+   "a"
+  ]
+ }
+}

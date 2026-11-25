@@ -286,8 +286,8 @@
        "q": "What does Sami want Zoe to do?",
        "opts": [
         "meet him a bit later than planned",
-        "walk to the park with him",
-        "take the bus to the gate"
+        "walk to the park together with him",
+        "take the bus to the park gate"
        ],
        "at": 0,
        "whys": [
@@ -310,7 +310,7 @@
        "q": "Why has Alice written to Toby?",
        "opts": [
         "to ask him to bring something",
-        "to invite him to her house",
+        "to invite him to a party at her house",
         "to say she needs some cups"
        ],
        "at": 1,
@@ -397,14 +397,14 @@
        "q": "Which option correctly completes the message?",
        "opts": [
         "is taking",
-        "took",
-        "take"
+        "was taking",
+        "took"
        ],
        "at": 1,
        "whys": [
         null,
-        "'Took' is the past, but Sunday is in the future.",
-        "After 'Dad' we need 'is taking' or 'takes', not 'take'."
+        "'Was taking' talks about the past, but Sunday is in the future.",
+        "'Took' is the past, but Sunday is in the future."
        ],
        "hint": "Is the trip in the past or the future? Who is doing it?",
        "worked": "A plan for Sunday: 'Dad *is taking* us to the zoo on Sunday.'",
@@ -773,7 +773,7 @@
          "q": "What can An eat now?",
          "opts": [
           "something from the cupboard",
-          "the cake on the table",
+          "the cake that is on the table",
           "nothing until tonight"
          ],
          "at": 1,
@@ -856,7 +856,7 @@
          "q": "Trang: 'I can't come to the party. I've got a stomach ache.'<br>Toby: '..........'<br>What can Toby say?",
          "opts": [
           "Oh dear! I hope you feel better soon.",
-          "Great! See you at the party, then.",
+          "Great! See you at the party on Saturday, then.",
           "Yes, please. I'd love a piece."
          ],
          "at": 1,
@@ -900,7 +900,7 @@
          "q": "Luca: 'Why don't we make a card for our teacher?'<br>Zoe: '..........'",
          "opts": [
           "Good idea! I've got some coloured paper.",
-          "Because she's very kind to us.",
+          "Because she's always very kind to all of us.",
           "No, I didn't make it."
          ],
          "at": 0,
@@ -962,7 +962,7 @@
          "opts": [
           "A nine-year-old needs an adult in the big pool.",
           "All children must swim in the small pool.",
-          "Everyone must have a shower after swimming."
+          "Everyone must have a shower after they finish swimming."
          ],
          "at": 0,
          "whys": [
@@ -1055,7 +1055,7 @@
           "id": "s6-e4",
           "kind": "text",
           "head": "Notice at the café",
-          "html": "Our kitchen is closed today. We are selling drinks and cakes only. Hot food is back on Saturday. Sorry!",
+          "html": "Our kitchen is closed today. We are selling drinks and cakes only. Hot food is back on Saturday. Sorry! The café team",
           "bank": null
          }
         }
@@ -1111,7 +1111,7 @@
           "id": "s6-e6",
           "kind": "text",
           "head": "Sign at the history museum",
-          "html": "Free entry for children on Sundays. Adults pay £4. Photos are allowed, but please don't use a flash.",
+          "html": "Free entry for children on Sundays. Adults pay £4. Photos are allowed, but please don't use a flash. Open 9 a.m. to 5 p.m.",
           "bank": null
          }
         }
@@ -1150,7 +1150,7 @@
           "id": "s6-e7",
           "kind": "text",
           "head": "Notice in the science room",
-          "html": "SCIENCE ROOM: You ________ touch the plants on the window. We are measuring how fast they grow.",
+          "html": "SCIENCE ROOM: You ________ touch the plants on the window. We are measuring how fast they grow. Thank you, Class 4A.",
           "bank": null
          }
         },
@@ -1205,7 +1205,7 @@
           "id": "s6-e9",
           "kind": "text",
           "head": "Text message",
-          "html": "Hi Zoe, ________ you help me with my maths homework after school? I don't understand the fractions. Thanks! Trang",
+          "html": "Hi Zoe, ________ you help me with my maths homework after school? I don't understand the fractions at all. Thanks! Trang",
           "bank": null
          }
         },
@@ -1260,7 +1260,7 @@
           "id": "s6-e11",
           "kind": "text",
           "head": "Text message",
-          "html": "Hi Sami! My cousin ________ from Australia on Friday. Can you come to our welcome dinner on Saturday? Holly",
+          "html": "Hi Sami! My cousin ________ from Australia on Friday. Can you come to our welcome dinner on Saturday evening? We're having pizza! Holly",
           "bank": null
          }
         },
@@ -1985,7 +1985,7 @@
        "id": "s6-t3",
        "kind": "text",
        "head": "Notice on the school bus",
-       "html": "BUS RULES: Everyone ________ wear a seat belt. The driver will not start until all belts are on.",
+       "html": "BUS RULES: Everyone ________ wear a seat belt. The driver will not start until all belts are on. Please keep your bag under your seat.",
        "bank": null
       }
      },
@@ -2041,7 +2041,7 @@
        "id": "s6-t5",
        "kind": "text",
        "head": "Sticky note",
-       "html": "Iris, Grandma ________ for dinner tonight, so please tidy your room before six. Thanks! Mum",
+       "html": "Iris, Grandma ________ for dinner tonight, so please tidy your room before six. I'm at the market buying fish. Thanks! Mum",
        "bank": null
       }
      },

@@ -232,7 +232,7 @@
        "q": "Which sentence is about a plan for the future?",
        "opts": [
         "We are flying to Hue on Friday.",
-        "We flew to Hue last Friday.",
+        "We flew to Hue with Grandma last Friday.",
         "We fly to Hue every summer."
        ],
        "at": 2,
@@ -1018,13 +1018,13 @@
          "opts": [
           "is drawing",
           "drew",
-          "draw"
+          "was drawing"
          ],
          "at": 0,
          "whys": [
           null,
           "'drew' is past, but 'next weekend' is in the future.",
-          "'she draw' is not correct English. Look for a plan with a future time."
+          "'was drawing' is past, but 'next weekend' is in the future."
          ],
          "hint": "Find the time words. Is this a plan?",
          "worked": "*next weekend* shows a plan, so we use the present continuous: she *is drawing*.",
@@ -1083,7 +1083,7 @@
           "id": "s7-e2",
           "kind": "text",
           "head": "Letter from Phuc",
-          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. I wanted to give him (22) ________ special, so I made a card with a photo of us inside.<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc",
+          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. Then I heard (22) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc",
           "bank": null
          }
         }
@@ -1132,7 +1132,7 @@
           "id": "s7-e2",
           "kind": "text",
           "head": "Letter from Phuc",
-          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. I wanted to give him (22) ________ special, so I made a card with a photo of us inside.<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc",
+          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. Then I heard (22) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc",
           "bank": null
          }
         }
@@ -1183,7 +1183,7 @@
           "id": "s7-e2",
           "kind": "text",
           "head": "Letter from Phuc",
-          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. I wanted to give him (22) ________ special, so I made a card with a photo of us inside.<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc",
+          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. Then I heard (22) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc",
           "bank": null
          }
         }
@@ -1232,7 +1232,7 @@
           "id": "s7-e2",
           "kind": "text",
           "head": "Letter from Phuc",
-          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. I wanted to give him (22) ________ special, so I made a card with a photo of us inside.<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc",
+          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. Then I heard (22) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc",
           "bank": null
          }
         }
@@ -1276,20 +1276,20 @@
          "type": "tfill",
          "q": "Read the letter. Write ONE word from the box for gap 22.",
          "lines": [
-          "I wanted to give him {0} special, so I made a card."
+          "Then I heard {0} strange under the table."
          ],
          "ans": [
           [
            "something"
           ]
          ],
-         "hint": "The sentence is positive, and the card is a thing. Which box word fits?",
-         "worked": "A thing, in a positive sentence: give him *something* special (the card).",
+         "hint": "The sentence is positive, and the next sentence tells you what it was. Which box word fits?",
+         "worked": "A thing (the puppy eating cake), in a positive sentence: I heard *something* strange.",
          "stim": {
           "id": "s7-e2",
           "kind": "text",
           "head": "Letter from Phuc",
-          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. I wanted to give him (22) ________ special, so I made a card with a photo of us inside.<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc",
+          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. Then I heard (22) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc",
           "bank": null
          }
         }
@@ -1340,7 +1340,7 @@
           "id": "s7-e2",
           "kind": "text",
           "head": "Letter from Phuc",
-          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. I wanted to give him (22) ________ special, so I made a card with a photo of us inside.<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc",
+          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. Then I heard (22) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc",
           "bank": null
          }
         }
@@ -1389,7 +1389,7 @@
           "id": "s7-e2",
           "kind": "text",
           "head": "Letter from Phuc",
-          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. I wanted to give him (22) ________ special, so I made a card with a photo of us inside.<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc",
+          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. Then I heard (22) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc",
           "bank": null
          }
         }
