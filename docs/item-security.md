@@ -43,6 +43,22 @@ Then run `python3 scripts/quality_check.py`: it prints 6-word runs shared by the
 
 After the changes: `validate.py` reports NO PROBLEMS for every stop, `quality_check.py` ends QUALITY OK, and the overlap check shows only standard exam instructions.
 
+## Re-check after the expert review (25 November 2026)
+
+Four expert reviewers (grammar, listening, reading, writing) edited the content without seeing the papers. The checker then looked again at every item they changed.
+
+| Check | Found | Action |
+| --- | --- | --- |
+| Runs of 6+ identical words | 1 new: a Stop 9 Task 1 prompt (t1b) had been reworded to follow the real prompt's wording | prompt reworded ("explaining how we can all keep our town clean and beautiful") |
+| Shared person names | 0 | none |
+| Near-copy sentences | none new; only standard exam instructions and question frames | kept (format wording) |
+| Reused situations or writing prompts | 2. A Summit Reading Part 2 notice (r2-6), whose new options made it match a real notice item in setting, rule and option set; a Stop 6 conversation line (s6-d3, gap 14) that now set up a parent picking a friend up, a detail of a real item | r2-6 rewritten with a new setting (a school music room) and different wrong options, whys, hint and worked answer; s6-d3 gap 14 exchange rewritten (an early start solved by a wake-up phone call), worked answer updated |
+| Writing prompts | no prompt repeats a real task topic; t1b fixed as above | none further |
+| Summit vs stops (changed parts) | no Summit situation now repeated in a stop | none |
+| Audio | no listening script changed by this check | no new recordings needed from this check |
+
+After the changes: `validate.py` reports NO PROBLEMS for every stop, `quality_check.py` ends QUALITY OK, and the overlap check shows 0 names and only standard exam instructions.
+
 ## When you add content
 
 Any new content goes through the same three roles. A writer never sees the papers. Run the overlap check and the quality check before publishing.

@@ -1093,22 +1093,22 @@
       "q": "Which option correctly completes the notice?",
       "opts": [
        "mustn't",
-       "need to",
-       "should"
+       "should",
+       "would"
       ],
       "at": 2,
       "whys": [
        null,
-       "'Need to' means it is necessary. Visitors don't need to touch the butterflies to see them.",
-       "'Should' means it is a good idea. Touching wings that break easily is not a good idea."
+       "'Should' means it is a good idea. The drums are only for the band, so playing them is not a good idea for other students.",
+       "'Would' is not used for a rule on a notice. A rule says what is allowed or not allowed."
       ],
-      "hint": "Read the first sentence. Is touching the butterflies necessary, a good idea, or not allowed?",
-      "worked": "The butterflies' wings break easily, so touching them is not allowed: Visitors *mustn't* touch them.",
+      "hint": "Read the first sentence. Who are the drums for? Is playing them a good idea, or not allowed?",
+      "worked": "The drums are 'only for the school band', so other students are not allowed to play them: Other students *mustn't* play them.",
       "stim": {
        "id": "summit-r2-6",
        "kind": "text",
        "head": "Notice",
-       "html": "<b>BUTTERFLY HOUSE</b><br>Our butterflies have very thin wings that break easily. Visitors ________ touch them. You can take photos, but please walk slowly and close the door behind you. Thank you!",
+       "html": "<b>MUSIC ROOM</b><br>The new drums are only for the school band. Other students ________ play them. You can listen to the band every Friday at lunchtime. Thank you!",
        "bank": null
       }
      },
