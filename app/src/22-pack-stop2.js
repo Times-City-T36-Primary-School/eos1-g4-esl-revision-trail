@@ -1,129 +1,128 @@
-/* 22-pack-stop2.js - ALL the content of Stop 2, Verb forms: now, then and next (Grade 5 ESL, Cambridge Stage 6).
+/* 22-pack-stop2.js - ALL the content of Stop 2, Verb forms: every day, yesterday and now (Grade 4 ESL, Cambridge Stage 5).
    Made by scripts/convert.py from content/stop2.json (written from the exam-style guide only; no real paper seen). */
 (function (T) {
   'use strict';
-  window.T_ART = Object.assign(window.T_ART || {}, {"e-s2-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"just\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏱️</text></svg>", "e-s2-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"already\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">✅</text></svg>", "e-s2-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"yet\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏳</text></svg>", "e-s2-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"ever\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🌍</text></svg>", "e-s2-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"never\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🚫</text></svg>", "e-s2-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"since\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📅</text></svg>", "e-s2-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"for\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⌛</text></svg>", "e-s2-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"ago\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔙</text></svg>", "e-s2-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"passive\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔄</text></svg>", "e-s2-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"prediction\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔮</text></svg>", "e-s2-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"plan\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📝</text></svg>", "e-s2-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"arrangement\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🤝</text></svg>", "e-s2-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"timetable\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🚆</text></svg>"});
+  window.T_ART = Object.assign(window.T_ART || {}, {"e-s2-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"usually\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔁</text></svg>", "e-s2-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"always\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">✅</text></svg>", "e-s2-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"often\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔂</text></svg>", "e-s2-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"never\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🚫</text></svg>", "e-s2-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"routine\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🪥</text></svg>", "e-s2-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"yesterday\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏪</text></svg>", "e-s2-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"ago\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔙</text></svg>", "e-s2-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"last\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏮️</text></svg>", "e-s2-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"irregular\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔀</text></svg>", "e-s2-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"now\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏰</text></svg>", "e-s2-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"tonight\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🌃</text></svg>", "e-s2-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"tomorrow\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🌅</text></svg>", "e-s2-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"plan\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📝</text></svg>"});
   T.packs[2] = {
  "n": 2,
- "title": "Verb forms: now, then and next",
+ "title": "Verb forms: every day, yesterday and now",
  "los": [
-  "6Ug.04",
-  "6Ug.03",
-  "6Ug.07",
-  "6Ug.08"
+  "5Ug.03",
+  "5Ug.04",
+  "5Ug.05"
  ],
  "blurb": {
-  "en": "Travel through time with verbs: what happens now, what happened and what will happen.",
-  "vi": "Du hành thời gian cùng động từ: điều xảy ra bây giờ, điều đã xảy ra và điều sẽ xảy ra."
+  "en": "Travel through time with verbs: what you do every day, what happened yesterday and what is happening now.",
+  "vi": "Du hành thời gian cùng động từ: việc con làm hằng ngày, điều đã xảy ra hôm qua và điều đang xảy ra bây giờ."
  },
  "words": {
   "sets": [
    {
     "id": "A",
     "title": {
-     "en": "Present perfect words",
-     "vi": "Từ đi với thì hiện tại hoàn thành"
+     "en": "Every day words",
+     "vi": "Từ chỉ thói quen hằng ngày"
     },
     "keys": [
-     "just",
-     "already",
-     "yet",
-     "ever",
-     "never"
+     "usually",
+     "always",
+     "often",
+     "never",
+     "routine"
     ]
    },
    {
     "id": "B",
     "title": {
-     "en": "Time and the passive",
-     "vi": "Thời gian và câu bị động"
+     "en": "Yesterday words",
+     "vi": "Từ chỉ quá khứ"
     },
     "keys": [
-     "since",
-     "for",
+     "yesterday",
      "ago",
-     "passive"
+     "last",
+     "irregular"
     ]
    },
    {
     "id": "C",
     "title": {
-     "en": "Talking about the future",
-     "vi": "Nói về tương lai"
+     "en": "Now and next words",
+     "vi": "Từ chỉ bây giờ và sắp tới"
     },
     "keys": [
-     "prediction",
-     "plan",
-     "arrangement",
-     "timetable"
+     "now",
+     "tonight",
+     "tomorrow",
+     "plan"
     ]
    }
   ],
   "items": {
-   "just": {
+   "usually": {
     "art": "e-s2-0",
-    "vi": "vừa mới",
-    "def": "A very short time ago. Use it with have or has. Example: Hurry up! The film has *just* started."
+    "vi": "thường thường",
+    "def": "Most of the time, but not every time. Example: I *usually* walk to school with my sister."
    },
-   "already": {
+   "always": {
     "art": "e-s2-1",
-    "vi": "đã ... rồi",
-    "def": "Before now, or sooner than people expected. Example: I have *already* finished my homework, so I can play."
+    "vi": "luôn luôn",
+    "def": "Every time, with no change. Example: Omar *always* eats a banana after football practice."
    },
-   "yet": {
+   "often": {
     "art": "e-s2-2",
-    "vi": "chưa / ... chưa?",
-    "def": "Until now. Put it at the end of questions and negative sentences. Example: Has the parcel arrived *yet*? No, not *yet*."
-   },
-   "ever": {
-    "art": "e-s2-3",
-    "vi": "đã từng (dùng trong câu hỏi)",
-    "def": "At any time in your life. We often use it in questions. Example: Have you *ever* seen a whale?"
+    "vi": "thường xuyên, hay",
+    "def": "Many times, again and again. Example: We *often* have fish for dinner on Fridays."
    },
    "never": {
+    "art": "e-s2-3",
+    "vi": "không bao giờ",
+    "def": "Not at any time, not even once. Example: My cat *never* drinks milk."
+   },
+   "routine": {
     "art": "e-s2-4",
-    "vi": "chưa bao giờ",
-    "def": "Not at any time in your life. Example: My grandad has *never* used a tablet."
+    "vi": "thói quen hằng ngày",
+    "def": "The things you do at the same time and in the same order every day. Example: Brushing my teeth is part of my morning *routine*."
    },
-   "since": {
+   "yesterday": {
     "art": "e-s2-5",
-    "vi": "từ (một mốc thời gian)",
-    "def": "From a point in the past until now, for example since Monday or since 2020. Example: We have lived in Hanoi *since* 2021."
-   },
-   "for": {
-    "art": "e-s2-6",
-    "vi": "trong (một khoảng thời gian)",
-    "def": "Used with a length of time, for example for two weeks or for an hour. Example: Bao has played the drums *for* three years."
+    "vi": "hôm qua",
+    "def": "The day before today. Example: *Yesterday* I had a sore throat, but today I feel better."
    },
    "ago": {
+    "art": "e-s2-6",
+    "vi": "cách đây (bao lâu)",
+    "def": "Back in the past, before now. Say how long first, like two days. Example: We moved to this flat three years *ago*."
+   },
+   "last": {
     "art": "e-s2-7",
-    "vi": "cách đây",
-    "def": "Back in the past from now. Use it with the past simple. Example: I started at this school two years *ago*."
+    "vi": "(tuần, tháng, năm) trước",
+    "def": "The one just before this one, as in the week before this week. Example: There was a big storm *last* Friday."
    },
-   "passive": {
+   "irregular": {
     "art": "e-s2-8",
-    "vi": "câu bị động",
-    "def": "A verb form that tells us what happens to something, not who does it. Example: The sentence 'Rice is grown here' is *passive*."
+    "vi": "(động từ) bất quy tắc",
+    "def": "A verb that does not add -ed in the past, like go and went or eat and ate. Example: 'Buy' is an *irregular* verb: the past is 'bought'."
    },
-   "prediction": {
+   "now": {
     "art": "e-s2-9",
-    "vi": "lời dự đoán",
-    "def": "What you think will happen in the future. Example: My *prediction* is that our team will win the cup."
+    "vi": "bây giờ",
+    "def": "At this time, at this moment. Example: Be quiet! The baby is sleeping *now*."
+   },
+   "tonight": {
+    "art": "e-s2-10",
+    "vi": "tối nay",
+    "def": "This evening or this night, later today. Example: We are watching the fireworks *tonight*."
+   },
+   "tomorrow": {
+    "art": "e-s2-11",
+    "vi": "ngày mai",
+    "def": "The day after today. Example: I'm visiting my grandma *tomorrow*."
    },
    "plan": {
-    "art": "e-s2-10",
-    "vi": "kế hoạch",
-    "def": "Something you have decided to do. We often use 'going to' for plans. Example: Our *plan* is to visit the aquarium on Sunday."
-   },
-   "arrangement": {
-    "art": "e-s2-11",
-    "vi": "lịch hẹn, sự sắp xếp",
-    "def": "A plan with a time and other people. Use the present continuous for it. Example: I have an *arrangement* to meet Huy at four o'clock."
-   },
-   "timetable": {
     "art": "e-s2-12",
-    "vi": "lịch trình, thời gian biểu",
-    "def": "A list that shows when buses, trains or lessons happen. Example: The *timetable* says the train leaves at 9:15."
+    "vi": "kế hoạch",
+    "def": "Something you have decided to do later. Use am, is or are + -ing to talk about it. Example: My *plan* is to read a new book this weekend."
    }
   }
  },
@@ -132,87 +131,87 @@
    {
     "id": "s1",
     "title": {
-     "en": "Then and now: the passive",
-     "vi": "Xưa và nay: câu bị động"
+     "en": "Every day: the present simple",
+     "vi": "Hằng ngày: thì hiện tại đơn"
     },
     "esl": true,
     "kind": "text",
-    "head": "A label at the science museum",
-    "html": "<b>The Story of the Bicycle</b><br>The first bicycle *was made* more than 200 years ago. It *was pushed* along with the rider's feet because it had no pedals! Later, pedals *were added* to the front wheel. Today, bicycles *are made* in many countries, and millions of them *are sold* every year. In many cities, bikes *are used* by children to get to school.",
+    "head": "Chloe's blog: My healthy morning",
+    "html": "I *get up* at half past six every morning. First, I *wash* my face and *brush* my teeth. Then I *have* breakfast with my family. I usually *eat* a bowl of rice porridge and some fruit. My little brother *doesn't like* fruit, so he *drinks* a glass of milk. My dad never *has* breakfast at home. He *buys* a sandwich on his way to work. *Do* you *eat* a healthy breakfast?",
     "steps": [
      {
-      "en": "Look at the gold words. They are all *passive*: a form of *be* + a past participle.",
-      "vi": "Hãy nhìn các từ màu vàng. Tất cả đều là câu *bị động*: dạng của *be* + quá khứ phân từ."
+      "en": "The *present simple* is for things we do again and again: *get up*, *have*, *eat*.",
+      "vi": "Thì *hiện tại đơn* dùng cho những việc ta làm lặp đi lặp lại: *get up*, *have*, *eat*."
      },
      {
-      "en": "Then: *was made*, *were added*. Use *was* for one thing and *were* for more than one.",
-      "vi": "Trong quá khứ: *was made*, *were added*. Dùng *was* cho một vật và *were* cho nhiều vật."
+      "en": "With he, she and it, add -s or -es: he *drinks*, he *buys*, she *washes*. But have becomes *has*.",
+      "vi": "Với he, she và it, thêm -s hoặc -es: he *drinks*, he *buys*, she *washes*. Riêng have thành *has*."
      },
      {
-      "en": "Now: *are made*, *are sold*. Use *is* or *are* for things that happen today.",
-      "vi": "Hiện tại: *are made*, *are sold*. Dùng *is* hoặc *are* cho những việc xảy ra ngày nay."
+      "en": "Negatives: *don't* or *doesn't* + the base verb: he *doesn't like* fruit.",
+      "vi": "Câu phủ định: *don't* hoặc *doesn't* + động từ nguyên mẫu: he *doesn't like* fruit."
      },
      {
-      "en": "Use the passive when the thing is more important than the person who does it. Add *by* to say who.",
-      "vi": "Dùng câu bị động khi sự vật quan trọng hơn người làm. Thêm *by* để nói ai làm."
+      "en": "Questions: *Do* or *Does* + the base verb: *Do* you *eat* a healthy breakfast?",
+      "vi": "Câu hỏi: *Do* hoặc *Does* + động từ nguyên mẫu: *Do* you *eat* a healthy breakfast?"
      }
     ]
    },
    {
     "id": "s2",
     "title": {
-     "en": "Up to now: the present perfect",
-     "vi": "Cho đến bây giờ: thì hiện tại hoàn thành"
+     "en": "Yesterday: the past simple",
+     "vi": "Hôm qua: thì quá khứ đơn"
     },
     "esl": true,
     "kind": "text",
-    "head": "Freya's sports blog",
-    "html": "I *have played* in the school basketball team *for* two years. This season we *have already won* four matches, but we *haven't played* in the final *yet*. Our coach *has just told* us some great news: the final is at our school! I *have never felt* so excited. *Have* you *ever watched* a basketball final? Come and cheer for us!",
+    "head": "Grandpa's story about his town",
+    "html": "When I *was* nine, our town *was* very small. There *was* one market and there *were* lots of rice fields. There *weren't* any tall buildings. Every morning, I *walked* to school with my friends. We *didn't have* bikes! After school, we *played* by the river and *caught* fish. One day, I *fell* in the water. My mum *was* very angry!",
     "steps": [
      {
-      "en": "The present perfect is *have* or *has* + past participle: *have played*, *has told*.",
-      "vi": "Thì hiện tại hoàn thành là *have* hoặc *has* + quá khứ phân từ: *have played*, *has told*."
+      "en": "The *past simple* is for finished times: when I was nine, *yesterday*, *last* week, two days *ago*.",
+      "vi": "Thì *quá khứ đơn* dùng cho thời gian đã kết thúc: when I was nine, *yesterday*, *last* week, two days *ago*."
      },
      {
-      "en": "*for* + a length of time (for two years). *since* + a starting point (since May).",
-      "vi": "*for* + một khoảng thời gian (for two years). *since* + một mốc bắt đầu (since May)."
+      "en": "Regular verbs add -ed: *walked*, *played*. Irregular verbs change: catch becomes *caught*, fall becomes *fell*.",
+      "vi": "Động từ có quy tắc thêm -ed: *walked*, *played*. Động từ bất quy tắc thay đổi: catch thành *caught*, fall thành *fell*."
      },
      {
-      "en": "*just* = a very short time ago. *already* = sooner than expected. *yet* goes at the end of questions and negatives.",
-      "vi": "*just* = vừa mới. *already* = đã rồi, sớm hơn mong đợi. *yet* đứng cuối câu hỏi và câu phủ định."
+      "en": "*was* for I, he, she and it; *were* for you, we and they. *There was* + one thing; *there were* + many things.",
+      "vi": "*was* đi với I, he, she, it; *were* đi với you, we, they. *There was* + một vật; *there were* + nhiều vật."
      },
      {
-      "en": "*ever* asks about any time in your life. *never* means not at any time.",
-      "vi": "*ever* hỏi về bất kỳ lúc nào trong đời. *never* nghĩa là chưa bao giờ."
+      "en": "Negatives and questions use *didn't* or *Did* + the base verb: we *didn't have* bikes.",
+      "vi": "Câu phủ định và câu hỏi dùng *didn't* hoặc *Did* + động từ nguyên mẫu: we *didn't have* bikes."
      }
     ]
    },
    {
     "id": "s3",
     "title": {
-     "en": "What next? Future forms",
-     "vi": "Tiếp theo là gì? Các cách nói về tương lai"
+     "en": "Now and next: the present continuous",
+     "vi": "Bây giờ và sắp tới: thì hiện tại tiếp diễn"
     },
     "esl": true,
     "kind": "text",
-    "head": "A chat after school",
-    "html": "Minh: What *are* you *doing* on Saturday?<br>Lan: I*'m visiting* the zoo with my cousins. Our bus *leaves* at half past eight.<br>Minh: Great! *Are* you *going to see* the new baby elephant?<br>Lan: Yes! I*'m going to take* lots of photos of it.<br>Minh: I think you*'ll love* it. It *will* probably *be* hot, though.<br>Lan: You're right. I*'ll take* a hat and some water.",
+    "head": "Messages before Tet",
+    "html": "Remy: Hi Bao! What *are* you *doing*?<br>Bao: I*'m helping* my grandpa. We*'re making* sticky rice cakes for Tet.<br>Remy: Cool! *Are* you *cooking* them today?<br>Bao: No, we*'re boiling* them tomorrow. It takes ten hours!<br>Remy: Wow! What *are* you *doing* on New Year's Eve?<br>Bao: We*'re watching* the fireworks by the lake. Do you want to come?",
     "steps": [
      {
-      "en": "Present continuous for arrangements with a time or other people: *I'm visiting* the zoo on Saturday.",
-      "vi": "Thì hiện tại tiếp diễn cho lịch hẹn có thời gian hoặc có người khác: *I'm visiting* the zoo on Saturday."
+      "en": "*am*, *is* or *are* + verb-ing tells us what is happening now: I*'m helping* my grandpa.",
+      "vi": "*am*, *is* hoặc *are* + động từ thêm -ing cho biết việc đang xảy ra bây giờ: I*'m helping* my grandpa."
      },
      {
-      "en": "Present simple for timetables: the bus *leaves* at half past eight.",
-      "vi": "Thì hiện tại đơn cho lịch trình: the bus *leaves* at half past eight."
+      "en": "We also use it for plans with a future time: we*'re boiling* them *tomorrow*.",
+      "vi": "Ta cũng dùng thì này cho kế hoạch có thời gian trong tương lai: we*'re boiling* them *tomorrow*."
      },
      {
-      "en": "*going to* for plans you made before: *I'm going to take* photos.",
-      "vi": "*going to* cho kế hoạch đã định trước: *I'm going to take* photos."
+      "en": "Look for the time words: *now* and at the moment mean now; *tomorrow* and on Saturday mean a plan.",
+      "vi": "Hãy tìm từ chỉ thời gian: *now* và at the moment là bây giờ; *tomorrow* và on Saturday là kế hoạch."
      },
      {
-      "en": "*will* for predictions (*you'll love it*) and quick decisions (*I'll take* a hat).",
-      "vi": "*will* cho dự đoán (*you'll love it*) và quyết định ngay lúc nói (*I'll take* a hat)."
+      "en": "Questions: put *am*, *is* or *are* first: *Are* you *cooking* them today?",
+      "vi": "Câu hỏi: đặt *am*, *is* hoặc *are* lên đầu: *Are* you *cooking* them today?"
      }
     ]
    },
@@ -227,52 +226,99 @@
       "en": "Now find the verb forms on your own!",
       "vi": "Bây giờ con hãy tự tìm các dạng động từ nhé!"
      },
-     "result": "You spotted passives, present perfects and future forms!",
+     "result": "You found routines, past events, things happening now and future plans!",
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ug.03",
-        "6Ug.04"
+        "5Ug.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "Find the sentence where the windows do not do anything. Something happens to them."
+          "step": "A routine happens again and again. Look for a time word like 'every'."
          },
-         "worked": "'The windows were cleaned' is passive: were + cleaned. We don't know who cleaned them.",
+         "worked": "'every day' means again and again, so 'Mai brushes her teeth every day' is a routine.",
          "type": "mcq",
-         "q": "Which sentence is passive?",
+         "q": "Which sentence is about a routine?",
          "opts": [
-          "The windows were cleaned yesterday.",
-          "Dad cleaned the windows yesterday.",
-          "Dad is cleaning the windows."
+          "Mai brushes her teeth every day.",
+          "Mai is brushing her teeth right now.",
+          "Mai brushed her teeth an hour ago."
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "'right now' tells you this is happening at this moment, not every day.",
+          "'an hour ago' tells you this happened once, in the past."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "A habit is something you do again and again. Which sentence has 'every'?"
+         },
+         "worked": "'every day' shows a habit, and the present simple 'walks' goes with it.",
+         "type": "mcq",
+         "q": "Which sentence tells us about a habit?",
+         "opts": [
+          "Grandpa walks in the park every day.",
+          "Grandpa walked in the park on Sunday.",
+          "Grandpa is walking in the park now."
          ],
          "at": 1,
          "whys": [
           null,
-          "Here Dad does the action, so it is active, not passive.",
-          "This is the present continuous. Look for be + a past participle like 'cleaned'."
+          "'walked' and 'on Sunday' tell you this happened once, in the past.",
+          "'is walking' and 'now' tell you this is happening at this moment."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Ug.04"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Look for a past verb and a finished time."
+         },
+         "worked": "'were' is a past form of 'be', and 'last night' is a finished time.",
+         "type": "mcq",
+         "q": "Which sentence is about the past?",
+         "opts": [
+          "There were fireworks last night.",
+          "There are lots of fireworks tonight.",
+          "We are watching the fireworks now."
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'are' and 'tonight' tell you this is about today, not the past.",
+          "'are watching' and 'now' tell you this is happening at this moment."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Look for a form of 'be' + a past participle (grown, made, built)."
+          "step": "Which helper word starts a past question?"
          },
-         "worked": "'Tea is grown' is passive: is + grown. The tea does not grow itself here; people grow it.",
+         "worked": "'Did' + 'have' with 'last week' asks about the past.",
          "type": "mcq",
-         "q": "Which sentence is passive?",
+         "q": "Which question asks about the past?",
          "opts": [
-          "Tea is grown on these hills.",
-          "Farmers grow tea on these hills.",
-          "Farmers are growing tea on these hills."
+          "Did Omar have a fever last week?",
+          "Does Omar have a fever today?",
+          "Is Omar feeling better now?"
          ],
          "at": 0,
          "whys": [
           null,
-          "Here the farmers do the action, so it is active.",
-          "This is the present continuous. A passive needs is/are + a past participle."
+          "'Does' and 'today' ask about now, not the past.",
+          "'Is ... feeling' and 'now' ask about this moment."
          ],
          "letters": true
         }
@@ -281,94 +327,46 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.07"
+        "5Ug.05"
        ],
        "v": [
         {
          "hint": {
-          "step": "The present perfect has two parts: have or has + a past participle."
+          "step": "Look for am, is or are + -ing, and a word like 'Look!'."
          },
-         "worked": "'has just fed' = has + fed. 'just' tells us it happened a very short time ago.",
+         "worked": "'Look!' and 'are dancing' tell you it is happening now.",
          "type": "mcq",
-         "q": "Which sentence is in the present perfect?",
+         "q": "Which sentence is happening at this moment?",
          "opts": [
-          "Kenji has just fed his rabbit.",
-          "Kenji fed his rabbit an hour ago.",
-          "Kenji is feeding his rabbit now."
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "'fed ... an hour ago' is the past simple. Look for have or has.",
-          "This is the present continuous. Look for have or has + a past participle."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Look for have or has + a past participle. 'since' is a clue too."
-         },
-         "worked": "'have known ... since Grade 1' is the present perfect: it started in the past and is still true.",
-         "type": "mcq",
-         "q": "Which sentence is in the present perfect?",
-         "opts": [
-          "We have known each other since Grade 1.",
-          "We met each other in Grade 1.",
-          "We are meeting after school today."
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "'met' is the past simple. Look for have or has.",
-          "This is the present continuous. Look for have or has + a past participle."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Ug.08"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Timetables use the present simple with a fixed time."
-         },
-         "worked": "'starts at seven o'clock' is the present simple for a fixed time, like a cinema timetable.",
-         "type": "mcq",
-         "q": "Which sentence talks about a timetable?",
-         "opts": [
-          "The film starts at seven o'clock.",
-          "I'm going to watch a film tonight.",
-          "I think the film will be funny."
+          "Look! The children are dancing in the street.",
+          "The children danced in the street last year.",
+          "The children dance in the street every New Year."
          ],
          "at": 1,
          "whys": [
           null,
-          "This is a plan with 'going to', not a timetable.",
-          "This is a prediction with 'will', not a timetable."
+          "'danced' and 'last year' tell you this happened in the past.",
+          "'every New Year' tells you this happens again and again."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Arrangements use the present continuous with a time and another person."
+          "step": "Something happening now uses am, is or are + -ing."
          },
-         "worked": "'I'm meeting Omar ... at four' is the present continuous for a fixed meeting with a friend.",
+         "worked": "'is drawing' = is + -ing, so Isla is doing it now.",
          "type": "mcq",
-         "q": "Which sentence is an arrangement with a friend?",
+         "q": "Which sentence tells us what Isla is doing now?",
          "opts": [
-          "I'm meeting Omar at the park at four.",
-          "I think Omar will be late.",
-          "Omar meets his friends every day."
+          "Isla is drawing a cat on the wall.",
+          "Isla draws a cat on every birthday card.",
+          "Isla drew a cat on the wall."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
-          "This is a prediction with 'will', not an arrangement.",
-          "This is a habit in the present simple, not a future arrangement."
+          "'draws' and 'every birthday card' tell you it is a habit, not this moment.",
+          "'drew' is the past, so it is finished."
          ],
          "letters": true
         }
@@ -377,46 +375,46 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.08"
+        "5Ug.05"
        ],
        "v": [
         {
          "hint": {
-          "step": "A prediction is what you THINK will happen. Which sentence gives an opinion about the future?"
+          "step": "A plan uses are + -ing with a future time."
          },
-         "worked": "'I think it will snow' is a prediction: will + verb for what we think will happen.",
+         "worked": "'We're having' + 'on Sunday' is a plan for the future.",
          "type": "mcq",
-         "q": "Which sentence is a prediction?",
+         "q": "Which sentence is a plan for the future?",
          "opts": [
-          "I think it will snow tonight.",
-          "Our train leaves at nine tomorrow.",
-          "We're packing our bags right now."
+          "We're having a picnic on Sunday.",
+          "We had a picnic last Sunday.",
+          "We have a picnic every Sunday."
          ],
          "at": 0,
          "whys": [
           null,
-          "This is a timetable in the present simple.",
-          "This tells us what is happening now, not what we think will happen."
+          "'had' and 'last Sunday' tell you it is finished.",
+          "'every Sunday' tells you it is a habit, not one plan."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Is the speaker talking about the past, or deciding something right now?"
+          "step": "Look for is + -ing with a future time word."
          },
-         "worked": "'I'll answer it!' = I will answer it. We use will for a decision we make right now.",
+         "worked": "'is visiting' + 'next week' is a plan for the future.",
          "type": "mcq",
-         "q": "The phone is ringing. Which reply is a quick decision?",
+         "q": "Which sentence tells us about a plan?",
          "opts": [
-          "I'll answer it!",
-          "I answered it.",
-          "I've answered it."
+          "Ravi is visiting his cousins next week.",
+          "Ravi visited his cousins last week.",
+          "Ravi visits his cousins every week."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
-          "'answered' is the past simple. The phone is ringing now.",
-          "This says it is finished, but the phone is still ringing."
+          "'visited' and 'last week' tell you it already happened.",
+          "'every week' tells you it is a habit."
          ],
          "letters": true
         }
@@ -436,107 +434,59 @@
    "art": "icon-step-practise",
    "title": "Learn it",
    "blurb": {
-    "en": "Practise one verb form at a time: the passive, the present perfect and the future.",
-    "vi": "Luyện từng dạng động từ một: câu bị động, hiện tại hoàn thành và tương lai."
+    "en": "Practise one verb form at a time: every day, yesterday, and now or next.",
+    "vi": "Luyện từng dạng động từ một: hằng ngày, hôm qua, và bây giờ hoặc sắp tới."
    },
    "levels": [
     {
      "title": {
-      "en": "The passive: now and then",
-      "vi": "Câu bị động: hiện tại và quá khứ"
+      "en": "Every day: the present simple",
+      "vi": "Hằng ngày: thì hiện tại đơn"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ug.03"
+        "5Ug.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "Does the paper do the action, or does something happen to it?"
+          "step": "Who is the subject? With he, she or it, what do you add to the verb?"
          },
-         "worked": "People make paper, so we say 'Paper is made from wood': is + made.",
+         "worked": "'My sister' = she, and 'every morning' is a routine: 'drinks'.",
          "type": "mcq",
-         "q": "Paper .......... from wood.",
+         "q": "My sister ________ a glass of milk every morning.",
          "opts": [
-          "is made",
-          "was making",
-          "has made"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "This says the paper was making something. Paper doesn't make anything; something happens to it.",
-          "This says the paper has made something. Paper doesn't do the action, so use is + made."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Is the subject one thing or more than one? Then choose is or are."
-         },
-         "worked": "'cars' is plural and people build them: 'are built'.",
-         "type": "mcq",
-         "q": "Millions of cars .......... in this factory every year.",
-         "opts": [
-          "are built",
-          "build",
-          "is built"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "Cars don't build anything. Something happens to them, so use the passive.",
-          "'cars' is plural, so use 'are', not 'is'."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Ug.04"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Look at the year. Is it now or in the past?"
-         },
-         "worked": "1890 is in the past and people built the bridge: 'was built'.",
-         "type": "mcq",
-         "q": "This old bridge .......... in 1890.",
-         "opts": [
-          "was built",
-          "was building",
-          "is built"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "This says the bridge was building something. A bridge can't build, so use was + built.",
-          "1890 is in the past, so use 'was', not 'is'."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Look at 'by my grandad'. Who did the action? Who or what is the subject?"
-         },
-         "worked": "Grandad took the photos, so the photos 'were taken by' him. 'photos' is plural, so 'were'.",
-         "type": "mcq",
-         "q": "These photos .......... by my grandad when he was young.",
-         "opts": [
-          "were taken",
-          "was taken",
-          "were taking"
+          "drinks",
+          "drink",
+          "drinking"
          ],
          "at": 2,
          "whys": [
           null,
-          "'photos' is plural, so use 'were', not 'was'.",
-          "This says the photos were taking something. Grandad took them, so use were + taken."
+          "'My sister' is one person (she), so the verb needs -s.",
+          "'drinking' needs am, is or are before it."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "'on Tuesdays' means every Tuesday. Who is the subject?"
+         },
+         "worked": "'Omar' = he, and 'on Tuesdays' is a habit: 'plays'.",
+         "type": "mcq",
+         "q": "Omar ________ football in the park after school on Tuesdays.",
+         "opts": [
+          "plays",
+          "play",
+          "playing"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "'Omar' is one person (he), so the verb needs -s.",
+          "'playing' needs is before it, and this is a habit."
          ],
          "letters": true
         }
@@ -545,39 +495,86 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.03",
-        "6Ug.04"
+        "5Ug.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "Is 2019 now or in the past? Is the museum one thing or more?"
+          "step": "Look at the subject and the verb 'cook'. Which helper goes with he?"
          },
-         "worked": "2019 is in the past and the museum is one thing: 'was opened'.",
+         "worked": "'your dad' = he, and 'cook' is the base verb, so: 'Does your dad cook...?'",
+         "type": "mcq",
+         "q": "________ your dad cook dinner every evening?",
+         "opts": [
+          "Does",
+          "Do",
+          "Is"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "'Do' goes with I, you, we and they. 'your dad' is he.",
+          "'Is' needs a verb with -ing, but here we have 'cook'."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Isla is she. Which negative helper goes with she and a base verb?"
+         },
+         "worked": "she + negative + base verb: 'Isla doesn't like spicy food'.",
+         "type": "mcq",
+         "q": "Isla ________ like spicy food, so she never eats chilli.",
+         "opts": [
+          "doesn't",
+          "don't",
+          "isn't"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'don't' goes with I, you, we and they. Isla is she.",
+          "'isn't' needs an -ing verb or an adjective, but here we have 'like'."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Ug.03"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Ravi is he. Verbs that end in -sh add -es."
+         },
+         "worked": "'always' shows a habit, and with he we add -es to wash: 'washes'.",
          "type": "tfill",
-         "q": "Write the missing word.",
+         "q": "Write the verb in brackets in the correct form.",
          "lines": [
-          "The new museum {0} opened by the mayor in 2019."
+          "Ravi always {0} (wash) his hands before lunch."
          ],
          "ans": [
           [
-           "was"
+           "washes"
           ]
          ]
         },
         {
          "hint": {
-          "step": "'Nowadays' means today. 'lunches' is plural."
+          "step": "'The school bus' is it. What do you add to the verb with it?"
          },
-         "worked": "'Nowadays' tells us it is the present, and 'lunches' is plural: 'are cooked'.",
+         "worked": "'every morning' shows a routine, and with it we add -s: 'stops'.",
          "type": "tfill",
-         "q": "Write the missing word.",
+         "q": "Write the verb in brackets in the correct form.",
          "lines": [
-          "Nowadays, our school lunches {0} cooked fresh every morning."
+          "The school bus {0} (stop) outside my flat at seven every morning."
          ],
          "ans": [
           [
-           "are"
+           "stops"
           ]
          ]
         }
@@ -587,53 +584,53 @@
     },
     {
      "title": {
-      "en": "The present perfect",
-      "vi": "Thì hiện tại hoàn thành"
+      "en": "Yesterday: the past simple",
+      "vi": "Hôm qua: thì quá khứ đơn"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ug.07"
+        "5Ug.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Is 'three months' a starting point or a length of time?"
+          "step": "Find the time words. Which helper makes a question in the past?"
          },
-         "worked": "'three months' is a length of time, so we use 'for'.",
+         "worked": "'last night' is in the past, and 'see' is the base verb: 'Did you see...?'",
          "type": "mcq",
-         "q": "Mai has had her kitten .......... three months.",
+         "q": "________ you see the fireworks by the lake last night?",
          "opts": [
-          "for",
-          "since",
-          "ago"
+          "Did",
+          "Do",
+          "Were"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
-          "'since' needs a starting point, like 'since May'. 'three months' is a length of time.",
-          "'ago' goes with the past simple, not with 'has had'."
+          "'Do' is for the present, but 'last night' is finished.",
+          "'Were' needs an -ing verb or an adjective, but here we have 'see'."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Is 'last summer' a starting point or a length of time?"
+          "step": "Look at 'last night' and 'had'. Is this now or in the past?"
          },
-         "worked": "'last summer' is when it started, so we use 'since'.",
+         "worked": "'last night' is the past, so the negative is 'didn't' + eat.",
          "type": "mcq",
-         "q": "Tariq has lived next door .......... last summer.",
+         "q": "Nina ________ eat her dinner last night because she had a stomach ache.",
          "opts": [
-          "since",
-          "for",
-          "ago"
+          "didn't",
+          "doesn't",
+          "don't"
          ],
          "at": 1,
          "whys": [
           null,
-          "'for' needs a length of time, like 'for a year'. 'last summer' is a starting point.",
-          "'ago' goes after a length of time with the past simple, like 'a year ago'."
+          "'doesn't' is for the present, but 'last night' is finished.",
+          "'don't' is for the present, and it does not go with she."
          ],
          "letters": true
         }
@@ -642,46 +639,46 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.07"
+        "5Ug.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Which word goes at the END of a question in the present perfect?"
+          "step": "Two clues: is the noun one or many? Is the time now or past?"
          },
-         "worked": "'yet' goes at the end of questions: 'Have you finished ... yet?'",
+         "worked": "'thirty children' is plural and 'last Sunday' is past: 'There were'.",
          "type": "mcq",
-         "q": "Have you finished your science project ..........?",
+         "q": "There ________ thirty children at Ravi's birthday party last Sunday.",
          "opts": [
-          "yet",
-          "just",
-          "never"
+          "were",
+          "was",
+          "are"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
-          "'just' goes between 'have' and the verb, not at the end.",
-          "'never' doesn't go at the end of a question."
+          "'was' goes with one thing, but 'thirty children' is many.",
+          "'are' is for now, but 'last Sunday' is finished."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "'but I'd love to' tells you the person has not seen one."
+          "step": "Is 'a big storm' one thing or many? Look at the time words too."
          },
-         "worked": "'I've never seen' means not at any time. 'but I'd love to' shows it hasn't happened.",
+         "worked": "'a big storm' is one thing and 'last night' is past: 'There was'.",
          "type": "mcq",
-         "q": "I've .......... seen a real tiger, but I'd love to!",
+         "q": "There ________ a big storm last night, so we stayed at home.",
          "opts": [
-          "never",
-          "ever",
-          "yet"
+          "was",
+          "were",
+          "is"
          ],
          "at": 0,
          "whys": [
           null,
-          "We don't use 'ever' in a sentence like this. It is for questions.",
-          "'yet' goes at the end of the sentence, not after 'I've'."
+          "'were' goes with many things, but 'a big storm' is one.",
+          "'is' is for now, but 'last night' is finished."
          ],
          "letters": true
         }
@@ -690,49 +687,40 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.04",
-        "6Ug.07"
+        "5Ug.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Look at the time words. Is the time finished?"
+          "step": "'buy' is an irregular verb. It does not add -ed."
          },
-         "worked": "'last Friday' is a finished time, so we use the past simple: 'went'.",
-         "type": "mcq",
-         "q": "We .......... to the science museum last Friday.",
-         "opts": [
-          "went",
-          "have gone",
-          "have been"
+         "worked": "'yesterday' is in the past, and the past of buy is 'bought'.",
+         "type": "tfill",
+         "q": "Write the verb in brackets in the correct form.",
+         "lines": [
+          "Mum {0} (buy) a bunch of bananas at the market yesterday."
          ],
-         "at": 2,
-         "whys": [
-          null,
-          "'last Friday' is a finished time, so we use the past simple.",
-          "'last Friday' is a finished time, so we don't use the present perfect."
-         ],
-         "letters": true
+         "ans": [
+          [
+           "bought"
+          ]
+         ]
         },
         {
          "hint": {
-          "step": "Look at 'since Monday'. Which verb form goes with 'since'?"
+          "step": "'find' is an irregular verb. It does not add -ed."
          },
-         "worked": "'since Monday' goes with the present perfect: 'has read'.",
-         "type": "mcq",
-         "q": "Isla .......... three books since Monday.",
-         "opts": [
-          "has read",
-          "read",
-          "reads"
+         "worked": "'Last week' is in the past, and the past of find is 'found'.",
+         "type": "tfill",
+         "q": "Write the verb in brackets in the correct form.",
+         "lines": [
+          "Last week, Lena {0} (find) a lost puppy near the park."
          ],
-         "at": 1,
-         "whys": [
-          null,
-          "With 'since' we need the present perfect: has + read.",
-          "'reads' is the present simple. With 'since' we need has + read."
-         ],
-         "letters": true
+         "ans": [
+          [
+           "found"
+          ]
+         ]
         }
        ]
       }
@@ -740,101 +728,101 @@
     },
     {
      "title": {
-      "en": "Talking about the future",
-      "vi": "Nói về tương lai"
+      "en": "Now and next: the present continuous",
+      "vi": "Bây giờ và sắp tới: thì hiện tại tiếp diễn"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ug.08"
+        "5Ug.05"
        ],
        "v": [
         {
          "hint": {
-          "step": "The speaker decides to help at this moment."
+          "step": "'Shh!' and 'right now' are clues. What is happening at this moment?"
          },
-         "worked": "A quick decision at the moment of speaking: 'I will help you!'",
+         "worked": "'right now' = this moment, so: is + sleeping.",
          "type": "mcq",
-         "q": "'This bag is very heavy.' 'Wait, I .......... help you!'",
+         "q": "Shh! The baby ________ in her cot right now.",
          "opts": [
-          "will",
-          "did",
-          "used to"
+          "is sleeping",
+          "was sleeping",
+          "sleeps"
          ],
          "at": 1,
          "whys": [
           null,
-          "'did' is for the past, but the helping hasn't happened yet.",
-          "'used to' is for a past habit, but the speaker is offering help right now."
+          "'was sleeping' is the past, but 'right now' means this moment.",
+          "'sleeps' is for a habit, but 'right now' means this moment."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "'I think' and 'in the future' tell you it is a prediction."
+          "step": "'Look!' tells you when it is happening."
          },
-         "worked": "A prediction about the future: 'I think robots will do more jobs'.",
+         "worked": "'Look!' shows it is happening now, so: is + drawing.",
          "type": "mcq",
-         "q": "I think robots .......... do more jobs in the future.",
+         "q": "Look! Isla ________ a big fish on the wall with chalk.",
          "opts": [
-          "will",
-          "did",
-          "used to"
+          "is drawing",
+          "draws",
+          "drew"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'draws' is for a habit, but 'Look!' means it is happening now.",
+          "'drew' is the past, but 'Look!' means it is happening now."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Ug.05"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Look at the word before the gap: 'are'. What form comes after it?"
+         },
+         "worked": "A plan with a future time: are + visiting.",
+         "type": "mcq",
+         "q": "We are ________ our cousins in Da Nang next weekend.",
+         "opts": [
+          "visiting",
+          "visit",
+          "visited"
          ],
          "at": 0,
          "whys": [
           null,
-          "'did' is for the past, but the sentence says 'in the future'.",
-          "'used to' is for past habits, but the sentence says 'in the future'."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Ug.08"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Timetables use the present simple. Check the subject: one train."
-         },
-         "worked": "A timetable uses the present simple: 'the train leaves at 10:15'.",
-         "type": "mcq",
-         "q": "Check the timetable: the next train .......... at 10:15 tonight.",
-         "opts": [
-          "leaves",
-          "leave",
-          "left"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "'the train' is one thing, so the verb needs -s: leaves.",
-          "'left' is the past, but 'tonight' is in the future."
+          "After 'are', the verb needs -ing.",
+          "After 'are', the verb needs -ing, and 'next weekend' is in the future."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Is Friday in the past or the future? Which form do we use for a fixed plan with other people?"
+          "step": "Look at the word before the gap: 'is'."
          },
-         "worked": "An arrangement with other people: 'I am meeting my cousins'.",
+         "worked": "A plan for Saturday: is + having.",
          "type": "mcq",
-         "q": "I can't come to your house on Friday. I .......... my cousins at the airport.",
+         "q": "Chloe is ________ a party for her tenth birthday on Saturday.",
          "opts": [
-          "am meeting",
-          "met",
-          "have met"
+          "having",
+          "have",
+          "had"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
-          "'met' is the past, but Friday is in the future.",
-          "'have met' says it has already happened, but Friday hasn't come yet."
+          "After 'is', the verb needs -ing.",
+          "'had' is the past, but the party is on Saturday, in the future."
          ],
          "letters": true
         }
@@ -843,44 +831,40 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.08"
+        "5Ug.05"
        ],
        "v": [
         {
          "hint": {
-          "step": "Look at 'are ... to plant'. Which word makes a plan?"
+          "step": "'doing' ends in -ing. Which helper goes with you?"
          },
-         "worked": "A plan: 'We are going to plant'.",
+         "worked": "A question about a plan: 'What are you doing tomorrow afternoon?'",
          "type": "tfill",
-         "q": "Write the missing word.",
+         "q": "Write ONE word in the gap.",
          "lines": [
-          "We are {0} to plant some sunflower seeds this weekend."
+          "What {0} you doing tomorrow afternoon?"
          ],
          "ans": [
           [
-           "going",
-           "planning",
-           "hoping",
-           "happy"
+           "are",
+           "'re"
           ]
          ]
         },
         {
          "hint": {
-          "step": "Look at 'Is Omar ... to join'. Which word makes a plan?"
+          "step": "'meeting' ends in -ing. Which helper goes with I?"
          },
-         "worked": "A question about a plan: 'Is Omar going to join ...?'",
+         "worked": "A plan for later today with I: 'I am meeting Nina'.",
          "type": "tfill",
-         "q": "Write the missing word.",
+         "q": "Write ONE word in the gap.",
          "lines": [
-          "Is Omar {0} to join the chess club next term?"
+          "I {0} meeting Nina at the park at four o'clock today."
          ],
          "ans": [
           [
-           "going",
-           "planning",
-           "hoping",
-           "happy"
+           "am",
+           "'m"
           ]
          ]
         }
@@ -898,107 +882,59 @@
    "art": "icon-step-test",
    "title": "Exam style",
    "blurb": {
-    "en": "Exam practice: choose the right verb in a sentence, then write one word in an email.",
-    "vi": "Luyện thi: chọn động từ đúng trong câu, rồi viết một từ vào chỗ trống trong email."
+    "en": "Exam practice: choose the verb in a sentence and a message, then write one word in a letter.",
+    "vi": "Luyện thi: chọn động từ đúng trong câu và trong tin nhắn, rồi viết một từ vào chỗ trống trong lá thư."
    },
    "levels": [
     {
      "title": {
-      "en": "Part 1: the passive and the past",
-      "vi": "Phần 1: câu bị động và quá khứ"
+      "en": "Part 1: choose the verb",
+      "vi": "Phần 1: chọn động từ đúng"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ug.04"
+        "5Ug.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "Did the wall do the action? Look at the time words too."
+          "step": "Who does 'who' mean here? Look at 'every evening' too."
          },
-         "worked": "People built the wall and 'last spring' is finished, so: 'was built'.",
+         "worked": "'who' = Mai (she), and 'every evening' is a habit: 'helps'.",
          "type": "mcq",
-         "q": "The new climbing wall in our sports hall .......... last spring.",
+         "q": "Mai is a kind girl who ________ her little brother with his maths homework every evening.",
          "opts": [
-          "was built",
-          "was building",
-          "has built"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "This says the wall was building something. A wall can't build, so use was + built.",
-          "'has built' needs someone who did the building, and 'last spring' is a finished time."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "'by a technician' is a clue. Who did the checking?"
-         },
-         "worked": "The technician checked them, so the computers 'were checked'. Plural, so 'were'.",
-         "type": "mcq",
-         "q": "Last week, all the classroom computers .......... by a technician from the city.",
-         "opts": [
-          "were checked",
-          "checked",
-          "are checked"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "This says the computers did the checking. 'by a technician' tells you it is passive.",
-          "'Last week' is a finished time, so use 'were', not 'are'."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Ug.03"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "'before it is wrapped' is passive. The first part works the same way."
-         },
-         "worked": "Workers cut the chocolate, so it 'is cut', just like it 'is wrapped'.",
-         "type": "mcq",
-         "q": "In this factory, the chocolate .......... into small bars before it is wrapped.",
-         "opts": [
-          "is cut",
-          "cuts",
-          "was cutting"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "Chocolate can't cut anything. Something happens to it, so use is + cut.",
-          "This is the past continuous, and it says the chocolate did the cutting."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Is the subject one thing or more? Who does the making?"
-         },
-         "worked": "People make the baskets, and 'baskets' is plural: 'are made'.",
-         "type": "mcq",
-         "q": "These colourful baskets .......... by hand in a small village near Hue.",
-         "opts": [
-          "are made",
-          "are making",
-          "is made"
+          "helps",
+          "help",
+          "helping"
          ],
          "at": 2,
          "whys": [
           null,
-          "This says the baskets are doing the making. 'by hand' tells you people make them.",
-          "'baskets' is plural, so use 'are'."
+          "'who' here means Mai, one person, so the verb needs -s.",
+          "'helping' needs is before it, and 'every evening' is a habit."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "'always' shows a habit. Who is the subject: I, you or he?"
+         },
+         "worked": "'he always' + present simple with -s: 'eats'.",
+         "type": "mcq",
+         "q": "Omar doesn't like vegetables, but he always ________ a bowl of fruit after lunch.",
+         "opts": [
+          "eats",
+          "eat",
+          "eating"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "With he, the present simple verb needs -s.",
+          "'eating' needs is before it, and 'always' shows a habit."
          ],
          "letters": true
         }
@@ -1007,46 +943,94 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.04"
+        "5Ug.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Look at 'fell'. Is the story about now, the past or the future?"
+          "step": "Two clues: one shop or many? Now or a long time ago?"
          },
-         "worked": "Past simple negative = didn't + base verb: 'didn't see'.",
+         "worked": "'When my grandpa was a boy' is the past and 'one small shop' is one thing: 'there was'.",
          "type": "mcq",
-         "q": "Sami .......... the end of the film because he fell asleep on the sofa.",
+         "q": "When my grandpa was a boy, there ________ only one small shop in his village.",
          "opts": [
-          "didn't see",
-          "doesn't see",
-          "won't see"
+          "was",
+          "were",
+          "is"
          ],
          "at": 1,
          "whys": [
           null,
-          "'fell asleep' is in the past, so the negative is 'didn't'.",
-          "'won't' is for the future, but 'fell asleep' tells you this happened in the past."
+          "'were' goes with many things, but 'one small shop' is one.",
+          "'is' is for now, but 'When my grandpa was a boy' is long ago."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "'was a girl' and 'wrote' tell you the time. Is it finished?"
+          "step": "Find the time words at the start of the sentence."
          },
-         "worked": "A finished time in the past needs the past simple: 'didn't have'.",
+         "worked": "'Last week' is in the past, and the past of take is 'took'.",
          "type": "mcq",
-         "q": "When Grandma was a girl, she .......... a phone at home, so she wrote letters.",
+         "q": "Last week, Lena ________ some old clothes and toys to a children's centre near her school.",
          "opts": [
-          "didn't have",
-          "hasn't had",
-          "doesn't have"
+          "took",
+          "takes",
+          "taking"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'takes' is the present, but 'Last week' is finished.",
+          "'taking' needs was or is before it."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Ug.05"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "'now' and 'at the moment' are clues. Which form shows what is happening now?"
+         },
+         "worked": "'at the moment' = now, so: is + doing.",
+         "type": "mcq",
+         "q": "Sam can't come to football practice now because he ________ his science homework at the moment.",
+         "opts": [
+          "is doing",
+          "does",
+          "did"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "'does' is for a habit, but 'at the moment' means now.",
+          "'did' is the past, but 'at the moment' means now."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Look at the word before the gap and at 'next Friday'."
+         },
+         "worked": "A plan for next Friday: is + making.",
+         "type": "mcq",
+         "q": "Our class is ________ a fruit salad for the school food fair next Friday, so please bring a banana.",
+         "opts": [
+          "making",
+          "make",
+          "made"
          ],
          "at": 1,
          "whys": [
           null,
-          "'When Grandma was a girl' is a finished time, so use the past simple.",
-          "This is the present, but the sentence is about the past."
+          "After 'is', the verb needs -ing.",
+          "'made' is the past, but 'next Friday' is in the future."
          ],
          "letters": true
         }
@@ -1056,151 +1040,193 @@
     },
     {
      "title": {
-      "en": "Part 1: present perfect and future",
-      "vi": "Phần 1: hiện tại hoàn thành và tương lai"
+      "en": "Part 2: a verb in a message",
+      "vi": "Phần 2: động từ trong tin nhắn"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ug.07"
+        "5Ug.05"
        ],
        "v": [
         {
          "hint": {
-          "step": "Find the time word 'since'. Which verb form goes with it?"
+          "step": "When is the visit: before or after Mum wrote the note?"
          },
-         "worked": "'since his birthday' = from then until now: 'has ridden'.",
+         "worked": "'this evening' and 'We'll be back at eight' show a plan: 'Dad and I are visiting'.",
          "type": "mcq",
-         "q": "Leo .......... to school by bike every day since his birthday in June.",
+         "q": "Which option correctly completes the message?",
          "opts": [
-          "has ridden",
-          "rode",
-          "is riding"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "With 'since' we need the present perfect: has + ridden.",
-          "'is riding' is the present continuous. With 'since' we need the present perfect."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Check two things: has or have? Is it about his life until now, or about the future?"
-         },
-         "worked": "One person = 'has', and the past participle of see is 'seen': 'has never seen'.",
-         "type": "mcq",
-         "q": "My little brother .......... a giraffe, so he is very excited about our zoo trip.",
-         "opts": [
-          "has never seen",
-          "have never seen",
-          "will never see"
+          "are visiting",
+          "were visiting",
+          "visited"
          ],
          "at": 2,
          "whys": [
           null,
-          "'My little brother' is one person, so use 'has'.",
-          "'will never see' means it can't happen, but he is going to the zoo to see one!"
+          "'were visiting' is the past, but 'this evening' and 'We'll be back' show it hasn't happened yet.",
+          "'visited' is the past, but Mum says they will be back at eight, so it hasn't happened yet."
          ],
-         "letters": true
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s2-note-1",
+          "kind": "text",
+          "head": "A sticky note from Mum",
+          "html": "Ravi,<br>Dad and I ________ your aunt in hospital this evening. Your dinner is in the fridge. Please feed the cat. We'll be back at eight o'clock!<br>Mum"
+         }
+        },
+        {
+         "hint": {
+          "step": "Find the time words in the message."
+         },
+         "worked": "'right now' tells you it is happening at this moment: 'I am looking'.",
+         "type": "mcq",
+         "q": "Which option correctly completes the message?",
+         "opts": [
+          "am looking",
+          "was looking",
+          "looked"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "'was looking' is the past, but Isla says 'right now'.",
+          "'looked' is the past, but Isla says 'right now'."
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s2-text-1",
+          "kind": "text",
+          "head": "A text message",
+          "html": "Hi Lena! I ________ at the new street art wall in town right now. There's a giant fish that looks real! Come and see it with me.<br>Isla"
+         }
         }
        ]
       },
       {
        "mode": "your",
        "lo": [
-        "6Ug.07"
+        "5Ug.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Look at the last word, 'yet'. Which verb form does it go with?"
+          "step": "When did it happen? Find the time word."
          },
-         "worked": "'yet' goes with the present perfect: 'Dad hasn't finished ... yet'.",
+         "worked": "'yesterday' is in the past, and the past of leave is 'left'.",
          "type": "mcq",
-         "q": "We can't eat now. Dad .......... cooking the noodles yet.",
+         "q": "Which option correctly completes the message?",
          "opts": [
-          "hasn't finished",
-          "didn't finish",
-          "doesn't finish"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "'yet' at the end goes with the present perfect.",
-          "'yet' at the end goes with the present perfect, not the present simple."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "This question asks about any time in your life."
-         },
-         "worked": "'Have you ever tried ...?' asks about any time in your life.",
-         "type": "mcq",
-         "q": "Have you .......... tried Vietnamese spring rolls? They're delicious!",
-         "opts": [
-          "ever",
-          "yet",
-          "since"
+          "left",
+          "leaves",
+          "is leaving"
          ],
          "at": 1,
          "whys": [
           null,
-          "'yet' goes at the end of a question, not after 'you'.",
-          "'since' needs a starting point after it, like 'since Monday'."
+          "'leaves' is for a habit, but 'yesterday' is in the past.",
+          "'is leaving' is for now or a plan, but 'yesterday' is in the past."
          ],
-         "letters": true
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s2-notice-1",
+          "kind": "text",
+          "head": "A school notice",
+          "html": "<b>LOST PROPERTY</b><br>Someone ________ a blue lunch box in the canteen yesterday. It has a rocket sticker on the lid. Please ask at the school office."
+         }
+        },
+        {
+         "hint": {
+          "step": "Read the next sentence. Did the party already happen?"
+         },
+         "worked": "'Twelve friends came' and 'made' are past, so the party is finished: 'We had'.",
+         "type": "mcq",
+         "q": "Which option correctly completes the message?",
+         "opts": [
+          "had",
+          "have",
+          "are having"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'have' is for now or habits, but Remy says 'Twelve friends came', so it is finished.",
+          "'are having' is for now or a plan, but the party is finished: 'Twelve friends came'."
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s2-email-1",
+          "kind": "text",
+          "head": "An email to Grandma",
+          "html": "Dear Grandma,<br>Thank you for the birthday card! We ________ a great party on Sunday. Twelve friends came and Mum made a big chocolate cake. I miss you!<br>Love,<br>Remy"
+         }
         }
        ]
       },
       {
        "mode": "your",
        "lo": [
-        "6Ug.08"
+        "5Ug.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "'next Tuesday' and 'has booked' tell you it is an arrangement."
+          "step": "'every weekday' is a clue. Is this a routine or one moment?"
          },
-         "worked": "A future arrangement with a booked guide uses the present continuous: 'is going'.",
+         "worked": "'every weekday' is a routine, and with 'the doctor' (he or she) we say 'sees'.",
          "type": "mcq",
-         "q": "Our class .......... on a nature walk next Tuesday. Mr Bao has booked the guide.",
+         "q": "Which option correctly completes the message?",
          "opts": [
-          "is going",
-          "went",
-          "has gone"
+          "sees",
+          "saw",
+          "is seeing"
          ],
          "at": 0,
          "whys": [
           null,
-          "'next Tuesday' is in the future, so the past is wrong.",
-          "'next Tuesday' is in the future, so the present perfect is wrong."
+          "'saw' is the past, but 'every weekday' is a routine that is still true.",
+          "'is seeing' is for one moment or one plan, but 'every weekday' is a routine."
          ],
-         "letters": true
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s2-sign-1",
+          "kind": "text",
+          "head": "A sign at a health centre",
+          "html": "<b>GREEN STREET HEALTH CENTRE</b><br>The doctor ________ children from 8 am to 12 pm every weekday. Please come ten minutes early. Children must come with an adult."
+         }
         },
         {
          "hint": {
-          "step": "'tomorrow's test' and 'I'm sure' tell you it is a prediction."
+          "step": "'every Wednesday' is a clue. Is it a habit or one moment?"
          },
-         "worked": "A prediction about tomorrow: 'I'm sure you will do very well'.",
+         "worked": "'every Wednesday' is a habit, so with we: 'We meet'.",
          "type": "mcq",
-         "q": "Don't worry about tomorrow's test. I'm sure you .......... very well.",
+         "q": "Which option correctly completes the message?",
          "opts": [
-          "will do",
-          "did",
-          "have done"
+          "meet",
+          "met",
+          "meeting"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
-          "The test is tomorrow, so the past is wrong.",
-          "The test is tomorrow, so the present perfect is wrong."
+          "'met' is the past, but the club still meets: 'Everyone is welcome!'",
+          "'meeting' needs 'are' before it."
          ],
-         "letters": true
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s2-notice-2",
+          "kind": "text",
+          "head": "A club notice",
+          "html": "<b>KINDNESS CLUB</b><br>We ________ in Room 5 every Wednesday after school. Today we are making cards for people in hospital. Everyone is welcome!<br>Nina, club leader"
+         }
         }
        ]
       }
@@ -1208,61 +1234,60 @@
     },
     {
      "title": {
-      "en": "Part 4: one word in an email",
-      "vi": "Phần 4: viết một từ vào chỗ trống trong email"
+      "en": "Part 4: one word in a letter",
+      "vi": "Phần 4: viết một từ vào chỗ trống trong lá thư"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ug.07"
+        "5Ug.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "'just' and 'come' are clues. Which helper verb makes the present perfect?"
+          "step": "Is 'one road' one thing or many? Is it now or long ago?"
          },
-         "worked": "'just' + 'come' is the present perfect: 'I have just come back'.",
+         "worked": "Long ago and one road: 'There was only one road'.",
          "type": "tfill",
-         "q": "Read the email. Write ONE word for gap 1.",
+         "q": "Read the letter. Write ONE word from the box for gap 1.",
          "lines": [
-          "I {0} just come back from the science fair at school."
+          "There {0} only one road and it was very narrow."
          ],
          "ans": [
           [
-           "have",
-           "'ve"
+           "was"
           ]
          ],
          "fig": {
           "k": "stim",
-          "id": "s2-email-a",
+          "id": "s2-letter-a",
           "kind": "text",
-          "head": "An email from Priya",
-          "html": "Hi Anna,<br>How are you? I (1) ________ just come back from the science fair at school. Our project was about sunflowers. The seeds (2) ________ planted in March, and now the plants are taller than me! I have looked after them (3) ________ three months. Next week, our class is visiting a big flower farm. I can't wait!<br>Love,<br>Priya"
+          "head": "A letter from Mai",
+          "html": "<b>Word box:</b> are, did, gets, is, was, were (example)<br><br>Dear Chloe,<br>I'm writing from my grandma's village. It is very quiet here. Grandma says that when she was young, there (0) <b>were</b> no cars in the village. People walked or rode bikes. There (1) ________ only one road and it was very narrow. Now there is a new school and a small clinic. Every morning, Grandma (2) ________ up at five o'clock and feeds her chickens. Tomorrow we (3) ________ picking oranges in her garden. I can't wait!<br>Love,<br>Mai"
          }
         },
         {
          "hint": {
-          "step": "Is 'my birthday' a starting point or a length of time?"
+          "step": "'last night' is a clue. Which word from the box is in the past?"
          },
-         "worked": "'my birthday' is a starting point, so: 'since my birthday'.",
+         "worked": "'last night' is finished, so the past of have: 'I had a bad cough'.",
          "type": "tfill",
-         "q": "Read the email. Write ONE word for gap 1.",
+         "q": "Read the email. Write ONE word from the box for gap 1.",
          "lines": [
-          "I have worn them every day {0} my birthday."
+          "I {0} a bad cough and a fever last night."
          ],
          "ans": [
           [
-           "since"
+           "had"
           ]
          ],
          "fig": {
           "k": "stim",
-          "id": "s2-email-b",
+          "id": "s2-letter-b",
           "kind": "text",
-          "head": "An email from Kenji",
-          "html": "Dear Grandpa,<br>Thank you for the football boots! I have worn them every day (1) ________ my birthday. On Saturday, our team (2) ________ playing in the final. Mum says she is (3) ________ to bring a picnic for everyone. Please come and watch!<br>Love,<br>Kenji"
+          "head": "An email from Sam",
+          "html": "<b>Word box:</b> am, gave, had, have, is, wasn't (example)<br><br>Hi Remy,<br>Sorry I (0) <b>wasn't</b> at school today. I (1) ________ a bad cough and a fever last night, so Mum took me to the doctor this morning. The doctor (2) ________ me some medicine and told me to drink lots of water. I'm feeling better now. At the moment I (3) ________ lying on the sofa with a blanket and a book! See you on Monday.<br>Sam"
          }
         }
        ]
@@ -1270,115 +1295,110 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.04",
-        "6Ug.08"
+        "5Ug.03",
+        "5Ug.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Did the seeds do the planting? March is in the past."
+          "step": "'Every morning' shows a routine. Look at 'feeds' after the gap too."
          },
-         "worked": "People planted the seeds in March, so the past passive: 'were planted'.",
+         "worked": "A routine with she: 'Grandma gets up at five o'clock'.",
          "type": "tfill",
-         "q": "Read the email. Write ONE word for gap 2.",
+         "q": "Read the letter. Write ONE word from the box for gap 2.",
          "lines": [
-          "The seeds {0} planted in March, and now the plants are taller than me!"
+          "Every morning, Grandma {0} up at five o'clock and feeds her chickens."
          ],
          "ans": [
           [
-           "were"
+           "gets"
           ]
          ],
          "fig": {
           "k": "stim",
-          "id": "s2-email-a",
+          "id": "s2-letter-a",
           "kind": "text",
-          "head": "An email from Priya",
-          "html": "Hi Anna,<br>How are you? I (1) ________ just come back from the science fair at school. Our project was about sunflowers. The seeds (2) ________ planted in March, and now the plants are taller than me! I have looked after them (3) ________ three months. Next week, our class is visiting a big flower farm. I can't wait!<br>Love,<br>Priya"
+          "head": "A letter from Mai",
+          "html": "<b>Word box:</b> are, did, gets, is, was, were (example)<br><br>Dear Chloe,<br>I'm writing from my grandma's village. It is very quiet here. Grandma says that when she was young, there (0) <b>were</b> no cars in the village. People walked or rode bikes. There (1) ________ only one road and it was very narrow. Now there is a new school and a small clinic. Every morning, Grandma (2) ________ up at five o'clock and feeds her chickens. Tomorrow we (3) ________ picking oranges in her garden. I can't wait!<br>Love,<br>Mai"
          }
         },
         {
          "hint": {
-          "step": "'playing' needs a helper verb before it."
+          "step": "Look at 'told' later in the sentence. Is this now or in the past?"
          },
-         "worked": "An arrangement: 'our team is playing' (in British English 'are playing' is also correct).",
+         "worked": "'told' is past, so the other verb is past too: the past of give is 'gave'.",
          "type": "tfill",
-         "q": "Read the email. Write ONE word for gap 2.",
+         "q": "Read the email. Write ONE word from the box for gap 2.",
          "lines": [
-          "On Saturday, our team {0} playing in the final."
+          "The doctor {0} me some medicine and told me to drink lots of water."
          ],
          "ans": [
           [
-           "is",
+           "gave"
+          ]
+         ],
+         "fig": {
+          "k": "stim",
+          "id": "s2-letter-b",
+          "kind": "text",
+          "head": "An email from Sam",
+          "html": "<b>Word box:</b> am, gave, had, have, is, wasn't (example)<br><br>Hi Remy,<br>Sorry I (0) <b>wasn't</b> at school today. I (1) ________ a bad cough and a fever last night, so Mum took me to the doctor this morning. The doctor (2) ________ me some medicine and told me to drink lots of water. I'm feeling better now. At the moment I (3) ________ lying on the sofa with a blanket and a book! See you on Monday.<br>Sam"
+         }
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Ug.05"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "'picking' ends in -ing and 'Tomorrow' is a plan. Which helper goes with we?"
+         },
+         "worked": "A plan with we: 'we are picking oranges'.",
+         "type": "tfill",
+         "q": "Read the letter. Write ONE word from the box for gap 3.",
+         "lines": [
+          "Tomorrow we {0} picking oranges in her garden."
+         ],
+         "ans": [
+          [
            "are",
-           "'s",
            "'re"
           ]
          ],
          "fig": {
           "k": "stim",
-          "id": "s2-email-b",
+          "id": "s2-letter-a",
           "kind": "text",
-          "head": "An email from Kenji",
-          "html": "Dear Grandpa,<br>Thank you for the football boots! I have worn them every day (1) ________ my birthday. On Saturday, our team (2) ________ playing in the final. Mum says she is (3) ________ to bring a picnic for everyone. Please come and watch!<br>Love,<br>Kenji"
-         }
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Ug.07",
-        "6Ug.08"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Is 'three months' a starting point or a length of time?"
-         },
-         "worked": "'three months' is a length of time, so: 'for three months'.",
-         "type": "tfill",
-         "q": "Read the email. Write ONE word for gap 3.",
-         "lines": [
-          "I have looked after them {0} three months."
-         ],
-         "ans": [
-          [
-           "for"
-          ]
-         ],
-         "fig": {
-          "k": "stim",
-          "id": "s2-email-a",
-          "kind": "text",
-          "head": "An email from Priya",
-          "html": "Hi Anna,<br>How are you? I (1) ________ just come back from the science fair at school. Our project was about sunflowers. The seeds (2) ________ planted in March, and now the plants are taller than me! I have looked after them (3) ________ three months. Next week, our class is visiting a big flower farm. I can't wait!<br>Love,<br>Priya"
+          "head": "A letter from Mai",
+          "html": "<b>Word box:</b> are, did, gets, is, was, were (example)<br><br>Dear Chloe,<br>I'm writing from my grandma's village. It is very quiet here. Grandma says that when she was young, there (0) <b>were</b> no cars in the village. People walked or rode bikes. There (1) ________ only one road and it was very narrow. Now there is a new school and a small clinic. Every morning, Grandma (2) ________ up at five o'clock and feeds her chickens. Tomorrow we (3) ________ picking oranges in her garden. I can't wait!<br>Love,<br>Mai"
          }
         },
         {
          "hint": {
-          "step": "Look at 'is ... to bring'. Which word makes a plan?"
+          "step": "'At the moment' and 'lying' are clues. Which helper goes with I?"
          },
-         "worked": "A plan: 'she is going to bring a picnic'.",
+         "worked": "Now, with I: 'I am lying on the sofa'.",
          "type": "tfill",
-         "q": "Read the email. Write ONE word for gap 3.",
+         "q": "Read the email. Write ONE word from the box for gap 3.",
          "lines": [
-          "Mum says she is {0} to bring a picnic for everyone."
+          "At the moment I {0} lying on the sofa with a blanket and a book!"
          ],
          "ans": [
           [
-           "going",
-           "planning",
-           "hoping",
-           "happy"
+           "am",
+           "'m"
           ]
          ],
          "fig": {
           "k": "stim",
-          "id": "s2-email-b",
+          "id": "s2-letter-b",
           "kind": "text",
-          "head": "An email from Kenji",
-          "html": "Dear Grandpa,<br>Thank you for the football boots! I have worn them every day (1) ________ my birthday. On Saturday, our team (2) ________ playing in the final. Mum says she is (3) ________ to bring a picnic for everyone. Please come and watch!<br>Love,<br>Kenji"
+          "head": "An email from Sam",
+          "html": "<b>Word box:</b> am, gave, had, have, is, wasn't (example)<br><br>Hi Remy,<br>Sorry I (0) <b>wasn't</b> at school today. I (1) ________ a bad cough and a fever last night, so Mum took me to the doctor this morning. The doctor (2) ________ me some medicine and told me to drink lots of water. I'm feeling better now. At the moment I (3) ________ lying on the sofa with a blanket and a book! See you on Monday.<br>Sam"
          }
         }
        ]
@@ -1391,78 +1411,78 @@
  "notes": {
   "items": [
    {
-    "en": "Use *is/are* + past participle for the *present passive*: what happens to things now or always.",
-    "vi": "Dùng *is/are* + quá khứ phân từ cho *bị động hiện tại*: điều xảy ra với sự vật bây giờ hoặc luôn luôn.",
+    "en": "Use the *present simple* for routines, habits and things that are always true. With he, she and it, add *-s* or *-es*.",
+    "vi": "Dùng *thì hiện tại đơn* cho thói quen, việc làm thường ngày và những điều luôn đúng. Với he, she, it thì thêm *-s* hoặc *-es*.",
     "example": [
-     "Rice *is grown* in the Mekong Delta.",
-     "These toys *are made* of wood."
+     "I *walk* to school every day.",
+     "My sister *watches* cartoons on Saturdays."
     ]
    },
    {
-    "en": "Use *was/were* + past participle for the *past passive*. Add *by* to say who did it.",
-    "vi": "Dùng *was/were* + quá khứ phân từ cho *bị động quá khứ*. Thêm *by* để nói ai đã làm.",
+    "en": "Present simple negatives and questions: *don't / doesn't* + the base verb; *Do / Does* + the base verb.",
+    "vi": "Câu phủ định và câu hỏi ở hiện tại đơn: *don't / doesn't* + động từ nguyên mẫu; *Do / Does* + động từ nguyên mẫu.",
     "example": [
-     "This bridge *was built* in 1990.",
-     "The photos *were taken by* my uncle."
+     "Omar *doesn't like* onions.",
+     "*Does* your mum *work* at the hospital?"
     ]
    },
    {
-    "en": "Use the *past simple* for finished times (yesterday, last week, ago). Negatives: *didn't* + base verb.",
-    "vi": "Dùng *quá khứ đơn* cho thời gian đã kết thúc (yesterday, last week, ago). Phủ định: *didn't* + động từ nguyên mẫu.",
+    "en": "Use the *past simple* for finished times (yesterday, last week, ago). Regular verbs add *-ed*; irregular verbs change.",
+    "vi": "Dùng *thì quá khứ đơn* cho thời gian đã kết thúc (yesterday, last week, ago). Động từ có quy tắc thêm *-ed*; động từ bất quy tắc thì thay đổi.",
     "example": [
      "We *visited* the zoo last Sunday.",
-     "I *didn't see* the lions."
+     "I *went* to bed early because I *had* a headache."
     ]
    },
    {
-    "en": "Use the *present perfect* (have/has + past participle) for things that started in the past and are still true. *for* + a length of time, *since* + a starting point.",
-    "vi": "Dùng *hiện tại hoàn thành* (have/has + quá khứ phân từ) cho việc bắt đầu trong quá khứ và vẫn còn đúng. *for* + khoảng thời gian, *since* + mốc bắt đầu.",
+    "en": "*was* for I, he, she, it; *were* for you, we, they. Use *there was* for one thing and *there were* for many things.",
+    "vi": "*was* đi với I, he, she, it; *were* đi với you, we, they. Dùng *there was* cho một vật và *there were* cho nhiều vật.",
     "example": [
-     "I *have lived* here *since* 2020.",
-     "She *has played* the piano *for* three years."
+     "*There was* a big tree in the garden.",
+     "*There were* twenty children at the party."
     ]
    },
    {
-    "en": "*just* and *already* go between have and the verb. *yet* goes at the end of questions and negatives. *ever* is for questions; *never* means not at any time.",
-    "vi": "*just* và *already* đứng giữa have và động từ. *yet* đứng cuối câu hỏi và câu phủ định. *ever* dùng trong câu hỏi; *never* nghĩa là chưa bao giờ.",
+    "en": "Past simple negatives and questions: *didn't* + the base verb; *Did* + the base verb.",
+    "vi": "Câu phủ định và câu hỏi ở quá khứ đơn: *didn't* + động từ nguyên mẫu; *Did* + động từ nguyên mẫu.",
     "example": [
-     "I've *just* had lunch.",
-     "Have you finished *yet*? I've *never* been to Hue."
+     "I *didn't see* the fireworks.",
+     "*Did* you *eat* the cake?"
     ]
    },
    {
-    "en": "Future: *will* for predictions and quick decisions, *going to* for plans, the *present continuous* for arrangements, the *present simple* for timetables.",
-    "vi": "Tương lai: *will* cho dự đoán và quyết định tức thì, *going to* cho kế hoạch, *hiện tại tiếp diễn* cho lịch hẹn, *hiện tại đơn* cho lịch trình.",
+    "en": "Use the *present continuous* (am / is / are + -ing) for now AND for future plans with a time word.",
+    "vi": "Dùng *thì hiện tại tiếp diễn* (am / is / are + -ing) cho việc đang xảy ra bây giờ VÀ cho kế hoạch tương lai có từ chỉ thời gian.",
     "example": [
-     "I think it *will* be sunny. We*'re going to* have a picnic.",
-     "We*'re visiting* Gran on Sunday. The train *leaves* at 9."
+     "Look! It *is raining* now.",
+     "We *are visiting* Grandma on Sunday."
     ]
    }
   ],
   "check": [
    {
-    "sentence": "Coffee {is grown|grow|are grown} by farmers in these hills.",
-    "answer": "is grown"
+    "sentence": "My brother {plays|play|playing} chess every evening.",
+    "answer": "plays"
    },
    {
-    "sentence": "This castle {was built|built|is built} more than 500 years ago.",
-    "answer": "was built"
+    "sentence": "{Does|Do|Is} your dad cook dinner every day?",
+    "answer": "Does"
    },
    {
-    "sentence": "I {didn't go|don't went|didn't went} to the party last night.",
-    "answer": "didn't go"
+    "sentence": "Last summer we {went|go|goes} to the beach.",
+    "answer": "went"
    },
    {
-    "sentence": "We have been friends {since|for|ago} Grade 2.",
-    "answer": "since"
+    "sentence": "There {were|was|is} lots of people at the market yesterday.",
+    "answer": "were"
    },
    {
-    "sentence": "I haven't done my homework {yet|already|just}.",
-    "answer": "yet"
+    "sentence": "I {didn't eat|don't eat|doesn't eat} breakfast this morning because I was late.",
+    "answer": "didn't eat"
    },
    {
-    "sentence": "The timetable says the bus {leaves|is leave|left} at 7:40 tomorrow.",
-    "answer": "leaves"
+    "sentence": "We {are having|had|have} a barbecue next Saturday.",
+    "answer": "are having"
    }
   ]
  },
@@ -1471,95 +1491,46 @@
    {
     "dok": 1,
     "lo": [
-     "6Ug.04"
+     "5Ug.03"
     ],
     "v": [
      {
       "hint": {
-       "step": "Look at 'Last month'. Is the time finished?"
+       "step": "'Every year' is a clue. Who is the subject?"
       },
-      "worked": "'Last month' is a finished time, so the past simple: 'went on'.",
+      "worked": "'Every year' shows a habit, and Bao is he: 'helps'.",
       "type": "mcq",
-      "q": "Last month, our class .......... a trip to a tea farm in the hills.",
+      "q": "Every year before Tet, Bao ________ his grandpa make sticky rice cakes in the kitchen.",
       "opts": [
-       "went on",
-       "goes on",
-       "has gone on"
+       "helps",
+       "help",
+       "helping"
       ],
       "at": 2,
       "whys": [
        null,
-       "'Last month' is in the past, so the present simple is wrong.",
-       "'Last month' is a finished time, so don't use the present perfect."
+       "'Bao' is one person (he), so the verb needs -s.",
+       "'helping' needs is before it, and 'Every year' is a habit."
       ],
       "letters": true
      },
      {
       "hint": {
-       "step": "Look at 'when he was forty'. Is the time finished?"
+       "step": "'every Sunday' is a clue. Who is the subject?"
       },
-      "worked": "'when he was forty' is a finished time, so the past simple: 'bought'.",
+      "worked": "'every Sunday' shows a habit, and with she: 'helps'.",
       "type": "mcq",
-      "q": "My grandpa .......... his first mobile phone when he was forty.",
+      "q": "Lena loves animals, and she ________ at an animal shelter near her flat every Sunday.",
       "opts": [
-       "bought",
-       "buys",
-       "has bought"
-      ],
-      "at": 1,
-      "whys": [
-       null,
-       "'when he was forty' is in the past, so the present simple is wrong.",
-       "'when he was forty' is a finished time, so don't use the present perfect."
-      ],
-      "letters": true
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Ug.03",
-     "6Ug.04"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Who does the picking? Is 'leaves' one or more than one?"
-      },
-      "worked": "People pick the leaves every morning, so: 'are picked' (plural).",
-      "type": "mcq",
-      "q": "We learned that the tea leaves .......... by hand early every morning.",
-      "opts": [
-       "are picked",
-       "pick",
-       "is picked"
-      ],
-      "at": 1,
-      "whys": [
-       null,
-       "Leaves can't pick anything. 'by hand' tells you people pick them.",
-       "'leaves' is plural, so use 'are'."
-      ],
-      "letters": true
-     },
-     {
-      "hint": {
-       "step": "'In those days' means a long time ago. Who did the using?"
-      },
-      "worked": "People used phones in the past, so: 'were used'.",
-      "type": "mcq",
-      "q": "In those days, phones .......... only for calls and short messages.",
-      "opts": [
-       "were used",
-       "were using",
-       "are used"
+       "helps",
+       "help",
+       "helping"
       ],
       "at": 0,
       "whys": [
        null,
-       "This says the phones were using something. People used the phones, so use the passive.",
-       "'In those days' means in the past, so use 'were'."
+       "With she, the present simple verb needs -s.",
+       "'helping' needs is before it, and 'every Sunday' is a habit."
       ],
       "letters": true
      }
@@ -1568,143 +1539,190 @@
    {
     "dok": 1,
     "lo": [
-     "6Ug.03",
-     "6Ug.04"
+     "5Ug.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "Look at 'by' and 'ago'. They help you choose."
+       "step": "Find the time words at the start of the sentence."
       },
-      "worked": "The grandfather started the farm long ago: 'was started by'.",
+      "worked": "'Last year' is in the past, so add -ed: 'washed'.",
       "type": "mcq",
-      "q": "The farm .......... by the farmer's grandfather about eighty years ago.",
+      "q": "Last year, Bao ________ all the banana leaves very carefully in a big bowl of water.",
       "opts": [
-       "was started",
-       "started",
-       "is started"
+       "washed",
+       "washes",
+       "washing"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
-       "'by the farmer's grandfather' tells you the farm didn't do the action. Use the passive.",
-       "'eighty years ago' is in the past, so use 'was'."
+       "'washes' is the present, but 'Last year' is finished.",
+       "'washing' needs was or is before it."
       ],
       "letters": true
      },
      {
       "hint": {
-       "step": "'Today' tells you it is the present. Is 'phones' one or more?"
+       "step": "Find the time words at the start of the sentence."
       },
-      "worked": "People make phones today, and 'phones' is plural: 'are made'.",
+      "worked": "'Last Sunday' is in the past, and the past of bring is 'brought'.",
       "type": "mcq",
-      "q": "Today, most phones .......... in big factories in many countries.",
+      "q": "Last Sunday, a kind man ________ a little brown puppy to the shelter in a box.",
       "opts": [
-       "are made",
+       "brought",
+       "brings",
+       "bringing"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "'brings' is the present, but 'Last Sunday' is finished.",
+       "'bringing' needs was or is before it."
+      ],
+      "letters": true
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "5Ug.04"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Two clues: one thing or many? Now or in the past?"
+      },
+      "worked": "'twenty cakes' is many and 'That night' is past: 'there were'.",
+      "type": "mcq",
+      "q": "That night, there ________ twenty cakes in the huge pot on Grandpa's fire.",
+      "opts": [
+       "were",
+       "was",
+       "are"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "'was' goes with one thing, but 'twenty cakes' is many.",
+       "'are' is for now, but 'That night' is in the past."
+      ],
+      "letters": true
+     },
+     {
+      "hint": {
+       "step": "Is 'some small cuts' one thing or many? Look at 'was' at the start too."
+      },
+      "worked": "'some small cuts' is many and the story is in the past: 'there were'.",
+      "type": "mcq",
+      "q": "The puppy was very hungry, and there ________ some small cuts on its legs.",
+      "opts": [
+       "were",
+       "was",
+       "are"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "'was' goes with one thing, but 'some small cuts' is many.",
+       "'are' is for now, but 'was very hungry' tells you it is the past."
+      ],
+      "letters": true
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "5Ug.04"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Look at the verb 'wanted' later in the sentence. Is this now or in the past?"
+      },
+      "worked": "'he wanted' is past, so the negative is 'didn't' + go.",
+      "type": "mcq",
+      "q": "Bao ________ to bed until midnight because he wanted to see the cakes come out of the pot.",
+      "opts": [
+       "didn't go",
+       "doesn't go",
+       "isn't going"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "'doesn't go' is for a habit now, but 'wanted' tells you it is the past.",
+       "'isn't going' is for now or a plan, but 'wanted' tells you it is the past."
+      ],
+      "letters": true
+     },
+     {
+      "hint": {
+       "step": "Look at 'called' later in the sentence. Is this now or in the past?"
+      },
+      "worked": "'she called it' is past, so the negative is 'didn't' + know.",
+      "type": "mcq",
+      "q": "Lena ________ the puppy's name, so she called it Biscuit.",
+      "opts": [
+       "didn't know",
+       "doesn't know",
+       "don't know"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "'doesn't know' is the present, but 'called' tells you it is the past.",
+       "'don't know' is the present and does not go with she."
+      ],
+      "letters": true
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "5Ug.05"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Look at the word before the gap and at 'next Saturday'."
+      },
+      "worked": "A plan for next Saturday: is + making.",
+      "type": "mcq",
+      "q": "This year, Bao is ________ the cakes with his cousins next Saturday afternoon.",
+      "opts": [
+       "making",
        "make",
-       "were made"
-      ],
-      "at": 2,
-      "whys": [
-       null,
-       "Phones don't make anything here. People make them, so use the passive.",
-       "'Today' tells you it is the present, so use 'are', not 'were'."
-      ],
-      "letters": true
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Ug.07"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Find the word 'Since'. Which verb form goes with it?"
-      },
-      "worked": "'Since the trip' = from then until now: 'have drunk'.",
-      "type": "mcq",
-      "q": "Since the trip, I .......... green tea every day with my mum.",
-      "opts": [
-       "have drunk",
-       "was drinking",
-       "am drinking"
+       "made"
       ],
       "at": 1,
       "whys": [
        null,
-       "'was drinking' is the past continuous. With 'Since the trip' we need the present perfect.",
-       "'am drinking' is the present continuous. With 'Since the trip' we need the present perfect."
+       "After 'is', the verb needs -ing.",
+       "'made' is the past, but 'next Saturday' is in the future."
       ],
       "letters": true
      },
      {
       "hint": {
-       "step": "'for two weeks now' tells you it started in the past and is still true."
+       "step": "Look at the word before the gap and at 'next Sunday'."
       },
-      "worked": "Still true now, with 'for': 'has had'.",
+      "worked": "A plan for next Sunday: is + visiting.",
       "type": "mcq",
-      "q": "Grandpa .......... his new smartphone for two weeks now, and he loves it.",
+      "q": "Lena is ________ the puppy again next Sunday, and she wants to take it a toy.",
       "opts": [
-       "has had",
-       "had",
-       "is having"
-      ],
-      "at": 0,
-      "whys": [
-       null,
-       "'for two weeks now' means it is still true, so use the present perfect.",
-       "'is having' is the present continuous. With 'for two weeks now' we need has + had."
-      ],
-      "letters": true
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Ug.08"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "'Next term' tells you it is a plan for the future. Then check the subject: we are, it is."
-      },
-      "worked": "'Next term' is the future, and it is a plan: 'are going to open'.",
-      "type": "mcq",
-      "q": "Next term, we .......... a tea shop in our classroom to raise money.",
-      "opts": [
-       "are going to open",
-       "is going to open",
-       "have opened"
-      ],
-      "at": 0,
-      "whys": [
-       null,
-       "The subject is 'we', so use 'are', not 'is'.",
-       "'have opened' says it has already happened, but 'Next term' is in the future."
-      ],
-      "letters": true
-     },
-     {
-      "hint": {
-       "step": "'Tomorrow' tells you it is a plan for the future. Then check the subject: I am, he is."
-      },
-      "worked": "'Tomorrow' is the future, and it is a plan: 'am going to show'.",
-      "type": "mcq",
-      "q": "Tomorrow, I .......... him how to send photos to the family.",
-      "opts": [
-       "am going to show",
-       "is going to show",
-       "have shown"
+       "visiting",
+       "visit",
+       "visited"
       ],
       "at": 2,
       "whys": [
        null,
-       "The subject is 'I', so use 'am', not 'is'.",
-       "'have shown' says it has already happened, but 'Tomorrow' is in the future."
+       "After 'is', the verb needs -ing.",
+       "'visited' is the past, but 'next Sunday' is in the future."
       ],
       "letters": true
      }
@@ -1713,24 +1731,22 @@
    {
     "dok": 2,
     "lo": [
-     "6Ug.04",
-     "6Ug.07"
+     "5Ug.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "'just got' is a clue. Which helper verb makes the present perfect?"
+       "step": "The party was last Saturday. Is the noun right after the gap one thing or many?"
       },
-      "worked": "'just' + 'got' is the present perfect: 'We have just got a tortoise'.",
+      "worked": "The party is finished and 'so many balloons' is plural: 'there were'.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 6.",
+      "q": "Read the email. Write ONE word from the box for gap 6.",
       "lines": [
-       "Guess what? We {0} just got a tortoise!"
+       "At the party, there {0} so many balloons and a huge cake!"
       ],
       "ans": [
        [
-        "have",
-        "'ve"
+        "were"
        ]
       ],
       "fig": {
@@ -1738,72 +1754,18 @@
        "id": "s2-test-email-1",
        "kind": "text",
        "head": "An email from Omar",
-       "html": "Hi Lucas,<br>Guess what? We (6) ________ just got a tortoise! His name is Slowly. He (7) ________ born in a pet centre two years ago. Tortoises (8) ________ found in many hot countries, and they can live for a very long time. I have wanted a pet (9) ________ I was five years old, so I'm very happy! Next Saturday, my cousins are (10) ________ to come and meet him. Would you like to come too?<br>Best wishes,<br>Omar"
+       "html": "<b>Word box:</b> am, are, Did (example), Does, is, was, wasn't, were<br><br>Hi Isla,<br>Thanks for coming to my birthday party last Saturday. (0) <b>Did</b> you enjoy the magic show? At the party, there (6) ________ so many balloons and a huge cake! My uncle lives in London, so he (7) ________ at the party. But we had a video call with him! It was ten o'clock in the morning in London, but in Hanoi it (8) ________ five o'clock in the afternoon. Guess what? Uncle (9) ________ flying to Hanoi next month! (10) ________ your family have a video call when someone has a birthday?<br>Your friend,<br>Omar"
       }
      },
      {
       "hint": {
-       "step": "Did the sports day hold something? 'last Friday' is in the past."
+       "step": "Ravi read the book last week. Is the noun right after the gap one thing or many?"
       },
-      "worked": "The school held the sports day, so the past passive: 'was held'.",
+      "worked": "The story is told in the past and 'hundreds of houses' is plural: 'there were'.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 6.",
+      "q": "Read the email. Write ONE word from the box for gap 6.",
       "lines": [
-       "Our school sports day {0} held last Friday."
-      ],
-      "ans": [
-       [
-        "was"
-       ]
-      ],
-      "fig": {
-       "k": "stim",
-       "id": "s2-test-email-2",
-       "kind": "text",
-       "head": "An email from Mai",
-       "html": "Dear Aunt Thu,<br>I hope you are well. Our school sports day (6) ________ held last Friday. It was sunny and everyone had fun. Lots of photos (7) ________ taken by parents during the races. The long jump was won (8) ________ my best friend, An. Our class has trained hard (9) ________ weeks, so we were very happy to win three medals! Next month, we (10) ________ going to play in a basketball competition. Can you come and watch?<br>Love,<br>Mai"
-      }
-     }
-    ]
-   },
-   {
-    "dok": 2,
-    "lo": [
-     "6Ug.04"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "'two years ago' is in the past. 'born' needs a helper verb before it."
-      },
-      "worked": "We say 'was born' for one person or animal in the past.",
-      "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 7.",
-      "lines": [
-       "He {0} born in a pet centre two years ago."
-      ],
-      "ans": [
-       [
-        "was"
-       ]
-      ],
-      "fig": {
-       "k": "stim",
-       "id": "s2-test-email-1",
-       "kind": "text",
-       "head": "An email from Omar",
-       "html": "Hi Lucas,<br>Guess what? We (6) ________ just got a tortoise! His name is Slowly. He (7) ________ born in a pet centre two years ago. Tortoises (8) ________ found in many hot countries, and they can live for a very long time. I have wanted a pet (9) ________ I was five years old, so I'm very happy! Next Saturday, my cousins are (10) ________ to come and meet him. Would you like to come too?<br>Best wishes,<br>Omar"
-      }
-     },
-     {
-      "hint": {
-       "step": "'by parents' tells you it is passive. Is 'photos' one or more?"
-      },
-      "worked": "The parents took the photos: 'were taken' (plural, past).",
-      "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 7.",
-      "lines": [
-       "Lots of photos {0} taken by parents during the races."
+       "In the story, there {0} hundreds of old stone houses and a golden gate."
       ],
       "ans": [
        [
@@ -1814,8 +1776,8 @@
        "k": "stim",
        "id": "s2-test-email-2",
        "kind": "text",
-       "head": "An email from Mai",
-       "html": "Dear Aunt Thu,<br>I hope you are well. Our school sports day (6) ________ held last Friday. It was sunny and everyone had fun. Lots of photos (7) ________ taken by parents during the races. The long jump was won (8) ________ my best friend, An. Our class has trained hard (9) ________ weeks, so we were very happy to win three medals! Next month, we (10) ________ going to play in a basketball competition. Can you come and watch?<br>Love,<br>Mai"
+       "head": "An email from Ravi",
+       "html": "<b>Word box:</b> Do, does, doesn't, found, is, read (example), was, were<br><br>Dear Bao,<br>Last week I (0) <b>read</b> a great book about a lost city in the jungle. In the story, there (6) ________ hundreds of old stone houses and a golden gate. A young explorer (7) ________ the city with an old map, but she didn't tell anyone about it. I love adventure stories, but my sister (8) ________ like them. She says they are too scary! Right now she (9) ________ reading a book about horses. (10) ________ you want to borrow my book? I can bring it to school on Monday.<br>Best wishes,<br>Ravi"
       }
      }
     ]
@@ -1823,23 +1785,23 @@
    {
     "dok": 2,
     "lo": [
-     "6Ug.03",
-     "6Ug.04"
+     "5Ug.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "This is a fact that is true now. Is 'tortoises' one or more?"
+       "step": "He lives far away. Could he be at the party? Is the party now or in the past?"
       },
-      "worked": "A fact about now, plural subject: 'Tortoises are found'.",
+      "worked": "He lives in London, so he was not there, and the party is past: 'he wasn't at the party'.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 8.",
+      "q": "Read the email. Write ONE word from the box for gap 7.",
       "lines": [
-       "Tortoises {0} found in many hot countries, and they can live for a very long time."
+       "My uncle lives in London, so he {0} at the party."
       ],
       "ans": [
        [
-        "are"
+        "wasn't",
+        "was not"
        ]
       ],
       "fig": {
@@ -1847,30 +1809,31 @@
        "id": "s2-test-email-1",
        "kind": "text",
        "head": "An email from Omar",
-       "html": "Hi Lucas,<br>Guess what? We (6) ________ just got a tortoise! His name is Slowly. He (7) ________ born in a pet centre two years ago. Tortoises (8) ________ found in many hot countries, and they can live for a very long time. I have wanted a pet (9) ________ I was five years old, so I'm very happy! Next Saturday, my cousins are (10) ________ to come and meet him. Would you like to come too?<br>Best wishes,<br>Omar"
+       "html": "<b>Word box:</b> am, are, Did (example), Does, is, was, wasn't, were<br><br>Hi Isla,<br>Thanks for coming to my birthday party last Saturday. (0) <b>Did</b> you enjoy the magic show? At the party, there (6) ________ so many balloons and a huge cake! My uncle lives in London, so he (7) ________ at the party. But we had a video call with him! It was ten o'clock in the morning in London, but in Hanoi it (8) ________ five o'clock in the afternoon. Guess what? Uncle (9) ________ flying to Hanoi next month! (10) ________ your family have a video call when someone has a birthday?<br>Your friend,<br>Omar"
       }
      },
      {
       "hint": {
-       "step": "In a passive sentence, which word tells us who did the action?"
+       "step": "Look at 'didn't tell' in the same sentence. Is the story now or in the past?"
       },
-      "worked": "Passive + the person who did it: 'was won by my best friend'.",
+      "worked": "'didn't tell' is past, so this verb is past too: 'found the city with an old map'.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 8.",
+      "q": "Read the email. Write ONE word from the box for gap 7.",
       "lines": [
-       "The long jump was won {0} my best friend, An."
+       "A young explorer {0} the city with an old map, but she didn't tell anyone about it."
       ],
       "ans": [
        [
-        "by"
+        "found",
+        "discovered"
        ]
       ],
       "fig": {
        "k": "stim",
        "id": "s2-test-email-2",
        "kind": "text",
-       "head": "An email from Mai",
-       "html": "Dear Aunt Thu,<br>I hope you are well. Our school sports day (6) ________ held last Friday. It was sunny and everyone had fun. Lots of photos (7) ________ taken by parents during the races. The long jump was won (8) ________ my best friend, An. Our class has trained hard (9) ________ weeks, so we were very happy to win three medals! Next month, we (10) ________ going to play in a basketball competition. Can you come and watch?<br>Love,<br>Mai"
+       "head": "An email from Ravi",
+       "html": "<b>Word box:</b> Do, does, doesn't, found, is, read (example), was, were<br><br>Dear Bao,<br>Last week I (0) <b>read</b> a great book about a lost city in the jungle. In the story, there (6) ________ hundreds of old stone houses and a golden gate. A young explorer (7) ________ the city with an old map, but she didn't tell anyone about it. I love adventure stories, but my sister (8) ________ like them. She says they are too scary! Right now she (9) ________ reading a book about horses. (10) ________ you want to borrow my book? I can bring it to school on Monday.<br>Best wishes,<br>Ravi"
       }
      }
     ]
@@ -1878,22 +1841,22 @@
    {
     "dok": 2,
     "lo": [
-     "6Ug.07"
+     "5Ug.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "Is 'I was five years old' a starting point or a length of time?"
+       "step": "The video call happened at the party. Look at the verb in the first half of the sentence."
       },
-      "worked": "'I was five' is a starting point, so: 'since I was five years old'.",
+      "worked": "The call is finished, like 'It was ten o'clock in London', so: 'in Hanoi it was five o'clock'.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 9.",
+      "q": "Read the email. Write ONE word from the box for gap 8.",
       "lines": [
-       "I have wanted a pet {0} I was five years old, so I'm very happy!"
+       "It was ten o'clock in the morning in London, but in Hanoi it {0} five o'clock in the afternoon."
       ],
       "ans": [
        [
-        "since"
+        "was"
        ]
       ],
       "fig": {
@@ -1901,30 +1864,31 @@
        "id": "s2-test-email-1",
        "kind": "text",
        "head": "An email from Omar",
-       "html": "Hi Lucas,<br>Guess what? We (6) ________ just got a tortoise! His name is Slowly. He (7) ________ born in a pet centre two years ago. Tortoises (8) ________ found in many hot countries, and they can live for a very long time. I have wanted a pet (9) ________ I was five years old, so I'm very happy! Next Saturday, my cousins are (10) ________ to come and meet him. Would you like to come too?<br>Best wishes,<br>Omar"
+       "html": "<b>Word box:</b> am, are, Did (example), Does, is, was, wasn't, were<br><br>Hi Isla,<br>Thanks for coming to my birthday party last Saturday. (0) <b>Did</b> you enjoy the magic show? At the party, there (6) ________ so many balloons and a huge cake! My uncle lives in London, so he (7) ________ at the party. But we had a video call with him! It was ten o'clock in the morning in London, but in Hanoi it (8) ________ five o'clock in the afternoon. Guess what? Uncle (9) ________ flying to Hanoi next month! (10) ________ your family have a video call when someone has a birthday?<br>Your friend,<br>Omar"
       }
      },
      {
       "hint": {
-       "step": "Is 'weeks' a starting point or a length of time?"
+       "step": "'but' shows the sister is different from Ravi. Look at 'She says' next: now or past?"
       },
-      "worked": "'weeks' is a length of time, so: 'for weeks'.",
+      "worked": "Ravi loves them, but his sister does not, and it is true now: 'my sister doesn't like them'.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 9.",
+      "q": "Read the email. Write ONE word from the box for gap 8.",
       "lines": [
-       "Our class has trained hard {0} weeks, so we were very happy to win three medals!"
+       "I love adventure stories, but my sister {0} like them."
       ],
       "ans": [
        [
-        "for"
+        "doesn't",
+        "does not"
        ]
       ],
       "fig": {
        "k": "stim",
        "id": "s2-test-email-2",
        "kind": "text",
-       "head": "An email from Mai",
-       "html": "Dear Aunt Thu,<br>I hope you are well. Our school sports day (6) ________ held last Friday. It was sunny and everyone had fun. Lots of photos (7) ________ taken by parents during the races. The long jump was won (8) ________ my best friend, An. Our class has trained hard (9) ________ weeks, so we were very happy to win three medals! Next month, we (10) ________ going to play in a basketball competition. Can you come and watch?<br>Love,<br>Mai"
+       "head": "An email from Ravi",
+       "html": "<b>Word box:</b> Do, does, doesn't, found, is, read (example), was, were<br><br>Dear Bao,<br>Last week I (0) <b>read</b> a great book about a lost city in the jungle. In the story, there (6) ________ hundreds of old stone houses and a golden gate. A young explorer (7) ________ the city with an old map, but she didn't tell anyone about it. I love adventure stories, but my sister (8) ________ like them. She says they are too scary! Right now she (9) ________ reading a book about horses. (10) ________ you want to borrow my book? I can bring it to school on Monday.<br>Best wishes,<br>Ravi"
       }
      }
     ]
@@ -1932,25 +1896,23 @@
    {
     "dok": 2,
     "lo": [
-     "6Ug.08"
+     "5Ug.05"
     ],
     "v": [
      {
       "hint": {
-       "step": "Look at 'are ... to come'. Which word makes a plan?"
+       "step": "'flying' ends in -ing and 'next month' is in the future. Which helper goes with he?"
       },
-      "worked": "A plan: 'my cousins are going to come'.",
+      "worked": "A plan for next month: 'Uncle is flying to Hanoi'.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 10.",
+      "q": "Read the email. Write ONE word from the box for gap 9.",
       "lines": [
-       "Next Saturday, my cousins are {0} to come and meet him."
+       "Guess what? Uncle {0} flying to Hanoi next month!"
       ],
       "ans": [
        [
-        "going",
-        "planning",
-        "hoping",
-        "happy"
+        "is",
+        "'s"
        ]
       ],
       "fig": {
@@ -1958,31 +1920,85 @@
        "id": "s2-test-email-1",
        "kind": "text",
        "head": "An email from Omar",
-       "html": "Hi Lucas,<br>Guess what? We (6) ________ just got a tortoise! His name is Slowly. He (7) ________ born in a pet centre two years ago. Tortoises (8) ________ found in many hot countries, and they can live for a very long time. I have wanted a pet (9) ________ I was five years old, so I'm very happy! Next Saturday, my cousins are (10) ________ to come and meet him. Would you like to come too?<br>Best wishes,<br>Omar"
+       "html": "<b>Word box:</b> am, are, Did (example), Does, is, was, wasn't, were<br><br>Hi Isla,<br>Thanks for coming to my birthday party last Saturday. (0) <b>Did</b> you enjoy the magic show? At the party, there (6) ________ so many balloons and a huge cake! My uncle lives in London, so he (7) ________ at the party. But we had a video call with him! It was ten o'clock in the morning in London, but in Hanoi it (8) ________ five o'clock in the afternoon. Guess what? Uncle (9) ________ flying to Hanoi next month! (10) ________ your family have a video call when someone has a birthday?<br>Your friend,<br>Omar"
       }
      },
      {
       "hint": {
-       "step": "'going to' needs a helper verb before it. The subject is 'we'."
+       "step": "'Right now' and 'reading' are clues. Which helper goes with she?"
       },
-      "worked": "'we' + 'going to' needs 'are': 'we are going to play'.",
+      "worked": "Happening now, with she: 'she is reading'.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 10.",
+      "q": "Read the email. Write ONE word from the box for gap 9.",
       "lines": [
-       "Next month, we {0} going to play in a basketball competition."
+       "Right now she {0} reading a book about horses."
       ],
       "ans": [
        [
-        "are",
-        "'re"
+        "is",
+        "'s"
        ]
       ],
       "fig": {
        "k": "stim",
        "id": "s2-test-email-2",
        "kind": "text",
-       "head": "An email from Mai",
-       "html": "Dear Aunt Thu,<br>I hope you are well. Our school sports day (6) ________ held last Friday. It was sunny and everyone had fun. Lots of photos (7) ________ taken by parents during the races. The long jump was won (8) ________ my best friend, An. Our class has trained hard (9) ________ weeks, so we were very happy to win three medals! Next month, we (10) ________ going to play in a basketball competition. Can you come and watch?<br>Love,<br>Mai"
+       "head": "An email from Ravi",
+       "html": "<b>Word box:</b> Do, does, doesn't, found, is, read (example), was, were<br><br>Dear Bao,<br>Last week I (0) <b>read</b> a great book about a lost city in the jungle. In the story, there (6) ________ hundreds of old stone houses and a golden gate. A young explorer (7) ________ the city with an old map, but she didn't tell anyone about it. I love adventure stories, but my sister (8) ________ like them. She says they are too scary! Right now she (9) ________ reading a book about horses. (10) ________ you want to borrow my book? I can bring it to school on Monday.<br>Best wishes,<br>Ravi"
+      }
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "5Ug.03"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Omar asks about a habit. Look at 'have' and 'has' and at the subject 'your family'."
+      },
+      "worked": "A question about a habit with 'your family' (it): 'Does your family have...?'",
+      "type": "tfill",
+      "q": "Read the email. Write ONE word from the box for gap 10.",
+      "lines": [
+       "{0} your family have a video call when someone has a birthday?"
+      ],
+      "ans": [
+       [
+        "does"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s2-test-email-1",
+       "kind": "text",
+       "head": "An email from Omar",
+       "html": "<b>Word box:</b> am, are, Did (example), Does, is, was, wasn't, were<br><br>Hi Isla,<br>Thanks for coming to my birthday party last Saturday. (0) <b>Did</b> you enjoy the magic show? At the party, there (6) ________ so many balloons and a huge cake! My uncle lives in London, so he (7) ________ at the party. But we had a video call with him! It was ten o'clock in the morning in London, but in Hanoi it (8) ________ five o'clock in the afternoon. Guess what? Uncle (9) ________ flying to Hanoi next month! (10) ________ your family have a video call when someone has a birthday?<br>Your friend,<br>Omar"
+      }
+     },
+     {
+      "hint": {
+       "step": "Ravi asks about now. The verb 'want' is in the base form. Which helper goes with you?"
+      },
+      "worked": "A present simple question with you: 'Do you want to borrow my book?'",
+      "type": "tfill",
+      "q": "Read the email. Write ONE word from the box for gap 10.",
+      "lines": [
+       "{0} you want to borrow my book?"
+      ],
+      "ans": [
+       [
+        "do"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s2-test-email-2",
+       "kind": "text",
+       "head": "An email from Ravi",
+       "html": "<b>Word box:</b> Do, does, doesn't, found, is, read (example), was, were<br><br>Dear Bao,<br>Last week I (0) <b>read</b> a great book about a lost city in the jungle. In the story, there (6) ________ hundreds of old stone houses and a golden gate. A young explorer (7) ________ the city with an old map, but she didn't tell anyone about it. I love adventure stories, but my sister (8) ________ like them. She says they are too scary! Right now she (9) ________ reading a book about horses. (10) ________ you want to borrow my book? I can bring it to school on Monday.<br>Best wishes,<br>Ravi"
       }
      }
     ]
@@ -1993,15 +2009,63 @@
   "secs": 60,
   "items": [
    [
-    "Rice ___ grown in Vietnam today.",
+    "He ___ football every Saturday.",
     [
-     "is",
-     "are",
-     "was"
+     "plays",
+     "play",
+     "playing"
     ]
    ],
    [
-    "The bridge ___ built in 1995.",
+    "My cat ___ like fish.",
+    [
+     "doesn't",
+     "don't",
+     "isn't"
+    ]
+   ],
+   [
+    "___ you like mangoes?",
+    [
+     "Do",
+     "Does",
+     "Are"
+    ]
+   ],
+   [
+    "___ your sister play the piano?",
+    [
+     "Does",
+     "Do",
+     "Is"
+    ]
+   ],
+   [
+    "The shop ___ at eight every morning.",
+    [
+     "opens",
+     "open",
+     "opening"
+    ]
+   ],
+   [
+    "We ___ to the park yesterday.",
+    [
+     "went",
+     "go",
+     "goes"
+    ]
+   ],
+   [
+    "I ___ a sore throat last night.",
+    [
+     "had",
+     "have",
+     "has"
+    ]
+   ],
+   [
+    "There ___ a big cake at yesterday's party.",
     [
      "was",
      "were",
@@ -2009,7 +2073,7 @@
     ]
    ],
    [
-    "These cakes ___ made yesterday.",
+    "There ___ ten children at the party yesterday.",
     [
      "were",
      "was",
@@ -2017,175 +2081,207 @@
     ]
    ],
    [
-    "I have lived here ___ 2020.",
+    "___ you see the fireworks last night?",
     [
-     "since",
-     "for",
-     "ago"
-    ]
-   ],
-   [
-    "She has had a dog ___ two years.",
-    [
-     "for",
-     "since",
-     "ago"
-    ]
-   ],
-   [
-    "I met him three weeks ___.",
-    [
-     "ago",
-     "since",
-     "for"
-    ]
-   ],
-   [
-    "Have you ___ seen a panda?",
-    [
-     "ever",
-     "yet",
-     "since"
-    ]
-   ],
-   [
-    "I haven't finished my lunch ___.",
-    [
-     "yet",
-     "already",
-     "ever"
-    ]
-   ],
-   [
-    "He has ___ left. You missed him!",
-    [
-     "just",
-     "yet",
-     "ever"
-    ]
-   ],
-   [
-    "I've ___ tried sushi. Is it nice?",
-    [
-     "never",
-     "ever",
-     "yet"
-    ]
-   ],
-   [
-    "Look! I've ___ finished. I was quick!",
-    [
-     "already",
-     "yet",
-     "ever"
-    ]
-   ],
-   [
-    "We ___ to the beach last summer.",
-    [
-     "went",
-     "have gone",
-     "go"
-    ]
-   ],
-   [
-    "She ___ here since May.",
-    [
-     "has worked",
-     "worked",
-     "works"
-    ]
-   ],
-   [
-    "They ___ won three cups so far.",
-    [
-     "have",
-     "has",
-     "are"
-    ]
-   ],
-   [
-    "___ you ever been to Hue?",
-    [
-     "Have",
      "Did",
-     "Are"
+     "Do",
+     "Were"
     ]
    ],
    [
-    "I ___ see the match yesterday.",
+    "She ___ come to school yesterday.",
     [
      "didn't",
-     "haven't",
+     "doesn't",
      "don't"
     ]
    ],
    [
-    "Did you ___ the film?",
+    "The past of 'buy'?",
     [
-     "enjoy",
-     "enjoyed",
-     "enjoying"
+     "bought",
+     "brought",
+     "buying"
     ]
    ],
    [
-    "The train ___ at 6:15 tomorrow.",
+    "The past of 'eat'?",
     [
-     "leaves",
-     "left",
-     "has left"
+     "ate",
+     "eats",
+     "eating"
     ]
    ],
    [
-    "I'm ___ my cousins on Sunday.",
+    "The past of 'make'?",
     [
-     "meeting",
-     "meet",
-     "met"
+     "made",
+     "makes",
+     "making"
     ]
    ],
    [
-    "We're going ___ visit the zoo.",
+    "The past of 'see'?",
     [
-     "to",
-     "for",
-     "at"
+     "saw",
+     "sees",
+     "seeing"
     ]
    ],
    [
-    "I think it ___ rain later.",
+    "The past of 'give'?",
     [
-     "will",
+     "gave",
+     "gives",
+     "giving"
+    ]
+   ],
+   [
+    "The past of 'find'?",
+    [
+     "found",
+     "finds",
+     "finding"
+    ]
+   ],
+   [
+    "The past of 'catch'?",
+    [
+     "caught",
+     "catches",
+     "catching"
+    ]
+   ],
+   [
+    "The past of 'fly'?",
+    [
+     "flew",
+     "flies",
+     "flying"
+    ]
+   ],
+   [
+    "The past of 'drink'?",
+    [
+     "drank",
+     "drinks",
+     "drinking"
+    ]
+   ],
+   [
+    "The past of 'take'?",
+    [
+     "took",
+     "takes",
+     "taking"
+    ]
+   ],
+   [
+    "Look! It ___ now.",
+    [
+     "is raining",
+     "rains",
+     "rained"
+    ]
+   ],
+   [
+    "Shh! Dad ___ on the phone now.",
+    [
+     "is talking",
+     "talks",
+     "talked"
+    ]
+   ],
+   [
+    "We are ___ a party on Sunday.",
+    [
+     "having",
+     "have",
+     "had"
+    ]
+   ],
+   [
+    "What ___ you doing now?",
+    [
+     "are",
+     "do",
+     "did"
+    ]
+   ],
+   [
+    "She ___ reading a book at the moment.",
+    [
      "is",
-     "has"
-    ]
-   ],
-   [
-    "'I'm cold.' 'OK, I ___ close the window.'",
-    [
-     "will",
-     "am",
+     "does",
      "was"
     ]
    ],
    [
-    "My sisters ___ going to sing.",
+    "They ___ flying to Da Nang next week.",
     [
      "are",
-     "is",
-     "be"
+     "were",
+     "do"
     ]
    ],
    [
-    "The lesson ___ at 8 every morning.",
+    "My grandma ___ in a village now.",
     [
-     "starts",
-     "start",
-     "is start"
+     "lives",
+     "lived",
+     "living"
     ]
    ],
    [
-    "Phones ___ invented a long time ago.",
+    "Two years ago, my grandma ___ in a village.",
+    [
+     "lived",
+     "lives",
+     "is living"
+    ]
+   ],
+   [
+    "Mai ___ her teeth twice a day.",
+    [
+     "brushes",
+     "brush",
+     "brushing"
+    ]
+   ],
+   [
+    "He ___ eat meat.",
+    [
+     "doesn't",
+     "don't",
+     "aren't"
+    ]
+   ],
+   [
+    "Where ___ you go last summer?",
+    [
+     "did",
+     "do",
+     "were"
+    ]
+   ],
+   [
+    "I ___ at home yesterday evening.",
+    [
+     "was",
+     "were",
+     "am"
+    ]
+   ],
+   [
+    "You ___ late for school yesterday.",
+    [
+     "were",
+     "was",
+     "are"
+    ]
+   ],
+   [
+    "We ___ happy with our prize last week.",
     [
      "were",
      "are",
@@ -2193,63 +2289,111 @@
     ]
    ],
    [
-    "The letter was written ___ my grandma.",
+    "Two days ___, I lost my pencil case.",
     [
-     "by",
-     "from",
-     "of"
+     "ago",
+     "last",
+     "next"
     ]
    ],
    [
-    "Chocolate ___ made from cocoa beans.",
+    "I saw her ___ Monday.",
     [
-     "is",
-     "are",
-     "be"
+     "last",
+     "ago",
+     "yesterday"
     ]
    ],
    [
-    "How long ___ you known Omar?",
+    "Every evening, Dad ___ the dinner.",
     [
-     "have",
+     "cooks",
+     "cook",
+     "cooking"
+    ]
+   ],
+   [
+    "Right now, the children ___ in the hall.",
+    [
+     "are dancing",
+     "danced",
+     "dance"
+    ]
+   ],
+   [
+    "Bees ___ honey.",
+    [
+     "make",
+     "makes",
+     "making"
+    ]
+   ],
+   [
+    "The sun ___ in the east.",
+    [
+     "rises",
+     "rise",
+     "rising"
+    ]
+   ],
+   [
+    "How ___ your brother feel today?",
+    [
+     "does",
+     "do",
+     "is"
+    ]
+   ],
+   [
+    "Is she ___ to the party tonight?",
+    [
+     "coming",
+     "come",
+     "came"
+    ]
+   ],
+   [
+    "___ there a park near your flat?",
+    [
+     "Is",
+     "Are",
+     "Does"
+    ]
+   ],
+   [
+    "There ___ any shops here in 1990.",
+    [
+     "weren't",
+     "wasn't",
+     "aren't"
+    ]
+   ],
+   [
+    "___ there many guests at the wedding last week?",
+    [
+     "Were",
+     "Was",
+     "Did"
+    ]
+   ],
+   [
+    "I ___ my homework now. Please wait!",
+    [
+     "am doing",
      "did",
-     "are"
+     "do"
     ]
    ],
    [
-    "We ___ our project yet.",
+    "He ___ his arm last week.",
     [
-     "haven't finished",
-     "didn't finish",
-     "don't finish"
+     "broke",
+     "breaks",
+     "is breaking"
     ]
    ],
    [
-    "When ___ you start school?",
-    [
-     "did",
-     "have",
-     "has"
-    ]
-   ],
-   [
-    "Elephants ___ found in Africa and Asia.",
-    [
-     "are",
-     "is",
-     "be"
-    ]
-   ],
-   [
-    "The windows ___ cleaned every Friday.",
-    [
-     "are",
-     "is",
-     "was"
-    ]
-   ],
-   [
-    "My bike ___ stolen last night!",
+    "Today is cold, but yesterday ___ hot.",
     [
      "was",
      "is",
@@ -2257,149 +2401,21 @@
     ]
    ],
    [
-    "She's ___ to be a vet one day.",
+    "She ___ go to bed late on school days.",
     [
-     "going",
-     "will",
-     "go"
-    ]
-   ],
-   [
-    "Has Bao ___ his homework yet?",
-    [
-     "done",
-     "did",
-     "do"
-    ]
-   ],
-   [
-    "I have ___ this book twice.",
-    [
-     "read",
-     "reading",
-     "reads"
-    ]
-   ],
-   [
-    "They ___ here in 2022.",
-    [
-     "moved",
-     "have moved",
-     "move"
-    ]
-   ],
-   [
-    "It's very cloudy. It's going ___ rain.",
-    [
-     "to",
-     "for",
-     "will"
-    ]
-   ],
-   [
-    "We ___ on holiday tomorrow!",
-    [
-     "are going",
-     "went",
-     "have gone"
-    ]
-   ],
-   [
-    "I ___ never been to London.",
-    [
-     "have",
-     "has",
-     "am"
-    ]
-   ],
-   [
-    "The match ___ at 3 p.m. next Saturday.",
-    [
-     "starts",
-     "started",
-     "has started"
-    ]
-   ],
-   [
-    "This song ___ sung by children everywhere.",
-    [
-     "is",
-     "are",
-     "be"
-    ]
-   ],
-   [
-    "Tea ___ first drunk in China long ago.",
-    [
-     "was",
-     "is",
-     "are"
-    ]
-   ],
-   [
-    "Mum has worked here ___ ten years.",
-    [
-     "for",
-     "since",
-     "ago"
-    ]
-   ],
-   [
-    "I've known her ___ I was six.",
-    [
-     "since",
-     "for",
-     "ago"
-    ]
-   ],
-   [
-    "Oh no! I ___ my keys!",
-    [
-     "have lost",
-     "has lost",
-     "losing"
-    ]
-   ],
-   [
-    "Did you see Mai? Yes, I ___ her.",
-    [
-     "saw",
-     "see",
-     "seen"
-    ]
-   ],
-   [
-    "What ___ you going to do?",
-    [
-     "are",
-     "is",
-     "will"
-    ]
-   ],
-   [
-    "I promise I ___ tell anyone.",
-    [
-     "won't",
+     "doesn't",
      "don't",
-     "didn't"
-    ]
-   ],
-   [
-    "The pyramids ___ built long ago.",
-    [
-     "were",
-     "are",
-     "was"
+     "isn't"
     ]
    ]
   ]
  },
  "selfcheck": {
   "goals": [
-   "use the passive to say how things are made and when they were built",
-   "use the present perfect with just, already, yet, ever, never, for and since",
-   "choose will, going to or the present continuous to talk about the future",
-   "choose the right verb form in exam sentences and emails"
+   "use the present simple for routines, habits and facts",
+   "use the past simple, was / were and there was / there were",
+   "use the present continuous for now and for future plans",
+   "choose the right verb form in exam sentences, messages and letters"
   ],
   "again": [
    "c",

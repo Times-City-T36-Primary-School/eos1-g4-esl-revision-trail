@@ -1,39 +1,39 @@
-/* 22-pack-stop9.js - ALL the content of Stop 9, Instructions, advice and descriptions (Grade 5 ESL, Cambridge Stage 6).
+/* 22-pack-stop9.js - ALL the content of Stop 9, Explaining, advising and describing (Grade 4 ESL, Cambridge Stage 5).
    Made by scripts/convert.py from content/stop9.json (written from the exam-style guide only; no real paper seen). */
 (function (T) {
   'use strict';
-  window.T_ART = Object.assign(window.T_ART || {}, {"e-s9-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"first\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">1️⃣</text></svg>", "e-s9-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"next\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">➡️</text></svg>", "e-s9-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"finally\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏁</text></svg>", "e-s9-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"make sure\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">✅</text></svg>", "e-s9-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"don&#x27;t forget to\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🧠</text></svg>", "e-s9-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"because\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❓</text></svg>", "e-s9-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"so\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👉</text></svg>", "e-s9-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"however\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">↔️</text></svg>", "e-s9-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"also\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">➕</text></svg>", "e-s9-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"title\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏷️</text></svg>", "e-s9-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"paragraph\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📄</text></svg>", "e-s9-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"bullet point\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔘</text></svg>", "e-s9-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"proofread\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔎</text></svg>"});
+  window.T_ART = Object.assign(window.T_ART || {}, {"e-s9-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"should\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👍</text></svg>", "e-s9-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"shouldn&#x27;t\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👎</text></svg>", "e-s9-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"mustn&#x27;t\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🚫</text></svg>", "e-s9-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"need to\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🎒</text></svg>", "e-s9-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"first\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">1️⃣</text></svg>", "e-s9-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"also\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">➕</text></svg>", "e-s9-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"because\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❓</text></svg>", "e-s9-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"so\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👉</text></svg>", "e-s9-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"finally\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏁</text></svg>", "e-s9-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"adjective\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🎨</text></svg>", "e-s9-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"comparative\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⚖️</text></svg>", "e-s9-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"superlative\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏆</text></svg>", "e-s9-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"paragraph\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📄</text></svg>", "e-s9-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"bullet point\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔘</text></svg>"});
   T.packs[9] = {
  "n": 9,
- "title": "Instructions, advice and descriptions",
+ "title": "Explaining, advising and describing",
  "los": [
-  "6Wor.02",
-  "6Wc.01",
-  "6Wca.04",
-  "6Wca.02",
-  "6Wor.03",
-  "6Wca.03",
-  "6Wc.03",
-  "6Wc.02"
+  "5Ug.10",
+  "5Wca.04",
+  "5Ug.11",
+  "5Wor.02",
+  "5Wca.02",
+  "5Wor.03",
+  "5Wca.03",
+  "5Wc.02",
+  "5Wc.03"
  ],
  "blurb": {
-  "en": "Write clear instructions and advice, and lively descriptions with a title.",
-  "vi": "Viết hướng dẫn, lời khuyên rõ ràng và bài miêu tả sinh động có tiêu đề."
+  "en": "Give advice with modal verbs and describe your choices with great adjectives.",
+  "vi": "Đưa ra lời khuyên bằng động từ khuyết thiếu và miêu tả lựa chọn của em bằng những tính từ hay."
  },
  "words": {
   "sets": [
    {
     "id": "A",
     "title": {
-     "en": "Instruction words",
-     "vi": "Từ dùng khi hướng dẫn"
+     "en": "Advice and rule words",
+     "vi": "Từ dùng để khuyên và nêu quy định"
     },
     "keys": [
-     "first",
-     "next",
-     "finally",
-     "make sure",
-     "don't forget to"
+     "should",
+     "shouldn't",
+     "mustn't",
+     "need to"
     ]
    },
    {
@@ -43,10 +43,11 @@
      "vi": "Từ nối"
     },
     "keys": [
+     "first",
+     "also",
      "because",
      "so",
-     "however",
-     "also"
+     "finally"
     ]
    },
    {
@@ -56,78 +57,84 @@
      "vi": "Từ về bài viết"
     },
     "keys": [
-     "title",
+     "adjective",
+     "comparative",
+     "superlative",
      "paragraph",
-     "bullet point",
-     "proofread"
+     "bullet point"
     ]
    }
   ],
   "items": {
-   "first": {
+   "should": {
     "art": "e-s9-0",
-    "vi": "đầu tiên",
-    "def": "Use it to start the first step of your instructions. Example: *First*, wash your hands with soap."
+    "vi": "nên",
+    "def": "Use it to give good advice: it is a good idea to do this. Example: You *should* say thank you when someone helps you."
    },
-   "next": {
+   "shouldn't": {
     "art": "e-s9-1",
-    "vi": "tiếp theo",
-    "def": "Use it for the step that comes after the one before. Example: *Next*, cut the banana into small pieces."
+    "vi": "không nên",
+    "def": "Use it to say that doing something is a bad idea. Example: You *shouldn't* stay up late before a test."
    },
-   "finally": {
+   "mustn't": {
     "art": "e-s9-2",
-    "vi": "cuối cùng",
-    "def": "Use it for the last step or the last idea. Example: *Finally*, pour the smoothie into a glass."
+    "vi": "không được (cấm)",
+    "def": "Use it for a rule: this is not allowed. Example: You *mustn't* run near the swimming pool."
    },
-   "make sure": {
+   "need to": {
     "art": "e-s9-3",
-    "vi": "hãy chắc chắn rằng",
-    "def": "A friendly way to tell someone to check or do something important. Example: *Make sure* the lid is on tightly."
+    "vi": "cần phải",
+    "def": "Use it when something is necessary and you have to do it. Example: You *need to* bring a pencil to the exam."
    },
-   "don't forget to": {
+   "first": {
     "art": "e-s9-4",
-    "vi": "đừng quên",
-    "def": "A friendly way to remind someone to do something. Example: *Don't forget to* feed the fish every morning."
-   },
-   "because": {
-    "art": "e-s9-5",
-    "vi": "bởi vì",
-    "def": "Use it to give a reason. Example: Wear a hat *because* the sun is very strong."
-   },
-   "so": {
-    "art": "e-s9-6",
-    "vi": "vì vậy, để",
-    "def": "Use it to show a result or a purpose. Example: It was raining, *so* we played inside."
-   },
-   "however": {
-    "art": "e-s9-7",
-    "vi": "tuy nhiên",
-    "def": "Use it to show a different or opposite idea. Example: The race was hard. *However*, I didn't give up."
+    "vi": "đầu tiên",
+    "def": "Use it to start the opening idea or step of your text. Example: *First*, put the rubbish in the bin."
    },
    "also": {
-    "art": "e-s9-8",
+    "art": "e-s9-5",
     "vi": "cũng, ngoài ra",
-    "def": "Use it to add another idea. Example: Arctic foxes are clever. They are *also* very fast."
+    "def": "Use it to add one more idea. Example: My robot can cook. It can *also* sing."
    },
-   "title": {
+   "because": {
+    "art": "e-s9-6",
+    "vi": "bởi vì",
+    "def": "Use it to give a reason. It answers the question 'Why?'. Example: I chose a dragon *because* dragons can fly."
+   },
+   "so": {
+    "art": "e-s9-7",
+    "vi": "vì vậy",
+    "def": "Use it to show what happens as a result. Example: It was raining, *so* we played inside."
+   },
+   "finally": {
+    "art": "e-s9-8",
+    "vi": "cuối cùng",
+    "def": "Use it to start your last idea or step. Example: *Finally*, say goodbye and thank the host."
+   },
+   "adjective": {
     "art": "e-s9-9",
-    "vi": "tiêu đề",
-    "def": "The name of your text, written at the top. Example: My *title* is 'The Bravest Person I Know'."
+    "vi": "tính từ",
+    "def": "A word that describes a person, place or thing, like shiny or friendly. Example: 'Enormous' is a great *adjective* for a big castle."
+   },
+   "comparative": {
+    "art": "e-s9-10",
+    "vi": "dạng so sánh hơn",
+    "def": "The form that compares two things, like taller than or more exciting than. Example: 'Faster than' is a *comparative*."
+   },
+   "superlative": {
+    "art": "e-s9-11",
+    "vi": "dạng so sánh nhất",
+    "def": "The form that shows the top one of a group, like the tallest or the most exciting. Example: 'The best' is a *superlative*."
    },
    "paragraph": {
-    "art": "e-s9-10",
+    "art": "e-s9-12",
     "vi": "đoạn văn",
-    "def": "A group of sentences about one idea. Start a new line for each one. Example: Write one *paragraph* for each bullet point."
+    "def": "A group of sentences about one main idea. Example: Write one or two *paragraphs* for each task."
    },
    "bullet point": {
-    "art": "e-s9-11",
-    "vi": "gạch đầu dòng (ý cần viết)",
-    "def": "One of the three things the task tells you to write about. Example: Tick each *bullet point* when you have written about it."
-   },
-   "proofread": {
-    "art": "e-s9-12",
-    "vi": "đọc lại để soát lỗi",
-    "def": "To read your writing again carefully to find and fix mistakes. Example: Always *proofread* your text before the time ends."
+    "art": "e-s9-13",
+    "vi": "ý cần viết (gạch đầu dòng)",
+    "def": "One of the things in the task list that you must write about. Example: Tick each *bullet point* when you have written about it."
    }
   }
  },
@@ -136,83 +143,83 @@
    {
     "id": "s1",
     "title": {
-     "en": "A Task 1 note",
-     "vi": "Một bài viết Phần 1"
+     "en": "A Task 1 answer: advice",
+     "vi": "Bài viết Phần 1: lời khuyên"
     },
     "esl": true,
     "kind": "text",
-    "head": "Task 1: Bao's note to his cousin (35 to 45 words)",
-    "html": "Hi Kim,<br>Thanks for watering my sunflowers this week! *First*, fill the blue can with water. *Then* water each plant slowly in the evening. *Don't forget to* check the soil every day. *This is important because* dry soil can kill them.<br>Bao",
+    "head": "Task 1: How to be a good guest at a party (Joe's answer)",
+    "html": "When you go to a friend's party, you *should* arrive on time. You *need to* bring a card or a small gift. During the party, you *should* say hello to everyone and join the games. You *mustn't* open other people's presents, and you *shouldn't* eat all the sweets! *Finally*, you *must* say thank you before you leave. This is important *because* good guests make a party fun for everyone.",
     "steps": [
      {
-      "en": "Task 1 has three bullet points. Bao says what to use, gives the steps and explains why one step matters.",
-      "vi": "Phần 1 có ba ý. Bao nói cần dùng gì, đưa ra các bước và giải thích vì sao một bước quan trọng."
+      "en": "Task 1 asks you to explain and give advice. Joe uses *should* for good ideas and *shouldn't* for bad ideas.",
+      "vi": "Phần 1 yêu cầu em giải thích và đưa ra lời khuyên. Joe dùng *should* cho ý hay và *shouldn't* cho việc không nên làm."
      },
      {
-      "en": "*First* and *Then* put the steps in order.",
-      "vi": "*First* và *Then* sắp xếp các bước theo thứ tự."
+      "en": "*must* and *mustn't* are for rules. *need to* means it is necessary.",
+      "vi": "*must* và *mustn't* dùng cho quy định. *need to* nghĩa là cần thiết phải làm."
      },
      {
-      "en": "*Don't forget to* gives friendly advice. *This is important because* gives the reason.",
-      "vi": "*Don't forget to* đưa ra lời khuyên thân thiện. *This is important because* nêu lý do."
+      "en": "He covers every bullet point: what to do, what not to do and why it is important (*because* ...).",
+      "vi": "Bạn ấy viết đủ các ý: nên làm gì, không được làm gì và vì sao điều đó quan trọng (*because* ...)."
      },
      {
-      "en": "Count the words: Bao's note is inside 35 to 45 words.",
-      "vi": "Đếm số từ: bài của Bao nằm trong khoảng 35 đến 45 từ."
+      "en": "Count the sentences: Joe has written 7 sentences. That is the right length.",
+      "vi": "Đếm số câu: Joe viết 7 câu. Độ dài như vậy là vừa đủ."
      }
     ]
    },
    {
     "id": "s2",
     "title": {
-     "en": "A Task 2 description",
-     "vi": "Một bài miêu tả Phần 2"
+     "en": "A Task 2 answer: describing",
+     "vi": "Bài viết Phần 2: miêu tả"
     },
     "esl": true,
     "kind": "text",
-    "head": "Task 2: a description of an event (90 to 110 words)",
-    "html": "<b>The Lantern Festival in Our Street</b><br><br>Every autumn, our street has a lantern festival for the Mid-Autumn holiday. Hundreds of red, yellow and star-shaped lanterns hang between the houses, and the air smells of mooncakes.<br><br>*This year*, my friends and I made our own fish lantern from paper and bamboo. *After dinner*, we walked up and down the street with it while the lion dancers played their drums.<br><br>*In my opinion*, it is the best night of the year, *because* everyone comes outside and talks to their neighbours. *However*, the drums are very loud, *so* my baby cousin always falls asleep late!",
+    "head": "Task 2: My dream robot (Harriet's answer)",
+    "html": "If I could build a robot, it would be called Sparky. It would be *small* and *round*, with *shiny* blue lights for eyes. Sparky would be *faster than* a cheetah and *the cleverest* robot in my town! It would help me tidy my room and water the plants. *Also*, it could tell *funny* jokes when I feel sad. I chose Sparky *because* it would be *the best* friend and helper in the world.",
     "steps": [
      {
-      "en": "It has a *title* at the top that makes you want to read.",
-      "vi": "Bài có *tiêu đề* ở trên cùng khiến người đọc muốn đọc."
+      "en": "Task 2 asks you to describe your own choice. It can be real or imaginary.",
+      "vi": "Phần 2 yêu cầu em miêu tả lựa chọn của mình. Nó có thể có thật hoặc tưởng tượng."
      },
      {
-      "en": "There are three paragraphs: one for each bullet point (describe, what happened, opinion).",
-      "vi": "Có ba đoạn văn: mỗi đoạn cho một ý (miêu tả, điều đã xảy ra, ý kiến)."
+      "en": "Harriet uses *adjectives* to help us picture Sparky: *small*, *round*, *shiny*, *funny*.",
+      "vi": "Harriet dùng *tính từ* để giúp ta hình dung Sparky: *small*, *round*, *shiny*, *funny*."
      },
      {
-      "en": "Time words like *This year* and *After dinner* help the reader follow the story.",
-      "vi": "Các từ chỉ thời gian như *This year* và *After dinner* giúp người đọc theo dõi câu chuyện."
+      "en": "She uses a comparative (*faster than*) and superlatives (*the cleverest*, *the best*).",
+      "vi": "Bạn ấy dùng so sánh hơn (*faster than*) và so sánh nhất (*the cleverest*, *the best*)."
      },
      {
-      "en": "The last paragraph gives an opinion with a reason: *In my opinion ... because ...*",
-      "vi": "Đoạn cuối nêu ý kiến kèm lý do: *In my opinion ... because ...*"
+      "en": "She answers all four bullet points: what it looks like, what is special, what it would do and why she chose it.",
+      "vi": "Bạn ấy trả lời cả bốn ý: trông như thế nào, có gì đặc biệt, sẽ làm gì và vì sao chọn nó."
      }
     ]
    },
    {
     "id": "s3",
     "title": {
-     "en": "Proofread your writing",
-     "vi": "Soát lỗi bài viết"
+     "en": "Check your writing",
+     "vi": "Kiểm tra bài viết"
     },
     "esl": true,
     "kind": "text",
-    "head": "Before and after proofreading",
-    "html": "Before: Yesterday I *goed* to the park with my *freinds*. We *plays* football and it was *realy* fun.<br><br>After: Yesterday I *went* to the park with my *friends*. We *played* football, and it was *really* fun.",
+    "head": "Ivan's sentences before and after checking",
+    "html": "Before: Yesterday my cousin and I *go* to the market. *we* *buy* some *delicous* pineapples.<br><br>After: Yesterday my cousin and I *went* to the market. *We* *bought* some *delicious* pineapples.",
     "steps": [
      {
-      "en": "Check the verbs: is it past or present? 'goed' becomes *went*.",
-      "vi": "Kiểm tra động từ: quá khứ hay hiện tại? 'goed' thành *went*."
+      "en": "Look at the time word *Yesterday*: the verbs must be in the past (*went*, *bought*).",
+      "vi": "Nhìn từ chỉ thời gian *Yesterday*: động từ phải ở thì quá khứ (*went*, *bought*)."
      },
      {
-      "en": "Check spelling of words you know: *friends*, *really*.",
-      "vi": "Kiểm tra chính tả những từ quen thuộc: *friends*, *really*."
+      "en": "Every sentence starts with a capital letter (*We*) and ends with a full stop.",
+      "vi": "Mỗi câu bắt đầu bằng chữ in hoa (*We*) và kết thúc bằng dấu chấm."
      },
      {
-      "en": "Use British spelling: colour, favourite, centre.",
-      "vi": "Dùng chính tả Anh-Anh: colour, favourite, centre."
+      "en": "Check the spelling of words you know: *delicious*.",
+      "vi": "Kiểm tra chính tả những từ em đã biết: *delicious*."
      }
     ]
    },
@@ -224,198 +231,200 @@
     },
     "challenge": {
      "end": {
-      "en": "Brilliant! You are ready to plan and check your writing.",
-      "vi": "Tuyệt vời! Bạn đã sẵn sàng lên ý và soát lại bài viết."
+      "en": "Great work! You can spot advice, rules, comparisons and good endings.",
+      "vi": "Làm tốt lắm! Em đã nhận ra lời khuyên, quy định, so sánh và câu kết hay."
      },
-     "result": "You chose the best connectives, advice, titles and fixes.",
+     "result": "You chose the best advice, comparisons, linking words and endings.",
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Wor.02"
+        "5Ug.10",
+        "5Wc.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "Is this a reason, an opposite idea or the next step?"
+          "step": "Look for a word like should."
          },
-         "worked": "Watering is the next step, so we use <b>Then</b>.",
+         "worked": "<b>You should ask</b> tells someone what is a good idea, so it gives advice.",
          "type": "mcq",
-         "q": "'Put the seeds in the soil. ______, water them gently.' Choose the best word.",
+         "q": "Which sentence gives advice?",
          "opts": [
-          "Then",
+          "You should ask a teacher for help.",
+          "I asked a teacher for help yesterday.",
+          "My teacher is tall and very kind."
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "This tells us what happened yesterday. It does not give advice.",
+          "This describes the teacher. It does not give advice."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Rules often use must or mustn't."
+         },
+         "worked": "<b>You mustn't use</b> says something is not allowed, so it is a rule.",
+         "type": "mcq",
+         "q": "Which sentence gives a rule?",
+         "opts": [
+          "You mustn't use phones in class.",
+          "I don't use my phone very much.",
+          "My new phone is shiny and black."
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "This is about the writer's habit, not a rule for everyone.",
+          "This describes a phone. It is not a rule."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Ug.11"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "A superlative often has 'the' and ends in -est."
+         },
+         "worked": "<b>the tallest</b> shows the top one of a group, so it is a superlative.",
+         "type": "mcq",
+         "q": "Which sentence uses a superlative?",
+         "opts": [
+          "It is the tallest tree in the park.",
+          "It is much taller than my little house.",
+          "It is a very tall and green tree."
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'taller than' compares two things: it is a comparative.",
+          "'very tall' is an adjective, but it does not compare."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "A comparative compares two things and is often followed by 'than'."
+         },
+         "worked": "<b>smarter than</b> compares the robot and the cat, so it is a comparative.",
+         "type": "mcq",
+         "q": "Which sentence uses a comparative?",
+         "opts": [
+          "My robot is smarter than my cat.",
+          "My robot is the smartest in town.",
+          "My robot is very smart and kind."
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "'the smartest' is a superlative: the top one of a group.",
+          "'very smart' does not compare two things."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Wor.02"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Is the second part a reason or a result?"
+         },
+         "worked": "Playing inside is the result of the rain, so <b>so</b> is right.",
+         "type": "mcq",
+         "q": "Choose the best word: 'It was raining, ________ we played inside.'",
+         "opts": [
+          "so",
+          "because",
+          "also"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "'because' gives a reason, but playing inside is the result.",
+          "'also' adds another idea; it does not show a result."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Look at 'Then' in the next sentence. What comes before 'Then'?"
+         },
+         "worked": "The helmet comes before getting on the bike, so <b>First</b> starts the steps.",
+         "type": "mcq",
+         "q": "Choose the best word: '________, put on your helmet. Then get on your bike.'",
+         "opts": [
+          "First",
           "Because",
-          "However"
+          "Also"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'Because' gives a reason, but this is the first step.",
+          "'Also' adds an idea; it cannot start the first step."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Wc.03",
+        "5Wor.02"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "A good ending sums up and says why the advice matters."
+         },
+         "worked": "<b>If we all do this, our classroom will be nicer</b> sums up the advice and gives a result.",
+         "type": "mcq",
+         "q": "Which is the best last sentence for 'How to keep our classroom tidy'?",
+         "opts": [
+          "If we all do this, our classroom will be nicer.",
+          "First, put all your books on the shelf.",
+          "Our classroom has twenty blue chairs and a big board."
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "'First' starts a text; it is not a good ending.",
+          "This is a small detail, not an ending that sums up."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "A good ending gives your opinion or your reason."
+         },
+         "worked": "<b>That's why it would be the best helper ever</b> gives the writer's opinion to finish.",
+         "type": "mcq",
+         "q": "Which is the best last sentence for 'My dream robot'?",
+         "opts": [
+          "That's why it would be the best helper ever.",
+          "First, switch it on with the button.",
+          "It has two long arms, two legs and a funny square head."
          ],
          "at": 0,
          "whys": [
           null,
-          "'Because' gives a reason, but this is the next step.",
-          "'However' shows an opposite idea, not the next step."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Is this a new step in the instructions?"
-         },
-         "worked": "Opening the app is the next step, so we use <b>Next</b>.",
-         "type": "mcq",
-         "q": "'Charge the tablet. ______, open the video app.' Choose the best word.",
-         "opts": [
-          "Next",
-          "So",
-          "Although"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "'So' shows a result, not the next step.",
-          "'Although' shows a surprising contrast."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Wc.01"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Which words tell someone to check something important?"
-         },
-         "worked": "'<b>Make sure you</b> close the cage door' is strong, friendly advice.",
-         "type": "mcq",
-         "q": "Choose the best advice: '______ the cage door, or the hamster will escape.'",
-         "opts": [
-          "Make sure you close",
-          "Don't forget closing",
-          "You needn't close"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "We say 'Don't forget *to* close'.",
-          "'Needn't' means it isn't necessary, but it IS necessary here."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Which word gives good advice?"
-         },
-         "worked": "'You <b>should</b> eat breakfast' gives good advice.",
-         "type": "mcq",
-         "q": "Choose the best advice: 'You ______ eat breakfast before a long walk.'",
-         "opts": [
-          "should",
-          "shouldn't",
-          "don't have to"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "Breakfast gives you energy, so this is the opposite of good advice.",
-          "'Don't have to' means it isn't necessary."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Wca.03"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Tick each bullet point. Which one has no tick?"
-         },
-         "worked": "There is no 'because' or reason, so the third bullet point is missing.",
-         "type": "mcq",
-         "q": "The task says: what to bring, the steps, why one step is important. Lan wrote: 'Bring a pot and soil. First, put soil in the pot. Then add the seed and water it.' What is missing?",
-         "opts": [
-          "a reason why one step matters",
-          "the things she needs to bring",
-          "the steps in the right order"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "She wrote 'Bring a pot and soil'.",
-          "She wrote 'First... Then...'."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Check each bullet point one by one."
-         },
-         "worked": "Huy doesn't explain how penguins survive the cold.",
-         "type": "mcq",
-         "q": "The task says: describe the animal, how it survives, your opinion. Huy wrote: 'Penguins are black and white birds. They live in very cold places. I think they are the funniest animals.' What is missing?",
-         "opts": [
-          "how it survives",
-          "a description",
-          "his opinion"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "'black and white birds' is a description.",
-          "'I think they are the funniest' is his opinion."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Wor.03"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "A title is short, uses capital letters and makes the reader interested."
-         },
-         "worked": "'A Green Day on the Tea Hills' is short, interesting and about the trip.",
-         "type": "mcq",
-         "q": "Which is the best title for a description of a school trip to a tea farm?",
-         "opts": [
-          "A Green Day on the Tea Hills",
-          "Dear Ms Linh,",
-          "the trip was on tuesday"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "This is how you start a letter, not a title.",
-          "This is a sentence without capital letters, not a title."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "A title is short, uses capital letters and tells the reader the topic."
-         },
-         "worked": "'My Grandad, the Kindest Man' tells us who the text is about.",
-         "type": "mcq",
-         "q": "Which is the best title for a description of a person you admire?",
-         "opts": [
-          "My Grandad, the Kindest Man",
-          "Hi everyone!",
-          "he is old and he is kind"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "This is a greeting, not a title.",
-          "This is a sentence without capital letters."
+          "This is an instruction, not an ending for a description.",
+          "This describes the robot; it belongs near the start."
          ],
          "letters": true
         }
@@ -435,108 +444,60 @@
    "art": "icon-step-practise",
    "title": "Learn it",
    "blurb": {
-    "en": "Practise the skills that make your writing clear, correct and complete.",
-    "vi": "Luyện các kỹ năng giúp bài viết rõ ràng, đúng và đầy đủ."
+    "en": "Practise advice words, describing words, linking words and checking.",
+    "vi": "Luyện từ khuyên bảo, từ miêu tả, từ nối và cách kiểm tra bài."
    },
    "levels": [
     {
      "title": {
-      "en": "Order and connectives",
-      "vi": "Thứ tự và từ nối"
+      "en": "Advice and rules",
+      "vi": "Lời khuyên và quy định"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Wor.02",
-        "6Wc.01"
+        "5Ug.10",
+        "5Wca.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Is it a new step, a reason or an opposite idea?"
+          "step": "Is wearing a coat a good idea or a bad idea on a cold day?"
          },
-         "worked": "Cutting comes after washing, so <b>Next</b> is right.",
+         "worked": "A warm coat is a good idea on a cold day, so <b>should</b> gives the advice.",
          "type": "mcq",
-         "q": "'Wash the strawberries. ______, cut them in half.' Choose the best word.",
+         "q": "'It's cold outside. You ________ wear a warm coat.' Choose the best word for advice.",
          "opts": [
-          "Next",
-          "Because",
-          "However"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "'Because' gives a reason, not the next step.",
-          "'However' shows an opposite idea."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Which word moves to the next step?"
-         },
-         "worked": "Watering comes after filling the can, so <b>Then</b> is right.",
-         "type": "mcq",
-         "q": "'Fill the watering can. ______, water the plants slowly.' Choose the best word.",
-         "opts": [
-          "Then",
-          "But",
-          "Because"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "'But' shows a different idea, not the next step.",
-          "'Because' gives a reason."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Wc.01"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Imagine doing it. What do you need to do before anything else?"
-         },
-         "worked": "You need a pot with soil before you can plant or water anything.",
-         "type": "mcq",
-         "q": "You are writing how to plant a seed. Which step comes FIRST?",
-         "opts": [
-          "Fill a small pot with soil.",
-          "Water the seed every day.",
-          "Put the pot by a sunny window."
+          "should",
+          "shouldn't",
+          "mustn't"
          ],
          "at": 2,
          "whys": [
           null,
-          "You can't water the seed before it is in the soil.",
-          "You need a pot with soil and a seed before you move it."
+          "'shouldn't' means it is a bad idea, but a coat is a good idea here.",
+          "'mustn't' means it is not allowed, but wearing a coat is a good idea."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Imagine doing it. What do you do at the very end?"
+          "step": "Is leaving late a good idea or a bad idea?"
          },
-         "worked": "You unplug the tablet when the battery is full, so it is the last step.",
+         "worked": "Leaving late is a bad idea when the film starts at seven, so <b>shouldn't</b> is right.",
          "type": "mcq",
-         "q": "You are writing how to charge a tablet. Which step comes LAST?",
+         "q": "'The film starts at seven. We ________ leave home late.' Choose the best word for advice.",
          "opts": [
-          "Unplug it when it is full.",
-          "Plug the charger into the wall.",
-          "Connect the cable to the tablet."
+          "shouldn't",
+          "should",
+          "need to"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
-          "This happens at the start.",
-          "This happens before the tablet can charge."
+          "'should' would mean leaving late is a good idea.",
+          "'need to' would mean we have to leave late."
          ],
          "letters": true
         }
@@ -545,208 +506,243 @@
       {
        "mode": "your",
        "lo": [
-        "6Wor.02",
-        "6Wc.03"
+        "5Ug.10",
+        "5Wca.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "The second part is a reason. Which word gives a reason?"
+          "step": "A sign in a museum often tells you what is NOT allowed."
          },
-         "worked": "'The sun is very strong' is the reason, so we use <b>because</b>.",
-         "type": "tfill",
-         "q": "Type the missing linking word.",
-         "lines": [
-          "Wear a hat {0} the sun is very strong today."
-         ],
-         "ans": [
-          [
-           "because",
-           "as",
-           "since"
-          ]
-         ]
-        },
-        {
-         "hint": {
-          "step": "The second part is a result. Which short word shows a result?"
-         },
-         "worked": "Playing inside is the result of the rain, so we use <b>so</b>.",
-         "type": "tfill",
-         "q": "Type the missing linking word.",
-         "lines": [
-          "It was raining, {0} we played board games inside."
-         ],
-         "ans": [
-          [
-           "so"
-          ]
-         ]
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "title": {
-      "en": "Advice, bullet points and titles",
-      "vi": "Lời khuyên, các ý và tiêu đề"
-     },
-     "rounds": [
-      {
-       "mode": "your",
-       "lo": [
-        "6Wc.01",
-        "6Wca.04"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Which words remind a friend to do something?"
-         },
-         "worked": "'<b>Don't forget to</b> bring a towel' is a friendly reminder.",
+         "worked": "Touching could damage old paintings, so the rule is <b>mustn't</b>.",
          "type": "mcq",
-         "q": "'______ to bring a towel. You will need it after swimming.' Choose the best words.",
-         "opts": [
-          "Don't forget",
-          "Don't remember",
-          "You mustn't"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "We say 'Don't forget to', not 'Don't remember to'.",
-          "'Mustn't' means it is not allowed, but you NEED the towel."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Is it good advice to do it, or a rule NOT to do it?"
-         },
-         "worked": "Chocolate is dangerous for dogs, so you <b>mustn't</b> give it.",
-         "type": "mcq",
-         "q": "'You ______ give your dog chocolate. It can make dogs very ill.' Choose the best word.",
+         "q": "A sign in a museum: 'Visitors ________ touch the old paintings.'",
          "opts": [
           "mustn't",
-          "should",
-          "don't have to"
+          "need to",
+          "should"
          ],
          "at": 0,
          "whys": [
           null,
-          "'Should' tells someone to do it, but chocolate is dangerous.",
-          "'Don't have to' means it isn't necessary, but this is a rule: never do it."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Wca.03"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Tick each bullet point. Look for 'because'."
-         },
-         "worked": "Mia never explains WHY a step is important.",
-         "type": "mcq",
-         "q": "Task: say what to bring, give the steps, explain why one step is important. Which bullet point is missing?",
-         "opts": [
-          "a reason why one step matters",
-          "the things Mia says to bring",
-          "the steps in the right order"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "Mia says 'Bring a bowl, a spoon and some oats'.",
-          "Mia gives the steps: 'First... Then... Finally...'."
-         ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s9-r-mia",
-          "kind": "text",
-          "head": "Mia's answer",
-          "html": "Hi Sara! Bring a bowl, a spoon and some oats. First, put the oats in the bowl. Then add hot milk and stir. Finally, put some banana on top. Enjoy your breakfast!"
-         }
-        },
-        {
-         "hint": {
-          "step": "Tick each bullet point one by one."
-         },
-         "worked": "Tuan never tells us what happened in the show.",
-         "type": "mcq",
-         "q": "Task: describe the place, describe the show, say how you felt. Which bullet point is missing?",
-         "opts": [
-          "describe the show",
-          "describe the place",
-          "say how you felt"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "Tuan describes the place: 'a small theatre next to a lake'.",
-          "Tuan says 'I was so excited'."
-         ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s9-r-tuan",
-          "kind": "text",
-          "head": "Tuan's answer",
-          "html": "Last Sunday, I went to the Water Puppet Theatre with my family. It is a small theatre next to a lake, with a red roof. I was so excited, and I think it was the best afternoon of my holiday."
-         }
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Wor.03"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "A good title is short, has capital letters and makes the reader curious."
-         },
-         "worked": "'A Sky Full of Kites' is short and interesting.",
-         "type": "mcq",
-         "q": "Choose the best title for a description of a kite festival.",
-         "opts": [
-          "A Sky Full of Kites",
-          "Dear Grandma,",
-          "the kites was nice"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "This starts a letter. It isn't a title.",
-          "This has a grammar mistake and no capital letters."
+          "'need to' means visitors have to touch them, but the sign protects the paintings.",
+          "'should' says touching is a good idea, but it could damage the paintings."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "A good title is short, has capital letters and tells us the topic."
+          "step": "The sentence says 'It's a rule'. Is the helmet allowed or necessary?"
          },
-         "worked": "'Gentle Giants of the Forest' is short and tells us about big animals.",
+         "worked": "A rule that says you have to do something uses <b>must</b>.",
          "type": "mcq",
-         "q": "Choose the best title for a description of elephants.",
+         "q": "'It's a rule: everyone ________ wear a helmet on the school bike trip.'",
          "opts": [
-          "Gentle Giants of the Forest",
-          "Hello everyone in my class!",
-          "elephants is big and grey"
+          "must",
+          "mustn't",
+          "shouldn't"
          ],
          "at": 1,
          "whys": [
           null,
-          "This is a greeting, not a title.",
-          "This has a grammar mistake and no capital letters."
+          "'mustn't' means helmets are not allowed, which is the opposite of the rule.",
+          "'shouldn't' means wearing a helmet is a bad idea."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Ug.10",
+        "5Wca.04"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Which of the three words can come before 'to'?"
+         },
+         "worked": "We say <b>need to</b> bring. 'should' and 'mustn't' are never followed by 'to'.",
+         "type": "tfill",
+         "q": "Write one word from the box: should, need, mustn't.",
+         "lines": [
+          "You {0} to bring a pencil case on Monday."
+         ],
+         "ans": [
+          [
+           "need"
+          ]
+         ]
+        },
+        {
+         "hint": {
+          "step": "Read the second sentence. Is it advice or a rule?"
+         },
+         "worked": "'It is not allowed' tells us it is a rule, so we use <b>mustn't</b>.",
+         "type": "tfill",
+         "q": "Write one word from the box: should, need, mustn't.",
+         "lines": [
+          "Players {0} run beside the pool. It is not allowed."
+         ],
+         "ans": [
+          [
+           "mustn't",
+           "must not"
+          ]
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Describing and linking",
+      "vi": "Miêu tả và nối câu"
+     },
+     "rounds": [
+      {
+       "mode": "your",
+       "lo": [
+        "5Ug.11",
+        "5Wca.04"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Look at the word after the gap. 'than' needs a comparative."
+         },
+         "worked": "Two bikes are compared with 'than', so we use <b>faster</b>.",
+         "type": "mcq",
+         "q": "'My new bike is ________ than my old one.' Choose the right word.",
+         "opts": [
+          "faster",
+          "fastest",
+          "fast"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'fastest' is for the top one of a group, not for comparing with 'than'.",
+          "'fast' does not compare. You need the -er form before 'than'."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Look at 'the' and 'on the whole beach'. Is it one of two, or the top one of many?"
+         },
+         "worked": "'the ... on the whole beach' shows the top one, so we use <b>biggest</b>.",
+         "type": "mcq",
+         "q": "'This is the ________ sandcastle on the whole beach!' Choose the right word.",
+         "opts": [
+          "biggest",
+          "bigger",
+          "big"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "'bigger' compares two things and needs 'than'.",
+          "'big' does not show that it is the top one."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Ug.11",
+        "5Wca.04"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Long adjectives use 'more' before 'than'."
+         },
+         "worked": "Two stories are compared with 'than', so we use <b>more exciting</b>.",
+         "type": "mcq",
+         "q": "'The second story was ________ than the first one.' Choose the right words.",
+         "opts": [
+          "more exciting",
+          "the most exciting",
+          "excited"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "'the most exciting' is for the top one of a group, not with 'than'.",
+          "'excited' describes how a person feels, not a story."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "'of our holiday' tells you it is the top one of many days."
+         },
+         "worked": "The best of all the days is <b>the most beautiful</b> day.",
+         "type": "mcq",
+         "q": "'It was ________ day of our holiday.' Choose the right words.",
+         "opts": [
+          "the most beautiful",
+          "more beautiful",
+          "beautiful"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "'more beautiful' compares two things and needs 'than'.",
+          "'It was beautiful day' needs 'a' or 'the' before it."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Wor.02"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Ask: why does the writer love Grandpa?"
+         },
+         "worked": "The funny stories are the reason, so we use <b>because</b>.",
+         "type": "mcq",
+         "q": "'I love my grandpa ________ he tells funny stories.' Choose the best word.",
+         "opts": [
+          "because",
+          "so",
+          "but"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "'so' shows a result, but the funny stories are the reason.",
+          "'but' shows a different idea, and these ideas agree."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Is the writer adding one more idea about the street?"
+         },
+         "worked": "Clean is one more good thing about the street, so <b>also</b> adds it.",
+         "type": "mcq",
+         "q": "'Our street is quiet. It is ________ very clean.' Choose the best word.",
+         "opts": [
+          "also",
+          "because",
+          "finally"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'because' gives a reason, but this is one more good thing.",
+          "'finally' starts the last step, not an extra idea."
          ],
          "letters": true
         }
@@ -756,73 +752,89 @@
     },
     {
      "title": {
-      "en": "Check and improve",
-      "vi": "Kiểm tra và sửa bài"
+      "en": "Plan and check",
+      "vi": "Lên ý và kiểm tra"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Wca.02"
+        "5Wca.03",
+        "5Wc.02"
        ],
        "v": [
         {
          "hint": {
-          "step": "British English often has 'our', like 'colour'."
+          "step": "Tick each bullet point when you find it in the answer."
          },
-         "worked": "British English spelling is <b>favourite</b>.",
+         "worked": "Bach gives advice, a daily habit and a reason, but there is no <b>mustn't</b> sentence.",
          "type": "mcq",
-         "q": "Which word is spelled correctly in British English?",
+         "q": "Which bullet point has Bach forgotten?",
          "opts": [
-          "favourite",
-          "favorite",
-          "favourit"
+          "what you mustn't do",
+          "good habits to follow every day",
+          "why it is important"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "He wrote 'Every day, you need to keep the stairs tidy'.",
+          "He wrote 'This is important because ...'."
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s9-r-neighbour",
+          "kind": "text",
+          "head": "Task 1: How to be a good neighbour",
+          "html": "<b>Include all of the following:</b><br>• what good neighbours should do<br>• good habits to follow every day<br>• what you mustn't do<br>• why it is important<br><br><b>Bach's answer:</b><br>Good neighbours should say hello and smile. Every day, you need to keep the stairs and the lift tidy. You should also water their plants when they are away. This is important because neighbours can become good friends."
+         }
+        },
+        {
+         "hint": {
+          "step": "Tick each bullet point when you find it in the answer."
+         },
+         "worked": "Esme writes about clean books, a rule and a reason, but never says <b>when</b> to return them.",
+         "type": "mcq",
+         "q": "Which bullet point has Esme forgotten?",
+         "opts": [
+          "when you need to return them",
+          "how to keep the books clean",
+          "why it is important"
          ],
          "at": 0,
          "whys": [
           null,
-          "This is American spelling. In this exam, we use British English.",
-          "There is an 'e' at the end."
+          "She wrote 'keep library books in a clean, dry bag'.",
+          "She wrote 'This is important because ...'."
          ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Say it slowly: beau-ti-ful."
-         },
-         "worked": "The correct spelling is <b>beautiful</b>, with '-ful' at the end.",
-         "type": "mcq",
-         "q": "Which word is spelled correctly?",
-         "opts": [
-          "beautiful",
-          "beatiful",
-          "beautifull"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "There is a 'u' after 'bea'.",
-          "'-ful' at the end has only one 'l'."
-         ],
-         "letters": true
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s9-r-library",
+          "kind": "text",
+          "head": "Task 1: How to look after library books",
+          "html": "<b>Include all of the following:</b><br>• how to keep the books clean<br>• when you need to return them<br>• what you mustn't do<br>• why it is important<br><br><b>Esme's answer:</b><br>First, you should keep library books in a clean, dry bag. You mustn't write or draw in them. You also shouldn't read them while you are eating. This is important because other children need to use them too."
+         }
         }
        ]
       },
       {
        "mode": "your",
        "lo": [
-        "6Wca.04"
+        "5Wca.02",
+        "5Wca.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "'Yesterday' tells you the time. Which tense do you need?"
+          "step": "Look for a time word. Is it now, every day or in the past?"
          },
-         "worked": "'Yesterday' is the past, so 'go' becomes <b>went</b>.",
+         "worked": "<b>Yesterday</b> tells us it is the past, and the past of 'go' is <b>went</b>.",
          "type": "tfill",
-         "q": "One verb is wrong: 'Yesterday I go to the park.' Type the correct word.",
+         "q": "Write the correct form of the verb in brackets.",
          "lines": [
-          "Yesterday I {0} to the park."
+          "Yesterday we {0} to the market with Grandma. (go)"
          ],
          "ans": [
           [
@@ -832,17 +844,17 @@
         },
         {
          "hint": {
-          "step": "'My sister' is he/she/it. What do we add in the present simple?"
+          "step": "Words that end in -ful have only one l."
          },
-         "worked": "With 'she' in the present simple we add -s: <b>rides</b>.",
+         "worked": "The right spelling is <b>beautiful</b>, with one l at the end.",
          "type": "tfill",
-         "q": "One verb is wrong: 'My sister always ride her bike to school.' Type the correct word.",
+         "q": "Correct the spelling mistake. Write the word.",
          "lines": [
-          "My sister always {0} her bike to school."
+          "It was a {0} day at the beach. (beautifull)"
          ],
          "ans": [
           [
-           "rides"
+           "beautiful"
           ]
          ]
         }
@@ -851,62 +863,49 @@
       {
        "mode": "your",
        "lo": [
-        "6Wca.03"
+        "5Wca.03",
+        "5Wor.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "Count every word, then compare with 35 to 45."
+          "step": "Think about how to make the answer longer AND better."
          },
-         "worked": "It has 20 words, so it needs more detail, for example a reason with 'because'.",
+         "worked": "He needs more sentences, so he should <b>add more ideas</b> for each bullet point.",
          "type": "mcq",
-         "q": "Task 1 needs 35 to 45 words. Is this answer the right length?",
+         "q": "Task 1 asks for 7 to 8 sentences. Hieu has written 4 sentences. What should he do?",
          "opts": [
-          "No, it is too short.",
-          "Yes, it is just right.",
-          "No, it is too long."
+          "Add more ideas for each bullet point.",
+          "Make every sentence much shorter.",
+          "Write the same sentence again."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
-          "Count again: it has only 20 words.",
-          "It has only 20 words, so it can't be too long."
+          "Shorter sentences will not give him more sentences or ideas.",
+          "Copying a sentence does not add any new ideas."
          ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s9-r-len1",
-          "kind": "text",
-          "head": "Ana's friend's answer",
-          "html": "Hi Ana, you need a pot and some soil. Put the seed in. Water it every day. It is easy."
-         }
+         "letters": true
         },
         {
          "hint": {
-          "step": "Count every word, then compare with 35 to 45."
+          "step": "The task asks for 7 to 8 sentences. Is 14 too many or too few?"
          },
-         "worked": "It has 41 words, so it is inside 35 to 45.",
+         "worked": "14 sentences is too many, so she should <b>take out</b> the ideas that are not needed.",
          "type": "mcq",
-         "q": "Task 1 needs 35 to 45 words. Is this answer the right length?",
+         "q": "Thao has written 14 sentences for Task 2. What should she do?",
          "opts": [
-          "Yes, it is just right.",
-          "No, it is too short.",
-          "No, it is too long."
+          "Take out the ideas that are not needed.",
+          "Add two more paragraphs at the end.",
+          "Start a new answer on a new topic."
          ],
          "at": 2,
          "whys": [
           null,
-          "Count again: it has 41 words.",
-          "It has 41 words, which is not more than 45."
+          "Her answer is already too long, so adding more is not right.",
+          "She should keep the same topic and make it shorter."
          ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s9-r-len2",
-          "kind": "text",
-          "head": "A note to Omar",
-          "html": "Hi Omar, you need your library card and your school bag. First, choose two books from the shelf. Next, take them to the desk. Make sure you give them back in two weeks, because then other children can read them too."
-         }
+         "letters": true
         }
        ]
       }
@@ -922,70 +921,84 @@
    "art": "icon-step-notes",
    "title": "Writing desk",
    "blurb": {
-    "en": "Plan, write and compare your answer with three model answers.",
-    "vi": "Lên ý, viết bài và so sánh với ba bài mẫu."
+    "en": "Plan, write and mark your answer, then compare it with three model answers.",
+    "vi": "Lên ý, viết và tự chấm bài, rồi so sánh với ba bài mẫu."
    },
    "tasks": [
     {
      "id": "t1a",
      "task": 1,
-     "title": "Looking after my goldfish",
-     "prompt": "Your friend Nam is going to look after your goldfish while your family is on holiday. Write a short note to Nam (35 to 45 words).",
+     "title": "How to be a kind classmate",
+     "prompt": "Your class is making a booklet called 'A Happy Class'. Write 1 to 2 paragraphs (7 to 8 sentences) explaining how to be a kind classmate. Use modal verbs and linking words. Check your spelling, grammar and punctuation.",
      "bullets": [
-      "Say what Nam needs to use.",
-      "Give instructions about feeding the fish and cleaning the tank.",
-      "Explain why one instruction is important."
+      "what kind classmates should do",
+      "good habits to follow every day",
+      "what you mustn't do",
+      "why being kind is important",
+      "use modal verbs (should, shouldn't, must, mustn't, need to)"
      ],
-     "min": 35,
-     "max": 45,
+     "min": 60,
+     "max": 90,
      "needTitle": false,
      "starters": [
-      "You need ...",
-      "First, ...",
-      "Don't forget to ...",
+      "Kind classmates should ...",
+      "Every day, you need to ...",
+      "You mustn't ...",
       "This is important because ..."
      ],
      "models": [
       {
        "level": "Developing",
-       "text": "Hi Nam, thank you for helping me. You need the fish food in the box. Give the fish food every day and clean the tank. Don't give a lot of food. From Bao",
+       "text": "Kind classmates should helps other children. They should share pencils and books with everyone. Every day you need say hello and smile. You mustn't laugh at people when they make a mistake. You mustn't be bossy in games. Being kind is important. Then everyone is happy in class and nobody feel sad.",
        "notes": [
-        "Content 2/4: says what Nam needs and gives the feeding and cleaning instructions, but there is no reason why one is important. Only 33 words, so it is a little short.",
-        "Organisation 1/3: no order words like First or Then, so the steps feel like a list.",
-        "Language 2/3: mostly correct, but 'fish food' and 'food' are repeated, and 'Give the fish food' is unclear (better: 'Give the fish some food')."
+        "Task achievement and content 1/2: covers what to do, a daily habit and what not to do, but the reason is very thin ('Being kind is important'). It is a little short.",
+        "Organisation and layout 1/2: the ideas are in a sensible order, but there are almost no linking words (only 'Then').",
+        "Grammar 1/2: good modal verbs, but three mistakes: 'should helps' (should help), 'need say' (need to say) and 'nobody feel' (nobody feels).",
+        "Vocabulary and spelling 1/2: spelling is correct, but the words are simple and 'should' and 'mustn't' are repeated.",
+        "Fluency 1/2: capitals and full stops are correct, but the short sentences feel choppy."
        ],
        "marks": {
-        "content": 2,
+        "content": 1,
         "organisation": 1,
-        "language": 2
+        "grammar": 1,
+        "vocabulary": 1,
+        "fluency": 1
        }
       },
       {
        "level": "Secure",
-       "text": "Hi Nam, thanks for looking after Goldie! You need the fish food and the small sponge on my desk. First, give her a little food every morning. Then clean the glass on Saturday. Don't give her too much, because the water gets dirty. Bao",
+       "text": "Kind classmates should help each other in lessons. For example, you can share your pencils or explain a hard question. Every day, you need to say hello and listen when other people speak. You should also say thank you. You mustn't laugh at someone who makes a mistake. You shouldn't leave anyone out of a game. Being kind is important because everyone feels safe and happy.",
        "notes": [
-        "Content 4/4: all three points, with a clear reason (the water gets dirty). 44 words.",
-        "Organisation 2/3: First and Then show the order, but the last sentence could be linked more smoothly.",
-        "Language 2/3: accurate, with a good advice form 'Don't give her too much', but the words are quite simple."
+        "Task achievement and content 2/2: all the bullet points are covered, with an example and a clear reason.",
+        "Organisation and layout 1/2: one clear paragraph, but there are only a few linking words. 'First' or 'Finally' would guide the reader.",
+        "Grammar 2/2: a good range of modal verbs (should, need to, mustn't, shouldn't), all used correctly.",
+        "Vocabulary and spelling 1/2: all words are spelled correctly, but they are quite everyday (hello, happy); 'greet' or 'kindness' would add variety.",
+        "Fluency 2/2: complete sentences that are easy to read."
        ],
        "marks": {
-        "content": 4,
-        "organisation": 2,
-        "language": 2
+        "content": 2,
+        "organisation": 1,
+        "grammar": 2,
+        "vocabulary": 1,
+        "fluency": 2
        }
       },
       {
        "level": "Excellent",
-       "text": "Dear Nam, thanks for looking after Goldie! You'll need the fish food and the soft sponge on my desk. First, sprinkle a tiny pinch of food every morning. On Saturday, gently wipe the glass. Never overfeed her, because leftover food makes the water cloudy.",
+       "text": "Being a kind classmate is easy if you follow a few simple ideas. First, you should help others in lessons. For example, you can share your coloured pencils with a friend. Every day, you need to greet your classmates with a smile and listen carefully.<br><br>However, you mustn't laugh at anyone's mistakes. You also shouldn't leave anyone out at break time. Kindness is important because it makes our classroom a friendly place. When everyone feels safe, we all learn better.",
        "notes": [
-        "Content 4/4: all three points with useful detail (a tiny pinch, on Saturday). 44 words.",
-        "Organisation 3/3: clear order with First and On Saturday; the reason follows 'because'.",
-        "Language 3/3: precise words (sprinkle, gently wipe, overfeed, cloudy) and accurate grammar."
+        "Task achievement and content 2/2: every bullet point is covered and developed with details and a strong reason.",
+        "Organisation and layout 2/2: two paragraphs (what to do, then what not to do and why) with First, For example, However and because.",
+        "Grammar 2/2: modal verbs (should, need to, mustn't, shouldn't) and a comparative adverb ('learn better'), all accurate.",
+        "Vocabulary and spelling 2/2: varied topic words (greet, kindness, friendly, leave anyone out), all spelled correctly.",
+        "Fluency 2/2: the sentences flow smoothly from one idea to the next."
        ],
        "marks": {
-        "content": 4,
-        "organisation": 3,
-        "language": 3
+        "content": 2,
+        "organisation": 2,
+        "grammar": 2,
+        "vocabulary": 2,
+        "fluency": 2
        }
       }
      ]
@@ -993,63 +1006,77 @@
     {
      "id": "t1b",
      "task": 1,
-     "title": "Making a video call",
-     "prompt": "Your grandma wants to make a video call to your uncle on her new tablet. Write a short message to her (35 to 45 words) explaining how to do it.",
+     "title": "How to keep our town clean",
+     "prompt": "Your school is making a booklet called 'Love Where You Live'. Write 1 to 2 paragraphs (7 to 8 sentences) explaining how people can keep their town clean and beautiful. Use modal verbs and linking words. Check your spelling, grammar and punctuation.",
      "bullets": [
-      "Say what she needs to do before she starts.",
-      "Give the steps to make the call.",
-      "Explain why one step is important."
+      "what people should do",
+      "good habits to follow every week",
+      "what people mustn't do",
+      "why a clean town is important",
+      "use modal verbs (should, shouldn't, must, mustn't, need to)"
      ],
-     "min": 35,
-     "max": 45,
+     "min": 60,
+     "max": 90,
      "needTitle": false,
      "starters": [
-      "Before you start, ...",
-      "First, ...",
-      "Then ...",
-      "Make sure ... because ..."
+      "People should ...",
+      "Every week, we need to ...",
+      "People mustn't ...",
+      "A clean town is important because ..."
      ],
      "models": [
       {
        "level": "Developing",
-       "text": "Dear Grandma, you need your tablet. Open the app and press Uncle Tuan name. Then press the green button. You can talk to him and see him. Love, Mai",
+       "text": "People should put rubbish in the bin. We should recycle bottles and paper every week. Every day we need to walking to school or ride a bike. People mustn't drop rubbish on the street. You mustn't write on the walls. A clean town is important. The parks is beautifull and everybody is happy.",
        "notes": [
-        "Content 2/4: gives the steps, but 'you need your tablet' does not say what to do before starting, and there is no reason why a step is important. Only 29 words, so it is too short.",
-        "Organisation 1/3: 'Then' helps, but there is no First, so the order is not very clear.",
-        "Language 2/3: simple and mostly correct, but 'Uncle Tuan name' should be 'Uncle Tuan's name'."
+        "Task achievement and content 1/2: three bullet points are there, but the reason is thin and walking to school is not explained.",
+        "Organisation and layout 1/2: one paragraph in a sensible order, but there are no linking words.",
+        "Grammar 1/2: modal verbs are used, but 'need to walking' (need to walk) and 'The parks is' (The parks are) are wrong.",
+        "Vocabulary and spelling 1/2: good topic words (rubbish, recycle), but 'beautifull' should be 'beautiful'.",
+        "Fluency 1/2: short sentences that do not link, so it reads like a list."
        ],
        "marks": {
-        "content": 2,
+        "content": 1,
         "organisation": 1,
-        "language": 2
+        "grammar": 1,
+        "vocabulary": 1,
+        "fluency": 1
        }
       },
       {
        "level": "Secure",
-       "text": "Dear Grandma, before you start, charge your tablet and turn on the Wi-Fi. First, open the video app. Next, find Uncle Tuan's name and press the green camera button. Hold the tablet in front of your face, so he can see you. Love, Mai",
+       "text": "Everyone should help to keep our town clean. First, people should put their rubbish in the bin or take it home. Every week, we need to recycle paper, bottles and cans. People mustn't drop rubbish in the street or the river. You shouldn't draw on walls either, because it looks messy. A clean town is important because it is nicer for everyone. Animals are safer too.",
        "notes": [
-        "Content 4/4: all three points; the reason is 'so he can see you'. 44 words.",
-        "Organisation 2/3: before you start, First and Next give a clear order, but the last step has no linking word.",
-        "Language 2/3: accurate, with useful verbs (charge, turn on, find, hold), but no advice form like 'make sure' or 'don't forget'."
+        "Task achievement and content 2/2: every bullet point is covered with relevant ideas and a reason.",
+        "Organisation and layout 2/2: a clear order, with First and because to link ideas.",
+        "Grammar 2/2: correct modal verbs (should, need to, mustn't, shouldn't) and correct verb forms.",
+        "Vocabulary and spelling 1/2: spelling is correct, but 'rubbish' is used three times; 'litter' would add variety.",
+        "Fluency 1/2: easy to read, but the last sentence is very short and feels added on."
        ],
        "marks": {
-        "content": 4,
+        "content": 2,
         "organisation": 2,
-        "language": 2
+        "grammar": 2,
+        "vocabulary": 1,
+        "fluency": 1
        }
       },
       {
        "level": "Excellent",
-       "text": "Dear Grandma, before you start, make sure your tablet is charged and connected to the Wi-Fi. First, open the video app and tap Uncle Tuan's photo. Then press the green button. Hold the tablet at eye level, because then he can see your smile!",
+       "text": "We can all help to keep our town clean and beautiful. First, people should put their rubbish in a bin or take it home. Every week, families need to sort paper, plastic and glass for recycling.<br><br>However, people mustn't throw litter into rivers, and they shouldn't draw on walls. Cars make the air dirty, so we should walk or cycle short distances. A clean town is important because it is safer for animals. Let's make our town the cleanest in the country!",
        "notes": [
-        "Content 4/4: all three points, clear and complete. 44 words.",
-        "Organisation 3/3: before you start, First and Then; the reason is linked with 'because'.",
-        "Language 3/3: 'make sure', 'connected to' and 'at eye level' are accurate, and the tone is warm and friendly for Grandma."
+        "Task achievement and content 2/2: all bullet points are covered with useful detail and a clear reason.",
+        "Organisation and layout 2/2: two paragraphs (good habits, then what not to do and why) linked with First, However, so and because.",
+        "Grammar 2/2: a range of modal verbs used accurately, plus a comparative (safer) and a superlative (the cleanest).",
+        "Vocabulary and spelling 2/2: varied topic words (litter, recycling, sort, cycle), all spelled correctly.",
+        "Fluency 2/2: smooth, complete sentences with a strong ending."
        ],
        "marks": {
-        "content": 4,
-        "organisation": 3,
-        "language": 3
+        "content": 2,
+        "organisation": 2,
+        "grammar": 2,
+        "vocabulary": 2,
+        "fluency": 2
        }
       }
      ]
@@ -1057,63 +1084,77 @@
     {
      "id": "t1c",
      "task": 1,
-     "title": "Planting a sunflower seed",
-     "prompt": "Your little cousin Bao wants to grow a sunflower on the balcony. Write a short message to Bao (35 to 45 words) explaining how to plant the seed and look after it.",
+     "title": "How to enjoy fireworks safely",
+     "prompt": "Your class is writing a page for the school website called 'Happy and Safe Holidays'. Write 1 to 2 paragraphs (7 to 8 sentences) explaining how families can enjoy a fireworks show safely. Use modal verbs and linking words. Check your spelling, grammar and punctuation.",
      "bullets": [
-      "Say what Bao needs to get ready.",
-      "Give the steps to plant the seed and look after it.",
-      "Explain why one step is important."
+      "what families should do before the show",
+      "good things to do during the show",
+      "what children mustn't do",
+      "why it is important to be careful",
+      "use modal verbs (should, shouldn't, must, mustn't, need to)"
      ],
-     "min": 35,
-     "max": 45,
+     "min": 60,
+     "max": 90,
      "needTitle": false,
      "starters": [
-      "You will need ...",
-      "First, ...",
-      "Then ...",
-      "Don't forget to ... because ..."
+      "Before the show, families should ...",
+      "During the show, you need to ...",
+      "Children mustn't ...",
+      "This is important because ..."
      ],
      "models": [
       {
        "level": "Developing",
-       "text": "Hi Bao, you need a pot and soil and a seed. Put the seed in the soil and give it water. Sunflowers is very tall and beautiful. Good luck!",
+       "text": "Families should go early to find a good place to watch. Children must stay with there parents. Everybody need to wear warm clothes. You mustn't go near the fireworks. You mustn't touch them. Fireworks are very loud and hot. It is dangerous so we must be careful and have fun.",
        "notes": [
-        "Content 2/4: says what to get and gives two steps, but there is no reason why a step is important. Only 29 words, so it is too short.",
-        "Organisation 1/3: no order words like First or Then.",
-        "Language 2/3: 'Sunflowers is' should be 'Sunflowers are', and 'a pot and soil and a seed' would be better as 'a pot, some soil and a seed'."
+        "Task achievement and content 1/2: before the show, what not to do and a reason are there, but 'during the show' is very thin.",
+        "Organisation and layout 1/2: no paragraphs and no time words like 'Before the show' or 'During the show'.",
+        "Grammar 1/2: modal verbs are used, but 'Everybody need' should be 'Everybody needs'.",
+        "Vocabulary and spelling 1/2: simple words, and 'there parents' should be 'their parents'.",
+        "Fluency 1/2: the short sentences make it read like a list."
        ],
        "marks": {
-        "content": 2,
+        "content": 1,
         "organisation": 1,
-        "language": 2
+        "grammar": 1,
+        "vocabulary": 1,
+        "fluency": 1
        }
       },
       {
        "level": "Secure",
-       "text": "Hi Bao, you will need a big pot, some soil and a sunflower seed. First, fill the pot with soil. Then push the seed in gently and water it. Don't forget to put it in the sun because sunflowers need light.",
+       "text": "Fireworks shows are exciting, but families need to be careful. Before the show, you should arrive early and choose a place far from the fireworks. During the show, children must stay close to an adult. You should also cover your ears if the bangs are too loud. Children mustn't touch fireworks or run towards them. This is important because fireworks are very hot. They can burn you badly.",
        "notes": [
-        "Content 4/4: all three points, with a clear reason (sunflowers need light). 41 words.",
-        "Organisation 2/3: First and Then show the order, but the last step has no order word.",
-        "Language 2/3: accurate, with a good advice form 'Don't forget to ... because ...', but the words are quite simple."
+        "Task achievement and content 2/2: every bullet point is covered with sensible advice and a reason.",
+        "Organisation and layout 1/2: good time words (Before the show, During the show), but it is all one long paragraph.",
+        "Grammar 2/2: correct modal verbs (need to, should, must, mustn't) and correct verb forms.",
+        "Vocabulary and spelling 1/2: correct spelling, but quite simple words; 'crowd' or 'safety line' would add detail.",
+        "Fluency 2/2: complete sentences that are easy to follow."
        ],
        "marks": {
-        "content": 4,
-        "organisation": 2,
-        "language": 2
+        "content": 2,
+        "organisation": 1,
+        "grammar": 2,
+        "vocabulary": 1,
+        "fluency": 2
        }
       },
       {
        "level": "Excellent",
-       "text": "Hi Bao! Get a large pot, some soil and a sunflower seed. First, fill the pot and push the seed two centimetres down. Next, water it a little every day. Make sure it stays in the sun, or it won't grow tall!",
+       "text": "A fireworks show is the most exciting part of a holiday, but we need to stay safe. Before the show, families should arrive early and stand behind the safety line. Children need to stay close to an adult in the crowd.<br><br>During the show, you should cover your ears if the bangs are too loud. You mustn't run towards the fireworks or touch used ones. This is important because fireworks are very hot and can cause bad burns. Then everyone can enjoy the bright, colourful sky!",
        "notes": [
-        "Content 4/4: all three points with useful detail (two centimetres, every day). 42 words.",
-        "Organisation 3/3: First and Next give a clear order, and the message ends strongly.",
-        "Language 3/3: 'Make sure ..., or ...' gives advice and a reason in one sentence; accurate grammar."
+        "Task achievement and content 2/2: all bullet points are covered and developed with useful details.",
+        "Organisation and layout 2/2: two paragraphs (before, then during the show) with clear time words and linking words.",
+        "Grammar 2/2: a range of modal verbs used accurately, plus a superlative (the most exciting).",
+        "Vocabulary and spelling 2/2: precise topic words (safety line, crowd, burns, colourful), all spelled correctly.",
+        "Fluency 2/2: the sentences flow well and the ending is cheerful."
        ],
        "marks": {
-        "content": 4,
-        "organisation": 3,
-        "language": 3
+        "content": 2,
+        "organisation": 2,
+        "grammar": 2,
+        "vocabulary": 2,
+        "fluency": 2
        }
       }
      ]
@@ -1121,69 +1162,76 @@
     {
      "id": "t2a",
      "task": 2,
-     "title": "My favourite place in my town",
-     "prompt": "Your school magazine is collecting articles called 'Places we love'. Write an article (90 to 110 words) about your favourite place in your town or city. Give your writing a suitable title.",
+     "title": "A new dish I would invent",
+     "prompt": "Your school canteen wants new ideas for lunch. Write 1 to 2 paragraphs (7 to 8 sentences) about a new dish you would invent. It can be real or imaginary. Use descriptive adjectives, at least one comparative or superlative, and linking words. Check your spelling, grammar and punctuation.",
      "bullets": [
-      "Describe the place: where it is and what it is like.",
-      "Explain what you do there and who you go with.",
-      "Say why it is your favourite place."
+      "what the dish is and what it looks like",
+      "what makes it special or interesting",
+      "when you would eat it and who you would share it with",
+      "why you chose it"
      ],
-     "min": 90,
-     "max": 110,
-     "needTitle": true,
+     "min": 60,
+     "max": 90,
+     "needTitle": false,
      "starters": [
-      "My favourite place is ...",
-      "It is near ...",
-      "At the weekend, I usually ...",
-      "I love it because ..."
+      "My new dish would be ...",
+      "It looks ...",
+      "The special thing about it is ...",
+      "I chose it because ..."
      ],
      "models": [
       {
        "level": "Developing",
-       "text": "<b>The park</b><br><br>My favourite place is the park near my house. It have a big lake and many trees. There is a playground too. I go there with my brother. We play football and we ride bikes. Sometimes we feed the ducks but my mum say we can't give them bread. I like the park. It is very nice and green. I go there every weekend and I am happy there.",
+       "text": "My new dish is rainbow rice. It have rice with many colour vegetables. It is yellow, green and red. It is special because it is very pretty. I will eat it at lunch on Friday with my best friends. I chose it because I like rice and vegetables. It is good.",
        "notes": [
-        "Content 2/4: describes the park and what they do, but the reason ('very nice') is weak. Only 69 words, so it is too short (90 to 110).",
-        "Clear for the reader 2/4: easy to follow, but there are few details to help the reader picture the park.",
-        "Organisation 1/3: everything is in one paragraph, and the title 'The park' is very plain.",
-        "Language 2/4: simple sentences with mistakes: 'It have' should be 'It has', and 'my mum say' should be 'my mum says'."
+        "Task achievement and content 1/2: all four bullet points are mentioned, but each one has very little detail. It is a little short.",
+        "Organisation and layout 1/2: a sensible order, but 'because' is the only linking word.",
+        "Grammar 1/2: there is no comparative or superlative, and 'It have' should be 'It has'.",
+        "Vocabulary and spelling 1/2: few describing words ('pretty', 'good'), and 'many colour vegetables' should be 'colourful vegetables'.",
+        "Fluency 1/2: capitals and full stops are correct, but the short sentences sound choppy."
        ],
        "marks": {
-        "content": 2,
-        "reader": 2,
+        "content": 1,
         "organisation": 1,
-        "language": 2
+        "grammar": 1,
+        "vocabulary": 1,
+        "fluency": 1
        }
       },
       {
        "level": "Secure",
-       "text": "<b>Green Lake Park</b><br><br>My favourite place is Green Lake Park, which is ten minutes from my flat. It has a huge lake, tall trees and a small café that sells delicious ice cream.<br><br>At the weekend, I usually go there with my brother and my dad. We ride our bikes around the lake, and sometimes we play football on the grass. In the evening, we watch the sunset over the water.<br><br>I love this park because it is quiet and green, so I can relax there after a busy week at school. If you visit it, you will love it too!",
+       "text": "My new dish would be rainbow rice. It is a big bowl of rice with yellow corn, green peas and red peppers. It looks brighter than normal fried rice. The special thing is the sweet and crunchy sauce on top. I would eat it at lunch with my best friends. I chose this dish because it is colourful and tasty. Everyone would love it!",
        "notes": [
-        "Content 4/4: all three points with detail. 98 words.",
-        "Clear for the reader 3/4: clear and friendly, and the ending speaks to the reader, but it is not very exciting.",
-        "Organisation 2/3: three clear paragraphs, but the title is just the name, and the linking is mostly 'and' and 'so'.",
-        "Language 3/4: accurate, with a relative clause ('which is ten minutes from my flat') and 'If you visit it, you will love it'."
+        "Task achievement and content 2/2: every bullet point is covered with relevant details.",
+        "Organisation and layout 1/2: one paragraph in a clear order, but only 'because' links the ideas.",
+        "Grammar 2/2: a correct comparative (brighter than) and correct use of 'would'.",
+        "Vocabulary and spelling 2/2: good adjectives (sweet, crunchy, colourful, tasty), all spelled correctly.",
+        "Fluency 1/2: clear, but most sentences start with 'It' or 'I', so it does not flow very well."
        ],
        "marks": {
-        "content": 4,
-        "reader": 3,
-        "organisation": 2,
-        "language": 3
+        "content": 2,
+        "organisation": 1,
+        "grammar": 2,
+        "vocabulary": 2,
+        "fluency": 1
        }
       },
       {
        "level": "Excellent",
-       "text": "<b>My Secret Garden in the City</b><br><br>In the middle of our busy city, there is a little park that feels like a secret garden. It is hidden behind the old library, and it has a pond full of orange fish.<br><br>Every Sunday morning, my grandma and I walk there together. While she does her exercises, I read my book under a big mango tree. Afterwards, we buy warm bread from a stall by the gate.<br><br>This park is my favourite place because it is peaceful. When I am there, I forget about homework and noise. If you need a calm place, you should visit it soon!",
+       "text": "My new dish would be Rainbow Rice Balls. They are small balls of sticky rice with orange carrots and purple cabbage inside. Each one is soft outside and crunchy in the middle.<br><br>The special part is the sweet sauce, which is the most delicious sauce in the world! I would share them with my friends at lunch. We could also take some to Grandma. I chose this dish because it is more colourful than any other lunch, so it would make everyone smile.",
        "notes": [
-        "Content 4/4: all three points, with rich detail (hidden behind the old library, a pond full of orange fish). 100 words.",
-        "Clear for the reader 4/4: the 'secret garden' idea and the advice at the end keep the reader interested.",
-        "Organisation 3/3: an interesting title, three paragraphs and good linking (while, afterwards, when).",
-        "Language 4/4: varied, accurate sentences, a relative clause, and advice with 'you should'."
+        "Task achievement and content 2/2: all four bullet points are covered with lively detail.",
+        "Organisation and layout 2/2: two paragraphs (what it looks like, then why it is special and who shares it) linked with also, because and so.",
+        "Grammar 2/2: a superlative (the most delicious), a comparative (more colourful than) and 'would', all accurate.",
+        "Vocabulary and spelling 2/2: rich adjectives (sticky, soft, crunchy, purple, delicious), all spelled correctly.",
+        "Fluency 2/2: varied sentences that are a pleasure to read."
        ],
        "marks": {
-        "content": 4,
-        "reader": 4,
-        "organisation": 3,
-        "language": 4
+        "content": 2,
+        "organisation": 2,
+        "grammar": 2,
+        "vocabulary": 2,
+        "fluency": 2
        }
       }
      ]
@@ -1191,69 +1239,76 @@
     {
      "id": "t2b",
      "task": 2,
-     "title": "An amazing animal",
-     "prompt": "Your class is making a book called 'Amazing Animals'. Write about an animal that you think is amazing (90 to 110 words). Give your writing a suitable title.",
+     "title": "My own superhero",
+     "prompt": "Your class is making a comic book called 'Heroes Who Help'. Write 1 to 2 paragraphs (7 to 8 sentences) about a superhero you would create. Use descriptive adjectives, at least one comparative or superlative, and linking words. Check your spelling, grammar and punctuation.",
      "bullets": [
-      "Describe the animal and where it lives.",
-      "Explain how its special features help it to survive.",
-      "Give your opinion: why do you think it is amazing?"
+      "who your superhero is and what he or she looks like",
+      "what makes your superhero special",
+      "what your superhero would do to help people",
+      "why you chose this superhero"
      ],
-     "min": 90,
-     "max": 110,
-     "needTitle": true,
+     "min": 60,
+     "max": 90,
+     "needTitle": false,
      "starters": [
-      "The ... is a ... that lives in ...",
-      "It has ..., so it can ...",
-      "In my opinion, ...",
-      "I think it is amazing because ..."
+      "My superhero is called ...",
+      "He / She has got ...",
+      "His / Her special power is ...",
+      "I chose ... because ..."
      ],
      "models": [
       {
        "level": "Developing",
-       "text": "<b>Arctic Fox</b><br><br>The Arctic fox is a small animal. It live in very cold places near the North Pole. It is white in winter and brown in summer.<br><br>It has thick fur, so it is not cold. It has small ears and a big tail. It eats birds and fish and other small animals.<br><br>I think it is amazing. It is very cute and I like it very much. I want to see one in the zoo one day.",
+       "text": "My superhero is Green Girl. She is tall and she have long green hair. She wears a long green cape and big boots. She can talk to animals and trees. She help animals in danger. I chose her because I love animals. She is very kind and brave. She is my favourite.",
        "notes": [
-        "Content 2/4: describes the fox, but does not explain how the white fur helps it survive, and the opinion ('very cute') has no clear reason. 77 words, so it is a little short.",
-        "Clear for the reader 2/4: easy to follow, but it reads like a list of facts, so it is not very interesting.",
-        "Organisation 2/3: a title and three paragraphs, but the linking is very simple (and, so).",
-        "Language 2/4: many short sentences starting 'It has' or 'It is', and 'It live' should be 'It lives'."
+        "Task achievement and content 1/2: all bullet points are there, but 'help animals in danger' needs more detail. It is a little short.",
+        "Organisation and layout 1/2: a clear order, but almost no linking words.",
+        "Grammar 1/2: no comparative or superlative, and 'she have' (she has) and 'She help' (She helps) are wrong.",
+        "Vocabulary and spelling 1/2: correct spelling, but 'green' is repeated three times and the adjectives are simple.",
+        "Fluency 1/2: every sentence starts with 'She', so it does not flow."
        ],
        "marks": {
-        "content": 2,
-        "reader": 2,
-        "organisation": 2,
-        "language": 2
+        "content": 1,
+        "organisation": 1,
+        "grammar": 1,
+        "vocabulary": 1,
+        "fluency": 1
        }
       },
       {
        "level": "Secure",
-       "text": "<b>The Amazing Arctic Fox</b><br><br>The Arctic fox is a small, beautiful animal that lives in the far north, where it is very cold and snowy. It is about the size of a cat.<br><br>The Arctic fox has many special features. Its thick fur keeps it warm, even when it is minus 50 degrees. In winter its fur is white, so it can hide in the snow. In summer it turns brown.<br><br>I think the Arctic fox is amazing because it can survive in such a difficult place. It is also very clever. It can hear small animals moving under the snow!",
+       "text": "My superhero is called Captain Wave. He is a tall, friendly man with a blue suit and silver boots. He is stronger than ten elephants, and he can swim faster than a dolphin. His special power is that he can talk to sea animals. He would clean the oceans and help fishing boats in storms. I chose him because I love the sea. He is my hero!",
        "notes": [
-        "Content 4/4: all three points, with facts and a clear reason for the opinion. 97 words.",
-        "Clear for the reader 3/4: clear and interesting for the class book, and the last fact is a nice surprise.",
-        "Organisation 2/3: a good title and three paragraphs, but the second paragraph is a bit like a list, with simple links (so, also).",
-        "Language 3/4: accurate, with relative clauses ('that lives', 'where it is very cold') and the phrase 'such a difficult place'."
+        "Task achievement and content 2/2: every bullet point is covered with good ideas.",
+        "Organisation and layout 1/2: one paragraph in a clear order, but only 'and' and 'because' link the ideas.",
+        "Grammar 2/2: correct comparatives (stronger than, faster than) and correct verb forms.",
+        "Vocabulary and spelling 1/2: correct spelling and some good adjectives (tall, friendly), but the reason uses very simple words.",
+        "Fluency 2/2: complete sentences that read smoothly."
        ],
        "marks": {
-        "content": 4,
-        "reader": 3,
-        "organisation": 2,
-        "language": 3
+        "content": 2,
+        "organisation": 1,
+        "grammar": 2,
+        "vocabulary": 1,
+        "fluency": 2
        }
       },
       {
        "level": "Excellent",
-       "text": "<b>A Clever Survivor of the Snow</b><br><br>Have you ever heard of the Arctic fox? This fluffy animal lives in the frozen lands near the North Pole, where winters are long and dark.<br><br>The Arctic fox has brilliant features that help it to survive. Its thick coat keeps it warm, and its furry feet work like slippers on the ice. In winter, its fur turns white, so it can hide from predators in the snow.<br><br>In my opinion, it is the most amazing animal on Earth. It can hear a mouse under the snow and then dive in to catch it. I would love to see one in the wild!",
+       "text": "My superhero is called Night Owl, and she is the cleverest hero in the city. She wears a dark purple cape with soft grey feathers. Her golden eyes can see in the dark.<br><br>What makes her special is that she is calm and generous. Every night, she would fly over the streets to find lost pets. She can also fly more quietly than a real owl. I chose her because she shows that kind heroes are the strongest heroes of all.",
        "notes": [
-        "Content 4/4: all three points, each explained with a clear example. 103 words.",
-        "Clear for the reader 4/4: the question at the start and the exclamation at the end speak directly to the reader.",
-        "Organisation 3/3: an interesting title, three paragraphs and good linking (where, and, so, then).",
-        "Language 4/4: a wide range: a question with 'Have you ever', 'the most amazing', 'work like slippers', and topic words (predators, survive)."
+        "Task achievement and content 2/2: all four bullet points are covered and developed.",
+        "Organisation and layout 2/2: two paragraphs (what she looks like, then what she does and why) with clear linking words.",
+        "Grammar 2/2: superlatives (the cleverest, the strongest) and a comparative adverb (more quietly than), all accurate.",
+        "Vocabulary and spelling 2/2: rich adjectives (dark purple, soft, golden, calm, generous), all spelled correctly.",
+        "Fluency 2/2: long and short sentences mix well, and the ending is strong."
        ],
        "marks": {
-        "content": 4,
-        "reader": 4,
-        "organisation": 3,
-        "language": 4
+        "content": 2,
+        "organisation": 2,
+        "grammar": 2,
+        "vocabulary": 2,
+        "fluency": 2
        }
       }
      ]
@@ -1261,69 +1316,76 @@
     {
      "id": "t2c",
      "task": 2,
-     "title": "Our sports day",
-     "prompt": "Your school website wants articles about a sports day or a sports event you took part in. Write about it (90 to 110 words). Give your writing a suitable title.",
+     "title": "A magic object I would like to have",
+     "prompt": "Your teacher is collecting stories called 'Magic in My Pocket'. Write 1 to 2 paragraphs (7 to 8 sentences) about a magic object you would like to have. It can be from a story or from your imagination. Use descriptive adjectives, at least one comparative or superlative, and linking words. Check your spelling, grammar and punctuation.",
      "bullets": [
-      "Describe the event and where it happened.",
-      "Explain what you did on the day.",
-      "Say how you felt and what you thought of the event."
+      "what the object is and what it looks like",
+      "what makes it magical or special",
+      "what you would do with it",
+      "why you chose it"
      ],
-     "min": 90,
-     "max": 110,
-     "needTitle": true,
+     "min": 60,
+     "max": 90,
+     "needTitle": false,
      "starters": [
-      "Last ..., our school had ...",
-      "In the morning, I ...",
-      "After lunch, ...",
-      "I felt ... In my opinion, ..."
+      "The magic object I would like is ...",
+      "It looks ...",
+      "It is magical because ...",
+      "I would use it to ..."
      ],
      "models": [
       {
        "level": "Developing",
-       "text": "<b>Sports Day</b><br><br>Last Friday was sports day at my school. It was at the big stadium near my house. There was many students and parents.<br><br>I run in the 100 metres race and I do the long jump. I was third in the race. My friend was first. Then we eat lunch together.<br><br>I was happy and tired. It was fun. I like sports day very much. It was a good day and I want to do it again next year with my class.",
+       "text": "I would like a magic backpack. It is small and red with a yellow zip. It is speshal because it is never heavy. I can puts many things in it. I would take it to school every day. I chose it because my bag is very heavy now. It is magic and cool.",
        "notes": [
-        "Content 3/4: covers all three points, but with few details, and the opinion is simple ('It was fun'). 82 words, so it is a little short.",
-        "Clear for the reader 2/4: the reader understands what happened, but it is hard to picture the day.",
-        "Organisation 2/3: a title and three paragraphs; 'Then' helps a little, but there are few other linking words.",
-        "Language 1/4: many past tense mistakes: 'I run' should be 'I ran', 'I do' should be 'I did', 'we eat' should be 'we ate', and 'There was many' should be 'There were many'."
+        "Task achievement and content 1/2: all bullet points are mentioned, but there is little detail about the magic. It is a little short.",
+        "Organisation and layout 1/2: a sensible order, but 'because' is the only linking word.",
+        "Grammar 1/2: no comparative or superlative, and 'I can puts' should be 'I can put'.",
+        "Vocabulary and spelling 1/2: simple adjectives (small, red, cool), and 'speshal' should be 'special'.",
+        "Fluency 1/2: short, separate sentences that do not flow."
        ],
        "marks": {
-        "content": 3,
-        "reader": 2,
-        "organisation": 2,
-        "language": 1
+        "content": 1,
+        "organisation": 1,
+        "grammar": 1,
+        "vocabulary": 1,
+        "fluency": 1
        }
       },
       {
        "level": "Secure",
-       "text": "<b>Our Super Sports Day</b><br><br>Last Friday, our school had its sports day at the city stadium. The weather was sunny and hot, and lots of parents came to watch and cheer.<br><br>In the morning, I ran in the 100-metre race and came third. After lunch, I took part in the tug of war with my class. We pulled really hard, and in the end we beat class 5B2!<br><br>I felt tired but very happy. I think sports day is the best day of the school year, because everyone works as a team and has fun together.",
+       "text": "My magic object would be a small red backpack with a shiny yellow zip. It looks normal, but it is magical. It is never heavy, even with twenty books inside! It can also hold bigger things than a normal bag, like a bike or a tent. I would take it to school and on family holidays. I chose it because my school bag is always too heavy. It would make my life easier.",
        "notes": [
-        "Content 4/4: all three points with good detail and a clear opinion. 92 words.",
-        "Clear for the reader 3/4: the reader can picture the day, but it could be more exciting.",
-        "Organisation 3/3: a good title, three paragraphs and time words (In the morning, After lunch, in the end).",
-        "Language 3/4: accurate past simple and the phrase 'took part in', but the range is not very wide."
+        "Task achievement and content 2/2: every bullet point is covered with fun details.",
+        "Organisation and layout 2/2: a clear order with but, also and because.",
+        "Grammar 2/2: correct comparatives (bigger than, easier) and correct use of 'would'.",
+        "Vocabulary and spelling 1/2: correct spelling, but 'heavy' and 'normal' are repeated; 'ordinary' would add variety.",
+        "Fluency 1/2: clear, but some sentences are short and a little choppy."
        ],
        "marks": {
-        "content": 4,
-        "reader": 3,
-        "organisation": 3,
-        "language": 3
+        "content": 2,
+        "organisation": 2,
+        "grammar": 2,
+        "vocabulary": 1,
+        "fluency": 1
        }
       },
       {
        "level": "Excellent",
-       "text": "<b>A Day of Teamwork and Cheering</b><br><br>Last Friday, the whole school travelled by bus to the city stadium for our sports day. The stands were full of excited parents waving flags, and music was playing everywhere.<br><br>First, I ran in the 200-metre race. I was last at the bend, but I didn't give up and finished second! After lunch, our class took part in the relay. When Minh dropped the baton, we all shouted, 'Keep going!'<br><br>I felt exhausted but proud at the end of the day. In my opinion, sports day teaches us that teamwork and kindness matter more than medals.",
+       "text": "The magic object I would most like is an old leather backpack with tiny silver stars. It looks ordinary, but it is the most amazing bag in the world.<br><br>Inside, there is space for a whole library, but it is lighter than a feather. When I make a wish, it gives me exactly what I need. For example, I could find an umbrella on a rainy day. I would share it with friends who need help too. I chose it because it is useful and mysterious.",
        "notes": [
-        "Content 4/4: all three points, with exciting detail and a thoughtful opinion. 96 words.",
-        "Clear for the reader 4/4: the story of the race and the relay keeps the reader interested.",
-        "Organisation 3/3: an interesting title, three paragraphs and clear time words (First, After lunch, When).",
-        "Language 4/4: a wide range: past continuous, 'didn't give up', direct speech and strong adjectives (exhausted, proud)."
+        "Task achievement and content 2/2: all four bullet points are covered and developed with imaginative detail.",
+        "Organisation and layout 2/2: two paragraphs (what it looks like, then its magic and why) with but, For example and because.",
+        "Grammar 2/2: a superlative (the most amazing), a comparative (lighter than) and 'would', all accurate.",
+        "Vocabulary and spelling 2/2: rich adjectives (ordinary, amazing, mysterious, tiny, silver), all spelled correctly.",
+        "Fluency 2/2: smooth, varied sentences that are easy to read."
        ],
        "marks": {
-        "content": 4,
-        "reader": 4,
-        "organisation": 3,
-        "language": 4
+        "content": 2,
+        "organisation": 2,
+        "grammar": 2,
+        "vocabulary": 2,
+        "fluency": 2
        }
       }
      ]
@@ -1334,78 +1396,78 @@
  "notes": {
   "items": [
    {
-    "en": "Answer *all three* bullet points. Tick each one when you have written about it.",
-    "vi": "Viết đủ *cả ba* ý. Đánh dấu từng ý khi đã viết xong.",
+    "en": "Write about *every* bullet point. Tick each one when you have written about it.",
+    "vi": "Viết về *tất cả* các ý. Đánh dấu từng ý khi em đã viết xong.",
     "example": [
-     "Bullet 1 (what to bring): *You need* a bowl and a spoon.",
-     "Bullet 3 (why): *This is important because* hot milk can burn you."
+     "Bullet: what you mustn't do. *You mustn't* shout in the library.",
+     "Bullet: why it is important. *This is important because* ..."
     ]
    },
    {
-    "en": "Put instructions in order with *First, Next, Then, After that, Finally*.",
-    "vi": "Sắp xếp các bước theo thứ tự với *First, Next, Then, After that, Finally*.",
+    "en": "Give advice with *should* and *shouldn't*. Give rules with *must* and *mustn't*. Use *need to* when something is necessary.",
+    "vi": "Đưa ra lời khuyên với *should* và *shouldn't*. Nêu quy định với *must* và *mustn't*. Dùng *need to* khi việc gì đó là cần thiết.",
     "example": [
-     "*First*, wash the fruit. *Next*, cut it into pieces.",
-     "*Finally*, pour the smoothie into a glass."
+     "You *should* drink water after sport.",
+     "Visitors *mustn't* feed the animals. You *need to* buy a ticket."
     ]
    },
    {
-    "en": "Give friendly advice with *should, make sure you, don't forget to, never, mustn't*.",
-    "vi": "Đưa ra lời khuyên thân thiện với *should, make sure you, don't forget to, never, mustn't*.",
+    "en": "After *should*, *must* and *mustn't*, use the verb with no *to*. Use *to* after *need*.",
+    "vi": "Sau *should*, *must* và *mustn't*, dùng động từ nguyên mẫu không có *to*. Dùng *to* sau *need*.",
     "example": [
-     "*Don't forget to* close the cage door.",
-     "You *mustn't* give your dog chocolate."
+     "You *should wear* a hat. You *mustn't touch* it.",
+     "You *need to bring* a coat."
     ]
    },
    {
-    "en": "Give reasons and opinions with *because, so, I think, In my opinion*.",
-    "vi": "Nêu lý do và ý kiến với *because, so, I think, In my opinion*.",
+    "en": "Describe with adjectives. Compare two things with *-er than* or *more ... than*. Show the top one with *the -est* or *the most*.",
+    "vi": "Miêu tả bằng tính từ. So sánh hai vật với *-er than* hoặc *more ... than*. Chỉ cái nhất với *the -est* hoặc *the most*.",
     "example": [
-     "Hold the tablet at eye level, *so* he can see you.",
-     "*In my opinion*, sports day is the best day of the year."
+     "My bike is *faster than* my brother's bike.",
+     "It is *the most exciting* game in the world!"
     ]
    },
    {
-    "en": "Task 2: write a *title* and one *paragraph* for each bullet point.",
-    "vi": "Phần 2: viết *tiêu đề* và mỗi ý một *đoạn văn*.",
+    "en": "Link your ideas with *First*, *also*, *because*, *so*, *for example* and *Finally*.",
+    "vi": "Nối các ý với *First*, *also*, *because*, *so*, *for example* và *Finally*.",
     "example": [
-     "Title: *A Clever Survivor of the Snow*",
-     "Paragraph 1: describe. Paragraph 2: explain. Paragraph 3: your opinion."
+     "*First*, say hello. You can *also* smile.",
+     "I chose it *because* it is fun, *so* everyone will like it."
     ]
    },
    {
-    "en": "*Count* your words and *proofread*: check verbs, spelling and British English.",
-    "vi": "*Đếm* số từ và *đọc lại soát lỗi*: kiểm tra động từ, chính tả và tiếng Anh-Anh.",
+    "en": "Write 7 to 8 sentences in one or two paragraphs. Then check capital letters, full stops and spelling.",
+    "vi": "Viết 7 đến 8 câu trong một hoặc hai đoạn văn. Sau đó kiểm tra chữ in hoa, dấu chấm và chính tả.",
     "example": [
-     "Task 1: 35 to 45 words. Task 2: 90 to 110 words.",
-     "Yesterday I *went* (not goed). My *favourite* (not favorite) colour."
+     "Each task: about 7 to 8 sentences (60 to 90 words).",
+     "*We* went to the park. (capital W, full stop at the end)"
     ]
    }
   ],
   "check": [
    {
-    "sentence": "In both tasks, I must write about {all three|two|one} of the bullet points.",
-    "answer": "all three"
+    "sentence": "In the exam, I must write about {every|one|the first} bullet point.",
+    "answer": "every"
    },
    {
-    "sentence": "'{Finally|First|Because}, wash the bowl and put it away' is the last step.",
-    "answer": "Finally"
+    "sentence": "Rule at the pool: you {mustn't|should|need to} run.",
+    "answer": "mustn't"
    },
    {
-    "sentence": "{Don't forget to|Don't forget|Don't remember to} feed the fish every morning.",
-    "answer": "Don't forget to"
+    "sentence": "You should {wear|to wear|wearing} a hat in the sun.",
+    "answer": "wear"
    },
    {
-    "sentence": "Turn off the tap, {so|because|but} you don't waste water.",
-    "answer": "so"
+    "sentence": "My new bike is {faster|fastest|fast} than my old one.",
+    "answer": "faster"
    },
    {
-    "sentence": "In Task 2, I need a {title|greeting|signature} at the top.",
-    "answer": "title"
+    "sentence": "I chose a dragon {because|so|finally} dragons can fly.",
+    "answer": "because"
    },
    {
-    "sentence": "Task 1 needs {35 to 45|90 to 110|10 to 20} words.",
-    "answer": "35 to 45"
+    "sentence": "A good answer has about {7 to 8|2 to 3|15 to 20} sentences.",
+    "answer": "7 to 8"
    }
   ]
  },
@@ -1414,95 +1476,47 @@
    {
     "dok": 1,
     "lo": [
-     "6Wor.02"
+     "5Ug.10",
+     "5Wca.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "Which word starts a list of steps?"
+       "step": "Signs often give rules about what is not allowed."
       },
-      "worked": "<b>First</b> starts the instructions.",
+      "worked": "The playground is for children, so the rule is: dogs <b>mustn't</b> go in.",
       "type": "mcq",
-      "q": "Choose the best word for the FIRST step: '______, find a quiet place to sit.'",
+      "q": "A sign in the park: 'Dogs ________ go into the children's playground.'",
       "opts": [
-       "First",
-       "Finally",
-       "However"
-      ],
-      "at": 1,
-      "whys": [
-       null,
-       "'Finally' is for the last step.",
-       "'However' shows an opposite idea."
-      ],
-      "letters": true
-     },
-     {
-      "hint": {
-       "step": "Which word ends a list of steps?"
-      },
-      "worked": "<b>Finally</b> shows the last step.",
-      "type": "mcq",
-      "q": "Choose the best word for the LAST step: '______, put everything back in the box.'",
-      "opts": [
-       "Finally",
-       "First",
-       "Because"
-      ],
-      "at": 0,
-      "whys": [
-       null,
-       "'First' is for the first step.",
-       "'Because' gives a reason."
-      ],
-      "letters": true
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Wc.01",
-     "6Wca.04"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Which word gives good advice?"
-      },
-      "worked": "'You <b>should</b> wear a helmet' gives good advice.",
-      "type": "mcq",
-      "q": "Choose the best advice: 'You ______ wear a helmet when you ride your bike.'",
-      "opts": [
+       "mustn't",
        "should",
-       "shouldn't",
-       "needn't"
+       "need to"
       ],
       "at": 0,
       "whys": [
        null,
-       "A helmet keeps you safe, so this is bad advice.",
-       "'Needn't' means it isn't necessary, but a helmet is important."
+       "'should' says it is a good idea for dogs to go in.",
+       "'need to' says dogs have to go in."
       ],
       "letters": true
      },
      {
       "hint": {
-       "step": "Which words tell someone to check something?"
+       "step": "Look at the word after the gap. Which modal can go before 'to'?"
       },
-      "worked": "'<b>Make sure you</b> close the gate' is the right advice.",
+      "worked": "Only <b>need</b> is followed by 'to': <b>need to show</b>.",
       "type": "mcq",
-      "q": "Choose the best advice: '______ close the gate, or the goats will run away.'",
+      "q": "'You ________ to show your ticket at the door.' Choose the right word.",
       "opts": [
-       "Make sure you",
-       "Don't forget you",
-       "You mustn't"
+       "need",
+       "should",
+       "must"
       ],
       "at": 1,
       "whys": [
        null,
-       "We say 'Don't forget *to* close', not 'Don't forget you close'.",
-       "'Mustn't' would mean you are NOT allowed to close it."
+       "We say 'should show', never 'should to show'.",
+       "We say 'must show', never 'must to show'."
       ],
       "letters": true
      }
@@ -1511,86 +1525,39 @@
    {
     "dok": 1,
     "lo": [
-     "6Wca.02"
+     "5Ug.11",
+     "5Wca.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "British English: -our at the end."
+       "step": "Look for 'the' and 'in our family'. Is it the top one of a group?"
       },
-      "worked": "British English spelling is <b>colour</b>.",
-      "type": "mcq",
-      "q": "Which word is spelled correctly in British English?",
-      "opts": [
-       "colour",
-       "color",
-       "coulor"
-      ],
-      "at": 2,
-      "whys": [
-       null,
-       "This is American spelling.",
-       "The letters 'ou' are in the wrong place."
-      ],
-      "letters": true
-     },
-     {
-      "hint": {
-       "step": "British English: -re at the end, like 'theatre'."
-      },
-      "worked": "British English spelling is <b>centre</b>.",
-      "type": "mcq",
-      "q": "Which word is spelled correctly in British English?",
-      "opts": [
-       "centre",
-       "center",
-       "sentre"
-      ],
-      "at": 1,
-      "whys": [
-       null,
-       "This is American spelling.",
-       "It starts with a 'c', not an 's'."
-      ],
-      "letters": true
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Wca.04"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "'Last summer' is the past. 'Teach' is irregular."
-      },
-      "worked": "The past simple of 'teach' is <b>taught</b>.",
+      "worked": "'the ... in our family' needs a superlative: funny becomes <b>funniest</b> (y changes to i).",
       "type": "tfill",
-      "q": "Write the correct form of the verb in brackets.",
+      "q": "Write the correct form of the adjective in brackets.",
       "lines": [
-       "My grandma {0} (teach) me to cook last summer."
+       "My uncle is the {0} person in our family. (funny)"
       ],
       "ans": [
        [
-        "taught"
+        "funniest"
        ]
       ]
      },
      {
       "hint": {
-       "step": "'Have you ever' needs the past participle."
+       "step": "Look at the word after the gap. 'than' needs a comparative."
       },
-      "worked": "Present perfect: have + <b>seen</b>.",
+      "worked": "Two boxes are compared with 'than': heavy becomes <b>heavier</b> (y changes to i).",
       "type": "tfill",
-      "q": "Write the correct form of the verb in brackets.",
+      "q": "Write the correct form of the adjective in brackets.",
       "lines": [
-       "Have you ever {0} (see) a whale?"
+       "This box is {0} than that one. (heavy)"
       ],
       "ans": [
        [
-        "seen"
+        "heavier"
        ]
       ]
      }
@@ -1599,46 +1566,143 @@
    {
     "dok": 1,
     "lo": [
-     "6Wor.03"
+     "5Wor.02"
     ],
     "v": [
      {
       "hint": {
-       "step": "A title is short, with capital letters."
+       "step": "Ask: why did the writer choose a dragon?"
       },
-      "worked": "'My Brilliant Best Friend' is a clear, interesting title.",
+      "worked": "Flying is the reason for the choice, so <b>because</b> is right.",
       "type": "mcq",
-      "q": "Which is the best title for a description of your best friend?",
+      "q": "'I chose a dragon ________ dragons can fly.' Choose the best word.",
       "opts": [
-       "My Brilliant Best Friend",
-       "Dear Nhung,",
-       "she is nice and funny"
+       "because",
+       "so",
+       "first"
       ],
       "at": 2,
       "whys": [
        null,
-       "This is how you start a letter.",
-       "This is a sentence with no capital letters."
+       "'so' shows a result, but flying is the reason.",
+       "'first' starts a step; it cannot join two ideas."
       ],
       "letters": true
      },
      {
       "hint": {
-       "step": "A title is short and makes people want to read."
+       "step": "Is the second part a reason or a result?"
       },
-      "worked": "'Our Fantastic Sports Day' is short and interesting.",
+      "worked": "Picking up the rubbish is the result of a dirty street, so <b>so</b> is right.",
       "type": "mcq",
-      "q": "Which is the best title for an article about a school sports day?",
+      "q": "'The street was dirty, ________ we picked up the rubbish.' Choose the best word.",
       "opts": [
-       "Our Fantastic Sports Day",
-       "Hi everyone, how are you?",
-       "sports day was on friday"
+       "so",
+       "because",
+       "also"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "'because' gives a reason, but picking up rubbish is the result.",
+       "'also' adds an idea; it does not show a result."
+      ],
+      "letters": true
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "5Wca.02"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Say the word slowly and picture each part."
+      },
+      "worked": "The right spelling is <b>beautiful</b>: b-e-a-u-t-i-f-u-l.",
+      "type": "mcq",
+      "q": "Which word is spelled correctly?",
+      "opts": [
+       "beautiful",
+       "beautifull",
+       "beatiful"
       ],
       "at": 0,
       "whys": [
        null,
-       "This is a greeting, not a title.",
-       "This is a sentence, and 'Friday' needs a capital letter."
+       "Words ending in -ful have only one l.",
+       "This word is missing the letter u after the e."
+      ],
+      "letters": true
+     },
+     {
+      "hint": {
+       "step": "Remember the British spelling with -our-."
+      },
+      "worked": "The right British spelling is <b>favourite</b>.",
+      "type": "mcq",
+      "q": "Which word is spelled correctly?",
+      "opts": [
+       "favourite",
+       "favourit",
+       "faverite"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "This word needs an e at the end.",
+       "The middle of the word is spelled -our-."
+      ],
+      "letters": true
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "5Wor.03",
+     "5Wca.03"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Look at the task instructions: they tell you the number of sentences."
+      },
+      "worked": "Both tasks ask for <b>7 to 8 sentences</b>, about 60 to 90 words.",
+      "type": "mcq",
+      "q": "How many sentences should you write for each writing task?",
+      "opts": [
+       "about 7 to 8",
+       "about 2 to 3",
+       "about 20"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "2 to 3 sentences is much too short for the task.",
+       "20 sentences is far too long and takes too much time."
+      ],
+      "letters": true
+     },
+     {
+      "hint": {
+       "step": "Look at the task instructions: they tell you how many paragraphs."
+      },
+      "worked": "The task says 'Write <b>1 to 2 paragraphs</b>'.",
+      "type": "mcq",
+      "q": "How should you set out a Task 1 answer?",
+      "opts": [
+       "in one or two paragraphs",
+       "as a list of single words",
+       "as a letter with a greeting"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Single words are not sentences, so they cannot explain your ideas.",
+       "Task 1 is not a letter, so you don't need a greeting."
       ],
       "letters": true
      }
@@ -1647,61 +1711,62 @@
    {
     "dok": 2,
     "lo": [
-     "6Wca.03"
+     "5Wca.03",
+     "5Wc.02"
     ],
     "v": [
      {
       "hint": {
-       "step": "Look for a reason with 'because' or 'so'."
+       "step": "Tick each bullet point when you find it in the answer."
       },
-      "worked": "There is no reason, so the third bullet point is missing.",
+      "worked": "Rory says what to do, what not to do and why, but nothing about <b>every practice</b>.",
       "type": "mcq",
-      "q": "Task: say what to get ready, give the steps, explain why one step is important. Which bullet point is missing?",
+      "q": "Which bullet point has Rory forgotten?",
       "opts": [
-       "a reason why one step matters",
-       "the things to get ready",
-       "the steps in the right order"
+       "good habits at every practice",
+       "what you mustn't do",
+       "why it is important"
       ],
       "at": 1,
       "whys": [
        null,
-       "'You need a pencil, a ruler and some paper' is what to get ready.",
-       "'First... Next... Finally...' are the steps."
+       "He wrote 'You mustn't shout at a player ...'.",
+       "He wrote 'This is important because ...'."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
-       "id": "s9-t-ben",
+       "id": "s9-t-team",
        "kind": "text",
-       "head": "An answer to Ben",
-       "html": "Hi Ben! You need a pencil, a ruler and some paper. First, draw a big circle. Next, draw two small circles for the eyes. Finally, colour it in. Have fun!"
+       "head": "Task 1: How to be a good team player",
+       "html": "<b>Include all of the following:</b><br>• what team players should do<br>• good habits at every practice<br>• what you mustn't do<br>• why it is important<br><br><b>Rory's answer:</b><br>Good team players should pass the ball and help each other. You mustn't shout at a player who makes a mistake. You also shouldn't be angry when your team loses. This is important because a happy team plays better."
       }
      },
      {
       "hint": {
-       "step": "Look for a reason with 'because' or 'so'."
+       "step": "Tick each bullet point when you find it in the answer."
       },
-      "worked": "No step has a reason, so the third bullet point is missing.",
+      "worked": "Layla never explains <b>why</b>: there is no 'because' or 'This is important'.",
       "type": "mcq",
-      "q": "Task: say what Grandpa needs, give the steps, explain why one step is important. Which bullet point is missing?",
+      "q": "Which bullet point has Layla forgotten?",
       "opts": [
-       "a reason why one step matters",
-       "the things Grandpa needs",
-       "the steps in the right order"
+       "why it is important",
+       "how to help in lessons",
+       "what you shouldn't do"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
-       "'you need your phone and the charger' is what he needs.",
-       "'First... Then...' are the steps."
+       "She wrote 'In lessons, you can sit next to them ...'.",
+       "She wrote 'You shouldn't leave them alone ...'."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
-       "id": "s9-t-grandpa",
+       "id": "s9-t-newpupil",
        "kind": "text",
-       "head": "An answer to Grandpa",
-       "html": "Dear Grandpa, you need your phone and the charger. First, plug the charger into the wall. Then connect the cable to your phone and wait. Watch the battery picture on the screen."
+       "head": "Task 1: How to help a new pupil",
+       "html": "<b>Include all of the following:</b><br>• what classmates should do on the first day<br>• how to help in lessons<br>• what you shouldn't do<br>• why it is important<br><br><b>Layla's answer:</b><br>On the first day, you should say hello and tell the new pupil your name. You should also show them the canteen and the library. In lessons, you can sit next to them and lend them a pencil. You shouldn't leave them alone at break time."
       }
      }
     ]
@@ -1709,95 +1774,47 @@
    {
     "dok": 2,
     "lo": [
-     "6Wc.01",
-     "6Wc.03"
+     "5Wc.03",
+     "5Wor.02"
     ],
     "v": [
      {
       "hint": {
-       "step": "Look for 'because' and a real reason."
+       "step": "A reason often starts with 'because'."
       },
-      "worked": "'<b>because</b> germs can make you ill' explains why washing is important.",
+      "worked": "<b>because plants need care to grow</b> explains why we should look after the garden.",
       "type": "mcq",
-      "q": "Which sentence best explains why a step is important?",
+      "q": "Task: How to look after the school garden. Which sentence best explains why it is important?",
       "opts": [
-       "Wash your hands first, because germs can make you ill.",
-       "Wash your hands first, and then get a big bowl.",
-       "Washing your hands is easy and it takes one minute."
-      ],
-      "at": 0,
-      "whys": [
-       null,
-       "This gives the next step, not a reason.",
-       "This describes washing, but doesn't say why it matters."
-      ],
-      "letters": true
-     },
-     {
-      "hint": {
-       "step": "Look for 'so' and a real reason."
-      },
-      "worked": "'<b>so</b> it doesn't stop during the call' explains why charging is important.",
-      "type": "mcq",
-      "q": "Which sentence best explains why a step is important?",
-      "opts": [
-       "Charge the tablet first, so it doesn't stop during the call.",
-       "Charge the tablet first, and then open the video app.",
-       "Charging the tablet is quick and it is very easy."
-      ],
-      "at": 1,
-      "whys": [
-       null,
-       "This gives the next step, not a reason.",
-       "This describes charging, but doesn't say why it matters."
-      ],
-      "letters": true
-     }
-    ]
-   },
-   {
-    "dok": 2,
-    "lo": [
-     "6Wca.03"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Is 128 more or less than 110?"
-      },
-      "worked": "128 is more than 110, so he should cut some less important details.",
-      "type": "mcq",
-      "q": "Task 2 needs 90 to 110 words. Bao has written 128 words. What should he do?",
-      "opts": [
-       "Cut some less important details.",
-       "Add one more paragraph.",
-       "Leave it, because longer is better."
+       "This is important because plants need care to grow.",
+       "The school garden is behind the sports hall, next to the canteen.",
+       "First, fill the watering can with water."
       ],
       "at": 2,
       "whys": [
        null,
-       "More words would make it even longer.",
-       "He should stay inside 90 to 110 words."
+       "This says where the garden is, not why the advice matters.",
+       "This is a step, not a reason."
       ],
       "letters": true
      },
      {
       "hint": {
-       "step": "Is 26 more or less than 35?"
+       "step": "A reason often starts with 'because'."
       },
-      "worked": "26 is less than 35, so she should add a reason or a useful detail.",
+      "worked": "<b>because cars can't always stop quickly</b> explains why we must be careful.",
       "type": "mcq",
-      "q": "Task 1 needs 35 to 45 words. Mai has written 26 words. What should she do?",
+      "q": "Task: How to be safe near a road. Which sentence best explains why it is important?",
       "opts": [
-       "Add a reason or a detail.",
-       "Take out one of her steps.",
-       "Add a title at the top."
+       "It matters because cars can't always stop quickly.",
+       "The road near my school is very long and wide.",
+       "Next, look left and right before you cross."
       ],
       "at": 0,
       "whys": [
        null,
-       "Taking words out makes it even shorter.",
-       "Task 1 doesn't need a title, and it won't add enough words."
+       "This describes the road; it does not give a reason.",
+       "This is a step, not a reason."
       ],
       "letters": true
      }
@@ -1806,96 +1823,145 @@
    {
     "dok": 2,
     "lo": [
-     "6Wor.02",
-     "6Wor.03"
+     "5Ug.11",
+     "5Wca.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "Think: title, paragraphs, sentences."
+       "step": "Look at 'than'. Which form of the adjective goes before it?"
       },
-      "worked": "A title and three paragraphs, one for each point, is clear for the reader.",
+      "worked": "Two animals are compared with 'than', so <b>smaller than</b> is correct.",
       "type": "mcq",
-      "q": "Task 2 has three bullet points: describe, explain, give your opinion. Which plan is best?",
+      "q": "Which sentence is correct?",
       "opts": [
-       "a title, then one paragraph for each point",
-       "one long paragraph with no title",
-       "a title, then a list of single words"
-      ],
-      "at": 1,
-      "whys": [
-       null,
-       "Task 2 needs a title, and paragraphs make it easier to read.",
-       "A list of words isn't a text: write full sentences."
-      ],
-      "letters": true
-     },
-     {
-      "hint": {
-       "step": "Look for a linking word that shows a contrast."
-      },
-      "worked": "'<b>but</b>' links two different ideas in one sentence.",
-      "type": "mcq",
-      "q": "Which sentence links two ideas best?",
-      "opts": [
-       "The Arctic fox is small, but it is very strong.",
-       "The Arctic fox is small. The Arctic fox is strong.",
-       "The Arctic fox is small, strong, it is fox."
-      ],
-      "at": 0,
-      "whys": [
-       null,
-       "This repeats 'The Arctic fox' and has no linking word.",
-       "This sentence is not correct English."
-      ],
-      "letters": true
-     }
-    ]
-   },
-   {
-    "dok": 2,
-    "lo": [
-     "6Wc.03",
-     "6Wc.02"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "A good ending gives your opinion or a hope."
-      },
-      "worked": "It sums up why you admire her and gives a hope for the future.",
-      "type": "mcq",
-      "q": "Which is the best last sentence for a text about a person you admire?",
-      "opts": [
-       "That's why I hope to be as kind as her one day.",
-       "She has got a blue car and a small cat.",
-       "First, open the box and take the toy out."
+       "My cat is smaller than my dog.",
+       "My cat is smallest than my dog.",
+       "My cat is small than my dog."
       ],
       "at": 2,
       "whys": [
        null,
-       "This is a small detail, not a strong ending.",
-       "This is an instruction, not about the person."
+       "'smallest' is a superlative and cannot go before 'than'.",
+       "Before 'than' we need the -er form: smaller."
       ],
       "letters": true
      },
      {
       "hint": {
-       "step": "A good ending gives your opinion."
+       "step": "What form of the verb comes after a modal like mustn't?"
       },
-      "worked": "'<b>In my opinion</b>, it's the best night of the year' gives a clear opinion to finish.",
+      "worked": "After <b>mustn't</b> we use the base verb: <b>mustn't feed</b>.",
       "type": "mcq",
-      "q": "Which is the best last sentence for a description of a festival?",
+      "q": "Which sentence is correct?",
       "opts": [
-       "In my opinion, it's the best night of the year.",
-       "The festival is in the street near my house.",
-       "Next, buy a lantern from the shop."
+       "You mustn't feed the ducks bread.",
+       "You mustn't feeding the ducks bread.",
+       "You mustn't fed the ducks bread."
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "After 'mustn't' we use the base verb, not the -ing form.",
+       "After 'mustn't' we use the base verb, not the past form."
+      ],
+      "letters": true
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "5Wor.02",
+     "5Wor.03"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "A good first sentence tells the reader what you are writing about."
+      },
+      "worked": "<b>My dream bike would be bright red</b> introduces the bike and starts to describe it.",
+      "type": "mcq",
+      "q": "Which is the best first sentence for 'My dream bike'?",
+      "opts": [
+       "My dream bike would be bright red with silver wheels.",
+       "That is why I chose it.",
+       "You mustn't ride it on the pavement."
       ],
       "at": 0,
       "whys": [
        null,
-       "This describes the place; it belongs at the start.",
-       "This is an instruction, not a description."
+       "'That is why' sums up, so it belongs at the end.",
+       "This is a rule, not a description of the bike."
+      ],
+      "letters": true
+     },
+     {
+      "hint": {
+       "step": "A good first sentence tells the reader what the text is about."
+      },
+      "worked": "<b>There are many easy ways to save energy</b> introduces the topic of the text.",
+      "type": "mcq",
+      "q": "Which is the best first sentence for 'How to save energy at school'?",
+      "opts": [
+       "There are many easy ways to save energy at school.",
+       "That is why I switch off the lights.",
+       "Our school is bigger than the park."
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "'That is why' sums up, so it belongs at the end.",
+       "This compares places; it is not about saving energy."
+      ],
+      "letters": true
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "5Wc.03",
+     "5Wc.02"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "A good ending gives your opinion or your reason."
+      },
+      "worked": "<b>That's why a rabbit would be the best pet</b> gives the writer's opinion to finish.",
+      "type": "mcq",
+      "q": "Which is the best last sentence for 'An animal I would like as a pet'?",
+      "opts": [
+       "That's why a rabbit would be the best pet for me.",
+       "First, buy some food at the pet shop.",
+       "It has long ears, soft white fur and a small pink nose."
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "This is an instruction, not an ending for a description.",
+       "This describes the rabbit; it belongs near the start."
+      ],
+      "letters": true
+     },
+     {
+      "hint": {
+       "step": "A good ending sums up and says why the advice matters."
+      },
+      "worked": "<b>If everyone does this, we can save lots of water</b> sums up the advice.",
+      "type": "mcq",
+      "q": "Which is the best last sentence for 'How to save water at home'?",
+      "opts": [
+       "If everyone does this, we can save lots of water.",
+       "Our bathroom has a big blue tap and a small white sink.",
+       "Next, you need a big bucket."
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "This is a small detail, not an ending that sums up.",
+       "'Next' starts a step in the middle of a text."
       ],
       "letters": true
      }
@@ -1907,183 +1973,271 @@
   "secs": 60,
   "items": [
    [
-    "The first step starts with ___",
+    "Good idea: You ___ wear a hat.",
     [
-     "First",
-     "Finally",
-     "However"
+     "should",
+     "shouldn't",
+     "mustn't"
     ]
    ],
    [
-    "The last step starts with ___",
+    "Bad idea: You ___ stay up late.",
+    [
+     "shouldn't",
+     "should",
+     "need to"
+    ]
+   ],
+   [
+    "Not allowed: You ___ run here.",
+    [
+     "mustn't",
+     "should",
+     "need to"
+    ]
+   ],
+   [
+    "Necessary: You ___ bring a pen.",
+    [
+     "need to",
+     "shouldn't",
+     "mustn't"
+    ]
+   ],
+   [
+    "A rule: Everyone ___ wear a helmet.",
+    [
+     "must",
+     "mustn't",
+     "shouldn't"
+    ]
+   ],
+   [
+    "You should ___ to your teacher.",
+    [
+     "listen",
+     "to listen",
+     "listening"
+    ]
+   ],
+   [
+    "You need ___ water the plants.",
+    [
+     "to",
+     "for",
+     "at"
+    ]
+   ],
+   [
+    "You mustn't ___ the paintings.",
+    [
+     "touch",
+     "touching",
+     "touched"
+    ]
+   ],
+   [
+    "The first idea starts with ___",
+    [
+     "First",
+     "Finally",
+     "Because"
+    ]
+   ],
+   [
+    "The last idea starts with ___",
     [
      "Finally",
      "First",
-     "Next"
+     "Also"
     ]
    ],
    [
     "Which word gives a reason?",
     [
      "because",
-     "then",
-     "next"
+     "so",
+     "first"
     ]
    ],
    [
     "Which word shows a result?",
     [
      "so",
-     "first",
-     "although"
-    ]
-   ],
-   [
-    "Which word shows an opposite idea?",
-    [
-     "however",
-     "next",
-     "because"
+     "because",
+     "first"
     ]
    ],
    [
     "Which word adds another idea?",
     [
      "also",
+     "because",
+     "finally"
+    ]
+   ],
+   [
+    "Which words give an example?",
+    [
+     "for example",
      "finally",
-     "but"
+     "because"
     ]
    ],
    [
-    "Don't forget ___ your coat.",
+    "Which word shows a different idea?",
     [
-     "to bring",
-     "bring",
-     "bringing"
+     "but",
+     "also",
+     "first"
     ]
    ],
    [
-    "Make sure you ___ the door.",
+    "Comparative of big?",
     [
-     "lock",
-     "to lock",
-     "locking"
+     "bigger",
+     "the biggest",
+     "big"
     ]
    ],
    [
-    "Good advice: You ___ drink water.",
+    "Superlative of happy?",
     [
-     "should",
-     "mustn't",
-     "needn't"
+     "the happiest",
+     "happier",
+     "happy"
     ]
    ],
    [
-    "Rule: You ___ run near the pool.",
+    "Comparative of exciting?",
     [
-     "mustn't",
-     "should",
-     "can"
+     "more exciting",
+     "the most exciting",
+     "excited"
     ]
    ],
    [
-    "Not necessary: You ___ bring food.",
+    "Superlative of beautiful?",
     [
-     "needn't",
-     "must",
-     "should"
+     "the most beautiful",
+     "more beautiful",
+     "beautifully"
     ]
    ],
    [
-    "Task 1 length?",
+    "Comparative of good?",
     [
-     "35 to 45 words",
-     "90 to 110 words",
-     "10 to 20 words"
+     "better",
+     "best",
+     "well"
     ]
    ],
    [
-    "Task 2 length?",
+    "Superlative of bad?",
     [
-     "90 to 110 words",
-     "35 to 45 words",
-     "200 words"
+     "the worst",
+     "worse",
+     "badly"
     ]
    ],
    [
-    "Which task needs a title?",
+    "My cat is ___ than my dog.",
     [
-     "Task 2",
-     "Task 1",
-     "neither"
+     "smaller",
+     "smallest",
+     "small"
     ]
    ],
    [
-    "How many bullet points in each task?",
+    "It's the ___ day of the year!",
     [
-     "three",
-     "two",
-     "five"
+     "best",
+     "better",
+     "good"
     ]
    ],
    [
-    "British spelling:",
+    "She is the ___ girl in class.",
     [
-     "favourite",
-     "favorite",
-     "favrite"
+     "tallest",
+     "taller",
+     "tall"
     ]
    ],
    [
-    "British spelling:",
+    "It is ___ than a feather.",
     [
-     "colour",
-     "color",
-     "culour"
+     "lighter",
+     "lightest",
+     "light"
     ]
    ],
    [
-    "British spelling:",
+    "He runs ___ than me.",
     [
-     "centre",
-     "center",
-     "sentre"
+     "faster",
+     "fastest",
+     "fast"
     ]
    ],
    [
-    "British spelling:",
+    "It's the ___ exciting game of all.",
     [
-     "theatre",
-     "theater",
-     "theeter"
+     "most",
+     "more",
+     "much"
     ]
    ],
    [
-    "British spelling:",
+    "Which word is an adjective?",
     [
-     "practise (verb)",
-     "practize",
-     "praktise"
+     "shiny",
+     "quickly",
+     "jump"
     ]
    ],
    [
-    "Correct spelling:",
+    "Which word is an adjective?",
+    [
+     "enormous",
+     "slowly",
+     "run"
+    ]
+   ],
+   [
+    "Which word is an adjective?",
+    [
+     "friendly",
+     "always",
+     "swim"
+    ]
+   ],
+   [
+    "Correct spelling?",
     [
      "beautiful",
-     "beatiful",
-     "beautifull"
+     "beautifull",
+     "beatiful"
     ]
    ],
    [
-    "Correct spelling:",
+    "Correct spelling?",
+    [
+     "favourite",
+     "favourit",
+     "faverite"
+    ]
+   ],
+   [
+    "Correct spelling?",
     [
      "because",
-     "becose",
-     "becaus"
+     "becaus",
+     "becose"
     ]
    ],
    [
-    "Correct spelling:",
+    "Correct spelling?",
     [
      "friend",
      "freind",
@@ -2091,229 +2245,141 @@
     ]
    ],
    [
-    "Correct spelling:",
-    [
-     "really",
-     "realy",
-     "relly"
-    ]
-   ],
-   [
-    "Correct spelling:",
-    [
-     "different",
-     "diffrent",
-     "diferent"
-    ]
-   ],
-   [
-    "Correct spelling:",
+    "Correct spelling?",
     [
      "important",
      "importent",
-     "impotant"
+     "importnt"
     ]
    ],
    [
-    "Yesterday I ___ to the zoo.",
+    "Correct spelling?",
+    [
+     "colourful",
+     "colourfull",
+     "culourful"
+    ]
+   ],
+   [
+    "Yesterday we ___ to the park.",
     [
      "went",
      "go",
-     "goed"
+     "are going"
     ]
    ],
    [
-    "Last week we ___ a cake.",
+    "Every day she ___ to school.",
     [
-     "made",
-     "make",
-     "maked"
+     "walks",
+     "walk",
+     "walking"
     ]
    ],
    [
-    "She ___ her bike every day.",
+    "How many sentences for each task?",
     [
-     "rides",
-     "ride",
-     "riding"
+     "7 to 8",
+     "2 to 3",
+     "20"
     ]
    ],
    [
-    "I have ___ finished my homework.",
+    "How many paragraphs for each task?",
     [
-     "already",
-     "yet",
-     "ever"
+     "1 or 2",
+     "5 or 6",
+     "none"
     ]
    ],
    [
-    "There ___ many people there.",
+    "A sentence starts with a ___",
     [
-     "were",
-     "was",
-     "is"
+     "capital letter",
+     "full stop",
+     "comma"
     ]
    ],
    [
-    "A good title has ___",
+    "A sentence ends with a ___",
     [
-     "capital letters",
-     "no words",
-     "a greeting"
+     "full stop",
+     "capital letter",
+     "comma"
     ]
    ],
    [
-    "Dear Grandma, is a ___",
+    "The task's list of things to include?",
     [
-     "greeting",
-     "title",
-     "paragraph"
+     "bullet points",
+     "full stops",
+     "titles"
     ]
    ],
    [
-    "One paragraph is about ___",
+    "Read again to find mistakes = ___",
     [
-     "one main idea",
-     "every idea",
-     "the title"
+     "check",
+     "copy",
+     "rub out"
     ]
    ],
    [
-    "To proofread means to ___",
+    "I chose it ___ it is fun.",
     [
-     "check for mistakes",
-     "copy the text",
-     "draw pictures"
+     "because",
+     "so",
+     "but"
     ]
    ],
    [
-    "Opinion starter:",
-    [
-     "In my opinion",
-     "First of all",
-     "After that"
-    ]
-   ],
-   [
-    "Opinion starter:",
-    [
-     "I think",
-     "Next",
-     "Then"
-    ]
-   ],
-   [
-    "Time word for a story:",
-    [
-     "After lunch",
-     "Because",
-     "However"
-    ]
-   ],
-   [
-    "Wash it, ___ it is clean.",
+    "It rained, ___ we stayed in.",
     [
      "so",
-     "but",
-     "or"
+     "because",
+     "also"
     ]
    ],
    [
-    "Close the lid, ___ it will spill.",
+    "___ example, share your pens.",
     [
-     "or",
-     "so",
-     "because"
+     "For",
+     "So",
+     "Because"
     ]
    ],
    [
-    "Hold it at eye level, ___ he sees you.",
+    "Visitors ___ feed the zoo animals.",
     [
-     "so",
-     "but",
-     "or"
+     "mustn't",
+     "need to",
+     "should"
     ]
    ],
    [
-    "Advice starter:",
+    "Task 1: you explain and give ___",
     [
-     "You should",
-     "I went",
-     "There is"
+     "advice",
+     "a story",
+     "a poem"
     ]
    ],
    [
-    "'Cut', 'wash' and 'pour' are ___ verbs",
-    [
-     "instruction",
-     "opinion",
-     "feeling"
-    ]
-   ],
-   [
-    "'Cut the bread.' This is ___",
-    [
-     "an instruction",
-     "an opinion",
-     "a title"
-    ]
-   ],
-   [
-    "'It was amazing!' This is ___",
-    [
-     "an opinion",
-     "an instruction",
-     "a greeting"
-    ]
-   ],
-   [
-    "Missing a bullet point loses ___ marks",
-    [
-     "content",
-     "spelling",
-     "title"
-    ]
-   ],
-   [
-    "Finish a description with your ___",
+    "A good ending gives your ___",
     [
      "opinion",
      "address",
      "shopping list"
-    ]
-   ],
-   [
-    "Join: small ___ strong",
-    [
-     "but",
-     "so",
-     "because"
-    ]
-   ],
-   [
-    "The fox is fast. It is ___ clever.",
-    [
-     "also",
-     "but",
-     "so"
-    ]
-   ],
-   [
-    "Best adjective for an exciting race:",
-    [
-     "thrilling",
-     "nice",
-     "OK"
     ]
    ]
   ]
  },
  "selfcheck": {
   "goals": [
-   "write instructions in order with First, Next and Finally",
-   "give advice with should, make sure you and don't forget to",
-   "explain a reason or an opinion with because, so and In my opinion",
-   "plan a Task 2 text with a title and three paragraphs, then proofread it"
+   "give advice and rules with should, shouldn't, must, mustn't and need to",
+   "describe my choice with adjectives and a comparative or superlative",
+   "link my ideas with First, also, because, so and Finally",
+   "cover every bullet point in 7 to 8 sentences, then check my writing"
   ],
   "again": [
    "c",

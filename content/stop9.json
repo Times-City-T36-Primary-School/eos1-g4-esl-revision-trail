@@ -77,7 +77,7 @@
    "first": {
     "emoji": "1️⃣",
     "vi": "đầu tiên",
-    "def": "Use it to start your first idea or step.",
+    "def": "Use it to start the opening idea or step of your text.",
     "ex": "*First*, put the rubbish in the bin."
    },
    "also": {
@@ -893,14 +893,14 @@
         "Task achievement and content 2/2: all the bullet points are covered, with an example and a clear reason.",
         "Organisation and layout 1/2: one clear paragraph, but there are only a few linking words. 'First' or 'Finally' would guide the reader.",
         "Grammar 2/2: a good range of modal verbs (should, need to, mustn't, shouldn't), all used correctly.",
-        "Vocabulary and spelling 2/2: all words are spelled correctly, with useful phrases like 'leave anyone out'.",
+        "Vocabulary and spelling 1/2: all words are spelled correctly, but they are quite everyday (hello, happy); 'greet' or 'kindness' would add variety.",
         "Fluency 2/2: complete sentences that are easy to read."
        ],
        "marks": {
         "content": 2,
         "organisation": 1,
         "grammar": 2,
-        "vocabulary": 2,
+        "vocabulary": 1,
         "fluency": 2
        }
       },
@@ -1103,7 +1103,7 @@
      "models": [
       {
        "level": "Developing",
-       "text": "My new dish is rainbow rice. It have rice with many colour vegetables. It is yellow, green and red. It is special because it is very pretty. I will eat it at lunch with my friends. I chose it because I like rice and vegetables. It is good.",
+       "text": "My new dish is rainbow rice. It have rice with many colour vegetables. It is yellow, green and red. It is special because it is very pretty. I will eat it at lunch on Friday with my best friends. I chose it because I like rice and vegetables. It is good.",
        "notes": [
         "Task achievement and content 1/2: all four bullet points are mentioned, but each one has very little detail. It is a little short.",
         "Organisation and layout 1/2: a sensible order, but 'because' is the only linking word.",
@@ -1216,7 +1216,7 @@
       },
       {
        "level": "Excellent",
-       "text": "My superhero is called Night Owl, and she is the cleverest hero in the city. She wears a dark purple cape with soft grey feathers, and her golden eyes can see in the dark.<br><br>What makes her special is that she is calm and generous. Every night, she would fly over the streets to find lost pets. She can also fly more quietly than a real owl. I chose her because she shows that kind heroes are the strongest heroes of all.",
+       "text": "My superhero is called Night Owl, and she is the cleverest hero in the city. She wears a dark purple cape with soft grey feathers. Her golden eyes can see in the dark.<br><br>What makes her special is that she is calm and generous. Every night, she would fly over the streets to find lost pets. She can also fly more quietly than a real owl. I chose her because she shows that kind heroes are the strongest heroes of all.",
        "notes": [
         "Task achievement and content 2/2: all four bullet points are covered and developed.",
         "Organisation and layout 2/2: two paragraphs (what she looks like, then what she does and why) with clear linking words.",

@@ -1,22 +1,23 @@
-/* 22-pack-stop7.js - ALL the content of Stop 7, Grammar in sentences and emails (Grade 5 ESL, Cambridge Stage 6).
+/* 22-pack-stop7.js - ALL the content of Stop 7, Grammar in sentences and letters (Grade 4 ESL, Cambridge Stage 5).
    Made by scripts/convert.py from content/stop7.json (written from the exam-style guide only; no real paper seen). */
 (function (T) {
   'use strict';
-  window.T_ART = Object.assign(window.T_ART || {}, {"e-s7-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"passive\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏭</text></svg>", "e-s7-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"present perfect\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔗</text></svg>", "e-s7-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"past simple\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏪</text></svg>", "e-s7-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"first conditional\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔀</text></svg>", "e-s7-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"auxiliary\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🧰</text></svg>", "e-s7-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"relative pronoun\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👉</text></svg>", "e-s7-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"modal\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🚦</text></svg>", "e-s7-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"article\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🅰️</text></svg>", "e-s7-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"preposition\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📍</text></svg>", "e-s7-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"gap\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕳️</text></svg>", "e-s7-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"clue\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔍</text></svg>", "e-s7-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"subject\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🧍</text></svg>", "e-s7-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"tense\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏰</text></svg>"});
+  window.T_ART = Object.assign(window.T_ART || {}, {"e-s7-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"past simple\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏪</text></svg>", "e-s7-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"present continuous\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">▶️</text></svg>", "e-s7-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"plan\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🗓️</text></svg>", "e-s7-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"time clue\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏰</text></svg>", "e-s7-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"preposition\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📍</text></svg>", "e-s7-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"quantifier\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔢</text></svg>", "e-s7-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"relative word\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👉</text></svg>", "e-s7-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"indefinite pronoun\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❓</text></svg>", "e-s7-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"comparative\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📏</text></svg>", "e-s7-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"word box\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🗃️</text></svg>", "e-s7-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"gap\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕳️</text></svg>", "e-s7-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"extra\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">➕</text></svg>", "e-s7-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"countable\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍎</text></svg>", "e-s7-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"uncountable\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💧</text></svg>"});
   T.packs[7] = {
  "n": 7,
- "title": "Grammar in sentences and emails",
+ "title": "Grammar in sentences and letters",
  "los": [
-  "6Ug.04",
-  "6Ug.07",
-  "6Ug.12",
-  "6Ug.09",
-  "6Us.05",
-  "6Uv.02"
+  "5Ug.04",
+  "5Us.04",
+  "5Ug.11",
+  "5Uv.01",
+  "5Ug.05",
+  "5Us.01",
+  "5Us.02"
  ],
  "blurb": {
-  "en": "Choose the right verb form in a story and write one grammar word in each email gap.",
-  "vi": "Chọn đúng dạng động từ trong câu chuyện và điền một từ ngữ pháp vào mỗi chỗ trống trong email."
+  "en": "Choose the right word in a short story and fill the gaps in a letter from a word box.",
+  "vi": "Chọn đúng từ trong một câu chuyện ngắn và điền vào chỗ trống trong lá thư bằng các từ trong hộp từ."
  },
  "words": {
   "sets": [
@@ -27,10 +28,10 @@
      "vi": "Dạng động từ"
     },
     "keys": [
-     "passive",
-     "present perfect",
      "past simple",
-     "first conditional"
+     "present continuous",
+     "plan",
+     "time clue"
     ]
    },
    {
@@ -40,11 +41,11 @@
      "vi": "Từ ngữ pháp nhỏ"
     },
     "keys": [
-     "auxiliary",
-     "relative pronoun",
-     "modal",
-     "article",
-     "preposition"
+     "preposition",
+     "quantifier",
+     "relative word",
+     "indefinite pronoun",
+     "comparative"
     ]
    },
    {
@@ -54,78 +55,84 @@
      "vi": "Chiến lược điền chỗ trống"
     },
     "keys": [
+     "word box",
      "gap",
-     "clue",
-     "subject",
-     "tense"
+     "extra",
+     "countable",
+     "uncountable"
     ]
    }
   ],
   "items": {
-   "passive": {
-    "art": "e-s7-0",
-    "vi": "câu bị động",
-    "def": "A verb form where the action is done to the subject, like 'is made' or 'was built'. Example: 'Paper is made from wood' is a *passive* sentence."
-   },
-   "present perfect": {
-    "art": "e-s7-1",
-    "vi": "thì hiện tại hoàn thành",
-    "def": "have or has + past participle, for past actions that are linked to now. Example: 'I have finished' is in the *present perfect*."
-   },
    "past simple": {
-    "art": "e-s7-2",
+    "art": "e-s7-0",
     "vi": "thì quá khứ đơn",
-    "def": "A verb form for finished actions at a time in the past. Example: 'We visited the zoo last Sunday' is in the *past simple*."
+    "def": "The verb form for finished actions, like 'went', 'played' and 'was'. Example: 'We played football yesterday' is in the *past simple*."
    },
-   "first conditional": {
+   "present continuous": {
+    "art": "e-s7-1",
+    "vi": "thì hiện tại tiếp diễn",
+    "def": "am, is or are + a verb with -ing, like 'is reading' or 'are visiting'. Example: 'She is reading now' is in the *present continuous*."
+   },
+   "plan": {
+    "art": "e-s7-2",
+    "vi": "kế hoạch",
+    "def": "Something you have decided to do later, often on a day or at a time. Example: Our *plan* is to visit the zoo on Saturday."
+   },
+   "time clue": {
     "art": "e-s7-3",
-    "vi": "câu điều kiện loại 1",
-    "def": "If + present, will + verb: a real possibility in the future. Example: 'If it rains, we will stay inside' is a *first conditional*."
-   },
-   "auxiliary": {
-    "art": "e-s7-4",
-    "vi": "trợ động từ",
-    "def": "A helping verb, like be, have, do or will, that goes with a main verb. Example: In 'She has gone home', 'has' is the *auxiliary*."
-   },
-   "relative pronoun": {
-    "art": "e-s7-5",
-    "vi": "đại từ quan hệ",
-    "def": "Who, which, whose, where or that: it adds information about a noun. Example: In 'the boy who won', 'who' is a *relative pronoun*."
-   },
-   "modal": {
-    "art": "e-s7-6",
-    "vi": "động từ khuyết thiếu",
-    "def": "A word like must, should, can or needn't that goes before another verb. Example: 'Should' is a *modal* that we use to give advice."
-   },
-   "article": {
-    "art": "e-s7-7",
-    "vi": "mạo từ",
-    "def": "The small words a, an and the that go before a noun. Example: 'An' is the *article* we use before 'apple'."
+    "vi": "từ chỉ thời gian (manh mối)",
+    "def": "Words like yesterday, now or next week that tell you which verb form to use. Example: 'Last night' is a *time clue*: it tells you to use the past simple."
    },
    "preposition": {
-    "art": "e-s7-8",
+    "art": "e-s7-4",
     "vi": "giới từ",
-    "def": "A small word like on, at, by or without that goes before a noun. Example: In 'by bus', 'by' is a *preposition*."
+    "def": "A small word like at, in, of or about. It often comes after an adjective. Example: In 'good at maths', 'at' is a *preposition*."
+   },
+   "quantifier": {
+    "art": "e-s7-5",
+    "vi": "từ chỉ số lượng",
+    "def": "A word that tells you how many or how much, like both, all, fewer or less. Example: 'Fewer' is a *quantifier* for things we can count."
+   },
+   "relative word": {
+    "art": "e-s7-6",
+    "vi": "từ quan hệ (who, which, where)",
+    "def": "Who, which or where: it adds information about a person, a thing or a place. Example: In 'the man who sings', 'who' is a *relative word*."
+   },
+   "indefinite pronoun": {
+    "art": "e-s7-7",
+    "vi": "đại từ bất định",
+    "def": "A word like someone, anything, everyone or nobody, when we don't say exactly who or what. Example: 'Nobody' is an *indefinite pronoun*."
+   },
+   "comparative": {
+    "art": "e-s7-8",
+    "vi": "so sánh hơn",
+    "def": "An adjective form like bigger or more beautiful. We use it with 'than'. Example: 'Taller' is the *comparative* of 'tall'."
+   },
+   "word box": {
+    "art": "e-s7-9",
+    "vi": "hộp từ",
+    "def": "A list printed above a text. You choose from it to fill the gaps. Example: Choose each answer from the *word box*."
    },
    "gap": {
-    "art": "e-s7-9",
-    "vi": "chỗ trống",
-    "def": "An empty space in a sentence where a word is missing. Example: Write one word in each *gap*."
-   },
-   "clue": {
     "art": "e-s7-10",
-    "vi": "manh mối",
-    "def": "A word near the gap that helps you find the answer. Example: 'Since 2020' is a *clue* that tells you to use the present perfect."
+    "vi": "chỗ trống",
+    "def": "An empty space in a sentence where something is missing. Example: Write one word in each *gap*."
    },
-   "subject": {
+   "extra": {
     "art": "e-s7-11",
-    "vi": "chủ ngữ",
-    "def": "The person or thing that does the action, usually before the verb. Example: In 'Mai plays chess', Mai is the *subject*."
+    "vi": "thừa, dư ra",
+    "def": "More than you need. Some words in the box are not used. Example: There are two *extra* words in the box, so you won't use them all."
    },
-   "tense": {
+   "countable": {
     "art": "e-s7-12",
-    "vi": "thì (của động từ)",
-    "def": "The form of a verb that shows past, present or future time. Example: 'Yesterday' tells you to use a past *tense*."
+    "vi": "đếm được",
+    "def": "Nouns like apples, chairs or friends. You can say one, two, three of them. Example: 'Sweet' is *countable*: one sweet, two sweets."
+   },
+   "uncountable": {
+    "art": "e-s7-13",
+    "vi": "không đếm được",
+    "def": "Nouns like water, rice or sugar. You can't say one, two, three of them. Example: 'Milk' is *uncountable*, so we say 'less milk'."
    }
   }
  },
@@ -134,75 +141,75 @@
    {
     "id": "s1",
     "title": {
-     "en": "Passive or active?",
-     "vi": "Bị động hay chủ động?"
+     "en": "Yesterday, now and next week",
+     "vi": "Hôm qua, bây giờ và tuần sau"
     },
     "esl": true,
     "kind": "text",
-    "head": "A short report on the class blog",
-    "html": "Our new school bus *was delivered* last week. It *is powered* by electricity, so it is very quiet. The seats *were made* from recycled plastic. Our driver, Mr Tan, *has driven* buses *for* twenty years, and he says it is the best bus he has ever had!",
+    "head": "Finn's diary",
+    "html": "*Yesterday* *was* my cousin's birthday. There *were* twenty people at his house, and we *played* games in the garden. There *was* a big chocolate cake too. Right *now* I *am writing* my diary in bed. *Next Saturday* my cousin and I *are visiting* the zoo together. I can't wait!",
     "steps": [
      {
-      "en": "*was delivered*, *is powered* and *were made* are passive. The bus didn't do these actions.",
-      "vi": "*was delivered*, *is powered* và *were made* là bị động. Chiếc xe buýt không tự làm những việc này."
+      "en": "*was*, *were* and *played* are past simple. The time clue is *Yesterday*.",
+      "vi": "*was*, *were* và *played* là thì quá khứ đơn. Từ chỉ thời gian là *Yesterday*."
      },
      {
-      "en": "Present passive = am / is / are + past participle. Past passive = was / were + past participle.",
-      "vi": "Bị động hiện tại = am / is / are + quá khứ phân từ. Bị động quá khứ = was / were + quá khứ phân từ."
+      "en": "Use *there was* for one thing and *there were* for many things.",
+      "vi": "Dùng *there was* cho một vật và *there were* cho nhiều vật."
      },
      {
-      "en": "*has driven* ... *for* twenty years is present perfect: it started in the past and is still true now.",
-      "vi": "*has driven* ... *for* twenty years là thì hiện tại hoàn thành: bắt đầu trong quá khứ và vẫn đúng đến bây giờ."
+      "en": "*am writing* is happening *now*. *are visiting* is a plan: look for *Next Saturday*.",
+      "vi": "*am writing* đang xảy ra *now* (bây giờ). *are visiting* là một kế hoạch: hãy tìm *Next Saturday*."
      }
     ]
    },
    {
     "id": "s2",
     "title": {
-     "en": "Small words in an email",
-     "vi": "Những từ nhỏ trong email"
+     "en": "Small words after adjectives",
+     "vi": "Từ nhỏ đi sau tính từ"
     },
     "esl": true,
     "kind": "text",
-    "head": "An email from Lan",
-    "html": "Hi Kenji,<br>I've *just* joined a kite club. We meet *at* the weekend. Our leader is Mr Ortiz, *who* used to be a pilot. He showed us how *to* fly a stunt kite. *If* it *is* windy on Saturday, we *will* go to the beach. *Would* you like to come?<br>Lan",
+    "head": "Ana's message to her friend",
+    "html": "I'm *good at* swimming, but I'm *afraid of* deep water. My coach is very *kind to* me and never shouts. *Both* my brothers are in the club too. Before a race, we eat *fewer* sweets and drink *less* juice. My mum is always *proud of* us!",
     "steps": [
      {
-      "en": "Part 4 of the exam takes out small grammar words like the ones in gold.",
-      "vi": "Phần 4 của bài thi bỏ đi những từ ngữ pháp nhỏ giống các từ màu vàng."
+      "en": "Some adjectives always take the same small word: *good at*, *afraid of*, *kind to*, *proud of*, *interested in*, *worried about*.",
+      "vi": "Một số tính từ luôn đi với cùng một từ nhỏ: *good at*, *afraid of*, *kind to*, *proud of*, *interested in*, *worried about*."
      },
      {
-      "en": "*who* follows a person (Mr Ortiz). 'how *to* fly' needs *to* before the verb.",
-      "vi": "*who* đi sau một người (Mr Ortiz). 'how *to* fly' cần *to* trước động từ."
+      "en": "*fewer* is for things you can count (sweets). *less* is for things you can't count (juice).",
+      "vi": "*fewer* dùng cho thứ đếm được (sweets). *less* dùng cho thứ không đếm được (juice)."
      },
      {
-      "en": "*If* it *is* windy ... we *will* go: present after 'if', and 'will' in the other part.",
-      "vi": "*If* it *is* windy ... we *will* go: dùng hiện tại sau 'if', và 'will' ở vế còn lại."
+      "en": "*Both* is for two people or things. *All* is for three or more.",
+      "vi": "*Both* dùng cho hai người hoặc hai vật. *All* dùng cho ba hoặc nhiều hơn."
      }
     ]
    },
    {
     "id": "s3",
     "title": {
-     "en": "Choosing the right modal",
-     "vi": "Chọn động từ khuyết thiếu đúng"
+     "en": "Who, which, where and someone",
+     "vi": "Who, which, where và someone"
     },
     "esl": true,
     "kind": "text",
-    "head": "Notes for the class camping night",
-    "html": "You *must* bring a torch. You *needn't* bring a tent: the school has tents for everyone. You *should* pack a warm jumper because nights can be cold. You *mustn't* leave food outside your tent.",
+    "head": "Part of a letter with a word box",
+    "html": "<b>Word box:</b> nothing, someone, where, which, who<br><br>Yesterday I went to the market *where* my grandma buys fruit. I met a woman *who* sells mangoes. She gave me a mango *which* was very sweet. *Someone* was playing music, but there was *nothing* to sit on, so we stood and listened.",
     "steps": [
      {
-      "en": "*must* = it is necessary. *mustn't* = it is not allowed.",
-      "vi": "*must* = bắt buộc. *mustn't* = không được phép."
+      "en": "*who* is for people, *which* is for things and *where* is for places.",
+      "vi": "*who* dùng cho người, *which* dùng cho vật và *where* dùng cho nơi chốn."
      },
      {
-      "en": "*needn't* = it is not necessary. *should* = it is good advice.",
-      "vi": "*needn't* = không cần thiết. *should* = lời khuyên tốt."
+      "en": "*someone* and *something* go in positive sentences. *anyone* and *anything* go in questions and after 'not'. *nobody* and *nothing* mean 'not one'.",
+      "vi": "*someone* và *something* dùng trong câu khẳng định. *anyone* và *anything* dùng trong câu hỏi và sau 'not'. *nobody* và *nothing* nghĩa là 'không ai / không gì'."
      },
      {
-      "en": "Read the whole sentence. The reason after ':' or 'because' tells you which modal fits.",
-      "vi": "Đọc cả câu. Lí do sau dấu ':' hoặc 'because' cho em biết động từ khuyết thiếu nào phù hợp."
+      "en": "With a word box, try each word in the gap and read the whole sentence. Use each word only once.",
+      "vi": "Với hộp từ, hãy thử từng từ vào chỗ trống và đọc cả câu. Mỗi từ chỉ dùng một lần."
      }
     ]
    },
@@ -214,103 +221,55 @@
     },
     "challenge": {
      "end": {
-      "en": "Brilliant! You chose the right verb forms and grammar words.",
-      "vi": "Tuyệt vời! Em đã chọn đúng dạng động từ và từ ngữ pháp."
+      "en": "Brilliant! You chose the right verb forms and small grammar words.",
+      "vi": "Tuyệt vời! Em đã chọn đúng dạng động từ và các từ ngữ pháp nhỏ."
      },
-     "result": "You spotted passives, present perfect, relatives and modals!",
+     "result": "You spotted verb forms, prepositions, quantifiers and who / which / where!",
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ug.03",
-        "6Ug.04"
+        "5Ug.05",
+        "5Ug.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Look for was / were + past participle."
+          "step": "Look for am / is / are + -ing and a future time."
          },
-         "worked": "'The cake <b>was eaten</b>' = was + past participle. We don't say who ate it.",
+         "worked": "<b>are flying</b> + <b>on Friday</b> (a future day) = a plan.",
          "type": "mcq",
-         "q": "Which sentence is passive?",
+         "q": "Which sentence is about a plan for the future?",
          "opts": [
-          "The cake was eaten.",
-          "Lan ate the cake.",
-          "Lan is eating cake."
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "Lan does the action, so this is active.",
-          "Lan does the action, so this is active too."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Did the car do the action, or did someone do it to the car? When?"
-         },
-         "worked": "Someone invented the car, long ago: past passive <b>was invented</b>.",
-         "type": "mcq",
-         "q": "The first car .......... more than a hundred years ago.",
-         "opts": [
-          "was invented",
-          "invented",
-          "is invented"
+          "We are flying to Hue on Friday.",
+          "We flew to Hue with Grandma last Friday.",
+          "We fly to Hue every summer."
          ],
          "at": 2,
          "whys": [
           null,
-          "A car can't invent something. Someone invented the car.",
-          "'a hundred years ago' is past time, so 'is' is wrong."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Ug.07"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Find the clue words 'So far'."
-         },
-         "worked": "'<b>So far</b>' = up to now, so we use <b>have been</b>.",
-         "type": "mcq",
-         "q": "So far, I .......... to Ha Long Bay three times.",
-         "opts": [
-          "have been",
-          "went",
-          "go"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "'So far' means up to now, so we need the present perfect.",
-          "'So far' and 'three times' talk about your life up to now."
+          "'last Friday' is in the past, so this is not a plan.",
+          "'every summer' is something we do again and again, not one plan."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Which word goes at the end of a present perfect question?"
+          "step": "Is it one tree or many? Is it now or in the past?"
          },
-         "worked": "'Has he finished it <b>yet</b>?' We use <b>yet</b> in questions and negatives.",
+         "worked": "One tree, <b>Last year</b>: there <b>was</b> a big mango tree.",
          "type": "mcq",
-         "q": "Has Minh finished his model ..........?",
+         "q": "Last year there ________ a big mango tree in our garden.",
          "opts": [
-          "yet",
-          "already",
-          "since"
+          "was",
+          "were",
+          "is"
          ],
          "at": 0,
          "whys": [
           null,
-          "'already' is not used at the end of a question like this.",
-          "'since' needs a time after it, like 'since Monday'."
+          "'were' is for many things, but there is only one tree.",
+          "'Last year' is in the past, so 'is' is wrong."
          ],
          "letters": true
         }
@@ -319,95 +278,143 @@
       {
        "mode": "your",
        "lo": [
-        "6Us.05"
+        "5Uv.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "The car belongs to the woman. Which word shows belonging?"
+          "step": "Which small word always goes with 'interested'?"
          },
-         "worked": "<b>whose</b> shows belonging: the woman <b>whose</b> car is red.",
+         "worked": "We always say <b>interested in</b>.",
          "type": "mcq",
-         "q": "The woman .......... car is red is my aunt.",
+         "q": "Phuc is very interested ________ old cars and trains.",
          "opts": [
-          "whose",
+          "in",
+          "at",
+          "of"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "We say 'good at', but not 'interested at'.",
+          "We say 'afraid of', but not 'interested of'."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Say each one quietly. Which small word goes with 'proud'?"
+         },
+         "worked": "We always say <b>proud of</b>: I'm <b>proud of</b> my team.",
+         "type": "mcq",
+         "q": "Which words are correct?",
+         "opts": [
+          "proud of my team",
+          "proud at my team",
+          "proud in my team"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'proud at' is not English. Think of 'afraid ...' and 'proud ...'.",
+          "'proud in' is not English. Which small word goes with 'proud'?"
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Us.01"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Can you count children? Look at the noun after the gap."
+         },
+         "worked": "<b>children</b> can be counted, so we use <b>fewer</b>.",
+         "type": "mcq",
+         "q": "There are ________ children in my class than in your class.",
+         "opts": [
+          "fewer",
+          "less",
+          "much"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "'less' is for things we can't count, like water. We can count children.",
+          "'much' is for things we can't count, like rice. We can count children."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Can you count sugar? Read why the tea is a problem."
+         },
+         "worked": "<b>sugar</b> can't be counted, and the tea is too sweet: <b>less</b> sugar.",
+         "type": "mcq",
+         "q": "Please put ________ sugar in my tea. It's too sweet!",
+         "opts": [
+          "less",
+          "fewer",
+          "many"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "'fewer' is for things we can count. We can't count sugar.",
+          "'many' is for things we can count, like sweets, not sugar."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Us.04",
+        "5Us.02"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Is the word before the gap a person, a thing or a place?"
+         },
+         "worked": "A shop is a place where something happens: <b>where</b>.",
+         "type": "mcq",
+         "q": "This is the shop ________ we buy our bread every morning.",
+         "opts": [
+          "where",
           "who",
           "which"
          ],
-         "at": 2,
-         "whys": [
-          null,
-          "'who car' is wrong. We need a word that shows the car belongs to her.",
-          "'which' is for things, and we need a word for belonging."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "The museum is a place. Which word do we use for places?"
-         },
-         "worked": "For a place, use <b>where</b>: the museum <b>where</b> we saw it.",
-         "type": "mcq",
-         "q": "This is the museum .......... we saw the dinosaur.",
-         "opts": [
-          "where",
-          "which",
-          "who"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "'which' would need 'in' at the end: 'which we saw the dinosaur in'.",
-          "'who' is for people, not places."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Ug.12",
-        "6Uv.02"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Read the reason after the colon (:)."
-         },
-         "worked": "Lunch is free, so bringing food is not necessary: <b>needn't</b>.",
-         "type": "mcq",
-         "q": "You .......... bring food: lunch is free.",
-         "opts": [
-          "needn't",
-          "mustn't",
-          "should"
-         ],
          "at": 1,
          "whys": [
           null,
-          "Food isn't banned. It just isn't necessary.",
-          "Lunch is free, so it isn't good advice to bring food."
+          "'who' is for people, but a shop is a place.",
+          "'which' is for things. Here the shop is the place we go to."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Think of 'by bus', 'by car'."
+          "step": "Read the last sentence. Was there a person inside?"
          },
-         "worked": "For transport with no article we use <b>by</b>: <b>by train</b>.",
+         "worked": "The house was <b>empty</b>, so <b>nobody</b> answered.",
          "type": "mcq",
-         "q": "We travelled to Hue .......... train.",
+         "q": "I knocked on the door, but ________ answered. The house was empty.",
          "opts": [
-          "by",
-          "on",
-          "in"
+          "nobody",
+          "somebody",
+          "anybody"
          ],
          "at": 2,
          "whys": [
           null,
-          "We say 'on the train', with 'the'. Here there is no 'the'.",
-          "We say 'in the car', not 'in train'."
+          "If the house was empty, there was no person to answer.",
+          "'anybody' needs 'not' before it, like 'didn't answer'."
          ],
          "letters": true
         }
@@ -433,54 +440,101 @@
    "levels": [
     {
      "title": {
-      "en": "Choose the verb form",
-      "vi": "Chọn dạng động từ"
+      "en": "Verb forms and -ed / -ing",
+      "vi": "Dạng động từ và -ed / -ing"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ug.03",
-        "6Ug.04"
+        "5Ug.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Does paper do the action? If not, use the passive."
+          "step": "Find the time word at the start of the sentence."
          },
-         "worked": "Someone makes paper, so we use the present passive: <b>is made</b>.",
+         "worked": "<b>Yesterday</b> is in the past, so we use the past simple: <b>told</b>.",
          "type": "mcq",
-         "q": "Paper .......... from wood.",
+         "q": "Yesterday, my grandpa ________ us a funny story about his school days.",
          "opts": [
-          "is made",
-          "makes",
-          "made"
+          "told",
+          "tells",
+          "telling"
          ],
          "at": 0,
          "whys": [
           null,
-          "Paper can't make anything. Someone makes paper.",
-          "'Paper made from wood' has no main verb. We need 'is'."
+          "'tells' is for every day, but 'Yesterday' is in the past.",
+          "'telling' needs 'was' before it. Here the story is a finished action."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Look at the date. Who did the building?"
+          "step": "Find the time words. Is it one shop or many?"
          },
-         "worked": "People built it in the past: past passive <b>was built</b>.",
+         "worked": "<b>Two years ago</b> + one shop: there <b>was</b>.",
          "type": "mcq",
-         "q": "This bridge .......... in 1998.",
+         "q": "Two years ago, there ________ only one small shop in our street.",
          "opts": [
-          "was built",
-          "built",
-          "is built"
+          "was",
+          "is",
+          "are"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'is' is for now, but 'Two years ago' is in the past.",
+          "'are' is for now and for many things. Here there is one shop, in the past."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Ug.05"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Find the time words. Is this a plan for the future?"
+         },
+         "worked": "<b>next weekend</b> + tickets booked = a plan: we <b>are visiting</b>.",
+         "type": "mcq",
+         "q": "We ________ our cousins in Da Lat next weekend. The tickets are booked!",
+         "opts": [
+          "are visiting",
+          "visited",
+          "were visiting"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "'visited' is past, but 'next weekend' is in the future.",
+          "'were visiting' is past, but 'next weekend' is in the future."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "What does 'Look!' tell you about the time?"
+         },
+         "worked": "<b>Look!</b> = it is happening now, so we use <b>is making</b>.",
+         "type": "mcq",
+         "q": "Look! Ivy ________ a poster about healthy food for our classroom.",
+         "opts": [
+          "is making",
+          "makes",
+          "made"
          ],
          "at": 1,
          "whys": [
           null,
-          "A bridge can't build. People built it.",
-          "1998 is in the past, so 'is' is wrong."
+          "'makes' is for every day. 'Look!' tells you it is happening now.",
+          "'made' is finished. 'Look!' tells you it is happening now."
          ],
          "letters": true
         }
@@ -489,94 +543,46 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.07"
+        "5Ug.11"
        ],
        "v": [
         {
          "hint": {
-          "step": "The action is done, and the result is now. Which form?"
+          "step": "Is the word about the film, or about how a person feels?"
          },
-         "worked": "Done in the past, result now (I can play): <b>have finished</b>.",
+         "worked": "The film makes you feel something, so we use the -ing word: <b>exciting</b>.",
          "type": "mcq",
-         "q": "I .......... my homework, so I can play now.",
+         "q": "The film about the lost city was so ________ that I watched it twice.",
          "opts": [
-          "have finished",
-          "finish",
-          "am finishing"
+          "exciting",
+          "excited",
+          "excite"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
-          "If you 'finish' every day, it doesn't explain why you can play now.",
-          "If you are still finishing it, you can't play yet."
+          "'excited' is how a person feels. A film doesn't have feelings.",
+          "'excite' is a verb, so it can't come after 'was so'."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Find the clue word 'since'."
+          "step": "Look at 'I felt'. Is the word about a person's feeling?"
          },
-         "worked": "<b>since</b> 2020 up to now: <b>has lived</b>.",
+         "worked": "<b>I felt</b> is about my feeling, so we use the -ed word: <b>bored</b>.",
          "type": "mcq",
-         "q": "My cousin .......... in Da Nang since 2020.",
+         "q": "I felt ________ because there was nothing to do on the rainy afternoon.",
          "opts": [
-          "has lived",
-          "lived",
-          "lives"
+          "bored",
+          "boring",
+          "bore"
          ],
          "at": 0,
          "whys": [
           null,
-          "'since 2020' means it is still true now, so not the past simple.",
-          "With 'since' we need the present perfect, not the present simple."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Ug.09"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "If + present ... then what?"
-         },
-         "worked": "If + present (<b>water</b>), then <b>will</b> + verb: <b>will grow</b>.",
-         "type": "mcq",
-         "q": "If you water the plant every day, it .......... quickly.",
-         "opts": [
-          "will grow",
-          "grew",
-          "would grow"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "'grew' is past, but this is about the future.",
-          "After 'If + present' we use 'will', not 'would'."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Which part has 'will'? What form goes after 'if'?"
-         },
-         "worked": "After <b>if</b> we use the present: If it <b>rains</b>, we will play inside.",
-         "type": "mcq",
-         "q": "If it .......... tomorrow, we will play inside.",
-         "opts": [
-          "rains",
-          "will rain",
-          "rained"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "We don't use 'will' after 'if' in this sentence.",
-          "'rained' is past, but 'tomorrow' is the future."
+          "'boring' describes the thing, like a boring film. Here it is how I felt.",
+          "'bore' is a verb, so it can't come after 'I felt'."
          ],
          "letters": true
         }
@@ -586,53 +592,53 @@
     },
     {
      "title": {
-      "en": "Modals, who / which / whose, prepositions",
-      "vi": "Động từ khuyết thiếu, who / which / whose, giới từ"
+      "en": "Prepositions, quantifiers and someone",
+      "vi": "Giới từ, từ chỉ số lượng và someone"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ug.12"
+        "5Uv.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Read the second sentence. Is a pen necessary?"
+          "step": "Which small word always goes with 'good'?"
          },
-         "worked": "I've got lots of pens, so it is not necessary: <b>needn't</b>.",
+         "worked": "We always say <b>good at</b>: good <b>at</b> drawing.",
          "type": "mcq",
-         "q": "You .......... bring a pen. I've got lots of them.",
+         "q": "My sister is very good ________ drawing animals.",
          "opts": [
-          "needn't",
-          "mustn't",
-          "must"
+          "at",
+          "in",
+          "of"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
-          "Bringing a pen isn't against the rules.",
-          "I have lots of pens, so it isn't necessary."
+          "We say 'interested in', but not 'good in'.",
+          "We say 'afraid of', but not 'good of'."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "This is advice. Which modal gives advice?"
+          "step": "Which small word always goes with 'afraid'?"
          },
-         "worked": "To give advice we use <b>should</b>.",
+         "worked": "We always say <b>afraid of</b>.",
          "type": "mcq",
-         "q": "You look tired. You .......... go to bed earlier.",
+         "q": "Are you afraid ________ spiders and snakes?",
          "opts": [
-          "should",
-          "needn't",
-          "mustn't"
+          "of",
+          "at",
+          "about"
          ],
          "at": 1,
          "whys": [
           null,
-          "Going to bed earlier is a good idea for a tired person.",
-          "Going to bed early isn't against the rules."
+          "We say 'good at', but not 'afraid at'.",
+          "We say 'worried about', but not 'afraid about'."
          ],
          "letters": true
         }
@@ -641,46 +647,46 @@
       {
        "mode": "your",
        "lo": [
-        "6Us.05"
+        "5Us.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "The brother belongs to the girl. Which word shows belonging?"
+          "step": "Can you count water? Then read why I am thirsty."
          },
-         "worked": "The girl's brother = the girl <b>whose</b> brother.",
+         "worked": "<b>water</b> can't be counted, so we use <b>less</b>: less water, so I'm thirsty.",
          "type": "mcq",
-         "q": "That's the girl .......... brother plays in our team.",
+         "q": "I drink ________ water than my brother, so I am often thirsty.",
          "opts": [
-          "whose",
-          "who",
-          "which"
+          "less",
+          "fewer",
+          "many"
          ],
          "at": 2,
          "whys": [
           null,
-          "'who brother' is wrong. We need a word that shows belonging.",
-          "'which' is for things, not people."
+          "'fewer' is for things we can count. We can't count water.",
+          "'many' is for things we can count, like bottles, not water."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Is a bus a person, a thing or a place?"
+          "step": "How many parents do you have?"
          },
-         "worked": "A bus is a thing, so we use <b>which</b>.",
+         "worked": "Two parents, so we use <b>Both</b>.",
          "type": "mcq",
-         "q": "Is this the bus .......... goes to the zoo?",
+         "q": "________ my parents can speak English and French.",
          "opts": [
-          "which",
-          "who",
-          "where"
+          "Both",
+          "All",
+          "Much"
          ],
          "at": 0,
          "whys": [
           null,
-          "'who' is for people. A bus is a thing.",
-          "The bus isn't a place here. It is the thing that goes."
+          "'All' is for three or more. You have two parents.",
+          "'Much' is for things we can't count, like rice, not people."
          ],
          "letters": true
         }
@@ -689,46 +695,46 @@
       {
        "mode": "your",
        "lo": [
-        "6Uv.02"
+        "5Us.02"
        ],
        "v": [
         {
          "hint": {
-          "step": "Remember the fixed phrase for walking."
+          "step": "Find 'isn't'. Which word goes after 'not'?"
          },
-         "worked": "Walking = <b>on foot</b>.",
+         "worked": "After <b>isn't</b> we use <b>anything</b>: there isn't anything.",
          "type": "mcq",
-         "q": "We always go to school .......... foot.",
+         "q": "I'm hungry, but there isn't ________ in the fridge.",
          "opts": [
-          "on",
-          "by",
-          "in"
+          "anything",
+          "nothing",
+          "something"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
-          "We say 'by bus', but for walking we say 'on foot'.",
-          "'in foot' is not English."
+          "'isn't' already says 'not', so 'nothing' makes two 'not' words.",
+          "After 'not' we don't use 'something'."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "It was an accident. Which phrase means that?"
+          "step": "Read the first sentence. Who knocked?"
          },
-         "worked": "An accident = <b>by mistake</b>.",
+         "worked": "A person knocked, and the sentence is positive: <b>Someone</b> is outside.",
          "type": "mcq",
-         "q": "Sorry! I broke the vase .......... mistake.",
+         "q": "I heard a knock at the door. ________ is outside!",
          "opts": [
-          "by",
-          "on",
-          "in"
+          "Someone",
+          "Anyone",
+          "No-one"
          ],
          "at": 2,
          "whys": [
           null,
-          "'on purpose' means you wanted to do it. Here it was an accident.",
-          "'in mistake' is not English."
+          "'Anyone' is for questions and sentences with 'not'.",
+          "Somebody knocked, so it can't be that no person is outside."
          ],
          "letters": true
         }
@@ -745,58 +751,18 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.07"
+        "5Us.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "'just' + finished: which helping verb goes with 'she'?"
+          "step": "The café is a place. Which relative word is for places?"
          },
-         "worked": "Present perfect: she <b>has</b> just finished.",
+         "worked": "For a place we use <b>where</b>: the café <b>where</b> we have noodles.",
          "type": "tfill",
          "q": "Write ONE word in the gap.",
          "lines": [
-          "She {0} just finished her painting."
-         ],
-         "ans": [
-          [
-           "has"
-          ]
-         ]
-        },
-        {
-         "hint": {
-          "step": "'last year' is past. 'These shoes' is plural."
-         },
-         "worked": "Past passive, plural: these shoes <b>were</b> made.",
-         "type": "tfill",
-         "q": "Write ONE word in the gap.",
-         "lines": [
-          "These shoes {0} made in a small factory last year."
-         ],
-         "ans": [
-          [
-           "were"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Us.05"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "The park is a place."
-         },
-         "worked": "For a place we use <b>where</b>: the park <b>where</b> we play.",
-         "type": "tfill",
-         "q": "Write ONE word in the gap.",
-         "lines": [
-          "This is the park {0} we play football every Sunday."
+          "This is the café {0} we have noodles every Sunday."
          ],
          "ans": [
           [
@@ -806,17 +772,18 @@
         },
         {
          "hint": {
-          "step": "Mr Duc is a person, and there are commas around the extra information."
+          "step": "A friend is a person. Which relative word is for people?"
          },
-         "worked": "For a person with commas we use <b>who</b> (not 'that').",
+         "worked": "For a person we use <b>who</b>: a friend <b>who</b> can speak three languages.",
          "type": "tfill",
          "q": "Write ONE word in the gap.",
          "lines": [
-          "Mr Duc, {0} is our new coach, used to play for the national team."
+          "I have a friend {0} can speak three languages."
          ],
          "ans": [
           [
-           "who"
+           "who",
+           "that"
           ]
          ]
         }
@@ -825,38 +792,78 @@
       {
        "mode": "your",
        "lo": [
-        "6Uv.02"
+        "5Ug.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "want + ... + verb"
+          "step": "'Last night' is past. Is it one firework or many?"
          },
-         "worked": "We say want <b>to</b> + verb: I want <b>to</b> learn.",
+         "worked": "Past + many fireworks: there <b>were</b>.",
          "type": "tfill",
          "q": "Write ONE word in the gap.",
          "lines": [
-          "I want {0} learn how to code."
+          "Last night there {0} lots of fireworks in the sky."
          ],
          "ans": [
           [
-           "to"
+           "were"
           ]
          ]
         },
         {
          "hint": {
-          "step": "You need someone to say yes first. Which word means 'with no'?"
+          "step": "'Yesterday' is past. Is it one storm or many?"
          },
-         "worked": "<b>without</b> permission = when nobody has said yes.",
+         "worked": "Past + one storm: there <b>was</b>.",
          "type": "tfill",
          "q": "Write ONE word in the gap.",
          "lines": [
-          "Please don't leave the classroom {0} permission."
+          "Yesterday there {0} a big storm, so we stayed inside."
          ],
          "ans": [
           [
-           "without"
+           "was"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Ug.11"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "'taller' compares two animals. Which word comes after it?"
+         },
+         "worked": "After a comparative we use <b>than</b>: taller <b>than</b>.",
+         "type": "tfill",
+         "q": "Write ONE word in the gap.",
+         "lines": [
+          "A giraffe is taller {0} an elephant."
+         ],
+         "ans": [
+          [
+           "than"
+          ]
+         ]
+        },
+        {
+         "hint": {
+          "step": "'sweeter' compares two mangoes. Which word comes after it?"
+         },
+         "worked": "After a comparative we use <b>than</b>: sweeter <b>than</b>.",
+         "type": "tfill",
+         "q": "Write ONE word in the gap.",
+         "lines": [
+          "This mango is sweeter {0} the one we bought yesterday."
+         ],
+         "ans": [
+          [
+           "than"
           ]
          ]
         }
@@ -874,8 +881,8 @@
    "art": "icon-step-test",
    "title": "Exam style",
    "blurb": {
-    "en": "Practise Reading Part 1 (choose the word) and Part 4 (one word in each gap of an email).",
-    "vi": "Luyện Phần 1 của bài Đọc (chọn từ) và Phần 4 (điền một từ vào mỗi chỗ trống trong email)."
+    "en": "Practise Reading Part 1 (choose the word) and Part 4 (a letter with a word box).",
+    "vi": "Luyện Phần 1 của bài Đọc (chọn từ) và Phần 4 (lá thư có hộp từ)."
    },
    "levels": [
     {
@@ -887,46 +894,46 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.04"
+        "5Ug.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Find 'by our school'. Who did the action?"
+          "step": "Find the time words at the start of the sentence."
          },
-         "worked": "The run was organised <b>by our school</b>, last Saturday: past passive <b>was organised</b>.",
+         "worked": "<b>Last summer</b> is finished time, so we use the past simple: Hamid <b>spent</b> a week there.",
          "type": "mcq",
-         "q": "<b>Story: The fun run</b> (sentence 1 of 5)<br>Last Saturday, a fun run .......... by our school to raise money for the local hospital.",
+         "q": "<b>Story: Hamid and the mosquitoes</b> (sentence 1 of 5)<br>Last summer, Hamid ________ a week at his grandparents' house in the countryside.",
          "opts": [
-          "was organised",
-          "organised",
-          "is organising"
+          "spent",
+          "spend",
+          "spending"
          ],
          "at": 1,
          "whys": [
           null,
-          "The fun run didn't organise anything. The school organised it, so use the passive.",
-          "'Last Saturday' is finished past time, so we need a past form."
+          "'Last summer' is finished time, so the base form is wrong.",
+          "'spending' needs 'was' before it, and this is a finished action."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Find 'by the head teacher' and 'last month'."
+          "step": "Find the time words at the start of the sentence."
          },
-         "worked": "The head teacher opened it, last month: past passive <b>was opened</b>.",
+         "worked": "<b>Last Sunday</b> is finished time, so we use the past simple: Bella <b>went</b>.",
          "type": "mcq",
-         "q": "<b>Story: The new science room</b> (sentence 1 of 5)<br>Our new science room .......... by the head teacher last month.",
+         "q": "<b>Story: The hole in the pavement</b> (sentence 1 of 5)<br>Last Sunday, Bella ________ to see a giant chalk picture on the pavement outside the library.",
          "opts": [
-          "was opened",
-          "opened",
-          "has opened"
+          "went",
+          "go",
+          "going"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
-          "The room didn't open anything. The head teacher opened it.",
-          "'last month' is finished time, and the room didn't do the action."
+          "'Last Sunday' is finished time, so the base form is wrong.",
+          "'going' needs 'was' before it, and this is a finished action."
          ],
          "letters": true
         }
@@ -935,94 +942,46 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.04"
+        "5Ug.11"
        ],
        "v": [
         {
          "hint": {
-          "step": "The people did the action. When?"
+          "step": "Is the word about a person's feeling, or about the thing that causes the feeling?"
          },
-         "worked": "Active, finished past time: people <b>took</b> part.",
+         "worked": "The bites cause the feeling, so we use the -ing word: the bites were <b>annoying</b>.",
          "type": "mcq",
-         "q": "<b>Story: The fun run</b> (sentence 2 of 5)<br>On the day, more than two hundred people .......... part, including parents and teachers.",
+         "q": "<b>Story: Hamid and the mosquitoes</b> (sentence 2 of 5)<br>On the first evening, mosquitoes bit his legs, and the itchy bites were really ________.",
          "opts": [
-          "took",
-          "were taken",
-          "have taken"
+          "annoying",
+          "annoyed",
+          "annoy"
          ],
          "at": 2,
          "whys": [
           null,
-          "People did the action, so we don't need the passive.",
-          "'On the day' is a finished time in the past, so use the past simple."
+          "'annoyed' is how a person feels. Bites don't have feelings.",
+          "'annoy' is a verb, so it can't come after 'were really'."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Did the tables do the action? The text is in the present."
+          "step": "Is the word about a person's feeling, or about the thing that causes the feeling?"
          },
-         "worked": "Someone makes the tables, and 'has' tells us it is present: <b>are made</b>.",
+         "worked": "The picture causes the feeling, so we use the -ing word: it was <b>amazing</b>.",
          "type": "mcq",
-         "q": "<b>Story: The new science room</b> (sentence 2 of 5)<br>The room has smart boards, and all the tables .......... from recycled wood.",
+         "q": "<b>Story: The hole in the pavement</b> (sentence 2 of 5)<br>The picture looked like a deep hole in the ground, and it was really ________.",
          "opts": [
-          "are made",
-          "make",
-          "made"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "Tables can't make anything. Someone made them.",
-          "The tables need a full verb here: are + past participle."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Ug.12"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Read after 'but': 'had to wear a number'. So the shoes were...?"
-         },
-         "worked": "Special shoes were not necessary in the past: <b>didn't have to</b>.",
-         "type": "mcq",
-         "q": "<b>Story: The fun run</b> (sentence 3 of 5)<br>Runners .......... wear special running shoes, but everyone had to wear a number.",
-         "opts": [
-          "didn't have to",
-          "mustn't",
-          "don't have to"
+          "amazing",
+          "amazed",
+          "amaze"
          ],
          "at": 0,
          "whys": [
           null,
-          "'mustn't' is present and means 'not allowed'. Shoes weren't banned.",
-          "'don't have to' is present, but the story is in the past ('had to')."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Find the clue word 'yet'."
-         },
-         "worked": "<b>yet</b> + not up to now: <b>haven't done</b>.",
-         "type": "mcq",
-         "q": "<b>Story: The new science room</b> (sentence 3 of 5)<br>We .......... any experiments in the new room yet because the microscopes haven't arrived.",
-         "opts": [
-          "haven't done",
-          "didn't do",
-          "don't do"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "'yet' goes with the present perfect, not the past simple.",
-          "'yet' goes with the present perfect, not the present simple."
+          "'amazed' is how a person feels. A picture doesn't have feelings.",
+          "'amaze' is a verb, so it can't come after 'was really'."
          ],
          "letters": true
         }
@@ -1031,46 +990,94 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.07"
+        "5Us.02"
        ],
        "v": [
         {
          "hint": {
-          "step": "Find the clue words 'So far'."
+          "step": "Read the part after the colon (:). Did Grandma give him a thing?"
          },
-         "worked": "'<b>So far</b>' = up to now: the school <b>has raised</b> the money.",
+         "worked": "She gave him a net, in a positive sentence: Grandma gave him <b>something</b>.",
          "type": "mcq",
-         "q": "<b>Story: The fun run</b> (sentence 4 of 5)<br>So far, the school .......... enough money to buy two new beds for the hospital.",
+         "q": "<b>Story: Hamid and the mosquitoes</b> (sentence 3 of 5)<br>That night, Grandma gave him ________ to stop the bites: a big white net for his bed.",
          "opts": [
-          "has raised",
-          "raised",
-          "is raised"
+          "something",
+          "anything",
+          "nothing"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
-          "'So far' means up to now, so use the present perfect.",
-          "The school did the action, so we don't need the passive."
+          "We use 'anything' in questions and after 'not'. This sentence is positive.",
+          "Read after the colon (:). Grandma gave him a net, so 'nothing' is wrong."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Is it a rule (not allowed) or is it just not necessary?"
+          "step": "'but' tells you the other people did something different. What were they doing?"
          },
-         "worked": "Touching without asking is not allowed: <b>mustn't</b>.",
+         "worked": "Bella was afraid, <b>but</b> the other people were jumping and laughing: <b>everyone</b> else.",
          "type": "mcq",
-         "q": "<b>Story: The new science room</b> (sentence 4 of 5)<br>Our teacher says we .......... touch the microscopes without asking her first.",
+         "q": "<b>Story: The hole in the pavement</b> (sentence 3 of 5)<br>At first, Bella was afraid to stand on it, but ________ else was jumping over the 'hole' and laughing.",
          "opts": [
-          "mustn't",
-          "needn't",
-          "don't have to"
+          "everyone",
+          "anyone",
+          "no-one"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "We use 'anyone' in questions and after 'not'. This sentence is positive.",
+          "'but' shows the other people were different from Bella, and they were laughing."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Us.04"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Look at the word before the gap. Is it a person, a thing or a place?"
+         },
+         "worked": "A net is a thing, so we use <b>which</b>: the net <b>which</b> his mum used.",
+         "type": "mcq",
+         "q": "<b>Story: Hamid and the mosquitoes</b> (sentence 4 of 5)<br>It was the same net ________ Hamid's mum used when she was a little girl!",
+         "opts": [
+          "which",
+          "who",
+          "where"
          ],
          "at": 0,
          "whys": [
           null,
-          "'needn't' means 'not necessary'. This is a rule about what is not allowed.",
-          "'don't have to' means 'not necessary'. This is a rule about what is not allowed."
+          "'who' is for people, but a net is a thing.",
+          "'where' is for places, but a net is a thing."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Look at the words before the gap. Is it a person, a thing or a place?"
+         },
+         "worked": "A young woman is a person, so we use <b>who</b>: the woman <b>who</b> made it.",
+         "type": "mcq",
+         "q": "<b>Story: The hole in the pavement</b> (sentence 4 of 5)<br>Then she met the young woman ________ made the picture in only two days.",
+         "opts": [
+          "who",
+          "which",
+          "where"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "'which' is for things, but a young woman is a person.",
+          "'where' is for places, but a young woman is a person."
          ],
          "letters": true
         }
@@ -1079,46 +1086,46 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.09"
+        "5Ug.05"
        ],
        "v": [
         {
          "hint": {
-          "step": "The other part has 'will'. What goes after 'if'?"
+          "step": "Find the time words at the end. Is this a plan?"
          },
-         "worked": "If + present (<b>raise</b>), ... <b>will</b> open.",
+         "worked": "<b>next month</b> shows a plan, so we use the present continuous: he <b>is visiting</b>.",
          "type": "mcq",
-         "q": "<b>Story: The fun run</b> (sentence 5 of 5)<br>If we .......... the same amount next year, the hospital will open a new playroom.",
+         "q": "<b>Story: Hamid and the mosquitoes</b> (sentence 5 of 5)<br>Hamid loved his stay, and he ________ his grandparents again next month.",
          "opts": [
-          "raise",
-          "will raise",
-          "raised"
+          "is visiting",
+          "visited",
+          "visit"
          ],
          "at": 2,
          "whys": [
           null,
-          "We don't use 'will' after 'if' in the first conditional.",
-          "'next year' is the future, so 'raised' is wrong."
+          "'visited' is past, but 'next month' is in the future.",
+          "'he visit' is not correct English. Look for a plan with a future time."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "'If ... arrive' is present. What goes in the other part?"
+          "step": "Find the time words. Is this a plan?"
          },
-         "worked": "If + present (<b>arrive</b>), we <b>will look</b>.",
+         "worked": "<b>next weekend</b> shows a plan, so we use the present continuous: she <b>is drawing</b>.",
          "type": "mcq",
-         "q": "<b>Story: The new science room</b> (sentence 5 of 5)<br>If the microscopes arrive on Monday, we .......... at onion cells on Tuesday.",
+         "q": "<b>Story: The hole in the pavement</b> (sentence 5 of 5)<br>Bella loved it, and next weekend she ________ her own pavement picture at home.",
          "opts": [
-          "will look",
-          "looked",
-          "would look"
+          "is drawing",
+          "drew",
+          "was drawing"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
-          "'looked' is past, but Tuesday is in the future.",
-          "After 'If + present' we use 'will', not 'would'."
+          "'drew' is past, but 'next weekend' is in the future.",
+          "'was drawing' is past, but 'next weekend' is in the future."
          ],
          "letters": true
         }
@@ -1128,61 +1135,60 @@
     },
     {
      "title": {
-      "en": "Part 4: an email (gaps 18 to 21)",
-      "vi": "Phần 4: email (chỗ trống 18 đến 21)"
+      "en": "Part 4: a letter (gaps 18 to 21)",
+      "vi": "Phần 4: lá thư (chỗ trống 18 đến 21)"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Uv.02"
+        "5Ug.11"
        ],
        "v": [
         {
          "hint": {
-          "step": "'ages' is a long time. Which word goes before a length of time?"
+          "step": "Find 'bigger'. Which box word comes after a comparative?"
          },
-         "worked": "Present perfect + a length of time: <b>for</b> ages.",
+         "worked": "'much <b>bigger than</b> our old one': after a comparative we use <b>than</b>.",
          "type": "tfill",
-         "q": "Read the email. Write ONE word for gap 18.",
+         "q": "Read the letter. Write ONE word from the box for gap 18.",
          "lines": [
-          "Sorry I haven't written {0} ages!"
+          "It is much bigger {0} our old one."
          ],
          "ans": [
           [
-           "for",
-           "in"
+           "than"
           ]
          ],
          "fig": {
           "k": "stim",
           "id": "s7-e1",
           "kind": "text",
-          "head": "Email from Arlo",
-          "html": "Hi Amira,<br>How (0) <b>are</b> you? Sorry I haven't written (18) ........ ages! We have just come back from a week on a farm (19) ........ my grandparents live. The farm has forty cows, and nowadays they (20) ........ all milked by a machine. My favourite cow is Daisy, (21) ........ calf was born while we were there. The calf is (22) ........ cutest animal I've ever seen! On the last day, we went to a waterfall (23) ........ bike and had a picnic next to it. Grandpa says we can visit again next summer. I'm really looking forward (24) ........ it! Write back soon and tell me all your news.<br>Arlo"
+          "head": "Letter from Ivy",
+          "html": "<b>Word box:</b> about, are, at, both, everyone, for, than, were, who, with<br><br><b>Our new flat</b><br>Dear Ana,<br>How are you? Last month we moved to a new flat. It is (0) <b>at</b> the top of a tall building, and it is much bigger (18) ________ our old one. From my bedroom window I can see the river and the bridge!<br>When we arrived, there (19) ________ boxes everywhere, and we couldn't find our plates. Our neighbour is a friendly old man (20) ________ grows tomatoes and herbs on his balcony. He gave us a big bowl of soup on the first night.<br>At first I was worried (21) ________ making new friends, but (22) ________ in my new class is kind to me. My brother and I (23) ________ joining the school swimming club next week. (24) ________ my parents love the big park near our building, and we go there every evening.<br>Please write soon!<br>Love,<br>Ivy"
          }
         },
         {
          "hint": {
-          "step": "The station is a thing, and there is a comma before the gap."
+          "step": "Find 'bigger'. Which box word comes after a comparative?"
          },
-         "worked": "For a thing after a comma we use <b>which</b> ('that' is not used after a comma).",
+         "worked": "'even <b>bigger than</b> his party last year': after a comparative we use <b>than</b>.",
          "type": "tfill",
-         "q": "Read the email. Write ONE word for gap 18.",
+         "q": "Read the letter. Write ONE word from the box for gap 18.",
          "lines": [
-          "It is in an old train station, {0} was built more than a hundred years ago."
+          "It was even bigger {0} his party last year!"
          ],
          "ans": [
           [
-           "which"
+           "than"
           ]
          ],
          "fig": {
           "k": "stim",
           "id": "s7-e2",
           "kind": "text",
-          "head": "Email from Yuki",
-          "html": "Hi Bao,<br>Thanks for your email. Yesterday our class went (0) <b>on</b> a trip to the Transport Museum. It is in an old train station, (18) ........ was built more than a hundred years ago. Our guide, (19) ........ grandfather was a train driver, told us lots of stories. I learned that the first trains (20) ........ pulled by steam engines. We were allowed to sit in a real plane, but we couldn't touch anything (21) ........ permission. My friend Tariq took a great photo of me in the pilot's seat, so I'll ask (22) ........ to send it to you. It was (23) ........ best school trip I've ever been on! I'm going (24) ........ visit the museum again in the summer, so maybe you can come with me.<br>Bye for now,<br>Yuki"
+          "head": "Letter from Phuc",
+          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. Then I heard (22) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc"
          }
         }
        ]
@@ -1190,96 +1196,18 @@
       {
        "mode": "your",
        "lo": [
-        "6Us.05"
+        "5Ug.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "The farm is a place where people live."
+          "step": "'When we arrived' is past. Is it one box or many?"
          },
-         "worked": "For a place we use <b>where</b>: the farm <b>where</b> my grandparents live.",
+         "worked": "Past + many <b>boxes</b>: there <b>were</b>.",
          "type": "tfill",
-         "q": "Read the email. Write ONE word for gap 19.",
+         "q": "Read the letter. Write ONE word from the box for gap 19.",
          "lines": [
-          "We have just come back from a week on a farm {0} my grandparents live."
-         ],
-         "ans": [
-          [
-           "where"
-          ]
-         ],
-         "fig": {
-          "k": "stim",
-          "id": "s7-e1",
-          "kind": "text",
-          "head": "Email from Arlo",
-          "html": "Hi Amira,<br>How (0) <b>are</b> you? Sorry I haven't written (18) ........ ages! We have just come back from a week on a farm (19) ........ my grandparents live. The farm has forty cows, and nowadays they (20) ........ all milked by a machine. My favourite cow is Daisy, (21) ........ calf was born while we were there. The calf is (22) ........ cutest animal I've ever seen! On the last day, we went to a waterfall (23) ........ bike and had a picnic next to it. Grandpa says we can visit again next summer. I'm really looking forward (24) ........ it! Write back soon and tell me all your news.<br>Arlo"
-         }
-        },
-        {
-         "hint": {
-          "step": "The grandfather belongs to the guide."
-         },
-         "worked": "The guide's grandfather = <b>whose</b> grandfather.",
-         "type": "tfill",
-         "q": "Read the email. Write ONE word for gap 19.",
-         "lines": [
-          "Our guide, {0} grandfather was a train driver, told us lots of stories."
-         ],
-         "ans": [
-          [
-           "whose"
-          ]
-         ],
-         "fig": {
-          "k": "stim",
-          "id": "s7-e2",
-          "kind": "text",
-          "head": "Email from Yuki",
-          "html": "Hi Bao,<br>Thanks for your email. Yesterday our class went (0) <b>on</b> a trip to the Transport Museum. It is in an old train station, (18) ........ was built more than a hundred years ago. Our guide, (19) ........ grandfather was a train driver, told us lots of stories. I learned that the first trains (20) ........ pulled by steam engines. We were allowed to sit in a real plane, but we couldn't touch anything (21) ........ permission. My friend Tariq took a great photo of me in the pilot's seat, so I'll ask (22) ........ to send it to you. It was (23) ........ best school trip I've ever been on! I'm going (24) ........ visit the museum again in the summer, so maybe you can come with me.<br>Bye for now,<br>Yuki"
-         }
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Ug.03",
-        "6Ug.04"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "'nowadays' means now. 'they' is plural. The cows don't do the milking."
-         },
-         "worked": "Present passive, plural: they <b>are</b> milked.",
-         "type": "tfill",
-         "q": "Read the email. Write ONE word for gap 20.",
-         "lines": [
-          "The farm has forty cows, and nowadays they {0} all milked by a machine."
-         ],
-         "ans": [
-          [
-           "are"
-          ]
-         ],
-         "fig": {
-          "k": "stim",
-          "id": "s7-e1",
-          "kind": "text",
-          "head": "Email from Arlo",
-          "html": "Hi Amira,<br>How (0) <b>are</b> you? Sorry I haven't written (18) ........ ages! We have just come back from a week on a farm (19) ........ my grandparents live. The farm has forty cows, and nowadays they (20) ........ all milked by a machine. My favourite cow is Daisy, (21) ........ calf was born while we were there. The calf is (22) ........ cutest animal I've ever seen! On the last day, we went to a waterfall (23) ........ bike and had a picnic next to it. Grandpa says we can visit again next summer. I'm really looking forward (24) ........ it! Write back soon and tell me all your news.<br>Arlo"
-         }
-        },
-        {
-         "hint": {
-          "step": "'the first trains' were long ago and are plural. Did the trains pull, or were they pulled?"
-         },
-         "worked": "Past passive, plural: the first trains <b>were</b> pulled.",
-         "type": "tfill",
-         "q": "Read the email. Write ONE word for gap 20.",
-         "lines": [
-          "I learned that the first trains {0} pulled by steam engines."
+          "When we arrived, there {0} boxes everywhere."
          ],
          "ans": [
           [
@@ -1288,10 +1216,33 @@
          ],
          "fig": {
           "k": "stim",
+          "id": "s7-e1",
+          "kind": "text",
+          "head": "Letter from Ivy",
+          "html": "<b>Word box:</b> about, are, at, both, everyone, for, than, were, who, with<br><br><b>Our new flat</b><br>Dear Ana,<br>How are you? Last month we moved to a new flat. It is (0) <b>at</b> the top of a tall building, and it is much bigger (18) ________ our old one. From my bedroom window I can see the river and the bridge!<br>When we arrived, there (19) ________ boxes everywhere, and we couldn't find our plates. Our neighbour is a friendly old man (20) ________ grows tomatoes and herbs on his balcony. He gave us a big bowl of soup on the first night.<br>At first I was worried (21) ________ making new friends, but (22) ________ in my new class is kind to me. My brother and I (23) ________ joining the school swimming club next week. (24) ________ my parents love the big park near our building, and we go there every evening.<br>Please write soon!<br>Love,<br>Ivy"
+         }
+        },
+        {
+         "hint": {
+          "step": "The party was last Saturday. Is it one cake or many?"
+         },
+         "worked": "Past + one <b>cake</b>: there <b>was</b>.",
+         "type": "tfill",
+         "q": "Read the letter. Write ONE word from the box for gap 19.",
+         "lines": [
+          "There {0} a huge cake with seventy candles on it."
+         ],
+         "ans": [
+          [
+           "was"
+          ]
+         ],
+         "fig": {
+          "k": "stim",
           "id": "s7-e2",
           "kind": "text",
-          "head": "Email from Yuki",
-          "html": "Hi Bao,<br>Thanks for your email. Yesterday our class went (0) <b>on</b> a trip to the Transport Museum. It is in an old train station, (18) ........ was built more than a hundred years ago. Our guide, (19) ........ grandfather was a train driver, told us lots of stories. I learned that the first trains (20) ........ pulled by steam engines. We were allowed to sit in a real plane, but we couldn't touch anything (21) ........ permission. My friend Tariq took a great photo of me in the pilot's seat, so I'll ask (22) ........ to send it to you. It was (23) ........ best school trip I've ever been on! I'm going (24) ........ visit the museum again in the summer, so maybe you can come with me.<br>Bye for now,<br>Yuki"
+          "head": "Letter from Phuc",
+          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. Then I heard (22) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc"
          }
         }
        ]
@@ -1299,54 +1250,109 @@
       {
        "mode": "your",
        "lo": [
-        "6Us.05",
-        "6Uv.02"
+        "5Us.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "The calf belongs to Daisy."
+          "step": "Look at the words before the gap. Is it a person, a thing or a place?"
          },
-         "worked": "Daisy's calf = <b>whose</b> calf.",
+         "worked": "'a friendly old <b>man who</b> grows tomatoes': for a person we use <b>who</b>.",
          "type": "tfill",
-         "q": "Read the email. Write ONE word for gap 21.",
+         "q": "Read the letter. Write ONE word from the box for gap 20.",
          "lines": [
-          "My favourite cow is Daisy, {0} calf was born while we were there."
+          "Our neighbour is a friendly old man {0} grows tomatoes and herbs on his balcony."
          ],
          "ans": [
           [
-           "whose"
+           "who",
+           "that"
           ]
          ],
          "fig": {
           "k": "stim",
           "id": "s7-e1",
           "kind": "text",
-          "head": "Email from Arlo",
-          "html": "Hi Amira,<br>How (0) <b>are</b> you? Sorry I haven't written (18) ........ ages! We have just come back from a week on a farm (19) ........ my grandparents live. The farm has forty cows, and nowadays they (20) ........ all milked by a machine. My favourite cow is Daisy, (21) ........ calf was born while we were there. The calf is (22) ........ cutest animal I've ever seen! On the last day, we went to a waterfall (23) ........ bike and had a picnic next to it. Grandpa says we can visit again next summer. I'm really looking forward (24) ........ it! Write back soon and tell me all your news.<br>Arlo"
+          "head": "Letter from Ivy",
+          "html": "<b>Word box:</b> about, are, at, both, everyone, for, than, were, who, with<br><br><b>Our new flat</b><br>Dear Ana,<br>How are you? Last month we moved to a new flat. It is (0) <b>at</b> the top of a tall building, and it is much bigger (18) ________ our old one. From my bedroom window I can see the river and the bridge!<br>When we arrived, there (19) ________ boxes everywhere, and we couldn't find our plates. Our neighbour is a friendly old man (20) ________ grows tomatoes and herbs on his balcony. He gave us a big bowl of soup on the first night.<br>At first I was worried (21) ________ making new friends, but (22) ________ in my new class is kind to me. My brother and I (23) ________ joining the school swimming club next week. (24) ________ my parents love the big park near our building, and we go there every evening.<br>Please write soon!<br>Love,<br>Ivy"
          }
         },
         {
          "hint": {
-          "step": "They needed someone to say yes first."
+          "step": "Look at the words before the gap. Is it a person, a thing or a place?"
          },
-         "worked": "<b>without</b> permission = when nobody has said yes.",
+         "worked": "'a special chicken <b>soup which</b> Grandpa loves': for a thing we use <b>which</b>.",
          "type": "tfill",
-         "q": "Read the email. Write ONE word for gap 21.",
+         "q": "Read the letter. Write ONE word from the box for gap 20.",
          "lines": [
-          "We were allowed to sit in a real plane, but we couldn't touch anything {0} permission."
+          "My aunt cooked a special chicken soup {0} Grandpa loves."
          ],
          "ans": [
           [
-           "without"
+           "which",
+           "that"
           ]
          ],
          "fig": {
           "k": "stim",
           "id": "s7-e2",
           "kind": "text",
-          "head": "Email from Yuki",
-          "html": "Hi Bao,<br>Thanks for your email. Yesterday our class went (0) <b>on</b> a trip to the Transport Museum. It is in an old train station, (18) ........ was built more than a hundred years ago. Our guide, (19) ........ grandfather was a train driver, told us lots of stories. I learned that the first trains (20) ........ pulled by steam engines. We were allowed to sit in a real plane, but we couldn't touch anything (21) ........ permission. My friend Tariq took a great photo of me in the pilot's seat, so I'll ask (22) ........ to send it to you. It was (23) ........ best school trip I've ever been on! I'm going (24) ........ visit the museum again in the summer, so maybe you can come with me.<br>Bye for now,<br>Yuki"
+          "head": "Letter from Phuc",
+          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. Then I heard (22) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc"
+         }
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Uv.01"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Find the adjective just before the gap. Which small word always follows it?"
+         },
+         "worked": "We always say <b>worried about</b>.",
+         "type": "tfill",
+         "q": "Read the letter. Write ONE word from the box for gap 21.",
+         "lines": [
+          "At first I was worried {0} making new friends."
+         ],
+         "ans": [
+          [
+           "about"
+          ]
+         ],
+         "fig": {
+          "k": "stim",
+          "id": "s7-e1",
+          "kind": "text",
+          "head": "Letter from Ivy",
+          "html": "<b>Word box:</b> about, are, at, both, everyone, for, than, were, who, with<br><br><b>Our new flat</b><br>Dear Ana,<br>How are you? Last month we moved to a new flat. It is (0) <b>at</b> the top of a tall building, and it is much bigger (18) ________ our old one. From my bedroom window I can see the river and the bridge!<br>When we arrived, there (19) ________ boxes everywhere, and we couldn't find our plates. Our neighbour is a friendly old man (20) ________ grows tomatoes and herbs on his balcony. He gave us a big bowl of soup on the first night.<br>At first I was worried (21) ________ making new friends, but (22) ________ in my new class is kind to me. My brother and I (23) ________ joining the school swimming club next week. (24) ________ my parents love the big park near our building, and we go there every evening.<br>Please write soon!<br>Love,<br>Ivy"
+         }
+        },
+        {
+         "hint": {
+          "step": "Find the adjective just before the gap. Which small word always follows it?"
+         },
+         "worked": "We always say <b>good at</b>: good <b>at</b> telling stories.",
+         "type": "tfill",
+         "q": "Read the letter. Write ONE word from the box for gap 21.",
+         "lines": [
+          "Grandpa is very good {0} telling funny stories."
+         ],
+         "ans": [
+          [
+           "at"
+          ]
+         ],
+         "fig": {
+          "k": "stim",
+          "id": "s7-e2",
+          "kind": "text",
+          "head": "Letter from Phuc",
+          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. Then I heard (22) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc"
          }
         }
        ]
@@ -1355,61 +1361,60 @@
     },
     {
      "title": {
-      "en": "Part 4: an email (gaps 22 to 24)",
-      "vi": "Phần 4: email (chỗ trống 22 đến 24)"
+      "en": "Part 4: a letter (gaps 22 to 24)",
+      "vi": "Phần 4: lá thư (chỗ trống 22 đến 24)"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Uv.02"
+        "5Us.02"
        ],
        "v": [
         {
          "hint": {
-          "step": "'cutest' is a superlative. What always goes before it?"
+          "step": "'but' shows good news after a worry. Which box word means 'all the people'?"
          },
-         "worked": "Superlatives need <b>the</b>: <b>the</b> cutest.",
+         "worked": "The worry was about friends, <b>but</b> now <b>everyone</b> in the class is kind.",
          "type": "tfill",
-         "q": "Read the email. Write ONE word for gap 22.",
+         "q": "Read the letter. Write ONE word from the box for gap 22.",
          "lines": [
-          "The calf is {0} cutest animal I've ever seen!"
+          "At first I was worried about making new friends, but {0} in my new class is kind to me."
          ],
          "ans": [
           [
-           "the"
+           "everyone"
           ]
          ],
          "fig": {
           "k": "stim",
           "id": "s7-e1",
           "kind": "text",
-          "head": "Email from Arlo",
-          "html": "Hi Amira,<br>How (0) <b>are</b> you? Sorry I haven't written (18) ........ ages! We have just come back from a week on a farm (19) ........ my grandparents live. The farm has forty cows, and nowadays they (20) ........ all milked by a machine. My favourite cow is Daisy, (21) ........ calf was born while we were there. The calf is (22) ........ cutest animal I've ever seen! On the last day, we went to a waterfall (23) ........ bike and had a picnic next to it. Grandpa says we can visit again next summer. I'm really looking forward (24) ........ it! Write back soon and tell me all your news.<br>Arlo"
+          "head": "Letter from Ivy",
+          "html": "<b>Word box:</b> about, are, at, both, everyone, for, than, were, who, with<br><br><b>Our new flat</b><br>Dear Ana,<br>How are you? Last month we moved to a new flat. It is (0) <b>at</b> the top of a tall building, and it is much bigger (18) ________ our old one. From my bedroom window I can see the river and the bridge!<br>When we arrived, there (19) ________ boxes everywhere, and we couldn't find our plates. Our neighbour is a friendly old man (20) ________ grows tomatoes and herbs on his balcony. He gave us a big bowl of soup on the first night.<br>At first I was worried (21) ________ making new friends, but (22) ________ in my new class is kind to me. My brother and I (23) ________ joining the school swimming club next week. (24) ________ my parents love the big park near our building, and we go there every evening.<br>Please write soon!<br>Love,<br>Ivy"
          }
         },
         {
          "hint": {
-          "step": "Who will Yuki ask? Use a pronoun for Tariq."
+          "step": "The sentence is positive, and the next sentence tells you what it was. Which box word fits?"
          },
-         "worked": "Tariq is a boy, after a verb: ask <b>him</b>.",
+         "worked": "A thing (the puppy eating cake), in a positive sentence: I heard <b>something</b> strange.",
          "type": "tfill",
-         "q": "Read the email. Write ONE word for gap 22.",
+         "q": "Read the letter. Write ONE word from the box for gap 22.",
          "lines": [
-          "My friend Tariq took a great photo of me in the pilot's seat, so I'll ask {0} to send it to you."
+          "Then I heard {0} strange under the table."
          ],
          "ans": [
           [
-           "him",
-           "tariq"
+           "something"
           ]
          ],
          "fig": {
           "k": "stim",
           "id": "s7-e2",
           "kind": "text",
-          "head": "Email from Yuki",
-          "html": "Hi Bao,<br>Thanks for your email. Yesterday our class went (0) <b>on</b> a trip to the Transport Museum. It is in an old train station, (18) ........ was built more than a hundred years ago. Our guide, (19) ........ grandfather was a train driver, told us lots of stories. I learned that the first trains (20) ........ pulled by steam engines. We were allowed to sit in a real plane, but we couldn't touch anything (21) ........ permission. My friend Tariq took a great photo of me in the pilot's seat, so I'll ask (22) ........ to send it to you. It was (23) ........ best school trip I've ever been on! I'm going (24) ........ visit the museum again in the summer, so maybe you can come with me.<br>Bye for now,<br>Yuki"
+          "head": "Letter from Phuc",
+          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. Then I heard (22) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc"
          }
         }
        ]
@@ -1417,53 +1422,55 @@
       {
        "mode": "your",
        "lo": [
-        "6Uv.02"
+        "5Ug.05"
        ],
        "v": [
         {
          "hint": {
-          "step": "How did they travel? Think of 'by bus', 'by car'."
+          "step": "'next week' is a plan. Which helping verb goes with 'My brother and I'?"
          },
-         "worked": "Transport with no article: <b>by</b> bike.",
+         "worked": "A plan with <b>next week</b>: we <b>are joining</b> (present continuous).",
          "type": "tfill",
-         "q": "Read the email. Write ONE word for gap 23.",
+         "q": "Read the letter. Write ONE word from the box for gap 23.",
          "lines": [
-          "On the last day, we went to a waterfall {0} bike and had a picnic next to it."
+          "My brother and I {0} joining the school swimming club next week."
          ],
          "ans": [
           [
-           "by"
+           "are",
+           "'re"
           ]
          ],
          "fig": {
           "k": "stim",
           "id": "s7-e1",
           "kind": "text",
-          "head": "Email from Arlo",
-          "html": "Hi Amira,<br>How (0) <b>are</b> you? Sorry I haven't written (18) ........ ages! We have just come back from a week on a farm (19) ........ my grandparents live. The farm has forty cows, and nowadays they (20) ........ all milked by a machine. My favourite cow is Daisy, (21) ........ calf was born while we were there. The calf is (22) ........ cutest animal I've ever seen! On the last day, we went to a waterfall (23) ........ bike and had a picnic next to it. Grandpa says we can visit again next summer. I'm really looking forward (24) ........ it! Write back soon and tell me all your news.<br>Arlo"
+          "head": "Letter from Ivy",
+          "html": "<b>Word box:</b> about, are, at, both, everyone, for, than, were, who, with<br><br><b>Our new flat</b><br>Dear Ana,<br>How are you? Last month we moved to a new flat. It is (0) <b>at</b> the top of a tall building, and it is much bigger (18) ________ our old one. From my bedroom window I can see the river and the bridge!<br>When we arrived, there (19) ________ boxes everywhere, and we couldn't find our plates. Our neighbour is a friendly old man (20) ________ grows tomatoes and herbs on his balcony. He gave us a big bowl of soup on the first night.<br>At first I was worried (21) ________ making new friends, but (22) ________ in my new class is kind to me. My brother and I (23) ________ joining the school swimming club next week. (24) ________ my parents love the big park near our building, and we go there every evening.<br>Please write soon!<br>Love,<br>Ivy"
          }
         },
         {
          "hint": {
-          "step": "'best' is a superlative."
+          "step": "'Next weekend' is a plan. Which helping verb goes with 'I'?"
          },
-         "worked": "Superlatives need <b>the</b>: <b>the</b> best.",
+         "worked": "A plan with <b>Next weekend</b>: I <b>am staying</b> (present continuous).",
          "type": "tfill",
-         "q": "Read the email. Write ONE word for gap 23.",
+         "q": "Read the letter. Write ONE word from the box for gap 23.",
          "lines": [
-          "It was {0} best school trip I've ever been on!"
+          "Next weekend I {0} staying at his house for two nights."
          ],
          "ans": [
           [
-           "the"
+           "am",
+           "'m"
           ]
          ],
          "fig": {
           "k": "stim",
           "id": "s7-e2",
           "kind": "text",
-          "head": "Email from Yuki",
-          "html": "Hi Bao,<br>Thanks for your email. Yesterday our class went (0) <b>on</b> a trip to the Transport Museum. It is in an old train station, (18) ........ was built more than a hundred years ago. Our guide, (19) ........ grandfather was a train driver, told us lots of stories. I learned that the first trains (20) ........ pulled by steam engines. We were allowed to sit in a real plane, but we couldn't touch anything (21) ........ permission. My friend Tariq took a great photo of me in the pilot's seat, so I'll ask (22) ........ to send it to you. It was (23) ........ best school trip I've ever been on! I'm going (24) ........ visit the museum again in the summer, so maybe you can come with me.<br>Bye for now,<br>Yuki"
+          "head": "Letter from Phuc",
+          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. Then I heard (22) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc"
          }
         }
        ]
@@ -1471,53 +1478,53 @@
       {
        "mode": "your",
        "lo": [
-        "6Uv.02"
+        "5Us.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Remember the fixed phrase: looking forward ... "
+          "step": "How many parents does Ivy have? Which box word is for two?"
          },
-         "worked": "We always say looking forward <b>to</b>.",
+         "worked": "Two parents, so we use <b>Both</b>: <b>Both</b> my parents.",
          "type": "tfill",
-         "q": "Read the email. Write ONE word for gap 24.",
+         "q": "Read the letter. Write ONE word from the box for gap 24.",
          "lines": [
-          "I'm really looking forward {0} it!"
+          "{0} my parents love the big park near our building."
          ],
          "ans": [
           [
-           "to"
+           "both"
           ]
          ],
          "fig": {
           "k": "stim",
           "id": "s7-e1",
           "kind": "text",
-          "head": "Email from Arlo",
-          "html": "Hi Amira,<br>How (0) <b>are</b> you? Sorry I haven't written (18) ........ ages! We have just come back from a week on a farm (19) ........ my grandparents live. The farm has forty cows, and nowadays they (20) ........ all milked by a machine. My favourite cow is Daisy, (21) ........ calf was born while we were there. The calf is (22) ........ cutest animal I've ever seen! On the last day, we went to a waterfall (23) ........ bike and had a picnic next to it. Grandpa says we can visit again next summer. I'm really looking forward (24) ........ it! Write back soon and tell me all your news.<br>Arlo"
+          "head": "Letter from Ivy",
+          "html": "<b>Word box:</b> about, are, at, both, everyone, for, than, were, who, with<br><br><b>Our new flat</b><br>Dear Ana,<br>How are you? Last month we moved to a new flat. It is (0) <b>at</b> the top of a tall building, and it is much bigger (18) ________ our old one. From my bedroom window I can see the river and the bridge!<br>When we arrived, there (19) ________ boxes everywhere, and we couldn't find our plates. Our neighbour is a friendly old man (20) ________ grows tomatoes and herbs on his balcony. He gave us a big bowl of soup on the first night.<br>At first I was worried (21) ________ making new friends, but (22) ________ in my new class is kind to me. My brother and I (23) ________ joining the school swimming club next week. (24) ________ my parents love the big park near our building, and we go there every evening.<br>Please write soon!<br>Love,<br>Ivy"
          }
         },
         {
          "hint": {
-          "step": "'I'm going ... visit' is a future plan."
+          "step": "Look at the end: the house will be very busy. Which box word is for many people?"
          },
-         "worked": "be going <b>to</b> + verb: I'm going <b>to</b> visit.",
+         "worked": "Many cousins and a very busy house: <b>All</b> my cousins.",
          "type": "tfill",
-         "q": "Read the email. Write ONE word for gap 24.",
+         "q": "Read the letter. Write ONE word from the box for gap 24.",
          "lines": [
-          "I'm going {0} visit the museum again in the summer, so maybe you can come with me."
+          "{0} my cousins are staying there too, so the house will be very busy!"
          ],
          "ans": [
           [
-           "to"
+           "all"
           ]
          ],
          "fig": {
           "k": "stim",
           "id": "s7-e2",
           "kind": "text",
-          "head": "Email from Yuki",
-          "html": "Hi Bao,<br>Thanks for your email. Yesterday our class went (0) <b>on</b> a trip to the Transport Museum. It is in an old train station, (18) ........ was built more than a hundred years ago. Our guide, (19) ........ grandfather was a train driver, told us lots of stories. I learned that the first trains (20) ........ pulled by steam engines. We were allowed to sit in a real plane, but we couldn't touch anything (21) ........ permission. My friend Tariq took a great photo of me in the pilot's seat, so I'll ask (22) ........ to send it to you. It was (23) ........ best school trip I've ever been on! I'm going (24) ........ visit the museum again in the summer, so maybe you can come with me.<br>Bye for now,<br>Yuki"
+          "head": "Letter from Phuc",
+          "html": "<b>Word box:</b> all, am, at, by, for, on, something, than, was, which<br><br><b>Grandpa's birthday</b><br>Dear Finn,<br>Thanks (0) <b>for</b> your letter. Last Saturday my grandpa was seventy, so we had a family party at his house. It was even bigger (18) ________ his party last year! There (19) ________ a huge cake with seventy candles on it, and Grandpa needed help to blow them out.<br>My aunt cooked a special chicken soup (20) ________ Grandpa loves. Grandpa is very good (21) ________ telling funny stories, and he told us about his first job. Then I heard (22) ________ strange under the table. It was my cousin's puppy eating cake!<br>Next weekend I (23) ________ staying at his house for two nights. (24) ________ my cousins are staying there too, so the house will be very busy!<br>Write back soon!<br>Your friend,<br>Phuc"
          }
         }
        ]
@@ -1530,78 +1537,78 @@
  "notes": {
   "items": [
    {
-    "en": "Passive: *am / is / are* + past participle (now), *was / were* + past participle (past). Use it when the subject doesn't do the action.",
-    "vi": "Bị động: *am / is / are* + quá khứ phân từ (hiện tại), *was / were* + quá khứ phân từ (quá khứ). Dùng khi chủ ngữ không tự làm hành động.",
+    "en": "Past simple for finished actions. Clues: *yesterday*, *last week*, *ago*. Use *there was* for one thing and *there were* for many.",
+    "vi": "Thì quá khứ đơn cho hành động đã xong. Manh mối: *yesterday*, *last week*, *ago*. Dùng *there was* cho một vật và *there were* cho nhiều vật.",
     "example": [
-     "Rice *is grown* in the Mekong Delta.",
-     "The bridge *was built* in 2010."
+     "We *made* a cake *yesterday*.",
+     "*There were* ten candles on it."
     ]
    },
    {
-    "en": "Present perfect with *just, already, yet, ever, never, for, since, so far*. Past simple with *yesterday, last week, ago, in 2019*.",
-    "vi": "Hiện tại hoàn thành đi với *just, already, yet, ever, never, for, since, so far*. Quá khứ đơn đi với *yesterday, last week, ago, in 2019*.",
+    "en": "Present continuous (*am / is / are* + -ing) for now (*now*, *Look!*) and for plans with a future time (*next week*, *on Saturday*).",
+    "vi": "Thì hiện tại tiếp diễn (*am / is / are* + -ing) cho việc đang xảy ra (*now*, *Look!*) và cho kế hoạch có thời gian tương lai (*next week*, *on Saturday*).",
     "example": [
-     "I *have* already *eaten*.",
-     "I *ate* pizza *yesterday*."
+     "Look! She *is painting* the gate.",
+     "We *are visiting* Grandma *next Sunday*."
     ]
    },
    {
-    "en": "First conditional: *If* + present, *will* + verb. Never put 'will' straight after 'if'.",
-    "vi": "Câu điều kiện loại 1: *If* + hiện tại, *will* + động từ. Không đặt 'will' ngay sau 'if'.",
+    "en": "*-ed* adjectives say how a person feels. *-ing* adjectives describe the thing that makes you feel it. After a comparative, use *than*.",
+    "vi": "Tính từ đuôi *-ed* nói về cảm xúc của người. Tính từ đuôi *-ing* mô tả sự vật gây ra cảm xúc đó. Sau so sánh hơn, dùng *than*.",
     "example": [
-     "*If* you *practise*, you *will get* better.",
-     "We *will* stay inside *if* it *rains*."
+     "The film was *boring*, so I was *bored*.",
+     "My bag is heavier *than* yours."
     ]
    },
    {
-    "en": "Modals: *must* = necessary, *mustn't* = not allowed, *needn't / don't have to* = not necessary, *should* = advice.",
-    "vi": "Động từ khuyết thiếu: *must* = bắt buộc, *mustn't* = không được phép, *needn't / don't have to* = không cần thiết, *should* = lời khuyên.",
+    "en": "Adjective + small word: *good at*, *interested in*, *worried about*, *afraid of*, *proud of*, *kind to*, *famous for*.",
+    "vi": "Tính từ + từ nhỏ: *good at*, *interested in*, *worried about*, *afraid of*, *proud of*, *kind to*, *famous for*.",
     "example": [
-     "You *mustn't* run near the pool.",
-     "You *needn't* bring a towel: we have lots."
+     "She is *good at* drawing.",
+     "I was *worried about* the test."
     ]
    },
    {
-    "en": "Relative pronouns: *who* (people), *which* (things), *whose* (belonging), *where* (places). After a comma, don't use 'that'.",
-    "vi": "Đại từ quan hệ: *who* (người), *which* (vật), *whose* (sở hữu), *where* (nơi chốn). Sau dấu phẩy, không dùng 'that'.",
+    "en": "Quantifiers: *fewer* + things you can count, *less* + things you can't count. *both* = two, *all* = three or more.",
+    "vi": "Từ chỉ số lượng: *fewer* + thứ đếm được, *less* + thứ không đếm được. *both* = hai, *all* = ba hoặc nhiều hơn.",
     "example": [
-     "That's the boy *whose* dog won the prize.",
-     "Hanoi, *which* is my home town, is very busy."
+     "Eat *fewer* sweets and *less* sugar.",
+     "*Both* my parents are teachers."
     ]
    },
    {
-    "en": "Part 4 gap words: prepositions with nouns (*by bus, on foot, on time, without permission*), *to* after want / going / looking forward, and *the* before superlatives.",
-    "vi": "Từ hay điền ở Phần 4: giới từ đi với danh từ (*by bus, on foot, on time, without permission*), *to* sau want / going / looking forward, và *the* trước so sánh nhất.",
+    "en": "*who* (people), *which* (things), *where* (places). *someone / something* in positive sentences, *anyone / anything* in questions and after 'not', *nobody / nothing* = not one.",
+    "vi": "*who* (người), *which* (vật), *where* (nơi chốn). *someone / something* trong câu khẳng định, *anyone / anything* trong câu hỏi và sau 'not', *nobody / nothing* = không ai / không gì.",
     "example": [
-     "We went *by* train.",
-     "I'm looking forward *to* the holiday."
+     "That's the park *where* we play.",
+     "There isn't *anything* in the box."
     ]
    }
   ],
   "check": [
    {
-    "sentence": "The first bicycles {were made|made|are made} of wood.",
-    "answer": "were made"
+    "sentence": "There {were|was|is} ten candles on the cake yesterday.",
+    "answer": "were"
    },
    {
-    "sentence": "I {have lived|lived|live} here since I was five.",
-    "answer": "have lived"
+    "sentence": "My aunt {is visiting|visited|visit} us next week.",
+    "answer": "is visiting"
    },
    {
-    "sentence": "If we {leave|will leave|left} now, we will catch the bus.",
-    "answer": "leave"
+    "sentence": "The magic show was really {exciting|excited|excite}.",
+    "answer": "exciting"
    },
    {
-    "sentence": "You {needn't|mustn't|should} take an umbrella: it's sunny all day.",
-    "answer": "needn't"
+    "sentence": "I'm not very good {at|in|of} maths.",
+    "answer": "at"
    },
    {
-    "sentence": "That's the girl {whose|who|which} cat is called Mochi.",
-    "answer": "whose"
+    "sentence": "There are {fewer|less|much} cars on the road today.",
+    "answer": "fewer"
    },
    {
-    "sentence": "I'm looking forward {to|for|at} seeing you.",
-    "answer": "to"
+    "sentence": "This is the girl {who|which|where} helped me.",
+    "answer": "who"
    }
   ]
  },
@@ -1610,445 +1617,18 @@
    {
     "dok": 1,
     "lo": [
-     "6Ug.04"
+     "5Ug.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "Who did the action? When?"
+       "step": "'On Monday' was last week. Which box word is a past form of 'be' for 'I'?"
       },
-      "worked": "Our class did it, <b>last term</b>: past simple active <b>put up</b>.",
-      "type": "mcq",
-      "q": "<b>Story: The bird boxes</b> (sentence 1 of 5)<br>Last term, our class .......... five bird boxes on the trees around the playground.",
-      "opts": [
-       "put up",
-       "was put up",
-       "has put up"
-      ],
-      "at": 2,
-      "whys": [
-       null,
-       "Our class did the action, so we don't need the passive.",
-       "'Last term' is finished past time, so use the past simple."
-      ],
-      "letters": true
-     },
-     {
-      "hint": {
-       "step": "Did the fountain do the action? When?"
-      },
-      "worked": "Someone installed it <b>last month</b>: past passive <b>was installed</b>.",
-      "type": "mcq",
-      "q": "<b>Story: The water fountain</b> (sentence 1 of 5)<br>Last month, a new water fountain .......... in our school playground.",
-      "opts": [
-       "was installed",
-       "installed",
-       "is installing"
-      ],
-      "at": 0,
-      "whys": [
-       null,
-       "A fountain can't install anything. Someone installed it.",
-       "'Last month' is past, and the fountain didn't do the action."
-      ],
-      "letters": true
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Ug.04"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Did the boxes do the action? Look at 'gave': past or present?"
-      },
-      "worked": "We made the boxes in the past: past passive, plural <b>were made</b>.",
-      "type": "mcq",
-      "q": "<b>Story: The bird boxes</b> (sentence 2 of 5)<br>The boxes .......... from old wooden fruit boxes that a local shop gave us.",
-      "opts": [
-       "were made",
-       "made",
-       "are making"
-      ],
-      "at": 1,
-      "whys": [
-       null,
-       "The boxes didn't make anything. We made them.",
-       "The boxes didn't do the action, and it happened in the past."
-      ],
-      "letters": true
-     },
-     {
-      "hint": {
-       "step": "Find 'by a special filter'. Who does the cleaning?"
-      },
-      "worked": "The filter cleans the water, now: present passive <b>is cleaned</b>.",
-      "type": "mcq",
-      "q": "<b>Story: The water fountain</b> (sentence 2 of 5)<br>The water .......... by a special filter, so it is safe to drink.",
-      "opts": [
-       "is cleaned",
-       "cleans",
-       "cleaned"
-      ],
-      "at": 2,
-      "whys": [
-       null,
-       "Water can't clean itself. The filter cleans it.",
-       "The sentence is about now ('it is safe'), and it needs 'is'."
-      ],
-      "letters": true
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Ug.07"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Find the clue word 'Since'."
-      },
-      "worked": "<b>Since</b> then, up to now: <b>have lived</b>.",
-      "type": "mcq",
-      "q": "<b>Story: The bird boxes</b> (sentence 3 of 5)<br>Since then, two families of birds .......... in them.",
-      "opts": [
-       "have lived",
-       "lived",
-       "live"
-      ],
-      "at": 0,
-      "whys": [
-       null,
-       "'Since then' means up to now, so not the past simple.",
-       "With 'since' we use the present perfect, not the present simple."
-      ],
-      "letters": true
-     },
-     {
-      "hint": {
-       "step": "Find the clue word 'Since'."
-      },
-      "worked": "<b>Since</b> it arrived, up to now: <b>have brought</b>.",
-      "type": "mcq",
-      "q": "<b>Story: The water fountain</b> (sentence 3 of 5)<br>Since it arrived, most students .......... their own bottles to school every day.",
-      "opts": [
-       "have brought",
-       "brought",
-       "bring"
-      ],
-      "at": 1,
-      "whys": [
-       null,
-       "'Since it arrived' means up to now, so not the past simple.",
-       "With 'since' we use the present perfect, not the present simple."
-      ],
-      "letters": true
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Ug.12"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Read the reason after 'because'. Is it a rule?"
-      },
-      "worked": "The birds might get scared, so it is not allowed: <b>mustn't</b>.",
-      "type": "mcq",
-      "q": "<b>Story: The bird boxes</b> (sentence 4 of 5)<br>We .......... go too close to the boxes because the birds might get scared.",
-      "opts": [
-       "mustn't",
-       "needn't",
-       "don't have to"
-      ],
-      "at": 2,
-      "whys": [
-       null,
-       "'needn't' means 'not necessary'. Here going close is a bad thing that isn't allowed.",
-       "'don't have to' means 'not necessary'. Here going close isn't allowed."
-      ],
-      "letters": true
-     },
-     {
-      "hint": {
-       "step": "Read after 'but': 'we can if we want to'."
-      },
-      "worked": "We can if we want, so it is not necessary: <b>needn't</b>.",
-      "type": "mcq",
-      "q": "<b>Story: The water fountain</b> (sentence 4 of 5)<br>Our teacher says we .......... buy drinks at the shop any more, but we can if we want to.",
-      "opts": [
-       "needn't",
-       "mustn't",
-       "have to"
-      ],
-      "at": 0,
-      "whys": [
-       null,
-       "'we can if we want to' shows it isn't banned.",
-       "'any more' needs a negative word, and buying isn't necessary."
-      ],
-      "letters": true
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Ug.09"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "The other part has 'will'. What goes after 'if'?"
-      },
-      "worked": "If + present (<b>hatch</b>), we <b>will</b> take photos.",
-      "type": "mcq",
-      "q": "<b>Story: The bird boxes</b> (sentence 5 of 5)<br>If the baby birds .......... this spring, we will take photos from the classroom window.",
-      "opts": [
-       "hatch",
-       "will hatch",
-       "hatched"
-      ],
-      "at": 1,
-      "whys": [
-       null,
-       "We don't use 'will' straight after 'if' here.",
-       "'this spring' is in the future, so the past is wrong."
-      ],
-      "letters": true
-     },
-     {
-      "hint": {
-       "step": "The other part has 'will'. What goes after 'if'?"
-      },
-      "worked": "If + present (<b>use</b>), the school <b>will</b> need fewer bins.",
-      "type": "mcq",
-      "q": "<b>Story: The water fountain</b> (sentence 5 of 5)<br>If more students .......... reusable bottles, the school will need fewer bins.",
-      "opts": [
-       "use",
-       "will use",
-       "used"
-      ],
-      "at": 2,
-      "whys": [
-       null,
-       "We don't use 'will' straight after 'if' here.",
-       "With 'will need' in the other part, we use the present, not the past."
-      ],
-      "letters": true
-     }
-    ]
-   },
-   {
-    "dok": 2,
-    "lo": [
-     "6Us.05"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Mrs Lee is a person, and there is a comma before the gap."
-      },
-      "worked": "A person after a comma: <b>who</b> ('that' is not used after a comma).",
+      "worked": "Last week, with <b>I</b>: I <b>was</b> too tired.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 18.",
+      "q": "Read the letter. Write ONE word from the box for gap 18.",
       "lines": [
-       "My teacher is Mrs Lee, {0} lives next door to us."
-      ],
-      "ans": [
-       [
-        "who"
-       ]
-      ],
-      "fig": {
-       "k": "stim",
-       "id": "s7-t1",
-       "kind": "text",
-       "head": "Email from Nadia",
-       "html": "Hi Sam,<br>Guess what? I (0) <b>have</b> started guitar lessons! My teacher is Mrs Lee, (18) ........ lives next door to us. I have a lesson (19) ........ Tuesday afternoons, straight after school. Mrs Lee plays a beautiful old guitar, (20) ........ was made in Spain. My fingers hurt a bit at first, but Mrs Lee says (21) ........ will soon stop hurting. I practise every evening, and it's getting easier. Next month our class is having a concert in the school hall. Would you like (22) ........ come and listen? I'm going to play a song on my own!<br>Bye for now,<br>Nadia"
-      }
-     },
-     {
-      "hint": {
-       "step": "'Since then' tells you the tense. Which helping verb goes with 'I'?"
-      },
-      "worked": "<b>Since</b> then + up to now = present perfect: I <b>have</b> watched.",
-      "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 18.",
-      "lines": [
-       "Since then, I {0} watched the video of the final ten times!"
-      ],
-      "ans": [
-       [
-        "have"
-       ]
-      ],
-      "fig": {
-       "k": "stim",
-       "id": "s7-t2",
-       "kind": "text",
-       "head": "Email from Reza",
-       "html": "Hi Mia,<br>Thanks (0) <b>for</b> your email. I've got some great news! Our basketball team won the city cup on Saturday. Since then, I (18) ........ watched the video of the final ten times! The final was against a team (19) ........ players were all taller than us. We were losing at half-time, but in the end we won (20) ........ one point. After the match, the cup (21) ........ given to our captain by the head of the sports centre. Now our coach wants us (22) ........ train every day for the next competition. Are you still playing tennis? Write soon and tell me your news.<br>Reza"
-      }
-     }
-    ]
-   },
-   {
-    "dok": 2,
-    "lo": [
-     "6Uv.02",
-     "6Us.05"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Which preposition goes before days of the week?"
-      },
-      "worked": "Days: <b>on</b> Tuesday afternoons.",
-      "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 19.",
-      "lines": [
-       "I have a lesson {0} Tuesday afternoons, straight after school."
-      ],
-      "ans": [
-       [
-        "on"
-       ]
-      ],
-      "fig": {
-       "k": "stim",
-       "id": "s7-t1",
-       "kind": "text",
-       "head": "Email from Nadia",
-       "html": "Hi Sam,<br>Guess what? I (0) <b>have</b> started guitar lessons! My teacher is Mrs Lee, (18) ........ lives next door to us. I have a lesson (19) ........ Tuesday afternoons, straight after school. Mrs Lee plays a beautiful old guitar, (20) ........ was made in Spain. My fingers hurt a bit at first, but Mrs Lee says (21) ........ will soon stop hurting. I practise every evening, and it's getting easier. Next month our class is having a concert in the school hall. Would you like (22) ........ come and listen? I'm going to play a song on my own!<br>Bye for now,<br>Nadia"
-      }
-     },
-     {
-      "hint": {
-       "step": "The players belong to the team."
-      },
-      "worked": "The team's players = <b>whose</b> players.",
-      "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 19.",
-      "lines": [
-       "The final was against a team {0} players were all taller than us."
-      ],
-      "ans": [
-       [
-        "whose"
-       ]
-      ],
-      "fig": {
-       "k": "stim",
-       "id": "s7-t2",
-       "kind": "text",
-       "head": "Email from Reza",
-       "html": "Hi Mia,<br>Thanks (0) <b>for</b> your email. I've got some great news! Our basketball team won the city cup on Saturday. Since then, I (18) ........ watched the video of the final ten times! The final was against a team (19) ........ players were all taller than us. We were losing at half-time, but in the end we won (20) ........ one point. After the match, the cup (21) ........ given to our captain by the head of the sports centre. Now our coach wants us (22) ........ train every day for the next competition. Are you still playing tennis? Write soon and tell me your news.<br>Reza"
-      }
-     }
-    ]
-   },
-   {
-    "dok": 2,
-    "lo": [
-     "6Us.05",
-     "6Uv.02"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "The guitar is a thing, and there is a comma before the gap."
-      },
-      "worked": "A thing after a comma: <b>which</b>.",
-      "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 20.",
-      "lines": [
-       "Mrs Lee plays a beautiful old guitar, {0} was made in Spain."
-      ],
-      "ans": [
-       [
-        "which"
-       ]
-      ],
-      "fig": {
-       "k": "stim",
-       "id": "s7-t1",
-       "kind": "text",
-       "head": "Email from Nadia",
-       "html": "Hi Sam,<br>Guess what? I (0) <b>have</b> started guitar lessons! My teacher is Mrs Lee, (18) ........ lives next door to us. I have a lesson (19) ........ Tuesday afternoons, straight after school. Mrs Lee plays a beautiful old guitar, (20) ........ was made in Spain. My fingers hurt a bit at first, but Mrs Lee says (21) ........ will soon stop hurting. I practise every evening, and it's getting easier. Next month our class is having a concert in the school hall. Would you like (22) ........ come and listen? I'm going to play a song on my own!<br>Bye for now,<br>Nadia"
-      }
-     },
-     {
-      "hint": {
-       "step": "Which word shows the difference in the score?"
-      },
-      "worked": "We say win <b>by</b> one point.",
-      "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 20.",
-      "lines": [
-       "We were losing at half-time, but in the end we won {0} one point."
-      ],
-      "ans": [
-       [
-        "by"
-       ]
-      ],
-      "fig": {
-       "k": "stim",
-       "id": "s7-t2",
-       "kind": "text",
-       "head": "Email from Reza",
-       "html": "Hi Mia,<br>Thanks (0) <b>for</b> your email. I've got some great news! Our basketball team won the city cup on Saturday. Since then, I (18) ........ watched the video of the final ten times! The final was against a team (19) ........ players were all taller than us. We were losing at half-time, but in the end we won (20) ........ one point. After the match, the cup (21) ........ given to our captain by the head of the sports centre. Now our coach wants us (22) ........ train every day for the next competition. Are you still playing tennis? Write soon and tell me your news.<br>Reza"
-      }
-     }
-    ]
-   },
-   {
-    "dok": 2,
-    "lo": [
-     "6Ug.04"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "What will stop hurting? Is it one thing or more than one?"
-      },
-      "worked": "My fingers (plural) = <b>they</b>.",
-      "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 21.",
-      "lines": [
-       "My fingers hurt a bit at first, but Mrs Lee says {0} will soon stop hurting."
-      ],
-      "ans": [
-       [
-        "they"
-       ]
-      ],
-      "fig": {
-       "k": "stim",
-       "id": "s7-t1",
-       "kind": "text",
-       "head": "Email from Nadia",
-       "html": "Hi Sam,<br>Guess what? I (0) <b>have</b> started guitar lessons! My teacher is Mrs Lee, (18) ........ lives next door to us. I have a lesson (19) ........ Tuesday afternoons, straight after school. Mrs Lee plays a beautiful old guitar, (20) ........ was made in Spain. My fingers hurt a bit at first, but Mrs Lee says (21) ........ will soon stop hurting. I practise every evening, and it's getting easier. Next month our class is having a concert in the school hall. Would you like (22) ........ come and listen? I'm going to play a song on my own!<br>Bye for now,<br>Nadia"
-      }
-     },
-     {
-      "hint": {
-       "step": "The cup didn't give anything. 'After the match' is past."
-      },
-      "worked": "Past passive, singular: the cup <b>was</b> given.",
-      "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 21.",
-      "lines": [
-       "After the match, the cup {0} given to our captain by the head of the sports centre."
+       "On Monday I {0} too tired to get out of bed."
       ],
       "ans": [
        [
@@ -2057,10 +1637,253 @@
       ],
       "fig": {
        "k": "stim",
+       "id": "s7-t1",
+       "kind": "text",
+       "head": "Letter from Molly",
+       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (18) ________ too tired to get out of bed. Mum took me to see a doctor (19) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (20) ________ before! Are you still interested (21) ________ joining the chess club with me? I (22) ________ going back to school on Monday, so we can sign up together.<br>See you soon,<br>Molly"
+      }
+     },
+     {
+      "hint": {
+       "step": "Sports day was on Friday, in the past. Is it one race or many?"
+      },
+      "worked": "Past + many <b>races</b>: there <b>were</b>.",
+      "type": "tfill",
+      "q": "Read the letter. Write ONE word from the box for gap 18.",
+      "lines": [
+       "There {0} six races for each class."
+      ],
+      "ans": [
+       [
+        "were"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
        "id": "s7-t2",
        "kind": "text",
-       "head": "Email from Reza",
-       "html": "Hi Mia,<br>Thanks (0) <b>for</b> your email. I've got some great news! Our basketball team won the city cup on Saturday. Since then, I (18) ........ watched the video of the final ten times! The final was against a team (19) ........ players were all taller than us. We were losing at half-time, but in the end we won (20) ........ one point. After the match, the cup (21) ........ given to our captain by the head of the sports centre. Now our coach wants us (22) ........ train every day for the next competition. Are you still playing tennis? Write soon and tell me your news.<br>Reza"
+       "head": "Letter from Hamid",
+       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (18) ________ six races for each class, and the sun was shining all day. The boy (19) ________ lives next door to me won two races. I came second in the long race. It was harder (20) ________ I expected, but I didn't stop. Dad was very proud (21) ________ me! Next Saturday, my team (22) ________ having a picnic in the park to celebrate. Would you like to come?<br>Best wishes,<br>Hamid"
+      }
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "5Us.04"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Look at the word before the gap. Is it a person, a thing or a place?"
+      },
+      "worked": "'a <b>doctor who</b> was very kind': for a person we use <b>who</b>.",
+      "type": "tfill",
+      "q": "Read the letter. Write ONE word from the box for gap 19.",
+      "lines": [
+       "Mum took me to see a doctor {0} was very kind."
+      ],
+      "ans": [
+       [
+        "who",
+        "that"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s7-t1",
+       "kind": "text",
+       "head": "Letter from Molly",
+       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (18) ________ too tired to get out of bed. Mum took me to see a doctor (19) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (20) ________ before! Are you still interested (21) ________ joining the chess club with me? I (22) ________ going back to school on Monday, so we can sign up together.<br>See you soon,<br>Molly"
+      }
+     },
+     {
+      "hint": {
+       "step": "Look at the word before the gap. Is it a person, a thing or a place?"
+      },
+      "worked": "'The <b>boy who</b> lives next door': for a person we use <b>who</b>.",
+      "type": "tfill",
+      "q": "Read the letter. Write ONE word from the box for gap 19.",
+      "lines": [
+       "The boy {0} lives next door to me won two races."
+      ],
+      "ans": [
+       [
+        "who",
+        "that"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s7-t2",
+       "kind": "text",
+       "head": "Letter from Hamid",
+       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (18) ________ six races for each class, and the sun was shining all day. The boy (19) ________ lives next door to me won two races. I came second in the long race. It was harder (20) ________ I expected, but I didn't stop. Dad was very proud (21) ________ me! Next Saturday, my team (22) ________ having a picnic in the park to celebrate. Would you like to come?<br>Best wishes,<br>Hamid"
+      }
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "5Ug.11"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Find 'hungrier'. Which box word comes after a comparative?"
+      },
+      "worked": "'<b>hungrier than</b> before': after a comparative we use <b>than</b>.",
+      "type": "tfill",
+      "q": "Read the letter. Write ONE word from the box for gap 20.",
+      "lines": [
+       "Now I'm feeling much better, and I'm hungrier {0} before!"
+      ],
+      "ans": [
+       [
+        "than"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s7-t1",
+       "kind": "text",
+       "head": "Letter from Molly",
+       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (18) ________ too tired to get out of bed. Mum took me to see a doctor (19) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (20) ________ before! Are you still interested (21) ________ joining the chess club with me? I (22) ________ going back to school on Monday, so we can sign up together.<br>See you soon,<br>Molly"
+      }
+     },
+     {
+      "hint": {
+       "step": "Find 'harder'. Which box word comes after a comparative?"
+      },
+      "worked": "'<b>harder than</b> I expected': after a comparative we use <b>than</b>.",
+      "type": "tfill",
+      "q": "Read the letter. Write ONE word from the box for gap 20.",
+      "lines": [
+       "It was harder {0} I expected, but I didn't stop."
+      ],
+      "ans": [
+       [
+        "than"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s7-t2",
+       "kind": "text",
+       "head": "Letter from Hamid",
+       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (18) ________ six races for each class, and the sun was shining all day. The boy (19) ________ lives next door to me won two races. I came second in the long race. It was harder (20) ________ I expected, but I didn't stop. Dad was very proud (21) ________ me! Next Saturday, my team (22) ________ having a picnic in the park to celebrate. Would you like to come?<br>Best wishes,<br>Hamid"
+      }
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "5Uv.01"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Find the adjective just before the gap. Which small word always follows it?"
+      },
+      "worked": "We always say <b>interested in</b>.",
+      "type": "tfill",
+      "q": "Read the letter. Write ONE word from the box for gap 21.",
+      "lines": [
+       "Are you still interested {0} joining the chess club with me?"
+      ],
+      "ans": [
+       [
+        "in"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s7-t1",
+       "kind": "text",
+       "head": "Letter from Molly",
+       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (18) ________ too tired to get out of bed. Mum took me to see a doctor (19) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (20) ________ before! Are you still interested (21) ________ joining the chess club with me? I (22) ________ going back to school on Monday, so we can sign up together.<br>See you soon,<br>Molly"
+      }
+     },
+     {
+      "hint": {
+       "step": "Find the adjective just before the gap. Which small word always follows it?"
+      },
+      "worked": "We always say <b>proud of</b>.",
+      "type": "tfill",
+      "q": "Read the letter. Write ONE word from the box for gap 21.",
+      "lines": [
+       "Dad was very proud {0} me!"
+      ],
+      "ans": [
+       [
+        "of"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s7-t2",
+       "kind": "text",
+       "head": "Letter from Hamid",
+       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (18) ________ six races for each class, and the sun was shining all day. The boy (19) ________ lives next door to me won two races. I came second in the long race. It was harder (20) ________ I expected, but I didn't stop. Dad was very proud (21) ________ me! Next Saturday, my team (22) ________ having a picnic in the park to celebrate. Would you like to come?<br>Best wishes,<br>Hamid"
+      }
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "5Ug.05"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "This is a plan for next Monday. Which helping verb goes with 'I' + -ing?"
+      },
+      "worked": "A plan: I <b>am going</b> back to school on Monday (present continuous).",
+      "type": "tfill",
+      "q": "Read the letter. Write ONE word from the box for gap 22.",
+      "lines": [
+       "I {0} going back to school on Monday, so we can sign up together."
+      ],
+      "ans": [
+       [
+        "am",
+        "'m"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s7-t1",
+       "kind": "text",
+       "head": "Letter from Molly",
+       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (18) ________ too tired to get out of bed. Mum took me to see a doctor (19) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (20) ________ before! Are you still interested (21) ________ joining the chess club with me? I (22) ________ going back to school on Monday, so we can sign up together.<br>See you soon,<br>Molly"
+      }
+     },
+     {
+      "hint": {
+       "step": "'Next Saturday' is a plan. Which helping verb goes with 'my team' + -ing?"
+      },
+      "worked": "A plan with <b>Next Saturday</b>: my team <b>is having</b> a picnic.",
+      "type": "tfill",
+      "q": "Read the letter. Write ONE word from the box for gap 22.",
+      "lines": [
+       "Next Saturday, my team {0} having a picnic in the park to celebrate."
+      ],
+      "ans": [
+       [
+        "is",
+        "'s"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s7-t2",
+       "kind": "text",
+       "head": "Letter from Hamid",
+       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (18) ________ six races for each class, and the sun was shining all day. The boy (19) ________ lives next door to me won two races. I came second in the long race. It was harder (20) ________ I expected, but I didn't stop. Dad was very proud (21) ________ me! Next Saturday, my team (22) ________ having a picnic in the park to celebrate. Would you like to come?<br>Best wishes,<br>Hamid"
       }
      }
     ]
@@ -2068,54 +1891,240 @@
    {
     "dok": 2,
     "lo": [
-     "6Uv.02"
+     "5Ug.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "Would you like ... + verb."
+       "step": "Find the time words. Is the picnic finished?"
       },
-      "worked": "We say would you like <b>to</b> + verb.",
-      "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 22.",
-      "lines": [
-       "Would you like {0} come and listen?"
+      "worked": "<b>Last Saturday</b> is finished time: Yen <b>celebrated</b> her birthday.",
+      "type": "mcq",
+      "q": "<b>Story: Yen's birthday picnic</b> (sentence 1 of 5)<br>Last Saturday, Yen ________ her tenth birthday with a picnic in the park.",
+      "opts": [
+       "celebrated",
+       "celebrate",
+       "celebrating"
       ],
-      "ans": [
-       [
-        "to"
-       ]
+      "at": 1,
+      "whys": [
+       null,
+       "'Last Saturday' is finished time, so the base form is wrong.",
+       "'celebrating' needs 'was' before it, and the picnic is finished."
       ],
-      "fig": {
-       "k": "stim",
-       "id": "s7-t1",
-       "kind": "text",
-       "head": "Email from Nadia",
-       "html": "Hi Sam,<br>Guess what? I (0) <b>have</b> started guitar lessons! My teacher is Mrs Lee, (18) ........ lives next door to us. I have a lesson (19) ........ Tuesday afternoons, straight after school. Mrs Lee plays a beautiful old guitar, (20) ........ was made in Spain. My fingers hurt a bit at first, but Mrs Lee says (21) ........ will soon stop hurting. I practise every evening, and it's getting easier. Next month our class is having a concert in the school hall. Would you like (22) ........ come and listen? I'm going to play a song on my own!<br>Bye for now,<br>Nadia"
-      }
+      "letters": true
      },
      {
       "hint": {
-       "step": "wants + person + ... + verb."
+       "step": "Find the time words. Is the action finished?"
       },
-      "worked": "want + someone + <b>to</b> + verb: wants us <b>to</b> train.",
-      "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 22.",
-      "lines": [
-       "Now our coach wants us {0} train every day for the next competition."
+      "worked": "<b>Last Monday</b> is finished time: Zac <b>woke</b> up.",
+      "type": "mcq",
+      "q": "<b>Story: Zac's sore throat</b> (sentence 1 of 5)<br>Last Monday, Zac ________ up with a sore throat and a runny nose.",
+      "opts": [
+       "woke",
+       "wake",
+       "waking"
       ],
-      "ans": [
-       [
-        "to"
-       ]
+      "at": 2,
+      "whys": [
+       null,
+       "'Last Monday' is finished time, so the base form is wrong.",
+       "'waking' needs 'was' before it, and this is a finished action."
       ],
-      "fig": {
-       "k": "stim",
-       "id": "s7-t2",
-       "kind": "text",
-       "head": "Email from Reza",
-       "html": "Hi Mia,<br>Thanks (0) <b>for</b> your email. I've got some great news! Our basketball team won the city cup on Saturday. Since then, I (18) ........ watched the video of the final ten times! The final was against a team (19) ........ players were all taller than us. We were losing at half-time, but in the end we won (20) ........ one point. After the match, the cup (21) ........ given to our captain by the head of the sports centre. Now our coach wants us (22) ........ train every day for the next competition. Are you still playing tennis? Write soon and tell me your news.<br>Reza"
-      }
+      "letters": true
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "5Uv.01"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Say the adjective and each small word quietly. Which pair do you know?"
+      },
+      "worked": "We always say <b>proud of</b>: proud <b>of</b> the card.",
+      "type": "mcq",
+      "q": "<b>Story: Yen's birthday picnic</b> (sentence 2 of 5)<br>Her little brother was very proud ________ the birthday card he made for her.",
+      "opts": [
+       "of",
+       "at",
+       "in"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "'proud at' is not English. Which small word always follows 'proud'?",
+       "'proud in' is not English. Think of 'afraid of' and 'proud ...'."
+      ],
+      "letters": true
+     },
+     {
+      "hint": {
+       "step": "Say the adjective and each small word quietly. Which pair do you know?"
+      },
+      "worked": "We always say <b>worried about</b>: worried <b>about</b> missing the trip.",
+      "type": "mcq",
+      "q": "<b>Story: Zac's sore throat</b> (sentence 2 of 5)<br>He was worried ________ missing the class trip to the science museum on Friday.",
+      "opts": [
+       "about",
+       "of",
+       "in"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "'worried of' is not English. Which small word always follows 'worried'?",
+       "'worried in' is not English. Think of 'interested in' and 'worried ...'."
+      ],
+      "letters": true
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "5Us.01"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Look at the noun after the gap. Can you count it?"
+      },
+      "worked": "<b>sandwiches</b> can be counted, so we use <b>fewer</b>: fewer sandwiches, so they finished first.",
+      "type": "mcq",
+      "q": "<b>Story: Yen's birthday picnic</b> (sentence 3 of 5)<br>There were ________ sandwiches than cakes, so the sandwiches finished first.",
+      "opts": [
+       "fewer",
+       "less",
+       "much"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "'less' is for things we can't count, like water. We can count sandwiches.",
+       "'much' is for things we can't count, like rice. We can count sandwiches."
+      ],
+      "letters": true
+     },
+     {
+      "hint": {
+       "step": "Look at the noun after the gap. Can you count it?"
+      },
+      "worked": "<b>sugar</b> can't be counted, so we use <b>less</b>: less sugar, more water.",
+      "type": "mcq",
+      "q": "<b>Story: Zac's sore throat</b> (sentence 3 of 5)<br>The doctor said he should eat ________ sugar and drink more warm water.",
+      "opts": [
+       "less",
+       "fewer",
+       "many"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "'fewer' is for things we can count. We can't count sugar.",
+       "'many' is for things we can count, like sweets, not sugar."
+      ],
+      "letters": true
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "5Us.04"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Look at the word before the gap. Is it a person, a thing or a place?"
+      },
+      "worked": "The lake is the place the ducks live: the lake <b>where</b> the ducks live.",
+      "type": "mcq",
+      "q": "<b>Story: Yen's birthday picnic</b> (sentence 4 of 5)<br>After lunch, they had a walk by the lake ________ the ducks and swans live.",
+      "opts": [
+       "where",
+       "which",
+       "who"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "'which' is for things, but here the lake is the place the ducks live.",
+       "'who' is for people, but a lake is not a person."
+      ],
+      "letters": true
+     },
+     {
+      "hint": {
+       "step": "Look at the words before the gap. Is it a person, a thing or a place?"
+      },
+      "worked": "A drink is a thing, so we use <b>which</b>: a hot drink <b>which</b> had honey in it.",
+      "type": "mcq",
+      "q": "<b>Story: Zac's sore throat</b> (sentence 4 of 5)<br>Mum made him a hot drink ________ had honey and lemon in it.",
+      "opts": [
+       "which",
+       "who",
+       "where"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "'who' is for people, but a drink is a thing.",
+       "'where' is for places, but a drink is a thing."
+      ],
+      "letters": true
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "5Us.02"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Find 'wasn't'. Which word goes after 'not'?"
+      },
+      "worked": "After <b>wasn't</b> we use <b>anything</b>: there wasn't anything left.",
+      "type": "mcq",
+      "q": "<b>Story: Yen's birthday picnic</b> (sentence 5 of 5)<br>At the end, there wasn't ________ left in the picnic basket, not even one biscuit.",
+      "opts": [
+       "anything",
+       "something",
+       "nothing"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "After 'not' we don't use 'something'.",
+       "'wasn't nothing' has two 'not' words. In English we use only one."
+      ],
+      "letters": true
+     },
+     {
+      "hint": {
+       "step": "Read the start: he felt better. Could he go on the trip?"
+      },
+      "worked": "He felt better, <b>so</b> he could go: <b>nothing</b> stopped him.",
+      "type": "mcq",
+      "q": "<b>Story: Zac's sore throat</b> (sentence 5 of 5)<br>By Friday he felt better, so ________ stopped him from going on the trip.",
+      "opts": [
+       "nothing",
+       "anything",
+       "something"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "'anything' is for questions and sentences with 'not'.",
+       "'so' tells us he could go. If something stopped him, he couldn't go."
+      ],
+      "letters": true
      }
     ]
    }
@@ -2125,115 +2134,259 @@
   "secs": 60,
   "items": [
    [
-    "Paper ___ made from wood.",
+    "Yesterday we ___ pizza for lunch.",
     [
-     "is",
-     "are",
-     "be"
+     "had",
+     "have",
+     "having"
     ]
    ],
    [
-    "The bridge ___ built in 2001.",
+    "Last week I ___ my grandma.",
+    [
+     "visited",
+     "visit",
+     "visiting"
+    ]
+   ],
+   [
+    "There ___ ten cakes at the party.",
+    [
+     "were",
+     "was",
+     "is"
+    ]
+   ],
+   [
+    "There ___ a dog in the garden yesterday.",
     [
      "was",
+     "were",
+     "are"
+    ]
+   ],
+   [
+    "Two days ago, she ___ a cold.",
+    [
+     "caught",
+     "catch",
+     "catching"
+    ]
+   ],
+   [
+    "We ___ to the beach last summer.",
+    [
+     "went",
+     "go",
+     "going"
+    ]
+   ],
+   [
+    "Look! The baby ___ sleeping.",
+    [
+     "is",
+     "are",
+     "was"
+    ]
+   ],
+   [
+    "I ___ visiting Hue next week.",
+    [
+     "am",
+     "is",
+     "was"
+    ]
+   ],
+   [
+    "They ___ having a party on Sunday.",
+    [
+     "are",
      "is",
      "were"
     ]
    ],
    [
-    "These toys ___ made in Vietnam.",
+    "Next Friday we ___ a film.",
     [
-     "are",
-     "is",
-     "be"
+     "are watching",
+     "watched",
+     "were watching"
     ]
    ],
    [
-    "I have lived here ___ 2019.",
+    "Be quiet! Dad ___ on the phone.",
     [
-     "since",
+     "is talking",
+     "talked",
+     "talks"
+    ]
+   ],
+   [
+    "The story was very ___.",
+    [
+     "interesting",
+     "interested",
+     "interest"
+    ]
+   ],
+   [
+    "I was ___ by the loud noise.",
+    [
+     "frightened",
+     "frightening",
+     "fright"
+    ]
+   ],
+   [
+    "The long journey was ___.",
+    [
+     "tiring",
+     "tired",
+     "tire"
+    ]
+   ],
+   [
+    "She felt ___ after the game.",
+    [
+     "tired",
+     "tiring",
+     "tire"
+    ]
+   ],
+   [
+    "My bag is heavier ___ yours.",
+    [
+     "than",
+     "that",
+     "then"
+    ]
+   ],
+   [
+    "This is ___ biggest cake ever!",
+    [
+     "the",
+     "a",
+     "than"
+    ]
+   ],
+   [
+    "A cat is ___ than a mouse.",
+    [
+     "bigger",
+     "big",
+     "biggest"
+    ]
+   ],
+   [
+    "She is good ___ singing.",
+    [
+     "at",
+     "in",
+     "of"
+    ]
+   ],
+   [
+    "I'm afraid ___ the dark.",
+    [
+     "of",
+     "at",
+     "in"
+    ]
+   ],
+   [
+    "He is interested ___ old coins.",
+    [
+     "in",
+     "at",
+     "on"
+    ]
+   ],
+   [
+    "Mum is proud ___ me.",
+    [
+     "of",
+     "at",
+     "in"
+    ]
+   ],
+   [
+    "Be kind ___ animals.",
+    [
+     "to",
+     "at",
+     "of"
+    ]
+   ],
+   [
+    "I'm worried ___ the test.",
+    [
+     "about",
+     "of",
+     "in"
+    ]
+   ],
+   [
+    "Da Lat is famous ___ its flowers.",
+    [
      "for",
-     "from"
+     "of",
+     "at"
     ]
    ],
    [
-    "She has played tennis ___ five years.",
+    "Eat ___ sweets than before.",
     [
-     "for",
-     "since",
-     "ago"
+     "fewer",
+     "less",
+     "much"
     ]
    ],
    [
-    "Have you ___ been to Hue?",
+    "Drink ___ juice and more water.",
     [
-     "ever",
-     "yet",
-     "since"
+     "less",
+     "fewer",
+     "many"
     ]
    ],
    [
-    "I haven't finished my homework ___.",
+    "___ my hands are dirty.",
     [
-     "yet",
-     "already",
-     "ever"
+     "Both",
+     "All",
+     "Every"
     ]
    ],
    [
-    "We have ___ eaten lunch.",
+    "___ the children in my class came.",
     [
-     "already",
-     "yet",
-     "ever"
+     "All",
+     "Both",
+     "Much"
     ]
    ],
    [
-    "I ___ him yesterday.",
+    "I haven't got ___ money.",
     [
-     "saw",
-     "have seen",
-     "see"
+     "much",
+     "many",
+     "fewer"
     ]
    ],
    [
-    "If it rains, we ___ stay home.",
+    "There aren't ___ eggs left.",
     [
-     "will",
-     "would",
-     "are"
+     "many",
+     "much",
+     "less"
     ]
    ],
    [
-    "If you ___ hard, you will pass.",
+    "I don't have as ___ toys as you.",
     [
-     "work",
-     "will work",
-     "worked"
-    ]
-   ],
-   [
-    "Rule: you ___ shout in the library.",
-    [
-     "mustn't",
-     "needn't",
-     "have to"
-    ]
-   ],
-   [
-    "It's Sunday. You ___ get up early.",
-    [
-     "needn't",
-     "mustn't",
-     "must"
-    ]
-   ],
-   [
-    "You're ill. You ___ see a doctor.",
-    [
-     "should",
-     "needn't",
-     "mustn't"
+     "many",
+     "much",
+     "fewer"
     ]
    ],
    [
@@ -2241,11 +2394,11 @@
     [
      "who",
      "which",
-     "whose"
+     "where"
     ]
    ],
    [
-    "The book ___ I read was funny.",
+    "The book ___ I read was great.",
     [
      "which",
      "who",
@@ -2253,15 +2406,7 @@
     ]
    ],
    [
-    "The boy ___ bike was stolen.",
-    [
-     "whose",
-     "who",
-     "which"
-    ]
-   ],
-   [
-    "This is the café ___ we met.",
+    "This is the park ___ we play.",
     [
      "where",
      "which",
@@ -2269,223 +2414,23 @@
     ]
    ],
    [
-    "We go to school ___ bus.",
-    [
-     "by",
-     "on",
-     "in"
-    ]
-   ],
-   [
-    "I walk to school ___ foot.",
-    [
-     "on",
-     "by",
-     "in"
-    ]
-   ],
-   [
-    "Please arrive ___ time.",
-    [
-     "on",
-     "at",
-     "by"
-    ]
-   ],
-   [
-    "She broke it ___ mistake.",
-    [
-     "by",
-     "on",
-     "in"
-    ]
-   ],
-   [
-    "He did it ___ purpose.",
-    [
-     "on",
-     "by",
-     "at"
-    ]
-   ],
-   [
-    "Don't leave ___ permission.",
-    [
-     "without",
-     "with",
-     "on"
-    ]
-   ],
-   [
-    "I want ___ learn French.",
-    [
-     "to",
-     "for",
-     "at"
-    ]
-   ],
-   [
-    "I'm looking forward ___ the trip.",
-    [
-     "to",
-     "for",
-     "at"
-    ]
-   ],
-   [
-    "She is ___ best player.",
-    [
-     "the",
-     "a",
-     "an"
-    ]
-   ],
-   [
-    "She's ___ artist.",
-    [
-     "an",
-     "a",
-     "some"
-    ]
-   ],
-   [
-    "Leo is here. ___ is my cousin.",
-    [
-     "He",
-     "She",
-     "They"
-    ]
-   ],
-   [
-    "The cat hurt ___ paw.",
-    [
-     "its",
-     "it's",
-     "it"
-    ]
-   ],
-   [
-    "Look at those birds! ___ are beautiful.",
-    [
-     "They",
-     "It",
-     "He"
-    ]
-   ],
-   [
-    "Rice ___ grown in Vietnam.",
-    [
-     "is",
-     "are",
-     "has"
-    ]
-   ],
-   [
-    "The windows ___ cleaned yesterday.",
-    [
-     "were",
-     "was",
-     "are"
-    ]
-   ],
-   [
-    "The pyramids ___ built long ago.",
-    [
-     "were",
-     "are",
-     "was"
-    ]
-   ],
-   [
-    "She ___ just arrived.",
-    [
-     "has",
-     "have",
-     "is"
-    ]
-   ],
-   [
-    "They ___ already left.",
-    [
-     "have",
-     "has",
-     "are"
-    ]
-   ],
-   [
-    "___ you ever seen snow?",
-    [
-     "Have",
-     "Did",
-     "Are"
-    ]
-   ],
-   [
-    "I ___ go yesterday; I was ill.",
-    [
-     "didn't",
-     "haven't",
-     "don't"
-    ]
-   ],
-   [
-    "We ___ to the beach last summer.",
-    [
-     "went",
-     "have gone",
-     "go"
-    ]
-   ],
-   [
-    "If I'm late, Mum ___ worry.",
-    [
-     "will",
-     "would",
-     "is"
-    ]
-   ],
-   [
-    "If you heat ice, it ___.",
-    [
-     "melts",
-     "melted",
-     "melting"
-    ]
-   ],
-   [
-    "You have ___ wear a helmet.",
-    [
-     "to",
-     "for",
-     "at"
-    ]
-   ],
-   [
-    "Uniform is optional. We ___ wear it.",
-    [
-     "don't have to",
-     "mustn't",
-     "must"
-    ]
-   ],
-   [
-    "You ought ___ say sorry.",
-    [
-     "to",
-     "for",
-     "that"
-    ]
-   ],
-   [
-    "My uncle, ___ is a pilot, travels a lot.",
+    "I know a man ___ makes kites.",
     [
      "who",
      "which",
-     "that"
+     "where"
     ]
    ],
    [
-    "Hanoi, ___ is my home, is busy.",
+    "The town ___ I was born is small.",
+    [
+     "where",
+     "who",
+     "which"
+    ]
+   ],
+   [
+    "The cake ___ she made was soft.",
     [
      "which",
      "who",
@@ -2493,45 +2438,109 @@
     ]
    ],
    [
-    "I'm good ___ maths.",
+    "Is there ___ in the box?",
     [
-     "at",
-     "in",
-     "on"
+     "anything",
+     "nothing",
+     "everyone"
     ]
    ],
    [
-    "We met ___ the weekend.",
+    "I can't see ___.",
     [
-     "at",
-     "by",
-     "of"
+     "anything",
+     "nothing",
+     "something"
     ]
    ],
    [
-    "The animals are ___ danger.",
+    "___ is at the door!",
     [
-     "in",
-     "on",
-     "at"
+     "Someone",
+     "Anyone",
+     "Anything"
     ]
    ],
    [
-    "It's ___ biggest fish in the lake.",
+    "The room was empty. ___ was there.",
     [
-     "the",
-     "a",
-     "an"
+     "Nobody",
+     "Somebody",
+     "Everybody"
+    ]
+   ],
+   [
+    "___ in my class likes pizza.",
+    [
+     "Everyone",
+     "Anyone",
+     "Anything"
+    ]
+   ],
+   [
+    "I want ___ to drink, please.",
+    [
+     "something",
+     "anything",
+     "nothing"
+    ]
+   ],
+   [
+    "I didn't see ___ at the park.",
+    [
+     "anyone",
+     "nobody",
+     "someone"
+    ]
+   ],
+   [
+    "You ___ run near the pool.",
+    [
+     "mustn't",
+     "needn't",
+     "should"
+    ]
+   ],
+   [
+    "___ you help me, please?",
+    [
+     "Could",
+     "Must",
+     "Should"
+    ]
+   ],
+   [
+    "___ you like some tea?",
+    [
+     "Would",
+     "Must",
+     "Need"
+    ]
+   ],
+   [
+    "You look ill. You ___ see a doctor.",
+    [
+     "should",
+     "mustn't",
+     "needn't"
+    ]
+   ],
+   [
+    "We ___ to bring water on the trip.",
+    [
+     "need",
+     "must",
+     "should"
     ]
    ]
   ]
  },
  "selfcheck": {
   "goals": [
-   "use passive forms like is made and was built",
-   "choose between the present perfect and the past simple",
-   "use if, modals and who / which / whose / where correctly",
-   "write one grammar word in each gap of an email"
+   "use the past simple and the present continuous for plans",
+   "choose the right small word after an adjective, like good at or proud of",
+   "use fewer / less, both / all, who / which / where and someone / anything",
+   "choose words from a word box to fill the gaps in a letter"
   ],
   "again": [
    "c",

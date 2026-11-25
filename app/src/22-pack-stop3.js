@@ -1,22 +1,21 @@
-/* 22-pack-stop3.js - ALL the content of Stop 3, Modals, if, who/which/whose and verb patterns (Grade 5 ESL, Cambridge Stage 6).
+/* 22-pack-stop3.js - ALL the content of Stop 3, Modals, quantifiers, someone and who / which / where (Grade 4 ESL, Cambridge Stage 5).
    Made by scripts/convert.py from content/stop3.json (written from the exam-style guide only; no real paper seen). */
 (function (T) {
   'use strict';
-  window.T_ART = Object.assign(window.T_ART || {}, {"e-s3-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"must\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❗</text></svg>", "e-s3-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"mustn&#x27;t\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🚫</text></svg>", "e-s3-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"don&#x27;t have to\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">😌</text></svg>", "e-s3-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"needn&#x27;t\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🆗</text></svg>", "e-s3-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"should\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💡</text></svg>", "e-s3-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"if\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔀</text></svg>", "e-s3-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"who\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🧑</text></svg>", "e-s3-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"which\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📦</text></svg>", "e-s3-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"whose\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔑</text></svg>", "e-s3-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"where\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📍</text></svg>", "e-s3-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"remind\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏰</text></svg>", "e-s3-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"invite\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💌</text></svg>", "e-s3-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"show\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👀</text></svg>"});
+  window.T_ART = Object.assign(window.T_ART || {}, {"e-s3-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"mustn&#x27;t\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🚫</text></svg>", "e-s3-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"need to\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❗</text></svg>", "e-s3-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"should\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💡</text></svg>", "e-s3-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"could\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🙋</text></svg>", "e-s3-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"would\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍵</text></svg>", "e-s3-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"both\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">✌️</text></svg>", "e-s3-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"all\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💯</text></svg>", "e-s3-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"fewer\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📉</text></svg>", "e-s3-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"less\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🧂</text></svg>", "e-s3-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"someone\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🧍</text></svg>", "e-s3-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"nothing\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📭</text></svg>", "e-s3-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"who\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🧑</text></svg>", "e-s3-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"which\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📦</text></svg>", "e-s3-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"where\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📍</text></svg>"});
   T.packs[3] = {
  "n": 3,
- "title": "Modals, if, who/which/whose and verb patterns",
+ "title": "Modals, quantifiers, someone and who / which / where",
  "los": [
-  "6Ug.12",
-  "6Us.05",
-  "6Ug.09",
-  "6Us.07",
-  "6Ug.01",
-  "6Ug.07"
+  "5Ug.10",
+  "5Us.04",
+  "5Us.02",
+  "5Us.01",
+  "5Uv.05"
  ],
  "blurb": {
-  "en": "Use modals, if sentences, who/which/whose and verb patterns to build great sentences.",
-  "vi": "Dùng động từ khuyết thiếu, câu điều kiện, đại từ quan hệ và mẫu động từ để viết câu hay."
+  "en": "Learn to give rules and advice, talk about amounts and people, and join ideas with who and which.",
+  "vi": "Học cách nói quy định và lời khuyên, nói về số lượng và con người, và nối ý bằng who, which."
  },
  "words": {
   "sets": [
@@ -27,105 +26,111 @@
      "vi": "Động từ khuyết thiếu"
     },
     "keys": [
-     "must",
      "mustn't",
-     "don't have to",
-     "needn't",
-     "should"
+     "need to",
+     "should",
+     "could",
+     "would"
     ]
    },
    {
     "id": "B",
     "title": {
-     "en": "If and joining words",
-     "vi": "If và từ nối mệnh đề"
+     "en": "Quantifiers",
+     "vi": "Từ chỉ số lượng"
     },
     "keys": [
-     "if",
-     "who",
-     "which",
-     "whose",
-     "where"
+     "both",
+     "all",
+     "fewer",
+     "less"
     ]
    },
    {
     "id": "C",
     "title": {
-     "en": "Verb patterns",
-     "vi": "Mẫu động từ"
+     "en": "Someone and who / which / where",
+     "vi": "Someone và who / which / where"
     },
     "keys": [
-     "remind",
-     "invite",
-     "show"
+     "someone",
+     "nothing",
+     "who",
+     "which",
+     "where"
     ]
    }
   ],
   "items": {
-   "must": {
-    "art": "e-s3-0",
-    "vi": "phải (bắt buộc)",
-    "def": "It is necessary, or it is a rule. You have no choice. Example: You *must* wear a helmet when you ride your bike."
-   },
    "mustn't": {
+    "art": "e-s3-0",
+    "vi": "không được (bị cấm)",
+    "def": "It is not allowed. It is against the rules, so don't do it. Example: You *mustn't* feed bread to the ducks in the park."
+   },
+   "need to": {
     "art": "e-s3-1",
-    "vi": "không được phép",
-    "def": "It is not allowed. Don't do it! Example: You *mustn't* feed the animals at the zoo."
-   },
-   "don't have to": {
-    "art": "e-s3-2",
-    "vi": "không cần phải (không bắt buộc)",
-    "def": "It is not necessary, but you can do it if you want. Example: We *don't have to* wear our uniform on Fridays."
-   },
-   "needn't": {
-    "art": "e-s3-3",
-    "vi": "không cần",
-    "def": "It is not necessary. It means the same as 'don't have to'. Example: You *needn't* bring lunch. The school will give us sandwiches."
+    "vi": "cần phải",
+    "def": "It is necessary. You have to do it. Example: We *need to* take our coats because it is cold."
    },
    "should": {
-    "art": "e-s3-4",
+    "art": "e-s3-2",
     "vi": "nên",
-    "def": "It is a good idea. We use it to give advice. 'Ought to' means the same. Example: You *should* drink water after exercise."
+    "def": "It is a good idea. We use it to give advice. Example: You *should* drink some water if you have a headache."
    },
-   "if": {
+   "could": {
+    "art": "e-s3-3",
+    "vi": "có thể ... được không (hỏi lịch sự)",
+    "def": "A polite word to start a question when you ask someone for help. Example: *Could* you open the window, please?"
+   },
+   "would": {
+    "art": "e-s3-4",
+    "vi": "có muốn ... không (mời lịch sự)",
+    "def": "A polite word for offers and invitations. We often use it with 'like'. Example: *Would* you like some more rice?"
+   },
+   "both": {
     "art": "e-s3-5",
-    "vi": "nếu",
-    "def": "Used to say what will happen when something else happens first. Example: *If* it rains, we will play inside."
+    "vi": "cả hai",
+    "def": "The two people or things together, not only one of them. Example: *Both* my sisters have a cold this week."
+   },
+   "all": {
+    "art": "e-s3-6",
+    "vi": "tất cả",
+    "def": "Every one in a group of three or more, with nobody left out. Example: *All* the children in my class like the new playground."
+   },
+   "fewer": {
+    "art": "e-s3-7",
+    "vi": "ít hơn (với danh từ đếm được)",
+    "def": "A smaller number of things you can count, like apples or cars. Example: There are *fewer* cars in our street on Sundays."
+   },
+   "less": {
+    "art": "e-s3-8",
+    "vi": "ít hơn (với danh từ không đếm được)",
+    "def": "A smaller amount of something you cannot count, like salt, milk or time. Example: Dad is trying to eat *less* salt."
+   },
+   "someone": {
+    "art": "e-s3-9",
+    "vi": "ai đó, một người nào đó",
+    "def": "A person, when we don't know or don't say which person. Example: *Someone* left a red umbrella in our classroom."
+   },
+   "nothing": {
+    "art": "e-s3-10",
+    "vi": "không có gì",
+    "def": "Not one thing; zero things. Example: There was *nothing* in the fridge, so we went to the shop."
    },
    "who": {
-    "art": "e-s3-6",
+    "art": "e-s3-11",
     "vi": "người mà",
-    "def": "Used to give more information about a person. Example: The girl *who* won the race is my cousin."
+    "def": "A joining word we use after a person to say more about them. Example: My uncle is the man *who* makes the best noodles in town."
    },
    "which": {
-    "art": "e-s3-7",
+    "art": "e-s3-12",
     "vi": "cái mà, con mà",
-    "def": "Used to give more information about a thing or an animal. Example: This is the bike *which* I got for my birthday."
-   },
-   "whose": {
-    "art": "e-s3-8",
-    "vi": "của người mà",
-    "def": "Used to show that something belongs to a person or an animal. Example: That's the boy *whose* dog won the prize."
+    "def": "A joining word we use after a thing or an animal to say more about it. Example: I've got a cat *which* sleeps all day."
    },
    "where": {
-    "art": "e-s3-9",
+    "art": "e-s3-13",
     "vi": "nơi mà",
-    "def": "Used to give more information about a place. Example: This is the park *where* we play football."
-   },
-   "remind": {
-    "art": "e-s3-10",
-    "vi": "nhắc nhở",
-    "def": "To help someone remember something. Pattern: remind someone to do something. Example: Please *remind* me to feed the fish."
-   },
-   "invite": {
-    "art": "e-s3-11",
-    "vi": "mời",
-    "def": "To ask someone to come to an event. Pattern: invite someone to do something. Example: Lan wants to *invite* us to watch her dance show."
-   },
-   "show": {
-    "art": "e-s3-12",
-    "vi": "cho xem, chỉ cho",
-    "def": "To let someone see something. Pattern: show someone something. Example: Can you *show* me your new drawing?"
+    "def": "A joining word we use after a place to say what happens there. Example: This is the market *where* Grandma buys her fruit."
    }
   }
  },
@@ -134,79 +139,83 @@
    {
     "id": "s1",
     "title": {
-     "en": "Rules and advice: modals",
-     "vi": "Quy định và lời khuyên: động từ khuyết thiếu"
+     "en": "Rules, advice and polite questions",
+     "vi": "Quy định, lời khuyên và câu hỏi lịch sự"
     },
     "esl": true,
     "kind": "text",
-    "head": "A notice about the Class Pet Show",
-    "html": "<b>Class Pet Show: Friday</b><br>All pets *must* stay in a cage or on a lead. You *mustn't* bring snakes or spiders. You *don't have to* bring a real pet: you can bring a photo instead. You *needn't* bring water for your pet, because we will have some. You *should* write your pet's name on its cage. Shy pets *ought to* stay in the quiet corner.",
+    "head": "A notice at the Old Town Museum",
+    "html": "<b>Welcome to the Old Town Museum!</b><br>You *need to* buy a ticket at the front desk. You *mustn't* touch the old paintings. You *mustn't* eat or drink in the rooms. You *should* start on the top floor, because it is quieter in the morning. Our helpers will ask you, '*Would* you like a map?' You can ask them, '*Could* you show me the café, please?'",
     "steps": [
      {
-      "en": "*must* = it is a rule. *mustn't* = it is not allowed.",
-      "vi": "*must* = đây là quy định. *mustn't* = không được phép."
+      "en": "*mustn't* = it is not allowed. It is a rule: don't do it!",
+      "vi": "*mustn't* = không được phép. Đây là quy định: đừng làm điều đó!"
      },
      {
-      "en": "*don't have to* and *needn't* = it is not necessary. You can choose.",
-      "vi": "*don't have to* và *needn't* = không cần thiết. Con có thể tự chọn."
+      "en": "*need to* = it is necessary. Remember: need *to* + verb.",
+      "vi": "*need to* = cần thiết, phải làm. Nhớ nhé: need *to* + động từ."
      },
      {
-      "en": "*should* and *ought to* = good advice. Remember: ought *to* + verb.",
-      "vi": "*should* và *ought to* = lời khuyên. Nhớ nhé: ought *to* + động từ."
+      "en": "*should* = a good idea (advice). It is not a rule.",
+      "vi": "*should* = một ý hay (lời khuyên). Đó không phải là quy định."
      },
      {
-      "en": "Be careful! *mustn't* and *don't have to* mean very different things.",
-      "vi": "Cẩn thận! *mustn't* và *don't have to* có nghĩa rất khác nhau."
+      "en": "*Could you ...?* = a polite request. *Would you like ...?* = a polite offer.",
+      "vi": "*Could you ...?* = lời nhờ lịch sự. *Would you like ...?* = lời mời lịch sự."
      }
     ]
    },
    {
     "id": "s2",
     "title": {
-     "en": "If, who, which, whose and where",
-     "vi": "If, who, which, whose và where"
+     "en": "How much, how many and someone words",
+     "vi": "Bao nhiêu và các từ như someone"
     },
     "esl": true,
     "kind": "text",
-    "head": "A guide at the city sports museum",
-    "html": "Welcome to the room *where* we keep our old trophies. The woman *who* won this gold medal grew up in our city. She was a cyclist *whose* coach was her own father. Here is the bike *which* she rode in her first big race. Her bike, *which* is over fifty years old, still works! *If* you *look* closely, you *will see* her name on the frame.",
+    "head": "A health blog by Thu",
+    "html": "<b>Our family's healthy month</b><br>Last month *all* of us in my family tried to eat better. My brother and I *both* love sweets, so we ate *fewer* sweets and *less* sugar. Dad drank *less* coffee. We didn't buy *as many* biscuits, and we didn't drink *as much* juice. Now *nobody* in my family feels tired in the afternoon, and *everyone* feels great. Has *anyone* got a good soup recipe? Please tell me!",
     "steps": [
      {
-      "en": "*who* for people, *which* for things and animals, *where* for places, *whose* for belonging.",
-      "vi": "*who* cho người, *which* cho đồ vật và con vật, *where* cho nơi chốn, *whose* cho sự sở hữu."
+      "en": "*fewer* + things you can count (sweets). *less* + things you can't count (sugar, coffee).",
+      "vi": "*fewer* + vật đếm được (sweets). *less* + vật không đếm được (sugar, coffee)."
      },
      {
-      "en": "Commas around *which is over fifty years old* = extra information. The sentence still works without it.",
-      "vi": "Dấu phẩy quanh *which is over fifty years old* = thông tin thêm. Bỏ đi thì câu vẫn đúng."
+      "en": "*both* = two people or things. *all* = every one in a group of three or more.",
+      "vi": "*both* = hai người hoặc hai vật. *all* = tất cả trong một nhóm từ ba trở lên."
      },
      {
-      "en": "First conditional: *If* + present simple, *will* + verb. *If you look*, you *will see*.",
-      "vi": "Câu điều kiện loại 1: *If* + hiện tại đơn, *will* + động từ. *If you look*, you *will see*."
+      "en": "*not as many* + things you can count. *not as much* + things you can't count.",
+      "vi": "*not as many* + vật đếm được. *not as much* + vật không đếm được."
+     },
+     {
+      "en": "*nobody*, *everyone*, *anyone* talk about people without a name. Use *anyone* in questions.",
+      "vi": "*nobody*, *everyone*, *anyone* nói về người mà không nêu tên. Dùng *anyone* trong câu hỏi."
      }
     ]
    },
    {
     "id": "s3",
     "title": {
-     "en": "Verb patterns and questions",
-     "vi": "Mẫu động từ và câu hỏi"
+     "en": "Who, which, where and adverbs that compare",
+     "vi": "Who, which, where và trạng từ so sánh"
     },
     "esl": true,
     "kind": "text",
-    "head": "A chat about the science club",
-    "html": "Kenji: Mr Hall *asked us to bring* an old plastic bottle tomorrow. *What are* we *going to* make?<br>Isla: A bird feeder! He *showed us* a photo of one.<br>Kenji: Cool. *Why do* we *need* a bottle?<br>Isla: The seeds go inside it. Can you *remind me to bring* some string?<br>Kenji: Sure. I'll *send you* a message tonight.",
+    "head": "Khoa and Ella in the town square",
+    "html": "Khoa: This is the square *where* the chalk pictures are.<br>Ella: Wow! Who made them?<br>Khoa: An artist *who* lives in our town. He draws *faster* than anyone I know!<br>Ella: Look at the hole *which* is in the ground. It looks real!<br>Khoa: It's only chalk! He drew it *more carefully* than the others. It's the picture *that* people like *best*.",
     "steps": [
      {
-      "en": "verb + person + *to* + verb: *asked us to bring*, *remind me to bring*.",
-      "vi": "động từ + người + *to* + động từ: *asked us to bring*, *remind me to bring*."
+      "en": "*who* for people, *which* for things and animals, *where* for places. *that* can take the place of *who* or *which*.",
+      "vi": "*who* cho người, *which* cho đồ vật và con vật, *where* cho nơi chốn. *that* có thể thay cho *who* hoặc *which*."
      },
      {
-      "en": "give, show, send, bring, take + person + thing: *showed us* a photo, *send you* a message.",
-      "vi": "give, show, send, bring, take + người + vật: *showed us* a photo, *send you* a message."
+      "en": "These words join two ideas: An artist. He lives in our town. = An artist *who* lives in our town.",
+      "vi": "Những từ này nối hai ý: An artist. He lives in our town. = An artist *who* lives in our town."
      },
      {
-      "en": "Questions: question word + helper verb + subject + verb: *What are* we going to make? *Why do* we need ...?",
-      "vi": "Câu hỏi: từ để hỏi + trợ động từ + chủ ngữ + động từ: *What are* we going to make? *Why do* we need ...?"
+      "en": "Adverbs compare HOW people do things: fast, *faster*; carefully, *more carefully*; well, better, *best*.",
+      "vi": "Trạng từ so sánh CÁCH mọi người làm việc: fast, *faster*; carefully, *more carefully*; well, better, *best*."
      }
     ]
    },
@@ -221,147 +230,51 @@
       "en": "Now use the grammar tools on your own!",
       "vi": "Bây giờ con hãy tự dùng các công cụ ngữ pháp nhé!"
      },
-     "result": "You spotted modals, if sentences, relative clauses and verb patterns!",
+     "result": "You spotted modals, quantifiers, someone words, who / which / where and adverbs!",
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ug.12"
+        "5Ug.10"
        ],
        "v": [
         {
          "hint": {
-          "step": "Which one means you can choose?"
+          "step": "Which sentence asks someone to do something for you?"
          },
-         "worked": "'don't have to' = it is not necessary. You can come early if you want.",
+         "worked": "'Could you ..., please?' is a polite way to ask for help.",
          "type": "mcq",
-         "q": "Which sentence means 'It is not necessary'?",
+         "q": "Which sentence is a polite request?",
          "opts": [
-          "You don't have to come early.",
-          "You mustn't come early.",
-          "You must come early."
+          "Could you pass the salt, please?",
+          "You mustn't take the salt.",
+          "You should eat less salt."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
-          "'mustn't' means it is not allowed, not 'not necessary'.",
-          "'must' means it IS necessary."
+          "'mustn't' tells you a rule. It doesn't ask for help.",
+          "'should' gives advice. It doesn't ask for help."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Which one is a rule that says NO?"
+          "step": "Look for the word that means 'don't do it, it's a rule'."
          },
-         "worked": "'mustn't' = it is not allowed. Running near the pool is against the rules.",
+         "worked": "'mustn't' = it is not allowed: 'You mustn't swim here.'",
          "type": "mcq",
          "q": "Which sentence means 'It is not allowed'?",
          "opts": [
-          "You mustn't run near the pool.",
-          "You don't have to run near the pool.",
-          "You needn't run near the pool."
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "'don't have to' means it is not necessary, not 'not allowed'.",
-          "'needn't' means it is not necessary, not 'not allowed'."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Us.05"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Is the café a person, a thing or a place?"
-         },
-         "worked": "A café is a place, so: 'the café where we have lunch'.",
-         "type": "mcq",
-         "q": "This is the café .......... we have lunch on Sundays.",
-         "opts": [
-          "where",
-          "who",
-          "whose"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "'who' is for people. A café is a place.",
-          "'whose' shows belonging. A café is a place."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "The brother belongs to the girl. Which word shows belonging?"
-         },
-         "worked": "Her brother plays in our team, so: 'the girl whose brother'.",
-         "type": "mcq",
-         "q": "That's the girl .......... brother plays in our team.",
-         "opts": [
-          "whose",
-          "who",
-          "which"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "'who brother' is not correct. We need a word that shows belonging.",
-          "'which' is for things and animals, and it doesn't show belonging."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Ug.09"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "After 'if' use the present simple. In the other part use 'will'."
-         },
-         "worked": "If + present simple (water), will + verb (will grow).",
-         "type": "mcq",
-         "q": "Which sentence is correct?",
-         "opts": [
-          "If you water the plant, it will grow.",
-          "If you will water the plant, it grows.",
-          "If you watered the plant, it will grow."
+          "You mustn't swim here.",
+          "You could swim here.",
+          "You should swim here."
          ],
          "at": 1,
          "whys": [
           null,
-          "We don't use 'will' after 'if'.",
-          "Use the present simple after 'if': water, not watered."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "After 'if' use the present simple. In the other part use 'will'."
-         },
-         "worked": "If + present simple (hurry), will + verb (will catch).",
-         "type": "mcq",
-         "q": "Which sentence is correct?",
-         "opts": [
-          "If we hurry, we will catch the bus.",
-          "If we will hurry, we catch the bus.",
-          "If we hurry, we caught the bus."
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "We don't use 'will' after 'if'.",
-          "'caught' is the past. The other part needs will + verb."
+          "'could' here means you are able to swim, not 'not allowed'.",
+          "'should' means it is a good idea, not 'not allowed'."
          ],
          "letters": true
         }
@@ -370,46 +283,143 @@
       {
        "mode": "your",
        "lo": [
-        "6Us.07"
+        "5Us.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "The pattern is: told + person + to + verb."
+          "step": "Can you count children?"
          },
-         "worked": "told + me + to tidy: 'Mum told me to tidy my room'.",
+         "worked": "Children can be counted, so we say 'fewer children'.",
          "type": "mcq",
          "q": "Which sentence is correct?",
          "opts": [
-          "Mum told me to tidy my room.",
-          "Mum told me tidy my room.",
-          "Mum told to me tidy my room."
+          "There are fewer children in the pool today.",
+          "There are less children in the pool today.",
+          "There isn't as much children in the pool today."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
-          "After 'told me' we need 'to' + verb.",
-          "We say 'told me', not 'told to me'."
+          "We can count children, so we don't use 'less'.",
+          "We can count children, so we don't use 'as much'."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "The pattern is: send + person + thing."
+          "step": "Can you count juice?"
          },
-         "worked": "sent + me (person) + a postcard (thing).",
+         "worked": "Juice can't be counted, so we say 'less juice'.",
          "type": "mcq",
-         "q": "Which sentence is correct?",
+         "q": "Choose the word for the gap: I drink ________ juice than my sister.",
          "opts": [
-          "Grandma sent me a postcard.",
-          "Grandma sent to me a postcard.",
-          "Grandma sent me to a postcard."
+          "less",
+          "fewer",
+          "many"
          ],
          "at": 2,
          "whys": [
           null,
-          "With two objects we say 'sent me a postcard', with no 'to' before me.",
-          "'to a postcard' doesn't make sense here."
+          "We can't count juice, so we don't use 'fewer'.",
+          "'many' is for things we can count, and it doesn't go before 'than' here."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Us.02"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Who or what can leave a bag on a bus?"
+         },
+         "worked": "A person left the bag, so we use 'Somebody'.",
+         "type": "mcq",
+         "q": "Choose the word for a person: ________ left a bag on the bus.",
+         "opts": [
+          "Somebody",
+          "Something",
+          "Somewhere"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "'Something' is a thing. A thing can't leave a bag.",
+          "'Somewhere' is a place, not a person."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Is the missing word about people or things?"
+         },
+         "worked": "The fridge is empty, so there are zero things: 'There is nothing to eat.'",
+         "type": "mcq",
+         "q": "The fridge is empty. There is ________ to eat.",
+         "opts": [
+          "nothing",
+          "nobody",
+          "no-one"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'nobody' is about people. We eat food, not people!",
+          "'no-one' is about people, not food."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Us.04",
+        "5Uv.05"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Is a café a person, a thing or a place?"
+         },
+         "worked": "A café is a place where we do something, so we use 'where'.",
+         "type": "mcq",
+         "q": "Choose the joining word for a place: This is the café ________ we have lunch.",
+         "opts": [
+          "where",
+          "who",
+          "which"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "'who' is for people. A café is a place.",
+          "'which' is for things. Here we need a word for a place where we do something."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Look at the word 'than'. It compares two people."
+         },
+         "worked": "Two people with 'than': 'Mia sings more loudly than her brother.'",
+         "type": "mcq",
+         "q": "Choose the words for the gap: Mia sings ________ than her brother.",
+         "opts": [
+          "more loudly",
+          "loudest",
+          "loud"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "'loudest' is a superlative. With 'than' we need a comparative.",
+          "'loud' doesn't compare. With 'than' we need 'more loudly'."
          ],
          "letters": true
         }
@@ -429,107 +439,59 @@
    "art": "icon-step-practise",
    "title": "Learn it",
    "blurb": {
-    "en": "Practise one grammar tool at a time: modals, if, who/which/whose, verb patterns and questions.",
-    "vi": "Luyện từng công cụ ngữ pháp: động từ khuyết thiếu, if, who/which/whose, mẫu động từ và câu hỏi."
+    "en": "Practise one grammar tool at a time: modals, quantifiers, someone words, who / which / where and adverbs.",
+    "vi": "Luyện từng công cụ ngữ pháp: động từ khuyết thiếu, từ chỉ số lượng, someone, who / which / where và trạng từ."
    },
    "levels": [
     {
      "title": {
-      "en": "Modals: must, have to, should, needn't",
-      "vi": "Động từ khuyết thiếu: must, have to, should, needn't"
+      "en": "Modals: mustn't, need to, should, could, would",
+      "vi": "Động từ khuyết thiếu: mustn't, need to, should, could, would"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ug.12"
+        "5Ug.10"
        ],
        "v": [
         {
          "hint": {
-          "step": "Is shouting not necessary, or is it not allowed?"
+          "step": "Is it a good idea, a necessary thing, or something not allowed?"
          },
-         "worked": "In a library shouting is against the rules: 'You mustn't shout'.",
+         "worked": "It's a rule that says 'don't': 'You mustn't feed the animals.'",
          "type": "mcq",
-         "q": "It's a library. You .......... shout.",
+         "q": "We are at the zoo. You ________ feed the animals. It's a rule.",
          "opts": [
           "mustn't",
-          "don't have to",
-          "needn't"
+          "should",
+          "need to"
          ],
          "at": 1,
          "whys": [
           null,
-          "'don't have to' means it is not necessary. Shouting in a library is not allowed.",
-          "'needn't' means it is not necessary. Shouting in a library is not allowed."
+          "'should' is advice, but feeding the animals is against the rule.",
+          "'need to' means it is necessary, but feeding the animals is not allowed."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "On a holiday, is getting up early not allowed, or just not necessary?"
+          "step": "The speaker is giving advice to someone who is ill."
          },
-         "worked": "On a holiday it is not necessary: 'we don't have to get up early'.",
+         "worked": "Advice uses 'should': 'You should drink some warm water.'",
          "type": "mcq",
-         "q": "It's a holiday tomorrow, so we .......... get up early.",
-         "opts": [
-          "don't have to",
-          "mustn't",
-          "must"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "'mustn't' means it is not allowed. Getting up early is allowed, just not necessary.",
-          "'must' means it is necessary, but it's a holiday."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Ug.12"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "The speaker is giving advice."
-         },
-         "worked": "Advice uses 'should': 'You should go to bed early'.",
-         "type": "mcq",
-         "q": "You look tired. You .......... go to bed early tonight.",
+         "q": "You have a cough. You ________ drink some warm water with honey.",
          "opts": [
           "should",
           "mustn't",
-          "needn't"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "'mustn't' means it is not allowed. Going to bed early is a good idea!",
-          "'needn't' means it is not necessary, but the person looks tired."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Which little word always comes after 'ought'?"
-         },
-         "worked": "We always say 'ought to' + verb: 'You ought to see a dentist'.",
-         "type": "mcq",
-         "q": "Your tooth hurts? You ought .......... see a dentist.",
-         "opts": [
-          "to",
-          "should",
-          "must"
+          "would"
          ],
          "at": 2,
          "whys": [
           null,
-          "'ought should' is not correct. 'ought' needs 'to'.",
-          "'ought must' is not correct. 'ought' needs 'to'."
+          "'mustn't' means it is not allowed, but warm water is a good idea.",
+          "'would' is for polite offers and requests, like 'Would you like ...?', not for advice."
          ],
          "letters": true
         }
@@ -538,18 +500,66 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.12"
+        "5Ug.10"
        ],
        "v": [
         {
          "hint": {
-          "step": "Which little word always comes after 'ought'?"
+          "step": "Which word starts a polite question when you ask for help?"
          },
-         "worked": "'ought to' + verb: 'You ought to drink more water'.",
+         "worked": "A polite request: 'Could you help me with my bag, please?'",
+         "type": "mcq",
+         "q": "________ you help me with my bag, please?",
+         "opts": [
+          "Could",
+          "Should",
+          "Need"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "'Should' is for advice. We don't use it to ask for help politely.",
+          "We don't start a polite question with 'Need you'."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Which word goes with 'like' in a polite offer?"
+         },
+         "worked": "A polite offer: 'Would you like some more soup?'",
+         "type": "mcq",
+         "q": "Grandma asks, '________ you like some more soup?'",
+         "opts": [
+          "Would",
+          "Need",
+          "Must"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "We don't say 'Need you like'. For an offer we use 'Would you like ...?'",
+          "'Must' is for rules. We don't say 'Must you like'."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Ug.10"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Which little word comes after 'need' and before a verb?"
+         },
+         "worked": "'need to' + verb: 'You need to wear a warm coat.'",
          "type": "tfill",
          "q": "Write the missing word.",
          "lines": [
-          "You ought {0} drink more water when it's hot."
+          "It's cold today. You need {0} wear a warm coat."
          ],
          "ans": [
           [
@@ -559,17 +569,17 @@
         },
         {
          "hint": {
-          "step": "Which little word comes after 'have' when it means 'necessary'?"
+          "step": "Which word comes after 'Would you' in a polite offer?"
          },
-         "worked": "'don't have to' + verb: 'We don't have to wear a tie'.",
+         "worked": "A polite offer: 'Would you like a glass of water?'",
          "type": "tfill",
          "q": "Write the missing word.",
          "lines": [
-          "We don't have {0} wear a tie on Fridays."
+          "Would you {0} a glass of water?"
          ],
          "ans": [
           [
-           "to"
+           "like"
           ]
          ]
         }
@@ -579,101 +589,53 @@
     },
     {
      "title": {
-      "en": "If and who/which/whose",
-      "vi": "Câu điều kiện và đại từ quan hệ"
+      "en": "Quantifiers and someone, anyone, nobody",
+      "vi": "Từ chỉ số lượng và someone, anyone, nobody"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ug.09"
+        "5Us.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "After 'if' use the present simple."
+          "step": "Can you count apples?"
          },
-         "worked": "If + present simple: 'If it rains tomorrow, we will ...'.",
+         "worked": "Apples can be counted, so we say 'fewer apples'.",
          "type": "mcq",
-         "q": "If it .......... tomorrow, we will have the picnic indoors.",
+         "q": "There are ________ apples in the bowl today than yesterday.",
          "opts": [
-          "rains",
-          "will rain",
-          "rained"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "We don't use 'will' after 'if'.",
-          "After 'if' in a first conditional we use the present simple."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "The 'if' part is in the present simple. What does the other part need?"
-         },
-         "worked": "If + present simple (eat), will + verb (will feel).",
-         "type": "mcq",
-         "q": "If you eat all those sweets, you .......... feel sick.",
-         "opts": [
-          "will",
-          "are",
-          "did"
+          "fewer",
+          "less",
+          "much"
          ],
          "at": 1,
          "whys": [
           null,
-          "'are feel' is not correct. We need will + verb.",
-          "'did' is for the past. This is about what will happen."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Us.05"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Is a vet a person, a thing or a place?"
-         },
-         "worked": "A vet is a person, so we use 'who'.",
-         "type": "mcq",
-         "q": "A vet is a person .......... looks after sick animals.",
-         "opts": [
-          "who",
-          "which",
-          "where"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "'which' is for things and animals. A vet is a person.",
-          "'where' is for places. A vet is a person."
+          "'less' is for things we can't count. We can count apples.",
+          "'much' is for things we can't count, and it doesn't fit before 'than' here."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Is a museum a person, a thing or a place? You see the trains IN it."
+          "step": "Can you count salt?"
          },
-         "worked": "You see trains in the museum, a place: 'the museum where you can see old trains'.",
+         "worked": "Salt can't be counted, so we say 'less salt'.",
          "type": "mcq",
-         "q": "This is the museum .......... you can see old trains.",
+         "q": "You should put ________ salt on your food.",
          "opts": [
-          "where",
-          "which",
-          "who"
+          "less",
+          "fewer",
+          "many"
          ],
          "at": 0,
          "whys": [
           null,
-          "'which you can see old trains' is not complete. You see the trains IN the museum, so use a place word.",
-          "'who' is for people. A museum is a place."
+          "'fewer' is for things we can count. We can't count salt.",
+          "'many' is for things we can count, like eggs or apples."
          ],
          "letters": true
         }
@@ -682,34 +644,210 @@
       {
        "mode": "your",
        "lo": [
-        "6Us.05"
+        "5Us.02"
        ],
        "v": [
         {
          "hint": {
-          "step": "The bag belongs to the boy. Which word shows belonging?"
+          "step": "Is it about a person or a thing? Did a person answer?"
          },
-         "worked": "His bag is red: 'The boy whose bag is red'.",
+         "worked": "No person answered the door: 'nobody answered'.",
+         "type": "mcq",
+         "q": "I knocked on the door, but ________ answered.",
+         "opts": [
+          "nobody",
+          "nothing",
+          "anybody"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "'nothing' is about things. People answer doors, not things.",
+          "We use 'anybody' with 'not' or in questions. This sentence has no 'not'."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Is there a person at the door or not? Is the sentence a question?"
+         },
+         "worked": "A person is at the door, so: 'There's someone at the door.'",
+         "type": "mcq",
+         "q": "There's ________ at the door. Can you open it, please?",
+         "opts": [
+          "someone",
+          "anyone",
+          "no-one"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "We use 'anyone' in questions or with 'not'. This sentence says yes, a person is there.",
+          "If no person is there, why open the door? The sentence needs a person."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Us.01"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "How many cats are there?"
+         },
+         "worked": "There are two cats, so we use 'Both of them'.",
          "type": "tfill",
-         "q": "Write the missing word.",
+         "q": "Write ONE word: both or all.",
          "lines": [
-          "The boy {0} bag is red is my best friend."
+          "I have two cats. {0} of them are black."
          ],
          "ans": [
           [
-           "whose"
+           "both"
           ]
          ]
         },
         {
          "hint": {
-          "step": "A shop is a thing here: it sells books. Which word is for things?"
+          "step": "Can you count milk?"
          },
-         "worked": "For a thing we use 'which' (or 'that'): 'the shop which sells books'.",
+         "worked": "Milk can't be counted, so: 'not as much milk'.",
          "type": "tfill",
-         "q": "Write the missing word.",
+         "q": "Write ONE word: many or much.",
          "lines": [
-          "I like the shop {0} sells second-hand books."
+          "We haven't got as {0} milk as we need."
+         ],
+         "ans": [
+          [
+           "much"
+          ]
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Who, which, where and adverbs",
+      "vi": "Who, which, where và trạng từ"
+     },
+     "rounds": [
+      {
+       "mode": "your",
+       "lo": [
+        "5Us.04"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Is a dentist a person, a thing or a place?"
+         },
+         "worked": "A dentist is a person, so we use 'who'.",
+         "type": "mcq",
+         "q": "A dentist is a person ________ looks after your teeth.",
+         "opts": [
+          "who",
+          "which",
+          "where"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'which' is for things and animals. A dentist is a person.",
+          "'where' is for places. A dentist is a person."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Is a park a person, a thing or a place?"
+         },
+         "worked": "We play football in the park, so we use 'where'.",
+         "type": "mcq",
+         "q": "This is the park ________ we play football on Saturdays.",
+         "opts": [
+          "where",
+          "who",
+          "which"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "'who' is for people. A park is a place.",
+          "'which' is for things. We need a word for a place where we do something."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Uv.05"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Look at 'than'. It compares two people."
+         },
+         "worked": "Two people with 'than': 'Arjun speaks more quietly than his little brother.'",
+         "type": "mcq",
+         "q": "Arjun speaks ________ than his little brother.",
+         "opts": [
+          "more quietly",
+          "most quietly",
+          "quietly"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "We use 'most' with 'the', not with 'than'.",
+          "With 'than' we need 'more' before 'quietly'."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Look at 'Of all the girls' and 'the'. How many people are we comparing?"
+         },
+         "worked": "Comparing all the girls: 'Mia swims the fastest.'",
+         "type": "mcq",
+         "q": "Of all the girls in the team, Mia swims the ________.",
+         "opts": [
+          "fastest",
+          "faster",
+          "fast"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "'faster' compares two people. Here we compare all the girls.",
+          "'fast' doesn't compare. After 'the' and 'of all' we need the superlative."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Us.04"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Is a parrot a person, an animal or a place?"
+         },
+         "worked": "A parrot is an animal, so we use 'which' (or 'that').",
+         "type": "tfill",
+         "q": "Write ONE word: who, which or where.",
+         "lines": [
+          "I have a parrot {0} can say 'hello'."
          ],
          "ans": [
           [
@@ -717,158 +855,22 @@
            "that"
           ]
          ]
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "title": {
-      "en": "Verb patterns and questions",
-      "vi": "Mẫu động từ và câu hỏi"
-     },
-     "rounds": [
-      {
-       "mode": "your",
-       "lo": [
-        "6Us.07"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "The pattern is: want + person + to + verb."
-         },
-         "worked": "want + us + to practise: 'Our coach wants us to practise harder'.",
-         "type": "mcq",
-         "q": "Our coach wants us .......... harder.",
-         "opts": [
-          "to practise",
-          "practise",
-          "practising"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "After 'wants us' we need 'to' + verb.",
-          "After 'wants us' we need 'to' + verb, not -ing."
-         ],
-         "letters": true
         },
         {
          "hint": {
-          "step": "The pattern is: ask + person + to + verb."
+          "step": "Is a hospital a person, a thing or a place where someone does something?"
          },
-         "worked": "ask + me + to help: 'asked me to help my little sister'.",
-         "type": "mcq",
-         "q": "My parents asked me .......... my little sister with her homework.",
-         "opts": [
-          "to help",
-          "help",
-          "helping"
+         "worked": "My mum works in the hospital, so we use 'where'.",
+         "type": "tfill",
+         "q": "Write ONE word: who, which or where.",
+         "lines": [
+          "This is the hospital {0} my mum works."
          ],
-         "at": 1,
-         "whys": [
-          null,
-          "After 'asked me' we need 'to' + verb.",
-          "After 'asked me' we need 'to' + verb, not -ing."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Us.07"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "The pattern is: show + person + thing."
-         },
-         "worked": "show + us (person) + his new kite (thing).",
-         "type": "mcq",
-         "q": "Kenji showed .......... .",
-         "opts": [
-          "us his new kite",
-          "his new kite us",
-          "to us his new kite"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "Put the person first: show + person + thing.",
-          "We don't need 'to' here: show + person + thing."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "The pattern is: send + person + thing."
-         },
-         "worked": "send + you (person) + the photos (thing).",
-         "type": "mcq",
-         "q": "I'll send .......... tomorrow.",
-         "opts": [
-          "you the photos",
-          "the photos you",
-          "to you the photos"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "Put the person first: send + person + thing.",
-          "We don't need 'to' here: send + person + thing."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Ug.01"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Past question: question word + did + subject + base verb."
-         },
-         "worked": "Where + did + you + find: 'Where did you find the kitten?'",
-         "type": "mcq",
-         "q": "Choose the correct question.",
-         "opts": [
-          "Where did you find the kitten?",
-          "Where you found the kitten?",
-          "Where did you found the kitten?"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "A past question needs 'did' before 'you'.",
-          "After 'did' use the base verb: find, not found."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "In a question, the helper verb goes before the subject."
-         },
-         "worked": "Present perfect question: How long + have + you + had.",
-         "type": "mcq",
-         "q": "How long .......... had your hamster?",
-         "opts": [
-          "have you",
-          "you have",
-          "are you"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "In a question the helper verb comes before 'you'.",
-          "'had' is a past participle, so the helper verb is 'have'."
-         ],
-         "letters": true
+         "ans": [
+          [
+           "where"
+          ]
+         ]
         }
        ]
       }
@@ -884,107 +886,59 @@
    "art": "icon-step-test",
    "title": "Exam style",
    "blurb": {
-    "en": "Exam practice: choose the right words in a sentence, then write one word in a message.",
-    "vi": "Luyện thi: chọn từ đúng trong câu, rồi viết một từ vào chỗ trống trong tin nhắn."
+    "en": "Exam practice: choose the right word in a sentence or a message, then write one word in a letter.",
+    "vi": "Luyện thi: chọn từ đúng trong câu hoặc tin nhắn, rồi viết một từ vào chỗ trống trong lá thư."
    },
    "levels": [
     {
      "title": {
-      "en": "Part 1: modals and if",
-      "vi": "Phần 1: động từ khuyết thiếu và câu điều kiện"
+      "en": "Part 1: choose the word",
+      "vi": "Phần 1: chọn từ đúng"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ug.12"
+        "5Ug.10"
        ],
        "v": [
         {
          "hint": {
-          "step": "It might rain. Is forgetting raincoats OK, or a big no?"
+          "step": "The doctor is giving Hana advice. Check the word after the gap too."
          },
-         "worked": "Forgetting raincoats would be a problem, so: 'We mustn't forget'.",
+         "worked": "Advice from the doctor: 'You should stay in bed.'",
          "type": "mcq",
-         "q": "We're going to the forest tomorrow. We .......... forget our raincoats because it might rain.",
-         "opts": [
-          "mustn't",
-          "needn't",
-          "don't have to"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "'needn't forget' means it is not necessary to forget. That doesn't make sense here.",
-          "'don't have to forget' doesn't make sense. Forgetting is a bad idea!"
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "'free' is the key word. Is a ticket necessary?"
-         },
-         "worked": "The museum is free, so a ticket is not necessary: 'you don't have to buy'.",
-         "type": "mcq",
-         "q": "The museum is free on Sundays, so you .......... buy a ticket.",
-         "opts": [
-          "don't have to",
-          "mustn't",
-          "must"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "'mustn't' means it is not allowed. Buying a ticket is not wrong, just not necessary.",
-          "'must' means it is necessary, but the museum is free."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Ug.12"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "The sentence gives advice to someone who wants to get fit."
-         },
-         "worked": "Advice uses 'should': 'you should try to walk or cycle'.",
-         "type": "mcq",
-         "q": "If you want to get fit, you .......... try to walk or cycle every day.",
+         "q": "Hana has a fever. The doctor tells her, 'You ________ stay in bed and drink lots of water.'",
          "opts": [
           "should",
-          "needn't",
-          "mustn't"
+          "mustn't",
+          "need"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
-          "'needn't' means it is not necessary, but this is advice for getting fit.",
-          "'mustn't' means it is not allowed. Walking is a good idea!"
+          "'mustn't' means it is not allowed, but resting is good for Hana.",
+          "'need' needs 'to' after it: 'need to stay'."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "'plenty of water' is the key. Is more water necessary?"
+          "step": "Read the reason after 'because'. Is taking photos good or bad for the paintings?"
          },
-         "worked": "We have plenty, so more is not necessary: 'you needn't bring any more'.",
+         "worked": "The flash can hurt the paintings, so it is a rule: 'visitors mustn't take photos'.",
          "type": "mcq",
-         "q": "We've got plenty of water, so you .......... bring any more.",
+         "q": "In the museum, Duc saw a sign. It said visitors ________ take photos, because the flash can hurt the old paintings.",
          "opts": [
-          "needn't",
-          "must",
-          "ought"
+          "mustn't",
+          "need to",
+          "should"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
-          "'must' means it is necessary, but we already have plenty.",
-          "'ought' needs 'to' after it, and more water is not needed."
+          "Taking photos can hurt the paintings, so it is not necessary. It is not allowed.",
+          "Taking photos can hurt the paintings, so it isn't a good idea."
          ],
          "letters": true
         }
@@ -993,46 +947,94 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.09"
+        "5Us.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "After 'if' use the present simple, even for the future."
+          "step": "Can you count sweets? Look at 'than' too."
          },
-         "worked": "If + present simple: 'If the weather is fine, we'll go'.",
+         "worked": "Sweets can be counted, so: 'Khoa ate fewer sweets'.",
          "type": "mcq",
-         "q": "If the weather .......... fine on Saturday, we'll go to the botanical gardens.",
+         "q": "Khoa ate ________ sweets this week than last week because he wants to keep his teeth healthy.",
          "opts": [
-          "is",
-          "will be",
-          "was"
+          "fewer",
+          "less",
+          "much"
          ],
          "at": 1,
          "whys": [
           null,
-          "We don't use 'will' after 'if'.",
-          "After 'if' in a first conditional we use the present simple."
+          "'less' is for things we can't count. We can count sweets.",
+          "'much' is for things we can't count, and it doesn't fit before 'than' here."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "The 'if' part is in the present simple. What does the other part need?"
+          "step": "How many people love the beach?"
          },
-         "worked": "If + present simple (don't feed), will + verb (will be).",
+         "worked": "Two people, Thu and her sister: 'they both love the beach'.",
          "type": "mcq",
-         "q": "If you don't feed your goldfish, it .......... hungry.",
+         "q": "Thu and her sister ________ love the beach, so the family goes there every summer.",
          "opts": [
-          "will be",
-          "is being",
-          "was"
+          "both",
+          "all",
+          "every"
          ],
          "at": 1,
          "whys": [
           null,
-          "The 'if' part is in the present simple. The other part needs will + verb.",
-          "'was' is the past. This is about what will happen."
+          "'all' is for three or more. Thu and her sister are two people.",
+          "'every' goes before one thing, like 'every summer'. It can't go here."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Us.02"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Is the sentence about people or things? Is there a 'not'?"
+         },
+         "worked": "The bag was empty and there is no 'not': 'there was nothing inside it'.",
+         "type": "mcq",
+         "q": "Max looked in his bag for his lunch box, but there was ________ inside it, so he felt worried.",
+         "opts": [
+          "nothing",
+          "anything",
+          "nobody"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "We use 'anything' with 'not' or in questions. Here it says 'there was', not 'there wasn't'.",
+          "'nobody' is about people. A bag has things inside, not people."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Ella is asking a question about people. Which word do we use in questions?"
+         },
+         "worked": "In a question about people we use 'anyone': 'Has anyone got a blue pencil?'",
+         "type": "mcq",
+         "q": "Ella asked her class, 'Has ________ got a blue pencil I can borrow, please?'",
+         "opts": [
+          "anyone",
+          "no-one",
+          "something"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "If no-one has a pencil, Ella can't borrow one. She is asking a question.",
+          "'something' is a thing. Things can't have pencils."
          ],
          "letters": true
         }
@@ -1042,213 +1044,313 @@
     },
     {
      "title": {
-      "en": "Part 1: who, which, whose and verb patterns",
-      "vi": "Phần 1: who, which, whose và mẫu động từ"
+      "en": "Part 2: complete the message",
+      "vi": "Phần 2: hoàn thành tin nhắn"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Us.05"
+        "5Ug.10"
        ],
        "v": [
         {
          "hint": {
-          "step": "Ms Rossi is a person. The commas show extra information."
+          "step": "Look at the word straight after the gap."
          },
-         "worked": "For a person we use 'who': 'Ms Rossi, who teaches us art, ...'.",
+         "worked": "Only 'need' goes with 'to': 'You need to feed the fish.'",
          "type": "mcq",
-         "q": "Ms Rossi, .......... teaches us art, has painted a picture of our school.",
+         "q": "Which option correctly completes the message?",
          "opts": [
-          "who",
-          "which",
-          "whose"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "'which' is for things and animals. Ms Rossi is a person.",
-          "'whose' shows belonging, but here we need a word for the person."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "A tablet is a thing. The commas show extra information."
-         },
-         "worked": "For a thing we use 'which': 'Our new tablet, which was a present, ...'.",
-         "type": "mcq",
-         "q": "Our new tablet, .......... was a present from Grandma, has a blue cover.",
-         "opts": [
-          "which",
-          "who",
-          "where"
+          "need",
+          "should",
+          "must"
          ],
          "at": 2,
          "whys": [
           null,
-          "'who' is for people. A tablet is a thing.",
-          "'where' is for places. A tablet is a thing."
+          "We don't say 'should to'. Look at the word after the gap.",
+          "We don't say 'must to'. Look at the word after the gap."
          ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Us.05"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "The plane belongs to the pilot. Which word shows belonging?"
-         },
-         "worked": "His plane landed safely: 'The pilot whose plane landed safely'.",
-         "type": "mcq",
-         "q": "The pilot .......... plane landed safely in the storm was given a prize.",
-         "opts": [
-          "whose",
-          "who",
-          "which"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "'who plane' is not correct. We need a word that shows belonging.",
-          "'which' is for things, and it doesn't show belonging."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "We saw the frogs IN the pond. Which word is for places?"
-         },
-         "worked": "A pond is a place where things happen: 'the pond where we saw the frogs'.",
-         "type": "mcq",
-         "q": "This is the pond .......... we saw the frogs last spring.",
-         "opts": [
-          "where",
-          "which",
-          "who"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "'which we saw the frogs' is not complete. We saw the frogs IN the pond, so use a place word.",
-          "'who' is for people. A pond is a place."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Us.07"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "The pattern is: tell + person + to + verb."
-         },
-         "worked": "tell + us + to bring: 'The coach told us to bring water'.",
-         "type": "mcq",
-         "q": "The coach told .......... water to every training session.",
-         "opts": [
-          "us to bring",
-          "us bring",
-          "to us bring"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "After 'told us' we need 'to' + verb.",
-          "We say 'told us', not 'told to us'."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "The pattern is: bring + person + thing."
-         },
-         "worked": "bring + me (person) + my glasses (thing).",
-         "type": "mcq",
-         "q": "Could you bring .......... when you come?",
-         "opts": [
-          "me my glasses",
-          "my glasses me",
-          "to me my glasses"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "Put the person first: bring + person + thing.",
-          "We don't need 'to' here: bring + person + thing."
-         ],
-         "letters": true
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "title": {
-      "en": "Part 4: one word in a message",
-      "vi": "Phần 4: viết một từ vào chỗ trống trong tin nhắn"
-     },
-     "rounds": [
-      {
-       "mode": "your",
-       "lo": [
-        "6Us.05"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "The uncle is a person. The commas show extra information."
-         },
-         "worked": "For a person with commas we use 'who': 'My uncle, who works at the city zoo, ...'.",
-         "type": "tfill",
-         "q": "Read the message. Write ONE word for gap 1.",
-         "lines": [
-          "My uncle, {0} works at the city zoo, has invited us to see the baby monkeys!"
-         ],
-         "ans": [
-          [
-           "who"
-          ]
-         ],
+         "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s3-msg-a",
+          "id": "s3-note-r1a",
           "kind": "text",
-          "head": "A message from Huy",
-          "html": "Hi Lan,<br>Are you free on Sunday? My uncle, (1) ________ works at the city zoo, has invited us to see the baby monkeys! You don't have (2) ________ bring any money because the tickets are free. If you come, I'm sure you (3) ________ love the monkeys. They are so funny!<br>See you soon,<br>Huy"
+          "head": "A note from Mum",
+          "html": "Rhys,<br>I'm at work until six. You (1) ________ to feed the fish before you do your homework. There is some fruit in the kitchen.<br>Love,<br>Mum"
          }
         },
         {
          "hint": {
-          "step": "A chapter is a thing. Which word is for things?"
+          "step": "Read the next sentence. Is leaving bags on the floor OK?"
          },
-         "worked": "For a thing we use 'which' (or 'that'): 'the chapter which explains ...'.",
+         "worked": "Bags on the floor are dangerous, so it is a rule: 'Students mustn't leave their bags on the floor.'",
+         "type": "mcq",
+         "q": "Which option correctly completes the message?",
+         "opts": [
+          "mustn't",
+          "would",
+          "need"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "'would' is for polite offers and requests, not for rules on a notice.",
+          "'need' needs 'to' after it, and leaving bags on the floor is not a good thing."
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s3-note-r1b",
+          "kind": "text",
+          "head": "A classroom notice",
+          "html": "<b>Class 4B</b><br>Students (1) ________ leave their bags on the floor. Somebody could fall over them! Please put your bag on the hooks by the door.<br>Your class teacher"
+         }
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Ug.10"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Lily is asking her friend to do something for her. Which word is polite?"
+         },
+         "worked": "A polite request: 'Could you take a photo of page 12 for me, please?'",
+         "type": "mcq",
+         "q": "Which option correctly completes the message?",
+         "opts": [
+          "Could",
+          "Should",
+          "Must"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'Should' is for advice. Lily is asking for help.",
+          "'Must' is for rules. It is not polite for asking a friend for help."
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s3-note-r2a",
+          "kind": "text",
+          "head": "A text message from Lily",
+          "html": "Hi Arjun, I left my maths book at school. (1) ________ you take a photo of page 12 for me, please? I need it for my homework. Thanks! Lily"
+         }
+        },
+        {
+         "hint": {
+          "step": "Mia is inviting Ella. Which word goes with 'you like'?"
+         },
+         "worked": "A polite invitation: 'Would you like to come?'",
+         "type": "mcq",
+         "q": "Which option correctly completes the message?",
+         "opts": [
+          "Would",
+          "Could",
+          "Need"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "We don't say 'Could you like'. For invitations we use 'Would you like ...?'",
+          "We don't say 'Need you like'. For invitations we use 'Would you like ...?'"
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s3-note-r2b",
+          "kind": "text",
+          "head": "An email from Mia",
+          "html": "Dear Ella,<br>We are having a small party for Dad's birthday on Sunday afternoon. (1) ________ you like to come? We are making a big chocolate cake!<br>Love,<br>Mia"
+         }
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Us.01",
+        "5Us.02"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Who can feel dizzy or sick: people or things?"
+         },
+         "worked": "The notice is about people in the class: 'If anyone in your class feels dizzy ...'.",
+         "type": "mcq",
+         "q": "Which option correctly completes the message?",
+         "opts": [
+          "anyone",
+          "anything",
+          "nothing"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'anything' is about things. Only people feel dizzy or sick.",
+          "'nothing' is about things, and it means zero."
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s3-note-r3a",
+          "kind": "text",
+          "head": "A notice from the school nurse",
+          "html": "<b>School Clinic</b><br>If (1) ________ in your class feels dizzy or sick, tell a teacher straight away. Please do not walk to the clinic alone.<br>The school nurse"
+         }
+        },
+        {
+         "hint": {
+          "step": "Can you count sugar?"
+         },
+         "worked": "Sugar can't be counted, so: 'less sugar than a cake'.",
+         "type": "mcq",
+         "q": "Which option correctly completes the message?",
+         "opts": [
+          "less",
+          "fewer",
+          "many"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "'fewer' is for things we can count. We can't count sugar.",
+          "'many' is for things we can count, and it doesn't fit before 'than' here."
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s3-note-r3b",
+          "kind": "text",
+          "head": "A notice for Healthy Snack Week",
+          "html": "<b>Healthy Snack Week</b><br>This week, please bring fruit or nuts for your snack. Your snack should have (1) ________ sugar than a cake or a biscuit. Thank you!<br>Class 4A"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Part 4: one word in a letter",
+      "vi": "Phần 4: viết một từ vào chỗ trống trong lá thư"
+     },
+     "rounds": [
+      {
+       "mode": "your",
+       "lo": [
+        "5Us.04",
+        "5Us.02"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "What comes before the gap: a person, a thing or a place where I do something?"
+         },
+         "worked": "I ride my bike in the park, a place, so: 'a big park where I can ride my bike'.",
          "type": "tfill",
-         "q": "Read the message. Write ONE word for gap 1.",
+         "q": "Read the letter. Write ONE word from the box for gap 1.",
          "lines": [
-          "My favourite part was the chapter {0} explains how sharks find their food."
+          "It is near a big park {0} I can ride my bike."
          ],
          "ans": [
           [
-           "which",
+           "where"
+          ]
+         ],
+         "fig": {
+          "k": "stim",
+          "id": "s3-letter-a",
+          "kind": "text",
+          "head": "A letter from Hana",
+          "html": "<b>Word box:</b> where, who, fewer, much, on<br><br>Hi Duc,<br>We moved to our new flat last week! It is near a big park (1) ________ I can ride my bike. Our neighbour is a kind old man (2) ________ grows tomatoes on his balcony. There are (3) ________ shops here than in our old street, but there is a great bakery. Come and visit soon!<br>Love,<br>Hana"
+         }
+        },
+        {
+         "hint": {
+          "step": "The card made the whole family happy. Which box word means all the people?"
+         },
+         "worked": "All the people in the family loved it: 'Everyone in my family loved your funny card.'",
+         "type": "tfill",
+         "q": "Read the letter. Write ONE word from the box for gap 1.",
+         "lines": [
+          "{0} in my family loved your funny card."
+         ],
+         "ans": [
+          [
+           "everyone",
+           "everybody"
+          ]
+         ],
+         "fig": {
+          "k": "stim",
+          "id": "s3-letter-b",
+          "kind": "text",
+          "head": "A letter from Thu",
+          "html": "<b>Word box:</b> everyone, more, to, both, at<br><br>Hi Rhys,<br>Thank you for coming to my birthday party! (1) ________ in my family loved your funny card. My uncle sang 'Happy Birthday' (2) ________ loudly than everyone else. He was so loud! Next time, you don't need (3) ________ bring a present. Just come and have fun!<br>Love,<br>Thu"
+         }
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Us.04",
+        "5Uv.05"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Is the neighbour a person, a thing or a place?"
+         },
+         "worked": "A man is a person, so: 'a kind old man who grows tomatoes'.",
+         "type": "tfill",
+         "q": "Read the letter. Write ONE word from the box for gap 2.",
+         "lines": [
+          "Our neighbour is a kind old man {0} grows tomatoes on his balcony."
+         ],
+         "ans": [
+          [
+           "who",
            "that"
           ]
          ],
          "fig": {
           "k": "stim",
-          "id": "s3-msg-b",
+          "id": "s3-letter-a",
           "kind": "text",
-          "head": "A message from Leo",
-          "html": "Hi Freya,<br>Thanks for lending me your book about sharks. My favourite part was the chapter (1) ________ explains how sharks find their food. Mum asked me (2) ________ give the book back to you before the weekend. Have you read the last chapter? If you read it, I'm sure you (3) ________ like it too!<br>Leo"
+          "head": "A letter from Hana",
+          "html": "<b>Word box:</b> where, who, fewer, much, on<br><br>Hi Duc,<br>We moved to our new flat last week! It is near a big park (1) ________ I can ride my bike. Our neighbour is a kind old man (2) ________ grows tomatoes on his balcony. There are (3) ________ shops here than in our old street, but there is a great bakery. Come and visit soon!<br>Love,<br>Hana"
+         }
+        },
+        {
+         "hint": {
+          "step": "Look at 'than'. Which word comes before 'loudly' to compare?"
+         },
+         "worked": "Comparing with 'than': 'more loudly than everyone else'. The letter says 'He was so loud!'",
+         "type": "tfill",
+         "q": "Read the letter. Write ONE word from the box for gap 2.",
+         "lines": [
+          "My uncle sang 'Happy Birthday' {0} loudly than everyone else."
+         ],
+         "ans": [
+          [
+           "more"
+          ]
+         ],
+         "fig": {
+          "k": "stim",
+          "id": "s3-letter-b",
+          "kind": "text",
+          "head": "A letter from Thu",
+          "html": "<b>Word box:</b> everyone, more, to, both, at<br><br>Hi Rhys,<br>Thank you for coming to my birthday party! (1) ________ in my family loved your funny card. My uncle sang 'Happy Birthday' (2) ________ loudly than everyone else. He was so loud! Next time, you don't need (3) ________ bring a present. Just come and have fun!<br>Love,<br>Thu"
          }
         }
        ]
@@ -1256,19 +1358,42 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.12",
-        "6Us.07"
+        "5Us.01",
+        "5Ug.10"
        ],
        "v": [
         {
          "hint": {
-          "step": "Which little word comes after 'don't have'?"
+          "step": "Can you count shops? Look at 'than' after the gap."
          },
-         "worked": "'don't have to' + verb: 'You don't have to bring any money'.",
+         "worked": "Shops can be counted: 'There are fewer shops here than in our old street.'",
          "type": "tfill",
-         "q": "Read the message. Write ONE word for gap 2.",
+         "q": "Read the letter. Write ONE word from the box for gap 3.",
          "lines": [
-          "You don't have {0} bring any money because the tickets are free."
+          "There are {0} shops here than in our old street, but there is a great bakery."
+         ],
+         "ans": [
+          [
+           "fewer"
+          ]
+         ],
+         "fig": {
+          "k": "stim",
+          "id": "s3-letter-a",
+          "kind": "text",
+          "head": "A letter from Hana",
+          "html": "<b>Word box:</b> where, who, fewer, much, on<br><br>Hi Duc,<br>We moved to our new flat last week! It is near a big park (1) ________ I can ride my bike. Our neighbour is a kind old man (2) ________ grows tomatoes on his balcony. There are (3) ________ shops here than in our old street, but there is a great bakery. Come and visit soon!<br>Love,<br>Hana"
+         }
+        },
+        {
+         "hint": {
+          "step": "Which little word comes after 'need' and before a verb?"
+         },
+         "worked": "'need to' + verb: 'you don't need to bring a present'.",
+         "type": "tfill",
+         "q": "Read the letter. Write ONE word from the box for gap 3.",
+         "lines": [
+          "Next time, you don't need {0} bring a present."
          ],
          "ans": [
           [
@@ -1277,89 +1402,10 @@
          ],
          "fig": {
           "k": "stim",
-          "id": "s3-msg-a",
+          "id": "s3-letter-b",
           "kind": "text",
-          "head": "A message from Huy",
-          "html": "Hi Lan,<br>Are you free on Sunday? My uncle, (1) ________ works at the city zoo, has invited us to see the baby monkeys! You don't have (2) ________ bring any money because the tickets are free. If you come, I'm sure you (3) ________ love the monkeys. They are so funny!<br>See you soon,<br>Huy"
-         }
-        },
-        {
-         "hint": {
-          "step": "The pattern is: ask + person + ... + verb."
-         },
-         "worked": "ask + me + to + give: 'Mum asked me to give the book back'.",
-         "type": "tfill",
-         "q": "Read the message. Write ONE word for gap 2.",
-         "lines": [
-          "Mum asked me {0} give the book back to you before the weekend."
-         ],
-         "ans": [
-          [
-           "to"
-          ]
-         ],
-         "fig": {
-          "k": "stim",
-          "id": "s3-msg-b",
-          "kind": "text",
-          "head": "A message from Leo",
-          "html": "Hi Freya,<br>Thanks for lending me your book about sharks. My favourite part was the chapter (1) ________ explains how sharks find their food. Mum asked me (2) ________ give the book back to you before the weekend. Have you read the last chapter? If you read it, I'm sure you (3) ________ like it too!<br>Leo"
-         }
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Ug.09"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "The 'if' part is in the present simple. What does the other part need?"
-         },
-         "worked": "If + present simple (come), will + verb: 'you will love the monkeys'.",
-         "type": "tfill",
-         "q": "Read the message. Write ONE word for gap 3.",
-         "lines": [
-          "If you come, I'm sure you {0} love the monkeys."
-         ],
-         "ans": [
-          [
-           "will",
-           "'ll"
-          ]
-         ],
-         "fig": {
-          "k": "stim",
-          "id": "s3-msg-a",
-          "kind": "text",
-          "head": "A message from Huy",
-          "html": "Hi Lan,<br>Are you free on Sunday? My uncle, (1) ________ works at the city zoo, has invited us to see the baby monkeys! You don't have (2) ________ bring any money because the tickets are free. If you come, I'm sure you (3) ________ love the monkeys. They are so funny!<br>See you soon,<br>Huy"
-         }
-        },
-        {
-         "hint": {
-          "step": "The 'if' part is in the present simple. What does the other part need?"
-         },
-         "worked": "If + present simple (read), will + verb: 'you will like it too'.",
-         "type": "tfill",
-         "q": "Read the message. Write ONE word for gap 3.",
-         "lines": [
-          "If you read it, I'm sure you {0} like it too!"
-         ],
-         "ans": [
-          [
-           "will",
-           "'ll"
-          ]
-         ],
-         "fig": {
-          "k": "stim",
-          "id": "s3-msg-b",
-          "kind": "text",
-          "head": "A message from Leo",
-          "html": "Hi Freya,<br>Thanks for lending me your book about sharks. My favourite part was the chapter (1) ________ explains how sharks find their food. Mum asked me (2) ________ give the book back to you before the weekend. Have you read the last chapter? If you read it, I'm sure you (3) ________ like it too!<br>Leo"
+          "head": "A letter from Thu",
+          "html": "<b>Word box:</b> everyone, more, to, both, at<br><br>Hi Rhys,<br>Thank you for coming to my birthday party! (1) ________ in my family loved your funny card. My uncle sang 'Happy Birthday' (2) ________ loudly than everyone else. He was so loud! Next time, you don't need (3) ________ bring a present. Just come and have fun!<br>Love,<br>Thu"
          }
         }
        ]
@@ -1372,78 +1418,78 @@
  "notes": {
   "items": [
    {
-    "en": "*must* and *have to* = it is necessary (a rule). *mustn't* = it is not allowed.",
-    "vi": "*must* và *have to* = cần thiết, bắt buộc (quy định). *mustn't* = không được phép.",
+    "en": "*mustn't* = it is not allowed. *need to* = it is necessary. *should* = it is a good idea (advice).",
+    "vi": "*mustn't* = không được phép. *need to* = cần phải làm. *should* = nên làm (lời khuyên).",
     "example": [
-     "You *must* wear a helmet.",
-     "You *mustn't* run in the corridor."
+     "You *mustn't* shout in the hospital.",
+     "We *need to* leave at eight. You *should* bring a snack."
     ]
    },
    {
-    "en": "*don't have to* and *needn't* = it is not necessary. You can choose.",
-    "vi": "*don't have to* và *needn't* = không cần thiết. Con có thể tự chọn.",
+    "en": "Polite questions: *Could you ...?* asks for help. *Would you like ...?* offers or invites.",
+    "vi": "Câu hỏi lịch sự: *Could you ...?* để nhờ giúp. *Would you like ...?* để mời.",
     "example": [
-     "We *don't have to* wear our uniform today.",
-     "You *needn't* bring a pen. I've got one."
+     "*Could* you open the door, please?",
+     "*Would* you like some tea, Grandma?"
     ]
    },
    {
-    "en": "*should* and *ought to* give advice. Remember: ought *to* + verb.",
-    "vi": "*should* và *ought to* dùng để khuyên. Nhớ nhé: ought *to* + động từ.",
+    "en": "*fewer* and *not as many* + things you can count. *less* and *not as much* + things you can't count.",
+    "vi": "*fewer* và *not as many* + vật đếm được. *less* và *not as much* + vật không đếm được.",
     "example": [
-     "You *should* eat more fruit.",
-     "You *ought to* rest after the match."
+     "I eat *fewer* biscuits and *less* sugar now.",
+     "There aren't *as many* trees here, and there isn't *as much* grass."
     ]
    },
    {
-    "en": "First conditional: *If* + present simple, *will* + verb. Don't put will after if.",
-    "vi": "Câu điều kiện loại 1: *If* + hiện tại đơn, *will* + động từ. Không dùng will sau if.",
+    "en": "*both* = two people or things. *all* = every one in a group of three or more.",
+    "vi": "*both* = hai người hoặc hai vật. *all* = tất cả trong một nhóm từ ba trở lên.",
     "example": [
-     "*If* it *rains*, we *will stay* at home.",
-     "*If* you *practise*, you*'ll get* better."
+     "*Both* my parents are teachers.",
+     "*All* the students in my class have a pet."
     ]
    },
    {
-    "en": "*who* = people, *which* = things and animals, *whose* = belonging, *where* = places, *whom* = a person after a preposition. Commas = extra information.",
-    "vi": "*who* = người, *which* = đồ vật và con vật, *whose* = sở hữu, *where* = nơi chốn, *whom* = người, đứng sau giới từ. Dấu phẩy = thông tin thêm.",
+    "en": "*some-* words in yes sentences, *any-* in questions and with *not*, *no-* = zero, *every-* = all. *-one* / *-body* = people, *-thing* = things.",
+    "vi": "Từ *some-* dùng trong câu khẳng định, *any-* trong câu hỏi và câu có *not*, *no-* = không có, *every-* = tất cả. *-one* / *-body* = người, *-thing* = vật.",
     "example": [
-     "The woman *whose* cat is lost is very sad.",
-     "Our school, *which* is very old, has a big hall. The man to *whom* I spoke was kind."
+     "*Somebody* is at the door.",
+     "There isn't *anything* in my bag. *Everyone* is here."
     ]
    },
    {
-    "en": "Verb + person + *to* + verb (ask, tell, want, remind). give, show, send, bring, take + person + thing. Questions: question word + helper verb + subject + verb.",
-    "vi": "Động từ + người + *to* + động từ (ask, tell, want, remind). give, show, send, bring, take + người + vật. Câu hỏi: từ để hỏi + trợ động từ + chủ ngữ + động từ.",
+    "en": "Join ideas with *who* (people), *which* (things, animals), *that* (people or things), *where* (places). Compare how people do things: *faster*, *more carefully*, *the best*.",
+    "vi": "Nối ý với *who* (người), *which* (đồ vật, con vật), *that* (người hoặc vật), *where* (nơi chốn). So sánh cách làm việc: *faster*, *more carefully*, *the best*.",
     "example": [
-     "Dad *asked me to help* him.",
-     "She *showed us* her medal. *Where did* you *buy* it?"
+     "This is the shop *where* I buy bread. The man *who* works here is kind.",
+     "Max runs *faster* than Rhys. Thu writes *the most neatly* in our class."
     ]
    }
   ],
   "check": [
    {
-    "sentence": "Visitors {mustn't|don't have to|needn't} touch the paintings. It's a rule.",
+    "sentence": "You {mustn't|need to|should} talk during the test. It's a rule.",
     "answer": "mustn't"
    },
    {
-    "sentence": "It's Saturday, so I {don't have to|mustn't|must} go to school.",
-    "answer": "don't have to"
+    "sentence": "{Would|Could|Must} you like some tea, Grandma?",
+    "answer": "Would"
    },
    {
-    "sentence": "You {ought to|ought|should to} drink more water.",
-    "answer": "ought to"
+    "sentence": "There are {fewer|less|much} people in the park today.",
+    "answer": "fewer"
    },
    {
-    "sentence": "If you {heat|will heat|heated} the ice, it will melt.",
-    "answer": "heat"
+    "sentence": "My two cousins {both|all|every} play the violin.",
+    "answer": "both"
    },
    {
-    "sentence": "That's the girl {whose|who|which} brother is a pilot.",
-    "answer": "whose"
+    "sentence": "I'm hungry, but there is {nothing|anything|nobody} in the fridge.",
+    "answer": "nothing"
    },
    {
-    "sentence": "My teacher told {us to read|us read|to us read} the story.",
-    "answer": "us to read"
+    "sentence": "This is the hospital {where|who|which} my aunt works.",
+    "answer": "where"
    }
   ]
  },
@@ -1452,46 +1498,46 @@
    {
     "dok": 1,
     "lo": [
-     "6Ug.12"
+     "5Ug.10"
     ],
     "v": [
      {
       "hint": {
-       "step": "Is washing your hands before cooking a rule, or something you can choose?"
+       "step": "There is no café. Is bringing lunch necessary or not allowed?"
       },
-      "worked": "It is a rule, so: 'we must wash our hands'.",
+      "worked": "No café means you must bring food: 'You need to bring a packed lunch.'",
       "type": "mcq",
-      "q": "Our teacher says we .......... wash our hands before we start cooking.",
+      "q": "Before the trip, the teacher said, 'You ________ bring a packed lunch, because there is no café at the aquarium.'",
       "opts": [
-       "must",
-       "needn't",
-       "don't have to"
+       "need to",
+       "mustn't",
+       "would"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
-       "'needn't' means it is not necessary, but washing hands before cooking is a rule.",
-       "'don't have to' means it is not necessary, but washing hands before cooking is a rule."
+       "There is no café, so bringing lunch is necessary, not 'not allowed'.",
+       "'would' is for polite offers and requests, not for things that are necessary."
       ],
       "letters": true
      },
      {
       "hint": {
-       "step": "Read the second sentence: 'It's against the rules.'"
+       "step": "The fields are muddy. Are white trainers a good choice?"
       },
-      "worked": "'against the rules' = not allowed: 'Visitors mustn't feed the animals'.",
+      "worked": "Mud and new white trainers are a bad mix: 'You mustn't wear your new white trainers.'",
       "type": "mcq",
-      "q": "Visitors .......... feed the animals at the park. It's against the rules.",
+      "q": "Mum said to Lily, 'You ________ wear your new white trainers, because the fields are very muddy.'",
       "opts": [
        "mustn't",
-       "don't have to",
-       "needn't"
+       "need to",
+       "would"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
-       "'don't have to' means it is not necessary. 'against the rules' means it is not allowed.",
-       "'needn't' means it is not necessary. 'against the rules' means it is not allowed."
+       "Mud would spoil white trainers, so wearing them is not necessary. It is a bad idea.",
+       "'would' is for polite offers and requests, not for rules."
       ],
       "letters": true
      }
@@ -1500,94 +1546,46 @@
    {
     "dok": 1,
     "lo": [
-     "6Ug.12"
+     "5Us.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "The school gives the fruit. Is bringing fruit necessary?"
+       "step": "Look at the word just before the gap. Is it a person, a thing or a place?"
       },
-      "worked": "Bringing fruit is not necessary: 'we needn't bring any from home'.",
+      "worked": "'the boy' is a person, so we use 'who'.",
       "type": "mcq",
-      "q": "The school gives us all the fruit, so we .......... bring any from home.",
+      "q": "On the bus, Arjun sat next to the boy ________ knows the most about sharks.",
       "opts": [
-       "needn't",
-       "must",
-       "ought"
-      ],
-      "at": 1,
-      "whys": [
-       null,
-       "'must' means it is necessary, but the school gives us the fruit.",
-       "'ought' needs 'to' after it, and bringing fruit is not necessary."
-      ],
-      "letters": true
-     },
-     {
-      "hint": {
-       "step": "The guide is giving advice. Check if the word needs 'to'."
-      },
-      "worked": "Advice: 'we should wear comfortable shoes'.",
-      "type": "mcq",
-      "q": "Our guide said we .......... wear comfortable shoes because we would walk a lot.",
-      "opts": [
-       "should",
-       "ought",
-       "needn't"
+       "who",
+       "which",
+       "where"
       ],
       "at": 0,
       "whys": [
        null,
-       "'ought' needs 'to' after it: ought to wear.",
-       "'needn't' means not necessary, but they will walk a lot."
-      ],
-      "letters": true
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Us.05"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "The son belongs to Mrs Tran. Which word shows belonging?"
-      },
-      "worked": "Her son is a chef: 'Mrs Tran, whose son is a chef, ...'.",
-      "type": "mcq",
-      "q": "Mrs Tran, .......... son is a chef, is coming to help us.",
-      "opts": [
-       "whose",
-       "who",
-       "which"
-      ],
-      "at": 2,
-      "whys": [
-       null,
-       "'who son' is not correct. We need a word that shows belonging.",
-       "'which' is for things and animals, and it doesn't show belonging."
+       "'which' is for things and animals. The boy is a person.",
+       "'where' is for places. The boy is a person."
       ],
       "letters": true
      },
      {
       "hint": {
-       "step": "Who or what had a glass roof? Is it a person or a thing?"
+       "step": "Look at the word just before the gap. Is it a person, a thing or a place?"
       },
-      "worked": "The café had a glass roof. A café is a thing, so: 'a café which had a glass roof'.",
+      "worked": "'a friendly woman' is a person, so we use 'who'.",
       "type": "mcq",
-      "q": "We had lunch in a café .......... had a glass roof.",
+      "q": "The farmer was a friendly woman ________ grows strawberries and melons.",
       "opts": [
-       "which",
        "who",
+       "which",
        "where"
       ],
       "at": 2,
       "whys": [
        null,
-       "'who' is for people. A café is a thing here: it had a glass roof.",
-       "'where had a glass roof' has no subject. The café had the roof, so use the word for things."
+       "'which' is for things and animals. The farmer is a person.",
+       "'where' is for places. The farmer is a person."
       ],
       "letters": true
      }
@@ -1596,46 +1594,46 @@
    {
     "dok": 1,
     "lo": [
-     "6Ug.09"
+     "5Us.02"
     ],
     "v": [
      {
       "hint": {
-       "step": "The 'if' part is in the present simple. What does the other part need?"
+       "step": "Who wanted to see the turtle: people or things?"
       },
-      "worked": "If + present simple (finish), will + verb (will make).",
+      "worked": "All the people in the class wanted to see it: 'everyone in the class'.",
       "type": "mcq",
-      "q": "If we finish early, we .......... make a fruit salad for the Grade 1 class.",
+      "q": "At the aquarium, ________ in the class wanted to see the giant turtle first.",
       "opts": [
-       "will",
-       "would",
-       "did"
+       "everyone",
+       "everything",
+       "anything"
       ],
       "at": 1,
       "whys": [
        null,
-       "With 'If' + present simple (finish), we use 'will', not 'would'.",
-       "'did' is the past. This is about what will happen."
+       "'everything' is about things. Only people can want to see the turtle.",
+       "'anything' is about things, and we use it in questions or with 'not'."
       ],
       "letters": true
      },
      {
       "hint": {
-       "step": "After 'if' use the present simple, even for the future."
+       "step": "Lily needs help. Does a person or a thing help?"
       },
-      "worked": "If + present simple: 'If it rains on our next visit, we will ...'.",
+      "worked": "Lily needs a person: 'Can someone help me?'",
       "type": "mcq",
-      "q": "If it .......... on our next visit, we will see the penguins indoors.",
+      "q": "Lily asked, 'Can ________ help me carry this basket? It's very heavy!'",
       "opts": [
-       "rains",
-       "will rain",
-       "rained"
+       "someone",
+       "something",
+       "nothing"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
-       "We don't use 'will' after 'if'.",
-       "After 'if' in a first conditional we use the present simple."
+       "'something' is a thing. Lily needs a person to help her.",
+       "'nothing' means zero things. Lily needs a person to help her."
       ],
       "letters": true
      }
@@ -1644,46 +1642,94 @@
    {
     "dok": 1,
     "lo": [
-     "6Us.07"
+     "5Us.01"
     ],
     "v": [
      {
       "hint": {
-       "step": "The pattern is: send + person + thing."
+       "step": "Can you count visitors?"
       },
-      "worked": "send + our parents (people) + the photos (thing).",
+      "worked": "Visitors can be counted, so: 'fewer visitors than usual'.",
       "type": "mcq",
-      "q": "At the end, our teacher is going to send .......... .",
+      "q": "There were ________ visitors than usual, so the children could see the fish easily.",
       "opts": [
-       "our parents the photos",
-       "the photos our parents",
-       "to our parents the photos"
-      ],
-      "at": 0,
-      "whys": [
-       null,
-       "Put the person first: send + person + thing.",
-       "We don't need 'to' here: send + person + thing."
-      ],
-      "letters": true
-     },
-     {
-      "hint": {
-       "step": "The pattern is: give + person + thing."
-      },
-      "worked": "give + us (people) + a small poster (thing).",
-      "type": "mcq",
-      "q": "Before we left, the guide gave .......... .",
-      "opts": [
-       "us a small poster",
-       "a small poster us",
-       "to us a small poster"
+       "fewer",
+       "less",
+       "much"
       ],
       "at": 2,
       "whys": [
        null,
-       "Put the person first: give + person + thing.",
-       "We don't need 'to' here: give + person + thing."
+       "'less' is for things we can't count. We can count visitors.",
+       "'much' is for things we can't count, and it doesn't fit before 'than' here."
+      ],
+      "letters": true
+     },
+     {
+      "hint": {
+       "step": "Can you count strawberries?"
+      },
+      "worked": "Strawberries can be counted, so: 'fewer strawberries than her brother'.",
+      "type": "mcq",
+      "q": "Lily picked ________ strawberries than her brother because she ate some of them!",
+      "opts": [
+       "fewer",
+       "less",
+       "much"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "'less' is for things we can't count. We can count strawberries.",
+       "'much' is for things we can't count, and it doesn't fit before 'than' here."
+      ],
+      "letters": true
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "5Uv.05"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Look at 'than'. Then ask: how did the guide speak?"
+      },
+      "worked": "Two people with 'than': 'The guide spoke more quietly than the teacher.'",
+      "type": "mcq",
+      "q": "The guide spoke ________ than the teacher, so Arjun had to listen very carefully.",
+      "opts": [
+       "more quietly",
+       "quietest",
+       "quiet"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "'quietest' is a superlative. With 'than' we need a comparative.",
+       "'quiet' doesn't compare. With 'than' we need 'more quietly'."
+      ],
+      "letters": true
+     },
+     {
+      "hint": {
+       "step": "Look at 'than'. It compares two people."
+      },
+      "worked": "Two people with 'than': 'Her brother worked faster than Lily.'",
+      "type": "mcq",
+      "q": "Her brother worked ________ than Lily, so his basket was full first.",
+      "opts": [
+       "faster",
+       "fastest",
+       "fast"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "'fastest' is a superlative. With 'than' we need a comparative.",
+       "'fast' doesn't compare. With 'than' we need 'faster'."
       ],
       "letters": true
      }
@@ -1692,55 +1738,61 @@
    {
     "dok": 2,
     "lo": [
-     "6Us.05"
+     "5Ug.10"
     ],
     "v": [
      {
       "hint": {
-       "step": "What is near the house? Is it a person, a thing or a place used as a subject?"
+       "step": "Read the reason after 'because'. Is forgetting the bottle a good or bad idea?"
       },
-      "worked": "The sports centre is near my house. It is the subject of 'is', so: 'which' (or 'that').",
-      "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 6.",
-      "lines": [
-       "I've joined the tennis club at the sports centre {0} is near my house."
+      "worked": "It will be very hot, so Khoa means: don't forget! 'You mustn't forget your water bottle.'",
+      "type": "mcq",
+      "q": "Which option correctly completes the message?",
+      "opts": [
+       "mustn't",
+       "should",
+       "need"
       ],
-      "ans": [
-       [
-        "which",
-        "that"
-       ]
+      "at": 2,
+      "whys": [
+       null,
+       "Forgetting the bottle is a bad idea on a hot day, so it isn't advice to forget it.",
+       "We don't say 'need forget', and forgetting your bottle isn't necessary."
       ],
+      "letters": true,
       "fig": {
        "k": "stim",
-       "id": "s3-test-email-1",
+       "id": "s3-test-note-6a",
        "kind": "text",
-       "head": "An email from Priya",
-       "html": "Hi Sami,<br>I've joined the tennis club at the sports centre (6) ________ is near my house. The coach, (7) ________ name is Mr Diaz, is really friendly. He wants us (8) ________ practise twice a week. How long (9) ________ you played football? I'd love to try it! Why don't you come to tennis with me one day? If you come, you don't (10) ________ to bring a racket, because the club will lend you one.<br>Bye for now,<br>Priya"
+       "head": "A text message from Khoa",
+       "html": "Hi Max, the football match tomorrow starts at nine. You (6) ________ forget your water bottle, because it will be very hot. See you there! Khoa"
       }
      },
      {
       "hint": {
-       "step": "The computer is a thing. Which word is for things?"
+       "step": "Why do students bring an old T-shirt? Read the first sentence again."
       },
-      "worked": "For a thing we use 'which' (or 'that'): 'the first computer which was ever made'.",
-      "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 6.",
-      "lines": [
-       "I saw the first computer {0} was ever made in our country."
+      "worked": "The old T-shirt keeps paint off the uniform, so: 'You mustn't get paint on your school clothes!'",
+      "type": "mcq",
+      "q": "Which option correctly completes the message?",
+      "opts": [
+       "mustn't",
+       "should",
+       "need to"
       ],
-      "ans": [
-       [
-        "which",
-        "that"
-       ]
+      "at": 0,
+      "whys": [
+       null,
+       "The T-shirt is there to keep paint off. Getting paint on clothes isn't a good idea.",
+       "The T-shirt is there to keep paint off, so getting paint on your clothes isn't necessary."
       ],
+      "letters": true,
       "fig": {
        "k": "stim",
-       "id": "s3-test-email-2",
+       "id": "s3-test-note-6b",
        "kind": "text",
-       "head": "An email from Bao",
-       "html": "Dear Grandma,<br>Yesterday we visited the science museum. I saw the first computer (6) ________ was ever made in our country. It was as big as a room! Our guide, (7) ________ grandfather helped to build it, told us lots of stories. She asked us (8) ________ draw our favourite machine. How many times (9) ________ you been to that museum? Let's go together next time. We don't (10) ________ to pay, because it is free on Sundays.<br>Love,<br>Bao"
+       "head": "A notice for Art Club",
+       "html": "<b>Art Club</b><br>Please bring an old T-shirt to wear over your uniform. You (6) ________ get paint on your school clothes!<br>The Art Club teacher"
       }
      }
     ]
@@ -1748,53 +1800,61 @@
    {
     "dok": 2,
     "lo": [
-     "6Us.05"
+     "5Us.02"
     ],
     "v": [
      {
       "hint": {
-       "step": "The name belongs to the coach. Which word shows belonging?"
+       "step": "Mia can't go. How many people does Ella need to go with her?"
       },
-      "worked": "His name is Mr Diaz: 'The coach, whose name is Mr Diaz, ...'.",
-      "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 7.",
-      "lines": [
-       "The coach, {0} name is Mr Diaz, is really friendly."
+      "worked": "Mia means one other person: 'Maybe someone from our class can go with you instead?'",
+      "type": "mcq",
+      "q": "Which option correctly completes the message?",
+      "opts": [
+       "someone",
+       "nothing",
+       "everyone"
       ],
-      "ans": [
-       [
-        "whose"
-       ]
+      "at": 0,
+      "whys": [
+       null,
+       "'nothing' is about things. Mia means a person can go with Ella.",
+       "Ella only needs one friend to go with her, not the whole class."
       ],
+      "letters": true,
       "fig": {
        "k": "stim",
-       "id": "s3-test-email-1",
+       "id": "s3-test-note-7a",
        "kind": "text",
-       "head": "An email from Priya",
-       "html": "Hi Sami,<br>I've joined the tennis club at the sports centre (6) ________ is near my house. The coach, (7) ________ name is Mr Diaz, is really friendly. He wants us (8) ________ practise twice a week. How long (9) ________ you played football? I'd love to try it! Why don't you come to tennis with me one day? If you come, you don't (10) ________ to bring a racket, because the club will lend you one.<br>Bye for now,<br>Priya"
+       "head": "A text message from Mia",
+       "html": "Hi Ella, I'm sorry, I can't come to the film tonight. I have a sore throat and a fever. Maybe (7) ________ from our class can go with you instead? Mia"
       }
      },
      {
       "hint": {
-       "step": "The grandfather belongs to the guide. Which word shows belonging?"
+       "step": "Hana doesn't know who will find her scarf. Which word means 'any person'?"
       },
-      "worked": "Her grandfather helped to build it: 'Our guide, whose grandfather ...'.",
-      "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 7.",
-      "lines": [
-       "Our guide, {0} grandfather helped to build it, told us lots of stories."
+      "worked": "Any person who finds it can help: 'If anyone finds it, please take it to the school office.'",
+      "type": "mcq",
+      "q": "Which option correctly completes the message?",
+      "opts": [
+       "anyone",
+       "no-one",
+       "everything"
       ],
-      "ans": [
-       [
-        "whose"
-       ]
+      "at": 2,
+      "whys": [
+       null,
+       "If no-one finds the scarf, nobody can take it to the office.",
+       "'everything' is about things. Only a person can find the scarf and take it to the office."
       ],
+      "letters": true,
       "fig": {
        "k": "stim",
-       "id": "s3-test-email-2",
+       "id": "s3-test-note-7b",
        "kind": "text",
-       "head": "An email from Bao",
-       "html": "Dear Grandma,<br>Yesterday we visited the science museum. I saw the first computer (6) ________ was ever made in our country. It was as big as a room! Our guide, (7) ________ grandfather helped to build it, told us lots of stories. She asked us (8) ________ draw our favourite machine. How many times (9) ________ you been to that museum? Let's go together next time. We don't (10) ________ to pay, because it is free on Sundays.<br>Love,<br>Bao"
+       "head": "A notice on the school door",
+       "html": "<b>Lost!</b><br>A small blue scarf with white stars on it. If (7) ________ finds it, please take it to the school office. Thank you!<br>Hana, Class 4C"
       }
      }
     ]
@@ -1802,53 +1862,55 @@
    {
     "dok": 2,
     "lo": [
-     "6Us.07"
+     "5Us.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "The pattern is: want + person + ... + verb."
+       "step": "Look at the word just before the gap. Which box word goes with people?"
       },
-      "worked": "want + us + to + practise: 'He wants us to practise'.",
+      "worked": "'person' is a person, so: 'the kindest person who I know'.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 8.",
+      "q": "Read the letter. Write ONE word from the box for gap 8.",
       "lines": [
-       "He wants us {0} practise twice a week."
+       "My grandpa is the kindest person {0} I know."
       ],
       "ans": [
        [
-        "to"
+        "who",
+        "that",
+        "whom"
        ]
       ],
       "fig": {
        "k": "stim",
-       "id": "s3-test-email-1",
+       "id": "s3-test-letter-1",
        "kind": "text",
-       "head": "An email from Priya",
-       "html": "Hi Sami,<br>I've joined the tennis club at the sports centre (6) ________ is near my house. The coach, (7) ________ name is Mr Diaz, is really friendly. He wants us (8) ________ practise twice a week. How long (9) ________ you played football? I'd love to try it! Why don't you come to tennis with me one day? If you come, you don't (10) ________ to bring a racket, because the club will lend you one.<br>Bye for now,<br>Priya"
+       "head": "A letter from Duc",
+       "html": "<b>Word box:</b> who, more, everyone, less, on<br><br>Hi Max,<br>My grandpa is the kindest person (8) ________ I know. He is seventy-five now, so he walks (9) ________ slowly than before. But he still cooks lunch for (10) ________ in our family on Sundays. His fish soup is amazing!<br>Love,<br>Duc"
       }
      },
      {
       "hint": {
-       "step": "The pattern is: ask + person + ... + verb."
+       "step": "There are two joining words in the box. Is a village a thing or a place where something is?"
       },
-      "worked": "ask + us + to + draw: 'She asked us to draw our favourite machine'.",
+      "worked": "A village is a place, so: 'a village where there are no cars'.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 8.",
+      "q": "Read the letter. Write ONE word from the box for gap 8.",
       "lines": [
-       "She asked us {0} draw our favourite machine."
+       "We are staying in a village {0} there are no cars!"
       ],
       "ans": [
        [
-        "to"
+        "where"
        ]
       ],
       "fig": {
        "k": "stim",
-       "id": "s3-test-email-2",
+       "id": "s3-test-letter-2",
        "kind": "text",
-       "head": "An email from Bao",
-       "html": "Dear Grandma,<br>Yesterday we visited the science museum. I saw the first computer (6) ________ was ever made in our country. It was as big as a room! Our guide, (7) ________ grandfather helped to build it, told us lots of stories. She asked us (8) ________ draw our favourite machine. How many times (9) ________ you been to that museum? Let's go together next time. We don't (10) ________ to pay, because it is free on Sundays.<br>Love,<br>Bao"
+       "head": "A letter from Mia",
+       "html": "<b>Word box:</b> where, need, both, which, at<br><br>Hi Arjun,<br>Next week we are going to the mountains with my uncle. We are staying in a village (8) ________ there are no cars! My uncle says we (9) ________ to bring warm jumpers, because it gets cold at night. My sister and I are (10) ________ very excited.<br>See you soon,<br>Mia"
       }
      }
     ]
@@ -1856,54 +1918,55 @@
    {
     "dok": 2,
     "lo": [
-     "6Ug.01",
-     "6Ug.07"
+     "5Uv.05",
+     "5Ug.10"
     ],
     "v": [
      {
       "hint": {
-       "step": "'played' here is a past participle. Which helper verb comes before 'you'?"
+       "step": "Grandpa is older now. Does he walk quickly or slowly? Look at 'than' too."
       },
-      "worked": "A present perfect question: 'How long have you played football?'",
+      "worked": "Older people often walk slowly: 'he walks more slowly than before'.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 9.",
+      "q": "Read the letter. Write ONE word from the box for gap 9.",
       "lines": [
-       "How long {0} you played football?"
+       "He is seventy-five now, so he walks {0} slowly than before."
       ],
       "ans": [
        [
+        "more"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s3-test-letter-1",
+       "kind": "text",
+       "head": "A letter from Duc",
+       "html": "<b>Word box:</b> who, more, everyone, less, on<br><br>Hi Max,<br>My grandpa is the kindest person (8) ________ I know. He is seventy-five now, so he walks (9) ________ slowly than before. But he still cooks lunch for (10) ________ in our family on Sundays. His fish soup is amazing!<br>Love,<br>Duc"
+      }
+     },
+     {
+      "hint": {
+       "step": "It gets cold. Is bringing jumpers necessary? Look at 'to' after the gap."
+      },
+      "worked": "It is necessary: 'we need to bring warm jumpers'.",
+      "type": "tfill",
+      "q": "Read the letter. Write ONE word from the box for gap 9.",
+      "lines": [
+       "My uncle says we {0} to bring warm jumpers, because it gets cold at night."
+      ],
+      "ans": [
+       [
+        "need",
         "have"
        ]
       ],
       "fig": {
        "k": "stim",
-       "id": "s3-test-email-1",
+       "id": "s3-test-letter-2",
        "kind": "text",
-       "head": "An email from Priya",
-       "html": "Hi Sami,<br>I've joined the tennis club at the sports centre (6) ________ is near my house. The coach, (7) ________ name is Mr Diaz, is really friendly. He wants us (8) ________ practise twice a week. How long (9) ________ you played football? I'd love to try it! Why don't you come to tennis with me one day? If you come, you don't (10) ________ to bring a racket, because the club will lend you one.<br>Bye for now,<br>Priya"
-      }
-     },
-     {
-      "hint": {
-       "step": "'been' is a past participle. Which helper verb comes before 'you'?"
-      },
-      "worked": "A present perfect question: 'How many times have you been to that museum?'",
-      "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 9.",
-      "lines": [
-       "How many times {0} you been to that museum?"
-      ],
-      "ans": [
-       [
-        "have"
-       ]
-      ],
-      "fig": {
-       "k": "stim",
-       "id": "s3-test-email-2",
-       "kind": "text",
-       "head": "An email from Bao",
-       "html": "Dear Grandma,<br>Yesterday we visited the science museum. I saw the first computer (6) ________ was ever made in our country. It was as big as a room! Our guide, (7) ________ grandfather helped to build it, told us lots of stories. She asked us (8) ________ draw our favourite machine. How many times (9) ________ you been to that museum? Let's go together next time. We don't (10) ________ to pay, because it is free on Sundays.<br>Love,<br>Bao"
+       "head": "A letter from Mia",
+       "html": "<b>Word box:</b> where, need, both, which, at<br><br>Hi Arjun,<br>Next week we are going to the mountains with my uncle. We are staying in a village (8) ________ there are no cars! My uncle says we (9) ________ to bring warm jumpers, because it gets cold at night. My sister and I are (10) ________ very excited.<br>See you soon,<br>Mia"
       }
      }
     ]
@@ -1911,55 +1974,55 @@
    {
     "dok": 2,
     "lo": [
-     "6Ug.12"
+     "5Us.02",
+     "5Us.01"
     ],
     "v": [
      {
       "hint": {
-       "step": "The club will lend you a racket. Is bringing one necessary? Which word goes in 'don't ... to'?"
+       "step": "Who eats Grandpa's lunch? Which box word means all the people?"
       },
-      "worked": "Not necessary: 'you don't have to bring a racket' ('don't need to' is also correct).",
+      "worked": "He cooks for all the people in the family: 'for everyone in our family'.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 10.",
+      "q": "Read the letter. Write ONE word from the box for gap 10.",
       "lines": [
-       "If you come, you don't {0} to bring a racket, because the club will lend you one."
+       "But he still cooks lunch for {0} in our family on Sundays."
       ],
       "ans": [
        [
-        "have",
-        "need"
+        "everyone",
+        "everybody"
        ]
       ],
       "fig": {
        "k": "stim",
-       "id": "s3-test-email-1",
+       "id": "s3-test-letter-1",
        "kind": "text",
-       "head": "An email from Priya",
-       "html": "Hi Sami,<br>I've joined the tennis club at the sports centre (6) ________ is near my house. The coach, (7) ________ name is Mr Diaz, is really friendly. He wants us (8) ________ practise twice a week. How long (9) ________ you played football? I'd love to try it! Why don't you come to tennis with me one day? If you come, you don't (10) ________ to bring a racket, because the club will lend you one.<br>Bye for now,<br>Priya"
+       "head": "A letter from Duc",
+       "html": "<b>Word box:</b> who, more, everyone, less, on<br><br>Hi Max,<br>My grandpa is the kindest person (8) ________ I know. He is seventy-five now, so he walks (9) ________ slowly than before. But he still cooks lunch for (10) ________ in our family on Sundays. His fish soup is amazing!<br>Love,<br>Duc"
       }
      },
      {
       "hint": {
-       "step": "It is free. Is paying necessary? Which word goes in 'don't ... to'?"
+       "step": "How many people are excited?"
       },
-      "worked": "Not necessary: 'We don't have to pay' ('don't need to' is also correct).",
+      "worked": "Two people, my sister and I: 'we are both very excited'.",
       "type": "tfill",
-      "q": "Read the email. Write ONE word for gap 10.",
+      "q": "Read the letter. Write ONE word from the box for gap 10.",
       "lines": [
-       "We don't {0} to pay, because it is free on Sundays."
+       "My sister and I are {0} very excited."
       ],
       "ans": [
        [
-        "have",
-        "need"
+        "both"
        ]
       ],
       "fig": {
        "k": "stim",
-       "id": "s3-test-email-2",
+       "id": "s3-test-letter-2",
        "kind": "text",
-       "head": "An email from Bao",
-       "html": "Dear Grandma,<br>Yesterday we visited the science museum. I saw the first computer (6) ________ was ever made in our country. It was as big as a room! Our guide, (7) ________ grandfather helped to build it, told us lots of stories. She asked us (8) ________ draw our favourite machine. How many times (9) ________ you been to that museum? Let's go together next time. We don't (10) ________ to pay, because it is free on Sundays.<br>Love,<br>Bao"
+       "head": "A letter from Mia",
+       "html": "<b>Word box:</b> where, need, both, which, at<br><br>Hi Arjun,<br>Next week we are going to the mountains with my uncle. We are staying in a village (8) ________ there are no cars! My uncle says we (9) ________ to bring warm jumpers, because it gets cold at night. My sister and I are (10) ________ very excited.<br>See you soon,<br>Mia"
       }
      }
     ]
@@ -1970,87 +2033,207 @@
   "secs": 60,
   "items": [
    [
-    "You ___ run near the pool. It's dangerous.",
+    "You ___ run in the corridor. It's a rule.",
     [
      "mustn't",
-     "don't have to",
-     "needn't"
+     "should",
+     "need"
     ]
    ],
    [
-    "It's Sunday. We ___ go to school.",
+    "It's raining. You ___ take an umbrella.",
     [
-     "don't have to",
+     "need to",
      "mustn't",
-     "must"
+     "would"
     ]
    ],
    [
-    "You look tired. You ___ rest.",
+    "___ you open the window, please?",
+    [
+     "Could",
+     "Should",
+     "Need"
+    ]
+   ],
+   [
+    "___ you like a biscuit?",
+    [
+     "Would",
+     "Could",
+     "Must"
+    ]
+   ],
+   [
+    "You have a headache. You ___ rest.",
     [
      "should",
      "mustn't",
-     "needn't"
+     "would"
     ]
    ],
    [
-    "You ought ___ see a doctor.",
+    "We ___ leave now or we'll be late!",
     [
-     "to",
+     "need to",
+     "mustn't",
+     "would"
+    ]
+   ],
+   [
+    "You ___ swim here. It's dangerous.",
+    [
+     "mustn't",
      "should",
-     "must"
+     "need to"
     ]
    ],
    [
-    "You ___ bring food. Lunch is free.",
+    "___ I borrow your ruler, please?",
     [
-     "needn't",
-     "must",
-     "ought"
+     "Could",
+     "Would",
+     "Should"
     ]
    ],
    [
-    "Drivers ___ stop at a red light.",
+    "There are ___ cars on Sundays.",
     [
-     "must",
-     "needn't",
-     "don't have to"
+     "fewer",
+     "less",
+     "much"
     ]
    ],
    [
-    "If it rains, we ___ stay inside.",
+    "Eat ___ salt and more fruit.",
     [
-     "will",
-     "would",
-     "did"
+     "less",
+     "fewer",
+     "many"
     ]
    ],
    [
-    "If you ___ hard, you'll pass.",
+    "My two brothers ___ like rice.",
     [
-     "study",
-     "will study",
-     "studied"
+     "both",
+     "all",
+     "every"
     ]
    ],
    [
-    "I'll call you if I ___ time.",
+    "___ the children in my class can swim.",
     [
-     "have",
-     "will have",
-     "had"
+     "All",
+     "Both",
+     "Every"
     ]
    ],
    [
-    "If she's late, she ___ miss the bus.",
+    "There are ___ trees here than in the park.",
     [
-     "will",
-     "is",
-     "does"
+     "fewer",
+     "less",
+     "much"
     ]
    ],
    [
-    "The man ___ lives next door is a pilot.",
+    "We haven't got as ___ milk as yesterday.",
+    [
+     "much",
+     "many",
+     "fewer"
+    ]
+   ],
+   [
+    "There aren't as ___ people as last week.",
+    [
+     "many",
+     "much",
+     "less"
+    ]
+   ],
+   [
+    "I don't have as ___ time as you.",
+    [
+     "much",
+     "many",
+     "fewer"
+    ]
+   ],
+   [
+    "___ the twins have curly hair.",
+    [
+     "Both",
+     "All",
+     "Much"
+    ]
+   ],
+   [
+    "Is ___ at home? The lights are on.",
+    [
+     "anyone",
+     "anything",
+     "nothing"
+    ]
+   ],
+   [
+    "There's ___ in the box. It's empty.",
+    [
+     "nothing",
+     "something",
+     "anything"
+    ]
+   ],
+   [
+    "___ knocked on the door. Who is it?",
+    [
+     "Someone",
+     "Something",
+     "Anything"
+    ]
+   ],
+   [
+    "I didn't see ___ at the park.",
+    [
+     "anyone",
+     "no-one",
+     "nothing"
+    ]
+   ],
+   [
+    "___ in my class likes the new teacher.",
+    [
+     "Everyone",
+     "Anything",
+     "Nothing"
+    ]
+   ],
+   [
+    "Can ___ help me with this heavy bag?",
+    [
+     "someone",
+     "something",
+     "nothing"
+    ]
+   ],
+   [
+    "The shop was dark and empty. ___ was there.",
+    [
+     "Nobody",
+     "Anybody",
+     "Somebody"
+    ]
+   ],
+   [
+    "I'm hungry, but there's ___ to eat.",
+    [
+     "nothing",
+     "anything",
+     "nobody"
+    ]
+   ],
+   [
+    "A nurse is a person ___ helps sick people.",
     [
      "who",
      "which",
@@ -2058,23 +2241,31 @@
     ]
    ],
    [
-    "This is the cake ___ Mum made.",
+    "This is the café ___ we have lunch.",
     [
-     "which",
-     "who",
-     "whose"
-    ]
-   ],
-   [
-    "That's the boy ___ dog bit me.",
-    [
-     "whose",
+     "where",
      "who",
      "which"
     ]
    ],
    [
-    "This is the town ___ I was born.",
+    "I have a phone ___ takes great photos.",
+    [
+     "which",
+     "who",
+     "where"
+    ]
+   ],
+   [
+    "That's the girl ___ won the race.",
+    [
+     "who",
+     "which",
+     "where"
+    ]
+   ],
+   [
+    "The hospital ___ Mum works is very big.",
     [
      "where",
      "which",
@@ -2082,199 +2273,135 @@
     ]
    ],
    [
-    "My sister, ___ is ten, loves cats.",
+    "The cake ___ Dad made was delicious.",
     [
-     "who",
-     "which",
-     "that"
-    ]
-   ],
-   [
-    "Our car, ___ is red, is very old.",
-    [
-     "which",
-     "who",
-     "that"
-    ]
-   ],
-   [
-    "A tiger is an animal ___ eats meat.",
-    [
-     "which",
+     "that",
      "who",
      "where"
     ]
    ],
    [
-    "The girl ___ bike was stolen cried.",
+    "He's the boy ___ lives next door.",
     [
-     "whose",
      "who",
+     "where",
      "which"
     ]
    ],
    [
-    "Mum asked me ___ the table.",
+    "Max runs ___ than me.",
     [
-     "to set",
-     "set",
-     "setting"
+     "faster",
+     "fastest",
+     "fast"
     ]
    ],
    [
-    "I want you ___ the truth.",
+    "Lily sings the ___ in our class.",
     [
-     "to tell",
-     "tell",
-     "telling"
+     "best",
+     "better",
+     "good"
     ]
    ],
    [
-    "Remind me ___ milk, please.",
+    "Grandpa walks ___ than he did before.",
     [
-     "to buy",
-     "buy",
-     "buying"
+     "more slowly",
+     "most slowly",
+     "slow"
     ]
    ],
    [
-    "She gave ___ a present.",
+    "Thu writes ___ carefully than her brother.",
     [
-     "me",
-     "to me",
-     "for me"
+     "more",
+     "most",
+     "much"
     ]
    ],
    [
-    "Show ___ your homework, please.",
+    "Who works the ___ in your team?",
     [
-     "me",
-     "to me",
-     "for me"
+     "hardest",
+     "harder",
+     "hard"
     ]
    ],
    [
-    "Can you bring ___ a glass of water?",
+    "Duc did ___ in the test than last time.",
     [
-     "me",
-     "to me",
-     "at me"
+     "better",
+     "best",
+     "good"
     ]
    ],
    [
-    "Grandpa sent ___ a birthday card.",
+    "Hana drew the cat the most ___ of all.",
     [
-     "us",
-     "to us",
-     "for us"
+     "carefully",
+     "careful",
+     "more carefully"
     ]
    ],
    [
-    "Our teacher told us ___ quiet.",
+    "Arjun swims ___ of all the boys.",
     [
-     "to be",
-     "be",
-     "being"
+     "the fastest",
+     "faster",
+     "fast"
     ]
    ],
    [
-    "___ do you live? In Hanoi.",
+    "You ___ eat lots of sweets. They're bad for teeth.",
     [
-     "Where",
-     "What",
-     "Who"
+     "shouldn't",
+     "should",
+     "would"
     ]
    ],
    [
-    "How long ___ you had your cat?",
+    "Visitors ___ to show their tickets at the door.",
     [
-     "have",
-     "did",
-     "are"
-    ]
-   ],
-   [
-    "What ___ you do last weekend?",
-    [
-     "did",
-     "have",
-     "do"
-    ]
-   ],
-   [
-    "___ she like ice cream?",
-    [
-     "Does",
-     "Do",
-     "Is"
-    ]
-   ],
-   [
-    "Why ___ you late yesterday?",
-    [
-     "were",
-     "did",
-     "have"
-    ]
-   ],
-   [
-    "Which question is correct?",
-    [
-     "Where do you live?",
-     "Where you live?",
-     "Where does you live?"
-    ]
-   ],
-   [
-    "You ___ talk during the exam.",
-    [
-     "mustn't",
-     "don't have to",
-     "needn't"
-    ]
-   ],
-   [
-    "We ___ wear uniform on Fridays. It's optional.",
-    [
-     "don't have to",
-     "mustn't",
-     "have to"
-    ]
-   ],
-   [
-    "You should ___ more vegetables.",
-    [
-     "eat",
-     "to eat",
-     "eating"
-    ]
-   ],
-   [
-    "Players have ___ wear shin pads.",
-    [
-     "to",
+     "need",
      "must",
      "should"
     ]
    ],
    [
-    "If we ___ now, we'll catch the train.",
+    "Did ___ call me this morning?",
     [
-     "leave",
-     "will leave",
-     "left"
+     "anyone",
+     "no-one",
+     "nothing"
     ]
    ],
    [
-    "I'll be sad if you ___ come.",
+    "___ of my friends came. There were ten!",
     [
-     "don't",
-     "doesn't",
-     "didn't"
+     "All",
+     "Both",
+     "Much"
     ]
    ],
    [
-    "The shop ___ sells comics is closed.",
+    "We should use ___ plastic bags.",
+    [
+     "fewer",
+     "less",
+     "much"
+    ]
+   ],
+   [
+    "There's ___ water in the jug than before.",
+    [
+     "less",
+     "fewer",
+     "many"
+    ]
+   ],
+   [
+    "The film ___ we watched was funny.",
     [
      "which",
      "who",
@@ -2282,101 +2409,37 @@
     ]
    ],
    [
-    "The coach ___ team won was happy.",
+    "Rhys played ___ than ever, and his team won.",
     [
-     "whose",
-     "who",
-     "which"
+     "better",
+     "best",
+     "good"
     ]
    ],
    [
-    "The park ___ we play is big.",
+    "Is there ___ to drink? I'm thirsty.",
     [
-     "where",
-     "which",
-     "who"
+     "anything",
+     "nothing",
+     "nobody"
     ]
    ],
    [
-    "My dad, ___ is a nurse, works nights.",
+    "Mia speaks ___ quietly than her sister.",
     [
-     "who",
-     "which",
-     "that"
-    ]
-   ],
-   [
-    "Dad taught me ___ ride a bike.",
-    [
-     "to",
-     "for",
-     "at"
-    ]
-   ],
-   [
-    "Please take ___ this letter.",
-    [
-     "Grandma",
-     "to Grandma",
-     "for Grandma"
-    ]
-   ],
-   [
-    "Did you ___ the match?",
-    [
-     "watch",
-     "watched",
-     "watching"
-    ]
-   ],
-   [
-    "Where ___ the keys? I can't find them.",
-    [
-     "are",
-     "is",
-     "does"
-    ]
-   ],
-   [
-    "You ___ to ask. Just take one!",
-    [
-     "don't have",
-     "mustn't",
-     "shouldn't"
-    ]
-   ],
-   [
-    "She'll win if she ___ fast.",
-    [
-     "runs",
-     "will run",
-     "ran"
-    ]
-   ],
-   [
-    "You ___ shout. I can hear you!",
-    [
-     "needn't",
-     "must",
-     "ought"
-    ]
-   ],
-   [
-    "Who ___ this picture? Lan did.",
-    [
-     "painted",
-     "did paint",
-     "paint"
+     "more",
+     "most",
+     "the most"
     ]
    ]
   ]
  },
  "selfcheck": {
   "goals": [
-   "say what is necessary, not necessary and not allowed",
-   "give advice with should and ought to, and use if sentences",
-   "join sentences with who, which, whose and where",
-   "use verb patterns and ask questions correctly in exam sentences and messages"
+   "say what is not allowed, what is necessary and what is a good idea, and ask politely",
+   "use both, all, fewer, less, not as many and not as much",
+   "use someone, anyone, nobody, everyone, nothing and words like them",
+   "join ideas with who, which, that and where, and compare how people do things"
   ],
   "again": [
    "c",

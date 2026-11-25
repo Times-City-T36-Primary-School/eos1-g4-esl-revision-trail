@@ -1548,11 +1548,11 @@
     "v": [
      {
       "type": "mcq",
-      "q": "Kai stayed at home because he had a high ________ and felt very hot all night.",
+      "q": "Kai stayed at home because he had ________ and felt very hot all night.",
       "opts": [
-       "fever",
-       "feast",
-       "fibre"
+       "a high fever",
+       "a feast",
+       "some fibre"
       ],
       "at": 2,
       "whys": [
@@ -1561,16 +1561,16 @@
        "Fibre is part of healthy food, not an illness."
       ],
       "hint": "Kai felt very hot and stayed at home. What is wrong with him?",
-      "worked": "Feeling very hot when you are ill means you have a *fever*.",
+      "worked": "Feeling very hot when you are ill means you have *a high fever*.",
       "stim": null
      },
      {
       "type": "mcq",
-      "q": "At midnight, everyone looked up at the colourful ________ in the night sky. Bang! Bang!",
+      "q": "At midnight, everyone looked up at ________ in the night sky. Bang! Bang!",
       "opts": [
-       "fireworks",
-       "presents",
-       "feasts"
+       "the fireworks",
+       "the presents",
+       "the feasts"
       ],
       "at": 0,
       "whys": [
