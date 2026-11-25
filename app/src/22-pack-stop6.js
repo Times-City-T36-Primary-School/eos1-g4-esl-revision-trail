@@ -2386,9 +2386,9 @@
     "v": [
      {
       "hint": {
-       "step": "Alice asks 'Would you like to come?'. Her next line gives a length of time. Find a line that does both jobs."
+       "step": "Alice asks 'Do you want to come with us?'. Her next line gives a length of time. Find a line that does both jobs."
       },
-      "worked": "'Would you like to come?' '<b>I'd love to! How long is the trip?</b>' '<b>About two hours</b>.' (B)",
+      "worked": "'Do you want to come with us?' '<b>I'd love to! How long is the trip?</b>' '<b>About two hours</b>.' (B)",
       "type": "bank",
       "q": "Choose the best answer for gap 13.",
       "bank": [
@@ -2414,7 +2414,7 @@
        ],
        [
         "F",
-        "No, thanks. I don't really like boats."
+        "No, thanks. Boats make me feel sick."
        ],
        [
         "G",
@@ -2431,7 +2431,7 @@
        "id": "s6-d3",
        "kind": "text",
        "head": "Conversation: Alice and Luca",
-       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Would you like to come?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. My dad can pick you up at half past eight.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
+       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. My dad can pick you up at half past eight.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
       }
      },
      {
@@ -2523,7 +2523,7 @@
        ],
        [
         "F",
-        "No, thanks. I don't really like boats."
+        "No, thanks. Boats make me feel sick."
        ],
        [
         "G",
@@ -2540,7 +2540,7 @@
        "id": "s6-d3",
        "kind": "text",
        "head": "Conversation: Alice and Luca",
-       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Would you like to come?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. My dad can pick you up at half past eight.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
+       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. My dad can pick you up at half past eight.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
       }
      },
      {
@@ -2632,7 +2632,7 @@
        ],
        [
         "F",
-        "No, thanks. I don't really like boats."
+        "No, thanks. Boats make me feel sick."
        ],
        [
         "G",
@@ -2649,7 +2649,7 @@
        "id": "s6-d3",
        "kind": "text",
        "head": "Conversation: Alice and Luca",
-       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Would you like to come?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. My dad can pick you up at half past eight.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
+       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. My dad can pick you up at half past eight.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
       }
      },
      {
@@ -2741,7 +2741,7 @@
        ],
        [
         "F",
-        "No, thanks. I don't really like boats."
+        "No, thanks. Boats make me feel sick."
        ],
        [
         "G",
@@ -2758,7 +2758,7 @@
        "id": "s6-d3",
        "kind": "text",
        "head": "Conversation: Alice and Luca",
-       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Would you like to come?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. My dad can pick you up at half past eight.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
+       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. My dad can pick you up at half past eight.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
       }
      },
      {
@@ -2850,7 +2850,7 @@
        ],
        [
         "F",
-        "No, thanks. I don't really like boats."
+        "No, thanks. Boats make me feel sick."
        ],
        [
         "G",
@@ -2867,7 +2867,7 @@
        "id": "s6-d3",
        "kind": "text",
        "head": "Conversation: Alice and Luca",
-       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Would you like to come?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. My dad can pick you up at half past eight.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
+       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. My dad can pick you up at half past eight.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
       }
      },
      {
@@ -3208,7 +3208,7 @@
     ]
    ],
    [
-    "'Would you like some juice?'",
+    "'Would you like a biscuit?'",
     [
      "Yes, please.",
      "Yes, I would like.",

@@ -1,130 +1,135 @@
-/* 22-pack-stop8.js - ALL the content of Stop 8, Matching and longer texts (Grade 5 ESL, Cambridge Stage 6).
+/* 22-pack-stop8.js - ALL the content of Stop 8, Who says it? and longer texts (Grade 4 ESL, Cambridge Stage 5).
    Made by scripts/convert.py from content/stop8.json (written from the exam-style guide only; no real paper seen). */
 (function (T) {
   'use strict';
-  window.T_ART = Object.assign(window.T_ART || {}, {"e-s8-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"wish\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🌠</text></svg>", "e-s8-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"match\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🧩</text></svg>", "e-s8-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"partial match\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🌗</text></svg>", "e-s8-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"extra\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">➕</text></svg>", "e-s8-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"paraphrase\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔁</text></svg>", "e-s8-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"article\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📰</text></svg>", "e-s8-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"detail\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔍</text></svg>", "e-s8-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"key word\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔑</text></svg>", "e-s8-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"context\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🧭</text></svg>", "e-s8-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"opinion\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💭</text></svg>", "e-s8-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"feelings\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">😊</text></svg>", "e-s8-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"purpose\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🎯</text></svg>", "e-s8-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"main idea\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💡</text></svg>"});
+  window.T_ART = Object.assign(window.T_ART || {}, {"e-s8-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"paraphrase\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔁</text></svg>", "e-s8-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"key idea\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔑</text></svg>", "e-s8-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"similar\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💃</text></svg>", "e-s8-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"compare\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⚖️</text></svg>", "e-s8-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"nervous\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">😬</text></svg>", "e-s8-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"disappointed\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">😞</text></svg>", "e-s8-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"proud\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏅</text></svg>", "e-s8-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"relieved\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">😌</text></svg>", "e-s8-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"confident\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💪</text></svg>", "e-s8-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"magazine\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📰</text></svg>", "e-s8-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"paragraph\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📄</text></svg>", "e-s8-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"introduction\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👋</text></svg>", "e-s8-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"opinion\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💭</text></svg>", "e-s8-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"plan\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🗓️</text></svg>"});
   T.packs[8] = {
  "n": 8,
- "title": "Matching and longer texts",
+ "title": "Who says it? and longer texts",
  "los": [
-  "6Rd.01",
-  "6Rm.01",
-  "6Ro.01",
-  "6Rd.04",
-  "6Rm.02"
+  "5Rd.01",
+  "5Rm.02",
+  "5Rm.01",
+  "5Rd.03"
  ],
  "blurb": {
-  "en": "Match people to the right text and read longer articles for feelings and opinions.",
-  "vi": "Nối người với văn bản phù hợp và đọc bài dài để tìm cảm xúc, ý kiến."
+  "en": "Match ideas to the right child, then read longer magazine texts for feelings and plans.",
+  "vi": "Tìm đúng bạn nhỏ cho mỗi ý, rồi đọc bài tạp chí dài hơn để tìm cảm xúc và kế hoạch."
  },
  "words": {
   "sets": [
    {
     "id": "A",
     "title": {
-     "en": "Matching words",
-     "vi": "Từ dùng khi nối"
+     "en": "Part 5 words",
+     "vi": "Từ dùng cho Phần 5"
     },
     "keys": [
-     "wish",
-     "match",
-     "partial match",
-     "extra",
-     "paraphrase"
+     "paraphrase",
+     "key idea",
+     "similar",
+     "compare"
     ]
    },
    {
     "id": "B",
     "title": {
-     "en": "Reading words",
-     "vi": "Từ về bài đọc"
+     "en": "Feeling words",
+     "vi": "Từ chỉ cảm xúc"
     },
     "keys": [
-     "article",
-     "detail",
-     "key word",
-     "context"
+     "nervous",
+     "disappointed",
+     "proud",
+     "relieved",
+     "confident"
     ]
    },
    {
     "id": "C",
     "title": {
-     "en": "Thinking words",
-     "vi": "Từ về suy nghĩ của người viết"
+     "en": "Part 6 words",
+     "vi": "Từ dùng cho Phần 6"
     },
     "keys": [
+     "magazine",
+     "paragraph",
+     "introduction",
      "opinion",
-     "feelings",
-     "purpose",
-     "main idea"
+     "plan"
     ]
    }
   ],
   "items": {
-   "wish": {
-    "art": "e-s8-0",
-    "vi": "mong muốn, điều ước",
-    "def": "Something a person wants or hopes to have or do. Example: Omar has three *wishes*: a camp by the sea, cheap tickets and his dog."
-   },
-   "match": {
-    "art": "e-s8-1",
-    "vi": "khớp, phù hợp",
-    "def": "To fit together exactly, so every part is right. Example: Only one text *matches* all of Freya's wishes."
-   },
-   "partial match": {
-    "art": "e-s8-2",
-    "vi": "khớp một phần",
-    "def": "A text that fits some wishes but not all of them. Example: The farm camp is only a *partial match*, because it has no swimming."
-   },
-   "extra": {
-    "art": "e-s8-3",
-    "vi": "thừa, dư ra",
-    "def": "More than you need. In Part 5, two texts are not used. Example: There are seven texts and five people, so two texts are *extra*."
-   },
    "paraphrase": {
-    "art": "e-s8-4",
+    "art": "e-s8-0",
     "vi": "diễn đạt lại bằng từ khác",
-    "def": "Saying the same idea with different words. Example: 'It costs nothing' is a *paraphrase* of 'It's free'."
+    "def": "Saying the same idea again with different words. Example: 'I had a high fever' is a *paraphrase* of 'I was ill'."
    },
-   "article": {
+   "key idea": {
+    "art": "e-s8-1",
+    "vi": "ý chính cần tìm",
+    "def": "The most important part of a question, the thing you must look for. Example: In 'Which person missed a show?', the *key idea* is 'missed'."
+   },
+   "similar": {
+    "art": "e-s8-2",
+    "vi": "giống nhau, tương tự",
+    "def": "Almost the same, but not exactly the same. Example: All three texts are *similar*: each child talks about being ill."
+   },
+   "compare": {
+    "art": "e-s8-3",
+    "vi": "so sánh",
+    "def": "To look at two or more things to see how they are the same or different. Example: *Compare* the three texts before you choose a name."
+   },
+   "nervous": {
+    "art": "e-s8-4",
+    "vi": "lo lắng, hồi hộp",
+    "def": "A little worried or afraid before something happens. Example: I was *nervous* before I sang in front of the class."
+   },
+   "disappointed": {
     "art": "e-s8-5",
-    "vi": "bài báo, bài viết",
-    "def": "A piece of writing in a magazine, newspaper or website. Example: Nadia wrote an *article* about her summer with the bees."
+    "vi": "thất vọng",
+    "def": "Sad because something did not happen the way you hoped. Example: She was *disappointed* when the trip was cancelled."
    },
-   "detail": {
+   "proud": {
     "art": "e-s8-6",
-    "vi": "chi tiết",
-    "def": "A small, exact piece of information, like a day, a price or an age. Example: Check every *detail*: the day, the age and the time."
+    "vi": "tự hào",
+    "def": "Pleased about something good that you or someone close to you did. Example: He is *proud* of the cake he baked."
    },
-   "key word": {
+   "relieved": {
     "art": "e-s8-7",
-    "vi": "từ khóa",
-    "def": "An important word that helps you find the answer. Example: 'Weekend' is the *key word* in Ben's wish."
+    "vi": "nhẹ nhõm",
+    "def": "Happy because a worry or a problem has ended. Example: I was *relieved* when my lost cat came home."
    },
-   "context": {
+   "confident": {
     "art": "e-s8-8",
-    "vi": "ngữ cảnh",
-    "def": "The words and sentences around a word that help you understand it. Example: Use the *context* to guess what 'steep' means."
+    "vi": "tự tin",
+    "def": "Sure that you can do something well. Example: After lots of practice, she felt *confident* on stage."
+   },
+   "magazine": {
+    "art": "e-s8-9",
+    "vi": "tạp chí",
+    "def": "A thin book with articles and pictures that comes out every week or month. Example: Our school *magazine* has a page about children's hobbies."
+   },
+   "paragraph": {
+    "art": "e-s8-10",
+    "vi": "đoạn văn",
+    "def": "A short group of sentences about one idea. A new one starts on a new line. Example: The answer to question 2 is in the second *paragraph*."
+   },
+   "introduction": {
+    "art": "e-s8-11",
+    "vi": "lời giới thiệu, phần mở đầu",
+    "def": "The first line or part of a text that tells you what it is about. Example: Read the *introduction* under the title first."
    },
    "opinion": {
-    "art": "e-s8-9",
-    "vi": "ý kiến, quan điểm",
-    "def": "What someone thinks or believes about something. Example: In my *opinion*, bees are amazing animals."
-   },
-   "feelings": {
-    "art": "e-s8-10",
-    "vi": "cảm xúc",
-    "def": "How someone feels, for example happy, nervous, proud or disappointed. Example: Read the last paragraph to find the writer's *feelings*."
-   },
-   "purpose": {
-    "art": "e-s8-11",
-    "vi": "mục đích",
-    "def": "The reason why a writer writes a text. Example: The *purpose* of the article is to describe a special holiday."
-   },
-   "main idea": {
     "art": "e-s8-12",
-    "vi": "ý chính",
-    "def": "The most important idea of the whole text, not of one sentence. Example: The *main idea* is that teamwork matters more than goals."
+    "vi": "ý kiến",
+    "def": "What a person thinks or believes about something. Example: In my *opinion*, the second story was better."
+   },
+   "plan": {
+    "art": "e-s8-13",
+    "vi": "kế hoạch",
+    "def": "Something you have decided to do in the future. Example: Her *plan* is to write a second book next year."
    }
   }
  },
@@ -133,83 +138,79 @@
    {
     "id": "s1",
     "title": {
-     "en": "Find the wishes",
-     "vi": "Tìm các mong muốn"
+     "en": "Which person?",
+     "vi": "Bạn nào?"
     },
     "esl": true,
     "kind": "text",
-    "head": "Part 5: what Kenji wants",
-    "html": "Kenji: I'm 10 and I love making things. This summer I'd like to go to a camp *near the sea*, and I want to *learn something about technology*. I've never slept away from home, so I *want to come home every evening*.",
+    "head": "Part 5: three children write about animals",
+    "html": "<b>Ollie</b>: My cat sleeps all day. I'd love a dog too, but our flat is too small.<br><br><b>Tia</b>: I've got two rabbits. I feed them every morning before school.<br><br><b>Son</b>: I haven't got a pet, but I *walk my neighbour's dog* every Sunday.<br><br>Question: Which person *looks after an animal that isn't theirs*?",
     "steps": [
      {
-      "en": "In Part 5, read the person first, not the texts.",
-      "vi": "Ở Phần 5, hãy đọc phần mô tả của người đó trước, chưa đọc các văn bản."
+      "en": "Read the *question* first. The key idea is 'an animal that isn't theirs'.",
+      "vi": "Đọc *câu hỏi* trước. Ý chính là 'một con vật không phải của bạn ấy'."
      },
      {
-      "en": "Find the wishes. Kenji has *three*: the sea, technology and home every evening.",
-      "vi": "Tìm các mong muốn. Kenji có *ba* mong muốn: biển, công nghệ và về nhà mỗi tối."
+      "en": "All three children talk about animals. That is normal in Part 5: the texts are *similar*.",
+      "vi": "Cả ba bạn đều nói về động vật. Ở Phần 5 điều này rất bình thường: các đoạn văn *giống nhau*."
      },
      {
-      "en": "'I'm 10' and 'I love making things' are facts about Kenji. Keep them in mind, but the three wishes are the must-haves.",
-      "vi": "'Tớ 10 tuổi' và 'tớ thích làm đồ vật' là thông tin về Kenji. Hãy nhớ chúng, nhưng ba mong muốn mới là điều bắt buộc."
+      "en": "Ollie and Tia look after their *own* pets. Son walks his *neighbour's* dog.",
+      "vi": "Ollie và Tia chăm sóc thú cưng *của mình*. Son dắt chó *của hàng xóm* đi dạo."
      },
      {
-      "en": "Now look for ONE text that has *all three* wishes.",
-      "vi": "Bây giờ hãy tìm MỘT văn bản có *cả ba* mong muốn."
+      "en": "So the answer is Son. Always check *all three* texts before you choose.",
+      "vi": "Vậy đáp án là Son. Luôn kiểm tra *cả ba* đoạn văn trước khi chọn."
      }
     ]
    },
    {
     "id": "s2",
     "title": {
-     "en": "Spot a partial match",
-     "vi": "Phát hiện văn bản chỉ khớp một phần"
+     "en": "Same idea, different words",
+     "vi": "Cùng ý, khác từ"
     },
     "esl": true,
     "kind": "text",
-    "head": "Text C: Seaside Science Camp",
-    "html": "Spend a week *by the beach* and *find out how solar panels and wind turbines work*. You will build a small wind-powered car to take home. Our friendly leaders cook every meal, and you *sleep in the camp's big tents* for five nights. Ages 9 to 12.",
+    "head": "A Part 5 question and one text",
+    "html": "Question: Which person has *changed their mind* about a food?<br><br><b>Daisy</b>: I *used to hate* mushrooms. My dad cooked them in a soup last winter, and *now I ask for them* every time we eat out.",
     "steps": [
      {
-      "en": "Near the sea? Yes, 'by the beach'. The words are different, but the idea is the same.",
-      "vi": "Gần biển? Có, 'by the beach'. Từ ngữ khác nhau nhưng ý giống nhau."
+      "en": "The question says 'changed their mind'. Daisy never uses those words.",
+      "vi": "Câu hỏi nói 'changed their mind' (đổi ý). Daisy không hề dùng những từ đó."
      },
      {
-      "en": "Technology? Yes, solar panels and wind turbines.",
-      "vi": "Công nghệ? Có, tấm pin mặt trời và tua-bin gió."
+      "en": "But 'I *used to hate*' and '*now I ask for them*' show the same idea. This is a *paraphrase*.",
+      "vi": "Nhưng 'I *used to hate*' (trước đây ghét) và '*now I ask for them*' (bây giờ lại xin ăn) cùng ý. Đây là *diễn đạt lại*."
      },
      {
-      "en": "Home every evening? *No!* You sleep in tents for five nights.",
-      "vi": "Về nhà mỗi tối? *Không!* Bạn phải ngủ trong lều năm đêm."
-     },
-     {
-      "en": "Two out of three is a *partial match*. It is a trap, so keep looking.",
-      "vi": "Hai trên ba là văn bản *chỉ khớp một phần*. Đó là cái bẫy, hãy tìm tiếp."
+      "en": "Look for the *meaning*, not the same words.",
+      "vi": "Hãy tìm *ý nghĩa*, không tìm những từ giống hệt."
      }
     ]
    },
    {
     "id": "s3",
     "title": {
-     "en": "The writer's feelings and purpose",
-     "vi": "Cảm xúc và mục đích của người viết"
+     "en": "Whose idea is it?",
+     "vi": "Đó là ý của ai?"
     },
     "esl": true,
     "kind": "text",
-    "head": "Part 6: from an article by Priya",
-    "html": "*At first*, I was *worried* about joining the choir, because I didn't know anyone. *To be honest*, I nearly stayed at home on the first day. *In the end*, I'm so glad I went. Singing with thirty other people is *the best feeling in the world*, and *I think* everyone should try it.",
+    "head": "Part 6: from a magazine article",
+    "html": "*Tia's friends thought* the school play would be boring, but Tia didn't agree. *At first*, she was nervous about her lines. *In the end*, she loved being on stage. *Her drama teacher said* her voice was clear and strong. Next year, Tia *hopes to* write her own play.",
     "steps": [
      {
-      "en": "Words like *at first* and *in the end* show how feelings change.",
-      "vi": "Những từ như *at first* (lúc đầu) và *in the end* (cuối cùng) cho thấy cảm xúc thay đổi thế nào."
+      "en": "'Tia's friends thought' is the *friends'* opinion, not Tia's. Wrong options often use other people's ideas.",
+      "vi": "'Tia's friends thought' là ý kiến của *các bạn*, không phải của Tia. Đáp án sai thường dùng ý của người khác."
      },
      {
-      "en": "*To be honest* and *I think* tell you the writer's opinion.",
-      "vi": "*To be honest* (thành thật mà nói) và *I think* (tớ nghĩ) cho biết ý kiến của người viết."
+      "en": "*At first* and *in the end* show a feeling that *changed*: nervous, then happy.",
+      "vi": "*At first* (lúc đầu) và *in the end* (cuối cùng) cho thấy cảm xúc *đã thay đổi*: lo lắng, rồi vui."
      },
      {
-      "en": "The last question asks what the writer is *mainly doing*. Think about the whole text: here Priya is sharing an experience and saying why it was worth it.",
-      "vi": "Câu hỏi cuối hỏi người viết *chủ yếu đang làm gì*. Hãy nghĩ về cả bài: ở đây Priya kể một trải nghiệm và nói vì sao nó đáng làm."
+      "en": "'Her drama teacher said' gives an *adult's* opinion. 'Hopes to' shows a *plan*.",
+      "vi": "'Her drama teacher said' cho biết ý kiến của *người lớn*. 'Hopes to' cho biết một *kế hoạch*."
      }
     ]
    },
@@ -221,104 +222,54 @@
     },
     "challenge": {
      "end": {
-      "en": "Great reading! You can find wishes, spot traps and read a writer's mind.",
-      "vi": "Đọc rất tốt! Bạn biết tìm mong muốn, phát hiện bẫy và hiểu suy nghĩ của người viết."
+      "en": "Brilliant! You can find the key idea, compare texts and spot whose idea it is.",
+      "vi": "Tuyệt vời! Bạn biết tìm ý chính, so sánh các đoạn văn và nhận ra đó là ý của ai."
      },
-     "result": "You spotted the wishes, the partial matches and the writer's opinions.",
+     "result": "You spotted paraphrases, feelings and other people's ideas.",
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Rd.01",
-        "6Rm.01"
+        "5Rd.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "A wish is something the person wants. Look for 'I want' or 'I'd like'."
+          "step": "Think about when people say 'I can't believe it'."
          },
-         "worked": "Omar says 'I want to join a pet club <b>near my home</b>'.",
+         "worked": "'I <b>couldn't believe my eyes</b>' means the writer was very surprised.",
          "type": "mcq",
-         "q": "Omar: 'My sister loves horses, but I prefer cats and dogs. I want to join a pet club near my home.' Which is one of Omar's wishes?",
+         "q": "'When I saw the price, I couldn't believe my eyes!' How did the writer feel?",
          "opts": [
-          "to join a pet club",
-          "to ride horses at a club",
-          "to buy a cat or dog"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "Horses are what his SISTER loves, not Omar.",
-          "Omar likes cats and dogs, but he doesn't say he wants to buy one."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Watch out for 'already': it shows something finished, not a wish."
-         },
-         "worked": "Isla says 'I want to <b>be outside with my friends</b>'.",
-         "type": "mcq",
-         "q": "Isla: 'I've already learned to swim, so this year I'd like to try something on land. I want to be outside with my friends.' Which is one of Isla's wishes?",
-         "opts": [
-          "to be outdoors with friends",
-          "to learn to swim this year",
-          "to stay indoors with friends"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "She has *already* learned to swim, so it isn't a wish now.",
-          "She says she wants to be *outside*."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Rd.01",
-        "6Rm.01"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Check each wish one by one: guitar, Saturday, cheap."
-         },
-         "worked": "Guitar and Saturday are right, but it is 'our <b>most expensive</b> class', so it is only a partial match.",
-         "type": "mcq",
-         "q": "Sami wants a cheap guitar class on Saturdays. The text says: 'Guitar for beginners. Saturdays, 10 a.m. Price: 400,000 dong a lesson, which is our most expensive class.' Does it match?",
-         "opts": [
-          "No, it isn't cheap.",
-          "Yes, it matches both wishes.",
-          "No, it's on the wrong day."
+          "very surprised",
+          "a little bit worried",
+          "a bit bored"
          ],
          "at": 0,
          "whys": [
           null,
-          "Check the price: it says 'our most expensive class'.",
-          "The day is right: Saturdays."
+          "Nothing in the sentence shows that the writer was worried.",
+          "'Couldn't believe my eyes' shows a strong feeling, not boredom."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Tick each wish: science, videos, her age."
+          "step": "Think about how you feel when your team wins."
          },
-         "worked": "Science, 'short science <b>videos</b>' and '8 to 12-year-olds' all match Freya, who is 10.",
+         "worked": "'I was <b>over the moon</b>' means the writer was extremely happy.",
          "type": "mcq",
-         "q": "Freya wants a science website with videos for children her age. The text says: 'Science Spark: short science videos and games for 8 to 12-year-olds.' Freya is 10. Does it match?",
+         "q": "'When we won the match, I was over the moon!' How did the writer feel?",
          "opts": [
-          "Yes, it matches all her wishes.",
-          "No, it only has games.",
-          "No, it's for older children."
+          "extremely happy",
+          "a little scared",
+          "quite sleepy"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
-          "It says 'short science *videos* and games'.",
-          "Freya is 10, and the site is for 8 to 12-year-olds."
+          "Winning a match doesn't usually make people scared.",
+          "'Over the moon' is a strong feeling, not a sleepy one."
          ],
          "letters": true
         }
@@ -327,46 +278,94 @@
       {
        "mode": "your",
        "lo": [
-        "6Ro.01"
+        "5Rm.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Find the words 'I don't agree' and read what comes next."
+          "step": "Find Lan's name. Is the opinion hers or her friends'?"
          },
-         "worked": "Reza says 'I don't agree' with 'boring' and gives a good reason: he can watch again.",
+         "worked": "'Lan <b>loved every minute</b>' means she enjoyed all of it.",
          "type": "mcq",
-         "q": "Reza writes: 'Lots of people say that online lessons are boring. I don't agree. I can watch the video again if I don't understand.' What is Reza's opinion of online lessons?",
+         "q": "'Lan's friends thought the film was too long, but Lan loved every minute.' What did Lan think?",
          "opts": [
-          "They are useful.",
-          "They are boring.",
-          "They are too long."
+          "She enjoyed all of the film.",
+          "She thought it was too long.",
+          "She left before the end."
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'Too long' is what Lan's FRIENDS thought.",
+          "Lan 'loved every minute', so she watched it all."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Two people give an opinion. Which one is Jamal's?"
+         },
+         "worked": "'Jamal thinks it's <b>the best pool in town</b>.'",
+         "type": "mcq",
+         "q": "'Jamal's dad says the new pool is too cold. Jamal thinks it's the best pool in town.' What is Jamal's opinion?",
+         "opts": [
+          "The pool is great.",
+          "The pool is too cold.",
+          "The pool is too new."
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'Too cold' is his DAD's opinion.",
+          "Nobody says the pool is too new."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Rd.01"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Look at the verb forms: 'I'd love to' or 'I went'?"
+         },
+         "worked": "Daisy says 'I <b>went surfing</b> last summer'. Ollie only wants to try it.",
+         "type": "mcq",
+         "q": "Ollie: 'I'd love to try surfing one day.' Daisy: 'I went surfing last summer.' Who has already been surfing?",
+         "opts": [
+          "Daisy",
+          "Ollie",
+          "both of them"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "Ollie would like to try it 'one day', so he hasn't done it yet.",
+          "Only one of them has done it already."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Look for 'never' and 'every year'."
+         },
+         "worked": "Tia says 'I <b>fly</b> to see my aunt <b>every year</b>'.",
+         "type": "mcq",
+         "q": "Son: 'I've never been on a plane.' Tia: 'I fly to see my aunt every year.' Who travels by plane?",
+         "opts": [
+          "Tia",
+          "Son",
+          "both of them"
          ],
          "at": 0,
          "whys": [
           null,
-          "'Boring' is what *other people* say. Reza doesn't agree.",
-          "Reza says nothing about the length."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Look for the words that show NOW, like 'now' and 'after two months'."
-         },
-         "worked": "'<b>Now</b> ... I've got lots of friends and <b>I love it</b>' shows she is happy.",
-         "type": "mcq",
-         "q": "Nina writes: 'My first day at the new school felt very long. But now, after two months, I've got lots of friends and I love it.' How does Nina feel now?",
-         "opts": [
-          "happy at her school",
-          "lonely and tired",
-          "worried about friends"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "That was her first day, not now.",
-          "She says she has 'lots of friends'."
+          "Son says he has NEVER been on a plane.",
+          "Only one of them flies."
          ],
          "letters": true
         }
@@ -375,47 +374,46 @@
       {
        "mode": "your",
        "lo": [
-        "6Rm.01",
-        "6Rm.02"
+        "5Rm.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Think about the WHOLE article, not one paragraph."
+          "step": "Plans are about the future. Look for words like 'next' and 'hope to'."
          },
-         "worked": "The whole article is about Rory training, failing and trying again, so it shows how he kept trying.",
+         "worked": "'<b>Next summer</b>, I <b>hope to</b> learn to dive' is a plan.",
          "type": "mcq",
-         "q": "An article tells how Rory trained for months, failed his first swimming test and passed the second time. What is the writer mainly doing?",
+         "q": "Which sentence tells you about a plan?",
          "opts": [
-          "showing how Rory kept trying",
-          "explaining how to swim fast",
-          "describing a swimming pool"
+          "Next summer, I hope to learn to dive.",
+          "Last summer, I learned to dive.",
+          "I'm good at diving now."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
-          "The article is a story about Rory, not swimming lessons.",
-          "The pool is not the main idea."
+          "'Last summer' and 'learned' are about the past.",
+          "'Now' tells you about the present, not a plan."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Ask: what is the whole article about?"
+          "step": "Look for 'at first' and 'now' in the same sentence."
          },
-         "worked": "The whole article describes the class making a pond and what lived there, so it describes a class project.",
+         "worked": "'<b>At first</b> I was scared, but <b>now</b> I love it': the feeling changed.",
          "type": "mcq",
-         "q": "An article tells how Alice's class made a pond at school and which frogs and insects came to live there. What is the writer mainly doing?",
+         "q": "Which sentence tells you that a feeling changed?",
          "opts": [
-          "describing a class project",
-          "telling readers to buy frogs",
-          "explaining how insects fly"
+          "At first I was scared, but now I love it.",
+          "I have always loved riding horses.",
+          "I was scared, and I still am."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
-          "Nobody buys frogs: the animals came by themselves.",
-          "Insects are a detail, not the main idea."
+          "'Always' means the feeling never changed.",
+          "'I still am' means the feeling is the same."
          ],
          "letters": true
         }
@@ -435,186 +433,155 @@
    "art": "icon-step-practise",
    "title": "Learn it",
    "blurb": {
-    "en": "Find the wishes, spot the traps and read the writer's feelings.",
-    "vi": "Tìm mong muốn, phát hiện bẫy và đọc cảm xúc của người viết."
+    "en": "Spot paraphrases, compare three short texts and read for feelings and plans.",
+    "vi": "Nhận ra cách diễn đạt lại, so sánh ba đoạn ngắn và đọc để tìm cảm xúc, kế hoạch."
    },
    "levels": [
     {
      "title": {
-      "en": "Find the key wishes",
-      "vi": "Tìm các mong muốn chính"
+      "en": "Same idea, different words",
+      "vi": "Cùng ý, khác từ"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Rd.01",
-        "6Rm.01"
+        "5Rd.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "Look for 'I'd like', 'I want' and 'must'. Each one is a wish."
+          "step": "'I couldn't wait' is a fixed phrase. How do you feel before something you want?"
          },
-         "worked": "Yuki wants to make something 'with my hands', 'at the weekend' and it 'mustn't be too expensive'.",
+         "worked": "'I <b>couldn't wait</b>' means Ollie was very excited.",
          "type": "mcq",
-         "q": "Which list shows ALL of Yuki's wishes?",
+         "q": "Ollie: 'I couldn't wait for the school trip to start.' Which sentence means the same?",
          "opts": [
-          "by hand, at weekends, not expensive",
-          "jewellery, on weekdays, free",
-          "pottery, at weekends, with a friend"
+          "Ollie was excited about the trip.",
+          "Ollie was worried about the trip.",
+          "Ollie didn't want to wait for the bus."
          ],
          "at": 0,
          "whys": [
           null,
-          "Yuki is busy on weekdays, and she says 'not too expensive', not 'free'.",
-          "Yuki doesn't say she wants to go with a friend."
-         ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s8-r-yuki",
-          "kind": "text",
-          "head": "What Yuki wants",
-          "html": "Yuki: I'd like to learn to make something with my hands, like pottery or jewellery. I want a class at the weekend, because I'm busy on weekdays. It mustn't be too expensive."
-         }
-        },
-        {
-         "hint": {
-          "step": "Each 'I want', 'I'd like' or 'must' is a wish."
-         },
-         "worked": "Ben wants 'animals that live in cold places', 'lots of videos' and it 'must be in English'.",
-         "type": "mcq",
-         "q": "Which list shows ALL of Ben's wishes?",
-         "opts": [
-          "cold-place animals, videos, in English",
-          "all animals, long texts, in English",
-          "cold places, games, in Vietnamese"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "Ben doesn't like reading long texts, and he wants animals in cold places only.",
-          "Ben wants it in English, and he asks for videos, not games."
-         ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s8-r-ben",
-          "kind": "text",
-          "head": "What Ben wants",
-          "html": "Ben: I'm looking for a website about animals that live in cold places. I want lots of videos, because I don't like reading long texts. It must be in English, too."
-         }
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Rd.01",
-        "6Rm.01"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Be careful with 'already': it tells you something Tom has done, not something he wants."
-         },
-         "worked": "Tom has '<b>already</b> been to the zoo', so he wants 'something different'.",
-         "type": "mcq",
-         "q": "Which is NOT one of Tom's wishes?",
-         "opts": [
-          "going to the zoo",
-          "being outdoors",
-          "taking his dog"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "Tom says 'I'd like to be outdoors', so it IS a wish.",
-          "Tom says 'I want to take my dog', so it IS a wish."
-         ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s8-r-tom",
-          "kind": "text",
-          "head": "What Tom wants",
-          "html": "Tom: I've already been to the zoo this year, so I want to try something different. I'd like to be outdoors, and I want to take my dog with me."
-         }
-        },
-        {
-         "hint": {
-          "step": "Who loves football? Read carefully."
-         },
-         "worked": "Her <b>brother</b> loves football. Chloe is 'more interested in tennis'.",
-         "type": "mcq",
-         "q": "Which is NOT one of Chloe's wishes?",
-         "opts": [
-          "playing football",
-          "learning tennis near home",
-          "having an English-speaking teacher"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "Chloe wants tennis lessons near her home, so this IS a wish.",
-          "Chloe says 'I'd like a teacher who speaks English'."
-         ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s8-r-chloe",
-          "kind": "text",
-          "head": "What Chloe wants",
-          "html": "Chloe: My brother loves football, but I'm more interested in tennis. I want lessons near my home, and I'd like a teacher who speaks English."
-         }
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Rd.01",
-        "6Rm.01"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "The text will use different words. Look for the same idea."
-         },
-         "worked": "'Free' means you don't pay anything, so 'Entry is <b>free</b> for everyone' matches.",
-         "type": "mcq",
-         "q": "Sofia's wish: 'I don't want to pay anything.' Which sentence from a text matches her wish?",
-         "opts": [
-          "Entry is free for everyone.",
-          "Tickets are half price for children.",
-          "You can pay at the door."
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "Half price still costs some money.",
-          "This tells you where to pay, so it isn't free."
+          "'Couldn't wait' is a happy feeling, not a worried one.",
+          "Nothing is said about a bus: 'couldn't wait' is about a feeling."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Don't just look for the same word. Look for the same idea."
+          "step": "Find what Tia expected, then what really happened."
          },
-         "worked": "A beginner has no experience, so '<b>No experience</b> is needed' matches.",
+         "worked": "'I <b>didn't expect</b> to enjoy it, but it was <b>great fun</b>': it was better than she thought.",
          "type": "mcq",
-         "q": "Amira's wish: 'I'm a complete beginner.' Which sentence from a text matches her wish?",
+         "q": "Tia: 'I didn't expect to enjoy the cooking class, but it was great fun.' Which sentence means the same?",
          "opts": [
-          "No experience is needed.",
-          "For experienced players only.",
-          "Our beginners' class is full."
+          "The class was better than Tia thought it would be.",
+          "Tia knew the class would be fun.",
+          "Tia didn't enjoy the cooking class."
          ],
          "at": 2,
          "whys": [
           null,
-          "Amira has no experience, so this is the opposite.",
-          "It says 'beginners', but the class is full, so she can't join."
+          "'I didn't expect to enjoy it' means she didn't know it would be fun.",
+          "She says it was 'great fun', so she did enjoy it."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Rd.03"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Find the word 'so'. What happened because of the flat tyre?"
+         },
+         "worked": "'My bike had a flat tyre, <b>so I walked</b>': he went on foot.",
+         "type": "mcq",
+         "q": "Son: 'My bike had a flat tyre, so I walked to the park.' Which sentence means the same?",
+         "opts": [
+          "Son couldn't ride, so he went on foot.",
+          "Son rode his bike to the park.",
+          "Son's bike broke in the park."
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "The tyre was flat, so he walked.",
+          "The tyre was flat BEFORE he went, not in the park."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Find 'because'. It tells you the reason."
+         },
+         "worked": "'I <b>stayed at home because</b> I had a sore throat': she was ill and stayed in.",
+         "type": "mcq",
+         "q": "Daisy: 'I stayed at home because I had a sore throat.' Which sentence means the same?",
+         "opts": [
+          "Daisy was ill, so she didn't go out.",
+          "Daisy went out with a sore throat.",
+          "Daisy's throat hurt after she went out."
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "She 'stayed at home', so she didn't go out.",
+          "Her throat hurt first; she didn't go out at all."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Rd.03"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "'Hardly anyone' is not the same as 'nobody'. Think carefully."
+         },
+         "worked": "'<b>Hardly anyone</b>' means very few people.",
+         "type": "mcq",
+         "q": "Lan: 'Hardly anyone came to the first meeting.' Which sentence means the same?",
+         "opts": [
+          "Very few people came.",
+          "Nobody came at all.",
+          "Lots and lots of people came."
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "'Hardly anyone' means a few people, not zero.",
+          "'Hardly anyone' means the opposite of lots."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "What does 'none' mean: zero, a few or all?"
+         },
+         "worked": "'<b>None</b> of my friends had tried it': it was new for every friend.",
+         "type": "mcq",
+         "q": "Adam: 'None of my friends had tried it before.' Which sentence means the same?",
+         "opts": [
+          "It was new for all of his friends.",
+          "Some of his friends had tried it already.",
+          "All of his friends had tried it."
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'None' means not one friend, so not 'some'.",
+          "'None' is the opposite of 'all of them had tried it'."
          ],
          "letters": true
         }
@@ -624,132 +591,69 @@
     },
     {
      "title": {
-      "en": "Spot a partial match",
-      "vi": "Phát hiện văn bản chỉ khớp một phần"
+      "en": "Which person? Compare three texts",
+      "vi": "Bạn nào? So sánh ba đoạn văn"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Rd.01",
-        "6Rm.01"
+        "5Rm.01",
+        "5Rd.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "Check each wish: cooking, cakes, Saturday morning."
+          "step": "All three talk about swimming. Who wanted to swim but couldn't?"
          },
-         "worked": "It teaches cakes in the morning, but on <b>Sunday</b>, not Saturday.",
+         "worked": "Ollie: 'I <b>wanted to swim</b>, but the sea was <b>too rough</b>.'",
          "type": "mcq",
-         "q": "Does the text match ALL of Jamal's wishes?",
+         "q": "Which person couldn't do what they wanted?",
          "opts": [
-          "No, the day is wrong.",
-          "Yes, it matches every wish.",
-          "No, it doesn't teach cakes."
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "Check the day: Jamal wants Saturday.",
-          "It does teach cakes: 'birthday cakes'."
-         ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s8-r-jamal",
-          "kind": "text",
-          "head": "Jamal and a cooking class",
-          "html": "Jamal: I want to go to a cooking class on Saturday morning. I'd like to learn to make cakes.<br><br><b>Sweet Treats Kitchen</b><br>Learn to bake cupcakes, biscuits and birthday cakes! Classes every Sunday morning, 9 to 11. All ingredients included."
-         }
-        },
-        {
-         "hint": {
-          "step": "Tick each wish: volcanoes, photos, quiz."
-         },
-         "worked": "Volcanoes and photos are there, but there is no <b>quiz</b>, only a map.",
-         "type": "mcq",
-         "q": "Does the text match ALL of Nam's wishes?",
-         "opts": [
-          "No, there's no quiz.",
-          "Yes, it has everything.",
-          "No, it has no photos."
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "Nam wants a quiz, and the text doesn't mention one.",
-          "It has 'over 200 amazing photos'."
-         ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s8-r-nam",
-          "kind": "text",
-          "head": "Nam and a book",
-          "html": "Nam: I want a book about volcanoes with lots of photos. I'd also like a quiz at the end to test myself.<br><br><b>Fire Mountains</b><br>Everything you need to know about volcanoes, with over 200 amazing photos. Includes a map of the world's most active volcanoes."
-         }
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Rd.01",
-        "6Rm.01"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Find the one that has water AND a team AND Wednesday."
-         },
-         "worked": "Splash Polo is a water sport for 'teams of seven' on 'Wednesdays'.",
-         "type": "mcq",
-         "q": "Which club matches ALL of Lucy's wishes?",
-         "opts": [
-          "Splash Polo",
-          "Wave Swimmers",
-          "River Rowers"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "Wave Swimmers is in water on Wednesdays, but you swim on your own.",
-          "River Rowers is a team in water, but only on Saturdays."
-         ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s8-r-lucy",
-          "kind": "text",
-          "head": "Lucy and three clubs",
-          "html": "Lucy: I want to do a sport in water, and I'd like to do it with a team. I can only go on Wednesdays.<br><br><b>Splash Polo</b>: Water polo for teams of seven. Training on Wednesdays.<br><b>Wave Swimmers</b>: Improve your swimming on your own. Wednesdays and Fridays.<br><b>River Rowers</b>: Row as a team of four on the river. Saturdays only."
-         }
-        },
-        {
-         "hint": {
-          "step": "Check three things: nature, every week, puzzles."
-         },
-         "worked": "Wild World Weekly has 'nature stories', 'puzzles' and comes 'every Friday'.",
-         "type": "mcq",
-         "q": "Which magazine matches ALL of Dev's wishes?",
-         "opts": [
-          "Wild World Weekly",
-          "Nature Now",
-          "Puzzle Time"
+          "Ollie",
+          "Daisy",
+          "Son"
          ],
          "at": 1,
          "whys": [
           null,
-          "Nature Now has nature and puzzles, but it comes once a month.",
-          "Puzzle Time comes every week, but it isn't about nature."
+          "Daisy swam in her aunt's pool all afternoon, so she did what she wanted.",
+          "Son played football and swam in the river."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s8-r-dev",
+          "id": "s8-r-weekend",
           "kind": "text",
-          "head": "Dev and three magazines",
-          "html": "Dev: I'd like a magazine about nature that comes every week. It must have puzzles, too.<br><br><b>Wild World Weekly</b>: Nature stories, photos and puzzles, every Friday.<br><b>Nature Now</b>: Nature photos and facts, with puzzles. Out once a month.<br><b>Puzzle Time</b>: New puzzles every week about sport, music and films."
+          "head": "Three children write about their Saturday",
+          "html": "<b>Ollie</b>: On Saturday I went to the beach with my parents. I wanted to swim, but the sea was too rough.<br><br><b>Daisy</b>: On Saturday I visited my aunt. We swam in her pool all afternoon.<br><br><b>Son</b>: On Saturday I played football with my friends. Afterwards, we swam in the river."
+         }
+        },
+        {
+         "hint": {
+          "step": "Look for words that show then and now."
+         },
+         "worked": "Lan: 'I <b>didn't like</b> pho when I was little, but <b>now</b> I eat it every week.'",
+         "type": "mcq",
+         "q": "Which person has changed their opinion of a food?",
+         "opts": [
+          "Lan",
+          "Tia",
+          "Kira"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "Tia has always loved pho: it's her favourite food.",
+          "Kira loves pho; she only eats it in a different place."
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s8-r-pho",
+          "kind": "text",
+          "head": "Three children write about pho",
+          "html": "<b>Tia</b>: My favourite food is pho. My dad makes it every Sunday.<br><br><b>Kira</b>: I love pho, but I only eat it in restaurants.<br><br><b>Lan</b>: I didn't like pho when I was little, but now I eat it every week."
          }
         }
        ]
@@ -757,132 +661,195 @@
       {
        "mode": "your",
        "lo": [
-        "6Rd.01",
-        "6Rm.01"
+        "5Rm.01",
+        "5Rd.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "Check the day in the text."
+          "step": "Find each child's reason. Look after 'because'."
          },
-         "worked": "He can only go on a Monday, but the museum is '<b>closed on Mondays</b>'.",
+         "worked": "Poppy: 'I joined the drama club because I want to be <b>less shy</b>.'",
          "type": "mcq",
-         "q": "Why doesn't the Old Engines Museum match Hieu's wishes?",
+         "q": "Which person joined a club to change something about themselves?",
          "opts": [
-          "It is closed on the day he can go.",
-          "It doesn't have any old machines.",
-          "It is only for adults."
+          "Poppy",
+          "Adam",
+          "Jamal"
          ],
          "at": 0,
          "whys": [
           null,
-          "It has 'steam engines and old cars', which are old machines.",
-          "The text says children are welcome."
+          "Adam joined because of his best friend, not to change himself.",
+          "Jamal couldn't join because of his swimming lesson."
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s8-r-club",
+          "kind": "text",
+          "head": "Three children write about the drama club",
+          "html": "<b>Adam</b>: I joined the drama club because my best friend is in it.<br><br><b>Poppy</b>: I joined the drama club because I want to be less shy.<br><br><b>Jamal</b>: I wanted to join the drama club, but it's on Tuesdays and I have swimming then."
+         }
+        },
+        {
+         "hint": {
+          "step": "Two children talk about being ill. Who stayed away from school?"
+         },
+         "worked": "Son: 'I had a fever, so I <b>stayed in bed</b> for three days.'",
+         "type": "mcq",
+         "q": "Which person missed school because they were ill?",
+         "opts": [
+          "Son",
+          "Quan",
+          "Daisy"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Quan had a cold, but he still went to school.",
+          "Daisy's sister was ill, not Daisy."
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s8-r-ill",
+          "kind": "text",
+          "head": "Three children write about being ill",
+          "html": "<b>Quan</b>: I had a cold last week, but I still went to school.<br><br><b>Son</b>: I had a fever, so I stayed in bed for three days. I missed a science test!<br><br><b>Daisy</b>: My sister had a bad cough, so we didn't go to the zoo."
+         }
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Rm.01",
+        "5Rd.03"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Look for 'used to' or 'there was'. They talk about the past."
+         },
+         "worked": "Kira: 'There <b>used to be</b> a toy shop in my street, but <b>now</b> it's a bank.'",
+         "type": "mcq",
+         "q": "Which person describes how their street has changed?",
+         "opts": [
+          "Kira",
+          "Ollie",
+          "Tia"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "Ollie describes his street now; he doesn't say it was different before.",
+          "Tia talks about the noise and lights now, not before."
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s8-r-street",
+          "kind": "text",
+          "head": "Three children write about their street",
+          "html": "<b>Kira</b>: There used to be a toy shop in my street, but now it's a bank.<br><br><b>Ollie</b>: My street is quiet. There's a small park where I play after school.<br><br><b>Tia</b>: My street is very busy, but I like the noise and the lights."
+         }
+        },
+        {
+         "hint": {
+          "step": "Look for a word that shows a problem or a bad feeling."
+         },
+         "worked": "Lan: 'It was <b>too noisy</b>!'",
+         "type": "mcq",
+         "q": "Which person didn't enjoy one part of their celebration?",
+         "opts": [
+          "Lan",
+          "Jamal",
+          "Adam"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "Jamal says nothing bad about his picnic.",
+          "Adam had no party, but he doesn't say he was unhappy."
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s8-r-birthday",
+          "kind": "text",
+          "head": "Three children write about their birthday",
+          "html": "<b>Jamal</b>: For my birthday, we had a picnic by the river.<br><br><b>Lan</b>: For my birthday, I invited my whole class to a party. It was too noisy!<br><br><b>Adam</b>: I didn't have a party this year. I went to the cinema with Dad instead."
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Longer texts: feelings, reasons and plans",
+      "vi": "Bài dài hơn: cảm xúc, lý do và kế hoạch"
+     },
+     "rounds": [
+      {
+       "mode": "your",
+       "lo": [
+        "5Rm.01"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Find what Kira thought BEFORE the trip, then how she felt at the end."
+         },
+         "worked": "'She <b>didn't want to go</b>... she told everyone it was <b>the best trip of the year</b>.'",
+         "type": "mcq",
+         "q": "How did Kira's feelings change?",
+         "opts": [
+          "She expected to be bored, but she loved it.",
+          "She was excited, but then she got bored.",
+          "She was bored, so she stopped asking questions."
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "It was the other way round: bored first, then happy.",
+          "She asked 'so many questions' that the guide laughed."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s8-r-museum",
           "kind": "text",
-          "head": "A museum",
-          "html": "Hieu: I want to learn about old machines, and I can only go on a Monday.<br><br><b>Old Engines Museum</b>: See steam engines and old cars from 100 years ago. Children are very welcome. Open 9 a.m. to 5 p.m., closed on Mondays."
+          "head": "From a magazine article",
+          "html": "When Kira's class went to the recycling centre, she didn't want to go. 'It's just rubbish,' she said. But the guide let her press the button on a huge machine that squashes cans, and she asked so many questions that the guide laughed. On the bus home, she told everyone it was the best trip of the year."
          }
         },
         {
          "hint": {
-          "step": "Check the ages in the text."
+          "step": "Read the last sentence. It tells you about the end of the week."
          },
-         "worked": "He is 9, but Sketch Squad is 'for ages <b>12 to 15</b>'.",
+         "worked": "'By the end of the week, Adam <b>didn't want to go home</b>.'",
          "type": "mcq",
-         "q": "Why doesn't Sketch Squad match Quan's wishes?",
+         "q": "How did Adam feel at the end of the week?",
          "opts": [
-          "He is too young for it.",
-          "It doesn't teach drawing.",
-          "He can't go on Fridays."
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "It says 'drawing and painting'.",
-          "He doesn't say anything about Fridays."
-         ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s8-r-sketch",
-          "kind": "text",
-          "head": "A drawing club",
-          "html": "Quan: I want to join a drawing club. I'm 9, and I'd like to meet other children my age.<br><br><b>Sketch Squad</b>: Drawing and painting for ages 12 to 15. Fridays after school."
-         }
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "title": {
-      "en": "Feelings, opinions and word meaning",
-      "vi": "Cảm xúc, ý kiến và nghĩa của từ"
-     },
-     "rounds": [
-      {
-       "mode": "your",
-       "lo": [
-        "6Ro.01"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Read the last two sentences. What do the actions tell you?"
-         },
-         "worked": "'I jumped up and hugged my best friend. I couldn't stop smiling' shows the writer was delighted.",
-         "type": "mcq",
-         "q": "How did the writer feel at the end?",
-         "opts": [
-          "delighted",
-          "nervous",
-          "disappointed"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "The writer was nervous at the start, not at the end.",
-          "Hugging and smiling don't show disappointment."
-         ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s8-r-feel1",
-          "kind": "text",
-          "head": "From a story",
-          "html": "When the results were read out, my legs were shaking. Then I heard my name. I jumped up and hugged my best friend. I couldn't stop smiling all the way home."
-         }
-        },
-        {
-         "hint": {
-          "step": "What does 'I just wanted to hide' tell you?"
-         },
-         "worked": "The writer 'forgot the last part' and 'wanted to hide', so they felt embarrassed.",
-         "type": "mcq",
-         "q": "How did the writer feel after playing?",
-         "opts": [
-          "embarrassed",
-          "proud",
-          "comfortable"
+          "He loved the camp and wanted to stay.",
+          "He was still scared of the frogs.",
+          "He was excited to go home to his family."
          ],
          "at": 0,
          "whys": [
           null,
-          "The writer forgot the last part and 'wanted to hide', so not proud.",
-          "Someone who 'just wanted to hide' doesn't feel comfortable."
+          "He was only scared on the first night, before he knew about the frogs.",
+          "He 'didn't want to go home'."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s8-r-feel2",
+          "id": "s8-r-camp",
           "kind": "text",
-          "head": "From a story",
-          "html": "I'd practised my piano piece for weeks. But on the day, my fingers felt like wood and I forgot the last part. Everyone clapped politely, but I just wanted to hide."
+          "head": "From a magazine article",
+          "html": "Adam was excited about his first night at summer camp. But when the lights went out, he heard strange noises and felt scared. His tent partner told him the noises were only frogs. By the end of the week, Adam didn't want to go home."
          }
         }
        ]
@@ -890,61 +857,61 @@
       {
        "mode": "your",
        "lo": [
-        "6Ro.01"
+        "5Rd.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "Find 'I think' and read to the end of the sentence."
+          "step": "Find 'the doctor told him'. The reason is near it."
          },
-         "worked": "'<b>I think</b> they are a great way to travel ... <b>as long as</b> riders wear helmets and go slowly.'",
+         "worked": "'He had <b>hurt his ankle</b>... and the doctor told him to <b>rest</b> it.'",
          "type": "mcq",
-         "q": "What is the writer's opinion of electric scooters?",
+         "q": "Why didn't Quan play in the match?",
          "opts": [
-          "They are good if people use them carefully.",
-          "They are too dangerous for anyone to ride.",
-          "They are great, but only for long trips."
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "That is what 'some people say'. The writer thinks they are great.",
-          "The writer says they are great for 'short distances', not long ones."
-         ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s8-r-op1",
-          "kind": "text",
-          "head": "From an article",
-          "html": "Some people say electric scooters are dangerous. I can understand why, but I think they are a great way to travel short distances, as long as riders wear helmets and go slowly."
-         }
-        },
-        {
-         "hint": {
-          "step": "Who thinks fish are boring? Who disagrees?"
-         },
-         "worked": "Watching fish 'helps me relax' and feeding them 'has taught me to be responsible'.",
-         "type": "mcq",
-         "q": "What is the writer's opinion of keeping fish?",
-         "opts": [
-          "It is calming and teaches you something.",
-          "It is calming, but it is a bit boring.",
-          "Fish are better pets than dogs."
+          "His ankle needed time to get better.",
+          "The coach wanted him to count goals.",
+          "He didn't want to play on a Saturday."
          ],
          "at": 1,
          "whys": [
           null,
-          "Her cousin says fish are boring, but the writer says 'I don't agree at all'.",
-          "The writer doesn't talk about dogs at all."
+          "Counting goals is what he did INSTEAD; it isn't the reason.",
+          "Nothing in the text says he didn't want to play."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s8-r-op2",
+          "id": "s8-r-match",
           "kind": "text",
-          "head": "From an article",
-          "html": "My cousin thinks that keeping fish is boring. I don't agree at all. Watching my fish swim around helps me relax after school, and feeding them every day has taught me to be responsible."
+          "head": "From a magazine article",
+          "html": "Quan's football team had a match on Saturday, but he didn't play. He had hurt his ankle the week before, and the doctor told him to rest it. So he sat with the coach and helped to count the goals."
+         }
+        },
+        {
+         "hint": {
+          "step": "Find 'So'. What happened just before it?"
+         },
+         "worked": "'The big bunch <b>cost more than the money in her purse</b>. So she bought one flower and made a card.'",
+         "type": "mcq",
+         "q": "Why did Poppy make a card?",
+         "opts": [
+          "She couldn't pay for a big bunch of flowers.",
+          "Her mum asked her for a poem.",
+          "The flower shop was closed."
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Mum didn't ask for anything; the poem was Poppy's idea.",
+          "The shop was open: Poppy bought one flower there."
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s8-r-flowers",
+          "kind": "text",
+          "head": "From a magazine article",
+          "html": "Poppy wanted to buy her mum a big bunch of flowers for her birthday. When she got to the shop, the big bunch cost more than the money in her purse. So she bought one flower and made a card with a poem inside. Mum said it was the best present she had ever had."
          }
         }
        ]
@@ -952,61 +919,62 @@
       {
        "mode": "your",
        "lo": [
-        "6Rd.04"
+        "5Rm.01",
+        "5Rm.02"
        ],
        "v": [
         {
          "hint": {
-          "step": "Why did they need to stop and catch their breath?"
+          "step": "Three people have ideas in this text. Find the teacher's words."
          },
-         "worked": "They had to stop 'to catch our breath', so the path went up very sharply.",
+         "worked": "'Their teacher said <b>the tiny details were the best thing</b> about it.'",
          "type": "mcq",
-         "q": "What does <b>steep</b> mean?",
+         "q": "What did the teacher think of the model?",
          "opts": [
-          "going up very sharply",
-          "very wet and muddy",
-          "long, flat and easy"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "Mud doesn't make you stop to catch your breath every few minutes.",
-          "A flat, easy path wouldn't make you stop to catch your breath."
-         ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s8-r-word1",
-          "kind": "text",
-          "head": "From a story",
-          "html": "The path up the mountain was so *steep* that we had to stop every few minutes to catch our breath."
-         }
-        },
-        {
-         "hint": {
-          "step": "Think: what can happen to your feet in soft sand?"
-         },
-         "worked": "Wide feet stop camels 'sinking into' the sand, so it means going down into something soft.",
-         "type": "mcq",
-         "q": "What does <b>sinking</b> mean here?",
-         "opts": [
-          "going down into something soft",
-          "running very fast across hot sand",
-          "getting very hot in the sun"
+          "She liked the small details most.",
+          "She thought the model was too small.",
+          "She wanted it to have moving water."
          ],
          "at": 0,
          "whys": [
           null,
-          "Wide feet don't make camels run fast.",
-          "Feet don't stop camels getting hot."
+          "'Too small' is what Jamal's FRIENDS thought.",
+          "Moving water is Jamal's plan for his next model."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s8-r-word2",
+          "id": "s8-r-model",
           "kind": "text",
-          "head": "From a fact book",
-          "html": "Camels can survive for days without water. Their thick eyelashes protect their eyes from the sand, and their wide feet stop them from *sinking* into it."
+          "head": "From a magazine article",
+          "html": "Jamal and his friends made a model of a lost city for the school science fair. His friends thought it was too small, but their teacher said the tiny details were the best thing about it. Jamal now wants to make a bigger model with moving water."
+         }
+        },
+        {
+         "hint": {
+          "step": "Lan's friends have one idea. What would LAN rather do?"
+         },
+         "worked": "'She would rather <b>make one copy for each person in her family</b>, as a present.'",
+         "type": "mcq",
+         "q": "What does Lan want to do with her book?",
+         "opts": [
+          "Give a copy to each person in her family.",
+          "Sell it at the school fair.",
+          "Write a second recipe book."
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Selling it is her FRIENDS' idea. Lan isn't sure about it.",
+          "The text doesn't talk about a second book."
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s8-r-recipes",
+          "kind": "text",
+          "head": "From a magazine article",
+          "html": "Lan has written a recipe book of her family's favourite dishes. Her friends say she should sell it at the school fair. Lan isn't sure. She would rather make one copy for each person in her family, as a present for the New Year."
          }
         }
        ]
@@ -1023,113 +991,75 @@
    "art": "icon-step-test",
    "title": "Exam style",
    "blurb": {
-    "en": "Match young people to texts, then read a longer article.",
-    "vi": "Nối người với văn bản phù hợp, rồi đọc một bài viết dài hơn."
+    "en": "Answer 'Which person?' questions, then read longer magazine articles.",
+    "vi": "Trả lời câu hỏi 'Bạn nào?', rồi đọc các bài tạp chí dài hơn."
    },
    "levels": [
     {
      "title": {
-      "en": "Part 5: match the person",
-      "vi": "Phần 5: nối người với văn bản"
+      "en": "Part 5: Which person?",
+      "vi": "Phần 5: Bạn nào?"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Rd.01",
-        "6Rm.01"
+        "5Rm.01",
+        "5Rd.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "Three wishes: wild animals, the sea, nights away. Which camp has all three?"
+          "step": "Find an illness in each text. Then check WHO could not go somewhere."
          },
-         "worked": "D: 'creatures that live in rock pools' (wild animals), 'snorkelling' in the sea and 'sleep in a beach house'. B has animals and tents but no sea; F has birds and a cabin but no sea.",
-         "type": "bank",
-         "q": "Hana: I'm crazy about animals and I want to learn how they live in the wild. I'd also love to swim in the sea. This summer, I'd like to sleep away from home for the first time.",
-         "bank": [
-          [
-           "A",
-           "<b>Riverside Sports Camp</b><br>Try a different sport every day, from basketball to canoeing on the river. The camp is for children aged 8 to 12, and no experience is needed. Lunch is included, and our coaches make sure everyone takes part. Mondays to Fridays, 9 a.m. to 3 p.m. Bring a swimsuit and a towel."
-          ],
-          [
-           "B",
-           "<b>Green Hill Farm Camp</b><br>Spend five days on a real farm. Feed the goats, collect eggs and learn how vegetables are grown. You'll sleep in big tents with your group and cook dinner on a campfire. For ages 10 to 13. Please note: the farm has no internet, so leave your tablets at home!"
-          ],
-          [
-           "C",
-           "<b>Code Club Camp</b><br>Learn to make your own simple computer game in one week. Each child has a laptop to use, so you don't need to bring one. Classes are in the morning only. In the afternoon, you can relax in our garden or play board games. Beginners welcome. Ages 9 to 12."
-          ],
-          [
-           "D",
-           "<b>Wild Ocean Camp</b><br>Discover the creatures that live in rock pools and find out how they survive when the sea goes out. You'll go snorkelling with our experts (you must be able to swim 50 metres) and sleep in a beach house by the sea. One week, ages 10 to 14."
-          ],
-          [
-           "E",
-           "<b>Starlight Drama Camp</b><br>Write your own play with a group of new friends and perform it for your families on the last day. There are also lessons in singing and dancing. Day camp, 10 a.m. to 4 p.m., in the city centre. Ages 8 to 11. Shy children are very welcome, too."
-          ],
-          [
-           "F",
-           "<b>Mountain Explorers Camp</b><br>Go hiking, climbing and bird-watching in the mountains. Experienced leaders teach you how to read a map and use a compass. You sleep in a wooden cabin and come home after seven days. You should be fit and enjoy walking for several hours a day. Ages 11 to 14."
-          ],
-          [
-           "G",
-           "<b>Junior Chefs Camp</b><br>Find out how to cook tasty, healthy meals that you can make at home. Every day you'll learn a new recipe, from fresh salads to vegetable soup. You'll also visit a market and choose your own fruit and vegetables. Day camp, afternoons only. Ages 9 to 12."
-          ]
+         "worked": "Poppy: 'my baby brother had <b>a high fever</b> the day before, so <b>we couldn't go</b>.'",
+         "type": "mcq",
+         "q": "Which person couldn't go somewhere because someone in the family was ill?",
+         "opts": [
+          "Poppy",
+          "Quan",
+          "Adam"
          ],
-         "ans": "D",
+         "at": 1,
+         "whys": [
+          null,
+          "Quan's cousin had a cold, but Quan still went to the party and sang.",
+          "Nobody is ill in Adam's text: his problem was the missing sugar."
+         ],
+         "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s8-a-camps",
+          "id": "s8-a-p5-plans",
           "kind": "text",
-          "head": "Summer camps",
-          "html": "Read about seven summer camps (A to G). Which camp would be best for each young person?"
+          "head": "Part 5: a magazine page",
+          "html": "<b>A celebration that didn't go to plan</b><br><br><b>Adam</b><br>Last month it was my dad's birthday, and I wanted to make him a chocolate cake on my own. I followed a recipe from Grandma's old cookbook, but I was in a hurry and I forgot to add the sugar! The cake looked perfect, but it tasted terrible. I was really upset. Dad just laughed and ate two big pieces anyway. He said it was the thought that counted. After that day, I asked Mum if I could join a baking class. Now I go every Saturday, and I always read the recipe twice.<br><br><b>Poppy</b><br>Every year, my family goes to the city centre on New Year's Eve to watch the fireworks. This year, my baby brother had a high fever the day before, so we couldn't go. At first, I was so disappointed that I didn't want to talk to anyone. Then Dad had an idea. We made hot chocolate, wrapped ourselves in blankets and watched the fireworks from the balcony of our flat. They were small and far away, but we were all together. To be honest, it was the cosiest New Year ever.<br><br><b>Quan</b><br>At the end of term, our class had a party, and I agreed to sing a song. My cousin was going to play the guitar for me, but he had a bad cold, so I had to sing alone. When I stood up, I forgot the words of the second verse! My face went red and I wanted to run away. Then my best friend started singing with me, and soon the whole class joined in. Afterwards, my teacher said that everybody gets nervous, even famous singers. Next term, I'm going to try again."
          }
         },
         {
          "hint": {
-          "step": "'Real facts' = non-fiction. 'Listen to a book' = which word in the texts?"
+          "step": "Which child was ill BEFORE something they had practised for?"
          },
-         "worked": "A: 'non-fiction', 'the bottom of the ocean' and 'available as an audiobook'. D and F are non-fiction too, but not about the sea and not audiobooks.",
-         "type": "bank",
-         "q": "Tariq: I prefer real facts to made-up stories, and I'm really interested in the sea. We're going on a long car journey soon, so I'd like to listen to a book instead of reading it.",
-         "bank": [
-          [
-           "A",
-           "<b>Deep Blue Secrets</b><br>This non-fiction book takes you to the bottom of the ocean. Amazing photos show strange fish that make their own light. Each short chapter ends with a quiz to test what you've learned. Great for readers who love facts. It is also available as an audiobook."
-          ],
-          [
-           "B",
-           "<b>The Clockwork Bicycle</b><br>A funny adventure story about Pip, who finds an old bicycle in her grandad's shed. When she rides it, she travels back to the year 1890! There are lots of drawings on every page, and the chapters are short. Perfect for readers who don't usually enjoy long books."
-          ],
-          [
-           "C",
-           "<b>Running Against the Wind</b><br>Ines dreams of winning the city marathon, but an injury changes everything. This exciting story is about never giving up. It is quite long (300 pages), so it's best for confident readers. There are no pictures, but the writing makes you feel that you are running beside her."
-          ],
-          [
-           "D",
-           "<b>Inventions That Changed the World</b><br>From the wheel to the smartphone, find out how forty inventions were made and who invented them. Each page has a timeline and colourful pictures. The book also includes simple experiments that you can try at home with an adult. Non-fiction, 96 pages."
-          ],
-          [
-           "E",
-           "<b>My Grandmother's Garden</b><br>A gentle story told by a boy who spends the summer with his grandmother. Together they grow vegetables, look after bees and find out how plants grow. It is sad in places, but full of hope. The book has short chapters and beautiful paintings."
-          ],
-          [
-           "F",
-           "<b>Get Fit, Have Fun</b><br>This practical book gives you twenty easy exercises and healthy snack ideas for busy children. There are clear photos showing each step, and a weekly chart so that you can record your progress. Non-fiction, written by a school PE teacher. Includes a free poster."
-          ],
-          [
-           "G",
-           "<b>Night at the Animal Hospital</b><br>A mystery story set in a busy animal hospital. Someone is letting the animals out at night, and twins Kit and Pia must find out who. There are lots of surprises and a very funny parrot. Over 250 pages, no pictures. Part of a series of six books."
-          ]
+         "worked": "Lan: 'It was the week of our <b>school dance show</b>... I <b>had practised so hard</b>.'",
+         "type": "mcq",
+         "q": "Which person missed an event they had prepared for?",
+         "opts": [
+          "Lan",
+          "Jamal",
+          "Kira"
          ],
-         "ans": "A",
+         "at": 1,
+         "whys": [
+          null,
+          "Jamal went to the party; he was ill AFTER it, not before.",
+          "Kira went on the camping trip; the bites came during it."
+         ],
+         "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s8-a-books",
+          "id": "s8-a-p5-ill",
           "kind": "text",
-          "head": "Books for young readers",
-          "html": "Read about seven books (A to G). Which book would be best for each young person?"
+          "head": "Part 5: a magazine page",
+          "html": "<b>The week I was ill</b><br><br><b>Lan</b><br>In March, I had a terrible cough and a fever. It was the week of our school dance show, and I was in the front row. The doctor said I needed to stay in bed for five days. I cried, because I had practised so hard. My friend recorded the whole show on her mum's phone, and we watched it together when I felt better. I learned that my body needs rest when it is tired. Now I go to bed at nine o'clock, even at the weekend.<br><br><b>Kira</b><br>Last summer, my family went camping by a lake. I didn't want to use the insect repellent, because I hate the smell. That was a big mistake! The next morning, I had twenty mosquito bites on my arms and legs. They were so itchy that I couldn't sleep. Mum took me to a doctor, who gave me some cream. Now I always use repellent, even though it smells bad. I also made a poster for my class about how to stop mosquito bites.<br><br><b>Jamal</b><br>At my cousin's birthday party, I ate far too many sweets and three pieces of cake. That night I had a terrible stomach ache, and I felt dizzy when I stood up. The next day, Grandpa made me a bowl of rice soup with a pinch of ginger. It was simple, but it made me feel much better. Grandpa told me that our bodies need fruit, vegetables and protein, not just sugar. Now I eat an apple or a banana after school instead of sweets."
          }
         }
        ]
@@ -1137,100 +1067,62 @@
       {
        "mode": "your",
        "lo": [
-        "6Rd.01",
-        "6Rm.01"
+        "5Rm.01",
+        "5Rd.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "Check the time of day and the laptop, not only the computer."
+          "step": "Look at the END of each text. What does each child do after the day?"
          },
-         "worked": "C: 'make your own simple computer game', 'Classes are in the morning only', 'relax' in the afternoon, and 'Each child has a laptop to use'. G is afternoons only.",
-         "type": "bank",
-         "q": "Arlo: I'm not very sporty, but I enjoy making things on the computer. I want a camp where I learn something new in the mornings and have free time later in the day. I don't have my own laptop.",
-         "bank": [
-          [
-           "A",
-           "<b>Riverside Sports Camp</b><br>Try a different sport every day, from basketball to canoeing on the river. The camp is for children aged 8 to 12, and no experience is needed. Lunch is included, and our coaches make sure everyone takes part. Mondays to Fridays, 9 a.m. to 3 p.m. Bring a swimsuit and a towel."
-          ],
-          [
-           "B",
-           "<b>Green Hill Farm Camp</b><br>Spend five days on a real farm. Feed the goats, collect eggs and learn how vegetables are grown. You'll sleep in big tents with your group and cook dinner on a campfire. For ages 10 to 13. Please note: the farm has no internet, so leave your tablets at home!"
-          ],
-          [
-           "C",
-           "<b>Code Club Camp</b><br>Learn to make your own simple computer game in one week. Each child has a laptop to use, so you don't need to bring one. Classes are in the morning only. In the afternoon, you can relax in our garden or play board games. Beginners welcome. Ages 9 to 12."
-          ],
-          [
-           "D",
-           "<b>Wild Ocean Camp</b><br>Discover the creatures that live in rock pools and find out how they survive when the sea goes out. You'll go snorkelling with our experts (you must be able to swim 50 metres) and sleep in a beach house by the sea. One week, ages 10 to 14."
-          ],
-          [
-           "E",
-           "<b>Starlight Drama Camp</b><br>Write your own play with a group of new friends and perform it for your families on the last day. There are also lessons in singing and dancing. Day camp, 10 a.m. to 4 p.m., in the city centre. Ages 8 to 11. Shy children are very welcome, too."
-          ],
-          [
-           "F",
-           "<b>Mountain Explorers Camp</b><br>Go hiking, climbing and bird-watching in the mountains. Experienced leaders teach you how to read a map and use a compass. You sleep in a wooden cabin and come home after seven days. You should be fit and enjoy walking for several hours a day. Ages 11 to 14."
-          ],
-          [
-           "G",
-           "<b>Junior Chefs Camp</b><br>Find out how to cook tasty, healthy meals that you can make at home. Every day you'll learn a new recipe, from fresh salads to vegetable soup. You'll also visit a market and choose your own fruit and vegetables. Day camp, afternoons only. Ages 9 to 12."
-          ]
+         "worked": "Adam: 'I asked Mum if I could <b>join a baking class</b>. Now I go every Saturday.'",
+         "type": "mcq",
+         "q": "Which person started to learn a new skill after the day?",
+         "opts": [
+          "Adam",
+          "Quan",
+          "Poppy"
          ],
-         "ans": "C",
+         "at": 0,
+         "whys": [
+          null,
+          "Quan wants to try singing again, but singing isn't new for him.",
+          "Poppy's dad had a new idea, but Poppy didn't start learning anything."
+         ],
+         "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s8-a-camps",
+          "id": "s8-a-p5-plans",
           "kind": "text",
-          "head": "Summer camps",
-          "html": "Read about seven summer camps (A to G). Which camp would be best for each young person?"
+          "head": "Part 5: a magazine page",
+          "html": "<b>A celebration that didn't go to plan</b><br><br><b>Adam</b><br>Last month it was my dad's birthday, and I wanted to make him a chocolate cake on my own. I followed a recipe from Grandma's old cookbook, but I was in a hurry and I forgot to add the sugar! The cake looked perfect, but it tasted terrible. I was really upset. Dad just laughed and ate two big pieces anyway. He said it was the thought that counted. After that day, I asked Mum if I could join a baking class. Now I go every Saturday, and I always read the recipe twice.<br><br><b>Poppy</b><br>Every year, my family goes to the city centre on New Year's Eve to watch the fireworks. This year, my baby brother had a high fever the day before, so we couldn't go. At first, I was so disappointed that I didn't want to talk to anyone. Then Dad had an idea. We made hot chocolate, wrapped ourselves in blankets and watched the fireworks from the balcony of our flat. They were small and far away, but we were all together. To be honest, it was the cosiest New Year ever.<br><br><b>Quan</b><br>At the end of term, our class had a party, and I agreed to sing a song. My cousin was going to play the guitar for me, but he had a bad cold, so I had to sing alone. When I stood up, I forgot the words of the second verse! My face went red and I wanted to run away. Then my best friend started singing with me, and soon the whole class joined in. Afterwards, my teacher said that everybody gets nervous, even famous singers. Next term, I'm going to try again."
          }
         },
         {
          "hint": {
-          "step": "Three wishes: short chapters, pictures, funny. Check 'funny' carefully."
+          "step": "'Classmates' means the children in your class. Find 'class' in the texts."
          },
-         "worked": "B: 'A funny adventure story', 'lots of drawings on every page', 'the chapters are short'. E has short chapters and paintings, but it is 'gentle' and 'sad in places'.",
-         "type": "bank",
-         "q": "Mai: I find long books boring, so I want a story with short chapters and lots of pictures to look at. I also love stories that make me laugh out loud with my friends.",
-         "bank": [
-          [
-           "A",
-           "<b>Deep Blue Secrets</b><br>This non-fiction book takes you to the bottom of the ocean. Amazing photos show strange fish that make their own light. Each short chapter ends with a quiz to test what you've learned. Great for readers who love facts. It is also available as an audiobook."
-          ],
-          [
-           "B",
-           "<b>The Clockwork Bicycle</b><br>A funny adventure story about Pip, who finds an old bicycle in her grandad's shed. When she rides it, she travels back to the year 1890! There are lots of drawings on every page, and the chapters are short. Perfect for readers who don't usually enjoy long books."
-          ],
-          [
-           "C",
-           "<b>Running Against the Wind</b><br>Ines dreams of winning the city marathon, but an injury changes everything. This exciting story is about never giving up. It is quite long (300 pages), so it's best for confident readers. There are no pictures, but the writing makes you feel that you are running beside her."
-          ],
-          [
-           "D",
-           "<b>Inventions That Changed the World</b><br>From the wheel to the smartphone, find out how forty inventions were made and who invented them. Each page has a timeline and colourful pictures. The book also includes simple experiments that you can try at home with an adult. Non-fiction, 96 pages."
-          ],
-          [
-           "E",
-           "<b>My Grandmother's Garden</b><br>A gentle story told by a boy who spends the summer with his grandmother. Together they grow vegetables, look after bees and find out how plants grow. It is sad in places, but full of hope. The book has short chapters and beautiful paintings."
-          ],
-          [
-           "F",
-           "<b>Get Fit, Have Fun</b><br>This practical book gives you twenty easy exercises and healthy snack ideas for busy children. There are clear photos showing each step, and a weekly chart so that you can record your progress. Non-fiction, written by a school PE teacher. Includes a free poster."
-          ],
-          [
-           "G",
-           "<b>Night at the Animal Hospital</b><br>A mystery story set in a busy animal hospital. Someone is letting the animals out at night, and twins Kit and Pia must find out who. There are lots of surprises and a very funny parrot. Over 250 pages, no pictures. Part of a series of six books."
-          ]
+         "worked": "Kira: 'I made <b>a poster for my class</b> about how to stop mosquito bites.'",
+         "type": "mcq",
+         "q": "Which person told classmates how to stay safe?",
+         "opts": [
+          "Kira",
+          "Lan",
+          "Jamal"
          ],
-         "ans": "B",
+         "at": 2,
+         "whys": [
+          null,
+          "Lan watched a video with a friend, but she didn't teach her class anything.",
+          "Jamal learned from Grandpa; he doesn't say he told other children."
+         ],
+         "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s8-a-books",
+          "id": "s8-a-p5-ill",
           "kind": "text",
-          "head": "Books for young readers",
-          "html": "Read about seven books (A to G). Which book would be best for each young person?"
+          "head": "Part 5: a magazine page",
+          "html": "<b>The week I was ill</b><br><br><b>Lan</b><br>In March, I had a terrible cough and a fever. It was the week of our school dance show, and I was in the front row. The doctor said I needed to stay in bed for five days. I cried, because I had practised so hard. My friend recorded the whole show on her mum's phone, and we watched it together when I felt better. I learned that my body needs rest when it is tired. Now I go to bed at nine o'clock, even at the weekend.<br><br><b>Kira</b><br>Last summer, my family went camping by a lake. I didn't want to use the insect repellent, because I hate the smell. That was a big mistake! The next morning, I had twenty mosquito bites on my arms and legs. They were so itchy that I couldn't sleep. Mum took me to a doctor, who gave me some cream. Now I always use repellent, even though it smells bad. I also made a poster for my class about how to stop mosquito bites.<br><br><b>Jamal</b><br>At my cousin's birthday party, I ate far too many sweets and three pieces of cake. That night I had a terrible stomach ache, and I felt dizzy when I stood up. The next day, Grandpa made me a bowl of rice soup with a pinch of ginger. It was simple, but it made me feel much better. Grandpa told me that our bodies need fruit, vegetables and protein, not just sugar. Now I eat an apple or a banana after school instead of sweets."
          }
         }
        ]
@@ -1238,100 +1130,62 @@
       {
        "mode": "your",
        "lo": [
-        "6Rd.01",
-        "6Rm.01"
+        "5Rm.01",
+        "5Rd.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "'Home every evening' means a day camp. Which day camp has a stage?"
+          "step": "All three children had a bad feeling. Who was told that everyone feels it?"
          },
-         "worked": "E: 'a group of new friends', 'Write your own play', 'perform it', 'Shy children are very welcome' and 'Day camp'. A and G are day camps, but there is no stage.",
-         "type": "bank",
-         "q": "Linh: I'd like to meet new people and do something creative. I'm quite shy, but I'd love to be on stage. I must be home every evening, because I help my mum look after my baby brother.",
-         "bank": [
-          [
-           "A",
-           "<b>Riverside Sports Camp</b><br>Try a different sport every day, from basketball to canoeing on the river. The camp is for children aged 8 to 12, and no experience is needed. Lunch is included, and our coaches make sure everyone takes part. Mondays to Fridays, 9 a.m. to 3 p.m. Bring a swimsuit and a towel."
-          ],
-          [
-           "B",
-           "<b>Green Hill Farm Camp</b><br>Spend five days on a real farm. Feed the goats, collect eggs and learn how vegetables are grown. You'll sleep in big tents with your group and cook dinner on a campfire. For ages 10 to 13. Please note: the farm has no internet, so leave your tablets at home!"
-          ],
-          [
-           "C",
-           "<b>Code Club Camp</b><br>Learn to make your own simple computer game in one week. Each child has a laptop to use, so you don't need to bring one. Classes are in the morning only. In the afternoon, you can relax in our garden or play board games. Beginners welcome. Ages 9 to 12."
-          ],
-          [
-           "D",
-           "<b>Wild Ocean Camp</b><br>Discover the creatures that live in rock pools and find out how they survive when the sea goes out. You'll go snorkelling with our experts (you must be able to swim 50 metres) and sleep in a beach house by the sea. One week, ages 10 to 14."
-          ],
-          [
-           "E",
-           "<b>Starlight Drama Camp</b><br>Write your own play with a group of new friends and perform it for your families on the last day. There are also lessons in singing and dancing. Day camp, 10 a.m. to 4 p.m., in the city centre. Ages 8 to 11. Shy children are very welcome, too."
-          ],
-          [
-           "F",
-           "<b>Mountain Explorers Camp</b><br>Go hiking, climbing and bird-watching in the mountains. Experienced leaders teach you how to read a map and use a compass. You sleep in a wooden cabin and come home after seven days. You should be fit and enjoy walking for several hours a day. Ages 11 to 14."
-          ],
-          [
-           "G",
-           "<b>Junior Chefs Camp</b><br>Find out how to cook tasty, healthy meals that you can make at home. Every day you'll learn a new recipe, from fresh salads to vegetable soup. You'll also visit a market and choose your own fruit and vegetables. Day camp, afternoons only. Ages 9 to 12."
-          ]
+         "worked": "Quan: 'my teacher said that <b>everybody gets nervous</b>, even famous singers.'",
+         "type": "mcq",
+         "q": "Which person learned that their feeling was normal?",
+         "opts": [
+          "Quan",
+          "Poppy",
+          "Adam"
          ],
-         "ans": "E",
+         "at": 2,
+         "whys": [
+          null,
+          "Poppy was disappointed, but nobody tells her that this feeling is normal.",
+          "Dad told Adam 'it was the thought that counted', not that his feeling was normal."
+         ],
+         "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s8-a-camps",
+          "id": "s8-a-p5-plans",
           "kind": "text",
-          "head": "Summer camps",
-          "html": "Read about seven summer camps (A to G). Which camp would be best for each young person?"
+          "head": "Part 5: a magazine page",
+          "html": "<b>A celebration that didn't go to plan</b><br><br><b>Adam</b><br>Last month it was my dad's birthday, and I wanted to make him a chocolate cake on my own. I followed a recipe from Grandma's old cookbook, but I was in a hurry and I forgot to add the sugar! The cake looked perfect, but it tasted terrible. I was really upset. Dad just laughed and ate two big pieces anyway. He said it was the thought that counted. After that day, I asked Mum if I could join a baking class. Now I go every Saturday, and I always read the recipe twice.<br><br><b>Poppy</b><br>Every year, my family goes to the city centre on New Year's Eve to watch the fireworks. This year, my baby brother had a high fever the day before, so we couldn't go. At first, I was so disappointed that I didn't want to talk to anyone. Then Dad had an idea. We made hot chocolate, wrapped ourselves in blankets and watched the fireworks from the balcony of our flat. They were small and far away, but we were all together. To be honest, it was the cosiest New Year ever.<br><br><b>Quan</b><br>At the end of term, our class had a party, and I agreed to sing a song. My cousin was going to play the guitar for me, but he had a bad cold, so I had to sing alone. When I stood up, I forgot the words of the second verse! My face went red and I wanted to run away. Then my best friend started singing with me, and soon the whole class joined in. Afterwards, my teacher said that everybody gets nervous, even famous singers. Next term, I'm going to try again."
          }
         },
         {
          "hint": {
-          "step": "He wants a long story AND sport. Which long story is about sport?"
+          "step": "All three children changed a habit. Which habit is about food?"
          },
-         "worked": "C: a marathon story, 'exciting', '300 pages', 'best for confident readers'. G is long and exciting but not about sport; F is about sport but is non-fiction.",
-         "type": "bank",
-         "q": "Owen: I'm a fast reader and I love long books that I can't stop reading. I'm really into sport, but I want an exciting story this time, not a book of facts.",
-         "bank": [
-          [
-           "A",
-           "<b>Deep Blue Secrets</b><br>This non-fiction book takes you to the bottom of the ocean. Amazing photos show strange fish that make their own light. Each short chapter ends with a quiz to test what you've learned. Great for readers who love facts. It is also available as an audiobook."
-          ],
-          [
-           "B",
-           "<b>The Clockwork Bicycle</b><br>A funny adventure story about Pip, who finds an old bicycle in her grandad's shed. When she rides it, she travels back to the year 1890! There are lots of drawings on every page, and the chapters are short. Perfect for readers who don't usually enjoy long books."
-          ],
-          [
-           "C",
-           "<b>Running Against the Wind</b><br>Ines dreams of winning the city marathon, but an injury changes everything. This exciting story is about never giving up. It is quite long (300 pages), so it's best for confident readers. There are no pictures, but the writing makes you feel that you are running beside her."
-          ],
-          [
-           "D",
-           "<b>Inventions That Changed the World</b><br>From the wheel to the smartphone, find out how forty inventions were made and who invented them. Each page has a timeline and colourful pictures. The book also includes simple experiments that you can try at home with an adult. Non-fiction, 96 pages."
-          ],
-          [
-           "E",
-           "<b>My Grandmother's Garden</b><br>A gentle story told by a boy who spends the summer with his grandmother. Together they grow vegetables, look after bees and find out how plants grow. It is sad in places, but full of hope. The book has short chapters and beautiful paintings."
-          ],
-          [
-           "F",
-           "<b>Get Fit, Have Fun</b><br>This practical book gives you twenty easy exercises and healthy snack ideas for busy children. There are clear photos showing each step, and a weekly chart so that you can record your progress. Non-fiction, written by a school PE teacher. Includes a free poster."
-          ],
-          [
-           "G",
-           "<b>Night at the Animal Hospital</b><br>A mystery story set in a busy animal hospital. Someone is letting the animals out at night, and twins Kit and Pia must find out who. There are lots of surprises and a very funny parrot. Over 250 pages, no pictures. Part of a series of six books."
-          ]
+         "worked": "Jamal: 'Now I eat <b>an apple or a banana after school</b> instead of sweets.'",
+         "type": "mcq",
+         "q": "Which person now has a different snack after school?",
+         "opts": [
+          "Jamal",
+          "Lan",
+          "Kira"
          ],
-         "ans": "C",
+         "at": 1,
+         "whys": [
+          null,
+          "Lan changed her bedtime, not her food.",
+          "Kira changed how she protects her skin, not what she eats."
+         ],
+         "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s8-a-books",
+          "id": "s8-a-p5-ill",
           "kind": "text",
-          "head": "Books for young readers",
-          "html": "Read about seven books (A to G). Which book would be best for each young person?"
+          "head": "Part 5: a magazine page",
+          "html": "<b>The week I was ill</b><br><br><b>Lan</b><br>In March, I had a terrible cough and a fever. It was the week of our school dance show, and I was in the front row. The doctor said I needed to stay in bed for five days. I cried, because I had practised so hard. My friend recorded the whole show on her mum's phone, and we watched it together when I felt better. I learned that my body needs rest when it is tired. Now I go to bed at nine o'clock, even at the weekend.<br><br><b>Kira</b><br>Last summer, my family went camping by a lake. I didn't want to use the insect repellent, because I hate the smell. That was a big mistake! The next morning, I had twenty mosquito bites on my arms and legs. They were so itchy that I couldn't sleep. Mum took me to a doctor, who gave me some cream. Now I always use repellent, even though it smells bad. I also made a poster for my class about how to stop mosquito bites.<br><br><b>Jamal</b><br>At my cousin's birthday party, I ate far too many sweets and three pieces of cake. That night I had a terrible stomach ache, and I felt dizzy when I stood up. The next day, Grandpa made me a bowl of rice soup with a pinch of ginger. It was simple, but it made me feel much better. Grandpa told me that our bodies need fruit, vegetables and protein, not just sugar. Now I eat an apple or a banana after school instead of sweets."
          }
         }
        ]
@@ -1340,69 +1194,69 @@
     },
     {
      "title": {
-      "en": "Part 6: details in an article",
-      "vi": "Phần 6: chi tiết trong bài viết"
+      "en": "Part 6: what happened and why",
+      "vi": "Phần 6: chuyện gì xảy ra và vì sao"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Rd.01",
-        "6Ro.01"
+        "5Rd.01",
+        "5Rm.02"
        ],
        "v": [
         {
          "hint": {
-          "step": "Read the sentences just after 'nervous'."
+          "step": "Question 1 is about the start. Read paragraph 1."
          },
-         "worked": "'I had been stung once when I was six, and I still remembered how much it hurt.'",
+         "worked": "'In the main square, <b>an artist was drawing on the ground with chalk</b>.'",
          "type": "mcq",
-         "q": "Why was Nadia nervous before her visit?",
+         "q": "What gave Ollie the idea to draw with chalk?",
          "opts": [
-          "She remembered a bee sting from years before.",
-          "She was stung before, but it didn't hurt.",
-          "She didn't know how to wear a bee suit."
+          "He saw an artist's chalk picture on holiday.",
+          "He found a library book about chalk art.",
+          "His neighbours asked him for a picture."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
-          "She says she 'still remembered how much it hurt', so it did hurt.",
-          "Her uncle gave her the suit on the first morning; it isn't why she was nervous."
+          "He found the library book LATER, after his first pictures.",
+          "The text doesn't say his neighbours asked for anything."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s8-a-bees",
+          "id": "s8-a-p6-chalk",
           "kind": "text",
-          "head": "Part 6: an article",
-          "html": "<b>A sweet summer with the bees</b><br>by Nadia, aged 11<br><br>Last summer, I spent two weeks with my uncle, who keeps bees on a small farm near the hills. Before I went, I was quite nervous. I had been stung once when I was six, and I still remembered how much it hurt.<br><br>On my first morning, my uncle gave me a white suit, gloves and a hat with a net. 'Bees don't like dark colours,' he explained. I felt like an astronaut! He showed me how to move slowly and calmly. 'If you wave your arms around, the bees will think you are dangerous,' he said.<br><br>What surprised me most was how organised a hive is. Every bee has a job. Some clean, some look after the young bees and some fly out to collect nectar from flowers. The queen does nothing except lay eggs, up to two thousand a day!<br><br>My favourite task was collecting the honey. We lifted out the heavy frames, which were full of golden honey, and spun them in a machine. The kitchen got very sticky, but I didn't mind at all. The honey tasted much better than honey from the shop.<br><br>I have to admit that I was stung once, on my ankle. It hurt, but only for a few minutes, and I was proud that I stayed calm.<br><br>Now I tell everyone that bees are not our enemies. Without them, many fruits and vegetables could not grow. I'm already counting the days until next summer."
+          "head": "Part 6: a magazine article",
+          "html": "<b>Ollie's amazing chalk pictures</b><br><i>Nine-year-old Ollie has turned the pavement outside his home into a gallery.</i><br><br>Last summer, Ollie went on holiday to a seaside town with his parents. In the main square, an artist was drawing on the ground with chalk. Her picture looked like a deep hole full of water. Some people even walked around it!<br><br>At home, Ollie tried to make his own pictures, but they looked flat and boring. 'They were like a baby's drawings,' he laughs. Then he found a library book about pictures that trick the eye. It showed him how to shade one side of a shape so that it looks deep.<br><br>Now Ollie practises on the pavement outside his building every afternoon. He doesn't draw in the school playground, because the older children play football there and he worries they will run over his pictures.<br><br>His art teacher saw a photo of one picture, a giant curved staircase going down into the ground. She said that his shading was excellent, but she told him to draw the edges more carefully. 'She's right. My lines are a bit wobbly,' Ollie admits.<br><br>When it rains, Ollie's pictures disappear, but he doesn't mind. 'I just start a new one,' he says. Next, he wants to draw an enormous waterfall, and he hopes to make it at the school fair in June."
          }
         },
         {
          "hint": {
-          "step": "Read paragraph 1. What was 'strange'?"
+          "step": "The start of the story is in paragraph 1."
          },
-         "worked": "'His whole family sat in the same room, but nobody talked.'",
+         "worked": "'Daisy's little cousin was <b>bitten by mosquitoes and got a high fever</b>.'",
          "type": "mcq",
-         "q": "What did Huy notice about his family last spring?",
+         "q": "Why did Daisy start thinking about mosquitoes?",
          "opts": [
-          "They sat in one room in silence.",
-          "They argued about using the tablet.",
-          "They spent evenings in different rooms."
+          "Her cousin became ill after some bites.",
+          "Her teacher asked her to talk about insects.",
+          "Her mum read a blog about standing water."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
-          "Nobody argued: everyone was busy with their own screen.",
-          "They 'sat in the same room', not in different rooms."
+          "The teacher's talk came much later, after the blog.",
+          "Her mum suggested writing a blog; she didn't read one."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s8-a-phones",
+          "id": "s8-a-p6-blog",
           "kind": "text",
-          "head": "Part 6: an article",
-          "html": "<b>Huy's big idea: phone-free Sundays</b><br><br>Twelve-year-old Huy from Da Nang noticed something strange last spring. Every evening, his whole family sat in the same room, but nobody talked. His parents checked emails, his sister watched videos and Huy played games on his tablet. 'We were together, but we weren't really together,' he says.<br><br>So Huy made a suggestion. Every Sunday, from breakfast until dinner, all screens would go in a basket by the door. At first, his sister refused. 'She said it was the worst idea ever,' Huy laughs. His dad wasn't sure either, because he sometimes needs his phone for work. In the end, they agreed that he could check it once at lunchtime.<br><br>The first Sunday felt very long. Nobody knew what to do. But by the third week, things had changed. The family started cycling to the beach, cooking lunch together and playing card games. Huy's sister even found her old guitar and began practising again.<br><br>Huy doesn't think technology is bad. 'Phones are brilliant for lots of things, like calling my grandparents in Hanoi,' he explains. 'But we should be the boss of our phones, not the other way round.'<br><br>Now three of Huy's friends have started phone-free Sundays with their families too, and his teacher has asked him to give a talk to the whole school next month. Huy is a bit nervous about it. 'But I've got lots to say,' he smiles."
+          "head": "Part 6: a magazine article",
+          "html": "<b>Daisy's mosquito blog</b><br><i>Ten-year-old Daisy writes a blog to help families stay safe from mosquitoes.</i><br><br>Last rainy season, Daisy's little cousin was bitten by mosquitoes and got a high fever. He spent a week in hospital. He is well again now, but Daisy was very worried about him. She wanted to help other families, so that they wouldn't have the same problem.<br><br>Her mum suggested writing a blog. At first, Daisy didn't want to, because she thought her spelling wasn't good enough. But her mum checked every post with her, and Daisy slowly became more confident.<br><br>In her first post, Daisy explained that mosquitoes lay their eggs in standing water. She gave some tips: empty old buckets, sleep under a net and wear long sleeves in the evening. She didn't add any photos of her cousin, because he didn't want people to see him in hospital.<br><br>Daisy's teacher read the blog and said it was clear and really useful. She asked Daisy to talk about it in assembly. Some classmates thought a blog about insects would be boring, but now lots of them read it every week.<br><br>Next, Daisy wants to add short videos to her blog. She would also like to write about healthy breakfasts, because she knows that many children leave home without eating."
          }
         }
        ]
@@ -1410,61 +1264,62 @@
       {
        "mode": "your",
        "lo": [
-        "6Rd.01"
+        "5Rd.01",
+        "5Rm.02"
        ],
        "v": [
         {
          "hint": {
-          "step": "Find what the uncle 'said' after he showed her how to move."
+          "step": "Find 'library book' in paragraph 2 and read the next sentence."
          },
-         "worked": "'If you wave your arms around, the bees will think you are dangerous.'",
+         "worked": "'It showed him how to <b>shade one side of a shape so that it looks deep</b>.'",
          "type": "mcq",
-         "q": "Why did Nadia's uncle tell her to move slowly?",
+         "q": "What did the library book teach Ollie?",
          "opts": [
-          "so the bees wouldn't see her as a danger",
-          "so she wouldn't drop the heavy frames",
-          "because the suit was hard to walk in"
+          "how to make a flat shape look deep",
+          "how to draw a giant curved staircase",
+          "how to make his lines less wobbly"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
-          "The frames come later, when they collect honey.",
-          "She felt like an astronaut, but the suit isn't the reason."
+          "The staircase is a picture he drew later. The book was about shading.",
+          "His teacher talked about his lines, not the book."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s8-a-bees",
+          "id": "s8-a-p6-chalk",
           "kind": "text",
-          "head": "Part 6: an article",
-          "html": "<b>A sweet summer with the bees</b><br>by Nadia, aged 11<br><br>Last summer, I spent two weeks with my uncle, who keeps bees on a small farm near the hills. Before I went, I was quite nervous. I had been stung once when I was six, and I still remembered how much it hurt.<br><br>On my first morning, my uncle gave me a white suit, gloves and a hat with a net. 'Bees don't like dark colours,' he explained. I felt like an astronaut! He showed me how to move slowly and calmly. 'If you wave your arms around, the bees will think you are dangerous,' he said.<br><br>What surprised me most was how organised a hive is. Every bee has a job. Some clean, some look after the young bees and some fly out to collect nectar from flowers. The queen does nothing except lay eggs, up to two thousand a day!<br><br>My favourite task was collecting the honey. We lifted out the heavy frames, which were full of golden honey, and spun them in a machine. The kitchen got very sticky, but I didn't mind at all. The honey tasted much better than honey from the shop.<br><br>I have to admit that I was stung once, on my ankle. It hurt, but only for a few minutes, and I was proud that I stayed calm.<br><br>Now I tell everyone that bees are not our enemies. Without them, many fruits and vegetables could not grow. I'm already counting the days until next summer."
+          "head": "Part 6: a magazine article",
+          "html": "<b>Ollie's amazing chalk pictures</b><br><i>Nine-year-old Ollie has turned the pavement outside his home into a gallery.</i><br><br>Last summer, Ollie went on holiday to a seaside town with his parents. In the main square, an artist was drawing on the ground with chalk. Her picture looked like a deep hole full of water. Some people even walked around it!<br><br>At home, Ollie tried to make his own pictures, but they looked flat and boring. 'They were like a baby's drawings,' he laughs. Then he found a library book about pictures that trick the eye. It showed him how to shade one side of a shape so that it looks deep.<br><br>Now Ollie practises on the pavement outside his building every afternoon. He doesn't draw in the school playground, because the older children play football there and he worries they will run over his pictures.<br><br>His art teacher saw a photo of one picture, a giant curved staircase going down into the ground. She said that his shading was excellent, but she told him to draw the edges more carefully. 'She's right. My lines are a bit wobbly,' Ollie admits.<br><br>When it rains, Ollie's pictures disappear, but he doesn't mind. 'I just start a new one,' he says. Next, he wants to draw an enormous waterfall, and he hopes to make it at the school fair in June."
          }
         },
         {
          "hint": {
-          "step": "Find 'His dad wasn't sure' and read the word 'because'."
+          "step": "Find 'first post' in paragraph 3."
          },
-         "worked": "'His dad wasn't sure either, <b>because</b> he sometimes needs his phone for work.'",
+         "worked": "'Mosquitoes <b>lay their eggs in standing water</b>.' Standing water is water that doesn't move.",
          "type": "mcq",
-         "q": "Why wasn't Huy's dad sure about the idea?",
+         "q": "What did Daisy explain in her first post?",
          "opts": [
-          "He sometimes needs his phone for his job.",
-          "He didn't want to stop watching videos.",
-          "He liked it, but thought Sundays would be long."
+          "Mosquitoes lay eggs in water that doesn't move.",
+          "Mosquitoes bite most often in hospitals.",
+          "Children should only go out in the evening."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
-          "It was Huy's sister who watched videos.",
-          "The dad 'wasn't sure', and the long Sunday came later, so this isn't his reason."
+          "The hospital is where her cousin stayed, not where mosquitoes bite most.",
+          "She says wear long sleeves IN the evening, not go out only then."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s8-a-phones",
+          "id": "s8-a-p6-blog",
           "kind": "text",
-          "head": "Part 6: an article",
-          "html": "<b>Huy's big idea: phone-free Sundays</b><br><br>Twelve-year-old Huy from Da Nang noticed something strange last spring. Every evening, his whole family sat in the same room, but nobody talked. His parents checked emails, his sister watched videos and Huy played games on his tablet. 'We were together, but we weren't really together,' he says.<br><br>So Huy made a suggestion. Every Sunday, from breakfast until dinner, all screens would go in a basket by the door. At first, his sister refused. 'She said it was the worst idea ever,' Huy laughs. His dad wasn't sure either, because he sometimes needs his phone for work. In the end, they agreed that he could check it once at lunchtime.<br><br>The first Sunday felt very long. Nobody knew what to do. But by the third week, things had changed. The family started cycling to the beach, cooking lunch together and playing card games. Huy's sister even found her old guitar and began practising again.<br><br>Huy doesn't think technology is bad. 'Phones are brilliant for lots of things, like calling my grandparents in Hanoi,' he explains. 'But we should be the boss of our phones, not the other way round.'<br><br>Now three of Huy's friends have started phone-free Sundays with their families too, and his teacher has asked him to give a talk to the whole school next month. Huy is a bit nervous about it. 'But I've got lots to say,' he smiles."
+          "head": "Part 6: a magazine article",
+          "html": "<b>Daisy's mosquito blog</b><br><i>Ten-year-old Daisy writes a blog to help families stay safe from mosquitoes.</i><br><br>Last rainy season, Daisy's little cousin was bitten by mosquitoes and got a high fever. He spent a week in hospital. He is well again now, but Daisy was very worried about him. She wanted to help other families, so that they wouldn't have the same problem.<br><br>Her mum suggested writing a blog. At first, Daisy didn't want to, because she thought her spelling wasn't good enough. But her mum checked every post with her, and Daisy slowly became more confident.<br><br>In her first post, Daisy explained that mosquitoes lay their eggs in standing water. She gave some tips: empty old buckets, sleep under a net and wear long sleeves in the evening. She didn't add any photos of her cousin, because he didn't want people to see him in hospital.<br><br>Daisy's teacher read the blog and said it was clear and really useful. She asked Daisy to talk about it in assembly. Some classmates thought a blog about insects would be boring, but now lots of them read it every week.<br><br>Next, Daisy wants to add short videos to her blog. She would also like to write about healthy breakfasts, because she knows that many children leave home without eating."
          }
         }
        ]
@@ -1472,62 +1327,62 @@
       {
        "mode": "your",
        "lo": [
-        "6Rd.01",
-        "6Rm.01"
+        "5Rd.01",
+        "5Rm.02"
        ],
        "v": [
         {
          "hint": {
-          "step": "Look for the words 'surprised me most'."
+          "step": "Find 'because' in paragraph 3."
          },
-         "worked": "'What surprised me most was how organised a hive is. Every bee has a job.'",
+         "worked": "'The older children <b>play football</b> there and he worries they will <b>run over his pictures</b>.'",
          "type": "mcq",
-         "q": "What surprised Nadia most?",
+         "q": "Why doesn't Ollie draw in the school playground?",
          "opts": [
-          "that every bee in a hive has a job",
-          "that the queen collects the most nectar",
-          "that bees don't like dark colours"
+          "He thinks footballers might spoil his pictures.",
+          "His art teacher told him not to draw there.",
+          "He wants his neighbours to watch him."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
-          "The queen 'does nothing except lay eggs'.",
-          "Her uncle told her this, but it wasn't the biggest surprise."
+          "His teacher only talked about his shading and edges.",
+          "The text doesn't give this as a reason."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s8-a-bees",
+          "id": "s8-a-p6-chalk",
           "kind": "text",
-          "head": "Part 6: an article",
-          "html": "<b>A sweet summer with the bees</b><br>by Nadia, aged 11<br><br>Last summer, I spent two weeks with my uncle, who keeps bees on a small farm near the hills. Before I went, I was quite nervous. I had been stung once when I was six, and I still remembered how much it hurt.<br><br>On my first morning, my uncle gave me a white suit, gloves and a hat with a net. 'Bees don't like dark colours,' he explained. I felt like an astronaut! He showed me how to move slowly and calmly. 'If you wave your arms around, the bees will think you are dangerous,' he said.<br><br>What surprised me most was how organised a hive is. Every bee has a job. Some clean, some look after the young bees and some fly out to collect nectar from flowers. The queen does nothing except lay eggs, up to two thousand a day!<br><br>My favourite task was collecting the honey. We lifted out the heavy frames, which were full of golden honey, and spun them in a machine. The kitchen got very sticky, but I didn't mind at all. The honey tasted much better than honey from the shop.<br><br>I have to admit that I was stung once, on my ankle. It hurt, but only for a few minutes, and I was proud that I stayed calm.<br><br>Now I tell everyone that bees are not our enemies. Without them, many fruits and vegetables could not grow. I'm already counting the days until next summer."
+          "head": "Part 6: a magazine article",
+          "html": "<b>Ollie's amazing chalk pictures</b><br><i>Nine-year-old Ollie has turned the pavement outside his home into a gallery.</i><br><br>Last summer, Ollie went on holiday to a seaside town with his parents. In the main square, an artist was drawing on the ground with chalk. Her picture looked like a deep hole full of water. Some people even walked around it!<br><br>At home, Ollie tried to make his own pictures, but they looked flat and boring. 'They were like a baby's drawings,' he laughs. Then he found a library book about pictures that trick the eye. It showed him how to shade one side of a shape so that it looks deep.<br><br>Now Ollie practises on the pavement outside his building every afternoon. He doesn't draw in the school playground, because the older children play football there and he worries they will run over his pictures.<br><br>His art teacher saw a photo of one picture, a giant curved staircase going down into the ground. She said that his shading was excellent, but she told him to draw the edges more carefully. 'She's right. My lines are a bit wobbly,' Ollie admits.<br><br>When it rains, Ollie's pictures disappear, but he doesn't mind. 'I just start a new one,' he says. Next, he wants to draw an enormous waterfall, and he hopes to make it at the school fair in June."
          }
         },
         {
          "hint": {
-          "step": "Read the sentences after 'by the third week'."
+          "step": "Find 'photos' and read the words after 'because'."
          },
-         "worked": "'The family started cycling to the beach, cooking lunch together and playing card games.'",
+         "worked": "'He <b>didn't want people to see him in hospital</b>.'",
          "type": "mcq",
-         "q": "What had changed by the third week?",
+         "q": "Why are there no photos of Daisy's cousin on the blog?",
          "opts": [
-          "The family found new things to do together.",
-          "The family decided to stop the idea.",
-          "Huy's sister bought a new guitar."
+          "He didn't want people to see him ill.",
+          "Her mum said photos weren't safe online.",
+          "Daisy wanted to add videos instead."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
-          "They didn't stop: they started cycling, cooking and playing games.",
-          "She found her *old* guitar; she didn't buy one."
+          "Her mum checked the spelling; she said nothing about photos.",
+          "The videos are a plan for the future, not the reason."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s8-a-phones",
+          "id": "s8-a-p6-blog",
           "kind": "text",
-          "head": "Part 6: an article",
-          "html": "<b>Huy's big idea: phone-free Sundays</b><br><br>Twelve-year-old Huy from Da Nang noticed something strange last spring. Every evening, his whole family sat in the same room, but nobody talked. His parents checked emails, his sister watched videos and Huy played games on his tablet. 'We were together, but we weren't really together,' he says.<br><br>So Huy made a suggestion. Every Sunday, from breakfast until dinner, all screens would go in a basket by the door. At first, his sister refused. 'She said it was the worst idea ever,' Huy laughs. His dad wasn't sure either, because he sometimes needs his phone for work. In the end, they agreed that he could check it once at lunchtime.<br><br>The first Sunday felt very long. Nobody knew what to do. But by the third week, things had changed. The family started cycling to the beach, cooking lunch together and playing card games. Huy's sister even found her old guitar and began practising again.<br><br>Huy doesn't think technology is bad. 'Phones are brilliant for lots of things, like calling my grandparents in Hanoi,' he explains. 'But we should be the boss of our phones, not the other way round.'<br><br>Now three of Huy's friends have started phone-free Sundays with their families too, and his teacher has asked him to give a talk to the whole school next month. Huy is a bit nervous about it. 'But I've got lots to say,' he smiles."
+          "head": "Part 6: a magazine article",
+          "html": "<b>Daisy's mosquito blog</b><br><i>Ten-year-old Daisy writes a blog to help families stay safe from mosquitoes.</i><br><br>Last rainy season, Daisy's little cousin was bitten by mosquitoes and got a high fever. He spent a week in hospital. He is well again now, but Daisy was very worried about him. She wanted to help other families, so that they wouldn't have the same problem.<br><br>Her mum suggested writing a blog. At first, Daisy didn't want to, because she thought her spelling wasn't good enough. But her mum checked every post with her, and Daisy slowly became more confident.<br><br>In her first post, Daisy explained that mosquitoes lay their eggs in standing water. She gave some tips: empty old buckets, sleep under a net and wear long sleeves in the evening. She didn't add any photos of her cousin, because he didn't want people to see him in hospital.<br><br>Daisy's teacher read the blog and said it was clear and really useful. She asked Daisy to talk about it in assembly. Some classmates thought a blog about insects would be boring, but now lots of them read it every week.<br><br>Next, Daisy wants to add short videos to her blog. She would also like to write about healthy breakfasts, because she knows that many children leave home without eating."
          }
         }
        ]
@@ -1536,68 +1391,132 @@
     },
     {
      "title": {
-      "en": "Part 6: feelings, opinions and the whole text",
-      "vi": "Phần 6: cảm xúc, ý kiến và cả bài"
+      "en": "Part 6: feelings, opinions and plans",
+      "vi": "Phần 6: cảm xúc, ý kiến và kế hoạch"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ro.01"
+        "5Rd.01",
+        "5Rm.02"
        ],
        "v": [
         {
          "hint": {
-          "step": "Find 'stung once, on my ankle' and read to the end of the sentence."
+          "step": "Find 'His art teacher' in paragraph 4. Read both parts of what she said."
          },
-         "worked": "'It hurt, but only for a few minutes, and I was <b>proud</b> that I stayed calm.'",
+         "worked": "'She said that his <b>shading was excellent</b>, but she told him to <b>draw the edges more carefully</b>.'",
          "type": "mcq",
-         "q": "How did Nadia feel about being stung on her ankle?",
+         "q": "What did Ollie's art teacher think of his work?",
          "opts": [
-          "It hurt, but she was pleased she stayed calm.",
-          "It didn't hurt, but she still wanted to go home.",
-          "She was angry because her gloves were missing."
+          "His shading was great, but his edges needed work.",
+          "His edges were great, but his shading needed work.",
+          "His staircase picture was too big for the pavement."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
-          "It did hurt for a few minutes, and she can't wait to go back next summer.",
-          "The article doesn't say anything about missing gloves."
+          "It's the other way round: the shading was excellent.",
+          "She didn't say anything about the size of the picture."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s8-a-bees",
+          "id": "s8-a-p6-chalk",
           "kind": "text",
-          "head": "Part 6: an article",
-          "html": "<b>A sweet summer with the bees</b><br>by Nadia, aged 11<br><br>Last summer, I spent two weeks with my uncle, who keeps bees on a small farm near the hills. Before I went, I was quite nervous. I had been stung once when I was six, and I still remembered how much it hurt.<br><br>On my first morning, my uncle gave me a white suit, gloves and a hat with a net. 'Bees don't like dark colours,' he explained. I felt like an astronaut! He showed me how to move slowly and calmly. 'If you wave your arms around, the bees will think you are dangerous,' he said.<br><br>What surprised me most was how organised a hive is. Every bee has a job. Some clean, some look after the young bees and some fly out to collect nectar from flowers. The queen does nothing except lay eggs, up to two thousand a day!<br><br>My favourite task was collecting the honey. We lifted out the heavy frames, which were full of golden honey, and spun them in a machine. The kitchen got very sticky, but I didn't mind at all. The honey tasted much better than honey from the shop.<br><br>I have to admit that I was stung once, on my ankle. It hurt, but only for a few minutes, and I was proud that I stayed calm.<br><br>Now I tell everyone that bees are not our enemies. Without them, many fruits and vegetables could not grow. I'm already counting the days until next summer."
+          "head": "Part 6: a magazine article",
+          "html": "<b>Ollie's amazing chalk pictures</b><br><i>Nine-year-old Ollie has turned the pavement outside his home into a gallery.</i><br><br>Last summer, Ollie went on holiday to a seaside town with his parents. In the main square, an artist was drawing on the ground with chalk. Her picture looked like a deep hole full of water. Some people even walked around it!<br><br>At home, Ollie tried to make his own pictures, but they looked flat and boring. 'They were like a baby's drawings,' he laughs. Then he found a library book about pictures that trick the eye. It showed him how to shade one side of a shape so that it looks deep.<br><br>Now Ollie practises on the pavement outside his building every afternoon. He doesn't draw in the school playground, because the older children play football there and he worries they will run over his pictures.<br><br>His art teacher saw a photo of one picture, a giant curved staircase going down into the ground. She said that his shading was excellent, but she told him to draw the edges more carefully. 'She's right. My lines are a bit wobbly,' Ollie admits.<br><br>When it rains, Ollie's pictures disappear, but he doesn't mind. 'I just start a new one,' he says. Next, he wants to draw an enormous waterfall, and he hopes to make it at the school fair in June."
          }
         },
         {
          "hint": {
-          "step": "Read paragraph 4. What does 'be the boss of our phones' mean?"
+          "step": "Find 'At first' in paragraph 2."
          },
-         "worked": "'Phones are brilliant for lots of things ... But we should be the boss of our phones.'",
+         "worked": "'At first, Daisy didn't want to, because she thought her <b>spelling wasn't good enough</b>.'",
          "type": "mcq",
-         "q": "What is Huy's opinion of technology?",
+         "q": "How did Daisy feel about writing a blog at first?",
          "opts": [
-          "It is useful if people stay in control.",
-          "It is bad for families, so people should stop.",
-          "It is useful, but only for calling grandparents."
+          "She was worried about her spelling.",
+          "She thought a blog was a boring idea.",
+          "She felt excited and very confident."
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "'Boring' is what some of her CLASSMATES thought.",
+          "She became confident LATER, with her mum's help."
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s8-a-p6-blog",
+          "kind": "text",
+          "head": "Part 6: a magazine article",
+          "html": "<b>Daisy's mosquito blog</b><br><i>Ten-year-old Daisy writes a blog to help families stay safe from mosquitoes.</i><br><br>Last rainy season, Daisy's little cousin was bitten by mosquitoes and got a high fever. He spent a week in hospital. He is well again now, but Daisy was very worried about him. She wanted to help other families, so that they wouldn't have the same problem.<br><br>Her mum suggested writing a blog. At first, Daisy didn't want to, because she thought her spelling wasn't good enough. But her mum checked every post with her, and Daisy slowly became more confident.<br><br>In her first post, Daisy explained that mosquitoes lay their eggs in standing water. She gave some tips: empty old buckets, sleep under a net and wear long sleeves in the evening. She didn't add any photos of her cousin, because he didn't want people to see him in hospital.<br><br>Daisy's teacher read the blog and said it was clear and really useful. She asked Daisy to talk about it in assembly. Some classmates thought a blog about insects would be boring, but now lots of them read it every week.<br><br>Next, Daisy wants to add short videos to her blog. She would also like to write about healthy breakfasts, because she knows that many children leave home without eating."
+         }
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Rd.01",
+        "5Rm.02"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Find 'When it rains' in paragraph 5."
+         },
+         "worked": "'Ollie's pictures disappear, but <b>he doesn't mind</b>. <b>I just start a new one</b>.'",
+         "type": "mcq",
+         "q": "How does Ollie feel when the rain washes his pictures away?",
+         "opts": [
+          "He isn't upset, because he can draw a new one.",
+          "He's sad, so he stops drawing for a while.",
+          "He's angry, because nobody can see them."
          ],
          "at": 2,
          "whys": [
           null,
-          "The article says 'Huy doesn't think technology is bad'.",
-          "Calling his grandparents is only one example of 'lots of things'."
+          "He 'doesn't mind' and starts again.",
+          "The text doesn't say he is angry."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s8-a-phones",
+          "id": "s8-a-p6-chalk",
           "kind": "text",
-          "head": "Part 6: an article",
-          "html": "<b>Huy's big idea: phone-free Sundays</b><br><br>Twelve-year-old Huy from Da Nang noticed something strange last spring. Every evening, his whole family sat in the same room, but nobody talked. His parents checked emails, his sister watched videos and Huy played games on his tablet. 'We were together, but we weren't really together,' he says.<br><br>So Huy made a suggestion. Every Sunday, from breakfast until dinner, all screens would go in a basket by the door. At first, his sister refused. 'She said it was the worst idea ever,' Huy laughs. His dad wasn't sure either, because he sometimes needs his phone for work. In the end, they agreed that he could check it once at lunchtime.<br><br>The first Sunday felt very long. Nobody knew what to do. But by the third week, things had changed. The family started cycling to the beach, cooking lunch together and playing card games. Huy's sister even found her old guitar and began practising again.<br><br>Huy doesn't think technology is bad. 'Phones are brilliant for lots of things, like calling my grandparents in Hanoi,' he explains. 'But we should be the boss of our phones, not the other way round.'<br><br>Now three of Huy's friends have started phone-free Sundays with their families too, and his teacher has asked him to give a talk to the whole school next month. Huy is a bit nervous about it. 'But I've got lots to say,' he smiles."
+          "head": "Part 6: a magazine article",
+          "html": "<b>Ollie's amazing chalk pictures</b><br><i>Nine-year-old Ollie has turned the pavement outside his home into a gallery.</i><br><br>Last summer, Ollie went on holiday to a seaside town with his parents. In the main square, an artist was drawing on the ground with chalk. Her picture looked like a deep hole full of water. Some people even walked around it!<br><br>At home, Ollie tried to make his own pictures, but they looked flat and boring. 'They were like a baby's drawings,' he laughs. Then he found a library book about pictures that trick the eye. It showed him how to shade one side of a shape so that it looks deep.<br><br>Now Ollie practises on the pavement outside his building every afternoon. He doesn't draw in the school playground, because the older children play football there and he worries they will run over his pictures.<br><br>His art teacher saw a photo of one picture, a giant curved staircase going down into the ground. She said that his shading was excellent, but she told him to draw the edges more carefully. 'She's right. My lines are a bit wobbly,' Ollie admits.<br><br>When it rains, Ollie's pictures disappear, but he doesn't mind. 'I just start a new one,' he says. Next, he wants to draw an enormous waterfall, and he hopes to make it at the school fair in June."
+         }
+        },
+        {
+         "hint": {
+          "step": "Find 'Daisy's teacher' in paragraph 4."
+         },
+         "worked": "'She said it was <b>clear and really useful</b>.'",
+         "type": "mcq",
+         "q": "What did Daisy's teacher think of the blog?",
+         "opts": [
+          "It was easy to understand and helpful.",
+          "It was boring, but the tips were good.",
+          "It needed some photos and videos."
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "'Boring' was the classmates' idea, and they changed their minds.",
+          "Videos are Daisy's own plan; the teacher didn't ask for them."
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s8-a-p6-blog",
+          "kind": "text",
+          "head": "Part 6: a magazine article",
+          "html": "<b>Daisy's mosquito blog</b><br><i>Ten-year-old Daisy writes a blog to help families stay safe from mosquitoes.</i><br><br>Last rainy season, Daisy's little cousin was bitten by mosquitoes and got a high fever. He spent a week in hospital. He is well again now, but Daisy was very worried about him. She wanted to help other families, so that they wouldn't have the same problem.<br><br>Her mum suggested writing a blog. At first, Daisy didn't want to, because she thought her spelling wasn't good enough. But her mum checked every post with her, and Daisy slowly became more confident.<br><br>In her first post, Daisy explained that mosquitoes lay their eggs in standing water. She gave some tips: empty old buckets, sleep under a net and wear long sleeves in the evening. She didn't add any photos of her cousin, because he didn't want people to see him in hospital.<br><br>Daisy's teacher read the blog and said it was clear and really useful. She asked Daisy to talk about it in assembly. Some classmates thought a blog about insects would be boring, but now lots of them read it every week.<br><br>Next, Daisy wants to add short videos to her blog. She would also like to write about healthy breakfasts, because she knows that many children leave home without eating."
          }
         }
        ]
@@ -1605,124 +1524,62 @@
       {
        "mode": "your",
        "lo": [
-        "6Ro.01"
+        "5Rd.01",
+        "5Rm.02"
        ],
        "v": [
         {
          "hint": {
-          "step": "Read the last paragraph. 'Now' tells you her opinion after the holiday."
+          "step": "Plans are at the end. Look for 'Next' and 'hopes to'."
          },
-         "worked": "'Now I tell everyone that bees are not our enemies.'",
+         "worked": "'Next, he wants to draw <b>an enormous waterfall</b>... at the <b>school fair</b> in June.'",
          "type": "mcq",
-         "q": "What does Nadia think about bees now?",
+         "q": "What does Ollie want to do next?",
          "opts": [
-          "People shouldn't be afraid of them.",
-          "Bees are useful, but people should keep away.",
-          "Only queen bees are really useful."
+          "Draw a huge waterfall at a school event.",
+          "Go back to the seaside town in June.",
+          "Draw a staircase in the playground."
          ],
          "at": 1,
          "whys": [
           null,
-          "She says bees are 'not our enemies', so she doesn't tell people to keep away.",
-          "She says that without bees fruits and vegetables could not grow."
+          "June is when the school fair is, not a trip to the seaside.",
+          "He doesn't draw in the playground, and the staircase is an old picture."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s8-a-bees",
+          "id": "s8-a-p6-chalk",
           "kind": "text",
-          "head": "Part 6: an article",
-          "html": "<b>A sweet summer with the bees</b><br>by Nadia, aged 11<br><br>Last summer, I spent two weeks with my uncle, who keeps bees on a small farm near the hills. Before I went, I was quite nervous. I had been stung once when I was six, and I still remembered how much it hurt.<br><br>On my first morning, my uncle gave me a white suit, gloves and a hat with a net. 'Bees don't like dark colours,' he explained. I felt like an astronaut! He showed me how to move slowly and calmly. 'If you wave your arms around, the bees will think you are dangerous,' he said.<br><br>What surprised me most was how organised a hive is. Every bee has a job. Some clean, some look after the young bees and some fly out to collect nectar from flowers. The queen does nothing except lay eggs, up to two thousand a day!<br><br>My favourite task was collecting the honey. We lifted out the heavy frames, which were full of golden honey, and spun them in a machine. The kitchen got very sticky, but I didn't mind at all. The honey tasted much better than honey from the shop.<br><br>I have to admit that I was stung once, on my ankle. It hurt, but only for a few minutes, and I was proud that I stayed calm.<br><br>Now I tell everyone that bees are not our enemies. Without them, many fruits and vegetables could not grow. I'm already counting the days until next summer."
+          "head": "Part 6: a magazine article",
+          "html": "<b>Ollie's amazing chalk pictures</b><br><i>Nine-year-old Ollie has turned the pavement outside his home into a gallery.</i><br><br>Last summer, Ollie went on holiday to a seaside town with his parents. In the main square, an artist was drawing on the ground with chalk. Her picture looked like a deep hole full of water. Some people even walked around it!<br><br>At home, Ollie tried to make his own pictures, but they looked flat and boring. 'They were like a baby's drawings,' he laughs. Then he found a library book about pictures that trick the eye. It showed him how to shade one side of a shape so that it looks deep.<br><br>Now Ollie practises on the pavement outside his building every afternoon. He doesn't draw in the school playground, because the older children play football there and he worries they will run over his pictures.<br><br>His art teacher saw a photo of one picture, a giant curved staircase going down into the ground. She said that his shading was excellent, but she told him to draw the edges more carefully. 'She's right. My lines are a bit wobbly,' Ollie admits.<br><br>When it rains, Ollie's pictures disappear, but he doesn't mind. 'I just start a new one,' he says. Next, he wants to draw an enormous waterfall, and he hopes to make it at the school fair in June."
          }
         },
         {
          "hint": {
-          "step": "Read the last two sentences together."
+          "step": "Plans are in the last paragraph. 'Healthy breakfasts' is the key idea."
          },
-         "worked": "'Huy is a bit nervous about it. But I've got lots to say.'",
+         "worked": "'She would also like to <b>write about healthy breakfasts</b>.'",
          "type": "mcq",
-         "q": "How does Huy feel about giving a talk to the school?",
+         "q": "What does Daisy hope to do in the future?",
          "opts": [
-          "a little nervous, but keen to speak",
-          "excited, but with nothing to say",
-          "bored, as he gives lots of talks"
+          "Write about eating before school.",
+          "Talk about her blog in assembly.",
+          "Visit her little cousin in hospital again."
          ],
          "at": 0,
          "whys": [
           null,
-          "He is 'a bit nervous', and he says 'I've got lots to say'.",
-          "The teacher has just asked him; nothing says he gives lots of talks."
+          "She has already talked in assembly.",
+          "Her cousin is well again now."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s8-a-phones",
+          "id": "s8-a-p6-blog",
           "kind": "text",
-          "head": "Part 6: an article",
-          "html": "<b>Huy's big idea: phone-free Sundays</b><br><br>Twelve-year-old Huy from Da Nang noticed something strange last spring. Every evening, his whole family sat in the same room, but nobody talked. His parents checked emails, his sister watched videos and Huy played games on his tablet. 'We were together, but we weren't really together,' he says.<br><br>So Huy made a suggestion. Every Sunday, from breakfast until dinner, all screens would go in a basket by the door. At first, his sister refused. 'She said it was the worst idea ever,' Huy laughs. His dad wasn't sure either, because he sometimes needs his phone for work. In the end, they agreed that he could check it once at lunchtime.<br><br>The first Sunday felt very long. Nobody knew what to do. But by the third week, things had changed. The family started cycling to the beach, cooking lunch together and playing card games. Huy's sister even found her old guitar and began practising again.<br><br>Huy doesn't think technology is bad. 'Phones are brilliant for lots of things, like calling my grandparents in Hanoi,' he explains. 'But we should be the boss of our phones, not the other way round.'<br><br>Now three of Huy's friends have started phone-free Sundays with their families too, and his teacher has asked him to give a talk to the whole school next month. Huy is a bit nervous about it. 'But I've got lots to say,' he smiles."
-         }
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Rm.01",
-        "6Rm.02"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Think about the WHOLE article: the start, the middle and the end."
-         },
-         "worked": "Nadia tells the story of her two weeks with the bees, what surprised her and what she thinks now.",
-         "type": "mcq",
-         "q": "What is Nadia mainly doing in this article?",
-         "opts": [
-          "describing what she learned about bees",
-          "explaining how to start your own bee farm",
-          "telling readers why honey from shops is bad"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "She doesn't give steps for starting a farm.",
-          "She only says her uncle's honey tasted better; that is one detail."
-         ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s8-a-bees",
-          "kind": "text",
-          "head": "Part 6: an article",
-          "html": "<b>A sweet summer with the bees</b><br>by Nadia, aged 11<br><br>Last summer, I spent two weeks with my uncle, who keeps bees on a small farm near the hills. Before I went, I was quite nervous. I had been stung once when I was six, and I still remembered how much it hurt.<br><br>On my first morning, my uncle gave me a white suit, gloves and a hat with a net. 'Bees don't like dark colours,' he explained. I felt like an astronaut! He showed me how to move slowly and calmly. 'If you wave your arms around, the bees will think you are dangerous,' he said.<br><br>What surprised me most was how organised a hive is. Every bee has a job. Some clean, some look after the young bees and some fly out to collect nectar from flowers. The queen does nothing except lay eggs, up to two thousand a day!<br><br>My favourite task was collecting the honey. We lifted out the heavy frames, which were full of golden honey, and spun them in a machine. The kitchen got very sticky, but I didn't mind at all. The honey tasted much better than honey from the shop.<br><br>I have to admit that I was stung once, on my ankle. It hurt, but only for a few minutes, and I was proud that I stayed calm.<br><br>Now I tell everyone that bees are not our enemies. Without them, many fruits and vegetables could not grow. I'm already counting the days until next summer."
-         }
-        },
-        {
-         "hint": {
-          "step": "What is the whole article about from start to finish?"
-         },
-         "worked": "The article tells how Huy's idea of phone-free Sundays changed his family's weekends.",
-         "type": "mcq",
-         "q": "What is the writer mainly doing in this article?",
-         "opts": [
-          "reporting how a boy's idea changed his family",
-          "telling children to give their phones to parents",
-          "comparing life in Da Nang and Hanoi"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "The article doesn't tell children what to do with their phones.",
-          "Hanoi is only mentioned once."
-         ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s8-a-phones",
-          "kind": "text",
-          "head": "Part 6: an article",
-          "html": "<b>Huy's big idea: phone-free Sundays</b><br><br>Twelve-year-old Huy from Da Nang noticed something strange last spring. Every evening, his whole family sat in the same room, but nobody talked. His parents checked emails, his sister watched videos and Huy played games on his tablet. 'We were together, but we weren't really together,' he says.<br><br>So Huy made a suggestion. Every Sunday, from breakfast until dinner, all screens would go in a basket by the door. At first, his sister refused. 'She said it was the worst idea ever,' Huy laughs. His dad wasn't sure either, because he sometimes needs his phone for work. In the end, they agreed that he could check it once at lunchtime.<br><br>The first Sunday felt very long. Nobody knew what to do. But by the third week, things had changed. The family started cycling to the beach, cooking lunch together and playing card games. Huy's sister even found her old guitar and began practising again.<br><br>Huy doesn't think technology is bad. 'Phones are brilliant for lots of things, like calling my grandparents in Hanoi,' he explains. 'But we should be the boss of our phones, not the other way round.'<br><br>Now three of Huy's friends have started phone-free Sundays with their families too, and his teacher has asked him to give a talk to the whole school next month. Huy is a bit nervous about it. 'But I've got lots to say,' he smiles."
+          "head": "Part 6: a magazine article",
+          "html": "<b>Daisy's mosquito blog</b><br><i>Ten-year-old Daisy writes a blog to help families stay safe from mosquitoes.</i><br><br>Last rainy season, Daisy's little cousin was bitten by mosquitoes and got a high fever. He spent a week in hospital. He is well again now, but Daisy was very worried about him. She wanted to help other families, so that they wouldn't have the same problem.<br><br>Her mum suggested writing a blog. At first, Daisy didn't want to, because she thought her spelling wasn't good enough. But her mum checked every post with her, and Daisy slowly became more confident.<br><br>In her first post, Daisy explained that mosquitoes lay their eggs in standing water. She gave some tips: empty old buckets, sleep under a net and wear long sleeves in the evening. She didn't add any photos of her cousin, because he didn't want people to see him in hospital.<br><br>Daisy's teacher read the blog and said it was clear and really useful. She asked Daisy to talk about it in assembly. Some classmates thought a blog about insects would be boring, but now lots of them read it every week.<br><br>Next, Daisy wants to add short videos to her blog. She would also like to write about healthy breakfasts, because she knows that many children leave home without eating."
          }
         }
        ]
@@ -1735,78 +1592,78 @@
  "notes": {
   "items": [
    {
-    "en": "Part 5: read the *person first* and find their 2 or 3 *wishes* (I want, I'd like, must, can only).",
-    "vi": "Phần 5: đọc *mô tả của người đó trước* và tìm 2 hoặc 3 *mong muốn* (I want, I'd like, must, can only).",
+    "en": "Part 5: read the *question* first and find its *key idea*.",
+    "vi": "Phần 5: đọc *câu hỏi* trước và tìm *ý chính* của câu hỏi.",
     "example": [
-     "Leo: 'I *want* to be outdoors, I'd like to *take my sister* and I *can only go on Sunday*.'",
-     "Leo's wishes: outdoors + his sister + Sunday."
+     "Which person *missed* an event?",
+     "Key idea: someone could *not go*."
     ]
    },
    {
-    "en": "The text uses *different words* for the same idea. Look for the meaning, not the same word.",
-    "vi": "Văn bản dùng *từ khác* để nói cùng một ý. Hãy tìm ý nghĩa, không tìm từ giống hệt.",
+    "en": "The question uses *different words* from the text. Look for the same *meaning*.",
+    "vi": "Câu hỏi dùng *từ khác* với đoạn văn. Hãy tìm cùng *ý nghĩa*.",
     "example": [
-     "'I don't want to pay' = '*Entry is free*.'",
-     "'I've never done it before' = '*No experience needed*.'"
+     "Question: Which person *was ill*?",
+     "Text: I had *a high fever*."
     ]
    },
    {
-    "en": "Check *every* wish. A text that matches only some wishes is a *partial match*: it's a trap!",
-    "vi": "Kiểm tra *mọi* mong muốn. Văn bản chỉ khớp vài mong muốn là *khớp một phần*: đó là bẫy!",
+    "en": "*Check all three texts.* Two of them often say something *similar*, but only one says *exactly* what the question asks.",
+    "vi": "*Kiểm tra cả ba đoạn.* Hai đoạn thường nói điều *giống nhau*, nhưng chỉ một đoạn nói *đúng* điều câu hỏi hỏi.",
     "example": [
-     "Elena wants swimming + Saturday. 'Swim club, *Sundays*' = trap.",
-     "'Swim club, *Saturdays*' = match."
+     "Lan *missed* her show because she was ill.",
+     "Jamal was ill *after* the party, so he didn't miss it."
     ]
    },
    {
-    "en": "Part 6: the questions follow the *order of the text*. Find the paragraph, then read it carefully.",
-    "vi": "Phần 6: các câu hỏi theo *thứ tự của bài*. Tìm đúng đoạn rồi đọc kỹ.",
+    "en": "In Part 5, a name can be the answer *more than once*, or *not at all*.",
+    "vi": "Ở Phần 5, một cái tên có thể là đáp án *nhiều lần*, hoặc *không lần nào*.",
     "example": [
-     "Question 1 is near the start.",
-     "Question 4 is near the end."
+     "Question 6: Poppy. Question 7: Poppy.",
+     "That is fine! Don't change an answer just to use every name."
     ]
    },
    {
-    "en": "Find *feelings and opinions* with words like *I think, to be honest, at first, in the end, proud, disappointed*.",
-    "vi": "Tìm *cảm xúc và ý kiến* qua các từ như *I think, to be honest, at first, in the end, proud, disappointed*.",
+    "en": "Part 6: the questions are in the *order of the text*, about *one per paragraph*.",
+    "vi": "Phần 6: các câu hỏi theo *thứ tự của bài*, khoảng *mỗi đoạn một câu*.",
     "example": [
-     "*At first* I was nervous, but *in the end* I loved it.",
-     "*To be honest*, I think the film was too long."
+     "Question 1: what *started* it? (paragraph 1)",
+     "Question 5: what are the *plans*? (paragraph 5)"
     ]
    },
    {
-    "en": "Guess a new word from the *context*. For the last question, think about the *whole text*: what is the writer mainly doing?",
-    "vi": "Đoán nghĩa từ mới dựa vào *ngữ cảnh*. Với câu hỏi cuối, hãy nghĩ về *cả bài*: người viết chủ yếu đang làm gì?",
+    "en": "Watch for *other people's ideas* and *feelings that change*: *at first*, *in the end*, *his friends thought*.",
+    "vi": "Chú ý *ý của người khác* và *cảm xúc thay đổi*: *at first*, *in the end*, *his friends thought*.",
     "example": [
-     "The hill was so *steep* that we had to stop. (steep = going up sharply)",
-     "Whole text: she is *describing* a holiday she enjoyed."
+     "*At first* Kira thought the trip was boring, but *in the end* she loved it.",
+     "*His friends thought* it was too small. (That isn't the teacher's idea!)"
     ]
    }
   ],
   "check": [
    {
-    "sentence": "In Part 5, I read the {person|texts|titles} first and find the wishes.",
-    "answer": "person"
+    "sentence": "In Part 5, I read the {question|longest text|last name} first.",
+    "answer": "question"
    },
    {
-    "sentence": "'No experience needed' is good for {beginners|experts|teachers}.",
-    "answer": "beginners"
+    "sentence": "'I had a high fever' means I was {ill|bored|late}.",
+    "answer": "ill"
    },
    {
-    "sentence": "A text that matches only two of three wishes is {wrong|right|the best answer}.",
-    "answer": "wrong"
+    "sentence": "Before I choose a name, I check {all three texts|one text|the title}.",
+    "answer": "all three texts"
    },
    {
-    "sentence": "In Part 6, the answer to question 2 usually comes {after|before} the answer to question 1.",
-    "answer": "after"
+    "sentence": "In Part 5, the same name {can|can't} be the answer twice.",
+    "answer": "can"
    },
    {
-    "sentence": "'{To be honest|Last week|Next to}, I didn't enjoy the trip' shows an opinion.",
-    "answer": "To be honest"
+    "sentence": "The answer to question 5 is usually near the {end|start|title} of the text.",
+    "answer": "end"
    },
    {
-    "sentence": "The last question in Part 6 is about the {whole text|first line|last word}.",
-    "answer": "whole text"
+    "sentence": "'Her friends thought it was boring' gives {her friends'|her own|the teacher's} opinion.",
+    "answer": "her friends'"
    }
   ]
  },
@@ -1815,753 +1672,314 @@
    {
     "dok": 1,
     "lo": [
-     "6Rd.01",
-     "6Rm.01"
+     "5Rd.01",
+     "5Rm.02"
     ],
     "v": [
      {
       "hint": {
-       "step": "Three wishes: free, machines, Friday afternoon."
+       "step": "Question 1 is about the start. Read paragraph 1."
       },
-      "worked": "E: 'Free', 'taking apart old radios, clocks and toasters', 'every Friday afternoon'. A, C and D are free too, but on other days.",
-      "type": "bank",
-      "q": "Aisha: I want to join a club that doesn't cost anything. I'm interested in how things like clocks and radios work inside. Friday afternoon is the only time I'm free after school.",
-      "bank": [
-       [
-        "A",
-        "<b>Chess Club</b><br>Learn to play chess or improve your game. We meet in the library every Tuesday from 3.30 to 4.30. Beginners are taught by older students, and there is a friendly competition at the end of each term. Free for all students in Grades 3 to 5."
-       ],
-       [
-        "B",
-        "<b>Junior Vets Club</b><br>Do you love animals? A local vet visits every Wednesday to teach us how to look after pets, from rabbits to tortoises. Once a month, we visit a pet shop to learn about pet food. There is a small fee each term. Grades 4 and 5 only."
-       ],
-       [
-        "C",
-        "<b>Young Reporters</b><br>Write news stories about life at school for our online magazine. You'll learn how to ask good questions and take great photos. We meet on Mondays after school in Room B12. Free. You need to enjoy writing in English and meeting deadlines."
-       ],
-       [
-        "D",
-        "<b>Dance Fit</b><br>Get fit and have fun with energetic dance routines to pop music. No experience needed. We meet on Thursdays from 3.30 to 4.30 in the sports hall. Wear trainers and bring a bottle of water. At the end of the year, we perform at the school show. Free."
-       ],
-       [
-        "E",
-        "<b>Tech Fixers</b><br>Find out how everyday machines work by taking apart old radios, clocks and toasters (safely!). Then try to put them back together. We meet every Friday afternoon in the science lab. Free, but places are limited to twelve students, so sign up early."
-       ],
-       [
-        "F",
-        "<b>Little Chefs</b><br>Make healthy snacks and simple meals, then eat them together! We meet every Tuesday from 3.30 to 5.00 in the school kitchen. Please tell us if you have any allergies. There is a small fee each term to pay for the ingredients. Grades 3 to 5."
-       ],
-       [
-        "G",
-        "<b>Swim Squad</b><br>Train for the inter-school swimming competition with our coach. Sessions are on Monday and Wednesday mornings before school, from 6.45 to 7.45. You must be able to swim 100 metres without stopping. Free for all team members. Swimming hats are provided."
-       ]
-      ],
-      "ans": "E",
-      "fig": {
-       "k": "stim",
-       "id": "s8-t-clubs",
-       "kind": "text",
-       "head": "After-school clubs",
-       "html": "Read about seven after-school clubs (A to G). Which club would be best for each student?"
-      }
-     },
-     {
-      "hint": {
-       "step": "Check three things: feeding animals, a place for a picnic, open on Monday."
-      },
-      "worked": "G: 'help to feed them', 'picnic tables' and 'Open every day'. A has animals but no picnic area; B has a picnic area but you only watch the birds; D is closed on Mondays.",
-      "type": "bank",
-      "q": "Layla: My little sister and I love animals, and we'd like to feed them ourselves. We're taking our own lunch, so we need somewhere to eat it. We can only go on a Monday.",
-      "bank": [
-       [
-        "A",
-        "<b>Sunny Bay Aquarium</b><br>See sharks, sea turtles and a giant octopus from our huge glass tunnel. Our keepers give talks every hour. Children under 12 get in free with an adult. Open every day, 9 a.m. to 6 p.m. There is a café, but there is no picnic area."
-       ],
-       [
-        "B",
-        "<b>Lotus Lake Park</b><br>A peaceful park with a large lake where you can hire pedal boats. Bring a picnic and relax under the shady trees, or watch the ducks and herons. Entry is free. There's a playground for young children and a five-kilometre path for cycling."
-       ],
-       [
-        "C",
-        "<b>Railway Museum</b><br>Climb aboard real steam trains and find out how train travel changed people's lives 150 years ago. Then try our driving simulator and see what it's like to drive a modern fast train! It's all indoors, so it's perfect for a rainy day. Closed on Mondays."
-       ],
-       [
-        "D",
-        "<b>Butterfly House</b><br>Walk among hundreds of colourful butterflies in our warm glasshouse. Watch caterpillars change into butterflies and learn which plants they need to survive. Quiet visitors only, please! Open Tuesday to Sunday. There is a picnic area in the garden outside."
-       ],
-       [
-        "E",
-        "<b>Treetop Adventure Park</b><br>Climb, swing and zip-line through the treetops! There are three courses: easy, medium and expert. Children must be at least 120 cm tall. Helmets are provided. The park is outdoors, so it closes when it rains. Open at weekends and in the school holidays."
-       ],
-       [
-        "F",
-        "<b>Space and Sky Centre</b><br>Watch a show about the planets in our dome cinema, then use our special telescopes to look at the sun safely. Learn how satellites help us to send messages and make phone calls today. Open every day except Tuesday. Café and picnic room inside."
-       ],
-       [
-        "G",
-        "<b>Hilltop Farm</b><br>Meet our cows, sheep and baby goats, and help to feed them at 11 a.m. and 3 p.m. You can also pick your own strawberries in spring. Wear old shoes, because it can get muddy! There are picnic tables next to the car park. Open every day."
-       ]
-      ],
-      "ans": "G",
-      "fig": {
-       "k": "stim",
-       "id": "s8-t-trips",
-       "kind": "text",
-       "head": "Places for a day out",
-       "html": "Read about seven places to visit (A to G). Which place would be best for each young person?"
-      }
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Rd.01",
-     "6Rm.01"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Which club teaches a game? Check the day too."
-      },
-      "worked": "A: 'Learn to play chess', 'Beginners are taught by older students', 'every Tuesday'. F is on Tuesdays, but it is a cooking club.",
-      "type": "bank",
-      "q": "Ravi: I'd love to learn a board game that people play all over the world. I've never played it before, so I need someone to teach me. I can stay after school on Tuesdays.",
-      "bank": [
-       [
-        "A",
-        "<b>Chess Club</b><br>Learn to play chess or improve your game. We meet in the library every Tuesday from 3.30 to 4.30. Beginners are taught by older students, and there is a friendly competition at the end of each term. Free for all students in Grades 3 to 5."
-       ],
-       [
-        "B",
-        "<b>Junior Vets Club</b><br>Do you love animals? A local vet visits every Wednesday to teach us how to look after pets, from rabbits to tortoises. Once a month, we visit a pet shop to learn about pet food. There is a small fee each term. Grades 4 and 5 only."
-       ],
-       [
-        "C",
-        "<b>Young Reporters</b><br>Write news stories about life at school for our online magazine. You'll learn how to ask good questions and take great photos. We meet on Mondays after school in Room B12. Free. You need to enjoy writing in English and meeting deadlines."
-       ],
-       [
-        "D",
-        "<b>Dance Fit</b><br>Get fit and have fun with energetic dance routines to pop music. No experience needed. We meet on Thursdays from 3.30 to 4.30 in the sports hall. Wear trainers and bring a bottle of water. At the end of the year, we perform at the school show. Free."
-       ],
-       [
-        "E",
-        "<b>Tech Fixers</b><br>Find out how everyday machines work by taking apart old radios, clocks and toasters (safely!). Then try to put them back together. We meet every Friday afternoon in the science lab. Free, but places are limited to twelve students, so sign up early."
-       ],
-       [
-        "F",
-        "<b>Little Chefs</b><br>Make healthy snacks and simple meals, then eat them together! We meet every Tuesday from 3.30 to 5.00 in the school kitchen. Please tell us if you have any allergies. There is a small fee each term to pay for the ingredients. Grades 3 to 5."
-       ],
-       [
-        "G",
-        "<b>Swim Squad</b><br>Train for the inter-school swimming competition with our coach. Sessions are on Monday and Wednesday mornings before school, from 6.45 to 7.45. You must be able to swim 100 metres without stopping. Free for all team members. Swimming hats are provided."
-       ]
-      ],
-      "ans": "A",
-      "fig": {
-       "k": "stim",
-       "id": "s8-t-clubs",
-       "kind": "text",
-       "head": "After-school clubs",
-       "html": "Read about seven after-school clubs (A to G). Which club would be best for each student?"
-      }
-     },
-     {
-      "hint": {
-       "step": "Indoors + travel in the past + driving."
-      },
-      "worked": "C: 'all indoors', 'how train travel changed people's lives 150 years ago' and 'try our driving simulator'. F is indoors, but it is about space.",
-      "type": "bank",
-      "q": "Duc: It's going to rain all weekend, so we need somewhere indoors for our family trip. I'm really interested in how people travelled in the past, and I'd love to try driving something myself.",
-      "bank": [
-       [
-        "A",
-        "<b>Sunny Bay Aquarium</b><br>See sharks, sea turtles and a giant octopus from our huge glass tunnel. Our keepers give talks every hour. Children under 12 get in free with an adult. Open every day, 9 a.m. to 6 p.m. There is a café, but there is no picnic area."
-       ],
-       [
-        "B",
-        "<b>Lotus Lake Park</b><br>A peaceful park with a large lake where you can hire pedal boats. Bring a picnic and relax under the shady trees, or watch the ducks and herons. Entry is free. There's a playground for young children and a five-kilometre path for cycling."
-       ],
-       [
-        "C",
-        "<b>Railway Museum</b><br>Climb aboard real steam trains and find out how train travel changed people's lives 150 years ago. Then try our driving simulator and see what it's like to drive a modern fast train! It's all indoors, so it's perfect for a rainy day. Closed on Mondays."
-       ],
-       [
-        "D",
-        "<b>Butterfly House</b><br>Walk among hundreds of colourful butterflies in our warm glasshouse. Watch caterpillars change into butterflies and learn which plants they need to survive. Quiet visitors only, please! Open Tuesday to Sunday. There is a picnic area in the garden outside."
-       ],
-       [
-        "E",
-        "<b>Treetop Adventure Park</b><br>Climb, swing and zip-line through the treetops! There are three courses: easy, medium and expert. Children must be at least 120 cm tall. Helmets are provided. The park is outdoors, so it closes when it rains. Open at weekends and in the school holidays."
-       ],
-       [
-        "F",
-        "<b>Space and Sky Centre</b><br>Watch a show about the planets in our dome cinema, then use our special telescopes to look at the sun safely. Learn how satellites help us to send messages and make phone calls today. Open every day except Tuesday. Café and picnic room inside."
-       ],
-       [
-        "G",
-        "<b>Hilltop Farm</b><br>Meet our cows, sheep and baby goats, and help to feed them at 11 a.m. and 3 p.m. You can also pick your own strawberries in spring. Wear old shoes, because it can get muddy! There are picnic tables next to the car park. Open every day."
-       ]
-      ],
-      "ans": "C",
-      "fig": {
-       "k": "stim",
-       "id": "s8-t-trips",
-       "kind": "text",
-       "head": "Places for a day out",
-       "html": "Read about seven places to visit (A to G). Which place would be best for each young person?"
-      }
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Rd.01",
-     "6Rm.01"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Exercise + music + performing. Which club has all three?"
-      },
-      "worked": "D: 'Get fit', 'dance routines to pop music' and 'we perform at the school show'. G is exercise, but it is a swimming team with no music.",
-      "type": "bank",
-      "q": "Ngoc: I want to do more exercise, but I don't enjoy team sports. I love music and moving to it. One day I'd like to perform in front of a big audience.",
-      "bank": [
-       [
-        "A",
-        "<b>Chess Club</b><br>Learn to play chess or improve your game. We meet in the library every Tuesday from 3.30 to 4.30. Beginners are taught by older students, and there is a friendly competition at the end of each term. Free for all students in Grades 3 to 5."
-       ],
-       [
-        "B",
-        "<b>Junior Vets Club</b><br>Do you love animals? A local vet visits every Wednesday to teach us how to look after pets, from rabbits to tortoises. Once a month, we visit a pet shop to learn about pet food. There is a small fee each term. Grades 4 and 5 only."
-       ],
-       [
-        "C",
-        "<b>Young Reporters</b><br>Write news stories about life at school for our online magazine. You'll learn how to ask good questions and take great photos. We meet on Mondays after school in Room B12. Free. You need to enjoy writing in English and meeting deadlines."
-       ],
-       [
-        "D",
-        "<b>Dance Fit</b><br>Get fit and have fun with energetic dance routines to pop music. No experience needed. We meet on Thursdays from 3.30 to 4.30 in the sports hall. Wear trainers and bring a bottle of water. At the end of the year, we perform at the school show. Free."
-       ],
-       [
-        "E",
-        "<b>Tech Fixers</b><br>Find out how everyday machines work by taking apart old radios, clocks and toasters (safely!). Then try to put them back together. We meet every Friday afternoon in the science lab. Free, but places are limited to twelve students, so sign up early."
-       ],
-       [
-        "F",
-        "<b>Little Chefs</b><br>Make healthy snacks and simple meals, then eat them together! We meet every Tuesday from 3.30 to 5.00 in the school kitchen. Please tell us if you have any allergies. There is a small fee each term to pay for the ingredients. Grades 3 to 5."
-       ],
-       [
-        "G",
-        "<b>Swim Squad</b><br>Train for the inter-school swimming competition with our coach. Sessions are on Monday and Wednesday mornings before school, from 6.45 to 7.45. You must be able to swim 100 metres without stopping. Free for all team members. Swimming hats are provided."
-       ]
-      ],
-      "ans": "D",
-      "fig": {
-       "k": "stim",
-       "id": "s8-t-clubs",
-       "kind": "text",
-       "head": "After-school clubs",
-       "html": "Read about seven after-school clubs (A to G). Which club would be best for each student?"
-      }
-     },
-     {
-      "hint": {
-       "step": "Outdoors + exciting + her height + Saturday."
-      },
-      "worked": "E: 'Climb, swing and zip-line through the treetops', 'at least 120 cm tall' (she is 140 cm) and 'Open at weekends'. B is outdoors but 'peaceful'.",
-      "type": "bank",
-      "q": "Ella: My family loves being active outdoors, and I want to do something exciting that makes me feel brave! I'm 11 years old and 140 cm tall. We're all free next Saturday, so we'd like to go then.",
-      "bank": [
-       [
-        "A",
-        "<b>Sunny Bay Aquarium</b><br>See sharks, sea turtles and a giant octopus from our huge glass tunnel. Our keepers give talks every hour. Children under 12 get in free with an adult. Open every day, 9 a.m. to 6 p.m. There is a café, but there is no picnic area."
-       ],
-       [
-        "B",
-        "<b>Lotus Lake Park</b><br>A peaceful park with a large lake where you can hire pedal boats. Bring a picnic and relax under the shady trees, or watch the ducks and herons. Entry is free. There's a playground for young children and a five-kilometre path for cycling."
-       ],
-       [
-        "C",
-        "<b>Railway Museum</b><br>Climb aboard real steam trains and find out how train travel changed people's lives 150 years ago. Then try our driving simulator and see what it's like to drive a modern fast train! It's all indoors, so it's perfect for a rainy day. Closed on Mondays."
-       ],
-       [
-        "D",
-        "<b>Butterfly House</b><br>Walk among hundreds of colourful butterflies in our warm glasshouse. Watch caterpillars change into butterflies and learn which plants they need to survive. Quiet visitors only, please! Open Tuesday to Sunday. There is a picnic area in the garden outside."
-       ],
-       [
-        "E",
-        "<b>Treetop Adventure Park</b><br>Climb, swing and zip-line through the treetops! There are three courses: easy, medium and expert. Children must be at least 120 cm tall. Helmets are provided. The park is outdoors, so it closes when it rains. Open at weekends and in the school holidays."
-       ],
-       [
-        "F",
-        "<b>Space and Sky Centre</b><br>Watch a show about the planets in our dome cinema, then use our special telescopes to look at the sun safely. Learn how satellites help us to send messages and make phone calls today. Open every day except Tuesday. Café and picnic room inside."
-       ],
-       [
-        "G",
-        "<b>Hilltop Farm</b><br>Meet our cows, sheep and baby goats, and help to feed them at 11 a.m. and 3 p.m. You can also pick your own strawberries in spring. Wear old shoes, because it can get muddy! There are picnic tables next to the car park. Open every day."
-       ]
-      ],
-      "ans": "E",
-      "fig": {
-       "k": "stim",
-       "id": "s8-t-trips",
-       "kind": "text",
-       "head": "Places for a day out",
-       "html": "Read about seven places to visit (A to G). Which place would be best for each young person?"
-      }
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Rd.01",
-     "6Rm.01"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Rabbits + Grade 4 + a small cost."
-      },
-      "worked": "B: a vet teaches 'how to look after pets, from rabbits to tortoises', 'Grades 4 and 5 only' and 'a small fee each term'.",
-      "type": "bank",
-      "q": "Phong: I've got two rabbits at home, and I want to learn how to look after them better. I'm in Grade 4. I don't mind paying a little money for a good club.",
-      "bank": [
-       [
-        "A",
-        "<b>Chess Club</b><br>Learn to play chess or improve your game. We meet in the library every Tuesday from 3.30 to 4.30. Beginners are taught by older students, and there is a friendly competition at the end of each term. Free for all students in Grades 3 to 5."
-       ],
-       [
-        "B",
-        "<b>Junior Vets Club</b><br>Do you love animals? A local vet visits every Wednesday to teach us how to look after pets, from rabbits to tortoises. Once a month, we visit a pet shop to learn about pet food. There is a small fee each term. Grades 4 and 5 only."
-       ],
-       [
-        "C",
-        "<b>Young Reporters</b><br>Write news stories about life at school for our online magazine. You'll learn how to ask good questions and take great photos. We meet on Mondays after school in Room B12. Free. You need to enjoy writing in English and meeting deadlines."
-       ],
-       [
-        "D",
-        "<b>Dance Fit</b><br>Get fit and have fun with energetic dance routines to pop music. No experience needed. We meet on Thursdays from 3.30 to 4.30 in the sports hall. Wear trainers and bring a bottle of water. At the end of the year, we perform at the school show. Free."
-       ],
-       [
-        "E",
-        "<b>Tech Fixers</b><br>Find out how everyday machines work by taking apart old radios, clocks and toasters (safely!). Then try to put them back together. We meet every Friday afternoon in the science lab. Free, but places are limited to twelve students, so sign up early."
-       ],
-       [
-        "F",
-        "<b>Little Chefs</b><br>Make healthy snacks and simple meals, then eat them together! We meet every Tuesday from 3.30 to 5.00 in the school kitchen. Please tell us if you have any allergies. There is a small fee each term to pay for the ingredients. Grades 3 to 5."
-       ],
-       [
-        "G",
-        "<b>Swim Squad</b><br>Train for the inter-school swimming competition with our coach. Sessions are on Monday and Wednesday mornings before school, from 6.45 to 7.45. You must be able to swim 100 metres without stopping. Free for all team members. Swimming hats are provided."
-       ]
-      ],
-      "ans": "B",
-      "fig": {
-       "k": "stim",
-       "id": "s8-t-clubs",
-       "kind": "text",
-       "head": "After-school clubs",
-       "html": "Read about seven after-school clubs (A to G). Which club would be best for each student?"
-      }
-     },
-     {
-      "hint": {
-       "step": "Communication today + a cinema + Wednesday."
-      },
-      "worked": "F: 'satellites help us to send messages', 'a show ... in our dome cinema' and 'Open every day except Tuesday'. C is about travel in the past.",
-      "type": "bank",
-      "q": "Kai: I want to find out how technology helps us send messages around the world today. I'd also like to watch a show in a special cinema. We're going on Wednesday.",
-      "bank": [
-       [
-        "A",
-        "<b>Sunny Bay Aquarium</b><br>See sharks, sea turtles and a giant octopus from our huge glass tunnel. Our keepers give talks every hour. Children under 12 get in free with an adult. Open every day, 9 a.m. to 6 p.m. There is a café, but there is no picnic area."
-       ],
-       [
-        "B",
-        "<b>Lotus Lake Park</b><br>A peaceful park with a large lake where you can hire pedal boats. Bring a picnic and relax under the shady trees, or watch the ducks and herons. Entry is free. There's a playground for young children and a five-kilometre path for cycling."
-       ],
-       [
-        "C",
-        "<b>Railway Museum</b><br>Climb aboard real steam trains and find out how train travel changed people's lives 150 years ago. Then try our driving simulator and see what it's like to drive a modern fast train! It's all indoors, so it's perfect for a rainy day. Closed on Mondays."
-       ],
-       [
-        "D",
-        "<b>Butterfly House</b><br>Walk among hundreds of colourful butterflies in our warm glasshouse. Watch caterpillars change into butterflies and learn which plants they need to survive. Quiet visitors only, please! Open Tuesday to Sunday. There is a picnic area in the garden outside."
-       ],
-       [
-        "E",
-        "<b>Treetop Adventure Park</b><br>Climb, swing and zip-line through the treetops! There are three courses: easy, medium and expert. Children must be at least 120 cm tall. Helmets are provided. The park is outdoors, so it closes when it rains. Open at weekends and in the school holidays."
-       ],
-       [
-        "F",
-        "<b>Space and Sky Centre</b><br>Watch a show about the planets in our dome cinema, then use our special telescopes to look at the sun safely. Learn how satellites help us to send messages and make phone calls today. Open every day except Tuesday. Café and picnic room inside."
-       ],
-       [
-        "G",
-        "<b>Hilltop Farm</b><br>Meet our cows, sheep and baby goats, and help to feed them at 11 a.m. and 3 p.m. You can also pick your own strawberries in spring. Wear old shoes, because it can get muddy! There are picnic tables next to the car park. Open every day."
-       ]
-      ],
-      "ans": "F",
-      "fig": {
-       "k": "stim",
-       "id": "s8-t-trips",
-       "kind": "text",
-       "head": "Places for a day out",
-       "html": "Read about seven places to visit (A to G). Which place would be best for each young person?"
-      }
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Rd.01",
-     "6Rm.01"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "She can't stay after school. When does the right club meet?"
-      },
-      "worked": "G: 'Train for the inter-school swimming competition', sessions 'before school, from 6.45 to 7.45'.",
-      "type": "bank",
-      "q": "Grace: I'm a strong swimmer, and I want to get faster for competitions. I can't stay after school, because my bus leaves at 3.30, but I can easily come in early.",
-      "bank": [
-       [
-        "A",
-        "<b>Chess Club</b><br>Learn to play chess or improve your game. We meet in the library every Tuesday from 3.30 to 4.30. Beginners are taught by older students, and there is a friendly competition at the end of each term. Free for all students in Grades 3 to 5."
-       ],
-       [
-        "B",
-        "<b>Junior Vets Club</b><br>Do you love animals? A local vet visits every Wednesday to teach us how to look after pets, from rabbits to tortoises. Once a month, we visit a pet shop to learn about pet food. There is a small fee each term. Grades 4 and 5 only."
-       ],
-       [
-        "C",
-        "<b>Young Reporters</b><br>Write news stories about life at school for our online magazine. You'll learn how to ask good questions and take great photos. We meet on Mondays after school in Room B12. Free. You need to enjoy writing in English and meeting deadlines."
-       ],
-       [
-        "D",
-        "<b>Dance Fit</b><br>Get fit and have fun with energetic dance routines to pop music. No experience needed. We meet on Thursdays from 3.30 to 4.30 in the sports hall. Wear trainers and bring a bottle of water. At the end of the year, we perform at the school show. Free."
-       ],
-       [
-        "E",
-        "<b>Tech Fixers</b><br>Find out how everyday machines work by taking apart old radios, clocks and toasters (safely!). Then try to put them back together. We meet every Friday afternoon in the science lab. Free, but places are limited to twelve students, so sign up early."
-       ],
-       [
-        "F",
-        "<b>Little Chefs</b><br>Make healthy snacks and simple meals, then eat them together! We meet every Tuesday from 3.30 to 5.00 in the school kitchen. Please tell us if you have any allergies. There is a small fee each term to pay for the ingredients. Grades 3 to 5."
-       ],
-       [
-        "G",
-        "<b>Swim Squad</b><br>Train for the inter-school swimming competition with our coach. Sessions are on Monday and Wednesday mornings before school, from 6.45 to 7.45. You must be able to swim 100 metres without stopping. Free for all team members. Swimming hats are provided."
-       ]
-      ],
-      "ans": "G",
-      "fig": {
-       "k": "stim",
-       "id": "s8-t-clubs",
-       "kind": "text",
-       "head": "After-school clubs",
-       "html": "Read about seven after-school clubs (A to G). Which club would be best for each student?"
-      }
-     },
-     {
-      "hint": {
-       "step": "Which text describes a creature that changes? Check the day."
-      },
-      "worked": "D: 'Watch caterpillars change into butterflies', 'which plants they need' and 'Open Tuesday to Sunday'.",
-      "type": "bank",
-      "q": "Thao: I'd love to see a creature change into something completely different. I also want to find out which plants are important for it. Our family is going on Sunday afternoon, after my piano lesson.",
-      "bank": [
-       [
-        "A",
-        "<b>Sunny Bay Aquarium</b><br>See sharks, sea turtles and a giant octopus from our huge glass tunnel. Our keepers give talks every hour. Children under 12 get in free with an adult. Open every day, 9 a.m. to 6 p.m. There is a café, but there is no picnic area."
-       ],
-       [
-        "B",
-        "<b>Lotus Lake Park</b><br>A peaceful park with a large lake where you can hire pedal boats. Bring a picnic and relax under the shady trees, or watch the ducks and herons. Entry is free. There's a playground for young children and a five-kilometre path for cycling."
-       ],
-       [
-        "C",
-        "<b>Railway Museum</b><br>Climb aboard real steam trains and find out how train travel changed people's lives 150 years ago. Then try our driving simulator and see what it's like to drive a modern fast train! It's all indoors, so it's perfect for a rainy day. Closed on Mondays."
-       ],
-       [
-        "D",
-        "<b>Butterfly House</b><br>Walk among hundreds of colourful butterflies in our warm glasshouse. Watch caterpillars change into butterflies and learn which plants they need to survive. Quiet visitors only, please! Open Tuesday to Sunday. There is a picnic area in the garden outside."
-       ],
-       [
-        "E",
-        "<b>Treetop Adventure Park</b><br>Climb, swing and zip-line through the treetops! There are three courses: easy, medium and expert. Children must be at least 120 cm tall. Helmets are provided. The park is outdoors, so it closes when it rains. Open at weekends and in the school holidays."
-       ],
-       [
-        "F",
-        "<b>Space and Sky Centre</b><br>Watch a show about the planets in our dome cinema, then use our special telescopes to look at the sun safely. Learn how satellites help us to send messages and make phone calls today. Open every day except Tuesday. Café and picnic room inside."
-       ],
-       [
-        "G",
-        "<b>Hilltop Farm</b><br>Meet our cows, sheep and baby goats, and help to feed them at 11 a.m. and 3 p.m. You can also pick your own strawberries in spring. Wear old shoes, because it can get muddy! There are picnic tables next to the car park. Open every day."
-       ]
-      ],
-      "ans": "D",
-      "fig": {
-       "k": "stim",
-       "id": "s8-t-trips",
-       "kind": "text",
-       "head": "Places for a day out",
-       "html": "Read about seven places to visit (A to G). Which place would be best for each young person?"
-      }
-     }
-    ]
-   },
-   {
-    "dok": 2,
-    "lo": [
-     "6Ro.01"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Compare 'When I was younger' with 'Now'."
-      },
-      "worked": "'When I was younger, I thought it was a <b>boring</b> place. <b>Now</b> it's my favourite place.'",
+      "worked": "'His older cousin <b>sent him a message</b>... <b>That gave Son an idea</b>.'",
       "type": "mcq",
-      "q": "How has Lan's opinion of the shop changed?",
+      "q": "What gave Son the idea for the video call?",
       "opts": [
-       "She once found it dull, but now she loves it.",
-       "She once loved it, but now it feels too small.",
-       "She has always thought it was the best shop."
+       "a message from one of his cousins",
+       "the fireworks in Hanoi at midnight",
+       "his mum's plan for the family feast"
       ],
       "at": 2,
       "whys": [
        null,
-       "She says it is 'my favourite place' now, not too small.",
-       "When she was younger, she 'thought it was a boring place'."
+       "The fireworks were his first plan for the call, not the idea for it.",
+       "The plan was Son's own; his mum didn't need to help."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
-       "id": "s8-t-shop",
+       "id": "s8-t-p6-tet",
        "kind": "text",
-       "head": "Part 6: an article",
-       "html": "<b>My hero in a tiny shop</b><br>by Lan, aged 11<br><br>My grandfather has repaired bicycles in the same tiny shop for forty years. It is so small that only two people can stand inside, and there are tools hanging on every wall. When I was younger, I thought it was a boring place. Now it's my favourite place in the whole town.<br><br>Last year, my bike got a flat tyre, and Grandad said, 'Don't buy a new one. I'll teach you to fix it yourself.' I didn't believe I could do it. My hands were covered in black oil, and I dropped the tiny screws three times. But Grandad never got impatient. He just said, 'Try again, slowly.'<br><br>Since then, I've spent most Saturday mornings in the shop. I've learned how to change a chain, fix the brakes and pump tyres to the right pressure. Customers often look surprised when a girl my age repairs their bike, but they always thank me.<br><br>What I admire most about Grandad isn't how skilful he is, although he can fix almost anything. It's that he treats every customer the same. He repairs a student's old bike as carefully as an expensive racing bike, and he often charges poor families nothing at all.<br><br>Grandad says that people throw away too many things that could be repaired. I agree. Fixing something feels much better than buying something new.<br><br>One day, I hope to have my own repair shop. Grandad has promised to give me his favourite tool when I do."
+       "head": "Part 6: a magazine article",
+       "html": "<b>Son's Tet across the world</b><br><i>Ten-year-old Son found a clever way to share Tet with his cousins in London.</i><br><br>Son's aunt and uncle live in London with his two cousins. Last December, his older cousin sent him a message: 'I've never seen a real Tet celebration.' That gave Son an idea. He would show them Tet on a video call.<br><br>First, Son wanted to call at midnight, so his cousins could watch the fireworks. Then he checked the time difference. London is seven hours behind Vietnam, so midnight in Hanoi is five o'clock in the afternoon there. His cousins would still be at their swimming lesson!<br><br>At first, the time differences confused Son, but soon he found the maths fun. In the end, he chose six o'clock in the evening, during the family feast. In London, it was eleven in the morning, and his cousins were free.<br><br>On the call, Son showed his cousins the peach blossom and the decorations. Grandma explained that the sticky rice cakes are boiled for ten hours. Afterwards, Son's mum said his plan was so well organised that she didn't need to help at all.<br><br>Now Son's cousins want to come to Vietnam for the next Tet. Son is already making a list of places to show them. He also hopes they will teach him about British celebrations."
       }
      },
      {
       "hint": {
-       "step": "Read the end of paragraph 1. What does 'give up' mean?"
+       "step": "Find 'rained for three days' in paragraph 1."
       },
-      "worked": "'After one game, which we lost 7–0, I wanted to <b>give up</b>.'",
+      "worked": "'It rained for three days, so Tia... started to <b>draw a map of an island that didn't exist</b>.'",
       "type": "mcq",
-      "q": "How did Max feel after the 7–0 game?",
+      "q": "What did Tia do when it rained for three days?",
       "opts": [
-       "He wanted to stop playing.",
-       "He was sad, but proud of how hard they tried.",
-       "He was angry that the coach shouted."
-      ],
-      "at": 0,
-      "whys": [
-       null,
-       "Nothing in paragraph 1 shows he felt proud.",
-       "The coach 'didn't shout'."
-      ],
-      "letters": true,
-      "fig": {
-       "k": "stim",
-       "id": "s8-t-season",
-       "kind": "text",
-       "head": "Part 6: an article",
-       "html": "<b>The season we didn't win</b><br>by Max, aged 11<br><br>When I joined the Lakeside Lions football team in September, I expected to score lots of goals and win a gold cup. Instead, we lost our first eight matches. After one game, which we lost 7–0, I wanted to give up.<br><br>Our coach, Mrs Okafor, didn't shout at us. Instead, she asked us a strange question: 'Did anyone pass the ball today?' We all looked at the ground. The truth was that everyone, including me, had just tried to score alone.<br><br>From then on, training was different. We played games where you weren't allowed to shoot until all five players had touched the ball. It felt *awkward* at first, and we kept losing the ball. But slowly, we started to understand each other. I discovered that our quiet defender, Arjun, could see passes that nobody else could.<br><br>We still didn't win any matches before Christmas. But in January, we drew 2–2 with the best team in the league, and we celebrated as if we had won the World Cup.<br><br>At the end of the season, we didn't get a trophy for winning. We got the Fair Play Award for being the most helpful and friendly team. To be honest, I was a little disappointed at first. Now I think it's the best prize we could have got.<br><br>I've learned that football isn't only about goals. It's about trusting the people around you."
-      }
-     }
-    ]
-   },
-   {
-    "dok": 2,
-    "lo": [
-     "6Rd.01",
-     "6Ro.01"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Read paragraph 2. What went wrong, and what did Grandad do?"
-      },
-      "worked": "She dropped the screws three times, 'But Grandad never got impatient. He just said, Try again, slowly.'",
-      "type": "mcq",
-      "q": "What does Lan say about the first time she fixed a tyre?",
-      "opts": [
-       "It was hard, but Grandad stayed patient.",
-       "It was quick, as Grandad did it all.",
-       "She gave up, but Grandad finished it."
-      ],
-      "at": 2,
-      "whys": [
-       null,
-       "Grandad taught her to fix it 'yourself', and she dropped the screws three times.",
-       "She didn't give up: Grandad said 'Try again, slowly'."
-      ],
-      "letters": true,
-      "fig": {
-       "k": "stim",
-       "id": "s8-t-shop",
-       "kind": "text",
-       "head": "Part 6: an article",
-       "html": "<b>My hero in a tiny shop</b><br>by Lan, aged 11<br><br>My grandfather has repaired bicycles in the same tiny shop for forty years. It is so small that only two people can stand inside, and there are tools hanging on every wall. When I was younger, I thought it was a boring place. Now it's my favourite place in the whole town.<br><br>Last year, my bike got a flat tyre, and Grandad said, 'Don't buy a new one. I'll teach you to fix it yourself.' I didn't believe I could do it. My hands were covered in black oil, and I dropped the tiny screws three times. But Grandad never got impatient. He just said, 'Try again, slowly.'<br><br>Since then, I've spent most Saturday mornings in the shop. I've learned how to change a chain, fix the brakes and pump tyres to the right pressure. Customers often look surprised when a girl my age repairs their bike, but they always thank me.<br><br>What I admire most about Grandad isn't how skilful he is, although he can fix almost anything. It's that he treats every customer the same. He repairs a student's old bike as carefully as an expensive racing bike, and he often charges poor families nothing at all.<br><br>Grandad says that people throw away too many things that could be repaired. I agree. Fixing something feels much better than buying something new.<br><br>One day, I hope to have my own repair shop. Grandad has promised to give me his favourite tool when I do."
-      }
-     },
-     {
-      "hint": {
-       "step": "Read what the players realised after the question."
-      },
-      "worked": "'The truth was that everyone ... had just tried to score <b>alone</b>.'",
-      "type": "mcq",
-      "q": "Why did Mrs Okafor ask 'Did anyone pass the ball today?'",
-      "opts": [
-       "to show they hadn't played as a team",
-       "to find out who had scored the most goals",
-       "because nobody had come to training"
+       "She drew a map of an imaginary island.",
+       "She read stories to her little brother.",
+       "She entered a writing competition."
       ],
       "at": 1,
       "whys": [
        null,
-       "They lost 7–0, so the question isn't about scoring.",
-       "The question is about the match, not training."
+       "Her brother asked for stories later, after she made the island.",
+       "The competition came at the end of the holiday, at school."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
-       "id": "s8-t-season",
+       "id": "s8-t-p6-island",
        "kind": "text",
-       "head": "Part 6: an article",
-       "html": "<b>The season we didn't win</b><br>by Max, aged 11<br><br>When I joined the Lakeside Lions football team in September, I expected to score lots of goals and win a gold cup. Instead, we lost our first eight matches. After one game, which we lost 7–0, I wanted to give up.<br><br>Our coach, Mrs Okafor, didn't shout at us. Instead, she asked us a strange question: 'Did anyone pass the ball today?' We all looked at the ground. The truth was that everyone, including me, had just tried to score alone.<br><br>From then on, training was different. We played games where you weren't allowed to shoot until all five players had touched the ball. It felt *awkward* at first, and we kept losing the ball. But slowly, we started to understand each other. I discovered that our quiet defender, Arjun, could see passes that nobody else could.<br><br>We still didn't win any matches before Christmas. But in January, we drew 2–2 with the best team in the league, and we celebrated as if we had won the World Cup.<br><br>At the end of the season, we didn't get a trophy for winning. We got the Fair Play Award for being the most helpful and friendly team. To be honest, I was a little disappointed at first. Now I think it's the best prize we could have got.<br><br>I've learned that football isn't only about goals. It's about trusting the people around you."
+       "head": "Part 6: a magazine article",
+       "html": "<b>Tia's mysterious island</b><br><i>During the summer holidays, Tia created a magical place and filled a book with it.</i><br><br>Last summer, Tia stayed with her grandparents in a small village in the mountains. There was no internet there. Then it rained for three days, so Tia found some paper and coloured pencils and started to draw a map of an island that didn't exist.<br><br>She called it Moon Island. It had a purple forest, a mysterious cave and an enormous waterfall that flowed up into the sky. At first, Tia thought her ideas were silly. But her little brother loved them and asked for a new Moon Island story every night.<br><br>By the end of the holiday, Tia had ten stories. Her school was having a writing competition, but at first she didn't want to enter, because she thought her handwriting was too messy. Her grandfather helped her to write more slowly, and she copied out her best story neatly.<br><br>Her teacher said the descriptions in the story were incredible. 'I could almost see the purple trees,' she said. Tia didn't win the competition, but her story is now in the school library.<br><br>Now Tia is writing a second book, about a lost city under the sea near Moon Island. This time, she wants to draw all the pictures herself."
       }
      }
     ]
    },
    {
-    "dok": 2,
+    "dok": 1,
     "lo": [
-     "6Rd.04"
+     "5Rd.01",
+     "5Rm.02"
     ],
     "v": [
      {
       "hint": {
-       "step": "Read the words after it: 'he can fix almost anything'."
+       "step": "Find 'midnight' in paragraph 2 and read to the end of the paragraph."
       },
-      "worked": "'...how skilful he is, although he can fix almost anything', so skilful = very good at doing something.",
+      "worked": "'His cousins would still be <b>at their swimming lesson</b>!'",
       "type": "mcq",
-      "q": "In paragraph 4, <b>skilful</b> means ...",
+      "q": "Why didn't Son call at midnight?",
       "opts": [
-       "very good at doing something",
-       "careful when spending money",
-       "kind to every customer"
-      ],
-      "at": 1,
-      "whys": [
-       null,
-       "The paragraph talks about money later, but 'skilful' isn't about money.",
-       "Being kind is what she admires MORE than him being skilful."
-      ],
-      "letters": true,
-      "fig": {
-       "k": "stim",
-       "id": "s8-t-shop",
-       "kind": "text",
-       "head": "Part 6: an article",
-       "html": "<b>My hero in a tiny shop</b><br>by Lan, aged 11<br><br>My grandfather has repaired bicycles in the same tiny shop for forty years. It is so small that only two people can stand inside, and there are tools hanging on every wall. When I was younger, I thought it was a boring place. Now it's my favourite place in the whole town.<br><br>Last year, my bike got a flat tyre, and Grandad said, 'Don't buy a new one. I'll teach you to fix it yourself.' I didn't believe I could do it. My hands were covered in black oil, and I dropped the tiny screws three times. But Grandad never got impatient. He just said, 'Try again, slowly.'<br><br>Since then, I've spent most Saturday mornings in the shop. I've learned how to change a chain, fix the brakes and pump tyres to the right pressure. Customers often look surprised when a girl my age repairs their bike, but they always thank me.<br><br>What I admire most about Grandad isn't how skilful he is, although he can fix almost anything. It's that he treats every customer the same. He repairs a student's old bike as carefully as an expensive racing bike, and he often charges poor families nothing at all.<br><br>Grandad says that people throw away too many things that could be repaired. I agree. Fixing something feels much better than buying something new.<br><br>One day, I hope to have my own repair shop. Grandad has promised to give me his favourite tool when I do."
-      }
-     },
-     {
-      "hint": {
-       "step": "Read what happened next: 'we kept losing the ball'."
-      },
-      "worked": "It felt awkward 'at first, and we kept losing the ball', so it means not easy or comfortable.",
-      "type": "mcq",
-      "q": "In paragraph 3, <b>awkward</b> means ...",
-      "opts": [
-       "not easy or comfortable",
-       "exciting and fun",
-       "unfair to the players"
-      ],
-      "at": 0,
-      "whys": [
-       null,
-       "They 'kept losing the ball', so it wasn't fun at first.",
-       "Nobody says the game was unfair."
-      ],
-      "letters": true,
-      "fig": {
-       "k": "stim",
-       "id": "s8-t-season",
-       "kind": "text",
-       "head": "Part 6: an article",
-       "html": "<b>The season we didn't win</b><br>by Max, aged 11<br><br>When I joined the Lakeside Lions football team in September, I expected to score lots of goals and win a gold cup. Instead, we lost our first eight matches. After one game, which we lost 7–0, I wanted to give up.<br><br>Our coach, Mrs Okafor, didn't shout at us. Instead, she asked us a strange question: 'Did anyone pass the ball today?' We all looked at the ground. The truth was that everyone, including me, had just tried to score alone.<br><br>From then on, training was different. We played games where you weren't allowed to shoot until all five players had touched the ball. It felt *awkward* at first, and we kept losing the ball. But slowly, we started to understand each other. I discovered that our quiet defender, Arjun, could see passes that nobody else could.<br><br>We still didn't win any matches before Christmas. But in January, we drew 2–2 with the best team in the league, and we celebrated as if we had won the World Cup.<br><br>At the end of the season, we didn't get a trophy for winning. We got the Fair Play Award for being the most helpful and friendly team. To be honest, I was a little disappointed at first. Now I think it's the best prize we could have got.<br><br>I've learned that football isn't only about goals. It's about trusting the people around you."
-      }
-     }
-    ]
-   },
-   {
-    "dok": 2,
-    "lo": [
-     "6Ro.01"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Find the words 'What I admire most'."
-      },
-      "worked": "'It's that he <b>treats every customer the same</b>.'",
-      "type": "mcq",
-      "q": "What does Lan admire most about her grandfather?",
-      "opts": [
-       "He is fair to all his customers.",
-       "He can repair expensive racing bikes.",
-       "He has worked in the shop for years."
+       "His cousins would be at swimming then.",
+       "His family would be asleep by that time.",
+       "There were no fireworks that year."
       ],
       "at": 2,
       "whys": [
        null,
-       "Racing bikes are an example, not the thing she admires most.",
-       "This is true, but it isn't what she admires most."
+       "The text doesn't say his family would be asleep.",
+       "There were fireworks; that is why he wanted to call at midnight."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
-       "id": "s8-t-shop",
+       "id": "s8-t-p6-tet",
        "kind": "text",
-       "head": "Part 6: an article",
-       "html": "<b>My hero in a tiny shop</b><br>by Lan, aged 11<br><br>My grandfather has repaired bicycles in the same tiny shop for forty years. It is so small that only two people can stand inside, and there are tools hanging on every wall. When I was younger, I thought it was a boring place. Now it's my favourite place in the whole town.<br><br>Last year, my bike got a flat tyre, and Grandad said, 'Don't buy a new one. I'll teach you to fix it yourself.' I didn't believe I could do it. My hands were covered in black oil, and I dropped the tiny screws three times. But Grandad never got impatient. He just said, 'Try again, slowly.'<br><br>Since then, I've spent most Saturday mornings in the shop. I've learned how to change a chain, fix the brakes and pump tyres to the right pressure. Customers often look surprised when a girl my age repairs their bike, but they always thank me.<br><br>What I admire most about Grandad isn't how skilful he is, although he can fix almost anything. It's that he treats every customer the same. He repairs a student's old bike as carefully as an expensive racing bike, and he often charges poor families nothing at all.<br><br>Grandad says that people throw away too many things that could be repaired. I agree. Fixing something feels much better than buying something new.<br><br>One day, I hope to have my own repair shop. Grandad has promised to give me his favourite tool when I do."
+       "head": "Part 6: a magazine article",
+       "html": "<b>Son's Tet across the world</b><br><i>Ten-year-old Son found a clever way to share Tet with his cousins in London.</i><br><br>Son's aunt and uncle live in London with his two cousins. Last December, his older cousin sent him a message: 'I've never seen a real Tet celebration.' That gave Son an idea. He would show them Tet on a video call.<br><br>First, Son wanted to call at midnight, so his cousins could watch the fireworks. Then he checked the time difference. London is seven hours behind Vietnam, so midnight in Hanoi is five o'clock in the afternoon there. His cousins would still be at their swimming lesson!<br><br>At first, the time differences confused Son, but soon he found the maths fun. In the end, he chose six o'clock in the evening, during the family feast. In London, it was eleven in the morning, and his cousins were free.<br><br>On the call, Son showed his cousins the peach blossom and the decorations. Grandma explained that the sticky rice cakes are boiled for ten hours. Afterwards, Son's mum said his plan was so well organised that she didn't need to help at all.<br><br>Now Son's cousins want to come to Vietnam for the next Tet. Son is already making a list of places to show them. He also hopes they will teach him about British celebrations."
       }
      },
      {
       "hint": {
-       "step": "Find the word 'celebrated'."
+       "step": "Find 'her little brother' in paragraph 2."
       },
-      "worked": "'We celebrated <b>as if we had won</b> the World Cup.'",
+      "worked": "'Her little brother <b>loved them</b> and <b>asked for a new Moon Island story every night</b>.'",
       "type": "mcq",
-      "q": "How did the team feel about the 2–2 draw?",
+      "q": "What did Tia's little brother think of her ideas?",
       "opts": [
-       "as happy as if they had won",
-       "disappointed, but glad they didn't lose",
-       "surprised that the other team was weak"
+       "He loved them and wanted more stories.",
+       "He thought they were a bit silly.",
+       "He was scared of the mysterious cave."
       ],
       "at": 0,
       "whys": [
        null,
-       "They 'celebrated as if they had won', so they weren't disappointed.",
-       "The other team was 'the best team in the league'."
+       "'Silly' is what TIA thought at first, not her brother.",
+       "The text doesn't say he was scared."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
-       "id": "s8-t-season",
+       "id": "s8-t-p6-island",
        "kind": "text",
-       "head": "Part 6: an article",
-       "html": "<b>The season we didn't win</b><br>by Max, aged 11<br><br>When I joined the Lakeside Lions football team in September, I expected to score lots of goals and win a gold cup. Instead, we lost our first eight matches. After one game, which we lost 7–0, I wanted to give up.<br><br>Our coach, Mrs Okafor, didn't shout at us. Instead, she asked us a strange question: 'Did anyone pass the ball today?' We all looked at the ground. The truth was that everyone, including me, had just tried to score alone.<br><br>From then on, training was different. We played games where you weren't allowed to shoot until all five players had touched the ball. It felt *awkward* at first, and we kept losing the ball. But slowly, we started to understand each other. I discovered that our quiet defender, Arjun, could see passes that nobody else could.<br><br>We still didn't win any matches before Christmas. But in January, we drew 2–2 with the best team in the league, and we celebrated as if we had won the World Cup.<br><br>At the end of the season, we didn't get a trophy for winning. We got the Fair Play Award for being the most helpful and friendly team. To be honest, I was a little disappointed at first. Now I think it's the best prize we could have got.<br><br>I've learned that football isn't only about goals. It's about trusting the people around you."
+       "head": "Part 6: a magazine article",
+       "html": "<b>Tia's mysterious island</b><br><i>During the summer holidays, Tia created a magical place and filled a book with it.</i><br><br>Last summer, Tia stayed with her grandparents in a small village in the mountains. There was no internet there. Then it rained for three days, so Tia found some paper and coloured pencils and started to draw a map of an island that didn't exist.<br><br>She called it Moon Island. It had a purple forest, a mysterious cave and an enormous waterfall that flowed up into the sky. At first, Tia thought her ideas were silly. But her little brother loved them and asked for a new Moon Island story every night.<br><br>By the end of the holiday, Tia had ten stories. Her school was having a writing competition, but at first she didn't want to enter, because she thought her handwriting was too messy. Her grandfather helped her to write more slowly, and she copied out her best story neatly.<br><br>Her teacher said the descriptions in the story were incredible. 'I could almost see the purple trees,' she said. Tia didn't win the competition, but her story is now in the school library.<br><br>Now Tia is writing a second book, about a lost city under the sea near Moon Island. This time, she wants to draw all the pictures herself."
+      }
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "5Rd.01",
+     "5Rm.02"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Find 'At first' in paragraph 3."
+      },
+      "worked": "'At first, the time differences <b>confused</b> Son.'",
+      "type": "mcq",
+      "q": "How did Son feel about the time differences at first?",
+      "opts": [
+       "They confused him.",
+       "He thought they were fun.",
+       "He asked his mum for help."
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "He found the maths fun LATER, not at first.",
+       "His mum said she didn't need to help at all."
+      ],
+      "letters": true,
+      "fig": {
+       "k": "stim",
+       "id": "s8-t-p6-tet",
+       "kind": "text",
+       "head": "Part 6: a magazine article",
+       "html": "<b>Son's Tet across the world</b><br><i>Ten-year-old Son found a clever way to share Tet with his cousins in London.</i><br><br>Son's aunt and uncle live in London with his two cousins. Last December, his older cousin sent him a message: 'I've never seen a real Tet celebration.' That gave Son an idea. He would show them Tet on a video call.<br><br>First, Son wanted to call at midnight, so his cousins could watch the fireworks. Then he checked the time difference. London is seven hours behind Vietnam, so midnight in Hanoi is five o'clock in the afternoon there. His cousins would still be at their swimming lesson!<br><br>At first, the time differences confused Son, but soon he found the maths fun. In the end, he chose six o'clock in the evening, during the family feast. In London, it was eleven in the morning, and his cousins were free.<br><br>On the call, Son showed his cousins the peach blossom and the decorations. Grandma explained that the sticky rice cakes are boiled for ten hours. Afterwards, Son's mum said his plan was so well organised that she didn't need to help at all.<br><br>Now Son's cousins want to come to Vietnam for the next Tet. Son is already making a list of places to show them. He also hopes they will teach him about British celebrations."
+      }
+     },
+     {
+      "hint": {
+       "step": "Find 'competition' and read the words after 'because'."
+      },
+      "worked": "'She thought her <b>handwriting was too messy</b>.'",
+      "type": "mcq",
+      "q": "Why didn't Tia want to enter the competition at first?",
+      "opts": [
+       "She thought her handwriting was too messy.",
+       "She only had ten stories.",
+       "Her grandfather said it was too hard."
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Ten stories is a lot; it isn't the reason.",
+       "Her grandfather helped her; he didn't say it was too hard."
+      ],
+      "letters": true,
+      "fig": {
+       "k": "stim",
+       "id": "s8-t-p6-island",
+       "kind": "text",
+       "head": "Part 6: a magazine article",
+       "html": "<b>Tia's mysterious island</b><br><i>During the summer holidays, Tia created a magical place and filled a book with it.</i><br><br>Last summer, Tia stayed with her grandparents in a small village in the mountains. There was no internet there. Then it rained for three days, so Tia found some paper and coloured pencils and started to draw a map of an island that didn't exist.<br><br>She called it Moon Island. It had a purple forest, a mysterious cave and an enormous waterfall that flowed up into the sky. At first, Tia thought her ideas were silly. But her little brother loved them and asked for a new Moon Island story every night.<br><br>By the end of the holiday, Tia had ten stories. Her school was having a writing competition, but at first she didn't want to enter, because she thought her handwriting was too messy. Her grandfather helped her to write more slowly, and she copied out her best story neatly.<br><br>Her teacher said the descriptions in the story were incredible. 'I could almost see the purple trees,' she said. Tia didn't win the competition, but her story is now in the school library.<br><br>Now Tia is writing a second book, about a lost city under the sea near Moon Island. This time, she wants to draw all the pictures herself."
+      }
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "5Rd.01",
+     "5Rm.02"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Find 'Son's mum' in paragraph 4."
+      },
+      "worked": "'Son's mum said his plan was <b>so well organised</b> that she didn't need to help.'",
+      "type": "mcq",
+      "q": "What did Son's mum say about his plan?",
+      "opts": [
+       "It was very well organised.",
+       "It needed a lot of help from her.",
+       "It should start at midnight."
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "She said she 'didn't need to help at all'.",
+       "Midnight was Son's first idea, and he changed it."
+      ],
+      "letters": true,
+      "fig": {
+       "k": "stim",
+       "id": "s8-t-p6-tet",
+       "kind": "text",
+       "head": "Part 6: a magazine article",
+       "html": "<b>Son's Tet across the world</b><br><i>Ten-year-old Son found a clever way to share Tet with his cousins in London.</i><br><br>Son's aunt and uncle live in London with his two cousins. Last December, his older cousin sent him a message: 'I've never seen a real Tet celebration.' That gave Son an idea. He would show them Tet on a video call.<br><br>First, Son wanted to call at midnight, so his cousins could watch the fireworks. Then he checked the time difference. London is seven hours behind Vietnam, so midnight in Hanoi is five o'clock in the afternoon there. His cousins would still be at their swimming lesson!<br><br>At first, the time differences confused Son, but soon he found the maths fun. In the end, he chose six o'clock in the evening, during the family feast. In London, it was eleven in the morning, and his cousins were free.<br><br>On the call, Son showed his cousins the peach blossom and the decorations. Grandma explained that the sticky rice cakes are boiled for ten hours. Afterwards, Son's mum said his plan was so well organised that she didn't need to help at all.<br><br>Now Son's cousins want to come to Vietnam for the next Tet. Son is already making a list of places to show them. He also hopes they will teach him about British celebrations."
+      }
+     },
+     {
+      "hint": {
+       "step": "Find 'Her teacher' in paragraph 4."
+      },
+      "worked": "'Her teacher said <b>the descriptions</b> in the story <b>were incredible</b>.'",
+      "type": "mcq",
+      "q": "What did Tia's teacher say about the story?",
+      "opts": [
+       "The descriptions were incredible.",
+       "The handwriting was too messy.",
+       "It was going to win the competition."
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "Messy handwriting was Tia's own worry, and she fixed it.",
+       "Tia didn't win the competition."
+      ],
+      "letters": true,
+      "fig": {
+       "k": "stim",
+       "id": "s8-t-p6-island",
+       "kind": "text",
+       "head": "Part 6: a magazine article",
+       "html": "<b>Tia's mysterious island</b><br><i>During the summer holidays, Tia created a magical place and filled a book with it.</i><br><br>Last summer, Tia stayed with her grandparents in a small village in the mountains. There was no internet there. Then it rained for three days, so Tia found some paper and coloured pencils and started to draw a map of an island that didn't exist.<br><br>She called it Moon Island. It had a purple forest, a mysterious cave and an enormous waterfall that flowed up into the sky. At first, Tia thought her ideas were silly. But her little brother loved them and asked for a new Moon Island story every night.<br><br>By the end of the holiday, Tia had ten stories. Her school was having a writing competition, but at first she didn't want to enter, because she thought her handwriting was too messy. Her grandfather helped her to write more slowly, and she copied out her best story neatly.<br><br>Her teacher said the descriptions in the story were incredible. 'I could almost see the purple trees,' she said. Tia didn't win the competition, but her story is now in the school library.<br><br>Now Tia is writing a second book, about a lost city under the sea near Moon Island. This time, she wants to draw all the pictures herself."
+      }
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "5Rd.01",
+     "5Rm.02"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Plans are in the last paragraph. Find 'Now'."
+      },
+      "worked": "'Now Son's cousins <b>want to come to Vietnam for the next Tet</b>.'",
+      "type": "mcq",
+      "q": "What do Son's cousins want to do now?",
+      "opts": [
+       "come to Vietnam for the next Tet",
+       "learn to cook sticky rice cakes with Grandma",
+       "watch fireworks on a video call"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Grandma talked about the cakes, but the cousins don't plan to cook them.",
+       "The video call happened already, and there were no fireworks on it."
+      ],
+      "letters": true,
+      "fig": {
+       "k": "stim",
+       "id": "s8-t-p6-tet",
+       "kind": "text",
+       "head": "Part 6: a magazine article",
+       "html": "<b>Son's Tet across the world</b><br><i>Ten-year-old Son found a clever way to share Tet with his cousins in London.</i><br><br>Son's aunt and uncle live in London with his two cousins. Last December, his older cousin sent him a message: 'I've never seen a real Tet celebration.' That gave Son an idea. He would show them Tet on a video call.<br><br>First, Son wanted to call at midnight, so his cousins could watch the fireworks. Then he checked the time difference. London is seven hours behind Vietnam, so midnight in Hanoi is five o'clock in the afternoon there. His cousins would still be at their swimming lesson!<br><br>At first, the time differences confused Son, but soon he found the maths fun. In the end, he chose six o'clock in the evening, during the family feast. In London, it was eleven in the morning, and his cousins were free.<br><br>On the call, Son showed his cousins the peach blossom and the decorations. Grandma explained that the sticky rice cakes are boiled for ten hours. Afterwards, Son's mum said his plan was so well organised that she didn't need to help at all.<br><br>Now Son's cousins want to come to Vietnam for the next Tet. Son is already making a list of places to show them. He also hopes they will teach him about British celebrations."
+      }
+     },
+     {
+      "hint": {
+       "step": "Find 'Now' in the last paragraph."
+      },
+      "worked": "'Now Tia is <b>writing a second book</b>, about a lost city under the sea.'",
+      "type": "mcq",
+      "q": "What is Tia doing now?",
+      "opts": [
+       "She is writing a second book.",
+       "She is reading in the school library.",
+       "She is teaching her brother to draw."
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Her story is IN the library; the text doesn't say she reads there.",
+       "She wants to draw the pictures herself, not teach her brother."
+      ],
+      "letters": true,
+      "fig": {
+       "k": "stim",
+       "id": "s8-t-p6-island",
+       "kind": "text",
+       "head": "Part 6: a magazine article",
+       "html": "<b>Tia's mysterious island</b><br><i>During the summer holidays, Tia created a magical place and filled a book with it.</i><br><br>Last summer, Tia stayed with her grandparents in a small village in the mountains. There was no internet there. Then it rained for three days, so Tia found some paper and coloured pencils and started to draw a map of an island that didn't exist.<br><br>She called it Moon Island. It had a purple forest, a mysterious cave and an enormous waterfall that flowed up into the sky. At first, Tia thought her ideas were silly. But her little brother loved them and asked for a new Moon Island story every night.<br><br>By the end of the holiday, Tia had ten stories. Her school was having a writing competition, but at first she didn't want to enter, because she thought her handwriting was too messy. Her grandfather helped her to write more slowly, and she copied out her best story neatly.<br><br>Her teacher said the descriptions in the story were incredible. 'I could almost see the purple trees,' she said. Tia didn't win the competition, but her story is now in the school library.<br><br>Now Tia is writing a second book, about a lost city under the sea near Moon Island. This time, she wants to draw all the pictures herself."
       }
      }
     ]
@@ -2569,62 +1987,314 @@
    {
     "dok": 2,
     "lo": [
-     "6Rm.01",
-     "6Rm.02"
+     "5Rm.01",
+     "5Rd.03"
     ],
     "v": [
      {
       "hint": {
-       "step": "Think about the title and the whole article."
+       "step": "Who goes WITH someone? Then check: is that person in their family?"
       },
-      "worked": "Lan describes her grandfather, what she has learned from him and why she admires him.",
+      "worked": "Jamal: 'Grandpa and I cycle around the lake... <b>It's our special time together</b>.'",
       "type": "mcq",
-      "q": "What is Lan mainly doing in this article?",
+      "q": "Which person goes to their place to spend time with a family member?",
       "opts": [
-       "describing her grandad and what he taught her",
-       "explaining step by step how to repair a flat tyre",
-       "asking readers to take their bikes to Grandad's shop"
+       "Jamal",
+       "Lan",
+       "Poppy"
       ],
       "at": 1,
       "whys": [
        null,
-       "She doesn't give the steps for a tyre.",
-       "She never asks readers to visit the shop."
+       "Lan goes up to the roof garden to practise her dance steps on her own.",
+       "Poppy goes to the library to read and to help the librarian, who isn't her family."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
-       "id": "s8-t-shop",
+       "id": "s8-t-p5-places",
        "kind": "text",
-       "head": "Part 6: an article",
-       "html": "<b>My hero in a tiny shop</b><br>by Lan, aged 11<br><br>My grandfather has repaired bicycles in the same tiny shop for forty years. It is so small that only two people can stand inside, and there are tools hanging on every wall. When I was younger, I thought it was a boring place. Now it's my favourite place in the whole town.<br><br>Last year, my bike got a flat tyre, and Grandad said, 'Don't buy a new one. I'll teach you to fix it yourself.' I didn't believe I could do it. My hands were covered in black oil, and I dropped the tiny screws three times. But Grandad never got impatient. He just said, 'Try again, slowly.'<br><br>Since then, I've spent most Saturday mornings in the shop. I've learned how to change a chain, fix the brakes and pump tyres to the right pressure. Customers often look surprised when a girl my age repairs their bike, but they always thank me.<br><br>What I admire most about Grandad isn't how skilful he is, although he can fix almost anything. It's that he treats every customer the same. He repairs a student's old bike as carefully as an expensive racing bike, and he often charges poor families nothing at all.<br><br>Grandad says that people throw away too many things that could be repaired. I agree. Fixing something feels much better than buying something new.<br><br>One day, I hope to have my own repair shop. Grandad has promised to give me his favourite tool when I do."
+       "head": "Part 5: a magazine page",
+       "html": "<b>My favourite place near home</b><br><br><b>Poppy</b><br>My favourite place is the library at the end of our street. It's a small library, but it has a big window full of plants. I'm quite shy, so I love the quiet reading corner by the window. Last year, the librarian asked me to help with story time for little children on Saturdays. I was nervous at first, but now I read to them every week. When I grow up, I hope to write my own books for children.<br><br><b>Jamal</b><br>Every Sunday morning, Grandpa and I cycle around the lake in Green Park. It's our special time together, because Grandpa lives on the other side of town and I don't see him much in the week. There are tall trees, a playground and a little stall by the lake. We always stop there and buy two glasses of fresh mango juice. My favourite thing is watching the rowing boats. Some are very fast, and some just go round in circles! I think it's the most beautiful place in our town.<br><br><b>Lan</b><br>My favourite place is the roof garden on top of our block of flats. Our neighbours grow tomatoes, herbs and chillies in big pots, and everyone can pick a few. In the evening, I go up there to practise my dance steps, because our flat is too small. The view of the city lights is amazing. Last month, an old neighbour showed me how to plant seeds, and now I look after my own pot of mint. Next year, I'd like to grow strawberries."
       }
      },
      {
       "hint": {
-       "step": "Read the last paragraph: what has Max learned?"
+       "step": "Look for a child who thinks about their OWN past."
       },
-      "worked": "Max tells how his team lost, learned to pass and won the Fair Play Award: 'football isn't only about goals'.",
+      "worked": "Quan: 'I <b>remembered how lonely I felt</b> at my first school.'",
       "type": "mcq",
-      "q": "What is Max mainly doing in this article?",
+      "q": "Which person helped someone because they remembered feeling the same way?",
       "opts": [
-       "explaining what a hard season taught him",
-       "giving advice on how to score more goals",
-       "describing the best team in his league"
+       "Quan",
+       "Kira",
+       "Adam"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
-       "The article says football 'isn't only about goals'.",
-       "The best team appears in one sentence only."
+       "Kira helped the hospital, but not because of her own feelings.",
+       "Adam doesn't help anyone in his text."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
-       "id": "s8-t-season",
+       "id": "s8-t-p5-proud",
        "kind": "text",
-       "head": "Part 6: an article",
-       "html": "<b>The season we didn't win</b><br>by Max, aged 11<br><br>When I joined the Lakeside Lions football team in September, I expected to score lots of goals and win a gold cup. Instead, we lost our first eight matches. After one game, which we lost 7–0, I wanted to give up.<br><br>Our coach, Mrs Okafor, didn't shout at us. Instead, she asked us a strange question: 'Did anyone pass the ball today?' We all looked at the ground. The truth was that everyone, including me, had just tried to score alone.<br><br>From then on, training was different. We played games where you weren't allowed to shoot until all five players had touched the ball. It felt *awkward* at first, and we kept losing the ball. But slowly, we started to understand each other. I discovered that our quiet defender, Arjun, could see passes that nobody else could.<br><br>We still didn't win any matches before Christmas. But in January, we drew 2–2 with the best team in the league, and we celebrated as if we had won the World Cup.<br><br>At the end of the season, we didn't get a trophy for winning. We got the Fair Play Award for being the most helpful and friendly team. To be honest, I was a little disappointed at first. Now I think it's the best prize we could have got.<br><br>I've learned that football isn't only about goals. It's about trusting the people around you."
+       "head": "Part 5: a magazine page",
+       "html": "<b>Something I'm proud of</b><br><br><b>Quan</b><br>I'm proud of something small that I did this year. In September, a new boy joined our class. He came from Korea and he didn't speak much English, so he sat alone at lunch. I remembered how lonely I felt at my first school, so I asked him to play football with my friends. Every day I taught him five new English words, and he taught me five Korean words. Now he's one of my best friends, and he talks more than I do!<br><br><b>Kira</b><br>In May, I ran a five-kilometre race to raise money for the children's hospital. I'm not a fast runner, and I'm not very sporty. Before the race, my legs felt weak and I wanted to stay at home. My uncle, who is a nurse at the hospital, ran next to me the whole way. I had to walk up the long hill, but I didn't give up. I finished almost last, but I raised two hundred pounds. I've still got my medal on my bedroom wall.<br><br><b>Adam</b><br>I'm proud of the lemon cake that I made at my Saturday baking class. We had a competition, and each of us had two hours to bake something. I'm usually very impatient, but this time I waited for the cake to cool before I put the icing on. Some of my classmates didn't wait, and their icing melted. My cake came second! The teacher said it was the lightest cake she had tasted all year. My dad wants me to bake it again when Grandma visits."
+      }
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "5Rm.01",
+     "5Rd.03"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Look for words that show then and now, like 'at first'."
+      },
+      "worked": "Poppy: 'I was <b>nervous at first</b>, but <b>now</b> I read to them every week.'",
+      "type": "mcq",
+      "q": "Which person found that something got easier over time?",
+      "opts": [
+       "Poppy",
+       "Lan",
+       "Jamal"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "Lan learned to plant seeds, but she doesn't say it was hard at first.",
+       "Jamal doesn't describe anything that was difficult."
+      ],
+      "letters": true,
+      "fig": {
+       "k": "stim",
+       "id": "s8-t-p5-places",
+       "kind": "text",
+       "head": "Part 5: a magazine page",
+       "html": "<b>My favourite place near home</b><br><br><b>Poppy</b><br>My favourite place is the library at the end of our street. It's a small library, but it has a big window full of plants. I'm quite shy, so I love the quiet reading corner by the window. Last year, the librarian asked me to help with story time for little children on Saturdays. I was nervous at first, but now I read to them every week. When I grow up, I hope to write my own books for children.<br><br><b>Jamal</b><br>Every Sunday morning, Grandpa and I cycle around the lake in Green Park. It's our special time together, because Grandpa lives on the other side of town and I don't see him much in the week. There are tall trees, a playground and a little stall by the lake. We always stop there and buy two glasses of fresh mango juice. My favourite thing is watching the rowing boats. Some are very fast, and some just go round in circles! I think it's the most beautiful place in our town.<br><br><b>Lan</b><br>My favourite place is the roof garden on top of our block of flats. Our neighbours grow tomatoes, herbs and chillies in big pots, and everyone can pick a few. In the evening, I go up there to practise my dance steps, because our flat is too small. The view of the city lights is amazing. Last month, an old neighbour showed me how to plant seeds, and now I look after my own pot of mint. Next year, I'd like to grow strawberries."
+      }
+     },
+     {
+      "hint": {
+       "step": "Look for the word 'usually'."
+      },
+      "worked": "Adam: 'I'm <b>usually very impatient</b>, but <b>this time I waited</b>.'",
+      "type": "mcq",
+      "q": "Which person did well because they changed how they usually behave?",
+      "opts": [
+       "Adam",
+       "Kira",
+       "Quan"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "Kira didn't give up, but she doesn't say she usually behaves differently.",
+       "Quan was kind, but he doesn't say this is unusual for him."
+      ],
+      "letters": true,
+      "fig": {
+       "k": "stim",
+       "id": "s8-t-p5-proud",
+       "kind": "text",
+       "head": "Part 5: a magazine page",
+       "html": "<b>Something I'm proud of</b><br><br><b>Quan</b><br>I'm proud of something small that I did this year. In September, a new boy joined our class. He came from Korea and he didn't speak much English, so he sat alone at lunch. I remembered how lonely I felt at my first school, so I asked him to play football with my friends. Every day I taught him five new English words, and he taught me five Korean words. Now he's one of my best friends, and he talks more than I do!<br><br><b>Kira</b><br>In May, I ran a five-kilometre race to raise money for the children's hospital. I'm not a fast runner, and I'm not very sporty. Before the race, my legs felt weak and I wanted to stay at home. My uncle, who is a nurse at the hospital, ran next to me the whole way. I had to walk up the long hill, but I didn't give up. I finished almost last, but I raised two hundred pounds. I've still got my medal on my bedroom wall.<br><br><b>Adam</b><br>I'm proud of the lemon cake that I made at my Saturday baking class. We had a competition, and each of us had two hours to bake something. I'm usually very impatient, but this time I waited for the cake to cool before I put the icing on. Some of my classmates didn't wait, and their icing melted. My cake came second! The teacher said it was the lightest cake she had tasted all year. My dad wants me to bake it again when Grandma visits."
+      }
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "5Rm.01",
+     "5Rd.03"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Find each child's reason. 'Not enough space' means too small."
+      },
+      "worked": "Lan: 'I go up there to practise my dance steps, because <b>our flat is too small</b>.'",
+      "type": "mcq",
+      "q": "Which person uses their place because there isn't enough space at home?",
+      "opts": [
+       "Lan",
+       "Poppy",
+       "Jamal"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Poppy goes to the library because it is quiet and she is shy.",
+       "Jamal goes to cycle with Grandpa, not because his home is small."
+      ],
+      "letters": true,
+      "fig": {
+       "k": "stim",
+       "id": "s8-t-p5-places",
+       "kind": "text",
+       "head": "Part 5: a magazine page",
+       "html": "<b>My favourite place near home</b><br><br><b>Poppy</b><br>My favourite place is the library at the end of our street. It's a small library, but it has a big window full of plants. I'm quite shy, so I love the quiet reading corner by the window. Last year, the librarian asked me to help with story time for little children on Saturdays. I was nervous at first, but now I read to them every week. When I grow up, I hope to write my own books for children.<br><br><b>Jamal</b><br>Every Sunday morning, Grandpa and I cycle around the lake in Green Park. It's our special time together, because Grandpa lives on the other side of town and I don't see him much in the week. There are tall trees, a playground and a little stall by the lake. We always stop there and buy two glasses of fresh mango juice. My favourite thing is watching the rowing boats. Some are very fast, and some just go round in circles! I think it's the most beautiful place in our town.<br><br><b>Lan</b><br>My favourite place is the roof garden on top of our block of flats. Our neighbours grow tomatoes, herbs and chillies in big pots, and everyone can pick a few. In the evening, I go up there to practise my dance steps, because our flat is too small. The view of the city lights is amazing. Last month, an old neighbour showed me how to plant seeds, and now I look after my own pot of mint. Next year, I'd like to grow strawberries."
+      }
+     },
+     {
+      "hint": {
+       "step": "Look for family words: uncle, dad, grandma. Who was THERE?"
+      },
+      "worked": "Kira: 'My <b>uncle</b>... <b>ran next to me</b> the whole way.'",
+      "type": "mcq",
+      "q": "Which person had a family member with them during their challenge?",
+      "opts": [
+       "Kira",
+       "Adam",
+       "Quan"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Adam's dad is in his text, but he wasn't at the competition.",
+       "Quan's new friend isn't a member of his family."
+      ],
+      "letters": true,
+      "fig": {
+       "k": "stim",
+       "id": "s8-t-p5-proud",
+       "kind": "text",
+       "head": "Part 5: a magazine page",
+       "html": "<b>Something I'm proud of</b><br><br><b>Quan</b><br>I'm proud of something small that I did this year. In September, a new boy joined our class. He came from Korea and he didn't speak much English, so he sat alone at lunch. I remembered how lonely I felt at my first school, so I asked him to play football with my friends. Every day I taught him five new English words, and he taught me five Korean words. Now he's one of my best friends, and he talks more than I do!<br><br><b>Kira</b><br>In May, I ran a five-kilometre race to raise money for the children's hospital. I'm not a fast runner, and I'm not very sporty. Before the race, my legs felt weak and I wanted to stay at home. My uncle, who is a nurse at the hospital, ran next to me the whole way. I had to walk up the long hill, but I didn't give up. I finished almost last, but I raised two hundred pounds. I've still got my medal on my bedroom wall.<br><br><b>Adam</b><br>I'm proud of the lemon cake that I made at my Saturday baking class. We had a competition, and each of us had two hours to bake something. I'm usually very impatient, but this time I waited for the cake to cool before I put the icing on. Some of my classmates didn't wait, and their icing melted. My cake came second! The teacher said it was the lightest cake she had tasted all year. My dad wants me to bake it again when Grandma visits."
+      }
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "5Rm.01",
+     "5Rd.03"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Look for a word like 'buy' or 'sell' in one text. The other two children get things free."
+      },
+      "worked": "Jamal: 'We always stop there and <b>buy two glasses of fresh mango juice</b>.'",
+      "type": "mcq",
+      "q": "Which person pays for something at their place?",
+      "opts": [
+       "Jamal",
+       "Poppy",
+       "Lan"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Poppy borrows books from the library. She doesn't buy anything.",
+       "Lan's neighbours let everyone pick a few vegetables. She doesn't pay for them."
+      ],
+      "letters": true,
+      "fig": {
+       "k": "stim",
+       "id": "s8-t-p5-places",
+       "kind": "text",
+       "head": "Part 5: a magazine page",
+       "html": "<b>My favourite place near home</b><br><br><b>Poppy</b><br>My favourite place is the library at the end of our street. It's a small library, but it has a big window full of plants. I'm quite shy, so I love the quiet reading corner by the window. Last year, the librarian asked me to help with story time for little children on Saturdays. I was nervous at first, but now I read to them every week. When I grow up, I hope to write my own books for children.<br><br><b>Jamal</b><br>Every Sunday morning, Grandpa and I cycle around the lake in Green Park. It's our special time together, because Grandpa lives on the other side of town and I don't see him much in the week. There are tall trees, a playground and a little stall by the lake. We always stop there and buy two glasses of fresh mango juice. My favourite thing is watching the rowing boats. Some are very fast, and some just go round in circles! I think it's the most beautiful place in our town.<br><br><b>Lan</b><br>My favourite place is the roof garden on top of our block of flats. Our neighbours grow tomatoes, herbs and chillies in big pots, and everyone can pick a few. In the evening, I go up there to practise my dance steps, because our flat is too small. The view of the city lights is amazing. Last month, an old neighbour showed me how to plant seeds, and now I look after my own pot of mint. Next year, I'd like to grow strawberries."
+      }
+     },
+     {
+      "hint": {
+       "step": "Look for something you can keep, like a prize or a photo."
+      },
+      "worked": "Kira: 'I've still got my <b>medal on my bedroom wall</b>.'",
+      "type": "mcq",
+      "q": "Which person can still see something from their special day at home?",
+      "opts": [
+       "Kira",
+       "Adam",
+       "Quan"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Adam's cake was eaten; his dad wants a new one.",
+       "Quan has a new friend, but nothing on show at home."
+      ],
+      "letters": true,
+      "fig": {
+       "k": "stim",
+       "id": "s8-t-p5-proud",
+       "kind": "text",
+       "head": "Part 5: a magazine page",
+       "html": "<b>Something I'm proud of</b><br><br><b>Quan</b><br>I'm proud of something small that I did this year. In September, a new boy joined our class. He came from Korea and he didn't speak much English, so he sat alone at lunch. I remembered how lonely I felt at my first school, so I asked him to play football with my friends. Every day I taught him five new English words, and he taught me five Korean words. Now he's one of my best friends, and he talks more than I do!<br><br><b>Kira</b><br>In May, I ran a five-kilometre race to raise money for the children's hospital. I'm not a fast runner, and I'm not very sporty. Before the race, my legs felt weak and I wanted to stay at home. My uncle, who is a nurse at the hospital, ran next to me the whole way. I had to walk up the long hill, but I didn't give up. I finished almost last, but I raised two hundred pounds. I've still got my medal on my bedroom wall.<br><br><b>Adam</b><br>I'm proud of the lemon cake that I made at my Saturday baking class. We had a competition, and each of us had two hours to bake something. I'm usually very impatient, but this time I waited for the cake to cool before I put the icing on. Some of my classmates didn't wait, and their icing melted. My cake came second! The teacher said it was the lightest cake she had tasted all year. My dad wants me to bake it again when Grandma visits."
+      }
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "5Rm.01",
+     "5Rd.03"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Look for 'When I grow up'."
+      },
+      "worked": "Poppy: 'When I grow up, I hope to <b>write my own books</b> for children.'",
+      "type": "mcq",
+      "q": "Which person talks about a job they would like to do?",
+      "opts": [
+       "Poppy",
+       "Lan",
+       "Jamal"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "Lan wants to grow strawberries next year, but that's a hobby, not a job.",
+       "Jamal talks about the park now, not about his future."
+      ],
+      "letters": true,
+      "fig": {
+       "k": "stim",
+       "id": "s8-t-p5-places",
+       "kind": "text",
+       "head": "Part 5: a magazine page",
+       "html": "<b>My favourite place near home</b><br><br><b>Poppy</b><br>My favourite place is the library at the end of our street. It's a small library, but it has a big window full of plants. I'm quite shy, so I love the quiet reading corner by the window. Last year, the librarian asked me to help with story time for little children on Saturdays. I was nervous at first, but now I read to them every week. When I grow up, I hope to write my own books for children.<br><br><b>Jamal</b><br>Every Sunday morning, Grandpa and I cycle around the lake in Green Park. It's our special time together, because Grandpa lives on the other side of town and I don't see him much in the week. There are tall trees, a playground and a little stall by the lake. We always stop there and buy two glasses of fresh mango juice. My favourite thing is watching the rowing boats. Some are very fast, and some just go round in circles! I think it's the most beautiful place in our town.<br><br><b>Lan</b><br>My favourite place is the roof garden on top of our block of flats. Our neighbours grow tomatoes, herbs and chillies in big pots, and everyone can pick a few. In the evening, I go up there to practise my dance steps, because our flat is too small. The view of the city lights is amazing. Last month, an old neighbour showed me how to plant seeds, and now I look after my own pot of mint. Next year, I'd like to grow strawberries."
+      }
+     },
+     {
+      "hint": {
+       "step": "Who helped someone? Then check: did that person teach them anything?"
+      },
+      "worked": "Quan: 'he <b>taught me five Korean words</b>.'",
+      "type": "mcq",
+      "q": "Which person learned something from the person they helped?",
+      "opts": [
+       "Quan",
+       "Kira",
+       "Adam"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Kira's uncle helped HER; she didn't learn from the people she helped.",
+       "Adam learned to wait, but he didn't help anyone."
+      ],
+      "letters": true,
+      "fig": {
+       "k": "stim",
+       "id": "s8-t-p5-proud",
+       "kind": "text",
+       "head": "Part 5: a magazine page",
+       "html": "<b>Something I'm proud of</b><br><br><b>Quan</b><br>I'm proud of something small that I did this year. In September, a new boy joined our class. He came from Korea and he didn't speak much English, so he sat alone at lunch. I remembered how lonely I felt at my first school, so I asked him to play football with my friends. Every day I taught him five new English words, and he taught me five Korean words. Now he's one of my best friends, and he talks more than I do!<br><br><b>Kira</b><br>In May, I ran a five-kilometre race to raise money for the children's hospital. I'm not a fast runner, and I'm not very sporty. Before the race, my legs felt weak and I wanted to stay at home. My uncle, who is a nurse at the hospital, ran next to me the whole way. I had to walk up the long hill, but I didn't give up. I finished almost last, but I raised two hundred pounds. I've still got my medal on my bedroom wall.<br><br><b>Adam</b><br>I'm proud of the lemon cake that I made at my Saturday baking class. We had a competition, and each of us had two hours to bake something. I'm usually very impatient, but this time I waited for the cake to cool before I put the icing on. Some of my classmates didn't wait, and their icing melted. My cake came second! The teacher said it was the lightest cake she had tasted all year. My dad wants me to bake it again when Grandma visits."
       }
      }
     ]
@@ -2635,7 +2305,103 @@
   "secs": 60,
   "items": [
    [
-    "'Free' means it costs ___",
+    "'Furious' means very ___",
+    [
+     "angry",
+     "happy",
+     "tired"
+    ]
+   ],
+   [
+    "'Delighted' means very ___",
+    [
+     "pleased",
+     "scared",
+     "bored"
+    ]
+   ],
+   [
+    "'Exhausted' means very ___",
+    [
+     "tired",
+     "hungry",
+     "cold"
+    ]
+   ],
+   [
+    "'Terrified' means very ___",
+    [
+     "scared",
+     "surprised",
+     "calm"
+    ]
+   ],
+   [
+    "'I couldn't wait' means I felt ___",
+    [
+     "excited",
+     "bored",
+     "sleepy"
+    ]
+   ],
+   [
+    "'At first' tells you about the ___",
+    [
+     "beginning",
+     "end",
+     "title"
+    ]
+   ],
+   [
+    "'In the end' tells you about the ___",
+    [
+     "end",
+     "beginning",
+     "title"
+    ]
+   ],
+   [
+    "'I hope to' talks about the ___",
+    [
+     "future",
+     "past",
+     "present"
+    ]
+   ],
+   [
+    "'Hardly anyone came' means ___ came",
+    [
+     "very few",
+     "nobody",
+     "lots"
+    ]
+   ],
+   [
+    "'Nobody' means ___ people",
+    [
+     "no",
+     "some",
+     "all"
+    ]
+   ],
+   [
+    "'Everyone' means ___ people",
+    [
+     "all",
+     "some",
+     "no"
+    ]
+   ],
+   [
+    "'Used to' talks about the ___",
+    [
+     "past",
+     "future",
+     "weekend"
+    ]
+   ],
+   [
+    "A free ticket costs ___",
     [
      "nothing",
      "a little",
@@ -2643,151 +2409,55 @@
     ]
    ],
    [
-    "'No experience needed' is good for ___",
+    "'Huge' means very ___",
     [
-     "beginners",
-     "experts",
-     "coaches"
+     "big",
+     "small",
+     "old"
     ]
    ],
    [
-    "'Indoors' means ___",
+    "'Tiny' means very ___",
     [
-     "inside",
-     "outside",
-     "upstairs"
+     "small",
+     "big",
+     "loud"
     ]
    ],
    [
-    "'Closed on Mondays': can you go Monday?",
+    "'Enormous' means very ___",
     [
-     "no",
-     "yes",
-     "only mornings"
+     "big",
+     "quiet",
+     "short"
     ]
    ],
    [
-    "'Half price' means you pay ___",
+    "How many children's texts are in Part 5?",
     [
-     "half",
-     "nothing",
-     "double"
-    ]
-   ],
-   [
-    "'Weekly' means once every ___",
-    [
-     "week",
-     "day",
-     "month"
-    ]
-   ],
-   [
-    "'Monthly' means once every ___",
-    [
-     "month",
-     "week",
-     "year"
-    ]
-   ],
-   [
-    "At a 'day camp' you sleep ___",
-    [
-     "at home",
-     "in a tent",
-     "at camp"
-    ]
-   ],
-   [
-    "'Non-fiction' books give ___",
-    [
-     "real facts",
-     "made-up stories",
-     "only poems"
-    ]
-   ],
-   [
-    "A 'fiction' story is ___",
-    [
-     "made up",
-     "always true",
-     "a timetable"
-    ]
-   ],
-   [
-    "'Ages 9 to 12': can an 8-year-old join?",
-    [
-     "no",
-     "yes",
-     "on Fridays"
-    ]
-   ],
-   [
-    "Which words show an opinion?",
-    [
-     "I think",
-     "last year",
-     "there is"
-    ]
-   ],
-   [
-    "'Over the moon' means very ___",
-    [
-     "happy",
-     "tired",
-     "scared"
-    ]
-   ],
-   [
-    "'My heart was racing' means I was ___",
-    [
-     "nervous",
-     "bored",
-     "sleepy"
-    ]
-   ],
-   [
-    "'I couldn't wait' means I was ___",
-    [
-     "excited",
-     "angry",
-     "bored"
-    ]
-   ],
-   [
-    "'Disappointed' is a ___ feeling",
-    [
-     "sad",
-     "happy",
-     "calm"
-    ]
-   ],
-   [
-    "A text matching only some wishes is ___",
-    [
-     "a trap",
-     "the answer",
-     "a title"
-    ]
-   ],
-   [
-    "Part 5: read the ___ first",
-    [
-     "people",
-     "texts",
-     "titles"
-    ]
-   ],
-   [
-    "Part 5: how many texts are extra?",
-    [
+     "three",
      "two",
-     "one",
-     "three"
+     "five"
     ]
    ],
    [
-    "Part 6 questions follow the text ___",
+    "How many paragraphs are in Part 6?",
+    [
+     "five",
+     "three",
+     "seven"
+    ]
+   ],
+   [
+    "Part 5 options are the children's ___",
+    [
+     "names",
+     "ages",
+     "pictures"
+    ]
+   ],
+   [
+    "Part 6 questions follow the text's ___",
     [
      "order",
      "title",
@@ -2795,253 +2465,253 @@
     ]
    ],
    [
-    "The last Part 6 question is about ___",
+    "In Part 5, a name can be right ___",
     [
-     "the whole text",
-     "the last line",
-     "the title"
+     "more than once",
+     "only once",
+     "never"
     ]
    ],
    [
-    "'Mainly doing' asks about the writer's ___",
+    "'Afraid of spiders' means ___ of spiders",
     [
-     "purpose",
-     "spelling",
-     "age"
-    ]
-   ],
-   [
-    "The opposite of 'beginner' is ___",
-    [
-     "expert",
-     "child",
-     "member"
-    ]
-   ],
-   [
-    "'Nearby' means ___",
-    [
-     "close",
-     "far away",
-     "expensive"
-    ]
-   ],
-   [
-    "'Sign up' means ___",
-    [
-     "join",
-     "leave",
-     "pay later"
-    ]
-   ],
-   [
-    "'Places are limited' means ___",
-    [
-     "not many places",
-     "lots of places",
-     "free places"
-    ]
-   ],
-   [
-    "'For all ages' includes ___",
-    [
-     "everyone",
-     "only adults",
-     "only children"
-    ]
-   ],
-   [
-    "'Outdoor' activities happen ___",
-    [
-     "outside",
-     "inside",
-     "online"
-    ]
-   ],
-   [
-    "'Bring your own lunch': is lunch included?",
-    [
-     "no",
-     "yes",
-     "on Mondays"
-    ]
-   ],
-   [
-    "'Lunch is included' means you ___",
-    [
-     "needn't bring lunch",
-     "must bring lunch",
-     "can't eat"
-    ]
-   ],
-   [
-    "'Fascinated by' means very ___",
-    [
-     "interested in",
-     "scared of",
-     "bored by"
-    ]
-   ],
-   [
-    "'I'm keen on chess' means I ___ chess",
-    [
-     "like",
-     "hate",
-     "forget"
-    ]
-   ],
-   [
-    "'Not my favourite' means I ___",
-    [
-     "don't love it",
-     "love it",
-     "own it"
-    ]
-   ],
-   [
-    "'To be honest' comes before ___",
-    [
-     "an opinion",
-     "an address",
-     "a date"
-    ]
-   ],
-   [
-    "'In the end' tells you the ___",
-    [
-     "final result",
-     "first idea",
-     "title"
-    ]
-   ],
-   [
-    "'At first' tells you the ___",
-    [
-     "early feeling",
-     "final result",
-     "writer's name"
-    ]
-   ],
-   [
-    "'However' shows a ___",
-    [
-     "contrast",
-     "time",
-     "place"
-    ]
-   ],
-   [
-    "'Delighted' means very ___",
-    [
-     "pleased",
-     "worried",
+     "scared",
+     "fond",
      "tired"
     ]
    ],
    [
-    "'Nervous' means a bit ___",
+    "'Interested in' means you want to ___",
     [
-     "worried",
-     "hungry",
+     "know more",
+     "stop",
+     "sleep"
+    ]
+   ],
+   [
+    "The opposite of 'shy' is ___",
+    [
+     "outgoing",
+     "quiet",
+     "nervous"
+    ]
+   ],
+   [
+    "The opposite of 'lazy' is ___",
+    [
+     "hard-working",
+     "calm",
+     "cheerful"
+    ]
+   ],
+   [
+    "The opposite of 'generous' is ___",
+    [
+     "selfish",
+     "kind",
+     "talkative"
+    ]
+   ],
+   [
+    "'Talkative' people ___ a lot",
+    [
+     "talk",
+     "sleep",
+     "eat"
+    ]
+   ],
+   [
+    "'She gave up' means she ___",
+    [
+     "stopped trying",
+     "kept trying",
+     "won"
+    ]
+   ],
+   [
+    "'He didn't mind' means he was ___",
+    [
+     "OK with it",
+     "angry",
+     "scared"
+    ]
+   ],
+   [
+    "'I changed my mind' means I have a ___",
+    [
+     "new opinion",
+     "same opinion",
+     "headache"
+    ]
+   ],
+   [
+    "'We ran out of rice' means ___ rice",
+    [
+     "no more",
+     "lots of",
+     "new"
+    ]
+   ],
+   [
+    "With a fever, your body is too ___",
+    [
+     "hot",
+     "cold",
+     "wet"
+    ]
+   ],
+   [
+    "Insect repellent keeps away ___",
+    [
+     "mosquitoes",
+     "colds",
+     "sweets"
+    ]
+   ],
+   [
+    "'Standing water' is water that ___",
+    [
+     "doesn't move",
+     "flows fast",
+     "is hot"
+    ]
+   ],
+   [
+    "A 'feast' is a big ___",
+    [
+     "meal",
+     "song",
+     "game"
+    ]
+   ],
+   [
+    "'I', 'my' and 'me' show a ___ text",
+    [
+     "first-person",
+     "third-person",
+     "picture"
+    ]
+   ],
+   [
+    "'Disappointed' means sad because something ___",
+    [
+     "went wrong",
+     "went well",
+     "was funny"
+    ]
+   ],
+   [
+    "'Relieved' means happy that a worry ___",
+    [
+     "ended",
+     "started",
+     "grew"
+    ]
+   ],
+   [
+    "'Confident' means you ___ yourself",
+    [
+     "believe in",
+     "worry about",
+     "laugh at"
+    ]
+   ],
+   [
+    "'Patient' people can ___",
+    [
+     "wait calmly",
+     "run fast",
+     "sing well"
+    ]
+   ],
+   [
+    "'Mysterious' means ___",
+    [
+     "hard to explain",
+     "very bright",
+     "easy to see"
+    ]
+   ],
+   [
+    "'Incredible' means ___",
+    [
+     "amazing",
+     "boring",
+     "ordinary"
+    ]
+   ],
+   [
+    "'Cheerful' means ___",
+    [
+     "happy",
+     "angry",
      "sleepy"
     ]
    ],
    [
-    "You feel 'proud' after ___",
+    "'Nervous' before a test means ___",
     [
-     "doing well",
-     "making a mistake",
-     "a long sleep"
+     "worried",
+     "bored",
+     "hungry"
     ]
    ],
    [
-    "'Hire a boat' means ___",
+    "Wrong options often use ___ from the text",
     [
-     "pay to use it",
-     "buy it",
-     "build it"
+     "real words",
+     "no words",
+     "new names"
     ]
    ],
    [
-    "'Experienced swimmers only': OK for beginners?",
+    "'My teacher said' gives the ___ opinion",
     [
-     "no",
-     "yes",
-     "sometimes"
+     "teacher's",
+     "writer's",
+     "friend's"
     ]
    ],
    [
-    "'Every other day' means ___",
+    "'His friends thought' gives the ___ opinion",
     [
-     "every second day",
-     "every day",
-     "once a week"
+     "friends'",
+     "boy's",
+     "teacher's"
     ]
    ],
    [
-    "The 'weekend' is ___",
+    "'Crowded' means full of ___",
     [
-     "Saturday and Sunday",
-     "Monday and Friday",
-     "every weekday"
+     "people",
+     "water",
+     "food"
     ]
    ],
    [
-    "A 'guide' is a person who ___",
+    "'Proud of' goes with ___",
     [
-     "shows you around",
-     "cooks lunch",
-     "drives a bus"
+     "good work",
+     "a cold",
+     "bad news"
     ]
    ],
    [
-    "Guess a new word from the ___",
+    "'Over the moon' means very ___",
     [
-     "words around it",
-     "first letter",
-     "word length"
-    ]
-   ],
-   [
-    "'Recommend' means say something is ___",
-    [
-     "good to try",
-     "too expensive",
-     "finished"
-    ]
-   ],
-   [
-    "'Get fit' means become ___",
-    [
-     "healthier",
-     "taller",
-     "richer"
-    ]
-   ],
-   [
-    "A writer's 'purpose' is ___",
-    [
-     "why they write",
-     "where they live",
-     "how old they are"
-    ]
-   ],
-   [
-    "'Already' shows something is ___",
-    [
-     "done",
-     "a wish",
-     "in the future"
+     "happy",
+     "high",
+     "tired"
     ]
    ]
   ]
  },
  "selfcheck": {
   "goals": [
-   "find the 2 or 3 wishes in a person's description",
-   "check a text against every wish and spot a partial match",
-   "find a writer's opinions and feelings in an article",
-   "guess a word from context and say what an article is mainly doing"
+   "find the key idea in a 'Which person?' question",
+   "check all three texts before I choose a name",
+   "find answers in a longer text, paragraph by paragraph",
+   "tell a child's own feelings and plans from other people's ideas"
   ],
   "again": [
    "c",

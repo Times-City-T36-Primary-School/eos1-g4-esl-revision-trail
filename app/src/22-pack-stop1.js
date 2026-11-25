@@ -1264,7 +1264,7 @@
           "id": "s1-letter-linh",
           "kind": "text",
           "head": "Email from Linh to her friend Ruby",
-          "html": "<b>Word box:</b> at, in, is, most, of, than<br><br>Hi Ruby,<br>Guess what? There (0) <u>is</u> a new library in our town! It used to be an old bus station. Now it is much bigger (1) ________ the old library, and it has an enormous window with a view of the river. The children's room is the (2) ________ colourful room I have ever seen. There are beanbags, plants and a big map of the world on the wall. I'm really interested (3) ________ books about mysterious places, so I go every Saturday morning. Would you like to come with me next week?<br>Love,<br>Linh"
+          "html": "<b>Word box:</b> at, in, is, most, of, than<br><br>Hi Ruby,<br>Guess what? There (0) <u>is</u> a new library in our town! It used to be an old shoe factory. Now it is much bigger (1) ________ the old library, and it has an enormous window with a view of the river. The children's room is the (2) ________ colourful room I have ever seen. There are beanbags, plants and a big map of the world on the wall. I'm really interested (3) ________ books about mysterious places, so I go every Saturday morning. Would you like to come with me next week?<br>Love,<br>Linh"
          }
         },
         {
@@ -1318,7 +1318,7 @@
           "id": "s1-letter-linh",
           "kind": "text",
           "head": "Email from Linh to her friend Ruby",
-          "html": "<b>Word box:</b> at, in, is, most, of, than<br><br>Hi Ruby,<br>Guess what? There (0) <u>is</u> a new library in our town! It used to be an old bus station. Now it is much bigger (1) ________ the old library, and it has an enormous window with a view of the river. The children's room is the (2) ________ colourful room I have ever seen. There are beanbags, plants and a big map of the world on the wall. I'm really interested (3) ________ books about mysterious places, so I go every Saturday morning. Would you like to come with me next week?<br>Love,<br>Linh"
+          "html": "<b>Word box:</b> at, in, is, most, of, than<br><br>Hi Ruby,<br>Guess what? There (0) <u>is</u> a new library in our town! It used to be an old shoe factory. Now it is much bigger (1) ________ the old library, and it has an enormous window with a view of the river. The children's room is the (2) ________ colourful room I have ever seen. There are beanbags, plants and a big map of the world on the wall. I'm really interested (3) ________ books about mysterious places, so I go every Saturday morning. Would you like to come with me next week?<br>Love,<br>Linh"
          }
         },
         {
@@ -1372,7 +1372,7 @@
           "id": "s1-letter-linh",
           "kind": "text",
           "head": "Email from Linh to her friend Ruby",
-          "html": "<b>Word box:</b> at, in, is, most, of, than<br><br>Hi Ruby,<br>Guess what? There (0) <u>is</u> a new library in our town! It used to be an old bus station. Now it is much bigger (1) ________ the old library, and it has an enormous window with a view of the river. The children's room is the (2) ________ colourful room I have ever seen. There are beanbags, plants and a big map of the world on the wall. I'm really interested (3) ________ books about mysterious places, so I go every Saturday morning. Would you like to come with me next week?<br>Love,<br>Linh"
+          "html": "<b>Word box:</b> at, in, is, most, of, than<br><br>Hi Ruby,<br>Guess what? There (0) <u>is</u> a new library in our town! It used to be an old shoe factory. Now it is much bigger (1) ________ the old library, and it has an enormous window with a view of the river. The children's room is the (2) ________ colourful room I have ever seen. There are beanbags, plants and a big map of the world on the wall. I'm really interested (3) ________ books about mysterious places, so I go every Saturday morning. Would you like to come with me next week?<br>Love,<br>Linh"
          }
         },
         {

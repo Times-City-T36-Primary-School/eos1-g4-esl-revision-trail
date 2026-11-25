@@ -856,7 +856,7 @@
       "good habits to follow every day",
       "what you mustn't do",
       "why being kind is important",
-      "use modal verbs (should, shouldn't, must, mustn't, need to)"
+      "use modal verbs (must, mustn't, should, shouldn't, need to)"
      ],
      "min": 60,
      "max": 90,
@@ -928,13 +928,13 @@
      "id": "t1b",
      "task": 1,
      "title": "How to keep our town clean",
-     "prompt": "Your school is making a booklet called 'Love Where You Live'. Write 1 to 2 paragraphs (7 to 8 sentences) explaining how people can keep their town clean and beautiful. Use modal verbs and linking words. Check your spelling, grammar and punctuation.",
+     "prompt": "Your school is making a booklet called 'Love Where You Live'. Write 1 to 2 paragraphs (7 to 8 sentences) about what everyone can do to keep their town clean and beautiful. Use modal verbs and linking words. Check your spelling, grammar and punctuation.",
      "bullets": [
       "what people should do",
       "good habits to follow every week",
       "what people mustn't do",
       "why a clean town is important",
-      "use modal verbs (should, shouldn't, must, mustn't, need to)"
+      "use modal verbs (must, mustn't, should, shouldn't, need to)"
      ],
      "min": 60,
      "max": 90,
@@ -1012,7 +1012,7 @@
       "good things to do during the show",
       "what children mustn't do",
       "why it is important to be careful",
-      "use modal verbs (should, shouldn't, must, mustn't, need to)"
+      "use modal verbs (must, mustn't, should, shouldn't, need to)"
      ],
      "min": 60,
      "max": 90,
@@ -1084,9 +1084,9 @@
      "id": "t2a",
      "task": 2,
      "title": "A new dish I would invent",
-     "prompt": "Your school canteen wants new ideas for lunch. Write 1 to 2 paragraphs (7 to 8 sentences) about a new dish you would invent. It can be real or imaginary. Use descriptive adjectives, at least one comparative or superlative, and linking words. Check your spelling, grammar and punctuation.",
+     "prompt": "Your school canteen wants new ideas for lunch. Write 1 to 2 paragraphs (7 to 8 sentences) about a new dish you would invent. It can be real or imaginary. Use descriptive adjectives, linking words and one or more comparatives or superlatives. Check your spelling, grammar and punctuation.",
      "bullets": [
-      "what the dish is and what it looks like",
+      "what the dish is and how it looks",
       "what makes it special or interesting",
       "when you would eat it and who you would share it with",
       "why you chose it"
@@ -1161,7 +1161,7 @@
      "id": "t2b",
      "task": 2,
      "title": "My own superhero",
-     "prompt": "Your class is making a comic book called 'Heroes Who Help'. Write 1 to 2 paragraphs (7 to 8 sentences) about a superhero you would create. Use descriptive adjectives, at least one comparative or superlative, and linking words. Check your spelling, grammar and punctuation.",
+     "prompt": "Your class is making a comic book called 'Heroes Who Help'. Write 1 to 2 paragraphs (7 to 8 sentences) about a superhero you would create. Use descriptive adjectives, linking words and one or more comparatives or superlatives. Check your spelling, grammar and punctuation.",
      "bullets": [
       "who your superhero is and what he or she looks like",
       "what makes your superhero special",
@@ -1238,9 +1238,9 @@
      "id": "t2c",
      "task": 2,
      "title": "A magic object I would like to have",
-     "prompt": "Your teacher is collecting stories called 'Magic in My Pocket'. Write 1 to 2 paragraphs (7 to 8 sentences) about a magic object you would like to have. It can be from a story or from your imagination. Use descriptive adjectives, at least one comparative or superlative, and linking words. Check your spelling, grammar and punctuation.",
+     "prompt": "Your teacher is collecting stories called 'Magic in My Pocket'. Write 1 to 2 paragraphs (7 to 8 sentences) about a magic object you would like to have. It can be from a story or from your imagination. Use descriptive adjectives, linking words and one or more comparatives or superlatives. Check your spelling, grammar and punctuation.",
      "bullets": [
-      "what the object is and what it looks like",
+      "what the object is and how it looks",
       "what makes it magical or special",
       "what you would do with it",
       "why you chose it"

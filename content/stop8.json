@@ -63,7 +63,7 @@
     "ex": "In 'Which person missed a show?', the *key idea* is 'missed'."
    },
    "similar": {
-    "emoji": "👯",
+    "emoji": "💃",
     "vi": "giống nhau, tương tự",
     "def": "Almost the same, but not exactly the same.",
     "ex": "All three texts are *similar*: each child talks about being ill."
@@ -748,12 +748,12 @@
           "She asked 'so many questions' that the guide laughed."
          ],
          "hint": "Find what Kira thought BEFORE the trip, then how she felt at the end.",
-         "worked": "'She *thought it would be boring*... she told everyone it was *the best trip of the year*.'",
+         "worked": "'She *didn't want to go*... she told everyone it was *the best trip of the year*.'",
          "stim": {
           "id": "s8-r-museum",
           "kind": "text",
           "head": "From a magazine article",
-          "html": "When Kira's class went to the science museum, she thought it would be boring. But the guide let her hold a real dinosaur bone, and she asked so many questions that the guide laughed. On the bus home, she told everyone it was the best trip of the year.",
+          "html": "When Kira's class went to the recycling centre, she didn't want to go. 'It's just rubbish,' she said. But the guide let her press the button on a huge machine that squashes cans, and she asked so many questions that the guide laughed. On the bus home, she told everyone it was the best trip of the year.",
           "bank": null
          }
         },
@@ -827,12 +827,12 @@
           "The shop was open: Poppy bought one flower there."
          ],
          "hint": "Find 'So'. What happened just before it?",
-         "worked": "'She *didn't have enough money*. So she bought one flower and made a card.'",
+         "worked": "'The big bunch *cost more than the money in her purse*. So she bought one flower and made a card.'",
          "stim": {
           "id": "s8-r-flowers",
           "kind": "text",
           "head": "From a magazine article",
-          "html": "Poppy wanted to buy her mum a big bunch of flowers for her birthday. When she got to the shop, she didn't have enough money. So she bought one flower and made a card with a poem inside. Mum said it was the best present she had ever had.",
+          "html": "Poppy wanted to buy her mum a big bunch of flowers for her birthday. When she got to the shop, the big bunch cost more than the money in her purse. So she bought one flower and made a card with a poem inside. Mum said it was the best present she had ever had.",
           "bank": null
          }
         }
@@ -1299,7 +1299,7 @@
          "q": "How did Daisy feel about writing a blog at first?",
          "opts": [
           "She was worried about her spelling.",
-          "She thought it would be boring.",
+          "She thought a blog was a boring idea.",
           "She felt excited and very confident."
          ],
          "at": 0,
@@ -1811,7 +1811,7 @@
     "v": [
      {
       "type": "mcq",
-      "q": "Which person goes to their place early to avoid the busy time?",
+      "q": "Which person goes to their place to spend time with a family member?",
       "opts": [
        "Jamal",
        "Lan",
@@ -1820,16 +1820,16 @@
       "at": 1,
       "whys": [
        null,
-       "Lan goes in the evening, because her flat is small.",
-       "Poppy goes on Saturdays to help, not to avoid people."
+       "Lan goes up to the roof garden to practise her dance steps on her own.",
+       "Poppy goes to the library to read and to help the librarian, who isn't her family."
       ],
-      "hint": "'Busy' means lots of people. Find a word that means the same in one text.",
-      "worked": "Jamal: 'The park gets *very crowded in the afternoon*, so we *always go early*.'",
+      "hint": "Who goes WITH someone? Then check: is that person in their family?",
+      "worked": "Jamal: 'Grandpa and I cycle around the lake... *It's our special time together*.'",
       "stim": {
        "id": "s8-t-p5-places",
        "kind": "text",
        "head": "Part 5: a magazine page",
-       "html": "<b>My favourite place near home</b><br><br><b>Poppy</b><br>My favourite place is the library at the end of our street. There used to be a cinema in the same building, and you can still see the old film posters on the stairs. I'm quite shy, so I love the quiet reading corner by the window. Last year, the librarian asked me to help with story time for little children on Saturdays. I was nervous at first, but now I read to them every week. When I grow up, I hope to write my own books for children.<br><br><b>Jamal</b><br>Every Sunday morning, Grandpa and I cycle around the lake in Green Park. Grandpa says that when he was a boy, there wasn't a park there, only a big car park. Now there are tall trees, a playground and a little stall that sells fresh fruit juice. My favourite thing is the old wooden bridge, where we stop to look at the fish. The park gets very crowded in the afternoon, so we always go early. I think it's the most beautiful place in our town.<br><br><b>Lan</b><br>My favourite place is the roof garden on top of our block of flats. Our neighbours grow tomatoes, herbs and chillies in big pots, and everyone can pick a few. In the evening, I go up there to practise my dance steps, because our flat is too small. The view of the city lights is amazing. Last month, an old neighbour showed me how to plant seeds, and now I look after my own pot of mint. Next year, I'd like to grow strawberries.",
+       "html": "<b>My favourite place near home</b><br><br><b>Poppy</b><br>My favourite place is the library at the end of our street. It's a small library, but it has a big window full of plants. I'm quite shy, so I love the quiet reading corner by the window. Last year, the librarian asked me to help with story time for little children on Saturdays. I was nervous at first, but now I read to them every week. When I grow up, I hope to write my own books for children.<br><br><b>Jamal</b><br>Every Sunday morning, Grandpa and I cycle around the lake in Green Park. It's our special time together, because Grandpa lives on the other side of town and I don't see him much in the week. There are tall trees, a playground and a little stall by the lake. We always stop there and buy two glasses of fresh mango juice. My favourite thing is watching the rowing boats. Some are very fast, and some just go round in circles! I think it's the most beautiful place in our town.<br><br><b>Lan</b><br>My favourite place is the roof garden on top of our block of flats. Our neighbours grow tomatoes, herbs and chillies in big pots, and everyone can pick a few. In the evening, I go up there to practise my dance steps, because our flat is too small. The view of the city lights is amazing. Last month, an old neighbour showed me how to plant seeds, and now I look after my own pot of mint. Next year, I'd like to grow strawberries.",
        "bank": null
       }
      },
@@ -1886,7 +1886,7 @@
        "id": "s8-t-p5-places",
        "kind": "text",
        "head": "Part 5: a magazine page",
-       "html": "<b>My favourite place near home</b><br><br><b>Poppy</b><br>My favourite place is the library at the end of our street. There used to be a cinema in the same building, and you can still see the old film posters on the stairs. I'm quite shy, so I love the quiet reading corner by the window. Last year, the librarian asked me to help with story time for little children on Saturdays. I was nervous at first, but now I read to them every week. When I grow up, I hope to write my own books for children.<br><br><b>Jamal</b><br>Every Sunday morning, Grandpa and I cycle around the lake in Green Park. Grandpa says that when he was a boy, there wasn't a park there, only a big car park. Now there are tall trees, a playground and a little stall that sells fresh fruit juice. My favourite thing is the old wooden bridge, where we stop to look at the fish. The park gets very crowded in the afternoon, so we always go early. I think it's the most beautiful place in our town.<br><br><b>Lan</b><br>My favourite place is the roof garden on top of our block of flats. Our neighbours grow tomatoes, herbs and chillies in big pots, and everyone can pick a few. In the evening, I go up there to practise my dance steps, because our flat is too small. The view of the city lights is amazing. Last month, an old neighbour showed me how to plant seeds, and now I look after my own pot of mint. Next year, I'd like to grow strawberries.",
+       "html": "<b>My favourite place near home</b><br><br><b>Poppy</b><br>My favourite place is the library at the end of our street. It's a small library, but it has a big window full of plants. I'm quite shy, so I love the quiet reading corner by the window. Last year, the librarian asked me to help with story time for little children on Saturdays. I was nervous at first, but now I read to them every week. When I grow up, I hope to write my own books for children.<br><br><b>Jamal</b><br>Every Sunday morning, Grandpa and I cycle around the lake in Green Park. It's our special time together, because Grandpa lives on the other side of town and I don't see him much in the week. There are tall trees, a playground and a little stall by the lake. We always stop there and buy two glasses of fresh mango juice. My favourite thing is watching the rowing boats. Some are very fast, and some just go round in circles! I think it's the most beautiful place in our town.<br><br><b>Lan</b><br>My favourite place is the roof garden on top of our block of flats. Our neighbours grow tomatoes, herbs and chillies in big pots, and everyone can pick a few. In the evening, I go up there to practise my dance steps, because our flat is too small. The view of the city lights is amazing. Last month, an old neighbour showed me how to plant seeds, and now I look after my own pot of mint. Next year, I'd like to grow strawberries.",
        "bank": null
       }
      },
@@ -1943,7 +1943,7 @@
        "id": "s8-t-p5-places",
        "kind": "text",
        "head": "Part 5: a magazine page",
-       "html": "<b>My favourite place near home</b><br><br><b>Poppy</b><br>My favourite place is the library at the end of our street. There used to be a cinema in the same building, and you can still see the old film posters on the stairs. I'm quite shy, so I love the quiet reading corner by the window. Last year, the librarian asked me to help with story time for little children on Saturdays. I was nervous at first, but now I read to them every week. When I grow up, I hope to write my own books for children.<br><br><b>Jamal</b><br>Every Sunday morning, Grandpa and I cycle around the lake in Green Park. Grandpa says that when he was a boy, there wasn't a park there, only a big car park. Now there are tall trees, a playground and a little stall that sells fresh fruit juice. My favourite thing is the old wooden bridge, where we stop to look at the fish. The park gets very crowded in the afternoon, so we always go early. I think it's the most beautiful place in our town.<br><br><b>Lan</b><br>My favourite place is the roof garden on top of our block of flats. Our neighbours grow tomatoes, herbs and chillies in big pots, and everyone can pick a few. In the evening, I go up there to practise my dance steps, because our flat is too small. The view of the city lights is amazing. Last month, an old neighbour showed me how to plant seeds, and now I look after my own pot of mint. Next year, I'd like to grow strawberries.",
+       "html": "<b>My favourite place near home</b><br><br><b>Poppy</b><br>My favourite place is the library at the end of our street. It's a small library, but it has a big window full of plants. I'm quite shy, so I love the quiet reading corner by the window. Last year, the librarian asked me to help with story time for little children on Saturdays. I was nervous at first, but now I read to them every week. When I grow up, I hope to write my own books for children.<br><br><b>Jamal</b><br>Every Sunday morning, Grandpa and I cycle around the lake in Green Park. It's our special time together, because Grandpa lives on the other side of town and I don't see him much in the week. There are tall trees, a playground and a little stall by the lake. We always stop there and buy two glasses of fresh mango juice. My favourite thing is watching the rowing boats. Some are very fast, and some just go round in circles! I think it's the most beautiful place in our town.<br><br><b>Lan</b><br>My favourite place is the roof garden on top of our block of flats. Our neighbours grow tomatoes, herbs and chillies in big pots, and everyone can pick a few. In the evening, I go up there to practise my dance steps, because our flat is too small. The view of the city lights is amazing. Last month, an old neighbour showed me how to plant seeds, and now I look after my own pot of mint. Next year, I'd like to grow strawberries.",
        "bank": null
       }
      },
@@ -1982,7 +1982,7 @@
     "v": [
      {
       "type": "mcq",
-      "q": "Which person heard about the past of their place from a family member?",
+      "q": "Which person pays for something at their place?",
       "opts": [
        "Jamal",
        "Poppy",
@@ -1991,16 +1991,16 @@
       "at": 1,
       "whys": [
        null,
-       "Poppy's library used to be a cinema, but she sees this from old posters, not from family.",
-       "Lan learned from an old neighbour, and it was about plants, not the past."
+       "Poppy borrows books from the library. She doesn't buy anything.",
+       "Lan's neighbours let everyone pick a few vegetables. She doesn't pay for them."
       ],
-      "hint": "Two places have a past. Who TOLD the child about it?",
-      "worked": "Jamal: '*Grandpa says* that when he was a boy, there wasn't a park there.'",
+      "hint": "Look for a word like 'buy' or 'sell' in one text. The other two children get things free.",
+      "worked": "Jamal: 'We always stop there and *buy two glasses of fresh mango juice*.'",
       "stim": {
        "id": "s8-t-p5-places",
        "kind": "text",
        "head": "Part 5: a magazine page",
-       "html": "<b>My favourite place near home</b><br><br><b>Poppy</b><br>My favourite place is the library at the end of our street. There used to be a cinema in the same building, and you can still see the old film posters on the stairs. I'm quite shy, so I love the quiet reading corner by the window. Last year, the librarian asked me to help with story time for little children on Saturdays. I was nervous at first, but now I read to them every week. When I grow up, I hope to write my own books for children.<br><br><b>Jamal</b><br>Every Sunday morning, Grandpa and I cycle around the lake in Green Park. Grandpa says that when he was a boy, there wasn't a park there, only a big car park. Now there are tall trees, a playground and a little stall that sells fresh fruit juice. My favourite thing is the old wooden bridge, where we stop to look at the fish. The park gets very crowded in the afternoon, so we always go early. I think it's the most beautiful place in our town.<br><br><b>Lan</b><br>My favourite place is the roof garden on top of our block of flats. Our neighbours grow tomatoes, herbs and chillies in big pots, and everyone can pick a few. In the evening, I go up there to practise my dance steps, because our flat is too small. The view of the city lights is amazing. Last month, an old neighbour showed me how to plant seeds, and now I look after my own pot of mint. Next year, I'd like to grow strawberries.",
+       "html": "<b>My favourite place near home</b><br><br><b>Poppy</b><br>My favourite place is the library at the end of our street. It's a small library, but it has a big window full of plants. I'm quite shy, so I love the quiet reading corner by the window. Last year, the librarian asked me to help with story time for little children on Saturdays. I was nervous at first, but now I read to them every week. When I grow up, I hope to write my own books for children.<br><br><b>Jamal</b><br>Every Sunday morning, Grandpa and I cycle around the lake in Green Park. It's our special time together, because Grandpa lives on the other side of town and I don't see him much in the week. There are tall trees, a playground and a little stall by the lake. We always stop there and buy two glasses of fresh mango juice. My favourite thing is watching the rowing boats. Some are very fast, and some just go round in circles! I think it's the most beautiful place in our town.<br><br><b>Lan</b><br>My favourite place is the roof garden on top of our block of flats. Our neighbours grow tomatoes, herbs and chillies in big pots, and everyone can pick a few. In the evening, I go up there to practise my dance steps, because our flat is too small. The view of the city lights is amazing. Last month, an old neighbour showed me how to plant seeds, and now I look after my own pot of mint. Next year, I'd like to grow strawberries.",
        "bank": null
       }
      },
@@ -2057,7 +2057,7 @@
        "id": "s8-t-p5-places",
        "kind": "text",
        "head": "Part 5: a magazine page",
-       "html": "<b>My favourite place near home</b><br><br><b>Poppy</b><br>My favourite place is the library at the end of our street. There used to be a cinema in the same building, and you can still see the old film posters on the stairs. I'm quite shy, so I love the quiet reading corner by the window. Last year, the librarian asked me to help with story time for little children on Saturdays. I was nervous at first, but now I read to them every week. When I grow up, I hope to write my own books for children.<br><br><b>Jamal</b><br>Every Sunday morning, Grandpa and I cycle around the lake in Green Park. Grandpa says that when he was a boy, there wasn't a park there, only a big car park. Now there are tall trees, a playground and a little stall that sells fresh fruit juice. My favourite thing is the old wooden bridge, where we stop to look at the fish. The park gets very crowded in the afternoon, so we always go early. I think it's the most beautiful place in our town.<br><br><b>Lan</b><br>My favourite place is the roof garden on top of our block of flats. Our neighbours grow tomatoes, herbs and chillies in big pots, and everyone can pick a few. In the evening, I go up there to practise my dance steps, because our flat is too small. The view of the city lights is amazing. Last month, an old neighbour showed me how to plant seeds, and now I look after my own pot of mint. Next year, I'd like to grow strawberries.",
+       "html": "<b>My favourite place near home</b><br><br><b>Poppy</b><br>My favourite place is the library at the end of our street. It's a small library, but it has a big window full of plants. I'm quite shy, so I love the quiet reading corner by the window. Last year, the librarian asked me to help with story time for little children on Saturdays. I was nervous at first, but now I read to them every week. When I grow up, I hope to write my own books for children.<br><br><b>Jamal</b><br>Every Sunday morning, Grandpa and I cycle around the lake in Green Park. It's our special time together, because Grandpa lives on the other side of town and I don't see him much in the week. There are tall trees, a playground and a little stall by the lake. We always stop there and buy two glasses of fresh mango juice. My favourite thing is watching the rowing boats. Some are very fast, and some just go round in circles! I think it's the most beautiful place in our town.<br><br><b>Lan</b><br>My favourite place is the roof garden on top of our block of flats. Our neighbours grow tomatoes, herbs and chillies in big pots, and everyone can pick a few. In the evening, I go up there to practise my dance steps, because our flat is too small. The view of the city lights is amazing. Last month, an old neighbour showed me how to plant seeds, and now I look after my own pot of mint. Next year, I'd like to grow strawberries.",
        "bank": null
       }
      },

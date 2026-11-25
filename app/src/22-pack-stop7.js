@@ -1663,7 +1663,7 @@
        "id": "s7-t2",
        "kind": "text",
        "head": "Letter from Hamid",
-       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (18) ________ six races for each class, and the sun was shining all day. The boy (19) ________ lives next door to me won two races. I came second in the long race. It was harder (20) ________ I expected, but I didn't stop. Dad was very proud (21) ________ me! Next Saturday, my team (22) ________ having a picnic in the park to celebrate. Would you like to come?<br>Best wishes,<br>Hamid"
+       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (18) ________ six races for each class, and the sun was shining all day. The boy (19) ________ lives next door to me won two races. I came second in the long race. It was harder (20) ________ I expected, but I didn't stop. Dad was very proud (21) ________ me! Next Saturday, my team (22) ________ having a picnic in the park to celebrate. Can you come too?<br>Best wishes,<br>Hamid"
       }
      }
     ]
@@ -1719,7 +1719,7 @@
        "id": "s7-t2",
        "kind": "text",
        "head": "Letter from Hamid",
-       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (18) ________ six races for each class, and the sun was shining all day. The boy (19) ________ lives next door to me won two races. I came second in the long race. It was harder (20) ________ I expected, but I didn't stop. Dad was very proud (21) ________ me! Next Saturday, my team (22) ________ having a picnic in the park to celebrate. Would you like to come?<br>Best wishes,<br>Hamid"
+       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (18) ________ six races for each class, and the sun was shining all day. The boy (19) ________ lives next door to me won two races. I came second in the long race. It was harder (20) ________ I expected, but I didn't stop. Dad was very proud (21) ________ me! Next Saturday, my team (22) ________ having a picnic in the park to celebrate. Can you come too?<br>Best wishes,<br>Hamid"
       }
      }
     ]
@@ -1773,7 +1773,7 @@
        "id": "s7-t2",
        "kind": "text",
        "head": "Letter from Hamid",
-       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (18) ________ six races for each class, and the sun was shining all day. The boy (19) ________ lives next door to me won two races. I came second in the long race. It was harder (20) ________ I expected, but I didn't stop. Dad was very proud (21) ________ me! Next Saturday, my team (22) ________ having a picnic in the park to celebrate. Would you like to come?<br>Best wishes,<br>Hamid"
+       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (18) ________ six races for each class, and the sun was shining all day. The boy (19) ________ lives next door to me won two races. I came second in the long race. It was harder (20) ________ I expected, but I didn't stop. Dad was very proud (21) ________ me! Next Saturday, my team (22) ________ having a picnic in the park to celebrate. Can you come too?<br>Best wishes,<br>Hamid"
       }
      }
     ]
@@ -1827,7 +1827,7 @@
        "id": "s7-t2",
        "kind": "text",
        "head": "Letter from Hamid",
-       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (18) ________ six races for each class, and the sun was shining all day. The boy (19) ________ lives next door to me won two races. I came second in the long race. It was harder (20) ________ I expected, but I didn't stop. Dad was very proud (21) ________ me! Next Saturday, my team (22) ________ having a picnic in the park to celebrate. Would you like to come?<br>Best wishes,<br>Hamid"
+       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (18) ________ six races for each class, and the sun was shining all day. The boy (19) ________ lives next door to me won two races. I came second in the long race. It was harder (20) ________ I expected, but I didn't stop. Dad was very proud (21) ________ me! Next Saturday, my team (22) ________ having a picnic in the park to celebrate. Can you come too?<br>Best wishes,<br>Hamid"
       }
      }
     ]
@@ -1883,7 +1883,7 @@
        "id": "s7-t2",
        "kind": "text",
        "head": "Letter from Hamid",
-       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (18) ________ six races for each class, and the sun was shining all day. The boy (19) ________ lives next door to me won two races. I came second in the long race. It was harder (20) ________ I expected, but I didn't stop. Dad was very proud (21) ________ me! Next Saturday, my team (22) ________ having a picnic in the park to celebrate. Would you like to come?<br>Best wishes,<br>Hamid"
+       "html": "<b>Word box:</b> at, by, is, of, on, than, were, who<br><br><b>Sports day</b><br>Dear Bella,<br>Our school sports day was (0) <b>on</b> Friday. There (18) ________ six races for each class, and the sun was shining all day. The boy (19) ________ lives next door to me won two races. I came second in the long race. It was harder (20) ________ I expected, but I didn't stop. Dad was very proud (21) ________ me! Next Saturday, my team (22) ________ having a picnic in the park to celebrate. Can you come too?<br>Best wishes,<br>Hamid"
       }
      }
     ]

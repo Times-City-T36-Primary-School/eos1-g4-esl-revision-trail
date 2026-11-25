@@ -193,7 +193,7 @@
     "esl": true,
     "kind": "audio",
     "head": "Listen to Dan and Pia.",
-    "html": "<b>Dan:</b> Pia, did you enjoy the town museum?<br><b>Pia:</b> Yes! *The best part* was the old photos. There used to be a big market by the river. I didn't know that!<br><b>Dan:</b> What about the old maps?<br><b>Pia:</b> They were *a bit boring*. And the museum shop was *too expensive*. But I'd like to go back and see the photos again.",
+    "html": "<b>Dan:</b> Pia, did you enjoy the space centre?<br><b>Pia:</b> Yes! *The best part* was the star show. The ceiling turned into the night sky. I didn't know Saturn had so many moons!<br><b>Dan:</b> What about the rocket models?<br><b>Pia:</b> They were *a bit boring*. And the ice creams in the café were *too expensive*. But I'd like to go back and see the star show again.",
     "steps": [
      {
       "en": "Questions often ask what someone liked *best* or did *not* like.",
@@ -214,22 +214,22 @@
       [
        "bm_lewis",
        "Dan",
-       "Pia, did you enjoy the town museum?"
+       "Pia, did you enjoy the space centre?"
       ],
       [
        "bf_lily",
        "Pia",
-       "Yes! The best part was the old photos. There used to be a big market by the river. I didn't know that!"
+       "Yes! The best part was the star show. The ceiling turned into the night sky. I didn't know Saturn had so many moons!"
       ],
       [
        "bm_lewis",
        "Dan",
-       "What about the old maps?"
+       "What about the rocket models?"
       ],
       [
        "bf_lily",
        "Pia",
-       "They were a bit boring. And the museum shop was too expensive. But I'd like to go back and see the photos again."
+       "They were a bit boring. And the ice creams in the café were too expensive. But I'd like to go back and see the star show again."
       ]
      ]
     }

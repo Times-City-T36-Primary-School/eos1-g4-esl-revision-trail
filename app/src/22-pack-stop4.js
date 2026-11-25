@@ -3532,12 +3532,12 @@
        "k": "stim",
        "id": "s4-t-museum",
        "kind": "audio",
-       "head": "Listen to the teacher talking about a class trip. Complete the notes.<br><b>OLD TOWN MUSEUM VISIT</b><br>Topic: our town 100 years ago (example)<br>1 Date: ________ November<br>2 Leave school at: ________<br>3 Morning: drawing or a ________<br>4 Ticket: £________<br>5 Bring: a pencil and a ________",
+       "head": "Listen to the teacher talking about a class trip. Complete the notes.<br><b>OLD TOWN MUSEUM VISIT</b><br>Topic: our town 100 years ago (example)<br>1 Date: ________ November<br>2 Leave school at: ________<br>3 Morning: a treasure hunt or a ________<br>4 Ticket: £________<br>5 Bring: a pencil and a ________",
        "lines": [
         [
          "bm_daniel",
          "Teacher",
-         "Hello, Class 4. I've got some news about our trip to the Old Town Museum. We're going there to learn how our town looked a hundred years ago. There's an old street with shops and a school from the past. We were going to go on the twenty-seventh of October, but the museum is closed that week. So the trip is on the third of November. We'll leave school at half past nine, and we'll come back at two o'clock. In the morning, you can choose drawing or a quiz. In the afternoon, everyone will wear a costume and visit an old classroom. The ticket costs four pounds fifty. Please bring the money by Thursday. You don't need a packed lunch, because the museum café will give us soup and bread. Please bring a pencil and a ruler. Any questions? Come and ask me."
+         "Hello, Class 4. I've got some news about our trip to the Old Town Museum. We're going there to learn how our town looked a hundred years ago. There's an old street with shops and a school from the past. We were going to go on the twenty-seventh of October, but the museum is closed that week. So the trip is on the third of November. We'll leave school at quarter to ten, and we'll come back at two o'clock. In the morning, you can choose a treasure hunt or a quiz. In the afternoon, everyone will wear a costume and visit an old classroom. The ticket costs four pounds fifty. Please bring the money by Wednesday. You don't need a packed lunch, because the museum café will give us soup and bread. Please bring a pencil and a ruler. Any questions? Come and ask me."
         ]
        ]
       }
@@ -3605,7 +3605,7 @@
       "hint": {
        "step": "Two times are said. Are you leaving or coming back?"
       },
-      "worked": "\"We'll <b>leave school at half past nine</b>\" (9:30). Two o'clock is when you come back.",
+      "worked": "\"We'll <b>leave school at quarter to ten</b>\" (9:45). Two o'clock is when you come back.",
       "type": "tfill",
       "q": "2 Leave school at:",
       "lines": [
@@ -3613,40 +3613,38 @@
       ],
       "ans": [
        [
-        "9.30",
-        "9:30",
-        "09.30",
-        "09:30",
-        "9.30am",
-        "9.30 am",
-        "9.30a.m.",
-        "9.30 a.m.",
-        "9:30am",
-        "9:30 am",
-        "9:30a.m.",
-        "9:30 a.m.",
-        "09.30am",
-        "09.30 am",
-        "09.30a.m.",
-        "09.30 a.m.",
-        "09:30am",
-        "09:30 am",
-        "09:30a.m.",
-        "09:30 a.m.",
-        "half past nine",
-        "nine thirty"
+        "9.45",
+        "9:45",
+        "09.45",
+        "09:45",
+        "9.45am",
+        "9.45 am",
+        "9.45a.m.",
+        "9.45 a.m.",
+        "9:45am",
+        "9:45 am",
+        "9:45a.m.",
+        "9:45 a.m.",
+        "09.45am",
+        "09.45 am",
+        "09:45am",
+        "09:45 am",
+        "quarter to ten",
+        "a quarter to ten",
+        "nine forty-five",
+        "nine forty five"
        ]
       ],
       "fig": {
        "k": "stim",
        "id": "s4-t-museum",
        "kind": "audio",
-       "head": "Listen to the teacher talking about a class trip. Complete the notes.<br><b>OLD TOWN MUSEUM VISIT</b><br>Topic: our town 100 years ago (example)<br>1 Date: ________ November<br>2 Leave school at: ________<br>3 Morning: drawing or a ________<br>4 Ticket: £________<br>5 Bring: a pencil and a ________",
+       "head": "Listen to the teacher talking about a class trip. Complete the notes.<br><b>OLD TOWN MUSEUM VISIT</b><br>Topic: our town 100 years ago (example)<br>1 Date: ________ November<br>2 Leave school at: ________<br>3 Morning: a treasure hunt or a ________<br>4 Ticket: £________<br>5 Bring: a pencil and a ________",
        "lines": [
         [
          "bm_daniel",
          "Teacher",
-         "Hello, Class 4. I've got some news about our trip to the Old Town Museum. We're going there to learn how our town looked a hundred years ago. There's an old street with shops and a school from the past. We were going to go on the twenty-seventh of October, but the museum is closed that week. So the trip is on the third of November. We'll leave school at half past nine, and we'll come back at two o'clock. In the morning, you can choose drawing or a quiz. In the afternoon, everyone will wear a costume and visit an old classroom. The ticket costs four pounds fifty. Please bring the money by Thursday. You don't need a packed lunch, because the museum café will give us soup and bread. Please bring a pencil and a ruler. Any questions? Come and ask me."
+         "Hello, Class 4. I've got some news about our trip to the Old Town Museum. We're going there to learn how our town looked a hundred years ago. There's an old street with shops and a school from the past. We were going to go on the twenty-seventh of October, but the museum is closed that week. So the trip is on the third of November. We'll leave school at quarter to ten, and we'll come back at two o'clock. In the morning, you can choose a treasure hunt or a quiz. In the afternoon, everyone will wear a costume and visit an old classroom. The ticket costs four pounds fifty. Please bring the money by Wednesday. You don't need a packed lunch, because the museum café will give us soup and bread. Please bring a pencil and a ruler. Any questions? Come and ask me."
         ]
        ]
       }
@@ -3692,13 +3690,13 @@
      },
      {
       "hint": {
-       "step": "Drawing is printed. Listen for the other morning activity."
+       "step": "A treasure hunt is printed. Listen for the other morning activity."
       },
-      "worked": "\"In the morning, you can choose drawing or <b>a quiz</b>.\"",
+      "worked": "\"In the morning, you can choose a treasure hunt or <b>a quiz</b>.\"",
       "type": "tfill",
-      "q": "3 Morning: drawing or a",
+      "q": "3 Morning: a treasure hunt or a",
       "lines": [
-       "Morning: drawing or a {0}"
+       "Morning: a treasure hunt or a {0}"
       ],
       "ans": [
        [
@@ -3709,12 +3707,12 @@
        "k": "stim",
        "id": "s4-t-museum",
        "kind": "audio",
-       "head": "Listen to the teacher talking about a class trip. Complete the notes.<br><b>OLD TOWN MUSEUM VISIT</b><br>Topic: our town 100 years ago (example)<br>1 Date: ________ November<br>2 Leave school at: ________<br>3 Morning: drawing or a ________<br>4 Ticket: £________<br>5 Bring: a pencil and a ________",
+       "head": "Listen to the teacher talking about a class trip. Complete the notes.<br><b>OLD TOWN MUSEUM VISIT</b><br>Topic: our town 100 years ago (example)<br>1 Date: ________ November<br>2 Leave school at: ________<br>3 Morning: a treasure hunt or a ________<br>4 Ticket: £________<br>5 Bring: a pencil and a ________",
        "lines": [
         [
          "bm_daniel",
          "Teacher",
-         "Hello, Class 4. I've got some news about our trip to the Old Town Museum. We're going there to learn how our town looked a hundred years ago. There's an old street with shops and a school from the past. We were going to go on the twenty-seventh of October, but the museum is closed that week. So the trip is on the third of November. We'll leave school at half past nine, and we'll come back at two o'clock. In the morning, you can choose drawing or a quiz. In the afternoon, everyone will wear a costume and visit an old classroom. The ticket costs four pounds fifty. Please bring the money by Thursday. You don't need a packed lunch, because the museum café will give us soup and bread. Please bring a pencil and a ruler. Any questions? Come and ask me."
+         "Hello, Class 4. I've got some news about our trip to the Old Town Museum. We're going there to learn how our town looked a hundred years ago. There's an old street with shops and a school from the past. We were going to go on the twenty-seventh of October, but the museum is closed that week. So the trip is on the third of November. We'll leave school at quarter to ten, and we'll come back at two o'clock. In the morning, you can choose a treasure hunt or a quiz. In the afternoon, everyone will wear a costume and visit an old classroom. The ticket costs four pounds fifty. Please bring the money by Wednesday. You don't need a packed lunch, because the museum café will give us soup and bread. Please bring a pencil and a ruler. Any questions? Come and ask me."
         ]
        ]
       }
@@ -3782,12 +3780,12 @@
        "k": "stim",
        "id": "s4-t-museum",
        "kind": "audio",
-       "head": "Listen to the teacher talking about a class trip. Complete the notes.<br><b>OLD TOWN MUSEUM VISIT</b><br>Topic: our town 100 years ago (example)<br>1 Date: ________ November<br>2 Leave school at: ________<br>3 Morning: drawing or a ________<br>4 Ticket: £________<br>5 Bring: a pencil and a ________",
+       "head": "Listen to the teacher talking about a class trip. Complete the notes.<br><b>OLD TOWN MUSEUM VISIT</b><br>Topic: our town 100 years ago (example)<br>1 Date: ________ November<br>2 Leave school at: ________<br>3 Morning: a treasure hunt or a ________<br>4 Ticket: £________<br>5 Bring: a pencil and a ________",
        "lines": [
         [
          "bm_daniel",
          "Teacher",
-         "Hello, Class 4. I've got some news about our trip to the Old Town Museum. We're going there to learn how our town looked a hundred years ago. There's an old street with shops and a school from the past. We were going to go on the twenty-seventh of October, but the museum is closed that week. So the trip is on the third of November. We'll leave school at half past nine, and we'll come back at two o'clock. In the morning, you can choose drawing or a quiz. In the afternoon, everyone will wear a costume and visit an old classroom. The ticket costs four pounds fifty. Please bring the money by Thursday. You don't need a packed lunch, because the museum café will give us soup and bread. Please bring a pencil and a ruler. Any questions? Come and ask me."
+         "Hello, Class 4. I've got some news about our trip to the Old Town Museum. We're going there to learn how our town looked a hundred years ago. There's an old street with shops and a school from the past. We were going to go on the twenty-seventh of October, but the museum is closed that week. So the trip is on the third of November. We'll leave school at quarter to ten, and we'll come back at two o'clock. In the morning, you can choose a treasure hunt or a quiz. In the afternoon, everyone will wear a costume and visit an old classroom. The ticket costs four pounds fifty. Please bring the money by Wednesday. You don't need a packed lunch, because the museum café will give us soup and bread. Please bring a pencil and a ruler. Any questions? Come and ask me."
         ]
        ]
       }
@@ -3855,12 +3853,12 @@
        "k": "stim",
        "id": "s4-t-museum",
        "kind": "audio",
-       "head": "Listen to the teacher talking about a class trip. Complete the notes.<br><b>OLD TOWN MUSEUM VISIT</b><br>Topic: our town 100 years ago (example)<br>1 Date: ________ November<br>2 Leave school at: ________<br>3 Morning: drawing or a ________<br>4 Ticket: £________<br>5 Bring: a pencil and a ________",
+       "head": "Listen to the teacher talking about a class trip. Complete the notes.<br><b>OLD TOWN MUSEUM VISIT</b><br>Topic: our town 100 years ago (example)<br>1 Date: ________ November<br>2 Leave school at: ________<br>3 Morning: a treasure hunt or a ________<br>4 Ticket: £________<br>5 Bring: a pencil and a ________",
        "lines": [
         [
          "bm_daniel",
          "Teacher",
-         "Hello, Class 4. I've got some news about our trip to the Old Town Museum. We're going there to learn how our town looked a hundred years ago. There's an old street with shops and a school from the past. We were going to go on the twenty-seventh of October, but the museum is closed that week. So the trip is on the third of November. We'll leave school at half past nine, and we'll come back at two o'clock. In the morning, you can choose drawing or a quiz. In the afternoon, everyone will wear a costume and visit an old classroom. The ticket costs four pounds fifty. Please bring the money by Thursday. You don't need a packed lunch, because the museum café will give us soup and bread. Please bring a pencil and a ruler. Any questions? Come and ask me."
+         "Hello, Class 4. I've got some news about our trip to the Old Town Museum. We're going there to learn how our town looked a hundred years ago. There's an old street with shops and a school from the past. We were going to go on the twenty-seventh of October, but the museum is closed that week. So the trip is on the third of November. We'll leave school at quarter to ten, and we'll come back at two o'clock. In the morning, you can choose a treasure hunt or a quiz. In the afternoon, everyone will wear a costume and visit an old classroom. The ticket costs four pounds fifty. Please bring the money by Wednesday. You don't need a packed lunch, because the museum café will give us soup and bread. Please bring a pencil and a ruler. Any questions? Come and ask me."
         ]
        ]
       }
@@ -3951,7 +3949,7 @@
       "hint": {
        "step": "Jack makes a guess. Does Clara say yes?"
       },
-      "worked": "Clara says \"<b>I walked her dog</b>, because her leg hurts.\"",
+      "worked": "Clara says \"<b>I walked her dog</b>, because she's got a bad cold.\"",
       "type": "mcq",
       "q": "How did Clara help her neighbour?",
       "opts": [
@@ -3968,7 +3966,7 @@
         "html": "",
         "fig": {
          "k": "pico",
-         "pic": "🛍️",
+         "pic": "🚲",
          "tag": ""
         },
         "alt": " picture"
@@ -3986,7 +3984,7 @@
       "at": 0,
       "whys": [
        null,
-       "The neighbour's son usually carries her shopping.",
+       "The neighbour's son usually cleans her bike.",
        "Jack watered the neighbour's plants last week."
       ],
       "letters": true,
@@ -4000,12 +3998,12 @@
         [
          "bm_lewis",
          "Jack",
-         "Clara, my mum says you helped our old neighbour yesterday. Did you carry her shopping?"
+         "Clara, my mum says you helped our neighbour yesterday. Did you clean her bike?"
         ],
         [
          "bf_lily",
          "Clara",
-         "Her son usually does that. I walked her dog, because her leg hurts."
+         "Her son usually does that. I walked her dog, because she's got a bad cold."
         ],
         [
          "bm_lewis",
@@ -4383,7 +4381,7 @@
       "at": 2,
       "whys": [
        null,
-       "Her cousin was a great swimmer, but she hurt her arm.",
+       "Her cousin used to swim for her school, but now she plays badminton.",
        "Her cousin plays tennis only for fun, not for the city."
       ],
       "letters": true,
@@ -4402,7 +4400,7 @@
         [
          "bf_alice",
          "Ngoc",
-         "My big cousin. She was a great swimmer, but she hurt her arm. Now she plays badminton for our city!"
+         "My big cousin. She swam for her school, but then she found badminton more exciting. Now she plays badminton for our city!"
         ],
         [
          "bm_lewis",
