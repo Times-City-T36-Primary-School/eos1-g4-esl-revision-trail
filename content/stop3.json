@@ -257,13 +257,13 @@
        "q": "Which sentence means 'It is not allowed'?",
        "opts": [
         "You mustn't swim here.",
-        "You need to swim here.",
+        "You could swim here.",
         "You should swim here."
        ],
        "at": 1,
        "whys": [
         null,
-        "'need to' means it is necessary, not 'not allowed'.",
+        "'could' here means you are able to swim, not 'not allowed'.",
         "'should' means it is a good idea, not 'not allowed'."
        ],
        "hint": "Look for the word that means 'don't do it, it's a rule'.",
@@ -387,14 +387,14 @@
        "q": "Choose the words for the gap: Mia sings ________ than her brother.",
        "opts": [
         "more loudly",
-        "most loudly",
-        "loudest"
+        "loudest",
+        "loud"
        ],
        "at": 1,
        "whys": [
         null,
-        "We use 'most' with 'the', not with 'than'.",
-        "'loudest' is a superlative. With 'than' we need a comparative."
+        "'loudest' is a superlative. With 'than' we need a comparative.",
+        "'loud' doesn't compare. With 'than' we need 'more loudly'."
        ],
        "hint": "Look at the word 'than'. It compares two people.",
        "worked": "Two people with 'than': 'Mia sings more loudly than her brother.'",
@@ -1559,14 +1559,14 @@
       "q": "The guide spoke ________ than the teacher, so Arjun had to listen very carefully.",
       "opts": [
        "more quietly",
-       "most quietly",
+       "quietest",
        "quiet"
       ],
       "at": 0,
       "whys": [
        null,
-       "We use 'most' with 'the', not with 'than'.",
-       "'quiet' is an adjective. To say how someone speaks we need an adverb."
+       "'quietest' is a superlative. With 'than' we need a comparative.",
+       "'quiet' doesn't compare. With 'than' we need 'more quietly'."
       ],
       "hint": "Look at 'than'. Then ask: how did the guide speak?",
       "worked": "Two people with 'than': 'The guide spoke more quietly than the teacher.'",
