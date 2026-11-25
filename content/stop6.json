@@ -645,7 +645,7 @@
          "whys": [
           null,
           "They already have a plan. Viet is saying he can't come.",
-          "Viet's mum isn't coming anyway: she says Viet must stay in bed."
+          "Viet's mum isn't part of the plan. She only says Viet must stay in bed."
          ],
          "hint": "Find 'I can't'. Then find the reason.",
          "worked": "'*I can't come*... *I've got a fever*.' Viet is ill, so he can't go out.",
@@ -1072,13 +1072,13 @@
          "q": "What should parents who drive do in the morning?",
          "opts": [
           "park in another street",
-          "wait inside the school bus",
+          "send their children on the school bus",
           "stop outside the gate at 7.30"
          ],
          "at": 2,
          "whys": [
           null,
-          "The buses need the space. Parents don't wait in them.",
+          "The notice doesn't ask parents to use the buses. It tells them where to park.",
           "7.30 is between 7.15 and 7.45, so parents mustn't park outside the gate then."
          ],
          "hint": "Find 'do not'. Then find where parents CAN park.",
@@ -1165,16 +1165,16 @@
          "at": 2,
          "whys": [
           null,
-          "'Mustn't' means it is not allowed, but the notice only says lunch is ready for you.",
+          "'Mustn't' means it is not allowed, but the notice only says the farm gives you lunch.",
           "'Could' doesn't say if something is necessary or not."
          ],
-         "hint": "Read the first part: lunch is given at the farm. So is bringing food necessary?",
-         "worked": "'Lunch is provided..., *so* you *don't need to* bring food.'",
+         "hint": "Read the first part: the farm gives everyone lunch. So is bringing food necessary?",
+         "worked": "'The farm gives everyone lunch, *so* you *don't need to* bring food.'",
          "stim": {
           "id": "s6-e8",
           "kind": "text",
           "head": "Notice about the farm trip",
-          "html": "FARM TRIP: Lunch is provided at the farm, so you ________ bring food. Please bring a water bottle and a sun hat.",
+          "html": "FARM TRIP: The farm gives everyone lunch, so you ________ bring food. Please bring a water bottle and a sun hat.",
           "bank": null
          }
         }
@@ -2161,7 +2161,7 @@
       "type": "mcq",
       "q": "What does Viet want An to do?",
       "opts": [
-       "lend him some pencils for a few days",
+       "let him borrow some pencils for a short time",
        "help him to make a poster tomorrow",
        "give back his pencils on Friday"
       ],
@@ -2169,7 +2169,7 @@
       "whys": [
        null,
        "Viet is making the poster himself. He only needs the pencils.",
-       "Viet will give the pencils back on Friday. They are An's pencils."
+       "The pencils are An's. Viet is the one who will give them back on Friday."
       ],
       "hint": "Find 'Could you...?'. What does Viet ask for?",
       "worked": "'*Could you lend me your coloured pencils* tomorrow? I'll give them back on Friday.'",
@@ -2229,7 +2229,7 @@
         ],
         [
          "G",
-         "Nine? That's early! I hope I can wake up."
+         "Nine? That's early! And I live a long way from the lake."
         ],
         [
          "H",
@@ -2301,7 +2301,7 @@
       "bank": "s6-d3",
       "ans": "G",
       "hint": "Alice's next line starts 'Don't worry.'. Find a line that shows a small problem.",
-      "worked": "'The boat leaves at *nine*.' '*Nine? That's early!* I hope I can wake up.' 'Don't worry. My dad can pick you up.' (G)",
+      "worked": "'The boat leaves at *nine*.' '*Nine? That's early! And I live a long way from the lake.*' 'Don't worry. My dad can *pick you up*.' (G)",
       "stim": {
        "id": "s6-d3",
        "kind": "text",
@@ -2334,7 +2334,7 @@
         ],
         [
          "G",
-         "Nine? That's early! I hope I can wake up."
+         "Nine? That's early! And I live a long way from the lake."
         ],
         [
          "H",
@@ -2439,7 +2439,7 @@
         ],
         [
          "G",
-         "Nine? That's early! I hope I can wake up."
+         "Nine? That's early! And I live a long way from the lake."
         ],
         [
          "H",
@@ -2544,7 +2544,7 @@
         ],
         [
          "G",
-         "Nine? That's early! I hope I can wake up."
+         "Nine? That's early! And I live a long way from the lake."
         ],
         [
          "H",
@@ -2649,7 +2649,7 @@
         ],
         [
          "G",
-         "Nine? That's early! I hope I can wake up."
+         "Nine? That's early! And I live a long way from the lake."
         ],
         [
          "H",
@@ -2898,7 +2898,7 @@
     ]
    ],
    [
-    "I ___ football after school today.",
+    "I ___ football after school tomorrow.",
     [
      "am playing",
      "played",

@@ -281,7 +281,7 @@
      },
      {
       "en": "A long jump was *last year*. This year it is a *sack* race.",
-      "vi": "Nhảy xa là của năm ngoái. Năm nay là chạy nhảy bao bố (sack race)."
+      "vi": "Nhảy xa là của năm ngoái. Năm nay là thi nhảy bao bố (sack race)."
      }
     ]
    }
@@ -1492,7 +1492,14 @@
            "ninth",
            "the 9th",
            "the ninth",
-           "9 th"
+           "9 th",
+           "9 march",
+           "9th march",
+           "ninth march",
+           "the 9th march",
+           "the 9th of march",
+           "the ninth march",
+           "the ninth of march"
           ]
          ],
          "hint": "Two dates are said. Which one is for this year?",
@@ -1521,7 +1528,11 @@
            "thursday",
            "thursdays",
            "thurs",
-           "thu"
+           "thu",
+           "on thursday",
+           "on thursdays",
+           "on thurs",
+           "on thu"
           ]
          ],
          "hint": "Listen for this term. Last term is the old day.",
@@ -1578,7 +1589,10 @@
            "09:45 a.m.",
            "quarter to ten",
            "nine forty-five",
-           "nine forty five"
+           "nine forty five",
+           "a quarter to ten",
+           "quarter to 10",
+           "a quarter to 10"
           ],
           [
            "6",
@@ -1587,7 +1601,8 @@
            "£6.00",
            "6 pounds",
            "six",
-           "six pounds"
+           "six pounds",
+           "6.00 pounds"
           ]
          ],
          "hint": "Two times are said. Which one goes with arrive?",
@@ -1720,7 +1735,11 @@
            "£1,50",
            "1.5",
            "one pound fifty",
-           "one fifty"
+           "one fifty",
+           "1 pound 50",
+           "1.50 pounds",
+           "£1.5",
+           "1 pound fifty"
           ],
           [
            "photo",
@@ -1865,7 +1884,7 @@
            [
             "bm_george",
             "Dad",
-            "Just a banana? You need more than that!"
+            "Just a banana? You need more than that! You've got swimming this afternoon."
            ],
            [
             "bf_lily",
@@ -1960,7 +1979,7 @@
           "Two is the number of friends who are on holiday."
          ],
          "hint": "Listen for a number, then listen for what changed.",
-         "worked": "Elliot says \"two are on holiday. *So eight are coming*.\"",
+         "worked": "Elliot says \"two are on holiday that weekend. *So eight are coming*.\"",
          "stim": {
           "id": "s4-a1-2b",
           "kind": "audio",
@@ -1969,12 +1988,12 @@
            [
             "bf_emma",
             "Mum",
-            "Elliot, how many friends are coming to your party? Ten?"
+            "Elliot, how many friends are coming to your party on Saturday? Ten?"
            ],
            [
             "bm_lewis",
             "Elliot",
-            "Ten said yes at first, but two are on holiday. So eight are coming."
+            "Ten said yes at first, but two are on holiday that weekend. So eight are coming."
            ],
            [
             "bf_emma",
@@ -2489,7 +2508,10 @@
           [
            "wednesday",
            "wed",
-           "weds"
+           "weds",
+           "on wednesday",
+           "on wed",
+           "on weds"
           ]
          ],
          "hint": "Two days are said. Listen for so.",
@@ -2527,7 +2549,10 @@
            "10:45 a.m.",
            "quarter to eleven",
            "ten forty-five",
-           "ten forty five"
+           "ten forty five",
+           "a quarter to eleven",
+           "quarter to 11",
+           "a quarter to 11"
           ]
          ],
          "hint": "Two times are said. Which one goes with the nurse?",
@@ -2656,7 +2681,8 @@
            "£3.00",
            "3 pounds",
            "three",
-           "three pounds"
+           "three pounds",
+           "3.00 pounds"
           ]
          ],
          "hint": "Two numbers are said about the book. Which one is the price?",
@@ -2781,7 +2807,14 @@
         "fourteenth",
         "the 14th",
         "the fourteenth",
-        "14 th"
+        "14 th",
+        "14 october",
+        "14th october",
+        "fourteenth october",
+        "the 14th october",
+        "the 14th of october",
+        "the fourteenth october",
+        "the fourteenth of october"
        ]
       ],
       "hint": "A day of the week is said next to the date. October is printed, so write only the number.",
@@ -2812,7 +2845,14 @@
         "third",
         "the 3rd",
         "the third",
-        "3 rd"
+        "3 rd",
+        "3 november",
+        "3rd november",
+        "third november",
+        "the 3rd november",
+        "the 3rd of november",
+        "the third november",
+        "the third of november"
        ]
       ],
       "hint": "Two dates are said. Which one is the new date?",
@@ -2868,7 +2908,10 @@
         "08:15a.m.",
         "08:15 a.m.",
         "quarter past eight",
-        "eight fifteen"
+        "eight fifteen",
+        "a quarter past eight",
+        "quarter past 8",
+        "a quarter past 8"
        ]
       ],
       "hint": "Two times are close together. Which one goes with the coach?",
@@ -2913,7 +2956,9 @@
         "quarter to ten",
         "a quarter to ten",
         "nine forty-five",
-        "nine forty five"
+        "nine forty five",
+        "quarter to 10",
+        "a quarter to 10"
        ]
       ],
       "hint": "Two times are said. Are you leaving or coming back?",
@@ -3042,7 +3087,11 @@
         "£4,50",
         "4.5",
         "four pounds fifty",
-        "four fifty"
+        "four fifty",
+        "4 pounds 50",
+        "4.50 pounds",
+        "£4.5",
+        "4 pounds fifty"
        ]
       ],
       "hint": "A price has pounds and sometimes pence. Write it as a number.",
@@ -3083,7 +3132,8 @@
         "£9.00",
         "9 pounds",
         "nine",
-        "nine pounds"
+        "nine pounds",
+        "9.00 pounds"
        ]
       ],
       "hint": "Listen for costs. A day is said after it, but a day is not a price.",
@@ -3275,20 +3325,20 @@
        "It's going to rain on Sunday, so the park is not a good idea."
       ],
       "hint": "Two places are not possible. Listen for why.",
-      "worked": "Mum says \"*let's have it at the pizza restaurant* near the market\", and Lucy says yes.",
+      "worked": "Dad says \"*let's have it at the pizza restaurant* near the market\", and Lucy says yes.",
       "stim": {
        "id": "s4-t-7a",
        "kind": "audio",
-       "head": "Listen to Lucy and her mum.",
+       "head": "Listen to Lucy and her dad.",
        "lines": [
         [
          "bf_alice",
          "Lucy",
-         "Mum, can I have my party at the bowling centre?"
+         "Dad, can I have my party at the bowling centre?"
         ],
         [
-         "bf_emma",
-         "Mum",
+         "bm_george",
+         "Dad",
          "It's closed on Sundays, love. What about the park?"
         ],
         [
@@ -3297,8 +3347,8 @@
          "It's going to rain on Sunday."
         ],
         [
-         "bf_emma",
-         "Mum",
+         "bm_george",
+         "Dad",
          "Then let's have it at the pizza restaurant near the market."
         ],
         [

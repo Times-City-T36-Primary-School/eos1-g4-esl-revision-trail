@@ -1424,7 +1424,7 @@
          "id": "sm-summit-r2-7",
          "kind": "text",
          "head": "Text message",
-         "html": "Hi Owen, sorry, I can't come to the ice rink with you and your mum tomorrow. My grandparents are arriving from Da Nang in the morning, and Mum says I must be at home. Can we go next Saturday? Emily"
+         "html": "Hi Owen, sorry, I can't come to the ice rink with you tomorrow. My grandparents are arriving from Da Nang, and Mum says I must be at home. Can we go next Saturday? Emily"
         }
        }
       ]
@@ -1496,7 +1496,7 @@
          "id": "sm-summit-r2-9",
          "kind": "text",
          "head": "School notice",
-         "html": "<b>GRADE 4 TRIP TO THE SCIENCE CENTRE: THIS FRIDAY</b><br>The coach leaves school at 8.40 and comes back at 2.30. Please bring a packed lunch and a drink. You don't need to bring any money, because the tickets are free."
+         "html": "<b>GRADE 4 TRIP TO THE SCIENCE CENTRE: THIS FRIDAY</b><br>The coach leaves school at 8.40 and comes back at 2.30. Please bring a packed lunch. You don't need to bring any money, because the tickets are free."
         }
        }
       ]
@@ -1606,7 +1606,7 @@
          "id": "sm-summit-r2-12",
          "kind": "text",
          "head": "Phone message",
-         "html": "Hi Chi, it's Nora. Our class visit to the old fire station is still on Tuesday, but it starts at ten now, not nine. We don't need to bring lunch any more, because the firefighters are cooking for us. See you!"
+         "html": "Hi Chi, it's Nora. Our visit to the old fire station is still on Tuesday, but it starts at ten now, not nine. We don't need to bring lunch, because the firefighters are cooking for us. See you!"
         }
        }
       ]
@@ -1630,13 +1630,13 @@
         "hint": {
          "step": "Read Matilda's NEXT line. What does 'film it' tell you about Seb's idea?"
         },
-        "worked": "F fits: Seb suggests 'a short video', and Matilda then asks 'who can film it?'. E is about flowers, and you can't film flowers as a thank-you message.",
+        "worked": "F fits: Seb suggests 'a short video', and Matilda then asks 'who can film it?'. E is about buying flowers, so 'who can film it?' doesn't follow.",
         "type": "bank",
         "q": "Choose the best answer for gap 13.",
         "bank": [
          [
           "A",
-          "My dad has got one. I'm sure he'd lend it to us."
+          "My dad has got one. He can lend it to us."
          ],
          [
           "B",
@@ -1660,7 +1660,7 @@
          ],
          [
           "G",
-          "Yes, she was always kind to everyone in our class."
+          "Yes, she's always been very kind to us."
          ],
          [
           "H",
@@ -1673,7 +1673,7 @@
          "id": "sm-summit-r3",
          "kind": "text",
          "head": "Conversation: Matilda and Seb",
-         "html": "Matilda: Seb, did you know that our class teacher is leaving at the end of term?<br>Seb: (0) <b>C</b><br>Matilda: I'm going to miss her. Shall we make something to say thank you?<br>Seb: (13) ________<br>Matilda: That's perfect! But who can film it? I haven't got a camera.<br>Seb: (14) ________<br>Matilda: Great. Where should we film it? Our classroom is too small for everyone.<br>Seb: (15) ________<br>Matilda: Good, and it looks really pretty in the sunshine. When can we do it?<br>Seb: (16) ________<br>Matilda: Yes, then she won't see us. How long should the video be?<br>Seb: (17) ________<br>Matilda: OK. I'll write a list of everyone's names tonight."
+         "html": "Matilda: Seb, did you know our teacher is leaving at the end of term?<br>Seb: (0) <b>C</b><br>Matilda: I'm going to miss her. Shall we make something to say thank you?<br>Seb: (13) ________<br>Matilda: That's perfect! But who can film it? I haven't got a camera.<br>Seb: (14) ________<br>Matilda: Great. Where should we film it? Our classroom is too small for everyone.<br>Seb: (15) ________<br>Matilda: Good, and it looks pretty in the sunshine. When can we do it?<br>Seb: (16) ________<br>Matilda: Yes, then she won't see us. How long should the video be?<br>Seb: (17) ________<br>Matilda: OK. I'll write a list of everyone's names tonight."
         }
        }
       ]
@@ -1690,13 +1690,13 @@
         "hint": {
          "step": "Matilda has a problem: she has no camera. Find a line that solves it."
         },
-        "worked": "A fits: 'My dad has got one' answers 'I haven't got a camera', and Matilda says 'Great.'",
+        "worked": "A fits: 'My dad has got one' solves 'I haven't got a camera', and Matilda says 'Great.'",
         "type": "bank",
         "q": "Choose the best answer for gap 14.",
         "bank": [
          [
           "A",
-          "My dad has got one. I'm sure he'd lend it to us."
+          "My dad has got one. He can lend it to us."
          ],
          [
           "B",
@@ -1720,7 +1720,7 @@
          ],
          [
           "G",
-          "Yes, she was always kind to everyone in our class."
+          "Yes, she's always been very kind to us."
          ],
          [
           "H",
@@ -1733,7 +1733,7 @@
          "id": "sm-summit-r3",
          "kind": "text",
          "head": "Conversation: Matilda and Seb",
-         "html": "Matilda: Seb, did you know that our class teacher is leaving at the end of term?<br>Seb: (0) <b>C</b><br>Matilda: I'm going to miss her. Shall we make something to say thank you?<br>Seb: (13) ________<br>Matilda: That's perfect! But who can film it? I haven't got a camera.<br>Seb: (14) ________<br>Matilda: Great. Where should we film it? Our classroom is too small for everyone.<br>Seb: (15) ________<br>Matilda: Good, and it looks really pretty in the sunshine. When can we do it?<br>Seb: (16) ________<br>Matilda: Yes, then she won't see us. How long should the video be?<br>Seb: (17) ________<br>Matilda: OK. I'll write a list of everyone's names tonight."
+         "html": "Matilda: Seb, did you know our teacher is leaving at the end of term?<br>Seb: (0) <b>C</b><br>Matilda: I'm going to miss her. Shall we make something to say thank you?<br>Seb: (13) ________<br>Matilda: That's perfect! But who can film it? I haven't got a camera.<br>Seb: (14) ________<br>Matilda: Great. Where should we film it? Our classroom is too small for everyone.<br>Seb: (15) ________<br>Matilda: Good, and it looks pretty in the sunshine. When can we do it?<br>Seb: (16) ________<br>Matilda: Yes, then she won't see us. How long should the video be?<br>Seb: (17) ________<br>Matilda: OK. I'll write a list of everyone's names tonight."
         }
        }
       ]
@@ -1756,7 +1756,7 @@
         "bank": [
          [
           "A",
-          "My dad has got one. I'm sure he'd lend it to us."
+          "My dad has got one. He can lend it to us."
          ],
          [
           "B",
@@ -1780,7 +1780,7 @@
          ],
          [
           "G",
-          "Yes, she was always kind to everyone in our class."
+          "Yes, she's always been very kind to us."
          ],
          [
           "H",
@@ -1793,7 +1793,7 @@
          "id": "sm-summit-r3",
          "kind": "text",
          "head": "Conversation: Matilda and Seb",
-         "html": "Matilda: Seb, did you know that our class teacher is leaving at the end of term?<br>Seb: (0) <b>C</b><br>Matilda: I'm going to miss her. Shall we make something to say thank you?<br>Seb: (13) ________<br>Matilda: That's perfect! But who can film it? I haven't got a camera.<br>Seb: (14) ________<br>Matilda: Great. Where should we film it? Our classroom is too small for everyone.<br>Seb: (15) ________<br>Matilda: Good, and it looks really pretty in the sunshine. When can we do it?<br>Seb: (16) ________<br>Matilda: Yes, then she won't see us. How long should the video be?<br>Seb: (17) ________<br>Matilda: OK. I'll write a list of everyone's names tonight."
+         "html": "Matilda: Seb, did you know our teacher is leaving at the end of term?<br>Seb: (0) <b>C</b><br>Matilda: I'm going to miss her. Shall we make something to say thank you?<br>Seb: (13) ________<br>Matilda: That's perfect! But who can film it? I haven't got a camera.<br>Seb: (14) ________<br>Matilda: Great. Where should we film it? Our classroom is too small for everyone.<br>Seb: (15) ________<br>Matilda: Good, and it looks pretty in the sunshine. When can we do it?<br>Seb: (16) ________<br>Matilda: Yes, then she won't see us. How long should the video be?<br>Seb: (17) ________<br>Matilda: OK. I'll write a list of everyone's names tonight."
         }
        }
       ]
@@ -1816,7 +1816,7 @@
         "bank": [
          [
           "A",
-          "My dad has got one. I'm sure he'd lend it to us."
+          "My dad has got one. He can lend it to us."
          ],
          [
           "B",
@@ -1840,7 +1840,7 @@
          ],
          [
           "G",
-          "Yes, she was always kind to everyone in our class."
+          "Yes, she's always been very kind to us."
          ],
          [
           "H",
@@ -1853,7 +1853,7 @@
          "id": "sm-summit-r3",
          "kind": "text",
          "head": "Conversation: Matilda and Seb",
-         "html": "Matilda: Seb, did you know that our class teacher is leaving at the end of term?<br>Seb: (0) <b>C</b><br>Matilda: I'm going to miss her. Shall we make something to say thank you?<br>Seb: (13) ________<br>Matilda: That's perfect! But who can film it? I haven't got a camera.<br>Seb: (14) ________<br>Matilda: Great. Where should we film it? Our classroom is too small for everyone.<br>Seb: (15) ________<br>Matilda: Good, and it looks really pretty in the sunshine. When can we do it?<br>Seb: (16) ________<br>Matilda: Yes, then she won't see us. How long should the video be?<br>Seb: (17) ________<br>Matilda: OK. I'll write a list of everyone's names tonight."
+         "html": "Matilda: Seb, did you know our teacher is leaving at the end of term?<br>Seb: (0) <b>C</b><br>Matilda: I'm going to miss her. Shall we make something to say thank you?<br>Seb: (13) ________<br>Matilda: That's perfect! But who can film it? I haven't got a camera.<br>Seb: (14) ________<br>Matilda: Great. Where should we film it? Our classroom is too small for everyone.<br>Seb: (15) ________<br>Matilda: Good, and it looks pretty in the sunshine. When can we do it?<br>Seb: (16) ________<br>Matilda: Yes, then she won't see us. How long should the video be?<br>Seb: (17) ________<br>Matilda: OK. I'll write a list of everyone's names tonight."
         }
        }
       ]
@@ -1876,7 +1876,7 @@
         "bank": [
          [
           "A",
-          "My dad has got one. I'm sure he'd lend it to us."
+          "My dad has got one. He can lend it to us."
          ],
          [
           "B",
@@ -1900,7 +1900,7 @@
          ],
          [
           "G",
-          "Yes, she was always kind to everyone in our class."
+          "Yes, she's always been very kind to us."
          ],
          [
           "H",
@@ -1913,7 +1913,7 @@
          "id": "sm-summit-r3",
          "kind": "text",
          "head": "Conversation: Matilda and Seb",
-         "html": "Matilda: Seb, did you know that our class teacher is leaving at the end of term?<br>Seb: (0) <b>C</b><br>Matilda: I'm going to miss her. Shall we make something to say thank you?<br>Seb: (13) ________<br>Matilda: That's perfect! But who can film it? I haven't got a camera.<br>Seb: (14) ________<br>Matilda: Great. Where should we film it? Our classroom is too small for everyone.<br>Seb: (15) ________<br>Matilda: Good, and it looks really pretty in the sunshine. When can we do it?<br>Seb: (16) ________<br>Matilda: Yes, then she won't see us. How long should the video be?<br>Seb: (17) ________<br>Matilda: OK. I'll write a list of everyone's names tonight."
+         "html": "Matilda: Seb, did you know our teacher is leaving at the end of term?<br>Seb: (0) <b>C</b><br>Matilda: I'm going to miss her. Shall we make something to say thank you?<br>Seb: (13) ________<br>Matilda: That's perfect! But who can film it? I haven't got a camera.<br>Seb: (14) ________<br>Matilda: Great. Where should we film it? Our classroom is too small for everyone.<br>Seb: (15) ________<br>Matilda: Good, and it looks pretty in the sunshine. When can we do it?<br>Seb: (16) ________<br>Matilda: Yes, then she won't see us. How long should the video be?<br>Seb: (17) ________<br>Matilda: OK. I'll write a list of everyone's names tonight."
         }
        }
       ]
@@ -2180,7 +2180,7 @@
         "whys": [
          null,
          "Owen hated washing the car because it took a long time. He wasn't worried about it.",
-         "Matilda doesn't enjoy taking out the rubbish, but she never says she was worried."
+         "Matilda says her jobs are important, but she never says she was worried about them."
         ],
         "letters": true,
         "fig": {
@@ -2188,7 +2188,7 @@
          "id": "sm-summit-r5",
          "kind": "text",
          "head": "Magazine page",
-         "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. My job is to feed our two cats and wash their bowls. At the weekend, I also help Dad clean the car. I used to hate that job, because it took all morning. But now my friend from next door helps us, and we finish quickly and play football after. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money for my jobs, and I'm saving it for a new skateboard.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to hold the knife and cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I feel proud of the meals we make.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the plastic bottles and the paper so we can recycle them. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! I think helping at home is good practice for when I'm older."
+         "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. I feed our two cats and wash their bowls. At the weekend, I help Dad clean the car. I used to hate that job, because it took all morning. Now my friend from next door helps us, so we finish quickly. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money, and I'm saving it for a skateboard.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I'm proud of our meals.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the bottles and paper for recycling. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! Helping at home is good practice for when I'm older."
         }
        }
       ]
@@ -2205,9 +2205,9 @@
         "hint": {
          "step": "Look for words about money in all three texts. Be careful: one text says 'don't'."
         },
-        "worked": "Owen writes 'Dad gives me a little pocket money for my jobs'.",
+        "worked": "Owen writes 'Dad gives me a little <b>pocket money</b>'. Pocket money is money for children.",
         "type": "mcq",
-        "q": "Which person gets money for helping at home?",
+        "q": "Which person is paid for the jobs they do at home?",
         "opts": [
          "Owen",
          "Chi",
@@ -2225,7 +2225,7 @@
          "id": "sm-summit-r5",
          "kind": "text",
          "head": "Magazine page",
-         "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. My job is to feed our two cats and wash their bowls. At the weekend, I also help Dad clean the car. I used to hate that job, because it took all morning. But now my friend from next door helps us, and we finish quickly and play football after. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money for my jobs, and I'm saving it for a new skateboard.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to hold the knife and cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I feel proud of the meals we make.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the plastic bottles and the paper so we can recycle them. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! I think helping at home is good practice for when I'm older."
+         "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. I feed our two cats and wash their bowls. At the weekend, I help Dad clean the car. I used to hate that job, because it took all morning. Now my friend from next door helps us, so we finish quickly. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money, and I'm saving it for a skateboard.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I'm proud of our meals.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the bottles and paper for recycling. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! Helping at home is good practice for when I'm older."
         }
        }
       ]
@@ -2242,7 +2242,7 @@
         "hint": {
          "step": "All three texts talk about a mistake. Who did something so the mistake stopped?"
         },
-        "worked": "Matilda made a poster because Dad 'always put paper in the wrong bin'. 'Now he never makes that mistake!'",
+        "worked": "Matilda made a poster because Dad 'used to put paper in the wrong bin'. 'Now he never makes that mistake!'",
         "type": "mcq",
         "q": "Which person helped someone in the family to stop making a mistake?",
         "opts": [
@@ -2262,7 +2262,7 @@
          "id": "sm-summit-r5",
          "kind": "text",
          "head": "Magazine page",
-         "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. My job is to feed our two cats and wash their bowls. At the weekend, I also help Dad clean the car. I used to hate that job, because it took all morning. But now my friend from next door helps us, and we finish quickly and play football after. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money for my jobs, and I'm saving it for a new skateboard.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to hold the knife and cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I feel proud of the meals we make.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the plastic bottles and the paper so we can recycle them. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! I think helping at home is good practice for when I'm older."
+         "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. I feed our two cats and wash their bowls. At the weekend, I help Dad clean the car. I used to hate that job, because it took all morning. Now my friend from next door helps us, so we finish quickly. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money, and I'm saving it for a skateboard.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I'm proud of our meals.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the bottles and paper for recycling. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! Helping at home is good practice for when I'm older."
         }
        }
       ]
@@ -2277,11 +2277,11 @@
       "v": [
        {
         "hint": {
-         "step": "Find the word 'forget' or a similar idea. Who forgets, the writer or someone else?"
+         "step": "Look for a word with the opposite meaning of 'remember'. Who is it about: the writer or someone else?"
         },
-        "worked": "Owen writes 'sometimes I forget the cats' dinner'.",
+        "worked": "Owen writes 'sometimes I <b>forget</b> the cats' dinner'. Forget means you don't remember.",
         "type": "mcq",
-        "q": "Which person sometimes forgets to do a job?",
+        "q": "Which person sometimes doesn't remember to do a job?",
         "opts": [
          "Owen",
          "Chi",
@@ -2299,7 +2299,7 @@
          "id": "sm-summit-r5",
          "kind": "text",
          "head": "Magazine page",
-         "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. My job is to feed our two cats and wash their bowls. At the weekend, I also help Dad clean the car. I used to hate that job, because it took all morning. But now my friend from next door helps us, and we finish quickly and play football after. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money for my jobs, and I'm saving it for a new skateboard.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to hold the knife and cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I feel proud of the meals we make.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the plastic bottles and the paper so we can recycle them. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! I think helping at home is good practice for when I'm older."
+         "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. I feed our two cats and wash their bowls. At the weekend, I help Dad clean the car. I used to hate that job, because it took all morning. Now my friend from next door helps us, so we finish quickly. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money, and I'm saving it for a skateboard.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I'm proud of our meals.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the bottles and paper for recycling. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! Helping at home is good practice for when I'm older."
         }
        }
       ]
@@ -2316,7 +2316,7 @@
         "hint": {
          "step": "Look for 'showed me' or 'taught me' in the texts. Who did the showing?"
         },
-        "worked": "Chi writes that Grandma 'showed me how to hold the knife and cut carrots safely'.",
+        "worked": "Chi writes that Grandma 'showed me how to cut carrots safely'.",
         "type": "mcq",
         "q": "Which person learned how to do something from an older person?",
         "opts": [
@@ -2336,7 +2336,7 @@
          "id": "sm-summit-r5",
          "kind": "text",
          "head": "Magazine page",
-         "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. My job is to feed our two cats and wash their bowls. At the weekend, I also help Dad clean the car. I used to hate that job, because it took all morning. But now my friend from next door helps us, and we finish quickly and play football after. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money for my jobs, and I'm saving it for a new skateboard.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to hold the knife and cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I feel proud of the meals we make.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the plastic bottles and the paper so we can recycle them. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! I think helping at home is good practice for when I'm older."
+         "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. I feed our two cats and wash their bowls. At the weekend, I help Dad clean the car. I used to hate that job, because it took all morning. Now my friend from next door helps us, so we finish quickly. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money, and I'm saving it for a skateboard.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I'm proud of our meals.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the bottles and paper for recycling. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! Helping at home is good practice for when I'm older."
         }
        }
       ]
@@ -2361,17 +2361,17 @@
         },
         "worked": "'One morning, the head teacher asked Nora's class for ideas to make it brighter.'",
         "type": "mcq",
-        "q": "How did the mural start?",
+        "q": "What started the project?",
         "opts": [
          "The head teacher asked the class for ideas.",
-         "Some children planted flowers by the wall.",
-         "Nora saw a colourful mural on a wall in town."
+         "Some children planted flowers next to the wall.",
+         "A local artist offered to paint the wall."
         ],
         "at": 1,
         "whys": [
          null,
-         "Some children only WANTED to plant flowers. That was their idea, not Nora's.",
-         "The text doesn't say Nora saw a mural in town. It started with the head teacher's question."
+         "Some children only WANTED to plant flowers. Nobody planted any.",
+         "The artist came later, to look at the finished mural."
         ],
         "letters": true,
         "fig": {
@@ -2506,11 +2506,11 @@
         "hint": {
          "step": "Read the last paragraph. Whose plan is each idea: the classmates' or Nora's?"
         },
-        "worked": "'Nora has a bigger plan. She wants to ask the town if children can paint the walls of the town library.' That is a building outside her school.",
+        "worked": "'Nora has a bigger plan. She wants to ask the town if children can paint the walls of the <b>town library</b>.' The library is a building in the town.",
         "type": "mcq",
         "q": "What does Nora want to do next?",
         "opts": [
-         "paint a building outside her school",
+         "paint walls on a building in the town",
          "paint a wall in the school hall",
          "teach younger children to paint"
         ],

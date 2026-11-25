@@ -32,7 +32,7 @@
       { k: 'organisation', name: "Organisation and layout", max: 2, lv: ["No clear order.", "Some order; few linking words.", "Clear order in 1 or 2 paragraphs, with linking words."] },
       { k: 'grammar', name: "Grammar range and accuracy", max: 2, lv: ["Many mistakes stop the meaning.", "Simple sentences; several mistakes.", "Mostly correct, with the target forms (modals in Task 1, comparatives in Task 2)."] },
       { k: 'vocabulary', name: "Vocabulary and spelling", max: 2, lv: ["Very few words; spelling blocks meaning.", "Basic or repeated words; some spelling mistakes.", "Good topic words; common words spelt correctly."] },
-      { k: 'fluency', name: "Fluency (handwriting on paper)", max: 2, lv: ["Hard to read; sentences unfinished.", "Mostly easy to read; some unfinished sentences.", "Complete sentences, capital letters and full stops; easy to read."] }
+      { k: 'fluency', name: "Fluency (handwriting on paper)", max: 2, lv: ["Hard to read; sentences unfinished.", "Mostly easy to read; some unfinished, run-on or choppy sentences.", "Complete sentences, capital letters and full stops; easy to read."] }
   ];
   const RUBRIC = { 1: CATS, 2: CATS };
   T.esl.RUBRIC = RUBRIC;
