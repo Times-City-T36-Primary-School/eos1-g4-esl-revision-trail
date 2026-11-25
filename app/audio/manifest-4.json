@@ -1,0 +1,1082 @@
+{
+ "s4-see-1": [
+  [
+   "bm_fable",
+   "Nam",
+   "Dad, I want to make a chocolate cake for the school fair on Friday."
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "Our oven is broken, Nam. We can't bake a cake this week."
+  ],
+  [
+   "bm_fable",
+   "Nam",
+   "Oh no. What about a pizza from the shop?"
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "Pizza gets cold. Let's make a big bowl of fruit salad instead."
+  ],
+  [
+   "bm_fable",
+   "Nam",
+   "OK. Everyone likes fruit salad."
+  ]
+ ],
+ "s4-see-2": [
+  [
+   "bf_lily",
+   "Clara",
+   "Mum, the fireworks start at eight o'clock, don't they?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "No, that was last year. This year they start at half past eight. They finish at nine."
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "So can we leave home at eight?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "Yes. It's only a short walk to the river."
+  ]
+ ],
+ "s4-see-3": [
+  [
+   "bf_isabella",
+   "Teacher",
+   "Good morning, everyone. Our Sports Day is on the ninth of May. Please come to school at quarter past eight, not at the usual time. Every child will run in two races. Last year we had a long jump, but this year we're having a sack race instead. Please wear your sports clothes and bring a hat and a water bottle."
+  ]
+ ],
+ "s4-ch-1a": [
+  [
+   "bm_lewis",
+   "Elliot",
+   "Grace, I bought a present for my sister's birthday today."
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "Was it a book? She loves reading."
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "She's got lots of books. I wanted to get her a necklace, but it was too expensive. So I got her a puzzle with a picture of a horse."
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "She'll love that!"
+  ]
+ ],
+ "s4-ch-1b": [
+  [
+   "bf_alice",
+   "Ngoc",
+   "Tuan, does your grandpa still go fishing every morning?"
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "Not now. His back hurts when he sits by the lake. Now he does yoga in the park with his friends."
+  ],
+  [
+   "bf_alice",
+   "Ngoc",
+   "My grandma rides her bike every morning."
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "Grandpa says cycling is too fast for him!"
+  ]
+ ],
+ "s4-ch-2a": [
+  [
+   "bf_lily",
+   "Aisha",
+   "Raj, my dance show is next week. Can you come?"
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "I'd love to! Is it on Friday or Sunday?"
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "Neither! Friday is the last practice, and on Sunday we're going to my aunt's. The show is on Saturday afternoon."
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "Great. I play football on Saturday morning, but I'm free after lunch."
+  ]
+ ],
+ "s4-ch-2b": [
+  [
+   "bf_alice",
+   "Lucy",
+   "Jack, I went to the aquarium yesterday. It was amazing!"
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "How much was the ticket? Was it ten pounds?"
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "Ten pounds is the price for adults. Children pay six pounds. And my baby brother was free!"
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "That's not bad. I want to go too."
+  ]
+ ],
+ "s4-ch-3a": [
+  [
+   "bm_lewis",
+   "Jack",
+   "Mum, can I have cereal? Is there any milk?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "Sorry, we've run out of milk. But there are lots of eggs."
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "I don't like eggs. Can I have toast?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "Yes, there's a whole loaf of bread."
+  ]
+ ],
+ "s4-ch-3b": [
+  [
+   "bf_alice",
+   "Ngoc",
+   "Raj, we went to the mountains for our holiday."
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "Lucky you! Did you stay in a hotel?"
+  ],
+  [
+   "bf_alice",
+   "Ngoc",
+   "No, we stayed in a tent by a lake. It was cold at night!"
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "We always stay in my grandma's flat in the city."
+  ]
+ ],
+ "s4-ch-4a": [
+  [
+   "bm_lewis",
+   "Elliot",
+   "Grace, are you afraid of spiders?"
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "No, I think they're interesting. But I'm afraid of dogs. A big dog chased me once."
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Really? I'm afraid of the dark!"
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "I'm not. I like looking at the stars at night."
+  ]
+ ],
+ "s4-ch-4b": [
+  [
+   "bm_lewis",
+   "Raj",
+   "Mum, are we eating dinner at seven tonight?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "No. Grandpa's coming, and his train arrives at seven. We'll eat at eight."
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "That's late! Can I have a snack at five?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "Yes, but only a small one."
+  ]
+ ],
+ "s4-r1-1a": [
+  [
+   "bf_alice",
+   "Lucy",
+   "Dad, my piano lesson is at four o'clock today, isn't it?"
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "Usually it's at four, but your teacher phoned. Today it starts at half past four."
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "OK. And it finishes at half past five?"
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "That's right. I'll pick you up then."
+  ]
+ ],
+ "s4-r1-1b": [
+  [
+   "bm_fable",
+   "Tuan",
+   "Clara, the school concert starts at six, right?"
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "The doors open at six. The singing starts at quarter past six."
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "And when does it end?"
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "At about half past seven. Then there are drinks and snacks."
+  ]
+ ],
+ "s4-r1-2a": [
+  [
+   "bf_lily",
+   "Aisha",
+   "Excuse me, how much is a bunch of bananas?"
+  ],
+  [
+   "bm_daniel",
+   "Man",
+   "The small bunch is two pounds, and the big bunch is three pounds."
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "I'll take the small one, please. And how much are the pineapples?"
+  ],
+  [
+   "bm_daniel",
+   "Man",
+   "One pound fifty each."
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "No, thank you. Just the bananas."
+  ]
+ ],
+ "s4-r1-2b": [
+  [
+   "bm_fable",
+   "Nam",
+   "Mum, can you come to our school play? Tickets are four pounds."
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "Four pounds? That's the same as last year."
+  ],
+  [
+   "bm_fable",
+   "Nam",
+   "Oh, sorry. Last year it was four. This year it's five pounds."
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "That's fine. And your little sister?"
+  ],
+  [
+   "bm_fable",
+   "Nam",
+   "Children under six pay two pounds."
+  ]
+ ],
+ "s4-r1-3a": [
+  [
+   "bf_emma",
+   "Mum",
+   "Tuan, I've moved your visit to the dentist."
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "Is it still on Monday?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "No, the dentist is busy on Monday. It's on Wednesday now, after school."
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "Good, because I've got football on Tuesday."
+  ]
+ ],
+ "s4-r1-3b": [
+  [
+   "bm_lewis",
+   "Elliot",
+   "Ngoc, is your birthday party on the twelfth of June?"
+  ],
+  [
+   "bf_alice",
+   "Ngoc",
+   "My birthday is on the twelfth, but it's a school day. The party is on the fifteenth. That's a Saturday."
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Great! My cousin's party is on the twentieth, so I'm free."
+  ],
+  [
+   "bf_alice",
+   "Ngoc",
+   "Brilliant. I'll give you an invitation tomorrow."
+  ]
+ ],
+ "s4-r2-1a": [
+  [
+   "bm_fable",
+   "Nam",
+   "Lucy, are we playing football at the class party tomorrow?"
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "We were going to, but it's going to rain. So the teacher says we'll play board games in the classroom."
+  ],
+  [
+   "bm_fable",
+   "Nam",
+   "Oh. I wanted to do a treasure hunt."
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "Maybe next time!"
+  ]
+ ],
+ "s4-r2-1b": [
+  [
+   "bf_emma",
+   "Mum",
+   "Lucy, you don't look well. Have you got a headache?"
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "No, Mum. My head's OK. It's my tooth. It really hurts when I eat."
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "Oh dear. You had a fever last week, and now this!"
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "Can I see the dentist tomorrow?"
+  ]
+ ],
+ "s4-r2-2a": [
+  [
+   "bm_lewis",
+   "Raj",
+   "Dad, the bakery had no strawberry cakes. They were all sold out."
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "Oh no. Did you get a big chocolate cake, then?"
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "That was too expensive. I bought six cupcakes instead."
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "Good choice. We can put a candle on each one."
+  ]
+ ],
+ "s4-r2-2b": [
+  [
+   "bm_lewis",
+   "Elliot",
+   "Clara, did you go to the museum on Sunday?"
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "We wanted to, but it was closed. So we went to the zoo instead. The giraffes were amazing!"
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Cool. I went to the cinema with my dad."
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "Was the film good?"
+  ]
+ ],
+ "s4-r2-3a": [
+  [
+   "bf_lily",
+   "Grace",
+   "Elliot, your festival photos are great! Did you use your camera?"
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "No, my camera's broken. Dad's video camera was too heavy to carry. So I used Mum's phone."
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "Wow. The pictures are really clear."
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Thanks! Mum wants me to take photos at every festival now."
+  ]
+ ],
+ "s4-r2-3b": [
+  [
+   "bm_fable",
+   "Tuan",
+   "Ngoc, what did you win at the school fair? A teddy bear?"
+  ],
+  [
+   "bf_alice",
+   "Ngoc",
+   "No, the teddy bears were for the little children. I won a football!"
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "Lucky you. I only won a pencil."
+  ],
+  [
+   "bf_alice",
+   "Ngoc",
+   "A pencil is useful! We can play football at break."
+  ]
+ ],
+ "s4-r3-1a": [
+  [
+   "bf_isabella",
+   "Teacher",
+   "Hello, everyone. The school book fair is coming soon. Last year it was on the second of March, but this year it's on the ninth of March. It starts at nine o'clock in the school hall. You can buy books, and you can meet a real writer."
+  ]
+ ],
+ "s4-r3-1b": [
+  [
+   "bm_daniel",
+   "Teacher",
+   "Good news! Chess club starts again next week. Last term we met on Mondays, but this term we're meeting on Thursdays, after lunch. We play in the library. Bring a friend if they want to learn!"
+  ]
+ ],
+ "s4-r3-2a": [
+  [
+   "bf_emma",
+   "Gardener",
+   "Hello, families. Our garden workshop for children is on Saturday at the town park. Please arrive at quarter to ten, because we start at ten o'clock. The children will plant tomatoes and beans in pots. The workshop costs six pounds, and that includes a pot and some seeds to take home."
+  ]
+ ],
+ "s4-r3-2b": [
+  [
+   "bm_george",
+   "Coach",
+   "Hi, team. Our match on Sunday starts at half past three, but please be at the park at three o'clock. The match was going to be at Hill School, but their field is too wet. So now it's at City Park. Bring a bottle of water and your green shirt."
+  ]
+ ],
+ "s4-r3-3a": [
+  [
+   "bf_isabella",
+   "Teacher",
+   "Tomorrow we're going to look for standing water around the school, because mosquitoes lay their eggs in it. This time, please work in groups of four, not five like last time. Wear long sleeves, and bring a notebook to write down what you find."
+  ]
+ ],
+ "s4-r3-3b": [
+  [
+   "bm_daniel",
+   "Teacher",
+   "On Friday, we're having a Grandparents' Afternoon at school. Your grandparents can watch our songs and have tea with us. Tea and cake cost one pound fifty for each visitor. Please bring the money on Wednesday, not on Friday. And bring a photo of your grandparents for our display."
+  ]
+ ],
+ "s4-a1-1a": [
+  [
+   "bf_lily",
+   "Clara",
+   "Jack, my aunt is my hero. She was a teacher for ten years."
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "Is she still a teacher?"
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "No, now she's a doctor at the children's hospital. She studied for years!"
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "Wow. My uncle is a firefighter. He's very brave."
+  ]
+ ],
+ "s4-a1-1b": [
+  [
+   "bm_george",
+   "Dad",
+   "Aisha, did you have cereal this morning?"
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "No, I wasn't very hungry, so I just had a banana."
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "Just a banana? You need more than that!"
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "I know. Can we have rice together at lunch?"
+  ]
+ ],
+ "s4-a1-2a": [
+  [
+   "bf_lily",
+   "Grace",
+   "Raj, which club are you joining this term? The art club?"
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "No, I'm not very good at drawing. I'm joining the drama club. I want to be less shy."
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "That's a great idea. I'm in the music club."
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "I know! I heard you singing on Tuesday."
+  ]
+ ],
+ "s4-a1-2b": [
+  [
+   "bf_emma",
+   "Mum",
+   "Elliot, how many friends are coming to your party? Ten?"
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Ten said yes at first, but two are on holiday. So eight are coming."
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "OK. Then we need eight party bags."
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "And one for me, please!"
+  ]
+ ],
+ "s4-a1-3a": [
+  [
+   "bm_fable",
+   "Nam",
+   "Grace, do you still live on your grandpa's farm?"
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "No, we left the farm last year. We live in a flat in the city now."
+  ],
+  [
+   "bm_fable",
+   "Nam",
+   "Do you like it?"
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "It's OK, but I miss the animals. I want a house with a garden one day."
+  ]
+ ],
+ "s4-a1-3b": [
+  [
+   "bf_alice",
+   "Lucy",
+   "Tuan, are you going to watch the fireworks at New Year?"
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "Yes! Are you coming too?"
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "I can't. My little sister is afraid of the noise. So we're going to watch the lion dance in the afternoon."
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "The lion dance is great. There's music in the park too."
+  ]
+ ],
+ "s4-a2-1a": [
+  [
+   "bf_lily",
+   "Aisha",
+   "Dad, can I call my uncle in London now? It's six o'clock in the morning here."
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "London is seven hours behind us. It's eleven o'clock at night there. He's asleep!"
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "Oh! So when can I call him?"
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "Call him at four this afternoon. Then it's nine in the morning in London."
+  ]
+ ],
+ "s4-a2-1b": [
+  [
+   "bm_lewis",
+   "Jack",
+   "Mum, I'm going to play in the garden."
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "There are lots of mosquitoes in the evening. Put on your long trousers."
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "They're wet. I washed them after football. Can I wear my sun hat?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "A hat won't help! Here, put some of this cream on your arms and legs."
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "OK. It smells like lemons!"
+  ]
+ ],
+ "s4-a2-2a": [
+  [
+   "bf_lily",
+   "Clara",
+   "Nam, what did you draw with chalk on the playground? The big hole?"
+  ],
+  [
+   "bm_fable",
+   "Nam",
+   "No, Tuan drew the hole. People really jumped over it! I drew a river with a little bridge."
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "Cool! I drew a shark. It looks like it's coming out of the ground."
+  ],
+  [
+   "bm_fable",
+   "Nam",
+   "I saw it. It's a bit scary!"
+  ]
+ ],
+ "s4-a2-2b": [
+  [
+   "bm_fable",
+   "Tuan",
+   "Grandma, what was here before the new library?"
+  ],
+  [
+   "bf_isabella",
+   "Grandma",
+   "When I was young, there was a cinema here."
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "A cinema? Cool!"
+  ],
+  [
+   "bf_isabella",
+   "Grandma",
+   "Well, it closed, and then there was a market for many years. They built the library two years ago."
+  ]
+ ],
+ "s4-a2-3a": [
+  [
+   "bf_lily",
+   "Clara",
+   "Dad, I want to buy a present for Aisha. Shall I get her a bracelet?"
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "She doesn't wear bracelets, does she?"
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "True. What about a book? She loves stories."
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "Good idea. Or a puzzle?"
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "She finished a big puzzle last week, and now she's bored with puzzles. A book is best."
+  ]
+ ],
+ "s4-a2-3b": [
+  [
+   "bf_alice",
+   "Lucy",
+   "Raj, why weren't you at football yesterday? Did you hurt your leg?"
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "No, my leg's fine. I had a bad cough, so Mum said I needed to stay at home."
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "Oh no. I thought you were at your cousin's birthday party."
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "No, that's on Sunday. I hope I feel better by then!"
+  ]
+ ],
+ "s4-a3-writer": [
+  [
+   "bf_emma",
+   "Teacher",
+   "Good afternoon, everyone. Next week, our class is visiting the City Library for Meet the Writer Day. A writer of adventure stories for children is coming to talk to us. She was a nurse before she started writing, and she's very funny. We were going to go on Monday, but the writer is busy that day, so we're going on Wednesday. We'll walk to the library after lunch, because it's only ten minutes away. First, the writer will read from her new book, and then you can ask her questions. After that, you can borrow some books. Last year, each child could borrow two books, but this year you can borrow three. Please bring your library card. Also bring a small bag for your books, and your reading notebook, because the writer will sign it. It's going to be a great afternoon!"
+  ]
+ ],
+ "s4-a3-health": [
+  [
+   "bm_daniel",
+   "Teacher",
+   "Hello, everyone. Next week is Healthy Body Week at our school. On Monday, a nurse is coming to talk to us about mosquitoes and how to stop their bites. Her talk starts at quarter to eleven, after the break. Assembly is at ten o'clock, as usual. On Tuesday, we're having a fruit day. Please bring one piece of fruit, and we'll make a big fruit plate together. On Wednesday, there's a running race for everyone in the playground. Last year the race was in the park, but this year it's at school. Please wear trainers, not your school shoes. At the end of the week, you can buy our class recipe book. It has twenty healthy recipes. It costs three pounds, and all the money goes to the children's hospital. Please bring the money in an envelope with your name on it."
+  ]
+ ],
+ "s4-t-farm": [
+  [
+   "bf_isabella",
+   "Teacher",
+   "Good morning, Class 4. Next month, we're visiting Sunny Fields Farm to learn about healthy food. We're going on the fourteenth of October. That's a Tuesday. Please come to school by eight o'clock, because the coach leaves at quarter past eight. We'll be back at school at three o'clock. There are thirty children in our class, so we'll have five groups. There are six children in each group, and every group has a farmer to help. In the morning, you'll pick apples and carrots. After lunch, you'll make fruit salad. Last year we fed the goats, but this year the goats are too young. The trip costs nine pounds. That includes a drink and a snack. Please bring the money by Friday. Wear old shoes, and bring a hat and a raincoat. See you there!"
+  ]
+ ],
+ "s4-t-museum": [
+  [
+   "bm_daniel",
+   "Teacher",
+   "Hello, Class 4. I've got some news about our trip to the Old Town Museum. We're going there to learn how our town looked a hundred years ago. There's an old street with shops and a school from the past. We were going to go on the twenty-seventh of October, but the museum is closed that week. So the trip is on the third of November. We'll leave school at half past nine, and we'll come back at two o'clock. In the morning, you can choose drawing or a quiz. In the afternoon, everyone will wear a costume and visit an old classroom. The ticket costs four pounds fifty. Please bring the money by Thursday. You don't need a packed lunch, because the museum café will give us soup and bread. Please bring a pencil and a ruler. Any questions? Come and ask me."
+  ]
+ ],
+ "s4-t-6a": [
+  [
+   "bm_fable",
+   "Nam",
+   "Grace, what's your favourite food at the Tet feast? The sticky rice cake?"
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "It's nice, but it's a bit too chewy for me. I love the chicken soup best."
+  ],
+  [
+   "bm_fable",
+   "Nam",
+   "Really? I like the coconut sweets best."
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "They're too sweet for me!"
+  ]
+ ],
+ "s4-t-6b": [
+  [
+   "bm_lewis",
+   "Jack",
+   "Clara, my mum says you helped our old neighbour yesterday. Did you carry her shopping?"
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "Her son usually does that. I walked her dog, because her leg hurts."
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "That's kind. I watered her plants last week."
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "She told me! She says we're both very helpful."
+  ]
+ ],
+ "s4-t-7a": [
+  [
+   "bf_alice",
+   "Lucy",
+   "Mum, can I have my party at the bowling centre?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "It's closed on Sundays, love. What about the park?"
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "It's going to rain on Sunday."
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "Then let's have it at the pizza restaurant near the market."
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "Yes! Everyone loves pizza."
+  ]
+ ],
+ "s4-t-7b": [
+  [
+   "bm_lewis",
+   "Jack",
+   "Aisha, what are you bringing for the class fruit plate tomorrow? A watermelon?"
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "It's too heavy to carry on my bike. I was going to bring grapes, but my little brother ate them all!"
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "Oh no! So what will you bring?"
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "There are some oranges at home. I'll bring those."
+  ]
+ ],
+ "s4-t-8a": [
+  [
+   "bm_fable",
+   "Nam",
+   "Dad, can I go to bed at ten tonight? It's New Year's Eve!"
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "Ten? You usually go to bed at nine."
+  ],
+  [
+   "bm_fable",
+   "Nam",
+   "Please! And the fireworks start at midnight. Can I see them?"
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "Midnight is too late. OK, you can stay up until ten."
+  ]
+ ],
+ "s4-t-8b": [
+  [
+   "bf_lily",
+   "Grace",
+   "Jack, nice football! Was it twenty pounds?"
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "That was the old price. It was on sale, so I paid twelve pounds."
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "Wow! I paid fifteen pounds for mine last summer."
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "The shop has lots more. You can get one for your brother."
+  ]
+ ],
+ "s4-t-9a": [
+  [
+   "bm_lewis",
+   "Elliot",
+   "Ngoc, who's your hero?"
+  ],
+  [
+   "bf_alice",
+   "Ngoc",
+   "My big cousin. She was a great swimmer, but she hurt her arm. Now she plays badminton for our city!"
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Cool! I love tennis."
+  ],
+  [
+   "bf_alice",
+   "Ngoc",
+   "She plays tennis too, but only for fun."
+  ]
+ ],
+ "s4-t-9b": [
+  [
+   "bf_lily",
+   "Clara",
+   "Tuan, did you like the old castle on the school trip?"
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "It was OK, but it was dark inside. The best part was the big garden with the peacocks."
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "Better than the market?"
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "Yes! The market was too busy. I couldn't see anything."
+  ]
+ ],
+ "s4-t-10a": [
+  [
+   "bm_lewis",
+   "Raj",
+   "Lucy, do you want to go cycling on Saturday morning?"
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "I usually have tennis then, but my coach is away. So I'm helping Mum at the cake stall at the school fair."
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "OK. Then let's go cycling on Sunday!"
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "Great idea."
+  ]
+ ],
+ "s4-t-10b": [
+  [
+   "bm_lewis",
+   "Elliot",
+   "Dad, I'm going to write a story about a dragon for the competition."
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "A dragon? Everyone writes about dragons!"
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "OK. What about a magic castle?"
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "Nice, but you wrote about a castle last year."
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Then I'll write about a mysterious island!"
+  ]
+ ]
+}

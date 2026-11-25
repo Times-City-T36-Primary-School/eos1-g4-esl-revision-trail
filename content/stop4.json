@@ -1591,16 +1591,16 @@
           ]
          ],
          "hint": "Two times are said. Which one goes with arrive?",
-         "worked": "\"Please *arrive at quarter to ten*\" (9:45). The class \"*costs six pounds*\".",
+         "worked": "\"Please *arrive at quarter to ten*\" (9:45). The workshop \"*costs six pounds*\".",
          "stim": {
           "id": "s4-r3-2a",
           "kind": "audio",
-          "head": "Listen to the cooking teacher. Complete the notes.<br><b>CHILDREN'S COOKING CLASS</b><br>Arrive at: ________<br>Cost: £________",
+          "head": "Listen to the gardener. Complete the notes.<br><b>CHILDREN'S GARDEN WORKSHOP</b><br>Arrive at: ________<br>Cost: £________",
           "lines": [
            [
             "bf_emma",
-            "Teacher",
-            "Hello, families. Our cooking class for children is on Saturday. Please arrive at quarter to ten, because we start at ten o'clock. The children will make healthy pancakes with fruit. The class costs six pounds, and that includes a recipe card to take home."
+            "Gardener",
+            "Hello, families. Our garden workshop for children is on Saturday at the town park. Please arrive at quarter to ten, because we start at ten o'clock. The children will plant tomatoes and beans in pots. The workshop costs six pounds, and that includes a pot and some seeds to take home."
            ]
           ]
          }

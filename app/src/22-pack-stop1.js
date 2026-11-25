@@ -1,135 +1,134 @@
-/* 22-pack-stop1.js - ALL the content of Stop 1, Topic words and word building (Grade 5 ESL, Cambridge Stage 6).
+/* 22-pack-stop1.js - ALL the content of Stop 1, Topic words and word partners (Grade 4 ESL, Cambridge Stage 5).
    Made by scripts/convert.py from content/stop1.json (written from the exam-style guide only; no real paper seen). */
 (function (T) {
   'use strict';
-  window.T_ART = Object.assign(window.T_ART || {}, {"e-s1-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"determined\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💪</text></svg>", "e-s1-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"teamwork\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🤝</text></svg>", "e-s1-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"habitat\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏞️</text></svg>", "e-s1-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"predator\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🦈</text></svg>", "e-s1-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"invention\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💡</text></svg>", "e-s1-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"herd\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🐘</text></svg>", "e-s1-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"flock\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🐦</text></svg>", "e-s1-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"swarm\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🐝</text></svg>", "e-s1-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"crowd\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👥</text></svg>", "e-s1-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"look after\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🐶</text></svg>", "e-s1-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"find out\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔍</text></svg>", "e-s1-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"give up\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏳️</text></svg>", "e-s1-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"in danger\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⚠️</text></svg>", "e-s1-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"on purpose\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🎯</text></svg>"});
+  window.T_ART = Object.assign(window.T_ART || {}, {"e-s1-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"generous\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🎁</text></svg>", "e-s1-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"outgoing\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🙋</text></svg>", "e-s1-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"bad-tempered\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">😠</text></svg>", "e-s1-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"enormous\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🐋</text></svg>", "e-s1-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"mysterious\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔮</text></svg>", "e-s1-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"fever\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🤒</text></svg>", "e-s1-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"sore throat\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">😷</text></svg>", "e-s1-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"dairy products\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🧀</text></svg>", "e-s1-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"fibre\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🥦</text></svg>", "e-s1-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"sketch\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">✏️</text></svg>", "e-s1-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"pattern\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏁</text></svg>", "e-s1-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"fireworks\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🎆</text></svg>", "e-s1-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"feast\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍽️</text></svg>", "e-s1-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"chewy\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍡</text></svg>"});
   T.packs[1] = {
  "n": 1,
- "title": "Topic words and word building",
+ "title": "Topic words and word partners",
  "los": [
-  "6Uv.06",
-  "6Ug.10",
-  "6Uv.02",
-  "6Rd.04"
+  "5Uv.01",
+  "5Ug.11",
+  "5Rd.03"
  ],
  "blurb": {
-  "en": "Learn topic words, group words, phrasal verbs and phrases like on time and by bus.",
-  "vi": "Học từ vựng theo chủ đề, danh từ tập hợp, cụm động từ và cụm như on time, by bus."
+  "en": "Learn topic words, -ed and -ing words, comparing words and partners like good at.",
+  "vi": "Học từ vựng chủ đề, từ đuôi -ed và -ing, từ so sánh và cặp từ như good at."
  },
  "words": {
   "sets": [
    {
     "id": "A",
     "title": {
-     "en": "Topic words",
-     "vi": "Từ vựng theo chủ đề"
+     "en": "Describing people and places",
+     "vi": "Tả người và nơi chốn"
     },
     "keys": [
-     "determined",
-     "teamwork",
-     "habitat",
-     "predator",
-     "invention"
+     "generous",
+     "outgoing",
+     "bad-tempered",
+     "enormous",
+     "mysterious"
     ]
    },
    {
     "id": "B",
     "title": {
-     "en": "Group words",
-     "vi": "Danh từ tập hợp"
+     "en": "Food and health",
+     "vi": "Thức ăn và sức khỏe"
     },
     "keys": [
-     "herd",
-     "flock",
-     "swarm",
-     "crowd"
+     "fever",
+     "sore throat",
+     "dairy products",
+     "fibre"
     ]
    },
    {
     "id": "C",
     "title": {
-     "en": "Little words, big meaning",
-     "vi": "Cụm động từ và cụm giới từ"
+     "en": "Art and celebrations",
+     "vi": "Nghệ thuật và lễ hội"
     },
     "keys": [
-     "look after",
-     "find out",
-     "give up",
-     "in danger",
-     "on purpose"
+     "sketch",
+     "pattern",
+     "fireworks",
+     "feast",
+     "chewy"
     ]
    }
   ],
   "items": {
-   "determined": {
+   "generous": {
     "art": "e-s1-0",
-    "vi": "quyết tâm",
-    "def": "Not giving up, even when something is very hard. Example: My little sister was *determined* to ride her bike without help."
+    "vi": "hào phóng, rộng lượng",
+    "def": "Happy to give your time, money or things to other people. Example: My *generous* uncle shared his sweets with all the children."
    },
-   "teamwork": {
+   "outgoing": {
     "art": "e-s1-1",
-    "vi": "tinh thần đồng đội",
-    "def": "When people work well together to do something. Example: We won the relay race because of great *teamwork*."
+    "vi": "cởi mở, hòa đồng",
+    "def": "Friendly and happy to talk to new people. Example: Zara is very *outgoing*. She made five new friends on her first day."
    },
-   "habitat": {
+   "bad-tempered": {
     "art": "e-s1-2",
-    "vi": "môi trường sống",
-    "def": "The natural home of an animal or plant. Example: A rainforest is the *habitat* of many monkeys and parrots."
+    "vi": "dễ nổi cáu, khó tính",
+    "def": "Often cross or angry, even about small things. Example: Our old cat gets *bad-tempered* when she is hungry."
    },
-   "predator": {
+   "enormous": {
     "art": "e-s1-3",
-    "vi": "động vật săn mồi",
-    "def": "An animal that hunts and eats other animals. Example: The owl is a *predator* that hunts mice at night."
+    "vi": "khổng lồ, rất to",
+    "def": "Very, very big. Example: There is an *enormous* tree in the middle of the square."
    },
-   "invention": {
+   "mysterious": {
     "art": "e-s1-4",
-    "vi": "phát minh",
-    "def": "A new thing that someone makes for the first time. Example: The washing machine was a very useful *invention* for families."
+    "vi": "bí ẩn, huyền bí",
+    "def": "Strange, and hard to understand or explain. Example: We found a *mysterious* old key under the stairs."
    },
-   "herd": {
+   "fever": {
     "art": "e-s1-5",
-    "vi": "đàn (bò, trâu, voi)",
-    "def": "A big group of animals like cows, buffaloes or elephants. Example: A *herd* of buffaloes walked slowly along the river."
+    "vi": "sốt",
+    "def": "When your body is too hot because you are ill. Example: Kai stayed in bed because he had a *fever*."
    },
-   "flock": {
+   "sore throat": {
     "art": "e-s1-6",
-    "vi": "đàn (chim, cừu)",
-    "def": "A group of birds or sheep. Example: A *flock* of birds flew over the school field."
+    "vi": "đau họng",
+    "def": "A pain inside your neck that makes it hurt to talk or swallow. Example: I have a *sore throat*, so Mum made me some warm honey water."
    },
-   "swarm": {
+   "dairy products": {
     "art": "e-s1-7",
-    "vi": "đàn, bầy (ong, côn trùng)",
-    "def": "A large group of flying insects, like bees. Example: A *swarm* of bees was buzzing around the mango tree."
+    "vi": "các sản phẩm từ sữa",
+    "def": "Food made from milk, like cheese, yoghurt and butter. Example: *Dairy products* give us calcium for strong bones and teeth."
    },
-   "crowd": {
+   "fibre": {
     "art": "e-s1-8",
-    "vi": "đám đông",
-    "def": "A large group of people in one place. Example: A *crowd* of fans cheered when our team scored."
+    "vi": "chất xơ",
+    "def": "A part of vegetables, fruit and brown rice that helps your stomach work well. Example: Beans and apples have lots of *fibre*."
    },
-   "look after": {
+   "sketch": {
     "art": "e-s1-9",
-    "vi": "chăm sóc, trông nom",
-    "def": "To take care of someone or something. Example: Can you *look after* my rabbit this weekend?"
+    "vi": "bản phác thảo; phác họa",
+    "def": "A quick drawing with a pencil, often made before a painting. Example: The artist made a *sketch* of the street before she painted it."
    },
-   "find out": {
+   "pattern": {
     "art": "e-s1-10",
-    "vi": "tìm hiểu, phát hiện ra",
-    "def": "To learn a fact or some information. Example: We read a library book to *find out* how bats see in the dark."
+    "vi": "họa tiết, hoa văn",
+    "def": "Shapes, lines or colours that repeat again and again. Example: My scarf has a *pattern* of red and white stars."
    },
-   "give up": {
+   "fireworks": {
     "art": "e-s1-11",
-    "vi": "bỏ cuộc, từ bỏ",
-    "def": "To stop trying, or to stop doing something. Example: Don't *give up*! You will learn to dive soon."
+    "vi": "pháo hoa",
+    "def": "Things that explode in the night sky with bright colours and loud bangs. Example: At midnight we watched the *fireworks* over the river."
    },
-   "in danger": {
+   "feast": {
     "art": "e-s1-12",
-    "vi": "gặp nguy hiểm",
-    "def": "When something bad could happen to you. Example: Sea turtles are *in danger* because of plastic in the ocean."
+    "vi": "bữa tiệc lớn, mâm cỗ",
+    "def": "A very big, special meal for a lot of people. Example: For the New Year, Grandma cooked a *feast* for twenty people."
    },
-   "on purpose": {
+   "chewy": {
     "art": "e-s1-13",
-    "vi": "cố ý, cố tình",
-    "def": "Because you wanted to do it, not by mistake. Example: Sorry! I didn't step on your foot *on purpose*."
+    "vi": "dai (phải nhai nhiều)",
+    "def": "Soft, but you need to bite it many times before you can swallow it. Example: The rice cakes were sweet and *chewy*."
    }
   }
  },
@@ -138,87 +137,83 @@
    {
     "id": "s1",
     "title": {
-     "en": "Groups of animals and people",
-     "vi": "Nhóm động vật và con người"
+     "en": "Feeling words and adjective order",
+     "vi": "Tính từ đuôi -ed / -ing và trật tự tính từ"
     },
     "esl": true,
     "kind": "text",
-    "head": "A page from Lan's travel diary",
-    "html": "Last weekend my family took a boat trip on the Mekong River. First, we saw a *herd* of buffaloes in a muddy field. Then a *flock* of white storks flew over our boat. Near the bank, a *school* of tiny silver fish swam next to us. At lunch, a *swarm* of bees was buzzing near our fruit, so we moved away quickly! At the floating market there was a huge *crowd* of people buying pineapples and mangoes.",
+    "head": "A page from Theo's diary",
+    "html": "On Saturday morning I was *bored*. The rain was *boring*, and I had nothing to do. Then Dad took me to see the street art in Chalk Lane. On one wall there was a *beautiful big blue* waterfall. It looked so real! I was *amazed*, and I touched it. It was only paint on a *tall old brick* wall! The artist showed us her pencil sketches. 'Tricks like this are *exciting*, aren't they?' she said. I was *excited* all the way home.",
     "steps": [
      {
-      "en": "Look at the words in gold. They are *collective nouns*: one word for a whole group.",
-      "vi": "Hãy nhìn các từ màu vàng. Đó là *danh từ tập hợp*: một từ chỉ cả một nhóm."
+      "en": "Words with *-ed* tell us how a person feels: I was *bored*, I was *amazed*, I was *excited*.",
+      "vi": "Từ có đuôi *-ed* cho biết một người cảm thấy thế nào: I was *bored*, I was *amazed*, I was *excited*."
      },
      {
-      "en": "Animals have their own group words: a *herd* of buffaloes, a *flock* of birds, a *swarm* of bees.",
-      "vi": "Mỗi loài vật có từ chỉ nhóm riêng: a *herd* of buffaloes, a *flock* of birds, a *swarm* of bees."
+      "en": "Words with *-ing* tell us what makes us feel that way: the rain was *boring*, tricks are *exciting*.",
+      "vi": "Từ có đuôi *-ing* cho biết điều gì làm ta có cảm giác đó: the rain was *boring*, tricks are *exciting*."
      },
      {
-      "en": "For fish we say a *school* of fish. For lots of people we say a *crowd*.",
-      "vi": "Với cá, ta nói a *school* of fish. Với rất nhiều người, ta nói a *crowd*."
+      "en": "Two or three adjectives before a noun go in this order: opinion, size, age, colour, material.",
+      "vi": "Khi có hai hoặc ba tính từ đứng trước danh từ, ta xếp theo thứ tự: ý kiến, kích thước, tuổi, màu sắc, chất liệu."
      },
      {
-      "en": "Learn them as pairs: group word + *of* + animals or people.",
-      "vi": "Hãy học theo cặp: từ chỉ nhóm + *of* + con vật hoặc người."
+      "en": "So we say a *beautiful big blue* waterfall and a *tall old brick* wall.",
+      "vi": "Vì vậy ta nói a *beautiful big blue* waterfall và a *tall old brick* wall."
      }
     ]
    },
    {
     "id": "s2",
     "title": {
-     "en": "Verbs with little words",
-     "vi": "Động từ đi kèm từ nhỏ (cụm động từ)"
+     "en": "Comparing: -er, the -est, more and most",
+     "vi": "So sánh hơn và so sánh nhất"
     },
     "esl": true,
     "kind": "text",
-    "head": "A message from Coach Max to the basketball team",
-    "html": "Hi team! On Saturday we are *taking part in* the city basketball competition. We will *set off* from school at 7:30, so please don't be late. Remember to *pick up* your new shirts from the office on Friday. If you *run out of* water, there is a tap next to the court. Most importantly, *look after* each other and never *give up*, even if we are losing!",
+    "head": "Ruby's food blog: New Year snacks",
+    "html": "At New Year, Grandma made three snacks. First, I tried the sticky rice cake. It was boiled for ten hours, so it was *softer than* bread. Next, I ate the coconut sweets. They were *sweeter than* the rice cake, and very chewy. But *the chewiest* snack was the ginger sweets! My favourite was the rice cake. It was *the most delicious* snack on the table, and it was *better than* any cake from a shop!",
     "steps": [
      {
-      "en": "The words in gold are *phrasal verbs*: a verb + a little word (or two).",
-      "vi": "Các từ màu vàng là *cụm động từ*: một động từ + một (hoặc hai) từ nhỏ."
+      "en": "To compare two things, add *-er* and use *than*: *softer than*, *sweeter than*.",
+      "vi": "Để so sánh hai thứ, thêm *-er* và dùng *than*: *softer than*, *sweeter than*."
      },
      {
-      "en": "The little word changes the meaning: *look after* = take care of, but *look for* = try to find.",
-      "vi": "Từ nhỏ làm thay đổi nghĩa: *look after* = chăm sóc, còn *look for* = tìm kiếm."
+      "en": "For the top one in a group, use *the* + *-est*: *the chewiest* snack.",
+      "vi": "Để nói thứ đứng đầu trong một nhóm, dùng *the* + *-est*: *the chewiest* snack."
      },
      {
-      "en": "Some have three parts: *take part in*, *run out of*. Learn all the parts together.",
-      "vi": "Có cụm gồm ba phần: *take part in*, *run out of*. Hãy học cả cụm cùng nhau."
+      "en": "Long adjectives use *more* and *the most*: *the most delicious*.",
+      "vi": "Tính từ dài dùng *more* và *the most*: *the most delicious*."
      },
      {
-      "en": "*Set off* means start a journey. *Give up* means stop trying.",
-      "vi": "*Set off* nghĩa là khởi hành. *Give up* nghĩa là bỏ cuộc."
+      "en": "*Good* is special: good, *better*, *the best*.",
+      "vi": "*Good* là tính từ đặc biệt: good, *better*, *the best*."
      }
     ]
    },
    {
     "id": "s3",
     "title": {
-     "en": "Little phrases and new words",
-     "vi": "Cụm giới từ và đoán nghĩa từ mới"
+     "en": "Word partners and new words",
+     "vi": "Cặp từ (tính từ + giới từ) và đoán nghĩa từ mới"
     },
     "esl": true,
     "kind": "text",
-    "head": "From a school magazine: How we travel",
-    "html": "Two hundred years ago, most people travelled *on foot*. Journeys took a long time, and it was hard to arrive *on time*. Then trains and cars were invented. *In fact*, today most children in my class come to school *by bus* or *by car*. My little brother once got on the wrong bus *by mistake*! Our new school bus is very <b>reliable</b>. It has never broken down and it is never late.",
+    "head": "From our class magazine: Our caretaker",
+    "html": "Everyone knows our school caretaker. He is *kind to* every child, and he is *good at* fixing things. Last week he mended our broken classroom door in ten minutes! He is *interested in* plants too, and he grows tomatoes behind the school hall. He is always <b>cheerful</b>. He smiles and sings, even on rainy days. When he was young, he was *afraid of* dogs, but now he looks after the school's old dog, Biscuit. We are all *proud of* him.",
     "steps": [
      {
-      "en": "The gold phrases are *preposition + noun*. Learn each one as a block: *on foot*, *by bus*, *on time*.",
-      "vi": "Các cụm màu vàng là *giới từ + danh từ*. Hãy học mỗi cụm như một khối: *on foot*, *by bus*, *on time*."
+      "en": "Some adjectives always have the same little word after them: *kind to*, *good at*, *interested in*.",
+      "vi": "Một số tính từ luôn đi với cùng một giới từ phía sau: *kind to*, *good at*, *interested in*."
      },
      {
-      "en": "We say *by bus* and *by car*, but walking is *on foot*.",
-      "vi": "Ta nói *by bus* và *by car*, nhưng đi bộ là *on foot*."
+      "en": "Learn them as pairs: *afraid of*, *proud of*, *worried about*, *famous for*.",
+      "vi": "Hãy học chúng theo cặp: *afraid of*, *proud of*, *worried about*, *famous for*."
      },
      {
-      "en": "*By mistake* means you did not want to do it. *In fact* adds a true and surprising detail.",
-      "vi": "*By mistake* nghĩa là bạn không cố ý làm vậy. *In fact* thêm một chi tiết có thật và bất ngờ."
-     },
-     {
-      "en": "Don't know <b>reliable</b>? Read the next sentence: it never breaks down and is never late. So you can trust it!",
-      "vi": "Chưa biết từ <b>reliable</b>? Hãy đọc câu tiếp theo: xe không bao giờ hỏng và không bao giờ trễ. Vậy là ta có thể tin cậy nó!"
+      "en": "Don't know <b>cheerful</b>? Read the next sentence: he smiles and sings, even on rainy days. So he is always happy!",
+      "vi": "Chưa biết từ <b>cheerful</b>? Hãy đọc câu tiếp theo: ông ấy cười và hát, kể cả vào ngày mưa. Vậy ông ấy luôn vui vẻ!"
      }
     ]
    },
@@ -231,53 +226,53 @@
     "challenge": {
      "end": {
       "en": "Great work! You found the special words in all three texts.",
-      "vi": "Làm tốt lắm! Em đã tìm được các từ đặc biệt trong cả ba đoạn văn."
+      "vi": "Làm tốt lắm! Em đã tìm được các từ đặc biệt trong cả ba bài đọc."
      },
-     "result": "You spotted group words, phrasal verbs, preposition phrases and a new word from context.",
+     "result": "You spotted -ed and -ing words, comparing words, word partners and adjective order.",
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Uv.06"
+        "5Ug.11"
        ],
        "v": [
         {
          "hint": {
-          "step": "Think about big animals that walk together in a field."
+          "step": "Is the gap about a person's feeling or about the thing?"
          },
-         "worked": "Big animals like cows and buffaloes move in a <b>herd</b>: 'a herd of buffaloes'.",
+         "worked": "Theo is a person and the gap is his feeling, so we use <b>-ed</b>: 'Theo felt <b>bored</b>.'",
          "type": "mcq",
-         "q": "A .......... of buffaloes was standing in the muddy field.",
+         "q": "The rain was boring, so Theo felt ________.",
          "opts": [
-          "herd",
-          "flock",
-          "swarm"
+          "bored",
+          "boring",
+          "boredom"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "Boring is for the thing (the rain). Theo is a person with a feeling.",
+          "Boredom is a noun. After 'felt' we need an adjective."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Who or what is 'It'? A person or a thing?"
+         },
+         "worked": "'It' is the painting, a thing that makes us feel amazed, so we use <b>-ing</b>: 'It was <b>amazing</b>!'",
+         "type": "mcq",
+         "q": "The painting looked so real. It was ________!",
+         "opts": [
+          "amazing",
+          "amazed",
+          "amaze"
          ],
          "at": 1,
          "whys": [
           null,
-          "A flock is for birds or sheep. Buffaloes are big animals on the ground.",
-          "A swarm is for flying insects like bees."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Storks are birds. Which group word do we use for birds?"
-         },
-         "worked": "Birds fly together in a <b>flock</b>: 'a flock of white storks'.",
-         "type": "mcq",
-         "q": "A .......... of white storks flew over our boat.",
-         "opts": [
-          "flock",
-          "school",
-          "herd"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "A school is a group of fish, not birds.",
-          "A herd is for big animals on the ground, like cows."
+          "Amazed is how a person feels. Here we talk about the painting.",
+          "Amaze is a verb. After 'It was' we need an adjective."
          ],
          "letters": true
         }
@@ -286,46 +281,46 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.10"
+        "5Ug.11"
        ],
        "v": [
         {
          "hint": {
-          "step": "The team is starting a journey. Which verb means 'start a journey'?"
+          "step": "Look at the word after the gap. What does 'than' tell you?"
          },
-         "worked": "<b>Set off</b> means start a journey: 'We will set off from school at 7:30'.",
+         "worked": "We compare two things with <b>-er</b> + <b>than</b>: 'softer than bread'.",
          "type": "mcq",
-         "q": "We will .......... from school at 7:30, so please don't be late.",
+         "q": "Grandma's rice cake was ________ than bread.",
          "opts": [
-          "set off",
-          "give up",
-          "pick up"
+          "softer",
+          "softest",
+          "soft"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
-          "Give up means stop trying. That does not fit a journey.",
-          "Pick up needs a thing after it, like 'pick up your shirts'."
+          "Softest is for the top one in a group. Look at 'than'.",
+          "Soft does not compare. Look at the word after the gap."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Why would you need a tap? Think about having no water left."
+          "step": "Read the end of the sentence. Is it one of two, or the top one of all?"
          },
-         "worked": "<b>Run out of</b> means have none left. If your water is finished, use the tap.",
+         "worked": "'The ... of all' tells us it is the top one, so we use <b>the chewiest</b>.",
          "type": "mcq",
-         "q": "If you .......... water, there is a tap next to the court.",
+         "q": "The ________ snack of all was the ginger sweets.",
          "opts": [
-          "run out of",
-          "look after",
-          "take part in"
+          "chewiest",
+          "chewier",
+          "chewy"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
-          "Look after means take care of. Check why you would need a tap.",
-          "Take part in means join an event, like a competition."
+          "Chewier compares only two things. Read 'of all'.",
+          "Chewy does not tell us it is the top one. Read 'of all'."
          ],
          "letters": true
         }
@@ -334,46 +329,46 @@
       {
        "mode": "your",
        "lo": [
-        "6Uv.02"
+        "5Uv.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "How do we talk about ways of travelling with no 'the'?"
+          "step": "Which little word goes with 'good' when you talk about a skill?"
          },
-         "worked": "For ways of travelling we say <b>by bus</b>, <b>by car</b>, <b>by train</b>.",
+         "worked": "The partner of good for a skill is <b>at</b>: 'good at fixing things'.",
          "type": "mcq",
-         "q": "Most children in my class come to school .......... bus.",
+         "q": "The caretaker is good ________ fixing things.",
          "opts": [
-          "by",
-          "on",
-          "in"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "We say 'on the bus' with 'the', but here there is no 'the'.",
-          "We say 'in the car', but not 'in bus'."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Which little word do we use when we walk somewhere?"
-         },
-         "worked": "When we walk, we travel <b>on foot</b>.",
-         "type": "mcq",
-         "q": "Two hundred years ago, most people travelled .......... foot.",
-         "opts": [
-          "on",
+          "at",
           "in",
+          "for"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "We say 'interested in', but not 'good in' for a skill.",
+          "'Good for' means healthy for you, like 'Fruit is good for you'."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Which little word always comes after 'interested'?"
+         },
+         "worked": "The partner of interested is <b>in</b>: 'interested in plants'.",
+         "type": "mcq",
+         "q": "He is interested ________ plants and grows tomatoes.",
+         "opts": [
+          "in",
+          "on",
           "at"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
-          "'In foot' is not English. Check the phrase for walking.",
-          "'At foot' is not English. Check the phrase for walking."
+          "'Interested on' is not English. Check the partner of 'interested'.",
+          "'Interested at' is not English. 'At' goes with 'good'."
          ],
          "letters": true
         }
@@ -382,62 +377,48 @@
       {
        "mode": "your",
        "lo": [
-        "6Rd.04"
+        "5Ug.11"
        ],
        "v": [
         {
          "hint": {
-          "step": "Read the sentence AFTER the bold word. What does it tell you about the bus?"
+          "step": "Remember the order: opinion, size, age, colour, material."
          },
-         "worked": "'It has never broken down and it is never late' shows you can trust it. So <b>reliable</b> means you can count on it.",
+         "worked": "Opinion, size, colour: a <b>beautiful big blue</b> waterfall.",
          "type": "mcq",
-         "q": "What does <b>reliable</b> mean?",
+         "q": "On one wall there was a ________ waterfall.",
          "opts": [
-          "You can trust it every day.",
-          "It is very new and clean.",
-          "It can carry many people."
+          "beautiful big blue",
+          "big blue beautiful",
+          "blue beautiful big"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Your opinion (beautiful) comes first, before size and colour.",
+          "Colour comes after opinion and size, not first."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Remember the order: opinion, size, age, colour, material."
+         },
+         "worked": "Size, age, material: a <b>tall old brick</b> wall.",
+         "type": "mcq",
+         "q": "It was only paint on a ________ wall!",
+         "opts": [
+          "tall old brick",
+          "brick old tall",
+          "old brick tall"
          ],
          "at": 0,
          "whys": [
           null,
-          "The bus is new, but the next sentence is about never breaking down and never being late.",
-          "The text does not talk about how many people the bus carries."
+          "Material (brick) comes last, just before the noun.",
+          "Size (tall) comes before age (old)."
          ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s1-ch-reliable",
-          "kind": "text",
-          "head": "From a school magazine",
-          "html": "Our new school bus is very <b>reliable</b>. It has never broken down and it is never late."
-         }
-        },
-        {
-         "hint": {
-          "step": "Look at what the uncle does when the writer makes a mistake."
-         },
-         "worked": "'He never gets angry. He just explains the rules again, slowly.' So <b>patient</b> means calm and not angry.",
-         "type": "mcq",
-         "q": "What does <b>patient</b> mean?",
-         "opts": [
-          "calm and not angry",
-          "good at board games",
-          "old and very clever"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "He plays games with the writer, but the text is about how he feels when there is a mistake.",
-          "The text does not say he is clever. Look at what he does when the writer makes a mistake."
-         ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s1-ch-patient",
-          "kind": "text",
-          "head": "From Hana's diary",
-          "html": "My uncle is very <b>patient</b>. When I make a mistake in a game, he never gets angry. He just explains the rules again, slowly."
-         }
+         "letters": true
         }
        ]
       }
@@ -455,203 +436,59 @@
    "art": "icon-step-practise",
    "title": "Learn it",
    "blurb": {
-    "en": "One step at a time: group words, phrasal verbs and preposition phrases.",
-    "vi": "Từng bước một: danh từ tập hợp, cụm động từ và cụm giới từ."
+    "en": "One step at a time: topic words, -ed and -ing words, comparing and word partners.",
+    "vi": "Từng bước một: từ vựng chủ đề, từ đuôi -ed và -ing, so sánh và cặp từ."
    },
    "levels": [
     {
      "title": {
-      "en": "Group words and topic words",
-      "vi": "Danh từ tập hợp và từ vựng chủ đề"
+      "en": "Topic words from Units 1 to 4",
+      "vi": "Từ vựng chủ đề của Bài 1 đến Bài 4"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Uv.06"
+        "5Rd.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "Bees are flying insects. Which word is for flying insects?"
+          "step": "What does Anya do with her snacks and pens?"
          },
-         "worked": "Flying insects move together in a <b>swarm</b>: 'a swarm of bees'.",
+         "worked": "'Always shares her snacks and lends her pens' tells us Anya is <b>generous</b>.",
          "type": "mcq",
-         "q": "Which group word goes with bees? A .......... of bees",
+         "q": "Anya always shares her snacks and lends her pens to everyone. She is ________.",
          "opts": [
-          "swarm",
-          "herd",
-          "crowd"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "A herd is for big animals like cows and elephants.",
-          "A crowd is a big group of people."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "A pack and a flock are for other animals. Which word is for fish?"
-         },
-         "worked": "Fish swim together in a <b>school</b>: 'a school of fish'.",
-         "type": "mcq",
-         "q": "Which group word goes with fish? A .......... of fish",
-         "opts": [
-          "school",
-          "pack",
-          "flock"
+          "generous",
+          "selfish",
+          "bad-tempered"
          ],
          "at": 1,
          "whys": [
           null,
-          "A pack is for wolves or dogs.",
-          "A flock is for birds or sheep."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Uv.06"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Wolves and wild dogs hunt together. The word has 4 letters."
-         },
-         "worked": "Wolves live and hunt in a <b>pack</b>: 'a pack of wolves'.",
-         "type": "tfill",
-         "q": "Type the special group word. It starts with p.",
-         "lines": [
-          "A {0} of wolves was howling in the forest."
-         ],
-         "ans": [
-          [
-           "pack"
-          ]
-         ]
-        },
-        {
-         "hint": {
-          "step": "It is the same word we use for a group of birds."
-         },
-         "worked": "Sheep, like birds, move in a <b>flock</b>: 'a flock of sheep'.",
-         "type": "tfill",
-         "q": "Type the special group word. It starts with f.",
-         "lines": [
-          "The {0} of sheep followed the farmer down the hill."
-         ],
-         "ans": [
-          [
-           "flock"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Rd.04"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Read after the colon (:). What does the owl do?"
-         },
-         "worked": "'It hunts mice and eats them' tells us the owl is a <b>predator</b>.",
-         "type": "mcq",
-         "q": "An owl is a ..........: it hunts mice and eats them.",
-         "opts": [
-          "predator",
-          "habitat",
-          "invention"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "A habitat is a home for animals, not an animal.",
-          "An invention is a new thing that people make."
+          "A selfish person keeps things for himself or herself. Anya shares.",
+          "A bad-tempered person gets angry. The sentence is about sharing."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "A pond is a place. Which word means the home of animals and plants?"
+          "step": "What does the brother do when small things happen?"
          },
-         "worked": "A pond is the natural home of frogs and fish, so it is their <b>habitat</b>.",
+         "worked": "'Gets angry about small things and often shouts' tells us he is <b>bad-tempered</b>.",
          "type": "mcq",
-         "q": "A pond is the .......... of frogs, fish and water plants.",
+         "q": "My little brother gets angry about small things and often shouts. He is ________.",
          "opts": [
-          "habitat",
-          "predator",
-          "teamwork"
+          "bad-tempered",
+          "outgoing",
+          "generous"
          ],
          "at": 0,
          "whys": [
           null,
-          "A predator is an animal that hunts. A pond is a place.",
-          "Teamwork is about people working together."
-         ],
-         "letters": true
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "title": {
-      "en": "Phrasal verbs",
-      "vi": "Cụm động từ"
-     },
-     "rounds": [
-      {
-       "mode": "your",
-       "lo": [
-        "6Ug.10"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Think: 'Can you look after my rabbit?' What does the person want?"
-         },
-         "worked": "<b>Look after</b> means take care of: 'I look after my baby brother.'",
-         "type": "mcq",
-         "q": "Look after means ...",
-         "opts": [
-          "take care of",
-          "try to find",
-          "look quickly at"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "Try to find is 'look for'.",
-          "Look quickly at is 'glance at'. Look after is about caring."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Think: 'I want to find out how bats see.' What does the person want?"
-         },
-         "worked": "<b>Find out</b> means learn a fact or some information.",
-         "type": "mcq",
-         "q": "Find out means ...",
-         "opts": [
-          "learn a fact",
-          "lose a thing",
-          "go outside"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "Lose a thing is the opposite of finding.",
-          "Out here is not about going outside."
+          "An outgoing person is friendly with new people. Is shouting friendly?",
+          "A generous person likes to give. The sentence is about getting angry."
          ],
          "letters": true
         }
@@ -660,46 +497,46 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.10"
+        "5Rd.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "The trainers are lost. Which phrasal verb means 'try to find'?"
+          "step": "Where in your body do you feel it when you swallow?"
          },
-         "worked": "'I can't find my trainers', so we need <b>look for</b> = try to find.",
+         "worked": "'It hurts when I swallow' tells us the pain is in the throat: <b>a sore throat</b>.",
          "type": "mcq",
-         "q": "I can't find my trainers. Can you help me look .......... them?",
+         "q": "I can't stop coughing, and it hurts when I swallow. What have I got?",
          "opts": [
-          "for",
-          "after",
-          "up"
+          "a sore throat",
+          "an earache",
+          "a runny nose"
          ],
          "at": 1,
          "whys": [
           null,
-          "Look after means take care of. The trainers are lost!",
-          "Look up is for finding a word in a dictionary."
+          "An earache is a pain in your ear. Where does it hurt when you swallow?",
+          "A runny nose is about your nose, not about swallowing."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "He finished the race. Which phrasal verb means 'stop trying'?"
+          "step": "What do milk, cheese and yoghurt all come from?"
          },
-         "worked": "'He didn't <b>give up</b>' means he didn't stop trying, so he finished.",
+         "worked": "Milk, cheese and yoghurt are all made from milk, so they are <b>dairy products</b>.",
          "type": "mcq",
-         "q": "Ravi felt tired in the race, but he didn't give ........... He finished!",
+         "q": "Milk, cheese and yoghurt are all ...",
          "opts": [
-          "up",
-          "on",
-          "off"
+          "dairy products",
+          "grains",
+          "vegetables"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
-          "'Give on' is not a phrasal verb.",
-          "Give off is about a smell or heat coming out of something."
+          "Grains are rice, bread and cereals. What are milk and cheese made from?",
+          "Vegetables grow in the ground. Milk and cheese don't grow."
          ],
          "letters": true
         }
@@ -708,38 +545,38 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.10"
+        "5Rd.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "This phrasal verb has three parts: take ... in."
+          "step": "Which word means a very big, special meal? It has 5 letters."
          },
-         "worked": "<b>Take part in</b> means join an event: 'take part in the sports day'.",
+         "worked": "A very big, special meal for lots of people is a <b>feast</b>.",
          "type": "tfill",
-         "q": "Type the missing word.",
+         "q": "Type the missing word. It starts with f.",
          "lines": [
-          "Our class is going to take {0} in the school sports day."
+          "For the New Year, Grandma cooked a big {0} for all the family."
          ],
          "ans": [
           [
-           "part"
+           "feast"
           ]
          ]
         },
         {
          "hint": {
-          "step": "This phrasal verb has three parts: run out ..."
+          "step": "Which word means a quick pencil drawing? It has 6 letters."
          },
-         "worked": "<b>Run out of</b> means have none left: 'We have run out of milk.'",
+         "worked": "A quick drawing with a pencil before a painting is a <b>sketch</b>.",
          "type": "tfill",
-         "q": "Type the missing word.",
+         "q": "Type the missing word. It starts with s.",
          "lines": [
-          "Oh no! We have run out {0} milk. Can you buy some?"
+          "The artist drew a quick {0} with her pencil before she started to paint."
          ],
          "ans": [
           [
-           "of"
+           "sketch"
           ]
          ]
         }
@@ -749,141 +586,285 @@
     },
     {
      "title": {
-      "en": "Preposition phrases",
-      "vi": "Cụm giới từ + danh từ"
+      "en": "Adjectives: feelings, order and comparing",
+      "vi": "Tính từ: cảm xúc, trật tự và so sánh"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Uv.02"
+        "5Ug.11"
        ],
        "v": [
         {
          "hint": {
-          "step": "Which phrase means 'not late'?"
+          "step": "Is the gap about the film or about a person's feeling?"
          },
-         "worked": "<b>On time</b> means not late, at the right time.",
+         "worked": "The film makes us feel interested, so the film is <b>interesting</b> (-ing for the thing).",
          "type": "mcq",
-         "q": "Hurry up! The film starts at 6, and I want to be .......... time.",
+         "q": "The film about the deep ocean was really ________. I want to see it again!",
          "opts": [
-          "on",
+          "interesting",
+          "interested",
+          "interest"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "Interested is how a person feels. Here we talk about the film.",
+          "Interest is a noun or a verb. After 'was really' we need an adjective."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Jade is a person. Do we need -ed or -ing for a person's feeling?"
+         },
+         "worked": "Jade is a person describing her feeling, so we use <b>-ed</b>: 'she felt <b>bored</b>'.",
+         "type": "mcq",
+         "q": "Jade had nothing to do at home all day, so she felt ________.",
+         "opts": [
+          "bored",
+          "boring",
+          "boredom"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Boring is for a thing or an activity. Jade is a person.",
+          "Boredom is a noun. After 'felt' we need an adjective."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Ug.11"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Remember: opinion, size, age, colour, material."
+         },
+         "worked": "Opinion, age, colour: a <b>lovely old brown</b> hat.",
+         "type": "mcq",
+         "q": "Choose the right order. Grandpa wears a ________ hat.",
+         "opts": [
+          "lovely old brown",
+          "brown lovely old",
+          "old brown lovely"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "Colour (brown) comes after opinion and age.",
+          "Your opinion (lovely) comes first, not last."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Remember: opinion, size, age, colour, material."
+         },
+         "worked": "Size, age, colour: a <b>small new white</b> flat.",
+         "type": "mcq",
+         "q": "Choose the right order. We live in a ________ flat near the park.",
+         "opts": [
+          "small new white",
+          "white small new",
+          "new white small"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Colour (white) comes after size and age.",
+          "Size (small) comes before age (new)."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Ug.11"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Look at 'than'. For short words like big, double the last letter before you add the ending."
+         },
+         "worked": "Two things with <b>than</b>: big becomes <b>bigger</b>: 'bigger than a horse'.",
+         "type": "tfill",
+         "q": "Type the right form of the word in brackets.",
+         "lines": [
+          "An elephant is {0} (big) than a horse."
+         ],
+         "ans": [
+          [
+           "bigger"
+          ]
+         ]
+        },
+        {
+         "hint": {
+          "step": "Look at 'the' and 'of the year'. For short words like hot, double the last letter."
+         },
+         "worked": "The top one of a group: hot becomes <b>the hottest</b>: 'the hottest day of the year'.",
+         "type": "tfill",
+         "q": "Type the right form of the word in brackets.",
+         "lines": [
+          "Today is the {0} (hot) day of the year!"
+         ],
+         "ans": [
+          [
+           "hottest"
+          ]
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Word partners: adjective + preposition",
+      "vi": "Cặp từ: tính từ + giới từ"
+     },
+     "rounds": [
+      {
+       "mode": "your",
+       "lo": [
+        "5Uv.01"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Which little word always comes after 'afraid'?"
+         },
+         "worked": "The partner of afraid is <b>of</b>: 'afraid of big dogs'.",
+         "type": "mcq",
+         "q": "Minh is afraid ________ big dogs, so he crosses the road when he sees one.",
+         "opts": [
+          "of",
           "at",
-          "by"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "'At time' is not English. Check the phrase that means 'not late'.",
-          "'By time' is not English. Check the phrase that means 'not late'."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "'I didn't want to' tells you it was an accident."
-         },
-         "worked": "<b>By mistake</b> means without wanting to: 'I didn't want to!'",
-         "type": "mcq",
-         "q": "Sorry, I broke your pencil .......... mistake. I didn't want to!",
-         "opts": [
-          "by",
-          "on",
           "in"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
-          "'On mistake' is not English. We say 'on purpose' for something you want to do.",
-          "'In mistake' is not English."
+          "'Afraid at' is not English. Check the partner of 'afraid'.",
+          "'Afraid in' is not English. 'In' goes with 'interested'."
          ],
          "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Uv.02"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Something bad could happen to the baby elephant. Which phrase says this?"
-         },
-         "worked": "<b>In danger</b> means something bad could happen: 'was in danger'.",
-         "type": "tfill",
-         "q": "Type the missing word.",
-         "lines": [
-          "The baby elephant was {0} danger, so the herd came to help it."
-         ],
-         "ans": [
-          [
-           "in"
-          ]
-         ]
         },
         {
          "hint": {
-          "step": "They must ask first. Which word means 'not having'?"
+          "step": "Which little word comes after 'famous' to give the reason?"
          },
-         "worked": "You must not leave <b>without permission</b>, which means without the teacher saying yes.",
-         "type": "tfill",
-         "q": "Type the missing word.",
-         "lines": [
-          "Students must not leave the classroom {0} permission from the teacher."
-         ],
-         "ans": [
-          [
-           "without"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Uv.02"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "They don't drive, so they walk. Which phrase is for walking?"
-         },
-         "worked": "When we walk somewhere, we go <b>on foot</b>.",
+         "worked": "The partner of famous is <b>for</b>: 'famous for its old market'.",
          "type": "mcq",
-         "q": "We don't drive to the park. It's very close, so we go ...........",
+         "q": "Our town is famous ________ its old market and its noodle soup.",
          "opts": [
-          "on foot",
-          "in foot",
-          "at foot"
+          "for",
+          "of",
+          "at"
          ],
          "at": 1,
          "whys": [
           null,
-          "'In foot' is not English.",
-          "'At foot' is not English."
+          "We say 'proud of', but 'famous' has a different partner.",
+          "'Famous at' is not English. 'At' goes with 'good'."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Uv.01"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Drawing is a skill. Which little word goes with 'good' for a skill?"
+         },
+         "worked": "For a skill we say <b>good at</b>: 'good at drawing animals'.",
+         "type": "tfill",
+         "q": "Type the missing little word.",
+         "lines": [
+          "Kai is very good {0} drawing animals."
+         ],
+         "ans": [
+          [
+           "at"
+          ]
+         ]
+        },
+        {
+         "hint": {
+          "step": "Which little word comes after 'worried'? It has 5 letters."
+         },
+         "worked": "The partner of worried is <b>about</b>: 'worried about her maths test'.",
+         "type": "tfill",
+         "q": "Type the missing little word.",
+         "lines": [
+          "Linh is worried {0} her maths test tomorrow."
+         ],
+         "ans": [
+          [
+           "about"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Uv.01"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Look at the little word after the gap. Which adjective is its partner?"
+         },
+         "worked": "'Worked so hard' makes a teacher happy and <b>proud</b>: 'proud of us'.",
+         "type": "mcq",
+         "q": "Our teacher was ________ of us because we all worked so hard.",
+         "opts": [
+          "proud",
+          "kind",
+          "good"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "Kind goes with 'to': kind to someone. Check the word after the gap.",
+          "Good goes with 'at': good at something. Check the word after the gap."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Which little word goes with 'purpose'?"
+          "step": "Look at the little word after the gap. Which adjective is its partner?"
          },
-         "worked": "We say <b>on purpose</b> (wanted to do it). 'It was an accident', so he didn't do it on purpose.",
+         "worked": "The partner of kind is <b>to</b>: 'be kind to the new boy'.",
          "type": "mcq",
-         "q": "It was an accident! He didn't kick the ball at the window .......... purpose.",
+         "q": "Please be ________ to the new boy. It's his first day at our school.",
          "opts": [
-          "on",
-          "by",
-          "at"
+          "kind",
+          "afraid",
+          "interested"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
-          "'By purpose' is not English. We say 'by mistake' but 'on purpose'.",
-          "'At purpose' is not English."
+          "We say 'afraid of', not 'afraid to' a person.",
+          "We say 'interested in', not 'interested to' a person."
          ],
          "letters": true
         }
@@ -901,8 +882,8 @@
    "art": "icon-step-test",
    "title": "Exam style",
    "blurb": {
-    "en": "Like the real Reading paper: choose the word, write one word, and guess meanings.",
-    "vi": "Giống bài thi Đọc thật: chọn từ, điền một từ và đoán nghĩa từ mới."
+    "en": "Like the real Reading paper: choose the word, complete a message and fill a letter from a word box.",
+    "vi": "Giống bài thi Đọc thật: chọn từ, hoàn thành tin nhắn và điền từ trong khung vào lá thư."
    },
    "levels": [
     {
@@ -914,46 +895,46 @@
       {
        "mode": "your",
        "lo": [
-        "6Uv.06"
+        "5Ug.11"
        ],
        "v": [
         {
          "hint": {
-          "step": "Cows are big farm animals. Which group word fits them?"
+          "step": "The gap is about Felix. Is it his feeling, or a thing?"
          },
-         "worked": "Cows move together in a <b>herd</b>: 'a herd of cows'.",
+         "worked": "Felix is a person and the gap is his feeling, so we use <b>-ed</b>: 'Felix was very <b>excited</b>'.",
          "type": "mcq",
-         "q": "On our class trip to the farm, we watched a .......... of cows walking slowly to the river.",
+         "q": "Felix was very ________ when his teacher said the class was going to visit Stone Hill Castle.",
          "opts": [
-          "herd",
-          "swarm",
-          "bunch"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "A swarm is for flying insects like bees.",
-          "A bunch is for flowers, bananas or keys."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Look at the word after 'of'. Which group word is for lots of people?"
-         },
-         "worked": "Lots of people in one place are a <b>crowd</b>: 'a huge crowd of people'.",
-         "type": "mcq",
-         "q": "When the singer came on stage, a huge .......... of people started to clap and cheer.",
-         "opts": [
-          "crowd",
-          "flock",
-          "pack"
+          "excited",
+          "exciting",
+          "excitement"
          ],
          "at": 2,
          "whys": [
           null,
-          "A flock is for birds or sheep, not people.",
-          "A pack is for wolves or dogs, not people."
+          "Exciting is for the thing that makes you feel excited, like the trip. Felix is a person.",
+          "Excitement is a noun. After 'was very' we need an adjective."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "What is the gap about: Anya, or the week?"
+         },
+         "worked": "The week made Anya feel tired, so the week was <b>tiring</b> (-ing for the thing).",
+         "type": "mcq",
+         "q": "Anya practised her New Year dance for two hours every evening, so the week was very ________ for her.",
+         "opts": [
+          "tiring",
+          "tired",
+          "tiredness"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "Tired is how a person feels. Here the gap is about the week.",
+          "Tiredness is a noun. After 'was very' we need an adjective."
          ],
          "letters": true
         }
@@ -962,46 +943,46 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.10"
+        "5Ug.11"
        ],
        "v": [
         {
          "hint": {
-          "step": "They have to go and get their shoes. Which verb means 'collect'?"
+          "step": "Look at the word after the gap."
          },
-         "worked": "<b>Pick up</b> means collect: 'pick up our sports shoes from the changing room'.",
+         "worked": "'Much ... than' compares two things, so we use <b>bigger</b>: 'much bigger than Felix expected'.",
          "type": "mcq",
-         "q": "Before the match, Coach Rosa asked us to .......... our sports shoes from the changing room.",
+         "q": "The castle was much ________ than Felix expected, with forty rooms and five tall towers.",
          "opts": [
-          "pick up",
-          "give up",
-          "set off"
+          "bigger",
+          "biggest",
+          "big"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
-          "Give up means stop trying. You can't 'give up' shoes from a room.",
-          "Set off means start a journey. It doesn't take a thing after it."
+          "Biggest is for the top one in a group. Look at 'than'.",
+          "Big does not compare. Look at 'much' and 'than'."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "The grandparents are away. What do the cats need?"
+          "step": "Read the end of the sentence. Is it one of two, or the top one of a group?"
          },
-         "worked": "The grandparents are on holiday, so someone must <b>look after</b> (take care of) the cats.",
+         "worked": "'The ... in the whole group' needs a superlative: <b>the most beautiful</b> dress.",
          "type": "mcq",
-         "q": "My grandparents are on holiday, so my sister and I are .......... their two cats this week.",
+         "q": "On the night of the show, Anya wore the ________ dress in the whole group, with gold and red stars.",
          "opts": [
-          "looking after",
-          "looking for",
-          "looking up"
+          "most beautiful",
+          "more beautiful",
+          "beautiful"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
-          "Looking for means trying to find. The cats are not lost.",
-          "Looking up is for a word in a dictionary or on the internet."
+          "More beautiful compares two things. Read 'in the whole group'.",
+          "Beautiful does not say it is the top one. Read 'in the whole group'."
          ],
          "letters": true
         }
@@ -1010,46 +991,46 @@
       {
        "mode": "your",
        "lo": [
-        "6Uv.02"
+        "5Uv.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Which phrase adds a surprising true detail?"
+          "step": "Which little word always comes after 'afraid'?"
          },
-         "worked": "<b>In fact</b> adds a true detail: 'In fact, some were as big as a brick!'",
+         "worked": "The partner of afraid is <b>of</b>: 'afraid of the dark rooms'.",
          "type": "mcq",
-         "q": "The first mobile phones were very big and heavy. .......... fact, some were as big as a brick!",
+         "q": "Inside the castle, Felix's friend Hugo was afraid ________ the dark rooms, so Felix held his hand.",
          "opts": [
-          "In",
-          "On",
-          "At"
+          "of",
+          "at",
+          "about"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
-          "'On fact' is not English. Check the phrase that adds a true detail.",
-          "'At fact' is not English. Check the phrase that adds a true detail."
+          "'Afraid at' is not English. 'At' goes with 'good'.",
+          "We say 'worried about', but 'afraid' has a different partner."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "How do we talk about a way of travelling with no 'the'?"
+          "step": "Which little word always comes after 'proud'?"
          },
-         "worked": "For ways of travelling we say <b>by bus</b>: 'He goes to the market by bus.'",
+         "worked": "The partner of proud is <b>of</b>: 'proud of her'.",
          "type": "mcq",
-         "q": "Grandad doesn't drive any more. He goes to the market .......... bus every Tuesday.",
+         "q": "After the show, Anya's grandparents hugged her and said they were very proud ________ her.",
          "opts": [
-          "by",
-          "on",
-          "with"
+          "of",
+          "for",
+          "at"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
-          "We say 'on the bus' with 'the'. Here there is no 'the'.",
-          "'With bus' is not English for a way of travelling."
+          "'Proud for' is not the right partner. Check the word that goes with 'proud'.",
+          "'Proud at' is not English. 'At' goes with 'good'."
          ],
          "letters": true
         }
@@ -1059,60 +1040,68 @@
     },
     {
      "title": {
-      "en": "Reading Part 4: one word in an email",
-      "vi": "Đọc Phần 4: điền một từ vào email"
+      "en": "Reading Part 2: complete the message",
+      "vi": "Đọc Phần 2: hoàn thành tin nhắn"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ug.10"
+        "5Uv.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Look at 'took' and 'in'. Which phrasal verb means 'joined an event'?"
+          "step": "Building things is a skill. Which little word goes with 'good' for a skill?"
          },
-         "worked": "<b>Take part in</b> means join an event: 'our school took part in a charity fun run'.",
-         "type": "tfill",
-         "q": "Read Minh's email. Write ONE word for gap (1).",
-         "lines": [
-          "Last Sunday our school took {0} in a charity fun run in the park."
+         "worked": "For a skill we say <b>good at</b>: 'You're really good at building things.'",
+         "type": "mcq",
+         "q": "Which option correctly completes the message?",
+         "opts": [
+          "at",
+          "in",
+          "for"
          ],
-         "ans": [
-          [
-           "part"
-          ]
+         "at": 1,
+         "whys": [
+          null,
+          "We say 'interested in', but 'good' has a different partner for a skill.",
+          "'Good for' means healthy for you. Building things is a skill."
          ],
+         "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s1-email-1",
+          "id": "s1-msg-kai",
           "kind": "text",
-          "head": "Email from Minh to his cousin Khoa",
-          "html": "Hi Khoa,<br>Guess what? Last Sunday our school took (1) .......... in a charity fun run in the park. We all went there (2) .......... bus, and there was a huge crowd of people at the start line! I was nervous, but my best friend told me not to give (3) .......... . I ran the whole three kilometres and finished in 22 minutes. Next month I'm going to try the five-kilometre race. Do you want to come and run with me?<br>Write back soon,<br>Minh"
+          "head": "Text message",
+          "html": "Hi Jade! The science club needs one more person for the robot team. You're really good ________ building things. Do you want to join? Tell me by Friday.<br>Kai"
          }
         },
         {
          "hint": {
-          "step": "The puppy 'needs a lot of care'. Which phrasal verb means 'take care of'?"
+          "step": "Which little word comes after 'worried'?"
          },
-         "worked": "Pepper needs care, so her brother <b>looks after</b> her in the afternoon.",
-         "type": "tfill",
-         "q": "Read Freya's email. Write ONE word for gap (1).",
-         "lines": [
-          "In the afternoon my brother looks {0} her."
+         "worked": "The partner of worried is <b>about</b>: 'Are you worried about mosquito bites?'",
+         "type": "mcq",
+         "q": "Which option correctly completes the notice?",
+         "opts": [
+          "about",
+          "of",
+          "at"
          ],
-         "ans": [
-          [
-           "after"
-          ]
+         "at": 0,
+         "whys": [
+          null,
+          "We say 'afraid of', but 'worried' has a different partner.",
+          "'Worried at' is not English. Check the partner of 'worried'."
          ],
+         "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s1-email-2",
+          "id": "s1-notice-mosquito",
           "kind": "text",
-          "head": "Email from Freya to her friend Isla",
-          "html": "Dear Isla,<br>I have some exciting news. We have a new puppy called Pepper! She is very cute, but she needs a lot of care. Every morning I give her breakfast before school, and in the afternoon my brother looks (1) .......... her. Yesterday she ate one of my socks. Mum thinks she did it (2) .......... purpose, because she loves playing with socks! Tomorrow we are going to the library to find (3) .......... how to train a puppy. Can you come and meet her this weekend?<br>Love,<br>Freya"
+          "head": "School notice",
+          "html": "HEALTH TALK<br>Are you worried ________ mosquito bites? Come and learn how to stay safe: nets, repellent and no standing water. Thursday, 3:30, in the school hall."
          }
         }
        ]
@@ -1120,53 +1109,61 @@
       {
        "mode": "your",
        "lo": [
-        "6Uv.02"
+        "5Ug.11"
        ],
        "v": [
         {
          "hint": {
-          "step": "This is a way of travelling, with no 'the' before 'bus'."
+          "step": "What does 'It' mean here: Minh, or the book?"
          },
-         "worked": "For ways of travelling we say <b>by bus</b>: 'We all went there by bus.'",
-         "type": "tfill",
-         "q": "Read Minh's email. Write ONE word for gap (2).",
-         "lines": [
-          "We all went there {0} bus."
+         "worked": "'It' is the book, a thing, so we use <b>-ing</b>: 'It was so <b>exciting</b>!'",
+         "type": "mcq",
+         "q": "Which option correctly completes the email?",
+         "opts": [
+          "exciting",
+          "excited",
+          "excitement"
          ],
-         "ans": [
-          [
-           "by"
-          ]
+         "at": 1,
+         "whys": [
+          null,
+          "Excited is how a person feels. 'It' is the book.",
+          "Excitement is a noun. After 'It was so' we need an adjective."
          ],
+         "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s1-email-1",
+          "id": "s1-email-minh",
           "kind": "text",
-          "head": "Email from Minh to his cousin Khoa",
-          "html": "Hi Khoa,<br>Guess what? Last Sunday our school took (1) .......... in a charity fun run in the park. We all went there (2) .......... bus, and there was a huge crowd of people at the start line! I was nervous, but my best friend told me not to give (3) .......... . I ran the whole three kilometres and finished in 22 minutes. Next month I'm going to try the five-kilometre race. Do you want to come and run with me?<br>Write back soon,<br>Minh"
+          "head": "Email",
+          "html": "Hi Theo,<br>Thanks for lending me your book about the secret island. It was so ________! I read it in two days. Can I borrow the next one?<br>Minh"
          }
         },
         {
          "hint": {
-          "step": "Which little word always goes before 'purpose'?"
+          "step": "The sign is asking about YOU. Is it your feeling, or a thing?"
          },
-         "worked": "Pepper loves socks, so Mum thinks she ate it <b>on purpose</b> (because she wanted to).",
-         "type": "tfill",
-         "q": "Read Freya's email. Write ONE word for gap (2).",
-         "lines": [
-          "Mum thinks she did it {0} purpose, because she loves playing with socks!"
+         "worked": "The sign asks how a person feels, so we use <b>-ed</b>: 'Feeling <b>tired</b> in the hot sun?'",
+         "type": "mcq",
+         "q": "Which option correctly completes the sign?",
+         "opts": [
+          "tired",
+          "tiring",
+          "tiredness"
          ],
-         "ans": [
-          [
-           "on"
-          ]
+         "at": 2,
+         "whys": [
+          null,
+          "Tiring is for the thing that makes you tired, like the sun. The sign asks about you.",
+          "Tiredness is a noun. After 'Feeling' we need an adjective here."
          ],
+         "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s1-email-2",
+          "id": "s1-sign-field",
           "kind": "text",
-          "head": "Email from Freya to her friend Isla",
-          "html": "Dear Isla,<br>I have some exciting news. We have a new puppy called Pepper! She is very cute, but she needs a lot of care. Every morning I give her breakfast before school, and in the afternoon my brother looks (1) .......... her. Yesterday she ate one of my socks. Mum thinks she did it (2) .......... purpose, because she loves playing with socks! Tomorrow we are going to the library to find (3) .......... how to train a puppy. Can you come and meet her this weekend?<br>Love,<br>Freya"
+          "head": "Sign at the sports field",
+          "html": "Feeling ________ in the hot sun? Sit in the shade and drink some water. If you feel dizzy, tell a teacher at once."
          }
         }
        ]
@@ -1174,53 +1171,61 @@
       {
        "mode": "your",
        "lo": [
-        "6Ug.10"
+        "5Ug.11"
        ],
        "v": [
         {
          "hint": {
-          "step": "Minh kept running. Which phrasal verb means 'stop trying'?"
+          "step": "Remember: opinion, size, age, colour, material."
          },
-         "worked": "His friend said 'don't <b>give up</b>' (don't stop trying), and Minh ran the whole race.",
-         "type": "tfill",
-         "q": "Read Minh's email. Write ONE word for gap (3).",
-         "lines": [
-          "I was nervous, but my best friend told me not to give {0}."
+         "worked": "Size, colour, material: a <b>small blue plastic</b> pencil case.",
+         "type": "mcq",
+         "q": "Which option correctly completes the notice?",
+         "opts": [
+          "small blue plastic",
+          "blue plastic small",
+          "plastic small blue"
          ],
-         "ans": [
-          [
-           "up"
-          ]
+         "at": 1,
+         "whys": [
+          null,
+          "Size (small) comes before colour, not at the end.",
+          "Material (plastic) comes last, just before the noun."
          ],
+         "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s1-email-1",
+          "id": "s1-notice-lost",
           "kind": "text",
-          "head": "Email from Minh to his cousin Khoa",
-          "html": "Hi Khoa,<br>Guess what? Last Sunday our school took (1) .......... in a charity fun run in the park. We all went there (2) .......... bus, and there was a huge crowd of people at the start line! I was nervous, but my best friend told me not to give (3) .......... . I ran the whole three kilometres and finished in 22 minutes. Next month I'm going to try the five-kilometre race. Do you want to come and run with me?<br>Write back soon,<br>Minh"
+          "head": "Notice",
+          "html": "LOST in the school library on Tuesday: a ________ pencil case with my name inside. Please bring it to Class 4B. Thank you!<br>Ruby"
          }
         },
         {
          "hint": {
-          "step": "They want to learn some information at the library."
+          "step": "Look at the word after the gap."
          },
-         "worked": "<b>Find out</b> means learn information: 'find out how to train a puppy'.",
-         "type": "tfill",
-         "q": "Read Freya's email. Write ONE word for gap (3).",
-         "lines": [
-          "Tomorrow we are going to the library to find {0} how to train a puppy."
+         "worked": "'Than last year' compares two years, and good becomes <b>better</b>: 'better than last year'.",
+         "type": "mcq",
+         "q": "Which option correctly completes the message?",
+         "opts": [
+          "better",
+          "best",
+          "good"
          ],
-         "ans": [
-          [
-           "out"
-          ]
+         "at": 2,
+         "whys": [
+          null,
+          "Best is for the top one in a group. Look at 'than'.",
+          "Good does not compare. Look at 'than last year'."
          ],
+         "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s1-email-2",
+          "id": "s1-msg-zara",
           "kind": "text",
-          "head": "Email from Freya to her friend Isla",
-          "html": "Dear Isla,<br>I have some exciting news. We have a new puppy called Pepper! She is very cute, but she needs a lot of care. Every morning I give her breakfast before school, and in the afternoon my brother looks (1) .......... her. Yesterday she ate one of my socks. Mum thinks she did it (2) .......... purpose, because she loves playing with socks! Tomorrow we are going to the library to find (3) .......... how to train a puppy. Can you come and meet her this weekend?<br>Love,<br>Freya"
+          "head": "Text message",
+          "html": "Hi Anya! Did you see the New Year fireworks last night? They were ________ than last year! We watched from the bridge. Next year, come with us!<br>Zara"
          }
         }
        ]
@@ -1229,68 +1234,60 @@
     },
     {
      "title": {
-      "en": "What does the word in bold mean?",
-      "vi": "Từ in đậm có nghĩa là gì?"
+      "en": "Reading Part 4: a letter with a word box",
+      "vi": "Đọc Phần 4: lá thư có khung từ"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Rd.04"
+        "5Ug.11"
        ],
        "v": [
         {
          "hint": {
-          "step": "Read what the bats do in the day and when they wake up."
+          "step": "Look at 'bigger'. Which word always comes after a comparing word?"
          },
-         "worked": "'They sleep all day ... and wake up when the sun goes down.' So <b>nocturnal</b> means active at night.",
-         "type": "mcq",
-         "q": "What does <b>nocturnal</b> mean?",
-         "opts": [
-          "active at night",
-          "living in caves",
-          "able to fly fast"
+         "worked": "We compare two libraries: 'bigger <b>than</b> the old library'.",
+         "type": "tfill",
+         "q": "Read Linh's email. Choose a word from the box for gap (1).",
+         "lines": [
+          "Now it is much bigger {0} the old library."
          ],
-         "at": 2,
-         "whys": [
-          null,
-          "The bats do sleep in a cave, but the word is about WHEN they are awake.",
-          "They can fly, but the notice is about the time they wake up."
+         "ans": [
+          [
+           "than"
+          ]
          ],
-         "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s1-ex-nocturnal",
+          "id": "s1-letter-linh",
           "kind": "text",
-          "head": "A notice at the zoo",
-          "html": "Our bats are <b>nocturnal</b>. They sleep all day in their dark cave and wake up when the sun goes down. Come back after 6 p.m. to see them fly!"
+          "head": "Email from Linh to her friend Ruby",
+          "html": "<b>Word box:</b> at, in, is, most, of, than<br><br>Hi Ruby,<br>Guess what? There (0) <u>is</u> a new library in our town! It used to be an old bus station. Now it is much bigger (1) ________ the old library, and it has an enormous window with a view of the river. The children's room is the (2) ________ colourful room I have ever seen. There are beanbags, plants and a big map of the world on the wall. I'm really interested (3) ________ books about mysterious places, so I go every Saturday morning. Would you like to come with me next week?<br>Love,<br>Linh"
          }
         },
         {
          "hint": {
-          "step": "Look at the next sentence: how did his legs feel? What did he do on the sofa?"
+          "step": "Look at 'taller'. Which word always comes after a comparing word?"
          },
-         "worked": "'My legs felt heavy and I fell asleep on the sofa' shows he was <b>exhausted</b>: very, very tired.",
-         "type": "mcq",
-         "q": "What does <b>exhausted</b> mean?",
-         "opts": [
-          "very, very tired",
-          "hungry and thirsty",
-          "proud and happy"
+         "worked": "We compare the cake and the cousin: 'taller <b>than</b> my little cousin'.",
+         "type": "tfill",
+         "q": "Read Hugo's email. Choose a word from the box for gap (1).",
+         "lines": [
+          "The birthday cake was even taller {0} my little cousin!"
          ],
-         "at": 1,
-         "whys": [
-          null,
-          "The text doesn't say he wanted food or drink. Look at his heavy legs.",
-          "He may feel proud, but the text talks about heavy legs and falling asleep."
+         "ans": [
+          [
+           "than"
+          ]
          ],
-         "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s1-ex-exhausted",
+          "id": "s1-letter-hugo",
           "kind": "text",
-          "head": "From Huy's blog",
-          "html": "After the long cross-country race, I was completely <b>exhausted</b>. My legs felt heavy and I fell asleep on the sofa before dinner!"
+          "head": "Email from Hugo to his friend Felix",
+          "html": "<b>Word box:</b> about, for, most, of, than, was<br><br>Hi Felix,<br>Last Sunday we had a big party for Grandpa's seventieth birthday. It (0) <u>was</u> at our house, and thirty people came! Mum and my aunts cooked a feast with noodle soup, grilled fish and sticky rice. The birthday cake was even taller (1) ________ my little cousin! The (2) ________ exciting part was the dancing in the garden. Even Grandpa danced! At the end, he made a short speech. He said he was proud (3) ________ all his grandchildren, and Grandma cried a little.<br>See you at school,<br>Hugo"
          }
         }
        ]
@@ -1298,61 +1295,53 @@
       {
        "mode": "your",
        "lo": [
-        "6Rd.04"
+        "5Ug.11"
        ],
        "v": [
         {
          "hint": {
-          "step": "The next sentence says it is small and light. What can you do with it?"
+          "step": "Look at 'the' and 'I have ever seen'. Colourful is a long word."
          },
-         "worked": "'It is small and light, so you can carry it in your bag.' So <b>portable</b> means easy to carry.",
-         "type": "mcq",
-         "q": "What does <b>portable</b> mean?",
-         "opts": [
-          "easy to carry",
-          "loud and clear",
-          "cheap to buy"
+         "worked": "It is the top one of all the rooms she has seen: 'the <b>most</b> colourful room'.",
+         "type": "tfill",
+         "q": "Read Linh's email. Choose a word from the box for gap (2).",
+         "lines": [
+          "The children's room is the {0} colourful room I have ever seen."
          ],
-         "at": 2,
-         "whys": [
-          null,
-          "The notice does not say how loud the speaker is.",
-          "The notice does not talk about the price."
+         "ans": [
+          [
+           "most"
+          ]
          ],
-         "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s1-ex-portable",
+          "id": "s1-letter-linh",
           "kind": "text",
-          "head": "A notice in a shop",
-          "html": "This new speaker is <b>portable</b>. It is small and light, so you can carry it in your school bag to the park or the beach."
+          "head": "Email from Linh to her friend Ruby",
+          "html": "<b>Word box:</b> at, in, is, most, of, than<br><br>Hi Ruby,<br>Guess what? There (0) <u>is</u> a new library in our town! It used to be an old bus station. Now it is much bigger (1) ________ the old library, and it has an enormous window with a view of the river. The children's room is the (2) ________ colourful room I have ever seen. There are beanbags, plants and a big map of the world on the wall. I'm really interested (3) ________ books about mysterious places, so I go every Saturday morning. Would you like to come with me next week?<br>Love,<br>Linh"
          }
         },
         {
          "hint": {
-          "step": "Look at the examples: what does Mrs Tran do with her fruit and her umbrella?"
+          "step": "Look at 'The'. Exciting is a long word. How do we make the top one?"
          },
-         "worked": "'She often shares her fruit' and 'gave her own umbrella' show she is <b>generous</b>.",
-         "type": "mcq",
-         "q": "What does <b>generous</b> mean?",
-         "opts": [
-          "happy to give to others",
-          "good at remembering",
-          "always on time for work"
+         "worked": "The dancing was the top part of the party: 'The <b>most</b> exciting part'.",
+         "type": "tfill",
+         "q": "Read Hugo's email. Choose a word from the box for gap (2).",
+         "lines": [
+          "The {0} exciting part was the dancing in the garden."
          ],
-         "at": 0,
-         "whys": [
-          null,
-          "The text is not about remembering. Look at what she gives.",
-          "The text does not talk about time. Look at what she shares."
+         "ans": [
+          [
+           "most"
+          ]
          ],
-         "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s1-ex-generous",
+          "id": "s1-letter-hugo",
           "kind": "text",
-          "head": "From a class newsletter",
-          "html": "Our class helper, Mrs Tran, is very <b>generous</b>. She often shares her fruit with us, and once she gave her own umbrella to a student who forgot one."
+          "head": "Email from Hugo to his friend Felix",
+          "html": "<b>Word box:</b> about, for, most, of, than, was<br><br>Hi Felix,<br>Last Sunday we had a big party for Grandpa's seventieth birthday. It (0) <u>was</u> at our house, and thirty people came! Mum and my aunts cooked a feast with noodle soup, grilled fish and sticky rice. The birthday cake was even taller (1) ________ my little cousin! The (2) ________ exciting part was the dancing in the garden. Even Grandpa danced! At the end, he made a short speech. He said he was proud (3) ________ all his grandchildren, and Grandma cried a little.<br>See you at school,<br>Hugo"
          }
         }
        ]
@@ -1360,61 +1349,53 @@
       {
        "mode": "your",
        "lo": [
-        "6Rd.04"
+        "5Uv.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Why is the white fur useful in the snow? Read both sentences."
+          "step": "Which little word always comes after 'interested'?"
          },
-         "worked": "White fur makes the fox 'hard to see in the snow' and 'helps it hide'. That is <b>camouflage</b>.",
-         "type": "mcq",
-         "q": "What does <b>camouflage</b> mean?",
-         "opts": [
-          "colours that help an animal hide",
-          "thick fur that keeps it warm",
-          "a way of hunting in big groups"
+         "worked": "The partner of interested is <b>in</b>: 'interested in books'.",
+         "type": "tfill",
+         "q": "Read Linh's email. Choose a word from the box for gap (3).",
+         "lines": [
+          "I'm really interested {0} books about mysterious places."
          ],
-         "at": 2,
-         "whys": [
-          null,
-          "The text talks about fur, but it says the fur is white so the fox is hard to see.",
-          "The fox hunts, but the text says nothing about groups."
+         "ans": [
+          [
+           "in"
+          ]
          ],
-         "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s1-ex-camouflage",
+          "id": "s1-letter-linh",
           "kind": "text",
-          "head": "From a science book",
-          "html": "The Arctic fox has white fur in winter, so it is hard to see in the snow. This <b>camouflage</b> helps it hide from bigger animals and catch food without being seen."
+          "head": "Email from Linh to her friend Ruby",
+          "html": "<b>Word box:</b> at, in, is, most, of, than<br><br>Hi Ruby,<br>Guess what? There (0) <u>is</u> a new library in our town! It used to be an old bus station. Now it is much bigger (1) ________ the old library, and it has an enormous window with a view of the river. The children's room is the (2) ________ colourful room I have ever seen. There are beanbags, plants and a big map of the world on the wall. I'm really interested (3) ________ books about mysterious places, so I go every Saturday morning. Would you like to come with me next week?<br>Love,<br>Linh"
          }
         },
         {
          "hint": {
-          "step": "What does the poster tell you to do before, during and after exercise?"
+          "step": "Which little word always comes after 'proud'?"
          },
-         "worked": "The poster says 'Drink water', so being <b>dehydrated</b> means your body does not have enough water.",
-         "type": "mcq",
-         "q": "What does <b>dehydrated</b> mean?",
-         "opts": [
-          "without enough water",
-          "without enough sleep",
-          "too hot from the sun"
+         "worked": "The partner of proud is <b>of</b>: 'proud of all his grandchildren'.",
+         "type": "tfill",
+         "q": "Read Hugo's email. Choose a word from the box for gap (3).",
+         "lines": [
+          "He said he was proud {0} all his grandchildren."
          ],
-         "at": 0,
-         "whys": [
-          null,
-          "The poster is about drinking, not sleeping.",
-          "The poster does not talk about the sun. It is about drinking water."
+         "ans": [
+          [
+           "of"
+          ]
          ],
-         "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s1-ex-dehydrated",
+          "id": "s1-letter-hugo",
           "kind": "text",
-          "head": "A poster in the sports hall",
-          "html": "Drink water before, during and after exercise. When your body is <b>dehydrated</b>, you may feel dizzy and get a headache."
+          "head": "Email from Hugo to his friend Felix",
+          "html": "<b>Word box:</b> about, for, most, of, than, was<br><br>Hi Felix,<br>Last Sunday we had a big party for Grandpa's seventieth birthday. It (0) <u>was</u> at our house, and thirty people came! Mum and my aunts cooked a feast with noodle soup, grilled fish and sticky rice. The birthday cake was even taller (1) ________ my little cousin! The (2) ________ exciting part was the dancing in the garden. Even Grandpa danced! At the end, he made a short speech. He said he was proud (3) ________ all his grandchildren, and Grandma cried a little.<br>See you at school,<br>Hugo"
          }
         }
        ]
@@ -1427,78 +1408,78 @@
  "notes": {
   "items": [
    {
-    "en": "Use a *collective noun* + *of* for a group of animals: a *herd* of cows, a *flock* of birds.",
-    "vi": "Dùng *danh từ tập hợp* + *of* để chỉ một nhóm động vật: a *herd* of cows, a *flock* of birds.",
+    "en": "Use *-ed* for how a person feels. Use *-ing* for the thing that makes you feel it.",
+    "vi": "Dùng đuôi *-ed* để nói một người cảm thấy thế nào. Dùng đuôi *-ing* cho sự vật làm ta có cảm giác đó.",
     "example": [
-     "A *swarm* of bees flew out of the hive.",
-     "A *school* of fish swam past our boat."
+     "I was *bored* because the film was *boring*.",
+     "The trip was *exciting*. We were all *excited*."
     ]
    },
    {
-    "en": "Some group words are for people: a *crowd* (lots of people), a *team* (players), an *audience* (people watching a show).",
-    "vi": "Một số từ chỉ nhóm dành cho người: a *crowd* (đám đông), a *team* (đội), an *audience* (khán giả).",
+    "en": "Before a noun, put adjectives in this order: opinion, size, age, colour, material.",
+    "vi": "Trước danh từ, xếp tính từ theo thứ tự: ý kiến, kích thước, tuổi, màu sắc, chất liệu.",
     "example": [
-     "The *audience* clapped at the end of the play.",
-     "Our *team* has eleven players."
+     "a *lovely big* garden",
+     "a *small old wooden* box"
     ]
    },
    {
-    "en": "A *phrasal verb* is a verb + a little word. The little word changes the meaning.",
-    "vi": "*Cụm động từ* là động từ + một từ nhỏ. Từ nhỏ làm thay đổi nghĩa.",
+    "en": "To compare two things, use *-er + than* for short words and *more ... than* for long words.",
+    "vi": "Để so sánh hai thứ, dùng *-er + than* với từ ngắn và *more ... than* với từ dài.",
     "example": [
-     "Can you *look after* my fish? (take care of)",
-     "I'm *looking for* my keys. (trying to find)"
+     "A cheetah is *faster than* a horse.",
+     "Science is *more interesting than* I thought."
     ]
    },
    {
-    "en": "Some phrasal verbs have three parts. Don't forget the last word!",
-    "vi": "Một số cụm động từ có ba phần. Đừng quên từ cuối cùng!",
+    "en": "For the top one in a group, use *the -est* or *the most*. Good, better, best and bad, worse, worst are special.",
+    "vi": "Để nói thứ đứng đầu trong một nhóm, dùng *the -est* hoặc *the most*. Good, better, best và bad, worse, worst là dạng đặc biệt.",
     "example": [
-     "We *took part in* the sports day.",
-     "We've *run out of* bread."
+     "It was *the hottest* day of the year.",
+     "This is *the best* party ever!"
     ]
    },
    {
-    "en": "Learn *preposition + noun* phrases as one block: *on time*, *by bus*, *on foot*, *in danger*.",
-    "vi": "Hãy học các cụm *giới từ + danh từ* như một khối: *on time*, *by bus*, *on foot*, *in danger*.",
+    "en": "Some adjectives have a partner word: *good at*, *interested in*, *afraid of*, *proud of*, *kind to*, *worried about*, *famous for*.",
+    "vi": "Một số tính từ có giới từ đi kèm: *good at*, *interested in*, *afraid of*, *proud of*, *kind to*, *worried about*, *famous for*.",
     "example": [
-     "I go to school *by bus*, but my friend comes *on foot*.",
-     "I didn't do it *on purpose*. It was *by mistake*."
+     "Linh is *good at* singing.",
+     "I'm *worried about* my cat. She's ill."
     ]
    },
    {
     "en": "Don't know a word? Read the sentences *before* and *after* it. Look for an example or an explanation.",
     "vi": "Không biết một từ? Hãy đọc câu *trước* và *sau* nó. Tìm ví dụ hoặc lời giải thích.",
     "example": [
-     "My bag is <b>waterproof</b>. *The rain can't get in*, so my books stay dry.",
-     "Dogs are <b>loyal</b>: *they stay with their owners and protect them*."
+     "Our neighbour is very <b>talkative</b>. *She chats to everyone for hours.*",
+     "The cave was <b>gloomy</b>. *It was dark and a bit scary.*"
     ]
    }
   ],
   "check": [
    {
-    "sentence": "A {flock|herd|swarm} of birds sat on the roof.",
-    "answer": "flock"
+    "sentence": "I felt {bored|boring|boredom} in the long queue at the bank.",
+    "answer": "bored"
    },
    {
-    "sentence": "The {team|flock|herd} won the cup because every player worked hard.",
-    "answer": "team"
+    "sentence": "My grandpa has a {lovely old brown|brown old lovely|old lovely brown} hat.",
+    "answer": "lovely old brown"
    },
    {
-    "sentence": "Please {look after|look for|look up} my plants while I'm on holiday.",
-    "answer": "look after"
+    "sentence": "A train is {faster|fastest|fast} than a bike.",
+    "answer": "faster"
    },
    {
-    "sentence": "We have run out {of|from|in} paper. Let's buy some more.",
-    "answer": "of"
+    "sentence": "This is the {most beautiful|more beautiful|beautiful} park in our city.",
+    "answer": "most beautiful"
    },
    {
-    "sentence": "The park is near, so we can go {on|in|at} foot.",
-    "answer": "on"
+    "sentence": "Zara is very good {at|in|on} drawing horses.",
+    "answer": "at"
    },
    {
-    "sentence": "This bottle is unbreakable: you can drop it and it won't crack. Unbreakable means {it can't be broken|it is very cheap|it is very small}.",
-    "answer": "it can't be broken"
+    "sentence": "Kai is <b>talkative</b>: he chats all day. Talkative means {he talks a lot|he is very quiet|he is often late}.",
+    "answer": "he talks a lot"
    }
   ]
  },
@@ -1507,190 +1488,46 @@
    {
     "dok": 1,
     "lo": [
-     "6Uv.06"
+     "5Uv.01"
     ],
     "v": [
      {
       "hint": {
-       "step": "Bees are flying insects. Which group word is for them?"
+       "step": "Maths is a skill here. Which little word goes with 'good'?"
       },
-      "worked": "Flying insects move in a <b>swarm</b>: 'a swarm of bees'.",
+      "worked": "For a skill we say <b>good at</b>: 'really good at maths'.",
       "type": "mcq",
-      "q": "A .......... of bees made a nest in the old tree next to our classroom.",
+      "q": "Theo's big sister is really good ________ maths, so she helps him with his homework every evening.",
       "opts": [
-       "swarm",
-       "herd",
-       "pack"
-      ],
-      "at": 1,
-      "whys": [
-       null,
-       "A herd is for big animals like cows or elephants.",
-       "A pack is for wolves or dogs."
-      ],
-      "letters": true
-     },
-     {
-      "hint": {
-       "step": "Elephants are big animals that walk together. Which word fits?"
-      },
-      "worked": "Big animals like elephants move in a <b>herd</b>.",
-      "type": "mcq",
-      "q": "A .......... of elephants walked slowly to the lake to drink.",
-      "opts": [
-       "herd",
-       "flock",
-       "swarm"
-      ],
-      "at": 0,
-      "whys": [
-       null,
-       "A flock is for birds or sheep.",
-       "A swarm is for flying insects like bees."
-      ],
-      "letters": true
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Uv.06"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Who watches a concert and claps at the end?"
-      },
-      "worked": "The people watching a show are the <b>audience</b>.",
-      "type": "mcq",
-      "q": "At the end of the school concert, the .......... stood up and clapped for ten minutes.",
-      "opts": [
-       "audience",
-       "flock",
-       "pack"
-      ],
-      "at": 1,
-      "whys": [
-       null,
-       "A flock is for birds or sheep, not people.",
-       "A pack is for wolves or dogs, not people."
-      ],
-      "letters": true
-     },
-     {
-      "hint": {
-       "step": "Which group word is for players who play together?"
-      },
-      "worked": "Players who play together are a <b>team</b>: 'Our football team has twelve players.'",
-      "type": "mcq",
-      "q": "Our football .......... has twelve players and two coaches.",
-      "opts": [
-       "team",
-       "crowd",
-       "swarm"
-      ],
-      "at": 2,
-      "whys": [
-       null,
-       "A crowd is lots of people watching, not players in a group.",
-       "A swarm is for flying insects."
-      ],
-      "letters": true
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Ug.10"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Bao wants to stop. Which phrasal verb means 'stop trying'?"
-      },
-      "worked": "Bao 'wanted to stop', and his dad said 'Don't <b>give up</b>' (don't stop trying).",
-      "type": "mcq",
-      "q": "Bao wanted to stop playing chess, but his dad said, 'Don't ..........! You're getting better.'",
-      "opts": [
-       "give up",
-       "find out",
-       "set off"
-      ],
-      "at": 1,
-      "whys": [
-       null,
-       "Find out means learn information. Bao wants to stop.",
-       "Set off means start a journey. Bao is playing chess."
-      ],
-      "letters": true
-     },
-     {
-      "hint": {
-       "step": "They are starting a journey early. Which verb means that?"
-      },
-      "worked": "<b>Set off</b> means start a journey: 'set off early ... the bus leaves at 6 a.m.'",
-      "type": "mcq",
-      "q": "We need to .......... early tomorrow because the bus to the beach leaves at 6 a.m.",
-      "opts": [
-       "set off",
-       "give up",
-       "look after"
-      ],
-      "at": 2,
-      "whys": [
-       null,
-       "Give up means stop trying. That doesn't fit a trip.",
-       "Look after means take care of. It needs someone after it."
-      ],
-      "letters": true
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Uv.02"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Which phrase means 'not late'?"
-      },
-      "worked": "<b>On time</b> means not late: 'Please be on time.'",
-      "type": "mcq",
-      "q": "Please be .......... time tomorrow. The museum trip starts at 8 o'clock.",
-      "opts": [
-       "on",
        "at",
-       "by"
+       "in",
+       "on"
       ],
       "at": 0,
       "whys": [
        null,
-       "'At time' is not English. Check the phrase that means 'not late'.",
-       "'By time' is not English. Check the phrase that means 'not late'."
+       "We say 'interested in', but 'good' has a different partner for a skill.",
+       "'Good on' is not the right partner. Check the word that goes with 'good'."
       ],
       "letters": true
      },
      {
       "hint": {
-       "step": "The teacher must say yes first. Which word means 'not having'?"
+       "step": "Which little word always comes after 'interested'?"
       },
-      "worked": "<b>Without permission</b> means the teacher has not said yes.",
+      "worked": "The partner of interested is <b>in</b>: 'interested in animals'.",
       "type": "mcq",
-      "q": "No one may use the science room .......... permission from a teacher.",
+      "q": "Zara is interested ________ animals, and she wants to be a vet when she grows up.",
       "opts": [
-       "without",
-       "on",
-       "at"
+       "in",
+       "at",
+       "for"
       ],
       "at": 2,
       "whys": [
        null,
-       "'On permission' is not English.",
-       "'At permission' is not English."
+       "'At' goes with 'good', not with 'interested'.",
+       "'Interested for' is not English. Check the partner of 'interested'."
       ],
       "letters": true
      }
@@ -1699,46 +1536,190 @@
    {
     "dok": 1,
     "lo": [
-     "6Rd.04"
+     "5Uv.01"
     ],
     "v": [
      {
       "hint": {
-       "step": "Read after the colon (:). What does the lion do?"
+       "step": "Which little word comes after 'kind' when we talk about other people?"
       },
-      "worked": "'It hunts zebras and other animals for food', so a lion is a <b>predator</b>.",
+      "worked": "We are kind <b>to</b> people: 'kind to everyone in our street'.",
       "type": "mcq",
-      "q": "A lion is a ..........: it hunts zebras and other animals for food.",
+      "q": "My grandma is very kind ________ everyone in our street, and she often cooks soup for her neighbours.",
       "opts": [
-       "predator",
-       "habitat",
-       "herd"
+       "to",
+       "at",
+       "in"
       ],
       "at": 0,
       "whys": [
        null,
-       "A habitat is the home of an animal, not the animal.",
-       "A herd is a group of animals. One lion is not a herd."
+       "'Kind at' is not English. 'At' goes with 'good'.",
+       "'Kind in' is not English. 'In' goes with 'interested'."
       ],
       "letters": true
      },
      {
       "hint": {
-       "step": "The telephone is a thing that someone made. Which word fits?"
+       "step": "Which little word always comes after 'worried'?"
       },
-      "worked": "Someone made the telephone for the first time, so it was an <b>invention</b>.",
+      "worked": "The partner of worried is <b>about</b>: 'worried about his little sister'.",
       "type": "mcq",
-      "q": "The telephone was an amazing .......... that changed the way people talk to each other.",
+      "q": "Hugo was worried ________ his little sister because she had a high fever all night.",
       "opts": [
-       "invention",
-       "habitat",
-       "predator"
+       "about",
+       "at",
+       "in"
       ],
       "at": 1,
       "whys": [
        null,
-       "A habitat is the home of an animal or plant.",
-       "A predator is an animal that hunts."
+       "'Worried at' is not English. 'At' goes with 'good'.",
+       "'Worried in' is not English. Check the partner of 'worried'."
+      ],
+      "letters": true
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "5Ug.11"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Find 'than' in the sentence. What does it tell you?"
+      },
+      "worked": "'Than white rice' compares two foods, and good becomes <b>better</b>.",
+      "type": "mcq",
+      "q": "Brown rice has lots of fibre, so it is ________ for you than white rice.",
+      "opts": [
+       "better",
+       "best",
+       "good"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Best is for the top one in a group. Look at 'than'.",
+       "Good does not compare two things. Look at 'than'."
+      ],
+      "letters": true
+     },
+     {
+      "hint": {
+       "step": "Find 'than' in the sentence. What does it tell you?"
+      },
+      "worked": "'Than the old market' compares two places, so we use <b>bigger</b>.",
+      "type": "mcq",
+      "q": "The new shopping centre in our town is ________ than the old market, but it is not as friendly.",
+      "opts": [
+       "bigger",
+       "biggest",
+       "big"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Biggest is for the top one in a group. Look at 'than'.",
+       "Big does not compare two places. Look at 'than'."
+      ],
+      "letters": true
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "5Ug.11"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Look at 'The' and 'in our city'. Is it the top one of a group?"
+      },
+      "worked": "'The ... in our city' tells us it is the top one: <b>the tallest</b> building.",
+      "type": "mcq",
+      "q": "The ________ building in our city is the new hotel. It has fifty floors!",
+      "opts": [
+       "tallest",
+       "taller",
+       "tall"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "Taller compares two things, but there is no 'than' here.",
+       "Tall does not tell us it is the top one 'in our city'."
+      ],
+      "letters": true
+     },
+     {
+      "hint": {
+       "step": "Read the start of the sentence: 'Of all the dishes'."
+      },
+      "worked": "'Of all the dishes' means the top one, and popular is a long word: <b>the most popular</b>.",
+      "type": "mcq",
+      "q": "Of all the dishes at the New Year feast, the sticky rice was the ________ popular with the children.",
+      "opts": [
+       "most",
+       "more",
+       "much"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "More compares two things. Read 'Of all the dishes'.",
+       "Much does not make a superlative. Read 'Of all the dishes'."
+      ],
+      "letters": true
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "5Rd.03"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Kai felt very hot and stayed at home. What is wrong with him?"
+      },
+      "worked": "Feeling very hot when you are ill means you have <b>a high fever</b>.",
+      "type": "mcq",
+      "q": "Kai stayed at home because he had ________ and felt very hot all night.",
+      "opts": [
+       "a high fever",
+       "a feast",
+       "some fibre"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "A feast is a big special meal, not an illness.",
+       "Fibre is part of healthy food, not an illness."
+      ],
+      "letters": true
+     },
+     {
+      "hint": {
+       "step": "What makes colours and loud bangs in the night sky?"
+      },
+      "worked": "Colours and 'Bang! Bang!' in the night sky are <b>fireworks</b>.",
+      "type": "mcq",
+      "q": "At midnight, everyone looked up at ________ in the night sky. Bang! Bang!",
+      "opts": [
+       "the fireworks",
+       "the presents",
+       "the feasts"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Presents are gifts we give. They are not in the sky.",
+       "A feast is a big meal. It is not in the sky."
       ],
       "letters": true
      }
@@ -1747,232 +1728,109 @@
    {
     "dok": 2,
     "lo": [
-     "6Ug.10"
+     "5Ug.11"
     ],
     "v": [
      {
       "hint": {
-       "step": "The team has trained together. Which phrasal verb means 'trust someone to help'?"
+       "step": "What is the gap about: Ruby or the museum?"
       },
-      "worked": "<b>Count on</b> means trust someone to help you: 'we can count on each other'.",
-      "type": "tfill",
-      "q": "Read Mai's email. Write ONE word for gap (1).",
-      "lines": [
-       "The coach says we can count {0} each other."
-      ],
-      "ans": [
-       [
-        "on",
-        "upon"
-       ]
-      ],
-      "fig": {
-       "k": "stim",
-       "id": "s1-test-email-1",
-       "kind": "text",
-       "head": "Email from Mai to her friend Tariq",
-       "html": "Hi Tariq,<br>Thanks for your message! I'm really looking forward to the swimming gala this weekend. Our team has trained hard for weeks, and the coach says we can count (1) .......... each other. On Saturday we're going to the pool (2) .......... car, because Dad is driving us. Would you like to come and watch?<br>See you soon,<br>Mai"
-      }
-     },
-     {
-      "hint": {
-       "step": "Kenji wants to learn a fact at the library."
-      },
-      "worked": "<b>Find out</b> means learn information: 'find out who built the first plane'.",
-      "type": "tfill",
-      "q": "Read Kenji's email. Write ONE word for gap (1).",
-      "lines": [
-       "Yesterday I went to the library to find {0} who built the first plane."
-      ],
-      "ans": [
-       [
-        "out"
-       ]
-      ],
-      "fig": {
-       "k": "stim",
-       "id": "s1-test-email-2",
-       "kind": "text",
-       "head": "Email from Kenji to his friend Elena",
-       "html": "Hi Elena,<br>Our class is doing a project on inventions that changed travel. Yesterday I went to the library to find (1) .......... who built the first plane. Did you know the first flight was only 12 seconds long? (2) .......... fact, it was shorter than our walk from the classroom to the canteen! Next week we're going to visit the transport museum. I can't wait!<br>Bye for now,<br>Kenji"
-      }
-     }
-    ]
-   },
-   {
-    "dok": 2,
-    "lo": [
-     "6Uv.02"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "This is a way of travelling, and there is no 'the' before 'car'."
-      },
-      "worked": "Dad is driving, so they are going <b>by car</b>.",
-      "type": "tfill",
-      "q": "Read Mai's email. Write ONE word for gap (2).",
-      "lines": [
-       "On Saturday we're going to the pool {0} car, because Dad is driving us."
-      ],
-      "ans": [
-       [
-        "by"
-       ]
-      ],
-      "fig": {
-       "k": "stim",
-       "id": "s1-test-email-1",
-       "kind": "text",
-       "head": "Email from Mai to her friend Tariq",
-       "html": "Hi Tariq,<br>Thanks for your message! I'm really looking forward to the swimming gala this weekend. Our team has trained hard for weeks, and the coach says we can count (1) .......... each other. On Saturday we're going to the pool (2) .......... car, because Dad is driving us. Would you like to come and watch?<br>See you soon,<br>Mai"
-      }
-     },
-     {
-      "hint": {
-       "step": "Which phrase adds a surprising true detail?"
-      },
-      "worked": "<b>In fact</b> adds a true detail: 'In fact, it was shorter than our walk to the canteen!'",
-      "type": "tfill",
-      "q": "Read Kenji's email. Write ONE word for gap (2).",
-      "lines": [
-       "{0} fact, it was shorter than our walk from the classroom to the canteen!"
-      ],
-      "ans": [
-       [
-        "in"
-       ]
-      ],
-      "fig": {
-       "k": "stim",
-       "id": "s1-test-email-2",
-       "kind": "text",
-       "head": "Email from Kenji to his friend Elena",
-       "html": "Hi Elena,<br>Our class is doing a project on inventions that changed travel. Yesterday I went to the library to find (1) .......... who built the first plane. Did you know the first flight was only 12 seconds long? (2) .......... fact, it was shorter than our walk from the classroom to the canteen! Next week we're going to visit the transport museum. I can't wait!<br>Bye for now,<br>Kenji"
-      }
-     }
-    ]
-   },
-   {
-    "dok": 2,
-    "lo": [
-     "6Rd.04"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Read what the bears do in the cave and when they wake up."
-      },
-      "worked": "Bears 'go to sleep and do not wake up until spring', so <b>hibernate</b> means sleep through winter.",
+      "worked": "The museum is a thing that can make you feel bored, so we use <b>-ing</b>: 'the museum would be <b>boring</b>'.",
       "type": "mcq",
-      "q": "What does <b>hibernate</b> mean?",
+      "q": "Ruby thought the museum would be ________, but she loved the old maps and stayed for three hours.",
       "opts": [
-       "sleep through the cold months",
-       "look for food in the snow",
-       "build a warm home in a cave"
-      ],
-      "at": 0,
-      "whys": [
-       null,
-       "The text does not talk about food. It says the bears go to sleep.",
-       "The bears find a cave; they don't build one. What do they do there?"
-      ],
-      "letters": true,
-      "fig": {
-       "k": "stim",
-       "id": "s1-t-hibernate",
-       "kind": "text",
-       "head": "From a nature book",
-       "html": "Some bears <b>hibernate</b> in winter. They find a warm cave, go to sleep and do not wake up until spring."
-      }
-     },
-     {
-      "hint": {
-       "step": "Look at the end of the text: how did her cousin feel when she sang?"
-      },
-      "worked": "She sang alone in front of the whole school and 'wasn't nervous at all', so she is <b>confident</b>.",
-      "type": "mcq",
-      "q": "What does <b>confident</b> mean?",
-      "opts": [
-       "sure of herself",
-       "good at singing",
-       "kind to everyone"
-      ],
-      "at": 1,
-      "whys": [
-       null,
-       "She sang, but the text says she 'wasn't nervous at all'. That is the key.",
-       "The text does not talk about being kind."
-      ],
-      "letters": true,
-      "fig": {
-       "k": "stim",
-       "id": "s1-t-confident",
-       "kind": "text",
-       "head": "From Priya's diary",
-       "html": "My cousin is very <b>confident</b>. Last week she sang alone in front of the whole school, and she wasn't nervous at all."
-      }
-     }
-    ]
-   },
-   {
-    "dok": 2,
-    "lo": [
-     "6Rd.04"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Look at the examples: which clothes are fine and which are not?"
-      },
-      "worked": "Trainers and shorts are fine for the gym, but jeans and sandals are not. <b>Suitable</b> means right for the activity.",
-      "type": "mcq",
-      "q": "What does <b>suitable</b> mean?",
-      "opts": [
-       "right for the activity",
-       "new and very clean",
-       "all the same colour"
+       "boring",
+       "bored",
+       "boredom"
       ],
       "at": 2,
       "whys": [
        null,
-       "The notice does not say the clothes must be new.",
-       "The notice does not talk about colours."
+       "Bored is how a person feels. Here we talk about the museum.",
+       "Boredom is a noun. After 'would be' we need an adjective."
       ],
-      "letters": true,
-      "fig": {
-       "k": "stim",
-       "id": "s1-t-suitable",
-       "kind": "text",
-       "head": "A notice at the sports centre",
-       "html": "Please wear <b>suitable</b> clothes in the gym. Trainers and shorts are fine, but no jeans or sandals, please!"
-      }
+      "letters": true
      },
      {
       "hint": {
-       "step": "Read the next sentence. What is the smartwatch, and what can it do?"
+       "step": "Who is the sentence about? Is the gap his feeling?"
       },
-      "worked": "'This small machine on your wrist can tell the time, count your steps and show messages.' So a <b>gadget</b> is a small, useful machine.",
+      "worked": "Minh is a person and the gap is his feeling, so we use <b>-ed</b>: 'Minh was <b>surprised</b>'.",
       "type": "mcq",
-      "q": "What does <b>gadget</b> mean?",
+      "q": "Minh was ________ when he saw that his grandparents had come all the way from Hue for his birthday.",
       "opts": [
-       "a small, useful machine",
-       "a big clock on the wall",
-       "a way to send messages"
+       "surprised",
+       "surprising",
+       "surprise"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Surprising is for the thing or the news. Minh is a person with a feeling.",
+       "Surprise is a noun or a verb. After 'was' we need an adjective here."
+      ],
+      "letters": true
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "5Ug.11"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Remember: opinion, size, age, colour, material."
+      },
+      "worked": "Size, age, colour: a <b>big old black</b> umbrella.",
+      "type": "mcq",
+      "q": "Which option correctly completes the notice?",
+      "opts": [
+       "big old black",
+       "black old big",
+       "old big black"
       ],
       "at": 1,
       "whys": [
        null,
-       "The smartwatch is small and on your wrist, not big and on a wall.",
-       "It can show messages, but that is only one thing it does."
+       "Colour (black) comes after size and age.",
+       "Size (big) comes before age (old)."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
-       "id": "s1-t-gadget",
+       "id": "s1-t-notice-found",
        "kind": "text",
-       "head": "From a technology magazine for children",
-       "html": "A smartwatch is a clever <b>gadget</b>. This small machine on your wrist can tell the time, count your steps and show messages."
+       "head": "School notice",
+       "html": "FOUND near the school gate on Monday morning: a ________ umbrella with a white handle. Is it yours? Please ask at the school office. It will stay there until Friday."
+      }
+     },
+     {
+      "hint": {
+       "step": "Read the end of the sentence. Is it one of two, or the top one of all?"
+      },
+      "worked": "'The ... place of all' needs a superlative: <b>the most interesting</b> place.",
+      "type": "mcq",
+      "q": "Which option correctly completes the email?",
+      "opts": [
+       "most interesting",
+       "more interesting",
+       "interesting"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "More interesting compares two places. Read 'of all'.",
+       "Interesting does not say it is the top one. Read 'of all'."
+      ],
+      "letters": true,
+      "fig": {
+       "k": "stim",
+       "id": "s1-t-email-zara",
+       "kind": "text",
+       "head": "Email",
+       "html": "Hi Jade,<br>Thanks for showing me around your town! Sun Lane, with all its street art, was the ________ place of all. I took fifty photos there!<br>See you soon,<br>Zara"
       }
      }
     ]
@@ -1980,61 +1838,161 @@
    {
     "dok": 2,
     "lo": [
-     "6Rd.04"
+     "5Uv.01"
     ],
     "v": [
      {
       "hint": {
-       "step": "Read the second sentence: how many are left, and what may happen to them?"
+       "step": "Which word from the box is the partner of 'worried'?"
       },
-      "worked": "'Very few of them left ... they may disappear forever', so <b>endangered</b> means at risk of dying out.",
-      "type": "mcq",
-      "q": "What does <b>endangered</b> mean?",
-      "opts": [
-       "at risk of dying out",
-       "very dangerous to people",
-       "living in the wild"
+      "worked": "The partner of worried is <b>about</b>: 'worried about missing our class trip'.",
+      "type": "tfill",
+      "q": "Read Jade's email. Choose a word from the box for gap (1).",
+      "lines": [
+       "I was worried {0} missing our class trip to the farm."
       ],
-      "at": 2,
-      "whys": [
-       null,
-       "The word looks like 'danger', but the text is about the animals, not people.",
-       "They live in the wild, but the text says very few are left."
+      "ans": [
+       [
+        "about"
+       ]
       ],
-      "letters": true,
       "fig": {
        "k": "stim",
-       "id": "s1-t-endangered",
+       "id": "s1-t-letter-jade",
        "kind": "text",
-       "head": "From a class science report",
-       "html": "Some animals are <b>endangered</b>. There are very few of them left in the wild, and if we do not protect them, they may disappear forever."
+       "head": "Email from Jade to her friend Kai",
+       "html": "<b>Word box:</b> about, at, in, than, to, was<br><br>Hi Kai,<br>Sorry I wasn't at school last week. I (0) <u>was</u> ill with a fever and a sore throat. The doctor told me to rest and drink lots of water. I was worried (1) ________ missing our class trip to the farm, but Mum says the trip is next month now. Today I feel much better (2) ________ I did on Saturday, and I can eat properly again. Grandma brought me a bowl of chicken soup and a bunch of grapes. Everyone was so kind (3) ________ me! I'm coming back to school on Monday.<br>See you soon,<br>Jade"
       }
      },
      {
       "hint": {
-       "step": "Read the second sentence: how long must the runners keep going?"
+       "step": "Climbing is a skill. Which word from the box goes with 'good'?"
       },
-      "worked": "Runners 'must keep running for over an hour without stopping', so <b>stamina</b> is the energy to keep going.",
-      "type": "mcq",
-      "q": "What does <b>stamina</b> mean?",
-      "opts": [
-       "energy to keep going",
-       "speed in a short race",
-       "a prize for winners"
+      "worked": "For a skill we say <b>good at</b>: 'very good at climbing'.",
+      "type": "tfill",
+      "q": "Read Anya's email. Choose a word from the box for gap (1).",
+      "lines": [
+       "The girl is very good {0} climbing."
       ],
-      "at": 0,
-      "whys": [
-       null,
-       "The text is about running for over an hour, not a short race.",
-       "The text does not talk about prizes."
+      "ans": [
+       [
+        "at"
+       ]
       ],
-      "letters": true,
       "fig": {
        "k": "stim",
-       "id": "s1-t-stamina",
+       "id": "s1-t-letter-anya",
        "kind": "text",
-       "head": "From the school sports newsletter",
-       "html": "Long-distance runners need a lot of <b>stamina</b>. They must keep running for over an hour without stopping or slowing down."
+       "head": "Email from Anya to her friend Theo",
+       "html": "<b>Word box:</b> at, for, is, most, of, than<br><br>Hi Theo,<br>I've just finished a brilliant book! It (0) <u>is</u> about a girl who finds an old map in her grandpa's box. The map shows a lost city in an enormous, mysterious jungle. The girl is very good (1) ________ climbing, so she climbs the tallest trees to look for the city. That is the (2) ________ exciting part of the book! At the end, she finds the city. It is famous (3) ________ its golden gates, but nobody has seen them for a hundred years. You can borrow the book next week.<br>Your friend,<br>Anya"
+      }
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "5Ug.11"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Look at 'better'. She is comparing two days."
+      },
+      "worked": "She compares today and Saturday: 'much better <b>than</b> I did on Saturday'.",
+      "type": "tfill",
+      "q": "Read Jade's email. Choose a word from the box for gap (2).",
+      "lines": [
+       "Today I feel much better {0} I did on Saturday."
+      ],
+      "ans": [
+       [
+        "than"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s1-t-letter-jade",
+       "kind": "text",
+       "head": "Email from Jade to her friend Kai",
+       "html": "<b>Word box:</b> about, at, in, than, to, was<br><br>Hi Kai,<br>Sorry I wasn't at school last week. I (0) <u>was</u> ill with a fever and a sore throat. The doctor told me to rest and drink lots of water. I was worried (1) ________ missing our class trip to the farm, but Mum says the trip is next month now. Today I feel much better (2) ________ I did on Saturday, and I can eat properly again. Grandma brought me a bowl of chicken soup and a bunch of grapes. Everyone was so kind (3) ________ me! I'm coming back to school on Monday.<br>See you soon,<br>Jade"
+      }
+     },
+     {
+      "hint": {
+       "step": "Look at 'the'. Exciting is a long word. How do we make the top one?"
+      },
+      "worked": "It is the top part of the whole book: 'the <b>most</b> exciting part'.",
+      "type": "tfill",
+      "q": "Read Anya's email. Choose a word from the box for gap (2).",
+      "lines": [
+       "That is the {0} exciting part of the book!"
+      ],
+      "ans": [
+       [
+        "most"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s1-t-letter-anya",
+       "kind": "text",
+       "head": "Email from Anya to her friend Theo",
+       "html": "<b>Word box:</b> at, for, is, most, of, than<br><br>Hi Theo,<br>I've just finished a brilliant book! It (0) <u>is</u> about a girl who finds an old map in her grandpa's box. The map shows a lost city in an enormous, mysterious jungle. The girl is very good (1) ________ climbing, so she climbs the tallest trees to look for the city. That is the (2) ________ exciting part of the book! At the end, she finds the city. It is famous (3) ________ its golden gates, but nobody has seen them for a hundred years. You can borrow the book next week.<br>Your friend,<br>Anya"
+      }
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "5Uv.01"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Which word from the box comes after 'kind' when we talk about people?"
+      },
+      "worked": "We are kind <b>to</b> people: 'Everyone was so kind to me!'",
+      "type": "tfill",
+      "q": "Read Jade's email. Choose a word from the box for gap (3).",
+      "lines": [
+       "Everyone was so kind {0} me!"
+      ],
+      "ans": [
+       [
+        "to"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s1-t-letter-jade",
+       "kind": "text",
+       "head": "Email from Jade to her friend Kai",
+       "html": "<b>Word box:</b> about, at, in, than, to, was<br><br>Hi Kai,<br>Sorry I wasn't at school last week. I (0) <u>was</u> ill with a fever and a sore throat. The doctor told me to rest and drink lots of water. I was worried (1) ________ missing our class trip to the farm, but Mum says the trip is next month now. Today I feel much better (2) ________ I did on Saturday, and I can eat properly again. Grandma brought me a bowl of chicken soup and a bunch of grapes. Everyone was so kind (3) ________ me! I'm coming back to school on Monday.<br>See you soon,<br>Jade"
+      }
+     },
+     {
+      "hint": {
+       "step": "Which word from the box comes after 'famous' to give the reason?"
+      },
+      "worked": "The partner of famous is <b>for</b>: 'famous for its golden gates'.",
+      "type": "tfill",
+      "q": "Read Anya's email. Choose a word from the box for gap (3).",
+      "lines": [
+       "It is famous {0} its golden gates."
+      ],
+      "ans": [
+       [
+        "for"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s1-t-letter-anya",
+       "kind": "text",
+       "head": "Email from Anya to her friend Theo",
+       "html": "<b>Word box:</b> at, for, is, most, of, than<br><br>Hi Theo,<br>I've just finished a brilliant book! It (0) <u>is</u> about a girl who finds an old map in her grandpa's box. The map shows a lost city in an enormous, mysterious jungle. The girl is very good (1) ________ climbing, so she climbs the tallest trees to look for the city. That is the (2) ________ exciting part of the book! At the end, she finds the city. It is famous (3) ________ its golden gates, but nobody has seen them for a hundred years. You can borrow the book next week.<br>Your friend,<br>Anya"
       }
      }
     ]
@@ -2045,413 +2003,413 @@
   "secs": 60,
   "items": [
    [
-    "A ___ of bees",
+    "I'm good ___ swimming.",
     [
-     "swarm",
-     "herd",
-     "flock"
+     "at",
+     "in",
+     "of"
     ]
    ],
    [
-    "A ___ of cows",
-    [
-     "herd",
-     "swarm",
-     "school"
-    ]
-   ],
-   [
-    "A ___ of birds",
-    [
-     "flock",
-     "pack",
-     "herd"
-    ]
-   ],
-   [
-    "A ___ of fish",
-    [
-     "school",
-     "flock",
-     "crowd"
-    ]
-   ],
-   [
-    "A ___ of wolves",
-    [
-     "pack",
-     "swarm",
-     "school"
-    ]
-   ],
-   [
-    "A ___ of people at a match",
-    [
-     "crowd",
-     "herd",
-     "flock"
-    ]
-   ],
-   [
-    "A ___ of flowers",
-    [
-     "bunch",
-     "herd",
-     "swarm"
-    ]
-   ],
-   [
-    "A football ___ of eleven players",
-    [
-     "team",
-     "flock",
-     "herd"
-    ]
-   ],
-   [
-    "A ___ of sheep",
-    [
-     "flock",
-     "swarm",
-     "school"
-    ]
-   ],
-   [
-    "A ___ of elephants",
-    [
-     "herd",
-     "bunch",
-     "swarm"
-    ]
-   ],
-   [
-    "A ___ of lions",
-    [
-     "pride",
-     "school",
-     "bunch"
-    ]
-   ],
-   [
-    "People watching a play are the ___.",
-    [
-     "audience",
-     "herd",
-     "flock"
-    ]
-   ],
-   [
-    "Take care of = look ___",
-    [
-     "after",
-     "for",
-     "up"
-    ]
-   ],
-   [
-    "Try to find = look ___",
-    [
-     "for",
-     "after",
-     "out"
-    ]
-   ],
-   [
-    "Stop trying = give ___",
-    [
-     "up",
-     "out",
-     "off"
-    ]
-   ],
-   [
-    "Learn some information = find ___",
-    [
-     "out",
-     "up",
-     "off"
-    ]
-   ],
-   [
-    "Start a journey = set ___",
-    [
-     "off",
-     "up",
-     "in"
-    ]
-   ],
-   [
-    "Have none left = run out ___",
+    "She's afraid ___ spiders.",
     [
      "of",
-     "from",
-     "off"
+     "at",
+     "to"
     ]
    ],
    [
-    "Join an event = take ___ in",
+    "He's interested ___ music.",
     [
-     "part",
-     "place",
-     "time"
-    ]
-   ],
-   [
-    "Collect from a place = pick ___",
-    [
-     "up",
-     "out",
-     "off"
-    ]
-   ],
-   [
-    "Trust someone to help = count ___",
-    [
-     "on",
      "in",
-     "at"
+     "at",
+     "for"
     ]
    ],
    [
-    "Solve a problem = deal ___ it",
+    "We're proud ___ our team.",
     [
-     "with",
+     "of",
+     "at",
+     "in"
+    ]
+   ],
+   [
+    "Be kind ___ animals.",
+    [
+     "to",
+     "at",
+     "of"
+    ]
+   ],
+   [
+    "I'm worried ___ the test.",
+    [
+     "about",
+     "at",
+     "in"
+    ]
+   ],
+   [
+    "The town is famous ___ its cakes.",
+    [
      "for",
+     "of",
      "at"
     ]
    ],
    [
-    "Continue = carry ___",
+    "The film was ___. I fell asleep.",
     [
-     "on",
-     "off",
-     "up"
+     "boring",
+     "bored",
+     "boredom"
     ]
    ],
    [
-    "Get ready for sport = warm ___",
+    "I was ___ in the long queue.",
     [
-     "up",
-     "on",
-     "off"
+     "bored",
+     "boring",
+     "bore"
     ]
    ],
    [
-    "Wear it now: put ___ your helmet.",
+    "The match was really ___!",
     [
-     "on",
-     "off",
-     "out"
-    ]
-   ],
-   [
-    "I go to school ___ bus.",
-    [
-     "by",
-     "on",
-     "in"
-    ]
-   ],
-   [
-    "Walking = going ___ foot",
-    [
-     "on",
-     "in",
-     "at"
-    ]
-   ],
-   [
-    "Not late = ___ time",
-    [
-     "on",
-     "at",
-     "by"
-    ]
-   ],
-   [
-    "Not on purpose = by ___",
-    [
-     "mistake",
-     "purpose",
-     "time"
-    ]
-   ],
-   [
-    "I wanted to. I did it ___ purpose.",
-    [
-     "on",
-     "by",
-     "in"
-    ]
-   ],
-   [
-    "The baby bird is ___ danger.",
-    [
-     "in",
-     "on",
-     "at"
-    ]
-   ],
-   [
-    "Didn't ask first = ___ permission",
-    [
-     "without",
-     "with",
-     "by"
-    ]
-   ],
-   [
-    "We go to the beach ___ the weekend.",
-    [
-     "at",
-     "in",
-     "by"
-    ]
-   ],
-   [
-    "___ fact, it was true.",
-    [
-     "In",
-     "On",
-     "At"
-    ]
-   ],
-   [
-    "Made ___ hand, not with a machine",
-    [
-     "by",
-     "on",
-     "in"
-    ]
-   ],
-   [
-    "The natural home of an animal",
-    [
-     "habitat",
-     "predator",
-     "herd"
-    ]
-   ],
-   [
-    "An animal that hunts others",
-    [
-     "predator",
-     "habitat",
-     "flock"
-    ]
-   ],
-   [
-    "Something new, made for the first time",
-    [
-     "invention",
-     "habitat",
-     "crowd"
-    ]
-   ],
-   [
-    "Someone who never gives up is ___.",
-    [
-     "determined",
-     "lazy",
-     "nervous"
-    ]
-   ],
-   [
-    "Working well together",
-    [
-     "teamwork",
-     "homework",
-     "housework"
-    ]
-   ],
-   [
-    "Very, very tired",
-    [
-     "exhausted",
+     "exciting",
      "excited",
-     "healthy"
+     "excite"
     ]
    ],
    [
-    "Awake and active at night",
+    "We were ___ about the trip.",
     [
-     "nocturnal",
-     "endangered",
-     "portable"
+     "excited",
+     "exciting",
+     "excite"
     ]
    ],
    [
-    "Easy to carry",
+    "I'm very ___ in science.",
     [
-     "portable",
-     "nocturnal",
-     "generous"
+     "interested",
+     "interesting",
+     "interest"
     ]
    ],
    [
-    "Happy to share and give",
+    "That's an ___ book.",
+    [
+     "interesting",
+     "interested",
+     "interest"
+    ]
+   ],
+   [
+    "The long walk was ___.",
+    [
+     "tiring",
+     "tired",
+     "tire"
+    ]
+   ],
+   [
+    "A cheetah is ___ than a cat.",
+    [
+     "faster",
+     "fastest",
+     "fast"
+    ]
+   ],
+   [
+    "It's the ___ day of the year.",
+    [
+     "hottest",
+     "hotter",
+     "hot"
+    ]
+   ],
+   [
+    "My bag is ___ than yours.",
+    [
+     "heavier",
+     "heaviest",
+     "heavy"
+    ]
+   ],
+   [
+    "Maths is ___ than art for me.",
+    [
+     "more difficult",
+     "most difficult",
+     "difficult"
+    ]
+   ],
+   [
+    "It's the ___ beautiful beach here.",
+    [
+     "most",
+     "more",
+     "much"
+    ]
+   ],
+   [
+    "Your cake is ___ than mine!",
+    [
+     "better",
+     "best",
+     "good"
+    ]
+   ],
+   [
+    "That was the ___ day ever!",
+    [
+     "best",
+     "better",
+     "good"
+    ]
+   ],
+   [
+    "My cold is ___ today. I feel awful.",
+    [
+     "worse",
+     "worst",
+     "bad"
+    ]
+   ],
+   [
+    "a ___ dress",
+    [
+     "lovely long red",
+     "red long lovely",
+     "long red lovely"
+    ]
+   ],
+   [
+    "a ___ box",
+    [
+     "small old wooden",
+     "wooden small old",
+     "old wooden small"
+    ]
+   ],
+   [
+    "a ___ house",
+    [
+     "big new white",
+     "white new big",
+     "new white big"
+    ]
+   ],
+   [
+    "Always shares his toys:",
     [
      "generous",
-     "nervous",
+     "selfish",
      "lazy"
     ]
    ],
    [
-    "Colours that help animals hide",
+    "Talks a lot:",
     [
-     "camouflage",
-     "habitat",
-     "invention"
+     "talkative",
+     "shy",
+     "quiet"
     ]
    ],
    [
-    "Very few left; may disappear",
+    "Gets angry very easily:",
     [
-     "endangered",
-     "nocturnal",
-     "exhausted"
+     "bad-tempered",
+     "calm",
+     "cheerful"
     ]
    ],
    [
-    "Good for your body",
+    "Works very hard all the time:",
     [
-     "healthy",
-     "harmful",
-     "tiring"
+     "hard-working",
+     "lazy",
+     "selfish"
     ]
    ],
    [
-    "An animal that eats only plants",
+    "Loves meeting new people:",
     [
-     "herbivore",
-     "carnivore",
-     "predator"
+     "outgoing",
+     "shy",
+     "nervous"
     ]
    ],
    [
-    "An animal that eats only meat",
+    "Only thinks about herself:",
     [
-     "carnivore",
-     "herbivore",
-     "habitat"
+     "selfish",
+     "generous",
+     "kind"
     ]
    ],
    [
-    "A small, clever machine",
+    "Your body is too hot when ill:",
     [
-     "gadget",
-     "herd",
-     "habitat"
+     "fever",
+     "feast",
+     "fibre"
+    ]
+   ],
+   [
+    "It hurts to swallow:",
+    [
+     "sore throat",
+     "earache",
+     "runny nose"
+    ]
+   ],
+   [
+    "Milk, cheese and yoghurt:",
+    [
+     "dairy products",
+     "grains",
+     "vegetables"
+    ]
+   ],
+   [
+    "Good for strong bones and teeth:",
+    [
+     "calcium",
+     "sugar",
+     "fat"
+    ]
+   ],
+   [
+    "A ___ of cereal",
+    [
+     "bowl",
+     "bunch",
+     "sack"
+    ]
+   ],
+   [
+    "A ___ of bananas",
+    [
+     "bunch",
+     "bowl",
+     "pinch"
+    ]
+   ],
+   [
+    "A ___ of salt",
+    [
+     "pinch",
+     "bunch",
+     "sack"
+    ]
+   ],
+   [
+    "A very big bag of rice:",
+    [
+     "a sack",
+     "a pinch",
+     "a bunch"
+    ]
+   ],
+   [
+    "Mosquitoes lay eggs in ___ water.",
+    [
+     "standing",
+     "boiling",
+     "hot"
+    ]
+   ],
+   [
+    "Very, very big:",
+    [
+     "enormous",
+     "tiny",
+     "curved"
+    ]
+   ],
+   [
+    "Strange and hard to explain:",
+    [
+     "mysterious",
+     "ordinary",
+     "cheerful"
+    ]
+   ],
+   [
+    "A quick pencil drawing:",
+    [
+     "sketch",
+     "pattern",
+     "feast"
+    ]
+   ],
+   [
+    "Shapes that repeat again and again:",
+    [
+     "pattern",
+     "sketch",
+     "shade"
+    ]
+   ],
+   [
+    "Long ago there ___ a castle here.",
+    [
+     "used to be",
+     "is",
+     "will be"
+    ]
+   ],
+   [
+    "Bright colours and bangs in the sky:",
+    [
+     "fireworks",
+     "presents",
+     "feasts"
+    ]
+   ],
+   [
+    "A very big, special meal:",
+    [
+     "feast",
+     "fever",
+     "gift"
+    ]
+   ],
+   [
+    "You need to bite it a lot:",
+    [
+     "chewy",
+     "boiled",
+     "sour"
+    ]
+   ],
+   [
+    "The party after a wedding:",
+    [
+     "reception",
+     "fever",
+     "sketch"
+    ]
+   ],
+   [
+    "Things that make a room pretty:",
+    [
+     "decorations",
+     "fireworks",
+     "fibre"
     ]
    ]
   ]
  },
  "selfcheck": {
   "goals": [
-   "say the group word for animals and people (a herd of cows, a crowd of people)",
-   "use phrasal verbs like look after, give up and find out",
-   "use phrases like on time, by bus, on foot and in danger",
-   "guess a new word from the sentences around it"
+   "say how people feel and what things are like (bored / boring, excited / exciting)",
+   "put adjectives in the right order and compare things (bigger than, the most beautiful, the best)",
+   "use word partners like good at, afraid of, proud of and worried about",
+   "use topic words from all four units and guess a new word from the sentences around it"
   ],
   "again": [
    "c",

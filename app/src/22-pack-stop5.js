@@ -1,19 +1,19 @@
-/* 22-pack-stop5.js - ALL the content of Stop 5, Listening: conversations (Grade 5 ESL, Cambridge Stage 6).
+/* 22-pack-stop5.js - ALL the content of Stop 5, Listening: conversations (Grade 4 ESL, Cambridge Stage 5).
    Made by scripts/convert.py from content/stop5.json (written from the exam-style guide only; no real paper seen). */
 (function (T) {
   'use strict';
-  window.T_ART = Object.assign(window.T_ART || {}, {"e-s5-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"prefer\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⚖️</text></svg>", "e-s5-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"favourite part\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⭐</text></svg>", "e-s5-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"recommend\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👍</text></svg>", "e-s5-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"disappointed\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">😞</text></svg>", "e-s5-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"I&#x27;m not keen on\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🙅</text></svg>", "e-s5-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"actually\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💡</text></svg>", "e-s5-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"instead\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔄</text></svg>", "e-s5-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"although\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🌗</text></svg>", "e-s5-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"in the end\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏁</text></svg>", "e-s5-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"it&#x27;s worth it\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💎</text></svg>", "e-s5-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"find out\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔍</text></svg>", "e-s5-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"reason\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❓</text></svg>", "e-s5-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"mention\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🗣️</text></svg>"});
+  window.T_ART = Object.assign(window.T_ART || {}, {"e-s5-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"prefer\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⚖️</text></svg>", "e-s5-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"the best part\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⭐</text></svg>", "e-s5-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"enjoy\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">😊</text></svg>", "e-s5-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"boring\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🥱</text></svg>", "e-s5-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"I&#x27;m not keen on\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🙅</text></svg>", "e-s5-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"actually\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💡</text></svg>", "e-s5-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"instead\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔄</text></svg>", "e-s5-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"in the end\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏁</text></svg>", "e-s5-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"change your mind\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🤔</text></svg>", "e-s5-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"was going to\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🗓️</text></svg>", "e-s5-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"guess\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❔</text></svg>", "e-s5-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"reason\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❓</text></svg>", "e-s5-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"plan\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📝</text></svg>", "e-s5-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"decide\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👉</text></svg>"});
   T.packs[5] = {
  "n": 5,
  "title": "Listening: conversations",
  "los": [
-  "6Ld.04",
-  "6Lm.01",
-  "6Ld.05"
+  "5Ld.04",
+  "5Ld.03",
+  "5Lm.01"
  ],
  "blurb": {
-  "en": "Listen to friends and families chatting, and find their opinions, reasons and plans.",
-  "vi": "Nghe bạn bè và gia đình trò chuyện, rồi tìm ý kiến, lý do và kế hoạch của họ."
+  "en": "Listen to two friends chatting, and find out what happened, what they think and what they will do.",
+  "vi": "Nghe hai bạn trò chuyện, rồi tìm ra chuyện gì đã xảy ra, các bạn nghĩ gì và sẽ làm gì."
  },
  "words": {
   "sets": [
@@ -25,9 +25,9 @@
     },
     "keys": [
      "prefer",
-     "favourite part",
-     "recommend",
-     "disappointed",
+     "the best part",
+     "enjoy",
+     "boring",
      "I'm not keen on"
     ]
    },
@@ -40,8 +40,9 @@
     "keys": [
      "actually",
      "instead",
-     "although",
-     "in the end"
+     "in the end",
+     "change your mind",
+     "was going to"
     ]
    },
    {
@@ -51,10 +52,10 @@
      "vi": "Từ của thám tử nghe"
     },
     "keys": [
-     "it's worth it",
-     "find out",
+     "guess",
      "reason",
-     "mention"
+     "plan",
+     "decide"
     ]
    }
   ],
@@ -62,67 +63,72 @@
    "prefer": {
     "art": "e-s5-0",
     "vi": "thích hơn",
-    "def": "To like one thing more than another thing. Example: I *prefer* the park to the beach because it's quieter."
+    "def": "To like one thing more than another thing. Example: I *prefer* apples to bananas because they are crunchy."
    },
-   "favourite part": {
+   "the best part": {
     "art": "e-s5-1",
-    "vi": "phần yêu thích nhất",
-    "def": "The bit of something that you like the most. Example: My *favourite part* of the trip was the boat ride."
+    "vi": "phần hay nhất",
+    "def": "The bit of something that you liked the most. Example: *The best part* of the trip was the boat ride."
    },
-   "recommend": {
+   "enjoy": {
     "art": "e-s5-2",
-    "vi": "giới thiệu, khuyên nên thử",
-    "def": "To tell someone that something is good and they should try it. Example: I *recommend* the new climbing wall. It's great fun!"
+    "vi": "thích, tận hưởng",
+    "def": "To like doing something and have a good time. Example: We *enjoy* playing games in the park after school."
    },
-   "disappointed": {
+   "boring": {
     "art": "e-s5-3",
-    "vi": "thất vọng",
-    "def": "Sad because something was not as good as you hoped. Example: We were *disappointed* because the match was cancelled."
+    "vi": "nhàm chán",
+    "def": "Not interesting at all, so you want it to finish. Example: The film was so *boring* that I fell asleep."
    },
    "I'm not keen on": {
     "art": "e-s5-4",
     "vi": "tôi không thích lắm",
-    "def": "A polite way to say you don't like something very much. Example: *I'm not keen on* spicy food, so I chose the soup."
+    "def": "A polite way to say you do not like something very much. Example: *I'm not keen on* fish, so I had chicken."
    },
    "actually": {
     "art": "e-s5-5",
     "vi": "thật ra",
-    "def": "Used to give the true fact, often when it is different from what someone thought. Example: I thought it started at six, but *actually* it starts at seven."
+    "def": "We say this before the true fact, often when someone guessed wrong. Example: You think I'm ten? *Actually*, I'm nine."
    },
    "instead": {
     "art": "e-s5-6",
     "vi": "thay vào đó",
-    "def": "In the place of something else. Example: It was raining, so we played board games *instead*."
-   },
-   "although": {
-    "art": "e-s5-7",
-    "vi": "mặc dù",
-    "def": "Used to join two ideas that seem different. Example: *Although* the walk was long, I really enjoyed it."
+    "def": "In the place of another thing or another plan. Example: The park was closed, so we went to the library *instead*."
    },
    "in the end": {
-    "art": "e-s5-8",
+    "art": "e-s5-7",
     "vi": "cuối cùng",
-    "def": "What finally happened, after thinking or after some changes. Example: We wanted pizza, but *in the end* we had noodles."
+    "def": "What finally happened, after some changes or some thinking. Example: We looked at three cakes, and *in the end* we chose the lemon one."
    },
-   "it's worth it": {
+   "change your mind": {
+    "art": "e-s5-8",
+    "vi": "đổi ý",
+    "def": "To make a new choice that is different from your first one. Example: I wanted the red bag, but then I *changed my mind*."
+   },
+   "was going to": {
     "art": "e-s5-9",
-    "vi": "đáng công, đáng giá",
-    "def": "Something is good enough to spend your time, money or effort on. Example: The climb is hard, but *it's worth it* for the view."
+    "vi": "đã định (nhưng không làm)",
+    "def": "Shows an old plan from before. Often it did not happen. Example: We *were going to* play tennis, but it rained."
    },
-   "find out": {
+   "guess": {
     "art": "e-s5-10",
-    "vi": "tìm ra, biết được",
-    "def": "To learn a fact or some news. Example: How did you *find out* about the chess club?"
+    "vi": "đoán",
+    "def": "To say an answer when you are not sure it is right. Example: Mum tried to *guess* what was in the box."
    },
    "reason": {
     "art": "e-s5-11",
     "vi": "lý do",
-    "def": "Why something happens or why someone does something. Example: The *reason* she joined the club is that her best friend is in it."
+    "def": "Why something happens, or why someone does something. Example: The *reason* I'm late is that the bus broke down."
    },
-   "mention": {
+   "plan": {
     "art": "e-s5-12",
-    "vi": "nhắc đến",
-    "def": "To say something quickly, without talking about it a lot. Example: He *mentioned* the museum, but he didn't go there."
+    "vi": "kế hoạch",
+    "def": "Something you have decided to do later. Example: Our *plan* for Sunday is to visit Grandpa."
+   },
+   "decide": {
+    "art": "e-s5-13",
+    "vi": "quyết định",
+    "def": "To choose what to do after you think about it. Example: We couldn't *decide* between pizza and noodles."
    }
   }
  },
@@ -131,49 +137,49 @@
    {
     "id": "s1",
     "title": {
-     "en": "Everything is mentioned",
-     "vi": "Mọi đáp án đều được nhắc đến"
+     "en": "All three are said",
+     "vi": "Cả ba đều được nói"
     },
     "esl": true,
     "kind": "audio",
-    "head": "Listen to Kai and Ruby.",
-    "html": "<b>Kai:</b> Did you join a club this term, Ruby?<br><b>Ruby:</b> Yes! I looked at the *drama club* first, and the *art club* too.<br><b>Kai:</b> So which one did you choose?<br><b>Ruby:</b> Well, drama is on Fridays, and I have piano then. And the *art club* was full. So *in the end* I joined the *chess club*.",
+    "head": "Listen to Kenji and Wren.",
+    "html": "<b>Kenji:</b> Wren, what did you eat at the school fair?<br><b>Wren:</b> Well, *I wanted noodles first*. And Mum said, *try the soup*!<br><b>Kenji:</b> So did you have the soup?<br><b>Wren:</b> No, I'm not keen on soup. And the noodles were all sold out. So *in the end*, I had *rice and chicken*. It was really good.",
     "steps": [
      {
-      "en": "In Part 3, all three options are usually *said* in the talk.",
-      "vi": "Ở Phần 3, cả ba lựa chọn thường đều được *nói* trong bài nghe."
+      "en": "In a conversation test, all three options are usually *said* in the talk.",
+      "vi": "Trong bài nghe hội thoại, cả ba lựa chọn thường đều được *nói* ra."
      },
      {
-      "en": "Ruby says drama, art and chess. Only one is the club she joined.",
-      "vi": "Ruby nói đến kịch, mỹ thuật và cờ vua. Chỉ một là câu lạc bộ bạn ấy tham gia."
+      "en": "Wren talks about noodles, soup and rice. Only one is what she ate.",
+      "vi": "Wren nói về mì, súp và cơm. Chỉ một món là bạn ấy đã ăn."
      },
      {
-      "en": "Listen for *in the end*. The real answer comes after it.",
-      "vi": "Hãy nghe cụm *in the end*. Đáp án thật nằm ngay sau nó."
+      "en": "Listen for *in the end*. The real answer often comes after it.",
+      "vi": "Hãy nghe cụm *in the end*. Đáp án thật thường đến ngay sau đó."
      }
     ],
     "audio": {
      "id": "s5-see-1",
      "lines": [
       [
-       "bm_lewis",
-       "Kai",
-       "Did you join a club this term, Ruby?"
+       "bm_fable",
+       "Kenji",
+       "Wren, what did you eat at the school fair?"
       ],
       [
-       "bf_lily",
-       "Ruby",
-       "Yes! I looked at the drama club first, and the art club too."
+       "bf_alice",
+       "Wren",
+       "Well, I wanted noodles first. And Mum said, try the soup!"
       ],
       [
-       "bm_lewis",
-       "Kai",
-       "So which one did you choose?"
+       "bm_fable",
+       "Kenji",
+       "So did you have the soup?"
       ],
       [
-       "bf_lily",
-       "Ruby",
-       "Well, drama is on Fridays, and I have piano then. And the art club was full. So in the end I joined the chess club."
+       "bf_alice",
+       "Wren",
+       "No, I'm not keen on soup. And the noodles were all sold out. So in the end, I had rice and chicken. It was really good."
       ]
      ]
     }
@@ -181,49 +187,49 @@
    {
     "id": "s2",
     "title": {
-     "en": "Opinions and reasons",
-     "vi": "Ý kiến và lý do"
+     "en": "What they liked and did not like",
+     "vi": "Điều các bạn thích và không thích"
     },
     "esl": true,
     "kind": "audio",
-    "head": "Listen to Freya and her grandpa.",
-    "html": "<b>Freya:</b> Grandpa, do you like your new tablet?<br><b>Grandpa:</b> I do, actually. *Although* the screen is small, I can video call your aunt every week. That's *the best thing* about it.<br><b>Freya:</b> What about the games on it?<br><b>Grandpa:</b> Oh, *I'm not keen on* games. They're too fast for me!",
+    "head": "Listen to Dan and Pia.",
+    "html": "<b>Dan:</b> Pia, did you enjoy the town museum?<br><b>Pia:</b> Yes! *The best part* was the old photos. There used to be a big market by the river. I didn't know that!<br><b>Dan:</b> What about the old maps?<br><b>Pia:</b> They were *a bit boring*. And the museum shop was *too expensive*. But I'd like to go back and see the photos again.",
     "steps": [
      {
-      "en": "A question may ask *why* someone likes something.",
-      "vi": "Câu hỏi có thể hỏi *vì sao* ai đó thích một thứ."
+      "en": "Questions often ask what someone liked *best* or did *not* like.",
+      "vi": "Câu hỏi thường hỏi ai đó thích điều gì *nhất* hoặc *không* thích điều gì."
      },
      {
-      "en": "Grandpa likes the tablet because he can video call. The small screen is a problem, not a reason.",
-      "vi": "Ông thích máy tính bảng vì ông có thể gọi video. Màn hình nhỏ là điểm chưa tốt, không phải lý do."
+      "en": "*The best part* tells you what Pia liked most.",
+      "vi": "*The best part* cho em biết điều Pia thích nhất."
      },
      {
-      "en": "*I'm not keen on* means he does not like the games.",
-      "vi": "*I'm not keen on* nghĩa là ông không thích trò chơi."
+      "en": "*Boring* and *too expensive* tell you what she did not like.",
+      "vi": "*Boring* và *too expensive* cho em biết điều bạn ấy không thích."
      }
     ],
     "audio": {
      "id": "s5-see-2",
      "lines": [
       [
-       "bf_alice",
-       "Freya",
-       "Grandpa, do you like your new tablet?"
+       "bm_lewis",
+       "Dan",
+       "Pia, did you enjoy the town museum?"
       ],
       [
-       "bm_daniel",
-       "Grandpa",
-       "I do, actually. Although the screen is small, I can video call your aunt every week. That's the best thing about it."
+       "bf_lily",
+       "Pia",
+       "Yes! The best part was the old photos. There used to be a big market by the river. I didn't know that!"
       ],
       [
-       "bf_alice",
-       "Freya",
-       "What about the games on it?"
+       "bm_lewis",
+       "Dan",
+       "What about the old maps?"
       ],
       [
-       "bm_daniel",
-       "Grandpa",
-       "Oh, I'm not keen on games. They're too fast for me!"
+       "bf_lily",
+       "Pia",
+       "They were a bit boring. And the museum shop was too expensive. But I'd like to go back and see the photos again."
       ]
      ]
     }
@@ -236,20 +242,20 @@
     },
     "esl": true,
     "kind": "audio",
-    "head": "Listen to Nadia and Rory.",
-    "html": "<b>Nadia:</b> How was the running race on Sunday, Rory?<br><b>Rory:</b> Hard! It took me forty minutes, and my legs really hurt at the end.<br><b>Nadia:</b> Oh no. Are you sorry you did it?<br><b>Rory:</b> *Not at all*. *It was worth it*. I got a medal, and I'm going to do it again next year.",
+    "head": "Listen to Eva and Noah.",
+    "html": "<b>Eva:</b> Noah, why weren't you at football club yesterday?<br><b>Noah:</b> I had *a sore throat and a runny nose*. And I *couldn't stop sneezing*!<br><b>Eva:</b> Oh no. So your mum said you had to *stay at home*?<br><b>Noah:</b> Yes. I feel much better today, though. I'm going to the club on Friday.",
     "steps": [
      {
       "en": "The options often use *different words* from the talk.",
       "vi": "Các lựa chọn thường dùng *từ khác* với bài nghe."
      },
      {
-      "en": "*It was worth it* means Rory is glad he did the race, even though it was hard.",
-      "vi": "*It was worth it* nghĩa là Rory vui vì đã chạy, dù cuộc đua rất vất vả."
+      "en": "Noah never says *ill* or *a cold*. But a sore throat, a runny nose and sneezing tell us he had a cold.",
+      "vi": "Noah không nói *ill* hay *a cold*. Nhưng đau họng, sổ mũi và hắt hơi cho ta biết bạn ấy bị cảm."
      },
      {
-      "en": "Don't just match a word you hear. Match the *meaning*.",
-      "vi": "Đừng chỉ chọn từ mình nghe thấy. Hãy chọn theo *ý nghĩa*."
+      "en": "Match the *meaning*, not just a word you hear.",
+      "vi": "Hãy chọn theo *ý nghĩa*, không chỉ theo một từ em nghe thấy."
      }
     ],
     "audio": {
@@ -257,23 +263,23 @@
      "lines": [
       [
        "bf_lily",
-       "Nadia",
-       "How was the running race on Sunday, Rory?"
+       "Eva",
+       "Noah, why weren't you at football club yesterday?"
       ],
       [
-       "bm_fable",
-       "Rory",
-       "Hard! It took me forty minutes, and my legs really hurt at the end."
+       "bm_lewis",
+       "Noah",
+       "I had a sore throat and a runny nose. And I couldn't stop sneezing!"
       ],
       [
        "bf_lily",
-       "Nadia",
-       "Oh no. Are you sorry you did it?"
+       "Eva",
+       "Oh no. So your mum said you had to stay at home?"
       ],
       [
-       "bm_fable",
-       "Rory",
-       "Not at all. It was worth it. I got a medal, and I'm going to do it again next year."
+       "bm_lewis",
+       "Noah",
+       "Yes. I feel much better today, though. I'm going to the club on Friday."
       ]
      ]
     }
@@ -286,99 +292,109 @@
     },
     "challenge": {
      "end": {
-      "en": "Great listening! You found the real answer, not just the words you heard.",
-      "vi": "Nghe rất tốt! Em đã tìm ra đáp án thật, không chỉ những từ em nghe thấy."
+      "en": "Great listening! You found the real answer, not just a word you heard.",
+      "vi": "Nghe rất giỏi! Em đã tìm ra đáp án thật, không chỉ một từ em nghe thấy."
      },
-     "result": "You spotted the real answers after but, actually and instead.",
+     "result": "You found the real answers after the wrong guesses and the old plans.",
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "5Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "The question asks about the final plan. When someone says <b>I was going to</b>, the plan has changed, so keep listening for the new one."
+          "step": "Huy guesses first. Listen to what Vy says after <b>No</b>."
          },
-         "worked": "Reza says \"my friend's dad is driving, so I'm going <b>by car instead</b>\".",
+         "worked": "Vy says \"<b>I went with my aunt and my cousin</b>\".",
          "type": "mcq",
-         "q": "How is Reza going to the match?",
+         "q": "Who did Vy go to the night market with?",
          "opts": [
-          "in his friend's dad's car",
-          "on the early bus",
-          "on his own bike"
+          "her aunt and her cousin",
+          "her sister",
+          "her grandma"
          ],
          "at": 1,
          "whys": [
           null,
-          "Reza was going to take the bus, but it leaves really early, so he changed his plan.",
-          "Mum reminds him that his bike is still broken, so he can't cycle."
+          "Huy guesses her sister, but Vy says her sister was at her dance class.",
+          "Grandma wanted to come, but she was too tired."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-ch-1a",
           "kind": "audio",
-          "head": "Listen to Reza and his mum.",
+          "head": "Listen to Huy and Vy.",
           "lines": [
            [
-            "bf_emma",
-            "Mum",
-            "Reza, are you taking the bus to the match tomorrow?"
+            "bm_fable",
+            "Huy",
+            "Vy, I saw you at the night market on Saturday. Were you with your sister?"
            ],
            [
-            "bm_lewis",
-            "Reza",
-            "I was going to, but it leaves really early. My friend's dad is driving, so I'm going by car instead."
+            "bf_alice",
+            "Vy",
+            "No, my sister was at her dance class. I went with my aunt and my cousin."
            ],
            [
-            "bf_emma",
-            "Mum",
-            "Oh good. You can't cycle anyway. Your bike is still broken."
+            "bm_fable",
+            "Huy",
+            "Didn't your grandma want to come?"
+           ],
+           [
+            "bf_alice",
+            "Vy",
+            "She did, but she was too tired. We brought her some sweet potatoes."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Some food is mentioned but not eaten. Listen past <b>but</b> for what really happened in the end."
+          "step": "Two people are ruled out first. Listen for who is left."
          },
-         "worked": "Yuki says \"So I had vegetable <b>noodles instead</b>\".",
+         "worked": "Noah says \"<b>My grandma!</b> She learned to swim when she was sixty\".",
          "type": "mcq",
-         "q": "What did Yuki have for lunch?",
+         "q": "Who is Noah's hero?",
          "opts": [
-          "vegetable noodles",
-          "fish",
-          "chicken curry"
+          "his grandma",
+          "a famous footballer",
+          "his football coach"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
-          "There was fish, but Yuki says she is not keen on it.",
-          "Yuki wanted the chicken curry, but it had all gone."
+          "Freya guesses a footballer, but Noah says \"no\".",
+          "Noah says his coach is great, but he isn't the one Noah will write about."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-ch-1b",
           "kind": "audio",
-          "head": "Listen to Yuki and her dad.",
+          "head": "Listen to Freya and Noah.",
           "lines": [
            [
-            "bm_george",
-            "Dad",
-            "What did you have for lunch at school today, Yuki? Fish?"
+            "bf_lily",
+            "Freya",
+            "Noah, who are you going to write about for 'My hero'? A famous footballer?"
            ],
            [
-            "bf_alice",
-            "Yuki",
-            "There was fish, but I'm not keen on it. I wanted the chicken curry, but it had all gone. So I had vegetable noodles instead."
+            "bm_lewis",
+            "Noah",
+            "I like footballers, but no. And not my football coach, although he's great."
            ],
            [
-            "bm_george",
-            "Dad",
-            "Very healthy!"
+            "bf_lily",
+            "Freya",
+            "Who, then?"
+           ],
+           [
+            "bm_lewis",
+            "Noah",
+            "My grandma! She learned to swim when she was sixty. Now she swims every morning."
            ]
           ]
          }
@@ -388,81 +404,101 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.05"
+        "5Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "The question asks what he likes <b>best</b>. Speakers often list good things first, so wait for words like <b>the best thing</b> or <b>my favourite</b>."
+          "step": "Listen for <b>was going to</b>. It tells you the old plan, so keep listening for the new one."
          },
-         "worked": "Arjun says \"<b>the best thing</b> is that it <b>counts my steps</b>\".",
+         "worked": "Eva says \"<b>the party is on Sunday afternoon</b>\".",
          "type": "mcq",
-         "q": "What does Arjun like best about his new watch?",
+         "q": "When is Eva's birthday party?",
          "opts": [
-          "It counts his steps.",
-          "Its colour is really nice.",
-          "It tells him the time."
+          "on Sunday afternoon",
+          "on Saturday",
+          "on Friday"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
-          "Arjun says the colour is nice, but he doesn't call it the best thing.",
-          "It tells the time \"of course\", but Arjun says something else is the best thing."
+          "The party was going to be on Saturday, but Dad has to work then.",
+          "Friday is Eva's birthday, but they are only having a cake at home."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-ch-2a",
           "kind": "audio",
-          "head": "Listen to Arjun and his grandma.",
+          "head": "Listen to Oscar and Eva.",
           "lines": [
            [
-            "bf_isabella",
-            "Grandma",
-            "Why do you like your new watch so much, Arjun? Is it the colour?"
+            "bm_lewis",
+            "Oscar",
+            "Eva, is your birthday party on Saturday?"
            ],
            [
-            "bm_fable",
-            "Arjun",
-            "The colour's nice, and it tells the time, of course. But the best thing is that it counts my steps. I try to walk ten thousand steps a day!"
+            "bf_lily",
+            "Eva",
+            "It was going to be, but Dad has to work on Saturday. So the party is on Sunday afternoon."
+           ],
+           [
+            "bm_lewis",
+            "Oscar",
+            "But isn't your birthday on Friday?"
+           ],
+           [
+            "bf_lily",
+            "Eva",
+            "Yes, it is. On Friday we're just having a cake at home."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "The question asks <b>why</b>. Listen for what the speaker <b>wanted</b>, and check which pet each sentence is about."
+          "step": "Three times are said. Listen for what happened when somebody cancelled."
          },
-         "worked": "Leila says \"I wanted a pet I could <b>watch after school</b>\". Her goldfish is always swimming.",
+         "worked": "Kenji says \"<b>I'm going tomorrow morning at nine</b>\".",
          "type": "mcq",
-         "q": "Why did Leila choose a goldfish?",
+         "q": "When is Kenji going to the dentist?",
          "opts": [
-          "She can watch it after school.",
-          "It is cuter than a hamster.",
-          "It sleeps all day."
+          "tomorrow morning",
+          "this afternoon",
+          "on Thursday"
          ],
          "at": 2,
          "whys": [
           null,
-          "Leila says hamsters are cute, but she never says the goldfish is cuter.",
-          "It is the hamster that sleeps all day, not the goldfish."
+          "The dentist had nothing this afternoon.",
+          "Thursday was the first time they offered, but then it changed."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-ch-2b",
           "kind": "audio",
-          "head": "Listen to Ben and Leila.",
+          "head": "Listen to Wren and Kenji.",
           "lines": [
            [
-            "bm_lewis",
-            "Ben",
-            "Leila, why did you choose a goldfish and not a hamster?"
+            "bf_alice",
+            "Wren",
+            "Kenji, is your tooth still hurting?"
            ],
            [
-            "bf_lily",
-            "Leila",
-            "Well, hamsters are really cute. But they sleep all day and they're awake at night! I wanted a pet I could watch after school. My goldfish is always swimming about."
+            "bm_fable",
+            "Kenji",
+            "Yes. Mum phoned the dentist this morning. They had nothing this afternoon."
+           ],
+           [
+            "bf_alice",
+            "Wren",
+            "So are you going on Thursday?"
+           ],
+           [
+            "bm_fable",
+            "Kenji",
+            "That was the first time they offered. But then somebody cancelled, so I'm going tomorrow morning at nine."
            ]
           ]
          }
@@ -472,81 +508,101 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.05"
+        "5Ld.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "The question asks for her opinion of the whole visit. Speakers often sum up their opinion at the end, so listen carefully to the last sentence."
+          "step": "Dan makes two guesses. Check what Wren says about each one."
          },
-         "worked": "Ivy says \"I'd <b>definitely go again</b>\", so she would like to visit again.",
+         "worked": "Wren says \"<b>I had a stomach ache</b> all afternoon\".",
          "type": "mcq",
-         "q": "What does Ivy think of the museum?",
+         "q": "Why didn't Wren eat any pizza?",
          "opts": [
-          "She'd like to visit again.",
-          "The café was the best part.",
-          "Everything was too expensive."
+          "She had a stomach ache.",
+          "The pizza was too cold.",
+          "She doesn't like mushrooms."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
-          "The café was so busy that they couldn't sit down, so it was not the best part.",
-          "Ivy says only the shop was expensive, not everything."
+          "The pizza was a bit cold, but Wren says \"that wasn't the problem\".",
+          "Wren says \"I love mushrooms!\""
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-ch-3a",
           "kind": "audio",
-          "head": "Listen to Owen and Ivy.",
+          "head": "Listen to Dan and Wren.",
           "lines": [
            [
-            "bm_fable",
-            "Owen",
-            "Did you enjoy the science museum, Ivy?"
+            "bm_lewis",
+            "Dan",
+            "Wren, why didn't you eat any pizza at the party? Was it cold?"
            ],
            [
             "bf_alice",
-            "Ivy",
-            "Mostly, yes. The space room was amazing. The shop was a bit expensive, and the café was so busy that we couldn't sit down. But I'd definitely go again."
+            "Wren",
+            "It was a bit cold, but that wasn't the problem."
+           ],
+           [
+            "bm_lewis",
+            "Dan",
+            "Don't you like mushrooms?"
+           ],
+           [
+            "bf_alice",
+            "Wren",
+            "I love mushrooms! No, I had a stomach ache all afternoon. I only had some water."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "The question says <b>at the end</b>. Listen for time words like <b>at the start</b> and <b>by the end</b>, and match each feeling to its time."
+          "step": "The reason often comes after <b>because</b>."
          },
-         "worked": "Noah says \"<b>actually</b>, <b>by the end</b> I <b>loved</b> it\".",
+         "worked": "Pia says \"<b>Because the park is right next to it!</b>\"",
          "type": "mcq",
-         "q": "How did Noah feel at the end of the lesson?",
+         "q": "Why does Pia like her new flat?",
          "opts": [
-          "He loved it.",
-          "He felt nervous.",
-          "He wanted to go home."
+          "It's next to a park.",
+          "It's bigger than her old flat.",
+          "It's close to her school."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
-          "Noah was nervous at the start of the lesson, not at the end.",
-          "Noah wanted to go home earlier, but his feelings changed by the end."
+          "Pia says the new flat is smaller, not bigger.",
+          "Pia says it's further from school, not closer."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-ch-3b",
           "kind": "audio",
-          "head": "Listen to Noah and his aunt.",
+          "head": "Listen to Huy and Pia.",
           "lines": [
            [
-            "bf_emma",
-            "Aunt Kate",
-            "How was your first judo lesson, Noah?"
+            "bm_fable",
+            "Huy",
+            "Pia, do you like your new flat? Is it bigger than your old one?"
            ],
            [
-            "bm_lewis",
-            "Noah",
-            "I was nervous at the start, and I fell over a lot, so I wanted to go home! But actually, by the end I loved it. I can't wait for next week."
+            "bf_lily",
+            "Pia",
+            "No, it's smaller, actually. And it's further from school, so I get up earlier."
+           ],
+           [
+            "bm_fable",
+            "Huy",
+            "So why do you like it?"
+           ],
+           [
+            "bf_lily",
+            "Pia",
+            "Because the park is right next to it! I play there every evening."
            ]
           ]
          }
@@ -556,81 +612,106 @@
       {
        "mode": "your",
        "lo": [
-        "6Lm.01"
+        "5Lm.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "The question asks <b>who</b>. Several people are named, so listen for the reason each one can or can't help."
+          "step": "The question says NOT. Find the thing Oscar had a problem with."
          },
-         "worked": "Dad says \"So <b>I'll take you</b>. I'll finish work early.\"",
+         "worked": "Oscar says the fireworks \"<b>were too loud for me</b>\".",
          "type": "mcq",
-         "q": "Who will take Grace to the dentist?",
+         "q": "What did Oscar NOT like at the festival?",
          "opts": [
-          "her dad",
-          "her mum",
-          "her grandma"
+          "the fireworks",
+          "the lion dance",
+          "the food"
          ],
          "at": 0,
          "whys": [
           null,
-          "Mum can't take Grace because she has a meeting on Friday.",
-          "Grandma can't drive at the moment, so she can't take her."
+          "Oscar says the lion dance was amazing.",
+          "Oscar says the food was delicious."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-ch-4a",
           "kind": "audio",
-          "head": "Listen to Grace and her dad.",
+          "head": "Listen to Vy and Oscar.",
           "lines": [
            [
-            "bf_lily",
-            "Grace",
-            "Dad, who's taking me to the dentist on Friday? Mum?"
+            "bf_alice",
+            "Vy",
+            "Oscar, did you enjoy the New Year festival?"
            ],
            [
-            "bm_daniel",
-            "Dad",
-            "Mum has a meeting, and Grandma can't drive at the moment. So I'll take you. I'll finish work early."
+            "bm_lewis",
+            "Oscar",
+            "Mostly! The lion dance was amazing, and the food was delicious."
+           ],
+           [
+            "bf_alice",
+            "Vy",
+            "And the fireworks? They were beautiful!"
+           ],
+           [
+            "bm_lewis",
+            "Oscar",
+            "They were too loud for me. I covered my ears the whole time."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Arlo talks about more than one idea. Listen for <b>But</b> to hear his final choice."
+          "step": "Dan has two ideas. Listen to Freya's answer to each one."
          },
-         "worked": "Arlo says \"But I think <b>I'll save it for a bike</b>\".",
+         "worked": "Freya says \"<b>Let's make pancakes at my house</b>\", and Dan says \"OK, great idea!\"",
          "type": "mcq",
-         "q": "What will Arlo do with his birthday money?",
+         "q": "What are Freya and Dan going to do after school?",
          "opts": [
-          "save it for a bike",
-          "buy a new video game",
-          "buy a skateboard"
+          "make pancakes",
+          "play tennis",
+          "go to the cinema"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
-          "Arlo thought about a video game, but then he changed his mind.",
-          "Arlo only looked at a skateboard and didn't choose it."
+          "The tennis courts are closed today.",
+          "Freya hasn't got any money for the cinema."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-ch-4b",
           "kind": "audio",
-          "head": "Listen to Rosa and Arlo.",
+          "head": "Listen to Dan and Freya.",
           "lines": [
            [
-            "bf_alice",
-            "Rosa",
-            "What are you going to do with your birthday money, Arlo?"
+            "bm_lewis",
+            "Dan",
+            "Freya, shall we play tennis after school?"
            ],
            [
-            "bm_fable",
-            "Arlo",
-            "I thought about buying a new video game. Then I looked at a skateboard. But I think I'll save it for a bike. I just need a bit more money."
+            "bf_lily",
+            "Freya",
+            "We can't. The courts are closed today."
+           ],
+           [
+            "bm_lewis",
+            "Dan",
+            "Oh. What about the cinema?"
+           ],
+           [
+            "bf_lily",
+            "Freya",
+            "I haven't got any money. Let's make pancakes at my house. Mum bought eggs and bananas this morning."
+           ],
+           [
+            "bm_lewis",
+            "Dan",
+            "OK, great idea!"
            ]
           ]
          }
@@ -657,98 +738,108 @@
    "levels": [
     {
      "title": {
-      "en": "Facts: who, when, how long",
-      "vi": "Thông tin: ai, khi nào, bao lâu"
+      "en": "Facts: who, when, where",
+      "vi": "Thông tin: ai, khi nào, ở đâu"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "5Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "The question asks <b>who</b>. Three people are mentioned, so check what each one really did."
+          "step": "Three people are in the story. Check what each person really did."
          },
-         "worked": "Mia says \"<b>my friend Anya and I made it</b> together after school\".",
+         "worked": "Dan says \"<b>My uncle</b> lives near the school, <b>so he came and took me</b>\".",
          "type": "mcq",
-         "q": "Who made the cake?",
+         "q": "Who took Dan to the hospital?",
          "opts": [
-          "Mia and her friend Anya",
-          "Mia and her dad",
-          "Mia and her brother"
+          "his uncle",
+          "his mum",
+          "his teacher"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
-          "Dad only bought the eggs, so he didn't make the cake.",
-          "Her brother wanted to help, but he had football practice."
+          "Dan's mum was at work in another town, so she didn't take him.",
+          "His teacher saw him fall and phoned his mum, but she didn't take him."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-r-1a",
           "kind": "audio",
-          "head": "Listen to Mia and her mum.",
+          "head": "Listen to Eva and Dan.",
           "lines": [
            [
-            "bf_emma",
-            "Mum",
-            "Mia, who made this lovely cake? Was it your dad?"
+            "bf_lily",
+            "Eva",
+            "Dan, what happened to your arm?"
+           ],
+           [
+            "bm_lewis",
+            "Dan",
+            "I fell over in the playground on Friday. My teacher saw me, and she phoned my mum."
            ],
            [
             "bf_lily",
-            "Mia",
-            "No, Dad only bought the eggs. My brother wanted to help, but he had football practice. So my friend Anya and I made it together after school."
+            "Eva",
+            "Did your mum take you to the hospital?"
            ],
            [
-            "bf_emma",
-            "Mum",
-            "Well, it looks delicious!"
+            "bm_lewis",
+            "Dan",
+            "No, she was at work in another town. My uncle lives near the school, so he came and took me. It isn't broken, just a bit swollen."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Several names are said. Listen for the coach's decision, which often comes after <b>But</b> or <b>so</b>."
+          "step": "Listen for <b>was going to</b>: that plan did not happen."
          },
-         "worked": "The coach says \"<b>Jade</b> has been in the team the longest, so <b>she's going to be captain</b>\".",
+         "worked": "Pia says \"<b>my cousin is going to teach me</b>\".",
          "type": "mcq",
-         "q": "Who is the new team captain?",
+         "q": "Who is going to teach Pia to swim?",
          "opts": [
-          "Jade",
-          "Sam",
-          "Ella"
+          "her cousin",
+          "her dad",
+          "a teacher at the pool"
          ],
          "at": 1,
          "whys": [
           null,
-          "Lots of people wanted Sam, but the coach didn't choose him.",
-          "Ella asked to be captain, but the coach didn't choose her."
+          "Pia says her dad is too busy at the moment.",
+          "The lessons at the pool near school are full."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-r-1b",
           "kind": "audio",
-          "head": "Listen to Duc and his coach.",
+          "head": "Listen to Kenji and Pia.",
           "lines": [
            [
-            "bm_lewis",
-            "Duc",
-            "Coach Ellis, who's going to be our new team captain?"
+            "bm_fable",
+            "Kenji",
+            "Pia, are you having swimming lessons this summer?"
            ],
            [
-            "bm_george",
-            "Coach Ellis",
-            "Good question, Duc. Lots of people wanted Sam, and Ella asked to do it too. But Jade has been in the team the longest, so she's going to be captain this season."
+            "bf_lily",
+            "Pia",
+            "Yes! I was going to have lessons at the pool near school, but they're full."
            ],
            [
-            "bm_lewis",
-            "Duc",
-            "Great choice!"
+            "bm_fable",
+            "Kenji",
+            "Can your dad teach you? He swims every week."
+           ],
+           [
+            "bf_lily",
+            "Pia",
+            "He's too busy at the moment. So my cousin is going to teach me. She's sixteen, and she's a really good swimmer."
            ]
           ]
          }
@@ -758,91 +849,106 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "5Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "The question says <b>now</b>, so the plan has changed. Listen for the new day, not the old one."
+          "step": "Wren guesses a time. Listen to Oscar's answer after <b>No</b>."
          },
-         "worked": "Kim says \"So <b>it's next Wednesday now</b>\".",
+         "worked": "Oscar says \"<b>it starts at half past three</b>\".",
          "type": "mcq",
-         "q": "When is sports day now?",
+         "q": "What time does the cooking club start?",
          "opts": [
-          "next Wednesday",
-          "this Friday",
-          "Thursday afternoon"
+          "at half past three",
+          "at three o'clock",
+          "at half past four"
          ],
          "at": 2,
          "whys": [
           null,
-          "Sports day was going to be on Friday, but the field is too wet.",
-          "Thursday afternoon is the prize-giving, not sports day."
+          "Three o'clock is when school finishes, not when the club starts.",
+          "Half past four is when the club finishes."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-r-1c",
           "kind": "audio",
-          "head": "Listen to Nam and Kim.",
+          "head": "Listen to Oscar and Wren.",
           "lines": [
            [
-            "bm_fable",
-            "Nam",
-            "Kim, when is sports day? Is it this Friday?"
+            "bm_lewis",
+            "Oscar",
+            "Wren, are you coming to the new cooking club on Tuesday?"
            ],
            [
             "bf_alice",
-            "Kim",
-            "It was going to be on Friday, but the field is too wet. So it's next Wednesday now. And the prize-giving is on Thursday afternoon."
+            "Wren",
+            "Yes! Does it start at three o'clock, when school finishes?"
            ],
            [
-            "bm_fable",
-            "Nam",
-            "Good. That gives me more time to practise."
+            "bm_lewis",
+            "Oscar",
+            "No. The teacher needs time to get the kitchen ready. So it starts at half past three."
+           ],
+           [
+            "bf_alice",
+            "Wren",
+            "And when does it finish?"
+           ],
+           [
+            "bm_lewis",
+            "Oscar",
+            "At half past four. So it's one hour."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Three years are said. Listen for who got what, and match each year to the right person and thing."
+          "step": "Listen for <b>first plan</b>. Then listen for <b>now</b>."
          },
-         "worked": "Grandma says \"<b>I got mine in 2003</b>\".",
+         "worked": "Huy says \"<b>now it's next Thursday</b>\".",
          "type": "mcq",
-         "q": "When did Grandma get her first mobile phone?",
+         "q": "When is the class trip to the museum?",
          "opts": [
-          "in 2003",
-          "in 1998",
-          "in 2004"
+          "next Thursday",
+          "next Tuesday",
+          "next Friday"
          ],
          "at": 0,
          "whys": [
           null,
-          "1998 is when Grandpa got his phone, not Grandma.",
-          "2004 is when Grandma bought her first computer, not her phone."
+          "Tuesday was the first plan, but the museum is closed on Tuesdays.",
+          "Freya has a dentist appointment next Friday. That isn't the trip."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-r-1d",
           "kind": "audio",
-          "head": "Listen to Adam and his grandma.",
+          "head": "Listen to Freya and Huy.",
           "lines": [
            [
-            "bm_lewis",
-            "Adam",
-            "Grandma, when did you get your first mobile phone?"
+            "bf_lily",
+            "Freya",
+            "Huy, is our class trip to the history museum next Tuesday?"
            ],
            [
-            "bf_isabella",
-            "Grandma",
-            "Let me think. Your grandpa got one in 1998, but I didn't want one then. I got mine in 2003, when your mum started university. And I bought my first computer in 2004."
+            "bm_fable",
+            "Huy",
+            "That was the first plan. But the museum is closed on Tuesdays. So now it's next Thursday."
            ],
            [
-            "bm_lewis",
-            "Adam",
-            "That's so long ago!"
+            "bf_lily",
+            "Freya",
+            "Oh good! I've got a dentist appointment next Friday, so I was worried."
+           ],
+           [
+            "bm_fable",
+            "Huy",
+            "Don't worry. You won't miss it."
            ]
           ]
          }
@@ -852,91 +958,101 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "5Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Several times are said. The question says <b>yesterday</b>, so listen for the time that goes with that word."
+          "step": "Vy makes a guess. Listen to Noah's answer."
          },
-         "worked": "Lucy says \"<b>it took me twenty-five yesterday</b>\" because she stopped at the shops.",
+         "worked": "Noah says \"<b>Mum and I went to the market by the river</b>\".",
          "type": "mcq",
-         "q": "How long did Lucy's walk to the library take yesterday?",
+         "q": "Where did Noah buy the pineapples?",
          "opts": [
-          "25 minutes",
-          "10 minutes",
-          "5 minutes"
+          "at the market",
+          "at the supermarket",
+          "at the fruit shop"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
-          "Ten minutes is what the sign says, but Lucy's walk took longer.",
-          "Five minutes is how long it takes by bike, not on foot."
+          "Noah says the pineapples were really expensive at the supermarket.",
+          "The fruit shop near school was closed."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-r-1e",
           "kind": "audio",
-          "head": "Listen to Lucy and her dad.",
+          "head": "Listen to Vy and Noah.",
           "lines": [
            [
-            "bm_daniel",
-            "Dad",
-            "How long does it take to walk to the new library, Lucy?"
+            "bf_alice",
+            "Vy",
+            "Noah, these pineapples are lovely. Did you buy them at the supermarket?"
            ],
            [
-            "bf_lily",
-            "Lucy",
-            "The sign says ten minutes, but it took me twenty-five yesterday because I stopped to look in the shops! By bike it's only five minutes."
+            "bm_lewis",
+            "Noah",
+            "No, they were really expensive there. And the fruit shop near our school was closed."
            ],
            [
-            "bm_daniel",
-            "Dad",
-            "Maybe you should cycle next time!"
+            "bf_alice",
+            "Vy",
+            "So where did you get them?"
+           ],
+           [
+            "bm_lewis",
+            "Noah",
+            "Mum and I went to the market by the river. They were much cheaper there, and they're sweeter too."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "The question asks <b>how long</b>. Listen for <b>for</b> and a length of time, and check who it is about."
+          "step": "Pia looked in two places first. Where was it really?"
          },
-         "worked": "Khoa says \"<b>For three years</b> now\".",
+         "worked": "Pia says \"<b>It was in the music room</b>, under the piano!\"",
          "type": "mcq",
-         "q": "How long has Khoa played the violin?",
+         "q": "Where was Pia's water bottle?",
          "opts": [
-          "for three years",
-          "for six years",
-          "half an hour"
+          "in the music room",
+          "in her classroom",
+          "on the school bus"
          ],
          "at": 0,
          "whys": [
           null,
-          "Six years is how long Khoa's sister has played.",
-          "Half an hour is how long Khoa practises every day."
+          "Pia looked everywhere in the classroom, but it wasn't there.",
+          "The driver checked the bus, but it wasn't there."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-r-1f",
           "kind": "audio",
-          "head": "Listen to Khoa and his teacher.",
+          "head": "Listen to Huy and Pia.",
           "lines": [
            [
-            "bf_emma",
-            "Ms Grant",
-            "Khoa, how long have you played the violin?"
+            "bm_fable",
+            "Huy",
+            "Pia, did you find your water bottle?"
+           ],
+           [
+            "bf_lily",
+            "Pia",
+            "Yes, finally! I looked everywhere in our classroom. Then I thought I left it on the school bus."
            ],
            [
             "bm_fable",
-            "Khoa",
-            "For three years now. I started when I was seven. My sister has played for six years, so she's much better than me! I practise for half an hour every day."
+            "Huy",
+            "Was it there?"
            ],
            [
-            "bf_emma",
-            "Ms Grant",
-            "Well, you sound very good to me!"
+            "bf_lily",
+            "Pia",
+            "No, the driver checked. It was in the music room, under the piano! I had it in my music lesson."
            ]
           ]
          }
@@ -947,98 +1063,118 @@
     },
     {
      "title": {
-      "en": "Opinions and reasons",
-      "vi": "Ý kiến và lý do"
+      "en": "Likes, dislikes and reasons",
+      "vi": "Thích, không thích và lý do"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ld.05"
+        "5Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Nora says good and bad things. Listen for <b>But</b> and <b>actually</b>, because they often bring the speaker's real opinion."
+          "step": "Listen for the words <b>the best part</b>."
          },
-         "worked": "Nora says \"<b>the film was really long</b>\" and the end was boring.",
+         "worked": "Freya says \"We fed the baby goats. <b>That was the best part</b>\".",
          "type": "mcq",
-         "q": "What did Nora think of the whale film?",
+         "q": "What was the best part of the farm trip for Freya?",
          "opts": [
-          "It went on for too long.",
-          "It was better than the penguin film.",
-          "The pictures were boring."
+          "feeding the baby goats",
+          "picking strawberries",
+          "riding on the tractor"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
-          "Nora preferred the penguin film, so the whale film was not better.",
-          "Nora says the pictures were beautiful, and it was the end that was boring."
+          "The strawberries were tasty, but Freya's back hurt afterwards.",
+          "Freya says the tractor was very slow and noisy."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-r-2a",
           "kind": "audio",
-          "head": "Listen to Ethan and Nora.",
+          "head": "Listen to Noah and Freya.",
           "lines": [
            [
             "bm_lewis",
-            "Ethan",
-            "What did you think of the film about whales, Nora?"
+            "Noah",
+            "How was the farm trip, Freya?"
            ],
            [
-            "bf_alice",
-            "Nora",
-            "The pictures of the whales were beautiful. But the film was really long, and actually, I found the end quite boring. I preferred the one about penguins last week."
+            "bf_lily",
+            "Freya",
+            "Great! First we picked strawberries. They were tasty, but my back hurt afterwards!"
            ],
            [
             "bm_lewis",
-            "Ethan",
-            "Really? I thought the penguin one was boring!"
+            "Noah",
+            "What did you do next?"
+           ],
+           [
+            "bf_lily",
+            "Freya",
+            "We fed the baby goats. That was the best part. They were so funny and friendly."
+           ],
+           [
+            "bm_lewis",
+            "Noah",
+            "Did you ride on the tractor too?"
+           ],
+           [
+            "bf_lily",
+            "Freya",
+            "Only for five minutes. It was very slow and noisy."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "The question asks what he <b>doesn't</b> like. For each thing he mentions, decide if his words about it are good or bad."
+          "step": "<b>The best thing</b> means the same as <b>the best part</b>. Listen for it."
          },
-         "worked": "Ali says \"<b>I'm not keen on</b> having <b>maths straight after lunch</b>\", because he feels sleepy.",
+         "worked": "Dan says \"<b>The magic show was the best thing</b>\".",
          "type": "mcq",
-         "q": "What doesn't Ali like about the new timetable?",
+         "q": "What did Dan like best at the festival?",
          "opts": [
-          "maths straight after lunch",
-          "starting at eight",
-          "PE on Mondays"
+          "the magic show",
+          "the face painting",
+          "the dance show"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
-          "Ali says starting at eight is fine.",
-          "Ali says he loves having PE on Mondays."
+          "Dan's little sister loved the face painting. Dan didn't do it.",
+          "Dan says the dance show was OK, but really long."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-r-2b",
           "kind": "audio",
-          "head": "Listen to Ali and his mum.",
+          "head": "Listen to Vy and Dan.",
           "lines": [
            [
-            "bf_isabella",
-            "Mum",
-            "Do you like the new school timetable, Ali?"
+            "bf_alice",
+            "Vy",
+            "Did you go to the Children's Day festival in the park, Dan?"
            ],
            [
-            "bm_fable",
-            "Ali",
-            "Not really. I'm not keen on having maths straight after lunch, because I always feel sleepy. Starting at eight is fine, though, and I love having PE on Mondays."
+            "bm_lewis",
+            "Dan",
+            "Yes! My little sister loved the face painting. I didn't do it. I'm too old for that!"
            ],
            [
-            "bf_isabella",
-            "Mum",
-            "Well, maybe have a smaller lunch!"
+            "bf_alice",
+            "Vy",
+            "What about the dance show?"
+           ],
+           [
+            "bm_lewis",
+            "Dan",
+            "It was OK, but it was really long. The magic show was the best thing. The magician made a bird come out of my hat!"
            ]
           ]
          }
@@ -1048,81 +1184,101 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.05"
+        "5Ld.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "The question asks <b>why</b>. Listen for <b>not</b>, which tells you which ideas to cross out."
+          "step": "The question says NOT. Listen after <b>But</b> for the problem."
          },
-         "worked": "Amira says she wants \"to <b>swim in the waves safely</b>\" when she stays by the sea.",
+         "worked": "Eva says \"<b>the music was so loud!</b> We couldn't hear each other\".",
          "type": "mcq",
-         "q": "Why does Amira want to learn to swim?",
+         "q": "What did Eva NOT like about the new café?",
          "opts": [
-          "to swim safely in the sea",
-          "because her friends can",
-          "to get fit"
+          "the loud music",
+          "the cakes",
+          "the fruit drinks"
          ],
          "at": 1,
          "whys": [
           null,
-          "Amira says her friends are \"not the reason\".",
-          "Amira says it's not to get fit, because she already plays basketball."
+          "Eva says the cakes are delicious.",
+          "Eva says the fruit drinks are cheap, so that is a good thing."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-r-2c",
           "kind": "audio",
-          "head": "Listen to Amira and her grandpa.",
+          "head": "Listen to Oscar and Eva.",
           "lines": [
            [
-            "bm_george",
-            "Grandpa",
-            "Why do you want to learn to swim, Amira? Is it because your friends can?"
+            "bm_lewis",
+            "Oscar",
+            "Eva, have you been to the new café on Green Street?"
            ],
            [
             "bf_lily",
-            "Amira",
-            "Some of my friends can, but that's not the reason. We're going to stay by the sea in the summer, and I want to swim in the waves safely. It's not to get fit, either. I already play basketball."
+            "Eva",
+            "Yes, on Sunday with my mum. The cakes are delicious, and the fruit drinks are cheap."
+           ],
+           [
+            "bm_lewis",
+            "Oscar",
+            "So you liked it?"
+           ],
+           [
+            "bf_lily",
+            "Eva",
+            "Mostly. But the music was so loud! We couldn't hear each other. I'd like to go back, but I'll sit outside next time."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "The question asks <b>why</b>. Speakers often say what was fine first, so listen for the real reason after <b>But</b>."
+          "step": "The question says NOT. Which thing made Huy scared?"
          },
-         "worked": "The lessons were on Saturday mornings, and \"<b>that's when my football team plays</b>\".",
+         "worked": "Huy says the wall was really high and \"<b>I didn't enjoy that bit at all</b>\".",
          "type": "mcq",
-         "q": "Why did Luca give up the guitar?",
+         "q": "What did Huy NOT enjoy at the party?",
          "opts": [
-          "He plays football then.",
-          "It was too difficult.",
-          "His teacher wasn't good."
+          "the climbing wall",
+          "the games",
+          "the pizza"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
-          "Luca says the guitar wasn't too hard.",
-          "Luca says his teacher was great."
+          "Huy says the games were fun.",
+          "Huy says the pizza was great."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-r-2d",
           "kind": "audio",
-          "head": "Listen to Thu and Luca.",
+          "head": "Listen to Wren and Huy.",
           "lines": [
            [
             "bf_alice",
-            "Thu",
-            "Luca, why did you give up the guitar? You were really good!"
+            "Wren",
+            "How was the party at the climbing centre, Huy?"
            ],
            [
-            "bm_lewis",
-            "Luca",
-            "Thanks! It wasn't too hard, and my teacher was great. But the lessons were on Saturday mornings, and that's when my football team plays. I'm going to try the piano instead."
+            "bm_fable",
+            "Huy",
+            "The games were fun, and the pizza was great."
+           ],
+           [
+            "bf_alice",
+            "Wren",
+            "And the climbing? You love climbing!"
+           ],
+           [
+            "bm_fable",
+            "Huy",
+            "I usually do. But the wall was really high, and I got scared at the top. I came down very quickly. I didn't enjoy that bit at all."
            ]
           ]
          }
@@ -1132,86 +1288,101 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.05"
+        "5Ld.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "The question says <b>favourite</b>, but speakers may use other words. Listen for a phrase that means the same, often after <b>But</b>."
+          "step": "Kenji guesses first. Listen for <b>So what's wrong?</b>"
          },
-         "worked": "Jack says \"<b>the best bit was the canoeing</b>\".",
+         "worked": "Eva says \"<b>It's my cat.</b> She won't eat anything\".",
          "type": "mcq",
-         "q": "What was Jack's favourite part of the camp?",
+         "q": "Why is Eva worried?",
          "opts": [
-          "canoeing",
-          "the campfire",
-          "the night walk"
+          "Her cat isn't well.",
+          "She has a maths test.",
+          "She's angry with Pia."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
-          "Jack says the campfire was fun, but it was not the best bit.",
-          "Jack says the night walk was a bit scary, but it was not the best bit."
+          "Eva says she is good at maths, so the test isn't the problem.",
+          "Eva says she and Pia aren't angry with each other any more."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-r-2e",
           "kind": "audio",
-          "head": "Listen to Jack and his uncle.",
+          "head": "Listen to Kenji and Eva.",
           "lines": [
            [
-            "bm_daniel",
-            "Uncle Rob",
-            "So, Jack, what was your favourite part of the school camp?"
+            "bm_fable",
+            "Kenji",
+            "Eva, you look worried. Is it the maths test tomorrow?"
+           ],
+           [
+            "bf_lily",
+            "Eva",
+            "No, I'm good at maths. And it isn't Pia. We aren't angry with each other any more."
            ],
            [
             "bm_fable",
-            "Jack",
-            "The campfire was fun, and the night walk was a bit scary. But the best bit was the canoeing. We raced the teachers across the lake, and we won!"
+            "Kenji",
+            "So what's wrong?"
+           ],
+           [
+            "bf_lily",
+            "Eva",
+            "It's my cat. She won't eat anything, and she sleeps all day. Dad's taking her to the vet after school."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Hana talks about three activities. Listen for a word that matches <b>like best</b> in the question."
+          "step": "Some problems belong to another time or another person. Find Noah's problem today."
          },
-         "worked": "Hana says \"<b>milking the cow was my favourite</b>\".",
+         "worked": "Noah says \"<b>I've had a bad cough for a week</b>\".",
          "type": "mcq",
-         "q": "Which part of the farm visit did Hana like best?",
+         "q": "Why did Noah go to the doctor?",
          "opts": [
-          "milking the cow",
-          "feeding the goats",
-          "the tractor ride"
+          "He had a bad cough.",
+          "He had a sore throat.",
+          "He had a stomach ache."
          ],
          "at": 2,
          "whys": [
           null,
-          "Hana says feeding the goats was sweet, but it was not her favourite.",
-          "Hana says the tractor ride was only OK."
+          "Noah had a sore throat last month, not now.",
+          "His sister has a stomach ache, not Noah."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-r-2f",
           "kind": "audio",
-          "head": "Listen to Hana and her dad.",
+          "head": "Listen to Pia and Noah.",
           "lines": [
            [
-            "bm_george",
-            "Dad",
-            "Which part of the farm visit did you like best, Hana?"
+            "bf_lily",
+            "Pia",
+            "Noah, why weren't you at school this morning?"
+           ],
+           [
+            "bm_lewis",
+            "Noah",
+            "I went to the doctor. I've had a bad cough for a week, and it got worse at night."
            ],
            [
             "bf_lily",
-            "Hana",
-            "Feeding the baby goats was sweet, and the tractor ride was OK. But milking the cow was my favourite. It was harder than I expected, but really funny!"
+            "Pia",
+            "Oh no. My mum said you had a sore throat."
            ],
            [
-            "bm_george",
-            "Dad",
-            "Ha! I'd like to see you try that again."
+            "bm_lewis",
+            "Noah",
+            "That was last month. And my sister has a stomach ache today, but she didn't come with me. The doctor gave me some medicine."
            ]
           ]
          }
@@ -1222,93 +1393,108 @@
     },
     {
      "title": {
-      "en": "Finding out and next plans",
-      "vi": "Cách biết tin và kế hoạch tiếp theo"
+      "en": "Feelings, people and next plans",
+      "vi": "Cảm xúc, con người và kế hoạch tiếp theo"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "5Ld.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "The question asks how she <b>found out</b>. Listen for words like <b>told</b> or <b>saw</b>, and cross out the ideas she says <b>no</b> to."
+          "step": "Listen for <b>before</b>. How do shaking hands make you feel?"
          },
-         "worked": "Sofia says \"<b>My cousin told me about it</b>\".",
+         "worked": "Wren says \"<b>before it started, my hands were shaking, and I felt a bit sick</b>\". She was nervous.",
          "type": "mcq",
-         "q": "How did Sofia find out about the coding club?",
+         "q": "How did Wren feel before her concert?",
          "opts": [
-          "from her cousin",
-          "from the website",
-          "from a poster"
+          "very nervous",
+          "really proud",
+          "excited"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
-          "Sofia says she never looks at the school website.",
-          "There is a poster in the library, but Sofia didn't see it."
+          "Wren felt proud when she finished, not before.",
+          "Her brother was excited, not Wren."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-r-3a",
           "kind": "audio",
-          "head": "Listen to Max and Sofia.",
+          "head": "Listen to Kenji and Wren.",
           "lines": [
            [
-            "bm_lewis",
-            "Max",
-            "Sofia, how did you find out about the coding club? From the school website?"
+            "bm_fable",
+            "Kenji",
+            "Wren, how was your piano concert?"
            ],
            [
             "bf_alice",
-            "Sofia",
-            "No, I never look at that! There's a poster in the library, but I didn't see it. My cousin told me about it. He goes every Tuesday."
+            "Wren",
+            "It went well, thanks! But before it started, my hands were shaking, and I felt a bit sick."
            ],
            [
-            "bm_lewis",
-            "Max",
-            "Maybe I'll come too."
+            "bm_fable",
+            "Kenji",
+            "Really? You're always so calm."
+           ],
+           [
+            "bf_alice",
+            "Wren",
+            "Not that day! My brother was excited for me, but I just wanted to go home. When I finished, I felt really proud."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Two ideas get the answer <b>No</b>. Listen for the one that is true."
+          "step": "The question says <b>now</b>. Don't stop at the first day."
          },
-         "worked": "Ravi says \"<b>My teacher showed us a photo</b> of it on the class screen\".",
+         "worked": "Huy says \"<b>I'm really happy there now</b>\".",
          "type": "mcq",
-         "q": "How did Ravi find out about the skate park?",
+         "q": "How does Huy feel about his new school now?",
          "opts": [
-          "His teacher showed a photo.",
-          "His dad told him.",
-          "He saw it on TV."
+          "happy",
+          "lonely",
+          "worried"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
-          "Ravi says Dad doesn't know about the skate park yet.",
-          "Ravi says the skate park wasn't on TV."
+          "Vy asks if he feels lonely, and Huy says \"Not now\".",
+          "Huy was worried on the first day, but not now."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-r-3b",
           "kind": "audio",
-          "head": "Listen to Ravi and his mum.",
+          "head": "Listen to Vy and Huy.",
           "lines": [
            [
-            "bf_emma",
-            "Mum",
-            "Ravi, how did you know about the new skate park? Did Dad tell you?"
+            "bf_alice",
+            "Vy",
+            "How's your new school, Huy?"
            ],
            [
             "bm_fable",
-            "Ravi",
-            "No, Dad doesn't know about it yet! And it wasn't on TV, either. My teacher showed us a photo of it on the class screen. It opened yesterday!"
+            "Huy",
+            "On the first day I was worried, because I didn't know anyone. And the building is enormous! I got lost twice."
+           ],
+           [
+            "bf_alice",
+            "Vy",
+            "Do you feel lonely there?"
+           ],
+           [
+            "bm_fable",
+            "Huy",
+            "Not now. Everyone is really friendly, and I've joined the chess club. I'm really happy there now."
            ]
           ]
          }
@@ -1318,81 +1504,101 @@
       {
        "mode": "your",
        "lo": [
-        "6Lm.01"
+        "5Lm.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "The question says <b>first</b>. Listen for order words like <b>first</b>, <b>then</b> and <b>later</b>."
+          "step": "Freya makes two guesses. Is Kenji's answer yes or no each time?"
          },
-         "worked": "Chloe says \"<b>first I'm going to help you with dinner</b>\".",
+         "worked": "Kenji says \"<b>I'm helping at the animal shelter</b> with my dad\".",
          "type": "mcq",
-         "q": "What will Chloe do first?",
+         "q": "What is Kenji going to do on Saturday?",
          "opts": [
-          "help Grandma with dinner",
-          "watch TV",
-          "play in the garden"
+          "help at an animal shelter",
+          "play in a football match",
+          "visit his grandma"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
-          "Chloe could watch TV, but that is not her plan.",
-          "Chloe might play in the garden later, not first."
+          "The next football match is in two weeks, not this Saturday.",
+          "Kenji usually visits his grandma, but she's on holiday."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-r-3c",
           "kind": "audio",
-          "head": "Listen to Chloe and her grandma.",
+          "head": "Listen to Freya and Kenji.",
           "lines": [
            [
-            "bf_isabella",
-            "Grandma",
-            "What are you going to do now that you've finished your project, Chloe?"
+            "bf_lily",
+            "Freya",
+            "Are you playing football on Saturday, Kenji?"
+           ],
+           [
+            "bm_fable",
+            "Kenji",
+            "Not this week. The next match is in two weeks."
            ],
            [
             "bf_lily",
-            "Chloe",
-            "Well, I could watch TV, or play in the garden. But first I'm going to help you with dinner. Then maybe the garden later, if it doesn't rain."
+            "Freya",
+            "So are you visiting your grandma?"
+           ],
+           [
+            "bm_fable",
+            "Kenji",
+            "I usually do, but she's on holiday. So I'm helping at the animal shelter with my dad. We're going to walk the dogs and clean the cages."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "The question says <b>next week</b>. Listen for time words, and match each plan to its time."
+          "step": "Oscar's first idea changes. Listen for what he is bringing now."
          },
-         "worked": "Long says \"<b>next week I'm making a bird feeder</b>\".",
+         "worked": "Oscar says \"<b>I'm bringing a big bag of oranges</b> from my grandpa's garden\".",
          "type": "mcq",
-         "q": "What is Long going to make next week?",
+         "q": "What is Oscar bringing to the class party?",
          "opts": [
-          "a bird feeder",
-          "a bookshelf",
-          "a boat"
+          "some oranges",
+          "chocolate biscuits",
+          "a pizza"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
-          "His friend wants him to make a bookshelf, but that is not his plan for next week.",
-          "Long would love to make a boat \"one day\", not next week."
+          "The teacher said no sweets or chocolate.",
+          "Lots of people are bringing pizza, so Oscar isn't."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-r-3d",
           "kind": "audio",
-          "head": "Listen to Long and his teacher.",
+          "head": "Listen to Pia and Oscar.",
           "lines": [
            [
-            "bm_daniel",
-            "Mr Fisher",
-            "Long, the bird box you made is great. What are you going to make next?"
+            "bf_lily",
+            "Pia",
+            "Oscar, what are you bringing to the class party on Friday?"
            ],
            [
             "bm_lewis",
-            "Long",
-            "Thanks, Mr Fisher! My friend wants me to make a bookshelf, and I'd love to make a boat one day. But next week I'm making a bird feeder to go with the box."
+            "Oscar",
+            "I wanted to bring chocolate biscuits, but our teacher said no sweets or chocolate."
+           ],
+           [
+            "bf_lily",
+            "Pia",
+            "What about a pizza?"
+           ],
+           [
+            "bm_lewis",
+            "Oscar",
+            "Lots of people are bringing pizza. So I'm bringing a big bag of oranges from my grandpa's garden. They're really juicy."
            ]
           ]
          }
@@ -1402,86 +1608,101 @@
       {
        "mode": "your",
        "lo": [
-        "6Lm.01"
+        "5Ld.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "The question asks about her overall feeling. Count the good and bad points, then listen to her last sentence."
+          "step": "Two grandmas are in this talk. Make sure you choose Noah's."
          },
-         "worked": "The battery runs out and it's slow, and she says \"<b>I wish I'd kept my old one</b>\". She is disappointed.",
+         "worked": "Noah says \"<b>She talks all the time!</b> She tells stories at breakfast, at lunch and at dinner\".",
          "type": "mcq",
-         "q": "How does Ngoc feel about her new tablet?",
+         "q": "What is Noah's grandma like?",
          "opts": [
-          "She's disappointed with it.",
-          "She loves the camera most.",
-          "She prefers it to her old one."
+          "She talks a lot.",
+          "She's very shy.",
+          "She gets angry easily."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
-          "Ngoc says the camera is good \"I suppose\", which is not a strong opinion.",
-          "Ngoc wishes she had kept her old one, so she doesn't prefer the new tablet."
+          "Eva's grandma is shy, not Noah's.",
+          "Noah says his grandma is never bad-tempered."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-r-3e",
           "kind": "audio",
-          "head": "Listen to Dan and Ngoc.",
+          "head": "Listen to Eva and Noah.",
           "lines": [
            [
-            "bm_fable",
-            "Dan",
-            "Ngoc, are you happy with your new tablet?"
+            "bf_lily",
+            "Eva",
+            "Is your grandma staying with you, Noah?"
            ],
            [
-            "bf_alice",
-            "Ngoc",
-            "Hmm. The camera is good, I suppose. But the battery runs out really quickly, and it's so slow when I open my apps. Actually, I wish I'd kept my old one."
+            "bm_lewis",
+            "Noah",
+            "Yes, for a month. She talks all the time! She tells stories at breakfast, at lunch and at dinner."
            ],
            [
-            "bm_fable",
-            "Dan",
-            "Oh dear. Can you take it back to the shop?"
+            "bf_lily",
+            "Eva",
+            "My grandma is quite shy. She hardly speaks to visitors."
+           ],
+           [
+            "bm_lewis",
+            "Noah",
+            "Mine is the opposite! And she's never bad-tempered, even when my little brother is noisy."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Tom lists some problems first. Listen for the last <b>But</b>, where speakers often give their main feeling."
+          "step": "Listen to what the brother did with his birthday money."
          },
-         "worked": "Tom says they raised lots of money, \"<b>so I'm really glad I did it</b>\".",
+         "worked": "Dan says \"<b>he spent half his birthday money on this ball for me</b>\".",
          "type": "mcq",
-         "q": "How does Tom feel about the charity run?",
+         "q": "Why does Dan say his brother is generous?",
          "opts": [
-          "He's glad he did it.",
-          "He's upset about his shoes.",
-          "He's sad he wasn't in the top ten."
+          "He spent his money on Dan.",
+          "He lends Dan his bike.",
+          "He helps Dan with homework."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
-          "Tom's shoes got wet, but that is not his main feeling about the run.",
-          "Tom came fifteenth, but he still feels good about the run."
+          "Dan says his brother never lends him his bike.",
+          "Dan says his brother is too busy to help with homework."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-r-3f",
           "kind": "audio",
-          "head": "Listen to Tom and his mum.",
+          "head": "Listen to Freya and Dan.",
           "lines": [
            [
-            "bf_emma",
-            "Mum",
-            "How was the charity run, Tom?"
+            "bf_lily",
+            "Freya",
+            "Dan, is that a new football?"
            ],
            [
             "bm_lewis",
-            "Tom",
-            "It rained the whole time, and my shoes got really wet. I came fifteenth, so I wasn't in the top ten. But we raised lots of money for the children's hospital, so I'm really glad I did it."
+            "Dan",
+            "Yes! My brother bought it for me with his birthday money. He's really generous."
+           ],
+           [
+            "bf_lily",
+            "Freya",
+            "That's kind. Does he lend you his bike too?"
+           ],
+           [
+            "bm_lewis",
+            "Dan",
+            "No, never! And he's too busy to help me with my homework. But he spent half his birthday money on this ball for me."
            ]
           ]
          }
@@ -1513,395 +1734,151 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "5Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Mum guesses first. Listen for <b>Actually</b>, because it often brings what really happened."
+          "step": "Listen for <b>was going to</b>. That plan changed."
          },
-         "worked": "Omar says \"<b>Actually, Mr Okafor told our class</b> about it in PE\".",
+         "worked": "Oscar says \"<b>I just went with my dad</b>\".",
          "type": "mcq",
-         "q": "How did Omar find out about the badminton club?",
+         "q": "Who did Oscar go to the village with?",
          "opts": [
-          "from Mr Okafor in PE",
-          "from the website",
-          "from a poster"
+          "his dad",
+          "his cousin",
+          "his mum"
          ],
          "at": 2,
          "whys": [
           null,
-          "Mum asks about the website, but Omar says \"No\".",
-          "There was a poster on the noticeboard, but Omar didn't read it."
+          "His cousin was going to come, but she had a cold.",
+          "Oscar's mum had to work, so she didn't go."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-a-1a",
           "kind": "audio",
-          "head": "Listen to Omar talking to his mum about a new club.",
+          "head": "Listen to Pia and Oscar talking about Oscar's weekend in a village.",
           "lines": [
            [
-            "bf_isabella",
-            "Mum",
-            "Omar, you look happy. Good day at school?"
+            "bf_lily",
+            "Pia",
+            "Hi, Oscar. Did you have a good weekend?"
            ],
            [
             "bm_lewis",
-            "Omar",
-            "Really good! Mum, can I join the new badminton club? It's at the sports centre near the park."
+            "Oscar",
+            "Yes, thanks. I went to my grandparents' village. My cousin was going to come with us, but she had a cold. And Mum had to work. So I just went with my dad."
            ],
            [
-            "bf_isabella",
-            "Mum",
-            "Badminton? How did you hear about that? Was it on the school website?"
-           ],
-           [
-            "bm_lewis",
-            "Omar",
-            "No. There was a poster on the noticeboard, but I didn't read it. Actually, Mr Okafor told our class about it in PE this morning. He's one of the coaches."
-           ],
-           [
-            "bf_isabella",
-            "Mum",
-            "I see. And when is it? You've got swimming on Tuesdays, remember."
+            "bf_lily",
+            "Pia",
+            "What's the village like?"
            ],
            [
             "bm_lewis",
-            "Omar",
-            "I know. There's a group on Tuesdays, but there's another one on Thursdays at half past four. I can go to that one. They have a Saturday group too, but that's only for older students."
+            "Oscar",
+            "Very quiet. There used to be a big market there, and lots of shops. Grandpa says it was really busy when he was young. But now there's only one small shop."
            ],
            [
-            "bf_isabella",
-            "Mum",
-            "Thursday is fine. How much does it cost?"
-           ],
-           [
-            "bm_lewis",
-            "Omar",
-            "The first month is free! After that, it's twelve pounds a month. And you don't have to buy a racket. They lend you one."
-           ],
-           [
-            "bf_isabella",
-            "Mum",
-            "That's good. What about shoes?"
+            "bf_lily",
+            "Pia",
+            "So what did you do there?"
            ],
            [
             "bm_lewis",
-            "Omar",
-            "Mr Okafor said trainers are OK, but they mustn't have black soles, because they leave marks on the floor. My white ones will be fine."
+            "Oscar",
+            "Grandma wanted to show me her old school, but it was closed. So we went fishing in the river instead. I caught two fish!"
            ],
            [
-            "bf_isabella",
-            "Mum",
-            "Then let's try it. Is anyone else from your class going?"
+            "bf_lily",
+            "Pia",
+            "Did you eat them?"
            ],
            [
             "bm_lewis",
-            "Omar",
-            "Bao is going. He's played before, so he can help me."
+            "Oscar",
+            "Yes! Grandma cooked them for dinner with some rice. They were delicious."
            ],
            [
-            "bf_isabella",
-            "Mum",
-            "Good. I'll write Thursday on the calendar."
+            "bf_lily",
+            "Pia",
+            "Well done! Are you going back soon?"
+           ],
+           [
+            "bm_lewis",
+            "Oscar",
+            "In the summer holiday. Next time, I want to help Grandpa on his farm. He grows rice and vegetables."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "The question asks <b>how long</b>. Listen for <b>for</b> or <b>since</b> with a length of time."
+          "step": "Three things are talked about. Listen for <b>in the end</b>."
          },
-         "worked": "Grandma says \"<b>I've had them for two months</b> now\".",
+         "worked": "Vy says \"<b>in the end we bought a small kumquat tree</b>\".",
          "type": "mcq",
-         "q": "How long has Grandma had her chickens?",
+         "q": "What did Vy's family buy for Tet?",
          "opts": [
-          "two months",
-          "one week",
-          "since the spring"
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "Isla says it *feels like* last week, but Grandma has had them much longer.",
-          "The spring is when the new chicks will come, not when Grandma got her chickens."
-         ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s5-a-1b",
-          "kind": "audio",
-          "head": "Listen to Isla talking to her grandma about her chickens.",
-          "lines": [
-           [
-            "bf_alice",
-            "Isla",
-            "Grandma, how are your chickens? Have they laid any eggs yet?"
-           ],
-           [
-            "bf_emma",
-            "Grandma",
-            "They have! Six eggs this week. I've had them for two months now, since the start of September."
-           ],
-           [
-            "bf_alice",
-            "Isla",
-            "Two months already? It feels like you got them last week! Who looks after them when you go away?"
-           ],
-           [
-            "bf_emma",
-            "Grandma",
-            "Well, your grandpa isn't very keen on them, and Mrs Lee next door is too busy. So my friend Peter comes. He kept chickens when he was young, so he knows what to do."
-           ],
-           [
-            "bf_alice",
-            "Isla",
-            "Do they lay an egg every day?"
-           ],
-           [
-            "bf_emma",
-            "Grandma",
-            "Not quite. In winter they lay fewer eggs, because the days are shorter."
-           ],
-           [
-            "bf_alice",
-            "Isla",
-            "What do they eat? Just corn?"
-           ],
-           [
-            "bf_emma",
-            "Grandma",
-            "Corn is only a treat. Most of the time they eat special pellets from the farm shop. They love vegetable peel, too. But never give them chocolate or salty food, because it can make them ill."
-           ],
-           [
-            "bf_alice",
-            "Isla",
-            "Can I feed them when I come at the weekend?"
-           ],
-           [
-            "bf_emma",
-            "Grandma",
-            "Of course. And you can collect the eggs. Then we'll make a cake together."
-           ],
-           [
-            "bf_alice",
-            "Isla",
-            "Yes! Can I give one of them a name?"
-           ],
-           [
-            "bf_emma",
-            "Grandma",
-            "They already have names, I'm afraid. But we're getting two more chicks in the spring. You can choose names for those."
-           ],
-           [
-            "bf_alice",
-            "Isla",
-            "I'm going to start thinking of names now!"
-           ],
-           [
-            "bf_emma",
-            "Grandma",
-            "Good! But remember, a chicken's name should be short and easy to call."
-           ]
-          ]
-         }
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Ld.04"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Three groups are mentioned. Listen for the reason each day does or doesn't work for Omar."
-         },
-         "worked": "There's a group \"<b>on Thursdays</b> at half past four. <b>I can go to that one</b>.\"",
-         "type": "mcq",
-         "q": "Which day will Omar go to badminton?",
-         "opts": [
-          "Thursday",
-          "Tuesday",
-          "Saturday"
+          "a small kumquat tree",
+          "a peach tree",
+          "some big yellow flowers"
          ],
          "at": 1,
          "whys": [
           null,
-          "Omar has swimming on Tuesdays, so he can't go then.",
-          "The Saturday group is only for older students."
-         ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s5-a-1a",
-          "kind": "audio",
-          "head": "Listen to Omar talking to his mum about a new club.",
-          "lines": [
-           [
-            "bf_isabella",
-            "Mum",
-            "Omar, you look happy. Good day at school?"
-           ],
-           [
-            "bm_lewis",
-            "Omar",
-            "Really good! Mum, can I join the new badminton club? It's at the sports centre near the park."
-           ],
-           [
-            "bf_isabella",
-            "Mum",
-            "Badminton? How did you hear about that? Was it on the school website?"
-           ],
-           [
-            "bm_lewis",
-            "Omar",
-            "No. There was a poster on the noticeboard, but I didn't read it. Actually, Mr Okafor told our class about it in PE this morning. He's one of the coaches."
-           ],
-           [
-            "bf_isabella",
-            "Mum",
-            "I see. And when is it? You've got swimming on Tuesdays, remember."
-           ],
-           [
-            "bm_lewis",
-            "Omar",
-            "I know. There's a group on Tuesdays, but there's another one on Thursdays at half past four. I can go to that one. They have a Saturday group too, but that's only for older students."
-           ],
-           [
-            "bf_isabella",
-            "Mum",
-            "Thursday is fine. How much does it cost?"
-           ],
-           [
-            "bm_lewis",
-            "Omar",
-            "The first month is free! After that, it's twelve pounds a month. And you don't have to buy a racket. They lend you one."
-           ],
-           [
-            "bf_isabella",
-            "Mum",
-            "That's good. What about shoes?"
-           ],
-           [
-            "bm_lewis",
-            "Omar",
-            "Mr Okafor said trainers are OK, but they mustn't have black soles, because they leave marks on the floor. My white ones will be fine."
-           ],
-           [
-            "bf_isabella",
-            "Mum",
-            "Then let's try it. Is anyone else from your class going?"
-           ],
-           [
-            "bm_lewis",
-            "Omar",
-            "Bao is going. He's played before, so he can help me."
-           ],
-           [
-            "bf_isabella",
-            "Mum",
-            "Good. I'll write Thursday on the calendar."
-           ]
-          ]
-         }
-        },
-        {
-         "hint": {
-          "step": "Three people are mentioned. Listen for the reason each person can or can't help, then for <b>So</b>."
-         },
-         "worked": "Grandma says \"<b>So my friend Peter comes</b>\".",
-         "type": "mcq",
-         "q": "Who looks after the chickens when Grandma goes away?",
-         "opts": [
-          "Peter",
-          "Isla's grandpa",
-          "Mrs Lee"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "Grandpa isn't very keen on the chickens, so he doesn't look after them.",
-          "Mrs Lee next door is too busy to help."
+          "The peach trees were too expensive this year.",
+          "Mum liked the yellow flowers, but they were too big for the flat."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-a-1b",
           "kind": "audio",
-          "head": "Listen to Isla talking to her grandma about her chickens.",
+          "head": "Listen to Kenji and Vy talking about getting ready for Tet.",
           "lines": [
            [
-            "bf_alice",
-            "Isla",
-            "Grandma, how are your chickens? Have they laid any eggs yet?"
-           ],
-           [
-            "bf_emma",
-            "Grandma",
-            "They have! Six eggs this week. I've had them for two months now, since the start of September."
+            "bm_fable",
+            "Kenji",
+            "Vy, is your family ready for Tet?"
            ],
            [
             "bf_alice",
-            "Isla",
-            "Two months already? It feels like you got them last week! Who looks after them when you go away?"
+            "Vy",
+            "Nearly! Yesterday we cleaned the whole flat. It took all day."
            ],
            [
-            "bf_emma",
-            "Grandma",
-            "Well, your grandpa isn't very keen on them, and Mrs Lee next door is too busy. So my friend Peter comes. He kept chickens when he was young, so he knows what to do."
-           ],
-           [
-            "bf_alice",
-            "Isla",
-            "Do they lay an egg every day?"
-           ],
-           [
-            "bf_emma",
-            "Grandma",
-            "Not quite. In winter they lay fewer eggs, because the days are shorter."
+            "bm_fable",
+            "Kenji",
+            "Did you buy a peach tree, like last year?"
            ],
            [
             "bf_alice",
-            "Isla",
-            "What do they eat? Just corn?"
+            "Vy",
+            "Dad wanted one, but they were too expensive this year. Mum liked some big yellow flowers at the market, but they were too big for our flat. So in the end we bought a small kumquat tree. It's got lots of little orange fruit on it."
            ],
            [
-            "bf_emma",
-            "Grandma",
-            "Corn is only a treat. Most of the time they eat special pellets from the farm shop. They love vegetable peel, too. But never give them chocolate or salty food, because it can make them ill."
-           ],
-           [
-            "bf_alice",
-            "Isla",
-            "Can I feed them when I come at the weekend?"
-           ],
-           [
-            "bf_emma",
-            "Grandma",
-            "Of course. And you can collect the eggs. Then we'll make a cake together."
+            "bm_fable",
+            "Kenji",
+            "Nice. What's your favourite thing about Tet? The lucky money?"
            ],
            [
             "bf_alice",
-            "Isla",
-            "Yes! Can I give one of them a name?"
+            "Vy",
+            "Everyone thinks that! The lucky money is nice, but I love the food more. Grandma makes banh chung. It's soft and a bit chewy, and it's delicious. I could eat it every day!"
            ],
            [
-            "bf_emma",
-            "Grandma",
-            "They already have names, I'm afraid. But we're getting two more chicks in the spring. You can choose names for those."
+            "bm_fable",
+            "Kenji",
+            "Are you visiting your grandparents?"
            ],
            [
             "bf_alice",
-            "Isla",
-            "I'm going to start thinking of names now!"
-           ],
-           [
-            "bf_emma",
-            "Grandma",
-            "Good! But remember, a chicken's name should be short and easy to call."
+            "Vy",
+            "Yes, on the second day of Tet. They live in a village near the sea. But tomorrow morning I'm helping Dad hang the decorations."
            ]
           ]
          }
@@ -1911,196 +1888,305 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "5Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "The question asks about a rule. Listen for rule words, and decide if each one means <b>you have to</b>, <b>you can't</b> or <b>you don't need to</b>."
+          "step": "The question says <b>now</b>. Listen for <b>used to be</b> and <b>now</b>."
          },
-         "worked": "Trainers are OK, \"but they <b>mustn't have black soles</b>\".",
+         "worked": "Oscar says \"<b>now there's only one small shop</b>\".",
          "type": "mcq",
-         "q": "What does Mr Okafor say about shoes?",
+         "q": "What is in the village now?",
          "opts": [
-          "They must not have black soles.",
-          "They must be white.",
-          "The club will lend them."
+          "only one small shop",
+          "a big market",
+          "lots of busy shops"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
-          "Omar's white trainers will be fine, but trainers don't have to be white.",
-          "The club lends rackets, not shoes."
+          "There used to be a big market, but not now.",
+          "There were lots of shops and it was busy when Grandpa was young, but not now."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-a-1a",
           "kind": "audio",
-          "head": "Listen to Omar talking to his mum about a new club.",
+          "head": "Listen to Pia and Oscar talking about Oscar's weekend in a village.",
           "lines": [
            [
-            "bf_isabella",
-            "Mum",
-            "Omar, you look happy. Good day at school?"
+            "bf_lily",
+            "Pia",
+            "Hi, Oscar. Did you have a good weekend?"
            ],
            [
             "bm_lewis",
-            "Omar",
-            "Really good! Mum, can I join the new badminton club? It's at the sports centre near the park."
+            "Oscar",
+            "Yes, thanks. I went to my grandparents' village. My cousin was going to come with us, but she had a cold. And Mum had to work. So I just went with my dad."
            ],
            [
-            "bf_isabella",
-            "Mum",
-            "Badminton? How did you hear about that? Was it on the school website?"
-           ],
-           [
-            "bm_lewis",
-            "Omar",
-            "No. There was a poster on the noticeboard, but I didn't read it. Actually, Mr Okafor told our class about it in PE this morning. He's one of the coaches."
-           ],
-           [
-            "bf_isabella",
-            "Mum",
-            "I see. And when is it? You've got swimming on Tuesdays, remember."
+            "bf_lily",
+            "Pia",
+            "What's the village like?"
            ],
            [
             "bm_lewis",
-            "Omar",
-            "I know. There's a group on Tuesdays, but there's another one on Thursdays at half past four. I can go to that one. They have a Saturday group too, but that's only for older students."
+            "Oscar",
+            "Very quiet. There used to be a big market there, and lots of shops. Grandpa says it was really busy when he was young. But now there's only one small shop."
            ],
            [
-            "bf_isabella",
-            "Mum",
-            "Thursday is fine. How much does it cost?"
-           ],
-           [
-            "bm_lewis",
-            "Omar",
-            "The first month is free! After that, it's twelve pounds a month. And you don't have to buy a racket. They lend you one."
-           ],
-           [
-            "bf_isabella",
-            "Mum",
-            "That's good. What about shoes?"
+            "bf_lily",
+            "Pia",
+            "So what did you do there?"
            ],
            [
             "bm_lewis",
-            "Omar",
-            "Mr Okafor said trainers are OK, but they mustn't have black soles, because they leave marks on the floor. My white ones will be fine."
+            "Oscar",
+            "Grandma wanted to show me her old school, but it was closed. So we went fishing in the river instead. I caught two fish!"
            ],
            [
-            "bf_isabella",
-            "Mum",
-            "Then let's try it. Is anyone else from your class going?"
+            "bf_lily",
+            "Pia",
+            "Did you eat them?"
            ],
            [
             "bm_lewis",
-            "Omar",
-            "Bao is going. He's played before, so he can help me."
+            "Oscar",
+            "Yes! Grandma cooked them for dinner with some rice. They were delicious."
            ],
            [
-            "bf_isabella",
-            "Mum",
-            "Good. I'll write Thursday on the calendar."
+            "bf_lily",
+            "Pia",
+            "Well done! Are you going back soon?"
+           ],
+           [
+            "bm_lewis",
+            "Oscar",
+            "In the summer holiday. Next time, I want to help Grandpa on his farm. He grows rice and vegetables."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "The question says <b>most of the time</b>. Listen for that phrase, and for words like <b>only</b> or <b>treat</b> that rule other foods out."
+          "step": "Kenji guesses. Listen to what Vy says after <b>but</b>."
          },
-         "worked": "Grandma says \"<b>Most of the time they eat special pellets</b>\".",
+         "worked": "Vy says \"<b>I love the food more</b>. Grandma makes <b>banh chung</b>\".",
          "type": "mcq",
-         "q": "What do the chickens eat most of the time?",
+         "q": "What does Vy like best about Tet?",
          "opts": [
-          "special pellets",
-          "corn",
-          "vegetable peel"
+          "Grandma's banh chung",
+          "the lucky money",
+          "cleaning the flat"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
-          "Grandma says corn is only a treat.",
-          "The chickens love vegetable peel, but they don't eat it most of the time."
+          "Vy says the lucky money is nice, but she loves something more.",
+          "Vy's family cleaned the flat, but she doesn't say she likes it."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-a-1b",
           "kind": "audio",
-          "head": "Listen to Isla talking to her grandma about her chickens.",
+          "head": "Listen to Kenji and Vy talking about getting ready for Tet.",
           "lines": [
            [
-            "bf_alice",
-            "Isla",
-            "Grandma, how are your chickens? Have they laid any eggs yet?"
-           ],
-           [
-            "bf_emma",
-            "Grandma",
-            "They have! Six eggs this week. I've had them for two months now, since the start of September."
+            "bm_fable",
+            "Kenji",
+            "Vy, is your family ready for Tet?"
            ],
            [
             "bf_alice",
-            "Isla",
-            "Two months already? It feels like you got them last week! Who looks after them when you go away?"
+            "Vy",
+            "Nearly! Yesterday we cleaned the whole flat. It took all day."
            ],
            [
-            "bf_emma",
-            "Grandma",
-            "Well, your grandpa isn't very keen on them, and Mrs Lee next door is too busy. So my friend Peter comes. He kept chickens when he was young, so he knows what to do."
-           ],
-           [
-            "bf_alice",
-            "Isla",
-            "Do they lay an egg every day?"
-           ],
-           [
-            "bf_emma",
-            "Grandma",
-            "Not quite. In winter they lay fewer eggs, because the days are shorter."
+            "bm_fable",
+            "Kenji",
+            "Did you buy a peach tree, like last year?"
            ],
            [
             "bf_alice",
-            "Isla",
-            "What do they eat? Just corn?"
+            "Vy",
+            "Dad wanted one, but they were too expensive this year. Mum liked some big yellow flowers at the market, but they were too big for our flat. So in the end we bought a small kumquat tree. It's got lots of little orange fruit on it."
            ],
            [
-            "bf_emma",
-            "Grandma",
-            "Corn is only a treat. Most of the time they eat special pellets from the farm shop. They love vegetable peel, too. But never give them chocolate or salty food, because it can make them ill."
-           ],
-           [
-            "bf_alice",
-            "Isla",
-            "Can I feed them when I come at the weekend?"
-           ],
-           [
-            "bf_emma",
-            "Grandma",
-            "Of course. And you can collect the eggs. Then we'll make a cake together."
+            "bm_fable",
+            "Kenji",
+            "Nice. What's your favourite thing about Tet? The lucky money?"
            ],
            [
             "bf_alice",
-            "Isla",
-            "Yes! Can I give one of them a name?"
+            "Vy",
+            "Everyone thinks that! The lucky money is nice, but I love the food more. Grandma makes banh chung. It's soft and a bit chewy, and it's delicious. I could eat it every day!"
            ],
            [
-            "bf_emma",
-            "Grandma",
-            "They already have names, I'm afraid. But we're getting two more chicks in the spring. You can choose names for those."
+            "bm_fable",
+            "Kenji",
+            "Are you visiting your grandparents?"
            ],
            [
             "bf_alice",
-            "Isla",
-            "I'm going to start thinking of names now!"
+            "Vy",
+            "Yes, on the second day of Tet. They live in a village near the sea. But tomorrow morning I'm helping Dad hang the decorations."
+           ]
+          ]
+         }
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "5Ld.04"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Grandma had a plan first. Listen for <b>instead</b>."
+         },
+         "worked": "Oscar says \"<b>we went fishing in the river instead</b>\".",
+         "type": "mcq",
+         "q": "What did Oscar do with his grandma?",
+         "opts": [
+          "went fishing in the river",
+          "visited Grandma's old school",
+          "worked on the farm"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "The old school was closed.",
+          "Oscar wants to help on the farm next time, in the summer holiday."
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s5-a-1a",
+          "kind": "audio",
+          "head": "Listen to Pia and Oscar talking about Oscar's weekend in a village.",
+          "lines": [
+           [
+            "bf_lily",
+            "Pia",
+            "Hi, Oscar. Did you have a good weekend?"
            ],
            [
-            "bf_emma",
-            "Grandma",
-            "Good! But remember, a chicken's name should be short and easy to call."
+            "bm_lewis",
+            "Oscar",
+            "Yes, thanks. I went to my grandparents' village. My cousin was going to come with us, but she had a cold. And Mum had to work. So I just went with my dad."
+           ],
+           [
+            "bf_lily",
+            "Pia",
+            "What's the village like?"
+           ],
+           [
+            "bm_lewis",
+            "Oscar",
+            "Very quiet. There used to be a big market there, and lots of shops. Grandpa says it was really busy when he was young. But now there's only one small shop."
+           ],
+           [
+            "bf_lily",
+            "Pia",
+            "So what did you do there?"
+           ],
+           [
+            "bm_lewis",
+            "Oscar",
+            "Grandma wanted to show me her old school, but it was closed. So we went fishing in the river instead. I caught two fish!"
+           ],
+           [
+            "bf_lily",
+            "Pia",
+            "Did you eat them?"
+           ],
+           [
+            "bm_lewis",
+            "Oscar",
+            "Yes! Grandma cooked them for dinner with some rice. They were delicious."
+           ],
+           [
+            "bf_lily",
+            "Pia",
+            "Well done! Are you going back soon?"
+           ],
+           [
+            "bm_lewis",
+            "Oscar",
+            "In the summer holiday. Next time, I want to help Grandpa on his farm. He grows rice and vegetables."
+           ]
+          ]
+         }
+        },
+        {
+         "hint": {
+          "step": "Listen for the word <b>tomorrow</b>."
+         },
+         "worked": "Vy says \"<b>tomorrow morning I'm helping Dad hang the decorations</b>\".",
+         "type": "mcq",
+         "q": "What is Vy going to do tomorrow?",
+         "opts": [
+          "help Dad with decorations",
+          "visit her grandparents' village",
+          "help Grandma cook"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "Vy is visiting her grandparents on the second day of Tet, not tomorrow.",
+          "Grandma makes the banh chung, but Vy doesn't say she is helping."
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s5-a-1b",
+          "kind": "audio",
+          "head": "Listen to Kenji and Vy talking about getting ready for Tet.",
+          "lines": [
+           [
+            "bm_fable",
+            "Kenji",
+            "Vy, is your family ready for Tet?"
+           ],
+           [
+            "bf_alice",
+            "Vy",
+            "Nearly! Yesterday we cleaned the whole flat. It took all day."
+           ],
+           [
+            "bm_fable",
+            "Kenji",
+            "Did you buy a peach tree, like last year?"
+           ],
+           [
+            "bf_alice",
+            "Vy",
+            "Dad wanted one, but they were too expensive this year. Mum liked some big yellow flowers at the market, but they were too big for our flat. So in the end we bought a small kumquat tree. It's got lots of little orange fruit on it."
+           ],
+           [
+            "bm_fable",
+            "Kenji",
+            "Nice. What's your favourite thing about Tet? The lucky money?"
+           ],
+           [
+            "bf_alice",
+            "Vy",
+            "Everyone thinks that! The lucky money is nice, but I love the food more. Grandma makes banh chung. It's soft and a bit chewy, and it's delicious. I could eat it every day!"
+           ],
+           [
+            "bm_fable",
+            "Kenji",
+            "Are you visiting your grandparents?"
+           ],
+           [
+            "bf_alice",
+            "Vy",
+            "Yes, on the second day of Tet. They live in a village near the sea. But tomorrow morning I'm helping Dad hang the decorations."
            ]
           ]
          }
@@ -2111,208 +2197,143 @@
     },
     {
      "title": {
-      "en": "Part 3: opinions and reasons",
-      "vi": "Phần 3: ý kiến và lý do"
+      "en": "Part 3: likes and reasons",
+      "vi": "Phần 3: điều thích và lý do"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ld.05"
+        "5Ld.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "Listen for the opinion word <b>boring</b>, then work out what <b>that</b> means in the sentence before it."
+          "step": "Be careful: two foods are talked about. Find the reason for the smoothies."
          },
-         "worked": "It took three hours and \"we had to <b>wait</b> the whole time. Actually, <b>that was the boring part</b>.\"",
+         "worked": "Huy says \"We did, but <b>the school blender was broken</b>\".",
          "type": "mcq",
-         "q": "Which part did Kenji find boring?",
+         "q": "Why didn't Huy's class make smoothies?",
          "opts": [
-          "waiting for the printer",
-          "choosing from the website",
-          "watching the model grow"
+          "The blender was broken.",
+          "They had too much sugar.",
+          "The teacher said no."
          ],
          "at": 1,
          "whys": [
           null,
-          "Kenji chose the model from the website, but he doesn't say it was boring.",
-          "Kenji says watching it grow was exciting at the start."
+          "The teacher said pancakes had too much sugar, not smoothies.",
+          "The teacher said no to pancakes, not to smoothies."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-a-2a",
           "kind": "audio",
-          "head": "Listen to Kenji talking to his aunt about the library.",
+          "head": "Listen to Eva and Huy talking about Healthy Food Week at school.",
           "lines": [
            [
-            "bf_isabella",
-            "Aunt Clara",
-            "Kenji, your mum says you've been to the new maker room at the library. What's it like?"
+            "bf_lily",
+            "Eva",
+            "Huy, did you go to the food stalls in the hall today?"
            ],
            [
             "bm_fable",
-            "Kenji",
-            "It's brilliant! They've got a 3D printer, a sewing machine and lots of tools. I went on Saturday with my friend."
+            "Huy",
+            "Yes! It's Healthy Food Week, so every class made something. My class made fruit salad."
            ],
            [
-            "bf_isabella",
-            "Aunt Clara",
-            "Did you have to book?"
-           ],
-           [
-            "bm_fable",
-            "Kenji",
-            "Yes, you book online. There's a helper there called Mr Hall, who shows you what to do."
-           ],
-           [
-            "bf_isabella",
-            "Aunt Clara",
-            "So what did you make with the 3D printer?"
+            "bf_lily",
+            "Eva",
+            "Fruit salad? I thought you wanted to make smoothies."
            ],
            [
             "bm_fable",
-            "Kenji",
-            "A small dinosaur for my little brother. I chose it from a website, and the printer made it out of plastic, layer by layer."
+            "Huy",
+            "We did, but the school blender was broken. Some people wanted pancakes, but the teacher said they had too much sugar. So fruit salad was the best idea."
            ],
            [
-            "bf_isabella",
-            "Aunt Clara",
-            "That sounds amazing. Was it quick?"
-           ],
-           [
-            "bm_fable",
-            "Kenji",
-            "Not at all! It took nearly three hours, and we had to wait the whole time. Actually, that was the boring part. Watching it grow was exciting at the start, though."
-           ],
-           [
-            "bf_isabella",
-            "Aunt Clara",
-            "Would you go again?"
+            "bf_lily",
+            "Eva",
+            "What did you try at the other stalls?"
            ],
            [
             "bm_fable",
-            "Kenji",
-            "Definitely. Although the printer is slow, it's free for children, so it's worth it. Next time I want to design my own model instead of choosing one from the website."
+            "Huy",
+            "I had some rice cakes and some vegetable soup. The rice cakes were OK, but the soup was the best thing. It had carrots and beans in it."
            ],
            [
-            "bf_isabella",
-            "Aunt Clara",
-            "And what about the sewing machine?"
-           ],
-           [
-            "bm_fable",
-            "Kenji",
-            "I'm not keen on sewing, to be honest. My friend made a bag with it, but she says it was harder than it looked."
-           ],
-           [
-            "bf_isabella",
-            "Aunt Clara",
-            "Well, I'd love to see your dinosaur."
+            "bf_lily",
+            "Eva",
+            "Did you try the fish balls from Class 4B?"
            ],
            [
             "bm_fable",
-            "Kenji",
-            "I'll bring it on Sunday. My brother keeps it next to his bed!"
+            "Huy",
+            "Yes. They were too salty for me. Next week we're making a poster about the food plate. My friend is drawing the fruit and vegetables, and another boy is doing the grains. I'm drawing the dairy part: milk, cheese and yoghurt."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "The question asks <b>why</b>. Listen for <b>because</b> after the speaker names her favourite."
+          "step": "Mum guessed first. Listen to what the doctor said."
          },
-         "worked": "Priya says it was her favourite \"<b>because I'd never cooked fish before</b>\".",
+         "worked": "Freya says \"<b>the doctor said it was flu</b>\".",
          "type": "mcq",
-         "q": "Why was the fish with rice Priya's favourite?",
+         "q": "What was wrong with Freya?",
          "opts": [
-          "She had never cooked fish before.",
-          "It was the easiest to make.",
-          "It looked very pretty."
+          "She had flu.",
+          "She was just very tired.",
+          "She needed more water."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
-          "The vegetable soup was the easiest thing to make, not the fish.",
-          "The fruit salad looked pretty, not the fish."
+          "Mum thought she was tired, but that was wrong.",
+          "Mum thought she needed more water, but the doctor said something else."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-a-2b",
           "kind": "audio",
-          "head": "Listen to Leo and Priya talking about a cooking course.",
+          "head": "Listen to Dan and Freya talking about why Freya missed a class trip.",
           "lines": [
            [
             "bm_lewis",
-            "Leo",
-            "Hi Priya! How was your cooking course in the holidays?"
+            "Dan",
+            "Freya! You weren't at school yesterday. We missed you on the trip to the zoo."
            ],
            [
             "bf_lily",
-            "Priya",
-            "Hi Leo! It was great, thanks. It lasted five days, and we cooked something healthy every day."
+            "Freya",
+            "I know. I was really sad. On Monday I had a headache. Mum thought I was just tired, or I needed more water. But then I got a fever in the night, and the doctor said it was flu."
            ],
            [
             "bm_lewis",
-            "Leo",
-            "Where was it?"
+            "Dan",
+            "Poor you. Were you bored at home?"
            ],
            [
             "bf_lily",
-            "Priya",
-            "At the community centre near my school. There were twelve children, and we worked in pairs."
+            "Freya",
+            "At first, yes. I couldn't watch TV, because my eyes hurt. Mum brought me water and soup. But the nicest thing was my brother. He read me a story for an hour! He's usually quite selfish."
            ],
            [
             "bm_lewis",
-            "Leo",
-            "What was the best thing you made?"
+            "Dan",
+            "Ha! Well, the zoo was great. The best part was the elephants. But the penguins weren't there. That part of the zoo was closed."
            ],
            [
             "bf_lily",
-            "Priya",
-            "Well, the vegetable soup was the easiest, and the fruit salad looked really pretty. But my favourite was the fish with rice, because I'd never cooked fish before, and it tasted amazing."
+            "Freya",
+            "Oh, I love penguins!"
            ],
            [
             "bm_lewis",
-            "Leo",
-            "I don't really like fish. Did you have to eat everything?"
-           ],
-           [
-            "bf_lily",
-            "Priya",
-            "No, the teacher said we only had to try a little. Actually, she was really kind. She was a chef in a hotel before, so she knew lots of tricks."
-           ],
-           [
-            "bm_lewis",
-            "Leo",
-            "Was anything difficult?"
-           ],
-           [
-            "bf_lily",
-            "Priya",
-            "Cutting onions! My eyes cried every time. Although the knives were sharp, nobody cut their fingers. The teacher was very careful."
-           ],
-           [
-            "bm_lewis",
-            "Leo",
-            "Would you recommend it? My mum wants me to do something in the summer."
-           ],
-           [
-            "bf_lily",
-            "Priya",
-            "Yes, I'd recommend it. It's a bit expensive, but you take home a recipe book, and you learn things you'll use all your life. My dad's happy too, because now I cook dinner on Sundays!"
-           ],
-           [
-            "bm_lewis",
-            "Leo",
-            "Then I'll tell Mum about it tonight. Can you send me the name of the course?"
-           ],
-           [
-            "bf_lily",
-            "Priya",
-            "Sure, I'll message you later."
+            "Dan",
+            "Don't worry. Our teacher says we're going to the aquarium next month. There are penguins there too."
            ]
           ]
          }
@@ -2322,201 +2343,136 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.05"
+        "5Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "The question asks <b>why</b>. Listen for <b>so</b>, because the reason often comes just before it."
+          "step": "Listen for <b>the best thing</b>."
          },
-         "worked": "Kenji says \"<b>it's free for children, so it's worth it</b>\".",
+         "worked": "Huy says \"<b>the soup was the best thing</b>\".",
          "type": "mcq",
-         "q": "Why does Kenji think the maker room is worth it?",
+         "q": "What did Huy like best at the other stalls?",
          "opts": [
-          "Children don't pay.",
-          "The printer works very fast.",
-          "He can make bags there."
+          "the vegetable soup",
+          "the rice cakes",
+          "the fish balls"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "Huy says the rice cakes were only OK.",
+          "Huy says the fish balls were too salty for him."
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s5-a-2a",
+          "kind": "audio",
+          "head": "Listen to Eva and Huy talking about Healthy Food Week at school.",
+          "lines": [
+           [
+            "bf_lily",
+            "Eva",
+            "Huy, did you go to the food stalls in the hall today?"
+           ],
+           [
+            "bm_fable",
+            "Huy",
+            "Yes! It's Healthy Food Week, so every class made something. My class made fruit salad."
+           ],
+           [
+            "bf_lily",
+            "Eva",
+            "Fruit salad? I thought you wanted to make smoothies."
+           ],
+           [
+            "bm_fable",
+            "Huy",
+            "We did, but the school blender was broken. Some people wanted pancakes, but the teacher said they had too much sugar. So fruit salad was the best idea."
+           ],
+           [
+            "bf_lily",
+            "Eva",
+            "What did you try at the other stalls?"
+           ],
+           [
+            "bm_fable",
+            "Huy",
+            "I had some rice cakes and some vegetable soup. The rice cakes were OK, but the soup was the best thing. It had carrots and beans in it."
+           ],
+           [
+            "bf_lily",
+            "Eva",
+            "Did you try the fish balls from Class 4B?"
+           ],
+           [
+            "bm_fable",
+            "Huy",
+            "Yes. They were too salty for me. Next week we're making a poster about the food plate. My friend is drawing the fruit and vegetables, and another boy is doing the grains. I'm drawing the dairy part: milk, cheese and yoghurt."
+           ]
+          ]
+         }
+        },
+        {
+         "hint": {
+          "step": "Listen for <b>the nicest thing</b>."
+         },
+         "worked": "Freya says \"<b>my brother. He read me a story</b> for an hour!\"",
+         "type": "mcq",
+         "q": "Why was Freya pleased with her brother?",
+         "opts": [
+          "He read her a story.",
+          "He brought her some soup.",
+          "He let her watch TV."
          ],
          "at": 2,
          "whys": [
           null,
-          "Kenji says the printer is slow, not fast.",
-          "His friend made a bag, but that is not why Kenji thinks it's worth it."
-         ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s5-a-2a",
-          "kind": "audio",
-          "head": "Listen to Kenji talking to his aunt about the library.",
-          "lines": [
-           [
-            "bf_isabella",
-            "Aunt Clara",
-            "Kenji, your mum says you've been to the new maker room at the library. What's it like?"
-           ],
-           [
-            "bm_fable",
-            "Kenji",
-            "It's brilliant! They've got a 3D printer, a sewing machine and lots of tools. I went on Saturday with my friend."
-           ],
-           [
-            "bf_isabella",
-            "Aunt Clara",
-            "Did you have to book?"
-           ],
-           [
-            "bm_fable",
-            "Kenji",
-            "Yes, you book online. There's a helper there called Mr Hall, who shows you what to do."
-           ],
-           [
-            "bf_isabella",
-            "Aunt Clara",
-            "So what did you make with the 3D printer?"
-           ],
-           [
-            "bm_fable",
-            "Kenji",
-            "A small dinosaur for my little brother. I chose it from a website, and the printer made it out of plastic, layer by layer."
-           ],
-           [
-            "bf_isabella",
-            "Aunt Clara",
-            "That sounds amazing. Was it quick?"
-           ],
-           [
-            "bm_fable",
-            "Kenji",
-            "Not at all! It took nearly three hours, and we had to wait the whole time. Actually, that was the boring part. Watching it grow was exciting at the start, though."
-           ],
-           [
-            "bf_isabella",
-            "Aunt Clara",
-            "Would you go again?"
-           ],
-           [
-            "bm_fable",
-            "Kenji",
-            "Definitely. Although the printer is slow, it's free for children, so it's worth it. Next time I want to design my own model instead of choosing one from the website."
-           ],
-           [
-            "bf_isabella",
-            "Aunt Clara",
-            "And what about the sewing machine?"
-           ],
-           [
-            "bm_fable",
-            "Kenji",
-            "I'm not keen on sewing, to be honest. My friend made a bag with it, but she says it was harder than it looked."
-           ],
-           [
-            "bf_isabella",
-            "Aunt Clara",
-            "Well, I'd love to see your dinosaur."
-           ],
-           [
-            "bm_fable",
-            "Kenji",
-            "I'll bring it on Sunday. My brother keeps it next to his bed!"
-           ]
-          ]
-         }
-        },
-        {
-         "hint": {
-          "step": "Listen for describing words about the teacher, and check the time words <b>before</b> and <b>now</b>."
-         },
-         "worked": "Priya says \"<b>she was really kind</b>\" and \"<b>she knew lots of tricks</b>\".",
-         "type": "mcq",
-         "q": "What does Priya say about the teacher?",
-         "opts": [
-          "She was kind and knew a lot.",
-          "She made them eat everything.",
-          "She works in a hotel now."
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "The teacher said they only had to try a little.",
-          "The teacher was a chef in a hotel *before*, not now."
+          "Mum brought Freya the water and soup, not her brother.",
+          "Freya couldn't watch TV because her eyes hurt."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-a-2b",
           "kind": "audio",
-          "head": "Listen to Leo and Priya talking about a cooking course.",
+          "head": "Listen to Dan and Freya talking about why Freya missed a class trip.",
           "lines": [
            [
             "bm_lewis",
-            "Leo",
-            "Hi Priya! How was your cooking course in the holidays?"
+            "Dan",
+            "Freya! You weren't at school yesterday. We missed you on the trip to the zoo."
            ],
            [
             "bf_lily",
-            "Priya",
-            "Hi Leo! It was great, thanks. It lasted five days, and we cooked something healthy every day."
+            "Freya",
+            "I know. I was really sad. On Monday I had a headache. Mum thought I was just tired, or I needed more water. But then I got a fever in the night, and the doctor said it was flu."
            ],
            [
             "bm_lewis",
-            "Leo",
-            "Where was it?"
+            "Dan",
+            "Poor you. Were you bored at home?"
            ],
            [
             "bf_lily",
-            "Priya",
-            "At the community centre near my school. There were twelve children, and we worked in pairs."
+            "Freya",
+            "At first, yes. I couldn't watch TV, because my eyes hurt. Mum brought me water and soup. But the nicest thing was my brother. He read me a story for an hour! He's usually quite selfish."
            ],
            [
             "bm_lewis",
-            "Leo",
-            "What was the best thing you made?"
+            "Dan",
+            "Ha! Well, the zoo was great. The best part was the elephants. But the penguins weren't there. That part of the zoo was closed."
            ],
            [
             "bf_lily",
-            "Priya",
-            "Well, the vegetable soup was the easiest, and the fruit salad looked really pretty. But my favourite was the fish with rice, because I'd never cooked fish before, and it tasted amazing."
+            "Freya",
+            "Oh, I love penguins!"
            ],
            [
             "bm_lewis",
-            "Leo",
-            "I don't really like fish. Did you have to eat everything?"
-           ],
-           [
-            "bf_lily",
-            "Priya",
-            "No, the teacher said we only had to try a little. Actually, she was really kind. She was a chef in a hotel before, so she knew lots of tricks."
-           ],
-           [
-            "bm_lewis",
-            "Leo",
-            "Was anything difficult?"
-           ],
-           [
-            "bf_lily",
-            "Priya",
-            "Cutting onions! My eyes cried every time. Although the knives were sharp, nobody cut their fingers. The teacher was very careful."
-           ],
-           [
-            "bm_lewis",
-            "Leo",
-            "Would you recommend it? My mum wants me to do something in the summer."
-           ],
-           [
-            "bf_lily",
-            "Priya",
-            "Yes, I'd recommend it. It's a bit expensive, but you take home a recipe book, and you learn things you'll use all your life. My dad's happy too, because now I cook dinner on Sundays!"
-           ],
-           [
-            "bm_lewis",
-            "Leo",
-            "Then I'll tell Mum about it tonight. Can you send me the name of the course?"
-           ],
-           [
-            "bf_lily",
-            "Priya",
-            "Sure, I'll message you later."
+            "Dan",
+            "Don't worry. Our teacher says we're going to the aquarium next month. There are penguins there too."
            ]
           ]
          }
@@ -2526,201 +2482,136 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.05"
+        "5Lm.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "The question says <b>next time</b>. Listen for future words, and for <b>instead of</b>, which tells you what he won't do."
+          "step": "Three parts of the food plate are said. Which one is Huy's?"
          },
-         "worked": "Kenji says \"<b>Next time I want to design my own model</b>\".",
+         "worked": "Huy says \"<b>I'm drawing the dairy part</b>: milk, cheese and yoghurt\".",
          "type": "mcq",
-         "q": "What does Kenji want to do next time?",
+         "q": "Which part of the poster will Huy draw?",
          "opts": [
-          "design his own model",
-          "try the sewing machine",
-          "choose a model from the website"
+          "the dairy food",
+          "the fruit and vegetables",
+          "the grains"
          ],
          "at": 1,
          "whys": [
           null,
-          "Kenji says he's not keen on sewing.",
-          "Kenji wants to stop choosing from the website and try something new."
+          "Huy's friend is drawing the fruit and vegetables.",
+          "Another boy is doing the grains."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-a-2a",
           "kind": "audio",
-          "head": "Listen to Kenji talking to his aunt about the library.",
+          "head": "Listen to Eva and Huy talking about Healthy Food Week at school.",
           "lines": [
            [
-            "bf_isabella",
-            "Aunt Clara",
-            "Kenji, your mum says you've been to the new maker room at the library. What's it like?"
+            "bf_lily",
+            "Eva",
+            "Huy, did you go to the food stalls in the hall today?"
            ],
            [
             "bm_fable",
-            "Kenji",
-            "It's brilliant! They've got a 3D printer, a sewing machine and lots of tools. I went on Saturday with my friend."
+            "Huy",
+            "Yes! It's Healthy Food Week, so every class made something. My class made fruit salad."
            ],
            [
-            "bf_isabella",
-            "Aunt Clara",
-            "Did you have to book?"
-           ],
-           [
-            "bm_fable",
-            "Kenji",
-            "Yes, you book online. There's a helper there called Mr Hall, who shows you what to do."
-           ],
-           [
-            "bf_isabella",
-            "Aunt Clara",
-            "So what did you make with the 3D printer?"
+            "bf_lily",
+            "Eva",
+            "Fruit salad? I thought you wanted to make smoothies."
            ],
            [
             "bm_fable",
-            "Kenji",
-            "A small dinosaur for my little brother. I chose it from a website, and the printer made it out of plastic, layer by layer."
+            "Huy",
+            "We did, but the school blender was broken. Some people wanted pancakes, but the teacher said they had too much sugar. So fruit salad was the best idea."
            ],
            [
-            "bf_isabella",
-            "Aunt Clara",
-            "That sounds amazing. Was it quick?"
-           ],
-           [
-            "bm_fable",
-            "Kenji",
-            "Not at all! It took nearly three hours, and we had to wait the whole time. Actually, that was the boring part. Watching it grow was exciting at the start, though."
-           ],
-           [
-            "bf_isabella",
-            "Aunt Clara",
-            "Would you go again?"
+            "bf_lily",
+            "Eva",
+            "What did you try at the other stalls?"
            ],
            [
             "bm_fable",
-            "Kenji",
-            "Definitely. Although the printer is slow, it's free for children, so it's worth it. Next time I want to design my own model instead of choosing one from the website."
+            "Huy",
+            "I had some rice cakes and some vegetable soup. The rice cakes were OK, but the soup was the best thing. It had carrots and beans in it."
            ],
            [
-            "bf_isabella",
-            "Aunt Clara",
-            "And what about the sewing machine?"
-           ],
-           [
-            "bm_fable",
-            "Kenji",
-            "I'm not keen on sewing, to be honest. My friend made a bag with it, but she says it was harder than it looked."
-           ],
-           [
-            "bf_isabella",
-            "Aunt Clara",
-            "Well, I'd love to see your dinosaur."
+            "bf_lily",
+            "Eva",
+            "Did you try the fish balls from Class 4B?"
            ],
            [
             "bm_fable",
-            "Kenji",
-            "I'll bring it on Sunday. My brother keeps it next to his bed!"
+            "Huy",
+            "Yes. They were too salty for me. Next week we're making a poster about the food plate. My friend is drawing the fruit and vegetables, and another boy is doing the grains. I'm drawing the dairy part: milk, cheese and yoghurt."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Listen for <b>but</b> after a problem. Speakers often give a bad point first and then their real reason."
+          "step": "Listen for the words <b>next month</b>."
          },
-         "worked": "Priya says \"<b>you learn things you'll use all your life</b>\".",
+         "worked": "Dan says \"<b>we're going to the aquarium next month</b>\".",
          "type": "mcq",
-         "q": "Why does Priya recommend the course?",
+         "q": "What will Freya's class do next month?",
          "opts": [
-          "You learn useful skills.",
-          "It is not expensive.",
-          "The teacher was a hotel chef."
+          "go to an aquarium",
+          "go back to the zoo",
+          "see the elephants again"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
-          "Priya says the course is a bit expensive.",
-          "The teacher was a chef before, but Priya doesn't give this as her reason."
+          "The class went to the zoo yesterday. They aren't going back.",
+          "Dan saw the elephants at the zoo yesterday."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-a-2b",
           "kind": "audio",
-          "head": "Listen to Leo and Priya talking about a cooking course.",
+          "head": "Listen to Dan and Freya talking about why Freya missed a class trip.",
           "lines": [
            [
             "bm_lewis",
-            "Leo",
-            "Hi Priya! How was your cooking course in the holidays?"
+            "Dan",
+            "Freya! You weren't at school yesterday. We missed you on the trip to the zoo."
            ],
            [
             "bf_lily",
-            "Priya",
-            "Hi Leo! It was great, thanks. It lasted five days, and we cooked something healthy every day."
+            "Freya",
+            "I know. I was really sad. On Monday I had a headache. Mum thought I was just tired, or I needed more water. But then I got a fever in the night, and the doctor said it was flu."
            ],
            [
             "bm_lewis",
-            "Leo",
-            "Where was it?"
+            "Dan",
+            "Poor you. Were you bored at home?"
            ],
            [
             "bf_lily",
-            "Priya",
-            "At the community centre near my school. There were twelve children, and we worked in pairs."
+            "Freya",
+            "At first, yes. I couldn't watch TV, because my eyes hurt. Mum brought me water and soup. But the nicest thing was my brother. He read me a story for an hour! He's usually quite selfish."
            ],
            [
             "bm_lewis",
-            "Leo",
-            "What was the best thing you made?"
+            "Dan",
+            "Ha! Well, the zoo was great. The best part was the elephants. But the penguins weren't there. That part of the zoo was closed."
            ],
            [
             "bf_lily",
-            "Priya",
-            "Well, the vegetable soup was the easiest, and the fruit salad looked really pretty. But my favourite was the fish with rice, because I'd never cooked fish before, and it tasted amazing."
+            "Freya",
+            "Oh, I love penguins!"
            ],
            [
             "bm_lewis",
-            "Leo",
-            "I don't really like fish. Did you have to eat everything?"
-           ],
-           [
-            "bf_lily",
-            "Priya",
-            "No, the teacher said we only had to try a little. Actually, she was really kind. She was a chef in a hotel before, so she knew lots of tricks."
-           ],
-           [
-            "bm_lewis",
-            "Leo",
-            "Was anything difficult?"
-           ],
-           [
-            "bf_lily",
-            "Priya",
-            "Cutting onions! My eyes cried every time. Although the knives were sharp, nobody cut their fingers. The teacher was very careful."
-           ],
-           [
-            "bm_lewis",
-            "Leo",
-            "Would you recommend it? My mum wants me to do something in the summer."
-           ],
-           [
-            "bf_lily",
-            "Priya",
-            "Yes, I'd recommend it. It's a bit expensive, but you take home a recipe book, and you learn things you'll use all your life. My dad's happy too, because now I cook dinner on Sundays!"
-           ],
-           [
-            "bm_lewis",
-            "Leo",
-            "Then I'll tell Mum about it tonight. Can you send me the name of the course?"
-           ],
-           [
-            "bf_lily",
-            "Priya",
-            "Sure, I'll message you later."
+            "Dan",
+            "Don't worry. Our teacher says we're going to the aquarium next month. There are penguins there too."
            ]
           ]
          }
@@ -2738,206 +2629,146 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "5Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Elena guesses first. Listen to Sami's answer, then for <b>Then</b>, which tells you what happened next."
+          "step": "Noah guesses first. Listen to Wren's answer."
          },
-         "worked": "\"<b>We watched a nature programme on TV</b> about kingfishers, and I asked him if I could go.\"",
+         "worked": "Wren says \"<b>It was the lady who lives next door</b>\".",
          "type": "mcq",
-         "q": "How did Sami become interested in bird-watching?",
+         "q": "Whose idea was the clean-up?",
          "opts": [
-          "He watched a programme on TV.",
-          "He read about it.",
-          "His dad asked him to come."
+          "Wren's neighbour's",
+          "Wren's own",
+          "Wren's dad's"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
-          "Elena asks this, but Sami says \"Not really\".",
-          "Sami says his dad *never* asked him to come."
+          "Noah guesses it was Wren's idea, but she says \"No, I wish!\"",
+          "Wren's dad came to help, but it wasn't his idea."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-a-3a",
           "kind": "audio",
-          "head": "Listen to Elena and Sami talking about the weekend.",
+          "head": "Listen to Noah and Wren talking about a clean-up day in a park.",
           "lines": [
            [
-            "bf_alice",
-            "Elena",
-            "Sami, you look tired. Did you go to bed late?"
-           ],
-           [
             "bm_lewis",
-            "Sami",
-            "No, the opposite! I got up at half past five on Sunday. My dad took me bird-watching at the lake in Green Park."
+            "Noah",
+            "Wren, what did you do on Sunday?"
            ],
            [
             "bf_alice",
-            "Elena",
-            "Half past five? Why so early?"
+            "Wren",
+            "I helped to clean the park near my flat. There was lots of rubbish everywhere after the festival."
            ],
            [
             "bm_lewis",
-            "Sami",
-            "Dad says birds are busiest early in the morning, when they're looking for food. By lunchtime most of them are hiding from the heat."
+            "Noah",
+            "Was it your idea?"
            ],
            [
             "bf_alice",
-            "Elena",
-            "How did you get into bird-watching? Did you read about it?"
+            "Wren",
+            "No, I wish! It was the lady who lives next door. She's really kind. She asked everyone in our building. Even my dad came, and he never gets up early on Sundays!"
            ],
            [
             "bm_lewis",
-            "Sami",
-            "Not really. My dad's done it for years, but he never asked me to come. Then we watched a nature programme on TV about kingfishers, and I asked him if I could go."
+            "Noah",
+            "Was it hard work?"
            ],
            [
             "bf_alice",
-            "Elena",
-            "So did you see a kingfisher?"
+            "Wren",
+            "Yes, but it was fun. We picked up bottles and paper for three hours. The worst part was the smell near the bins. I hated that!"
            ],
            [
             "bm_lewis",
-            "Sami",
-            "No, sadly. We saw a family of ducks, a heron standing in the water, and a flock of little green birds in the trees. The heron was my favourite. It stood completely still for ten minutes, then it caught a fish really fast!"
+            "Noah",
+            "Yuck! So what happens next?"
            ],
            [
             "bf_alice",
-            "Elena",
-            "How did you see them so well?"
+            "Wren",
+            "My neighbour wanted to plant flowers, but there isn't any money for flowers yet. And we don't need to clean again until the summer. So next month we're painting the old benches green. You can come if you like!"
            ],
            [
             "bm_lewis",
-            "Sami",
-            "Dad lent me his binoculars. They're heavy, but you can see every feather."
-           ],
-           [
-            "bf_alice",
-            "Elena",
-            "Cool. Are you going back to the lake?"
-           ],
-           [
-            "bm_lewis",
-            "Sami",
-            "Not next time. We're going to a forest instead, because Dad wants to look for owls. I'm going to take my own notebook and draw what I see."
-           ],
-           [
-            "bf_alice",
-            "Elena",
-            "Can I see your drawings when you've finished?"
-           ],
-           [
-            "bm_lewis",
-            "Sami",
-            "Of course!"
+            "Noah",
+            "I'd love to. I'm good at painting."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "The question asks about time. Listen for <b>thought</b> and <b>but</b>, which show that a plan was different from what really happened."
+          "step": "Kenji guesses two people. Is he right?"
          },
-         "worked": "Mai says \"we thought it would take two hours, <b>but it took nearly three</b>\".",
+         "worked": "Pia says \"<b>My aunt</b>. She's a nurse at the children's hospital\".",
          "type": "mcq",
-         "q": "How long did the bike ride take?",
+         "q": "Who is Pia writing about?",
          "opts": [
-          "nearly three hours",
-          "two hours, as they planned",
-          "twenty kilometres"
+          "her aunt",
+          "a singer she likes",
+          "her grandma"
          ],
          "at": 2,
          "whys": [
           null,
-          "Two hours is what they *thought* it would take, but they stopped for a picnic.",
-          "Twenty kilometres is how far they rode, not how long it took."
+          "Pia was going to write about the singer, but she changed her mind.",
+          "Pia's brother is writing about Grandma, not Pia."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-a-3b",
           "kind": "audio",
-          "head": "Listen to Mai talking to her uncle about a bike ride.",
+          "head": "Listen to Kenji and Pia talking about a class project.",
           "lines": [
            [
-            "bm_george",
-            "Uncle Joe",
-            "Hi Mai! I hear you cycled all the way to the river last weekend."
+            "bm_fable",
+            "Kenji",
+            "Pia, who are you writing about for the project, 'A person I admire'?"
            ],
            [
             "bf_lily",
-            "Mai",
-            "Yes! With my cousin Huy and his mum. It was twenty kilometres there and back."
+            "Pia",
+            "My aunt. She's a nurse at the children's hospital."
            ],
            [
-            "bm_george",
-            "Uncle Joe",
-            "Twenty? That's a long way for your first big ride. Whose bike did you use?"
-           ],
-           [
-            "bf_lily",
-            "Mai",
-            "My own! Mum fixed the brakes the day before, so it was safe."
-           ],
-           [
-            "bm_george",
-            "Uncle Joe",
-            "Good. And how long did it take you?"
+            "bm_fable",
+            "Kenji",
+            "Really? I thought you were writing about that singer you like. Or your grandma."
            ],
            [
             "bf_lily",
-            "Mai",
-            "We thought it would take two hours, but it took nearly three, because we stopped for a picnic. And Huy wanted to stop every ten minutes!"
+            "Pia",
+            "I was going to write about the singer, but I don't really know anything about her. And my brother is writing about Grandma. My aunt is my real hero. She works at night, and she's always cheerful."
            ],
            [
-            "bm_george",
-            "Uncle Joe",
-            "Ha! Was it hard?"
-           ],
-           [
-            "bf_lily",
-            "Mai",
-            "The hill near the bridge was really hard. I had to get off and walk. My legs hurt the next day, but it was worth it. The view from the top was beautiful."
-           ],
-           [
-            "bm_george",
-            "Uncle Joe",
-            "Did you remember to take water? You need lots when you cycle."
+            "bm_fable",
+            "Kenji",
+            "Do you want to be a nurse too?"
            ],
            [
             "bf_lily",
-            "Mai",
-            "Yes, two bottles each. And Huy's mum made us wear helmets and bright jackets, so the cars could see us."
+            "Pia",
+            "Not really. I wanted to be a vet when I was little. But now I'm interested in being a doctor, because I love science."
            ],
            [
-            "bm_george",
-            "Uncle Joe",
-            "And food?"
-           ],
-           [
-            "bf_lily",
-            "Mai",
-            "Bananas and sandwiches. Huy's mum says bananas give you energy quickly."
-           ],
-           [
-            "bm_george",
-            "Uncle Joe",
-            "Very sensible. So, what's next?"
+            "bm_fable",
+            "Kenji",
+            "Are you going to interview your aunt?"
            ],
            [
             "bf_lily",
-            "Mai",
-            "I'd like to join a cycling club. There's one at school, but it's only for Grade 6. So instead, I'm going to ride with you on Sundays, if that's OK!"
-           ],
-           [
-            "bm_george",
-            "Uncle Joe",
-            "Of course it is! We can start this Sunday, if it's sunny."
+            "Pia",
+            "Yes, on Saturday. I wanted to do it at the hospital, but children can't go into the baby unit. And you can't do it at school at the weekend! So we're meeting at Grandma's house."
            ]
           ]
          }
@@ -2947,206 +2778,146 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.05"
+        "5Ld.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "Sami lists several birds. Wait for a word that matches <b>best</b> in the question."
+          "step": "The question says NOT. Listen for <b>the worst part</b>."
          },
-         "worked": "Sami says \"<b>The heron was my favourite</b>\".",
+         "worked": "Wren says \"<b>The worst part was the smell near the bins</b>. I hated that!\"",
          "type": "mcq",
-         "q": "Which bird did Sami like best?",
+         "q": "What did Wren NOT like about the clean-up?",
          "opts": [
-          "the heron",
-          "the kingfisher",
-          "the ducks"
+          "the smell near the bins",
+          "getting up early",
+          "picking up bottles"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "It was Wren's dad who doesn't like getting up early on Sundays.",
+          "Wren picked up bottles for three hours, and she says it was fun."
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s5-a-3a",
+          "kind": "audio",
+          "head": "Listen to Noah and Wren talking about a clean-up day in a park.",
+          "lines": [
+           [
+            "bm_lewis",
+            "Noah",
+            "Wren, what did you do on Sunday?"
+           ],
+           [
+            "bf_alice",
+            "Wren",
+            "I helped to clean the park near my flat. There was lots of rubbish everywhere after the festival."
+           ],
+           [
+            "bm_lewis",
+            "Noah",
+            "Was it your idea?"
+           ],
+           [
+            "bf_alice",
+            "Wren",
+            "No, I wish! It was the lady who lives next door. She's really kind. She asked everyone in our building. Even my dad came, and he never gets up early on Sundays!"
+           ],
+           [
+            "bm_lewis",
+            "Noah",
+            "Was it hard work?"
+           ],
+           [
+            "bf_alice",
+            "Wren",
+            "Yes, but it was fun. We picked up bottles and paper for three hours. The worst part was the smell near the bins. I hated that!"
+           ],
+           [
+            "bm_lewis",
+            "Noah",
+            "Yuck! So what happens next?"
+           ],
+           [
+            "bf_alice",
+            "Wren",
+            "My neighbour wanted to plant flowers, but there isn't any money for flowers yet. And we don't need to clean again until the summer. So next month we're painting the old benches green. You can come if you like!"
+           ],
+           [
+            "bm_lewis",
+            "Noah",
+            "I'd love to. I'm good at painting."
+           ]
+          ]
+         }
+        },
+        {
+         "hint": {
+          "step": "The question says <b>now</b>. Listen for <b>when I was little</b> and <b>now</b>."
+         },
+         "worked": "Pia says \"<b>now I'm interested in being a doctor</b>\".",
+         "type": "mcq",
+         "q": "What does Pia want to be now?",
+         "opts": [
+          "a doctor",
+          "a vet",
+          "a nurse"
          ],
          "at": 1,
          "whys": [
           null,
-          "Sami wanted to see a kingfisher, but sadly he didn't see one.",
-          "Sami saw some ducks, but they were not his favourite."
-         ],
-         "letters": true,
-         "fig": {
-          "k": "stim",
-          "id": "s5-a-3a",
-          "kind": "audio",
-          "head": "Listen to Elena and Sami talking about the weekend.",
-          "lines": [
-           [
-            "bf_alice",
-            "Elena",
-            "Sami, you look tired. Did you go to bed late?"
-           ],
-           [
-            "bm_lewis",
-            "Sami",
-            "No, the opposite! I got up at half past five on Sunday. My dad took me bird-watching at the lake in Green Park."
-           ],
-           [
-            "bf_alice",
-            "Elena",
-            "Half past five? Why so early?"
-           ],
-           [
-            "bm_lewis",
-            "Sami",
-            "Dad says birds are busiest early in the morning, when they're looking for food. By lunchtime most of them are hiding from the heat."
-           ],
-           [
-            "bf_alice",
-            "Elena",
-            "How did you get into bird-watching? Did you read about it?"
-           ],
-           [
-            "bm_lewis",
-            "Sami",
-            "Not really. My dad's done it for years, but he never asked me to come. Then we watched a nature programme on TV about kingfishers, and I asked him if I could go."
-           ],
-           [
-            "bf_alice",
-            "Elena",
-            "So did you see a kingfisher?"
-           ],
-           [
-            "bm_lewis",
-            "Sami",
-            "No, sadly. We saw a family of ducks, a heron standing in the water, and a flock of little green birds in the trees. The heron was my favourite. It stood completely still for ten minutes, then it caught a fish really fast!"
-           ],
-           [
-            "bf_alice",
-            "Elena",
-            "How did you see them so well?"
-           ],
-           [
-            "bm_lewis",
-            "Sami",
-            "Dad lent me his binoculars. They're heavy, but you can see every feather."
-           ],
-           [
-            "bf_alice",
-            "Elena",
-            "Cool. Are you going back to the lake?"
-           ],
-           [
-            "bm_lewis",
-            "Sami",
-            "Not next time. We're going to a forest instead, because Dad wants to look for owls. I'm going to take my own notebook and draw what I see."
-           ],
-           [
-            "bf_alice",
-            "Elena",
-            "Can I see your drawings when you've finished?"
-           ],
-           [
-            "bm_lewis",
-            "Sami",
-            "Of course!"
-           ]
-          ]
-         }
-        },
-        {
-         "hint": {
-          "step": "Mai talks about a problem first. Listen for <b>but</b> to hear her overall opinion."
-         },
-         "worked": "Mai says \"My legs hurt the next day, <b>but it was worth it</b>\".",
-         "type": "mcq",
-         "q": "What does Mai think about the ride?",
-         "opts": [
-          "The hard parts were worth it.",
-          "Her legs hurt too much to enjoy it.",
-          "The picnic was the best part."
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "Mai's legs hurt the next day, but she still says it was worth it.",
-          "They stopped for a picnic, but Mai doesn't say it was the best part."
+          "Pia wanted to be a vet when she was little.",
+          "Her aunt is a nurse, but Pia says \"Not really\"."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-a-3b",
           "kind": "audio",
-          "head": "Listen to Mai talking to her uncle about a bike ride.",
+          "head": "Listen to Kenji and Pia talking about a class project.",
           "lines": [
            [
-            "bm_george",
-            "Uncle Joe",
-            "Hi Mai! I hear you cycled all the way to the river last weekend."
+            "bm_fable",
+            "Kenji",
+            "Pia, who are you writing about for the project, 'A person I admire'?"
            ],
            [
             "bf_lily",
-            "Mai",
-            "Yes! With my cousin Huy and his mum. It was twenty kilometres there and back."
+            "Pia",
+            "My aunt. She's a nurse at the children's hospital."
            ],
            [
-            "bm_george",
-            "Uncle Joe",
-            "Twenty? That's a long way for your first big ride. Whose bike did you use?"
-           ],
-           [
-            "bf_lily",
-            "Mai",
-            "My own! Mum fixed the brakes the day before, so it was safe."
-           ],
-           [
-            "bm_george",
-            "Uncle Joe",
-            "Good. And how long did it take you?"
+            "bm_fable",
+            "Kenji",
+            "Really? I thought you were writing about that singer you like. Or your grandma."
            ],
            [
             "bf_lily",
-            "Mai",
-            "We thought it would take two hours, but it took nearly three, because we stopped for a picnic. And Huy wanted to stop every ten minutes!"
+            "Pia",
+            "I was going to write about the singer, but I don't really know anything about her. And my brother is writing about Grandma. My aunt is my real hero. She works at night, and she's always cheerful."
            ],
            [
-            "bm_george",
-            "Uncle Joe",
-            "Ha! Was it hard?"
-           ],
-           [
-            "bf_lily",
-            "Mai",
-            "The hill near the bridge was really hard. I had to get off and walk. My legs hurt the next day, but it was worth it. The view from the top was beautiful."
-           ],
-           [
-            "bm_george",
-            "Uncle Joe",
-            "Did you remember to take water? You need lots when you cycle."
+            "bm_fable",
+            "Kenji",
+            "Do you want to be a nurse too?"
            ],
            [
             "bf_lily",
-            "Mai",
-            "Yes, two bottles each. And Huy's mum made us wear helmets and bright jackets, so the cars could see us."
+            "Pia",
+            "Not really. I wanted to be a vet when I was little. But now I'm interested in being a doctor, because I love science."
            ],
            [
-            "bm_george",
-            "Uncle Joe",
-            "And food?"
-           ],
-           [
-            "bf_lily",
-            "Mai",
-            "Bananas and sandwiches. Huy's mum says bananas give you energy quickly."
-           ],
-           [
-            "bm_george",
-            "Uncle Joe",
-            "Very sensible. So, what's next?"
+            "bm_fable",
+            "Kenji",
+            "Are you going to interview your aunt?"
            ],
            [
             "bf_lily",
-            "Mai",
-            "I'd like to join a cycling club. There's one at school, but it's only for Grade 6. So instead, I'm going to ride with you on Sundays, if that's OK!"
-           ],
-           [
-            "bm_george",
-            "Uncle Joe",
-            "Of course it is! We can start this Sunday, if it's sunny."
+            "Pia",
+            "Yes, on Saturday. I wanted to do it at the hospital, but children can't go into the baby unit. And you can't do it at school at the weekend! So we're meeting at Grandma's house."
            ]
           ]
          }
@@ -3156,206 +2927,146 @@
       {
        "mode": "your",
        "lo": [
-        "6Lm.01"
+        "5Lm.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "The question says <b>next time</b>. Listen for <b>Not</b> and <b>instead</b>, which tell you a plan is changing."
+          "step": "Two ideas are ruled out first. What is left?"
          },
-         "worked": "\"<b>We're going to a forest instead</b>, because Dad wants to <b>look for owls</b>.\"",
+         "worked": "Wren says \"<b>next month we're painting the old benches green</b>\".",
          "type": "mcq",
-         "q": "What are Sami and his dad going to do next time?",
+         "q": "What will they do in the park next month?",
          "opts": [
-          "go to a forest",
-          "go back to the lake",
-          "look for a kingfisher"
+          "paint the benches",
+          "plant some flowers",
+          "pick up rubbish again"
          ],
          "at": 0,
          "whys": [
           null,
-          "Sami says \"Not next time\" about the lake.",
-          "The kingfisher was on TV, and Dad wants to look for a different bird next time."
+          "There isn't any money for flowers yet.",
+          "They don't need to clean again until the summer."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-a-3a",
           "kind": "audio",
-          "head": "Listen to Elena and Sami talking about the weekend.",
+          "head": "Listen to Noah and Wren talking about a clean-up day in a park.",
           "lines": [
            [
-            "bf_alice",
-            "Elena",
-            "Sami, you look tired. Did you go to bed late?"
-           ],
-           [
             "bm_lewis",
-            "Sami",
-            "No, the opposite! I got up at half past five on Sunday. My dad took me bird-watching at the lake in Green Park."
+            "Noah",
+            "Wren, what did you do on Sunday?"
            ],
            [
             "bf_alice",
-            "Elena",
-            "Half past five? Why so early?"
+            "Wren",
+            "I helped to clean the park near my flat. There was lots of rubbish everywhere after the festival."
            ],
            [
             "bm_lewis",
-            "Sami",
-            "Dad says birds are busiest early in the morning, when they're looking for food. By lunchtime most of them are hiding from the heat."
+            "Noah",
+            "Was it your idea?"
            ],
            [
             "bf_alice",
-            "Elena",
-            "How did you get into bird-watching? Did you read about it?"
+            "Wren",
+            "No, I wish! It was the lady who lives next door. She's really kind. She asked everyone in our building. Even my dad came, and he never gets up early on Sundays!"
            ],
            [
             "bm_lewis",
-            "Sami",
-            "Not really. My dad's done it for years, but he never asked me to come. Then we watched a nature programme on TV about kingfishers, and I asked him if I could go."
+            "Noah",
+            "Was it hard work?"
            ],
            [
             "bf_alice",
-            "Elena",
-            "So did you see a kingfisher?"
+            "Wren",
+            "Yes, but it was fun. We picked up bottles and paper for three hours. The worst part was the smell near the bins. I hated that!"
            ],
            [
             "bm_lewis",
-            "Sami",
-            "No, sadly. We saw a family of ducks, a heron standing in the water, and a flock of little green birds in the trees. The heron was my favourite. It stood completely still for ten minutes, then it caught a fish really fast!"
+            "Noah",
+            "Yuck! So what happens next?"
            ],
            [
             "bf_alice",
-            "Elena",
-            "How did you see them so well?"
+            "Wren",
+            "My neighbour wanted to plant flowers, but there isn't any money for flowers yet. And we don't need to clean again until the summer. So next month we're painting the old benches green. You can come if you like!"
            ],
            [
             "bm_lewis",
-            "Sami",
-            "Dad lent me his binoculars. They're heavy, but you can see every feather."
-           ],
-           [
-            "bf_alice",
-            "Elena",
-            "Cool. Are you going back to the lake?"
-           ],
-           [
-            "bm_lewis",
-            "Sami",
-            "Not next time. We're going to a forest instead, because Dad wants to look for owls. I'm going to take my own notebook and draw what I see."
-           ],
-           [
-            "bf_alice",
-            "Elena",
-            "Can I see your drawings when you've finished?"
-           ],
-           [
-            "bm_lewis",
-            "Sami",
-            "Of course!"
+            "Noah",
+            "I'd love to. I'm good at painting."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "The question says <b>on Sundays</b>. Listen for that day, and check who <b>you</b> means in that sentence."
+          "step": "Pia wanted one place first. Listen for <b>So</b>."
          },
-         "worked": "Mai tells her uncle \"<b>I'm going to ride with you on Sundays</b>\".",
+         "worked": "Pia says \"<b>So we're meeting at Grandma's house</b>\".",
          "type": "mcq",
-         "q": "Who will Mai cycle with on Sundays?",
+         "q": "Where will Pia talk to her aunt?",
          "opts": [
-          "her uncle",
-          "the school club",
-          "her cousin"
+          "at Grandma's house",
+          "at the hospital",
+          "at school"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
-          "Mai would like to join the school club, but it's only for Grade 6.",
-          "Mai cycled with her cousin last weekend, not on Sundays."
+          "Children can't go into the baby unit at the hospital.",
+          "They can't do it at school at the weekend."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s5-a-3b",
           "kind": "audio",
-          "head": "Listen to Mai talking to her uncle about a bike ride.",
+          "head": "Listen to Kenji and Pia talking about a class project.",
           "lines": [
            [
-            "bm_george",
-            "Uncle Joe",
-            "Hi Mai! I hear you cycled all the way to the river last weekend."
+            "bm_fable",
+            "Kenji",
+            "Pia, who are you writing about for the project, 'A person I admire'?"
            ],
            [
             "bf_lily",
-            "Mai",
-            "Yes! With my cousin Huy and his mum. It was twenty kilometres there and back."
+            "Pia",
+            "My aunt. She's a nurse at the children's hospital."
            ],
            [
-            "bm_george",
-            "Uncle Joe",
-            "Twenty? That's a long way for your first big ride. Whose bike did you use?"
-           ],
-           [
-            "bf_lily",
-            "Mai",
-            "My own! Mum fixed the brakes the day before, so it was safe."
-           ],
-           [
-            "bm_george",
-            "Uncle Joe",
-            "Good. And how long did it take you?"
+            "bm_fable",
+            "Kenji",
+            "Really? I thought you were writing about that singer you like. Or your grandma."
            ],
            [
             "bf_lily",
-            "Mai",
-            "We thought it would take two hours, but it took nearly three, because we stopped for a picnic. And Huy wanted to stop every ten minutes!"
+            "Pia",
+            "I was going to write about the singer, but I don't really know anything about her. And my brother is writing about Grandma. My aunt is my real hero. She works at night, and she's always cheerful."
            ],
            [
-            "bm_george",
-            "Uncle Joe",
-            "Ha! Was it hard?"
-           ],
-           [
-            "bf_lily",
-            "Mai",
-            "The hill near the bridge was really hard. I had to get off and walk. My legs hurt the next day, but it was worth it. The view from the top was beautiful."
-           ],
-           [
-            "bm_george",
-            "Uncle Joe",
-            "Did you remember to take water? You need lots when you cycle."
+            "bm_fable",
+            "Kenji",
+            "Do you want to be a nurse too?"
            ],
            [
             "bf_lily",
-            "Mai",
-            "Yes, two bottles each. And Huy's mum made us wear helmets and bright jackets, so the cars could see us."
+            "Pia",
+            "Not really. I wanted to be a vet when I was little. But now I'm interested in being a doctor, because I love science."
            ],
            [
-            "bm_george",
-            "Uncle Joe",
-            "And food?"
-           ],
-           [
-            "bf_lily",
-            "Mai",
-            "Bananas and sandwiches. Huy's mum says bananas give you energy quickly."
-           ],
-           [
-            "bm_george",
-            "Uncle Joe",
-            "Very sensible. So, what's next?"
+            "bm_fable",
+            "Kenji",
+            "Are you going to interview your aunt?"
            ],
            [
             "bf_lily",
-            "Mai",
-            "I'd like to join a cycling club. There's one at school, but it's only for Grade 6. So instead, I'm going to ride with you on Sundays, if that's OK!"
-           ],
-           [
-            "bm_george",
-            "Uncle Joe",
-            "Of course it is! We can start this Sunday, if it's sunny."
+            "Pia",
+            "Yes, on Saturday. I wanted to do it at the hospital, but children can't go into the baby unit. And you can't do it at school at the weekend! So we're meeting at Grandma's house."
            ]
           ]
          }
@@ -3370,78 +3081,78 @@
  "notes": {
   "items": [
    {
-    "en": "In Part 3, all three options are usually *said* in the talk. Don't choose an option just because you hear it.",
-    "vi": "Ở Phần 3, cả ba lựa chọn thường đều được *nói* trong bài. Đừng chọn chỉ vì em nghe thấy từ đó.",
+    "en": "In a conversation test, all three options are usually *said* in the talk. Don't choose an option just because you hear it.",
+    "vi": "Trong bài nghe hội thoại, cả ba lựa chọn thường đều được *nói* ra. Đừng chọn một đáp án chỉ vì em nghe thấy nó.",
     "example": [
-     "Question: Which club did Ruby join? (drama / art / chess)",
-     "Ruby: I looked at drama and art, but *in the end* I joined the *chess* club."
+     "Question: What did Wren eat? (noodles / soup / rice)",
+     "Wren: I wanted noodles, and Mum said try the soup. *In the end* I had *rice*."
     ]
    },
    {
-    "en": "Listen for words that *change* the answer: *but*, *actually*, *instead*, *in the end*.",
-    "vi": "Hãy nghe những từ *thay đổi* đáp án: *but*, *actually*, *instead*, *in the end*.",
+    "en": "Listen for words that *change* the answer: *but*, *actually*, *instead*, *in the end*, *so*.",
+    "vi": "Hãy nghe những từ *làm thay đổi* đáp án: *but*, *actually*, *instead*, *in the end*, *so*.",
     "example": [
-     "I was going to take the bus, *but* I went by car *instead*.",
-     "I thought it was on Friday. *Actually*, it's on Wednesday."
+     "The courts were closed, *so* we went swimming *instead*.",
+     "You think it's on Monday? *Actually*, it's on Tuesday."
     ]
    },
    {
-    "en": "Learn the opinion words: *prefer*, *favourite part*, *I'm not keen on*, *disappointed*, *recommend*.",
-    "vi": "Học các từ chỉ ý kiến: *prefer*, *favourite part*, *I'm not keen on*, *disappointed*, *recommend*.",
+    "en": "*Was going to* tells you an old plan. Keep listening for the new plan.",
+    "vi": "*Was going to* cho em biết một kế hoạch cũ. Hãy nghe tiếp để biết kế hoạch mới.",
     "example": [
-     "*The best bit* was the canoeing. (= my favourite part)",
-     "*I'm not keen on* fish. (= I don't like it much)"
+     "I *was going to* buy a game, but now I'm saving for a bike.",
+     "We *were going to* eat at home, but we had a picnic."
+    ]
+   },
+   {
+    "en": "Learn the words for likes and dislikes: *the best part*, *my favourite*, *I'm not keen on*, *boring*, *the worst part*.",
+    "vi": "Học các từ chỉ điều thích và không thích: *the best part*, *my favourite*, *I'm not keen on*, *boring*, *the worst part*.",
+    "example": [
+     "*The best part* was the goats. (= what I liked most)",
+     "*The worst part* was the smell. (= what I didn't like)"
     ]
    },
    {
     "en": "The *reason* often comes after *because*, or before *so*.",
     "vi": "*Lý do* thường đứng sau *because*, hoặc đứng trước *so*.",
     "example": [
-     "I chose a goldfish *because* I can watch it after school.",
-     "It's free for children, *so* it's worth it."
+     "I like my flat *because* the park is next to it.",
+     "The museum is closed on Tuesdays, *so* we're going on Thursday."
     ]
    },
    {
-    "en": "The options use *different words* from the talk. Match the *meaning*, not the word.",
-    "vi": "Các lựa chọn dùng *từ khác* với bài nghe. Hãy chọn theo *ý nghĩa*, không theo từ.",
+    "en": "The options often use *different words* from the talk. Match the *meaning*, and check *who* said or did it.",
+    "vi": "Các lựa chọn thường dùng *từ khác* với bài nghe. Hãy chọn theo *ý nghĩa* và kiểm tra *ai* đã nói hoặc làm điều đó.",
     "example": [
-     "Talk: *It was worth it.* Option: *He's glad he did it.*",
-     "Talk: *It cost a lot.* Option: *It was expensive.*"
-    ]
-   },
-   {
-    "en": "The questions follow the *order* of the talk. Read them first and decide what to listen for.",
-    "vi": "Các câu hỏi đi theo *thứ tự* của bài nghe. Hãy đọc trước và xác định cần nghe gì.",
-    "example": [
-     "*Who*...? Listen for a person.",
-     "*How long*...? Listen for minutes, weeks or years."
+     "Talk: *My hands were shaking.* Option: *She was nervous.*",
+     "Talk: *My sister has a stomach ache.* So it's the sister, not the speaker."
     ]
    }
   ],
   "check": [
    {
-    "sentence": "In Part 3, the wrong options are {usually|never|not} mentioned in the talk.",
+    "sentence": "In this test, the wrong options are {usually|never|not} said in the talk.",
     "answer": "usually"
    },
    {
-    "sentence": "We wanted to go to the beach, but we went to the museum {instead|although|because}.",
+    "sentence": "The park was closed, so we went to the library {instead|because|also}.",
     "answer": "instead"
    },
    {
-    "sentence": "I'm not {keen|happy|worth} on spicy food.",
+    "sentence": "I {was going to|am going to|go to} visit Grandma, but she was ill.",
+    "answer": "was going to"
+   },
+   {
+    "sentence": "I'm not {keen|happy|good} on spicy food.",
     "answer": "keen"
    },
    {
-    "sentence": "She joined the club {because|so|although} her cousin goes there.",
+    "sentence": "We stayed inside {because|so|but} it was raining.",
     "answer": "because"
    },
    {
-    "sentence": "\"It didn't cost anything\" means it was {free|cheap|expensive}.",
-    "answer": "free"
-   },
-   {
-    "sentence": "The questions are in the {same|opposite|wrong} order as the talk.",
-    "answer": "same"
+    "sentence": "\"My hands were shaking\" means I was {nervous|bored|proud}.",
+    "answer": "nervous"
    }
   ]
  },
@@ -3450,221 +3161,171 @@
    {
     "dok": 1,
     "lo": [
-     "6Ld.04"
+     "5Ld.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "The question asks who <b>runs</b> the club. Several people are named, so listen for each person's job."
+       "step": "Listen for <b>instead</b>. It tells you the new plan."
       },
-      "worked": "Minh says \"<b>Ms Rivers runs it</b>\".",
+      "worked": "Huy says \"<b>we had a picnic by the lake instead</b>\".",
       "type": "mcq",
-      "q": "Who runs the film club?",
+      "q": "Where did Huy have his birthday party?",
       "opts": [
-       "Ms Rivers",
-       "Mr Cole",
-       "his friend Viet"
+       "by the lake",
+       "at his home",
+       "at the sports centre"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
-       "Mr Cole is the art teacher, and he will only help sometimes.",
-       "Viet is the friend who told Minh about the club, but he doesn't run it."
+       "The party was going to be at home, but the kitchen is being painted.",
+       "Huy had a party at the sports centre last year, not this year."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s5-t-1a",
        "kind": "audio",
-       "head": "Listen to Minh talking to his dad about a new club.",
+       "head": "Listen to Freya and Huy talking about Huy's birthday.",
        "lines": [
         [
-         "bm_daniel",
-         "Dad",
-         "Minh, what's this about a film club? Your teacher sent me a message."
+         "bf_lily",
+         "Freya",
+         "Happy birthday for yesterday, Huy! Did you have a party at the sports centre, like last year?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "Oh, I wanted to tell you myself! It's a new club where we make short animated films on tablets. Ms Rivers runs it."
+         "Huy",
+         "No. We were going to have a party at home this year, but our kitchen is being painted. So we had a picnic by the lake instead."
         ],
         [
-         "bm_daniel",
-         "Dad",
-         "Ms Rivers? Isn't she your art teacher?"
-        ],
-        [
-         "bm_fable",
-         "Minh",
-         "No, she teaches music. My art teacher is Mr Cole. He's going to help sometimes, though."
-        ],
-        [
-         "bm_daniel",
-         "Dad",
-         "And how did you hear about it? From the teacher's message?"
+         "bf_lily",
+         "Freya",
+         "Lovely! Who came?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "No, my friend Viet told me at lunch on Monday. He's already joined, and he says it's really fun."
+         "Huy",
+         "My parents, my grandpa and my two best friends from football. My sister didn't come, because she had a dance show."
         ],
         [
-         "bm_daniel",
-         "Dad",
-         "When does it meet?"
-        ],
-        [
-         "bm_fable",
-         "Minh",
-         "Every Wednesday after school. It starts at half past three and finishes at five."
-        ],
-        [
-         "bm_daniel",
-         "Dad",
-         "Five? I can't collect you until half past five."
+         "bf_lily",
+         "Freya",
+         "What did you eat?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "That's OK. I can wait in the library."
+         "Huy",
+         "Mum made chicken sandwiches and a big bowl of fruit. And there was a chocolate cake, of course. But Grandpa forgot the candles, so we sang without them!"
         ],
         [
-         "bm_daniel",
-         "Dad",
-         "Good idea. And what will your first film be about?"
-        ],
-        [
-         "bm_fable",
-         "Minh",
-         "Our first film is about animals made of clay. We're making a longer one about a dragon, but that's after the holiday."
-        ],
-        [
-         "bm_daniel",
-         "Dad",
-         "Do you need to take anything?"
+         "bf_lily",
+         "Freya",
+         "Ha! What was your best present?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "Just a USB stick to save our films. The school gives us the tablets and the clay. For ten seconds of film, we need about a hundred and twenty photos!"
+         "Huy",
+         "I got a football and some books. But my favourite was a small camera from Grandpa. I took photos of the ducks on the lake."
         ],
         [
-         "bm_daniel",
-         "Dad",
-         "Well, I'd love to watch it when it's finished."
+         "bf_lily",
+         "Freya",
+         "Did you get any birthday money?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "You can! Ms Rivers is going to show all our films to the parents in December."
+         "Huy",
+         "Yes. I was going to buy a computer game, but my old bike is too small for me now. So I'm saving for a new bike."
+        ],
+        [
+         "bf_lily",
+         "Freya",
+         "Good idea. Are you going to buy more books too?"
+        ],
+        [
+         "bm_fable",
+         "Huy",
+         "No, I've got lots of books now!"
         ]
        ]
       }
      },
      {
       "hint": {
-       "step": "Lan talks about more than one place. Listen for <b>in the end</b>, which tells you what finally happened."
+       "step": "Noah makes a guess. Listen for <b>Actually</b>."
       },
-      "worked": "Lan says \"<b>in the end</b>, our <b>neighbour's</b> rabbit had babies, so we got Cloud from her\".",
+      "worked": "Vy says \"<b>Actually, we went on Sunday</b>\".",
       "type": "mcq",
-      "q": "Where did Lan get her rabbit?",
+      "q": "When did Vy go to the library?",
       "opts": [
-       "from their neighbour",
-       "from the pet shop",
-       "from a farm"
+       "on Sunday",
+       "on Saturday",
+       "next Saturday"
       ],
       "at": 1,
       "whys": [
        null,
-       "Lan's family looked in the pet shop, but they didn't get Cloud there.",
-       "Dad wanted to visit a farm, but they didn't get Cloud there."
+       "Noah guesses Saturday, but Vy says it was too busy on Saturday.",
+       "Vy is going again next Saturday. That is a plan for later."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s5-t-1b",
        "kind": "audio",
-       "head": "Listen to Finn and Lan talking about Lan's new pet.",
+       "head": "Listen to Noah and Vy talking about the new library.",
        "lines": [
         [
          "bm_lewis",
-         "Finn",
-         "Lan, is it true you've got a rabbit now?"
+         "Noah",
+         "Vy, how was the new library? You went on Saturday, didn't you?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "Yes! Her name's Cloud, because she's white and fluffy. We've had her since Saturday."
-        ],
-        [
-         "bm_lewis",
-         "Finn",
-         "Is she friendly?"
-        ],
-        [
-         "bf_lily",
-         "Lan",
-         "Very! She was shy on the first day, but now she jumps onto my lap when I sit on the floor."
+         "bf_alice",
+         "Vy",
+         "Actually, we went on Sunday. On Saturday it was too busy. It's enormous! There are three floors."
         ],
         [
          "bm_lewis",
-         "Finn",
-         "Where did you get her? From a pet shop?"
+         "Noah",
+         "Which part did you like?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "We looked in the pet shop, and Dad wanted to visit a farm. But in the end, our neighbour's rabbit had babies, so we got Cloud from her."
-        ],
-        [
-         "bm_lewis",
-         "Finn",
-         "Lucky! How old is she?"
-        ],
-        [
-         "bf_lily",
-         "Lan",
-         "Ten weeks. Rabbits can live for eight to twelve years, so I'll have her for a long time!"
+         "bf_alice",
+         "Vy",
+         "The children's floor is at the top. There's a room where you can make things with paper, and a little cinema. But my favourite part was the reading garden on the roof. It's so quiet and green."
         ],
         [
          "bm_lewis",
-         "Finn",
-         "Who looks after her? You?"
+         "Noah",
+         "Did you borrow any books?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "Mostly me. My brother cleans her cage on Sundays, and Mum checks her water. But I feed her every morning and evening."
-        ],
-        [
-         "bm_lewis",
-         "Finn",
-         "What does she eat? Carrots?"
-        ],
-        [
-         "bf_lily",
-         "Lan",
-         "Everyone thinks that! Carrots are only a treat, because they have lots of sugar. She mostly eats hay, with some fresh leaves."
+         "bf_alice",
+         "Vy",
+         "Yes. I wanted some books about space, but they were too difficult for me. So I borrowed two books about dinosaurs. My brother borrowed some comics."
         ],
         [
          "bm_lewis",
-         "Finn",
-         "Does she live inside or in the garden?"
+         "Noah",
+         "Can you keep them for two weeks?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "Inside, in a big cage in the kitchen. Rabbits need space to run, so she comes out every afternoon."
+         "bf_alice",
+         "Vy",
+         "No, for three weeks! At our school library it's only one week."
         ],
         [
          "bm_lewis",
-         "Finn",
-         "Can I come and see her on Saturday?"
+         "Noah",
+         "That's good. Can I come with you next time?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "Yes, come at eleven. Not earlier, because we're taking her to the vet at nine. We'll be back by half past ten."
+         "bf_alice",
+         "Vy",
+         "Sure! I'm going again next Saturday. There's a storytelling afternoon at three o'clock. There's a puppet show too, but that's in the morning, and I've got my piano lesson then."
         ]
        ]
       }
@@ -3674,221 +3335,171 @@
    {
     "dok": 1,
     "lo": [
-     "6Ld.04"
+     "5Ld.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "Dad guesses first. Listen to Minh's answer straight after Dad's question."
+       "step": "The question says NOT. Listen for <b>didn't come</b>."
       },
-      "worked": "Minh says \"No, <b>my friend Viet told me</b>\".",
+      "worked": "Huy says \"<b>My sister didn't come</b>, because she had a dance show\".",
       "type": "mcq",
-      "q": "How did Minh find out about the club?",
+      "q": "Who did NOT go to Huy's picnic?",
       "opts": [
-       "from a friend",
-       "from a teacher's message",
-       "from the art teacher"
+       "his sister",
+       "his grandpa",
+       "his friends from football"
       ],
       "at": 2,
       "whys": [
        null,
-       "The teacher sent the message to Dad, not to Minh.",
-       "Mr Cole, the art teacher, will help at the club, but he didn't tell Minh about it."
+       "Huy says his grandpa came.",
+       "Huy says his two best friends from football came."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s5-t-1a",
        "kind": "audio",
-       "head": "Listen to Minh talking to his dad about a new club.",
+       "head": "Listen to Freya and Huy talking about Huy's birthday.",
        "lines": [
         [
-         "bm_daniel",
-         "Dad",
-         "Minh, what's this about a film club? Your teacher sent me a message."
+         "bf_lily",
+         "Freya",
+         "Happy birthday for yesterday, Huy! Did you have a party at the sports centre, like last year?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "Oh, I wanted to tell you myself! It's a new club where we make short animated films on tablets. Ms Rivers runs it."
+         "Huy",
+         "No. We were going to have a party at home this year, but our kitchen is being painted. So we had a picnic by the lake instead."
         ],
         [
-         "bm_daniel",
-         "Dad",
-         "Ms Rivers? Isn't she your art teacher?"
-        ],
-        [
-         "bm_fable",
-         "Minh",
-         "No, she teaches music. My art teacher is Mr Cole. He's going to help sometimes, though."
-        ],
-        [
-         "bm_daniel",
-         "Dad",
-         "And how did you hear about it? From the teacher's message?"
+         "bf_lily",
+         "Freya",
+         "Lovely! Who came?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "No, my friend Viet told me at lunch on Monday. He's already joined, and he says it's really fun."
+         "Huy",
+         "My parents, my grandpa and my two best friends from football. My sister didn't come, because she had a dance show."
         ],
         [
-         "bm_daniel",
-         "Dad",
-         "When does it meet?"
-        ],
-        [
-         "bm_fable",
-         "Minh",
-         "Every Wednesday after school. It starts at half past three and finishes at five."
-        ],
-        [
-         "bm_daniel",
-         "Dad",
-         "Five? I can't collect you until half past five."
+         "bf_lily",
+         "Freya",
+         "What did you eat?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "That's OK. I can wait in the library."
+         "Huy",
+         "Mum made chicken sandwiches and a big bowl of fruit. And there was a chocolate cake, of course. But Grandpa forgot the candles, so we sang without them!"
         ],
         [
-         "bm_daniel",
-         "Dad",
-         "Good idea. And what will your first film be about?"
-        ],
-        [
-         "bm_fable",
-         "Minh",
-         "Our first film is about animals made of clay. We're making a longer one about a dragon, but that's after the holiday."
-        ],
-        [
-         "bm_daniel",
-         "Dad",
-         "Do you need to take anything?"
+         "bf_lily",
+         "Freya",
+         "Ha! What was your best present?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "Just a USB stick to save our films. The school gives us the tablets and the clay. For ten seconds of film, we need about a hundred and twenty photos!"
+         "Huy",
+         "I got a football and some books. But my favourite was a small camera from Grandpa. I took photos of the ducks on the lake."
         ],
         [
-         "bm_daniel",
-         "Dad",
-         "Well, I'd love to watch it when it's finished."
+         "bf_lily",
+         "Freya",
+         "Did you get any birthday money?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "You can! Ms Rivers is going to show all our films to the parents in December."
+         "Huy",
+         "Yes. I was going to buy a computer game, but my old bike is too small for me now. So I'm saving for a new bike."
+        ],
+        [
+         "bf_lily",
+         "Freya",
+         "Good idea. Are you going to buy more books too?"
+        ],
+        [
+         "bm_fable",
+         "Huy",
+         "No, I've got lots of books now!"
         ]
        ]
       }
      },
      {
       "hint": {
-       "step": "Several numbers are said. Listen straight after the question about age, and check the word after each number."
+       "step": "Listen for the words <b>my favourite part</b>."
       },
-      "worked": "Lan says \"<b>Ten weeks</b>\".",
+      "worked": "Vy says \"<b>my favourite part was the reading garden on the roof</b>\".",
       "type": "mcq",
-      "q": "How old is Cloud?",
+      "q": "What was Vy's favourite part of the library?",
       "opts": [
-       "ten weeks",
-       "eight years",
-       "twelve years"
+       "the garden on the roof",
+       "the little cinema",
+       "the room for making things"
       ],
       "at": 0,
       "whys": [
        null,
-       "Rabbits can live for eight to twelve years, but that is not Cloud's age.",
-       "Twelve years is how long rabbits can live, not how old Cloud is."
+       "Vy says there is a little cinema, but it isn't her favourite.",
+       "Vy says you can make things with paper there, but it isn't her favourite."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s5-t-1b",
        "kind": "audio",
-       "head": "Listen to Finn and Lan talking about Lan's new pet.",
+       "head": "Listen to Noah and Vy talking about the new library.",
        "lines": [
         [
          "bm_lewis",
-         "Finn",
-         "Lan, is it true you've got a rabbit now?"
+         "Noah",
+         "Vy, how was the new library? You went on Saturday, didn't you?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "Yes! Her name's Cloud, because she's white and fluffy. We've had her since Saturday."
-        ],
-        [
-         "bm_lewis",
-         "Finn",
-         "Is she friendly?"
-        ],
-        [
-         "bf_lily",
-         "Lan",
-         "Very! She was shy on the first day, but now she jumps onto my lap when I sit on the floor."
+         "bf_alice",
+         "Vy",
+         "Actually, we went on Sunday. On Saturday it was too busy. It's enormous! There are three floors."
         ],
         [
          "bm_lewis",
-         "Finn",
-         "Where did you get her? From a pet shop?"
+         "Noah",
+         "Which part did you like?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "We looked in the pet shop, and Dad wanted to visit a farm. But in the end, our neighbour's rabbit had babies, so we got Cloud from her."
-        ],
-        [
-         "bm_lewis",
-         "Finn",
-         "Lucky! How old is she?"
-        ],
-        [
-         "bf_lily",
-         "Lan",
-         "Ten weeks. Rabbits can live for eight to twelve years, so I'll have her for a long time!"
+         "bf_alice",
+         "Vy",
+         "The children's floor is at the top. There's a room where you can make things with paper, and a little cinema. But my favourite part was the reading garden on the roof. It's so quiet and green."
         ],
         [
          "bm_lewis",
-         "Finn",
-         "Who looks after her? You?"
+         "Noah",
+         "Did you borrow any books?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "Mostly me. My brother cleans her cage on Sundays, and Mum checks her water. But I feed her every morning and evening."
-        ],
-        [
-         "bm_lewis",
-         "Finn",
-         "What does she eat? Carrots?"
-        ],
-        [
-         "bf_lily",
-         "Lan",
-         "Everyone thinks that! Carrots are only a treat, because they have lots of sugar. She mostly eats hay, with some fresh leaves."
+         "bf_alice",
+         "Vy",
+         "Yes. I wanted some books about space, but they were too difficult for me. So I borrowed two books about dinosaurs. My brother borrowed some comics."
         ],
         [
          "bm_lewis",
-         "Finn",
-         "Does she live inside or in the garden?"
+         "Noah",
+         "Can you keep them for two weeks?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "Inside, in a big cage in the kitchen. Rabbits need space to run, so she comes out every afternoon."
+         "bf_alice",
+         "Vy",
+         "No, for three weeks! At our school library it's only one week."
         ],
         [
          "bm_lewis",
-         "Finn",
-         "Can I come and see her on Saturday?"
+         "Noah",
+         "That's good. Can I come with you next time?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "Yes, come at eleven. Not earlier, because we're taking her to the vet at nine. We'll be back by half past ten."
+         "bf_alice",
+         "Vy",
+         "Sure! I'm going again next Saturday. There's a storytelling afternoon at three o'clock. There's a puppet show too, but that's in the morning, and I've got my piano lesson then."
         ]
        ]
       }
@@ -3898,221 +3509,171 @@
    {
     "dok": 1,
     "lo": [
-     "6Ld.04"
+     "5Ld.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "Several times are said. Listen for the verb in the question, <b>finish</b>, and the time that goes with it."
+       "step": "Listen for the word <b>forgot</b>."
       },
-      "worked": "Minh says it \"<b>finishes at five</b>\".",
+      "worked": "Huy says \"<b>Grandpa forgot the candles</b>, so we sang without them!\"",
       "type": "mcq",
-      "q": "What time does the club finish?",
+      "q": "What did Grandpa forget?",
       "opts": [
-       "at five",
-       "at half past three",
-       "at half past five"
+       "the candles",
+       "the chocolate cake",
+       "the camera"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
-       "Half past three is when the club starts, not when it finishes.",
-       "Half past five is when Dad can collect Minh."
+       "There was a chocolate cake. Grandpa didn't forget it.",
+       "The camera was Grandpa's present to Huy. He didn't forget it."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s5-t-1a",
        "kind": "audio",
-       "head": "Listen to Minh talking to his dad about a new club.",
+       "head": "Listen to Freya and Huy talking about Huy's birthday.",
        "lines": [
         [
-         "bm_daniel",
-         "Dad",
-         "Minh, what's this about a film club? Your teacher sent me a message."
+         "bf_lily",
+         "Freya",
+         "Happy birthday for yesterday, Huy! Did you have a party at the sports centre, like last year?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "Oh, I wanted to tell you myself! It's a new club where we make short animated films on tablets. Ms Rivers runs it."
+         "Huy",
+         "No. We were going to have a party at home this year, but our kitchen is being painted. So we had a picnic by the lake instead."
         ],
         [
-         "bm_daniel",
-         "Dad",
-         "Ms Rivers? Isn't she your art teacher?"
-        ],
-        [
-         "bm_fable",
-         "Minh",
-         "No, she teaches music. My art teacher is Mr Cole. He's going to help sometimes, though."
-        ],
-        [
-         "bm_daniel",
-         "Dad",
-         "And how did you hear about it? From the teacher's message?"
+         "bf_lily",
+         "Freya",
+         "Lovely! Who came?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "No, my friend Viet told me at lunch on Monday. He's already joined, and he says it's really fun."
+         "Huy",
+         "My parents, my grandpa and my two best friends from football. My sister didn't come, because she had a dance show."
         ],
         [
-         "bm_daniel",
-         "Dad",
-         "When does it meet?"
-        ],
-        [
-         "bm_fable",
-         "Minh",
-         "Every Wednesday after school. It starts at half past three and finishes at five."
-        ],
-        [
-         "bm_daniel",
-         "Dad",
-         "Five? I can't collect you until half past five."
+         "bf_lily",
+         "Freya",
+         "What did you eat?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "That's OK. I can wait in the library."
+         "Huy",
+         "Mum made chicken sandwiches and a big bowl of fruit. And there was a chocolate cake, of course. But Grandpa forgot the candles, so we sang without them!"
         ],
         [
-         "bm_daniel",
-         "Dad",
-         "Good idea. And what will your first film be about?"
-        ],
-        [
-         "bm_fable",
-         "Minh",
-         "Our first film is about animals made of clay. We're making a longer one about a dragon, but that's after the holiday."
-        ],
-        [
-         "bm_daniel",
-         "Dad",
-         "Do you need to take anything?"
+         "bf_lily",
+         "Freya",
+         "Ha! What was your best present?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "Just a USB stick to save our films. The school gives us the tablets and the clay. For ten seconds of film, we need about a hundred and twenty photos!"
+         "Huy",
+         "I got a football and some books. But my favourite was a small camera from Grandpa. I took photos of the ducks on the lake."
         ],
         [
-         "bm_daniel",
-         "Dad",
-         "Well, I'd love to watch it when it's finished."
+         "bf_lily",
+         "Freya",
+         "Did you get any birthday money?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "You can! Ms Rivers is going to show all our films to the parents in December."
+         "Huy",
+         "Yes. I was going to buy a computer game, but my old bike is too small for me now. So I'm saving for a new bike."
+        ],
+        [
+         "bf_lily",
+         "Freya",
+         "Good idea. Are you going to buy more books too?"
+        ],
+        [
+         "bm_fable",
+         "Huy",
+         "No, I've got lots of books now!"
         ]
        ]
       }
      },
      {
       "hint": {
-       "step": "Each person has a different job. Listen for the verb <b>feed</b> and check who does it."
+       "step": "Two people borrowed books. Listen for what <b>Vy</b> took home."
       },
-      "worked": "Lan says \"<b>I feed her every morning and evening</b>\".",
+      "worked": "Vy says \"<b>I borrowed two books about dinosaurs</b>\".",
       "type": "mcq",
-      "q": "Who feeds Cloud every day?",
+      "q": "What books did Vy borrow?",
       "opts": [
-       "Lan",
-       "her brother",
-       "her mum"
+       "books about dinosaurs",
+       "books about space",
+       "some comics"
       ],
       "at": 0,
       "whys": [
        null,
-       "Lan's brother cleans the cage on Sundays, but he doesn't feed Cloud.",
-       "Lan's mum checks Cloud's water."
+       "The space books were too difficult for Vy.",
+       "Vy's brother borrowed the comics, not Vy."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s5-t-1b",
        "kind": "audio",
-       "head": "Listen to Finn and Lan talking about Lan's new pet.",
+       "head": "Listen to Noah and Vy talking about the new library.",
        "lines": [
         [
          "bm_lewis",
-         "Finn",
-         "Lan, is it true you've got a rabbit now?"
+         "Noah",
+         "Vy, how was the new library? You went on Saturday, didn't you?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "Yes! Her name's Cloud, because she's white and fluffy. We've had her since Saturday."
-        ],
-        [
-         "bm_lewis",
-         "Finn",
-         "Is she friendly?"
-        ],
-        [
-         "bf_lily",
-         "Lan",
-         "Very! She was shy on the first day, but now she jumps onto my lap when I sit on the floor."
+         "bf_alice",
+         "Vy",
+         "Actually, we went on Sunday. On Saturday it was too busy. It's enormous! There are three floors."
         ],
         [
          "bm_lewis",
-         "Finn",
-         "Where did you get her? From a pet shop?"
+         "Noah",
+         "Which part did you like?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "We looked in the pet shop, and Dad wanted to visit a farm. But in the end, our neighbour's rabbit had babies, so we got Cloud from her."
-        ],
-        [
-         "bm_lewis",
-         "Finn",
-         "Lucky! How old is she?"
-        ],
-        [
-         "bf_lily",
-         "Lan",
-         "Ten weeks. Rabbits can live for eight to twelve years, so I'll have her for a long time!"
+         "bf_alice",
+         "Vy",
+         "The children's floor is at the top. There's a room where you can make things with paper, and a little cinema. But my favourite part was the reading garden on the roof. It's so quiet and green."
         ],
         [
          "bm_lewis",
-         "Finn",
-         "Who looks after her? You?"
+         "Noah",
+         "Did you borrow any books?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "Mostly me. My brother cleans her cage on Sundays, and Mum checks her water. But I feed her every morning and evening."
-        ],
-        [
-         "bm_lewis",
-         "Finn",
-         "What does she eat? Carrots?"
-        ],
-        [
-         "bf_lily",
-         "Lan",
-         "Everyone thinks that! Carrots are only a treat, because they have lots of sugar. She mostly eats hay, with some fresh leaves."
+         "bf_alice",
+         "Vy",
+         "Yes. I wanted some books about space, but they were too difficult for me. So I borrowed two books about dinosaurs. My brother borrowed some comics."
         ],
         [
          "bm_lewis",
-         "Finn",
-         "Does she live inside or in the garden?"
+         "Noah",
+         "Can you keep them for two weeks?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "Inside, in a big cage in the kitchen. Rabbits need space to run, so she comes out every afternoon."
+         "bf_alice",
+         "Vy",
+         "No, for three weeks! At our school library it's only one week."
         ],
         [
          "bm_lewis",
-         "Finn",
-         "Can I come and see her on Saturday?"
+         "Noah",
+         "That's good. Can I come with you next time?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "Yes, come at eleven. Not earlier, because we're taking her to the vet at nine. We'll be back by half past ten."
+         "bf_alice",
+         "Vy",
+         "Sure! I'm going again next Saturday. There's a storytelling afternoon at three o'clock. There's a puppet show too, but that's in the morning, and I've got my piano lesson then."
         ]
        ]
       }
@@ -4122,221 +3683,171 @@
    {
     "dok": 1,
     "lo": [
-     "6Ld.04"
+     "5Ld.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "The question says <b>first</b>. Listen for <b>first</b> and <b>after</b>, and match each film to its time."
+       "step": "Huy got three presents. Listen after <b>But my favourite was</b>."
       },
-      "worked": "Minh says \"Our first film is about <b>animals made of clay</b>\".",
+      "worked": "Huy says \"<b>my favourite was a small camera</b> from Grandpa\".",
       "type": "mcq",
-      "q": "What will Minh's first film be about?",
+      "q": "What was Huy's favourite present?",
       "opts": [
-       "animals made of clay",
-       "a dragon",
-       "music"
+       "a small camera",
+       "a football",
+       "some books"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
-       "The dragon film is a longer one for after the holiday.",
-       "Music is what Ms Rivers teaches, not the topic of the film."
+       "Huy got a football, but it wasn't his favourite.",
+       "Huy got some books, but they weren't his favourite."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s5-t-1a",
        "kind": "audio",
-       "head": "Listen to Minh talking to his dad about a new club.",
+       "head": "Listen to Freya and Huy talking about Huy's birthday.",
        "lines": [
         [
-         "bm_daniel",
-         "Dad",
-         "Minh, what's this about a film club? Your teacher sent me a message."
+         "bf_lily",
+         "Freya",
+         "Happy birthday for yesterday, Huy! Did you have a party at the sports centre, like last year?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "Oh, I wanted to tell you myself! It's a new club where we make short animated films on tablets. Ms Rivers runs it."
+         "Huy",
+         "No. We were going to have a party at home this year, but our kitchen is being painted. So we had a picnic by the lake instead."
         ],
         [
-         "bm_daniel",
-         "Dad",
-         "Ms Rivers? Isn't she your art teacher?"
-        ],
-        [
-         "bm_fable",
-         "Minh",
-         "No, she teaches music. My art teacher is Mr Cole. He's going to help sometimes, though."
-        ],
-        [
-         "bm_daniel",
-         "Dad",
-         "And how did you hear about it? From the teacher's message?"
+         "bf_lily",
+         "Freya",
+         "Lovely! Who came?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "No, my friend Viet told me at lunch on Monday. He's already joined, and he says it's really fun."
+         "Huy",
+         "My parents, my grandpa and my two best friends from football. My sister didn't come, because she had a dance show."
         ],
         [
-         "bm_daniel",
-         "Dad",
-         "When does it meet?"
-        ],
-        [
-         "bm_fable",
-         "Minh",
-         "Every Wednesday after school. It starts at half past three and finishes at five."
-        ],
-        [
-         "bm_daniel",
-         "Dad",
-         "Five? I can't collect you until half past five."
+         "bf_lily",
+         "Freya",
+         "What did you eat?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "That's OK. I can wait in the library."
+         "Huy",
+         "Mum made chicken sandwiches and a big bowl of fruit. And there was a chocolate cake, of course. But Grandpa forgot the candles, so we sang without them!"
         ],
         [
-         "bm_daniel",
-         "Dad",
-         "Good idea. And what will your first film be about?"
-        ],
-        [
-         "bm_fable",
-         "Minh",
-         "Our first film is about animals made of clay. We're making a longer one about a dragon, but that's after the holiday."
-        ],
-        [
-         "bm_daniel",
-         "Dad",
-         "Do you need to take anything?"
+         "bf_lily",
+         "Freya",
+         "Ha! What was your best present?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "Just a USB stick to save our films. The school gives us the tablets and the clay. For ten seconds of film, we need about a hundred and twenty photos!"
+         "Huy",
+         "I got a football and some books. But my favourite was a small camera from Grandpa. I took photos of the ducks on the lake."
         ],
         [
-         "bm_daniel",
-         "Dad",
-         "Well, I'd love to watch it when it's finished."
+         "bf_lily",
+         "Freya",
+         "Did you get any birthday money?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "You can! Ms Rivers is going to show all our films to the parents in December."
+         "Huy",
+         "Yes. I was going to buy a computer game, but my old bike is too small for me now. So I'm saving for a new bike."
+        ],
+        [
+         "bf_lily",
+         "Freya",
+         "Good idea. Are you going to buy more books too?"
+        ],
+        [
+         "bm_fable",
+         "Huy",
+         "No, I've got lots of books now!"
         ]
        ]
       }
      },
      {
       "hint": {
-       "step": "The question says <b>mostly</b>. Listen for that word, and for <b>only</b> or <b>treat</b>, which rule other foods out."
+       "step": "Noah guesses first. Is he right?"
       },
-      "worked": "Lan says \"<b>She mostly eats hay</b>\".",
+      "worked": "Vy says \"<b>No, for three weeks!</b>\"",
       "type": "mcq",
-      "q": "What does Cloud mostly eat?",
+      "q": "How long can Vy keep the library books?",
       "opts": [
-       "hay",
-       "carrots",
-       "fresh leaves"
+       "three weeks",
+       "two weeks",
+       "one week"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
-       "Lan says carrots are only a treat, because they have lots of sugar.",
-       "Cloud eats some fresh leaves, but not mostly."
+       "Noah guesses two weeks, but Vy says \"No\".",
+       "One week is the time at the school library."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s5-t-1b",
        "kind": "audio",
-       "head": "Listen to Finn and Lan talking about Lan's new pet.",
+       "head": "Listen to Noah and Vy talking about the new library.",
        "lines": [
         [
          "bm_lewis",
-         "Finn",
-         "Lan, is it true you've got a rabbit now?"
+         "Noah",
+         "Vy, how was the new library? You went on Saturday, didn't you?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "Yes! Her name's Cloud, because she's white and fluffy. We've had her since Saturday."
-        ],
-        [
-         "bm_lewis",
-         "Finn",
-         "Is she friendly?"
-        ],
-        [
-         "bf_lily",
-         "Lan",
-         "Very! She was shy on the first day, but now she jumps onto my lap when I sit on the floor."
+         "bf_alice",
+         "Vy",
+         "Actually, we went on Sunday. On Saturday it was too busy. It's enormous! There are three floors."
         ],
         [
          "bm_lewis",
-         "Finn",
-         "Where did you get her? From a pet shop?"
+         "Noah",
+         "Which part did you like?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "We looked in the pet shop, and Dad wanted to visit a farm. But in the end, our neighbour's rabbit had babies, so we got Cloud from her."
-        ],
-        [
-         "bm_lewis",
-         "Finn",
-         "Lucky! How old is she?"
-        ],
-        [
-         "bf_lily",
-         "Lan",
-         "Ten weeks. Rabbits can live for eight to twelve years, so I'll have her for a long time!"
+         "bf_alice",
+         "Vy",
+         "The children's floor is at the top. There's a room where you can make things with paper, and a little cinema. But my favourite part was the reading garden on the roof. It's so quiet and green."
         ],
         [
          "bm_lewis",
-         "Finn",
-         "Who looks after her? You?"
+         "Noah",
+         "Did you borrow any books?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "Mostly me. My brother cleans her cage on Sundays, and Mum checks her water. But I feed her every morning and evening."
-        ],
-        [
-         "bm_lewis",
-         "Finn",
-         "What does she eat? Carrots?"
-        ],
-        [
-         "bf_lily",
-         "Lan",
-         "Everyone thinks that! Carrots are only a treat, because they have lots of sugar. She mostly eats hay, with some fresh leaves."
+         "bf_alice",
+         "Vy",
+         "Yes. I wanted some books about space, but they were too difficult for me. So I borrowed two books about dinosaurs. My brother borrowed some comics."
         ],
         [
          "bm_lewis",
-         "Finn",
-         "Does she live inside or in the garden?"
+         "Noah",
+         "Can you keep them for two weeks?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "Inside, in a big cage in the kitchen. Rabbits need space to run, so she comes out every afternoon."
+         "bf_alice",
+         "Vy",
+         "No, for three weeks! At our school library it's only one week."
         ],
         [
          "bm_lewis",
-         "Finn",
-         "Can I come and see her on Saturday?"
+         "Noah",
+         "That's good. Can I come with you next time?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "Yes, come at eleven. Not earlier, because we're taking her to the vet at nine. We'll be back by half past ten."
+         "bf_alice",
+         "Vy",
+         "Sure! I'm going again next Saturday. There's a storytelling afternoon at three o'clock. There's a puppet show too, but that's in the morning, and I've got my piano lesson then."
         ]
        ]
       }
@@ -4346,221 +3857,171 @@
    {
     "dok": 1,
     "lo": [
-     "6Lm.01"
+     "5Ld.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "The question asks what Minh must take. Listen for what the school gives them, and for the word <b>Just</b>."
+       "step": "Listen for <b>was going to</b>, then for <b>So</b>."
       },
-      "worked": "Minh says \"<b>Just a USB stick</b> to save our films\".",
+      "worked": "Huy says \"<b>So I'm saving for a new bike</b>\".",
       "type": "mcq",
-      "q": "What does Minh need to take to the club?",
+      "q": "What is Huy saving his money for?",
       "opts": [
-       "a USB stick",
-       "a tablet computer",
-       "some clay"
+       "a new bike",
+       "a computer game",
+       "more books"
       ],
       "at": 1,
       "whys": [
        null,
-       "The school gives them the tablets.",
-       "The school gives them the clay too."
+       "Huy was going to buy a game, but he changed his plan.",
+       "Huy says he has lots of books now."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s5-t-1a",
        "kind": "audio",
-       "head": "Listen to Minh talking to his dad about a new club.",
+       "head": "Listen to Freya and Huy talking about Huy's birthday.",
        "lines": [
         [
-         "bm_daniel",
-         "Dad",
-         "Minh, what's this about a film club? Your teacher sent me a message."
+         "bf_lily",
+         "Freya",
+         "Happy birthday for yesterday, Huy! Did you have a party at the sports centre, like last year?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "Oh, I wanted to tell you myself! It's a new club where we make short animated films on tablets. Ms Rivers runs it."
+         "Huy",
+         "No. We were going to have a party at home this year, but our kitchen is being painted. So we had a picnic by the lake instead."
         ],
         [
-         "bm_daniel",
-         "Dad",
-         "Ms Rivers? Isn't she your art teacher?"
-        ],
-        [
-         "bm_fable",
-         "Minh",
-         "No, she teaches music. My art teacher is Mr Cole. He's going to help sometimes, though."
-        ],
-        [
-         "bm_daniel",
-         "Dad",
-         "And how did you hear about it? From the teacher's message?"
+         "bf_lily",
+         "Freya",
+         "Lovely! Who came?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "No, my friend Viet told me at lunch on Monday. He's already joined, and he says it's really fun."
+         "Huy",
+         "My parents, my grandpa and my two best friends from football. My sister didn't come, because she had a dance show."
         ],
         [
-         "bm_daniel",
-         "Dad",
-         "When does it meet?"
-        ],
-        [
-         "bm_fable",
-         "Minh",
-         "Every Wednesday after school. It starts at half past three and finishes at five."
-        ],
-        [
-         "bm_daniel",
-         "Dad",
-         "Five? I can't collect you until half past five."
+         "bf_lily",
+         "Freya",
+         "What did you eat?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "That's OK. I can wait in the library."
+         "Huy",
+         "Mum made chicken sandwiches and a big bowl of fruit. And there was a chocolate cake, of course. But Grandpa forgot the candles, so we sang without them!"
         ],
         [
-         "bm_daniel",
-         "Dad",
-         "Good idea. And what will your first film be about?"
-        ],
-        [
-         "bm_fable",
-         "Minh",
-         "Our first film is about animals made of clay. We're making a longer one about a dragon, but that's after the holiday."
-        ],
-        [
-         "bm_daniel",
-         "Dad",
-         "Do you need to take anything?"
+         "bf_lily",
+         "Freya",
+         "Ha! What was your best present?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "Just a USB stick to save our films. The school gives us the tablets and the clay. For ten seconds of film, we need about a hundred and twenty photos!"
+         "Huy",
+         "I got a football and some books. But my favourite was a small camera from Grandpa. I took photos of the ducks on the lake."
         ],
         [
-         "bm_daniel",
-         "Dad",
-         "Well, I'd love to watch it when it's finished."
+         "bf_lily",
+         "Freya",
+         "Did you get any birthday money?"
         ],
         [
          "bm_fable",
-         "Minh",
-         "You can! Ms Rivers is going to show all our films to the parents in December."
+         "Huy",
+         "Yes. I was going to buy a computer game, but my old bike is too small for me now. So I'm saving for a new bike."
+        ],
+        [
+         "bf_lily",
+         "Freya",
+         "Good idea. Are you going to buy more books too?"
+        ],
+        [
+         "bm_fable",
+         "Huy",
+         "No, I've got lots of books now!"
         ]
        ]
       }
      },
      {
       "hint": {
-       "step": "Three times are said. Listen for the time Lan gives as an answer to Finn's question, not the times for other plans."
+       "step": "Listen for <b>next Saturday</b> and the time of each event."
       },
-      "worked": "Lan says \"<b>come at eleven</b>. Not earlier\".",
+      "worked": "Vy says \"<b>There's a storytelling afternoon at three o'clock</b>\".",
       "type": "mcq",
-      "q": "What time should Finn come on Saturday?",
+      "q": "What is Vy going to next Saturday?",
       "opts": [
-       "at eleven",
-       "at nine",
-       "at half past ten"
+       "a storytelling afternoon",
+       "a puppet show",
+       "a film in the cinema"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
-       "Nine is when Cloud goes to the vet.",
-       "Half past ten is when Lan's family will be back from the vet."
+       "The puppet show is in the morning, when Vy has her piano lesson.",
+       "The library has a little cinema, but Vy isn't going to a film."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s5-t-1b",
        "kind": "audio",
-       "head": "Listen to Finn and Lan talking about Lan's new pet.",
+       "head": "Listen to Noah and Vy talking about the new library.",
        "lines": [
         [
          "bm_lewis",
-         "Finn",
-         "Lan, is it true you've got a rabbit now?"
+         "Noah",
+         "Vy, how was the new library? You went on Saturday, didn't you?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "Yes! Her name's Cloud, because she's white and fluffy. We've had her since Saturday."
-        ],
-        [
-         "bm_lewis",
-         "Finn",
-         "Is she friendly?"
-        ],
-        [
-         "bf_lily",
-         "Lan",
-         "Very! She was shy on the first day, but now she jumps onto my lap when I sit on the floor."
+         "bf_alice",
+         "Vy",
+         "Actually, we went on Sunday. On Saturday it was too busy. It's enormous! There are three floors."
         ],
         [
          "bm_lewis",
-         "Finn",
-         "Where did you get her? From a pet shop?"
+         "Noah",
+         "Which part did you like?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "We looked in the pet shop, and Dad wanted to visit a farm. But in the end, our neighbour's rabbit had babies, so we got Cloud from her."
-        ],
-        [
-         "bm_lewis",
-         "Finn",
-         "Lucky! How old is she?"
-        ],
-        [
-         "bf_lily",
-         "Lan",
-         "Ten weeks. Rabbits can live for eight to twelve years, so I'll have her for a long time!"
+         "bf_alice",
+         "Vy",
+         "The children's floor is at the top. There's a room where you can make things with paper, and a little cinema. But my favourite part was the reading garden on the roof. It's so quiet and green."
         ],
         [
          "bm_lewis",
-         "Finn",
-         "Who looks after her? You?"
+         "Noah",
+         "Did you borrow any books?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "Mostly me. My brother cleans her cage on Sundays, and Mum checks her water. But I feed her every morning and evening."
-        ],
-        [
-         "bm_lewis",
-         "Finn",
-         "What does she eat? Carrots?"
-        ],
-        [
-         "bf_lily",
-         "Lan",
-         "Everyone thinks that! Carrots are only a treat, because they have lots of sugar. She mostly eats hay, with some fresh leaves."
+         "bf_alice",
+         "Vy",
+         "Yes. I wanted some books about space, but they were too difficult for me. So I borrowed two books about dinosaurs. My brother borrowed some comics."
         ],
         [
          "bm_lewis",
-         "Finn",
-         "Does she live inside or in the garden?"
+         "Noah",
+         "Can you keep them for two weeks?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "Inside, in a big cage in the kitchen. Rabbits need space to run, so she comes out every afternoon."
+         "bf_alice",
+         "Vy",
+         "No, for three weeks! At our school library it's only one week."
         ],
         [
          "bm_lewis",
-         "Finn",
-         "Can I come and see her on Saturday?"
+         "Noah",
+         "That's good. Can I come with you next time?"
         ],
         [
-         "bf_lily",
-         "Lan",
-         "Yes, come at eleven. Not earlier, because we're taking her to the vet at nine. We'll be back by half past ten."
+         "bf_alice",
+         "Vy",
+         "Sure! I'm going again next Saturday. There's a storytelling afternoon at three o'clock. There's a puppet show too, but that's in the morning, and I've got my piano lesson then."
         ]
        ]
       }
@@ -4570,395 +4031,181 @@
    {
     "dok": 2,
     "lo": [
-     "6Ld.05"
+     "5Ld.03"
     ],
     "v": [
      {
       "hint": {
-       "step": "Listen for <b>I didn't think</b> and <b>but</b>, which show that the speaker's opinion changed."
+       "step": "Kenji's friends had one idea. Who knows better: the friends or the nurse?"
       },
-      "worked": "Ines says \"I <b>didn't think I'd like</b> old trains, <b>but I was wrong</b>\".",
+      "worked": "Kenji says \"<b>the nurse said it was the heat</b>. I didn't wear my hat\". So he got too hot.",
       "type": "mcq",
-      "q": "What does Ines say about old trains?",
+      "q": "Why did Kenji feel dizzy?",
       "opts": [
-       "She liked them more than she expected.",
-       "She thought they were too fast.",
-       "She was too tired to look at them."
-      ],
-      "at": 0,
-      "whys": [
-       null,
-       "People long ago thought the first train was too fast, not Ines.",
-       "Ines was tired at the end, but she says it was really interesting."
-      ],
-      "letters": true,
-      "fig": {
-       "k": "stim",
-       "id": "s5-t-2a",
-       "kind": "audio",
-       "head": "Listen to Ines talking to her grandpa about a museum.",
-       "lines": [
-        [
-         "bm_george",
-         "Grandpa",
-         "So, Ines, did you enjoy the transport museum today?"
-        ],
-        [
-         "bf_alice",
-         "Ines",
-         "I did, Grandpa! I was tired at the end, but it was really interesting. I didn't think I'd like old trains, but I was wrong."
-        ],
-        [
-         "bm_george",
-         "Grandpa",
-         "What surprised you most?"
-        ],
-        [
-         "bf_alice",
-         "Ines",
-         "The first steam train. It was so small! And the guide said people were scared to travel on it because they thought it was too fast. It only went about twenty kilometres an hour."
-        ],
-        [
-         "bm_george",
-         "Grandpa",
-         "Ha! My bike goes faster than that. And how was the guide?"
-        ],
-        [
-         "bf_alice",
-         "Ines",
-         "She was great. She knew so many stories, and she let me ring the bell on an old train."
-        ],
-        [
-         "bm_george",
-         "Grandpa",
-         "Lovely. So what was your favourite part?"
-        ],
-        [
-         "bf_alice",
-         "Ines",
-         "The old buses were fun, and I liked sitting in the plane. But the best bit was driving the train in the simulator. It felt real, and I didn't crash once!"
-        ],
-        [
-         "bm_george",
-         "Grandpa",
-         "Well done! Was there anything you didn't like?"
-        ],
-        [
-         "bf_alice",
-         "Ines",
-         "The café. The food was cold and it cost a lot. Next time we should bring a picnic instead."
-        ],
-        [
-         "bm_george",
-         "Grandpa",
-         "Good idea. I didn't enjoy my soup much either. Would you go again?"
-        ],
-        [
-         "bf_alice",
-         "Ines",
-         "Yes, definitely. Actually, I want to bring Dad. He's mad about planes, and there's a new room about planes opening in June."
-        ],
-        [
-         "bm_george",
-         "Grandpa",
-         "Then we'll all go together. And we'll bring sandwiches!"
-        ]
-       ]
-      }
-     },
-     {
-      "hint": {
-       "step": "Tariq talks about his feelings <b>before</b> and <b>after</b>. Listen for <b>But</b> to hear how the day really went."
-      },
-      "worked": "Tariq was worried, \"<b>But it was the best birthday ever</b>\".",
-      "type": "mcq",
-      "q": "How does Tariq feel about his birthday at the climbing centre?",
-      "opts": [
-       "It was better than he expected.",
-       "It was too scary for him to enjoy.",
-       "It was disappointing."
-      ],
-      "at": 2,
-      "whys": [
-       null,
-       "Tariq was scared at first, but then it was the best birthday ever.",
-       "Tariq says \"I wasn't disappointed\", and he calls it the best birthday ever."
-      ],
-      "letters": true,
-      "fig": {
-       "k": "stim",
-       "id": "s5-t-2b",
-       "kind": "audio",
-       "head": "Listen to Amelia and Tariq talking about a birthday.",
-       "lines": [
-        [
-         "bf_alice",
-         "Amelia",
-         "Tariq, how was the climbing centre? You went for your birthday, didn't you?"
-        ],
-        [
-         "bm_fable",
-         "Tariq",
-         "Yes, on Saturday. Honestly, I was worried before we went, because I don't like being high up. But it was the best birthday ever."
-        ],
-        [
-         "bf_alice",
-         "Amelia",
-         "Really? Weren't you scared?"
-        ],
-        [
-         "bm_fable",
-         "Tariq",
-         "At first, yes. But the instructor was great. She checked our ropes every time, and she told us to look at the wall, not at the floor. That really helped."
-        ],
-        [
-         "bf_alice",
-         "Amelia",
-         "How many of you went?"
-        ],
-        [
-         "bm_fable",
-         "Tariq",
-         "Six. Me, my cousin and four friends from school. Everyone had a different colour rope."
-        ],
-        [
-         "bf_alice",
-         "Amelia",
-         "How high did you climb?"
-        ],
-        [
-         "bm_fable",
-         "Tariq",
-         "The tall wall is fifteen metres. I only got halfway, but my cousin reached the top. I wasn't disappointed, though. Next time I'll get higher."
-        ],
-        [
-         "bf_alice",
-         "Amelia",
-         "Did you do anything else there?"
-        ],
-        [
-         "bm_fable",
-         "Tariq",
-         "There's a café and a little shop, but we didn't have time for them. We had pizza at home afterwards instead. That was nice, because Grandma came too."
-        ],
-        [
-         "bf_alice",
-         "Amelia",
-         "I'd love to try it. Is it expensive?"
-        ],
-        [
-         "bm_fable",
-         "Tariq",
-         "It's not cheap, but one ticket lets you stay all day, so it's worth it. And you don't have to bring anything. They give you special shoes and a helmet."
-        ],
-        [
-         "bf_alice",
-         "Amelia",
-         "Great. Maybe I'll go for my birthday too."
-        ],
-        [
-         "bm_fable",
-         "Tariq",
-         "You should! Ask for the instructor called Becky. She's the best."
-        ]
-       ]
-      }
-     }
-    ]
-   },
-   {
-    "dok": 2,
-    "lo": [
-     "6Ld.05"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "The question asks <b>why</b>. Listen for <b>because</b>, and check who had the feeling."
-      },
-      "worked": "People were scared \"<b>because they thought it was too fast</b>\".",
-      "type": "mcq",
-      "q": "Why were people scared of the first steam train?",
-      "opts": [
-       "It seemed too fast.",
-       "It was much too small.",
-       "Its bell was very loud."
+       "He got too hot.",
+       "He ran too fast.",
+       "He was nervous."
       ],
       "at": 1,
       "whys": [
        null,
-       "The train was small, but that is what surprised Ines, not what scared people.",
-       "Ines rang a bell on an old train, but nobody was scared of it."
+       "Kenji's friends thought this, but the nurse said something different.",
+       "Kenji says he wasn't nervous at all."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s5-t-2a",
        "kind": "audio",
-       "head": "Listen to Ines talking to her grandpa about a museum.",
+       "head": "Listen to Eva and Kenji talking about sports day.",
        "lines": [
         [
-         "bm_george",
-         "Grandpa",
-         "So, Ines, did you enjoy the transport museum today?"
+         "bf_lily",
+         "Eva",
+         "Kenji, are you OK now? You looked terrible on sports day."
         ],
         [
-         "bf_alice",
-         "Ines",
-         "I did, Grandpa! I was tired at the end, but it was really interesting. I didn't think I'd like old trains, but I was wrong."
+         "bm_fable",
+         "Kenji",
+         "I'm fine now, thanks. I felt really dizzy after the running race."
         ],
         [
-         "bm_george",
-         "Grandpa",
-         "What surprised you most?"
+         "bf_lily",
+         "Eva",
+         "Oh no. Were you nervous before the race?"
         ],
         [
-         "bf_alice",
-         "Ines",
-         "The first steam train. It was so small! And the guide said people were scared to travel on it because they thought it was too fast. It only went about twenty kilometres an hour."
+         "bm_fable",
+         "Kenji",
+         "No, not at all. My friends said I ran too fast. But the nurse said it was the heat. I didn't wear my hat, and I only had a tiny bottle of water all morning."
         ],
         [
-         "bm_george",
-         "Grandpa",
-         "Ha! My bike goes faster than that. And how was the guide?"
+         "bf_lily",
+         "Eva",
+         "Did you finish the race?"
         ],
         [
-         "bf_alice",
-         "Ines",
-         "She was great. She knew so many stories, and she let me ring the bell on an old train."
+         "bm_fable",
+         "Kenji",
+         "Yes, I came second, not last! But after that, I had to sit in the nurse's room. So I missed the long jump, and that's my best event."
         ],
         [
-         "bm_george",
-         "Grandpa",
-         "Lovely. So what was your favourite part?"
+         "bf_lily",
+         "Eva",
+         "But your team still won the cup!"
         ],
         [
-         "bf_alice",
-         "Ines",
-         "The old buses were fun, and I liked sitting in the plane. But the best bit was driving the train in the simulator. It felt real, and I didn't crash once!"
+         "bm_fable",
+         "Kenji",
+         "I know. I was happy for them, but I wanted to be there."
         ],
         [
-         "bm_george",
-         "Grandpa",
-         "Well done! Was there anything you didn't like?"
+         "bf_lily",
+         "Eva",
+         "So what will you do next year? Run more slowly? Or not do the race at all?"
         ],
         [
-         "bf_alice",
-         "Ines",
-         "The café. The food was cold and it cost a lot. Next time we should bring a picnic instead."
+         "bm_fable",
+         "Kenji",
+         "No way! I'll take a big bottle of water and wear my hat. And Mum says I should eat a proper breakfast. That day I only had a banana."
         ],
         [
-         "bm_george",
-         "Grandpa",
-         "Good idea. I didn't enjoy my soup much either. Would you go again?"
+         "bf_lily",
+         "Eva",
+         "What do you have for breakfast now?"
         ],
         [
-         "bf_alice",
-         "Ines",
-         "Yes, definitely. Actually, I want to bring Dad. He's mad about planes, and there's a new room about planes opening in June."
-        ],
-        [
-         "bm_george",
-         "Grandpa",
-         "Then we'll all go together. And we'll bring sandwiches!"
+         "bm_fable",
+         "Kenji",
+         "Eggs and rice. They aren't my favourite food, but they're much better for me than biscuits."
         ]
        ]
       }
      },
      {
       "hint": {
-       "step": "Listen for <b>That really helped</b>, then think about what <b>That</b> means."
+       "step": "Oscar guesses. Then think about what laughing and dancing tell you."
       },
-      "worked": "She \"told us to <b>look at the wall, not at the floor</b>. That really helped.\"",
+      "worked": "Pia says \"<b>He laughed and laughed, and he danced until midnight!</b>\" So he loved it.",
       "type": "mcq",
-      "q": "How did the instructor help Tariq?",
+      "q": "How did Grandpa feel about his surprise party?",
       "opts": [
-       "She told him to look at the wall.",
-       "She told him to look at the floor.",
-       "She gave him special shoes."
+       "He loved it.",
+       "He was cross.",
+       "He felt too tired."
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
-       "The instructor said to look at the wall, *not* at the floor.",
-       "The centre gives everyone special shoes, but that is not how the instructor helped."
+       "Pia says \"He wasn't cross\".",
+       "Pia says he wasn't tired at all."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s5-t-2b",
        "kind": "audio",
-       "head": "Listen to Amelia and Tariq talking about a birthday.",
+       "head": "Listen to Oscar and Pia talking about her grandpa's birthday.",
        "lines": [
         [
-         "bf_alice",
-         "Amelia",
-         "Tariq, how was the climbing centre? You went for your birthday, didn't you?"
+         "bm_lewis",
+         "Oscar",
+         "Pia, you look happy! How was your grandpa's birthday?"
         ],
         [
-         "bm_fable",
-         "Tariq",
-         "Yes, on Saturday. Honestly, I was worried before we went, because I don't like being high up. But it was the best birthday ever."
+         "bf_lily",
+         "Pia",
+         "Brilliant! He was seventy on Saturday, and we had a surprise party for him at my aunt's house. Thirty people shouted \"Surprise!\" when he walked in."
         ],
         [
-         "bf_alice",
-         "Amelia",
-         "Really? Weren't you scared?"
+         "bm_lewis",
+         "Oscar",
+         "Was he cross? Some people hate surprises."
         ],
         [
-         "bm_fable",
-         "Tariq",
-         "At first, yes. But the instructor was great. She checked our ropes every time, and she told us to look at the wall, not at the floor. That really helped."
+         "bf_lily",
+         "Pia",
+         "He wasn't cross, and he wasn't tired at all. He laughed and laughed, and he danced until midnight!"
         ],
         [
-         "bf_alice",
-         "Amelia",
-         "How many of you went?"
+         "bm_lewis",
+         "Oscar",
+         "Did you have balloons?"
         ],
         [
-         "bm_fable",
-         "Tariq",
-         "Six. Me, my cousin and four friends from school. Everyone had a different colour rope."
+         "bf_lily",
+         "Pia",
+         "My cousins wanted balloons, and the shop near my aunt's house had lots. But Grandpa hates the noise when they pop. So we made paper flowers instead."
         ],
         [
-         "bf_alice",
-         "Amelia",
-         "How high did you climb?"
+         "bm_lewis",
+         "Oscar",
+         "Was there a big cake?"
         ],
         [
-         "bm_fable",
-         "Tariq",
-         "The tall wall is fifteen metres. I only got halfway, but my cousin reached the top. I wasn't disappointed, though. Next time I'll get higher."
+         "bf_lily",
+         "Pia",
+         "Yes, but Grandpa mustn't eat much sugar now. So he only had a tiny piece, and he loves cake!"
         ],
         [
-         "bf_alice",
-         "Amelia",
-         "Did you do anything else there?"
+         "bm_lewis",
+         "Oscar",
+         "What was the best moment?"
         ],
         [
-         "bm_fable",
-         "Tariq",
-         "There's a café and a little shop, but we didn't have time for them. We had pizza at home afterwards instead. That was nice, because Grandma came too."
+         "bf_lily",
+         "Pia",
+         "His speech. Grandpa is usually really quiet. But that night he talked for ten minutes and told funny stories about Grandma."
         ],
         [
-         "bf_alice",
-         "Amelia",
-         "I'd love to try it. Is it expensive?"
+         "bm_lewis",
+         "Oscar",
+         "Are you doing anything else for him?"
         ],
         [
-         "bm_fable",
-         "Tariq",
-         "It's not cheap, but one ticket lets you stay all day, so it's worth it. And you don't have to bring anything. They give you special shoes and a helmet."
-        ],
-        [
-         "bf_alice",
-         "Amelia",
-         "Great. Maybe I'll go for my birthday too."
-        ],
-        [
-         "bm_fable",
-         "Tariq",
-         "You should! Ask for the instructor called Becky. She's the best."
+         "bf_lily",
+         "Pia",
+         "Dad wanted to make a video, but we're making a photo book instead. My cousin is choosing the photos, and I'm writing the words."
         ]
        ]
       }
@@ -4968,196 +4215,181 @@
    {
     "dok": 2,
     "lo": [
-     "6Ld.05"
+     "5Ld.03"
     ],
     "v": [
      {
       "hint": {
-       "step": "Ines lists several things. Listen for a phrase that means <b>favourite</b>, often after <b>But</b>."
+       "step": "Find the thing that went wrong for Kenji after the race."
       },
-      "worked": "Ines says \"<b>the best bit was driving the train in the simulator</b>\".",
+      "worked": "Kenji says \"<b>I missed the long jump, and that's my best event</b>\".",
       "type": "mcq",
-      "q": "What was Ines's favourite part?",
+      "q": "Why was Kenji disappointed?",
       "opts": [
-       "driving the train simulator",
-       "sitting in the plane",
-       "the old buses"
-      ],
-      "at": 2,
-      "whys": [
-       null,
-       "Ines liked sitting in the plane, but it was not the best bit.",
-       "Ines says the old buses were fun, but they were not the best bit."
-      ],
-      "letters": true,
-      "fig": {
-       "k": "stim",
-       "id": "s5-t-2a",
-       "kind": "audio",
-       "head": "Listen to Ines talking to her grandpa about a museum.",
-       "lines": [
-        [
-         "bm_george",
-         "Grandpa",
-         "So, Ines, did you enjoy the transport museum today?"
-        ],
-        [
-         "bf_alice",
-         "Ines",
-         "I did, Grandpa! I was tired at the end, but it was really interesting. I didn't think I'd like old trains, but I was wrong."
-        ],
-        [
-         "bm_george",
-         "Grandpa",
-         "What surprised you most?"
-        ],
-        [
-         "bf_alice",
-         "Ines",
-         "The first steam train. It was so small! And the guide said people were scared to travel on it because they thought it was too fast. It only went about twenty kilometres an hour."
-        ],
-        [
-         "bm_george",
-         "Grandpa",
-         "Ha! My bike goes faster than that. And how was the guide?"
-        ],
-        [
-         "bf_alice",
-         "Ines",
-         "She was great. She knew so many stories, and she let me ring the bell on an old train."
-        ],
-        [
-         "bm_george",
-         "Grandpa",
-         "Lovely. So what was your favourite part?"
-        ],
-        [
-         "bf_alice",
-         "Ines",
-         "The old buses were fun, and I liked sitting in the plane. But the best bit was driving the train in the simulator. It felt real, and I didn't crash once!"
-        ],
-        [
-         "bm_george",
-         "Grandpa",
-         "Well done! Was there anything you didn't like?"
-        ],
-        [
-         "bf_alice",
-         "Ines",
-         "The café. The food was cold and it cost a lot. Next time we should bring a picnic instead."
-        ],
-        [
-         "bm_george",
-         "Grandpa",
-         "Good idea. I didn't enjoy my soup much either. Would you go again?"
-        ],
-        [
-         "bf_alice",
-         "Ines",
-         "Yes, definitely. Actually, I want to bring Dad. He's mad about planes, and there's a new room about planes opening in June."
-        ],
-        [
-         "bm_george",
-         "Grandpa",
-         "Then we'll all go together. And we'll bring sandwiches!"
-        ]
-       ]
-      }
-     },
-     {
-      "hint": {
-       "step": "Listen for <b>though</b> and words about the future, which show how the speaker really feels."
-      },
-      "worked": "Tariq says \"<b>I wasn't disappointed</b>, though. <b>Next time I'll get higher</b>.\"",
-      "type": "mcq",
-      "q": "How does Tariq feel about only climbing halfway?",
-      "opts": [
-       "He's happy to try again.",
-       "He's disappointed with himself.",
-       "He's sad his cousin did better."
+       "He missed his best event.",
+       "His team didn't win.",
+       "He came last in the race."
       ],
       "at": 0,
       "whys": [
        null,
-       "Tariq says \"I wasn't disappointed\".",
-       "Tariq's cousin reached the top, but Tariq doesn't say he is sad about it."
+       "Kenji's team won the cup.",
+       "Kenji came second, not last."
+      ],
+      "letters": true,
+      "fig": {
+       "k": "stim",
+       "id": "s5-t-2a",
+       "kind": "audio",
+       "head": "Listen to Eva and Kenji talking about sports day.",
+       "lines": [
+        [
+         "bf_lily",
+         "Eva",
+         "Kenji, are you OK now? You looked terrible on sports day."
+        ],
+        [
+         "bm_fable",
+         "Kenji",
+         "I'm fine now, thanks. I felt really dizzy after the running race."
+        ],
+        [
+         "bf_lily",
+         "Eva",
+         "Oh no. Were you nervous before the race?"
+        ],
+        [
+         "bm_fable",
+         "Kenji",
+         "No, not at all. My friends said I ran too fast. But the nurse said it was the heat. I didn't wear my hat, and I only had a tiny bottle of water all morning."
+        ],
+        [
+         "bf_lily",
+         "Eva",
+         "Did you finish the race?"
+        ],
+        [
+         "bm_fable",
+         "Kenji",
+         "Yes, I came second, not last! But after that, I had to sit in the nurse's room. So I missed the long jump, and that's my best event."
+        ],
+        [
+         "bf_lily",
+         "Eva",
+         "But your team still won the cup!"
+        ],
+        [
+         "bm_fable",
+         "Kenji",
+         "I know. I was happy for them, but I wanted to be there."
+        ],
+        [
+         "bf_lily",
+         "Eva",
+         "So what will you do next year? Run more slowly? Or not do the race at all?"
+        ],
+        [
+         "bm_fable",
+         "Kenji",
+         "No way! I'll take a big bottle of water and wear my hat. And Mum says I should eat a proper breakfast. That day I only had a banana."
+        ],
+        [
+         "bf_lily",
+         "Eva",
+         "What do you have for breakfast now?"
+        ],
+        [
+         "bm_fable",
+         "Kenji",
+         "Eggs and rice. They aren't my favourite food, but they're much better for me than biscuits."
+        ]
+       ]
+      }
+     },
+     {
+      "hint": {
+       "step": "The reason often comes after <b>But</b>."
+      },
+      "worked": "Pia says \"<b>Grandpa hates the noise when they pop</b>\".",
+      "type": "mcq",
+      "q": "Why didn't they have balloons?",
+      "opts": [
+       "Grandpa hates the noise they make.",
+       "The cousins didn't want them.",
+       "The shop didn't have any."
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "The cousins wanted balloons.",
+       "The shop near the aunt's house had lots of balloons."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s5-t-2b",
        "kind": "audio",
-       "head": "Listen to Amelia and Tariq talking about a birthday.",
+       "head": "Listen to Oscar and Pia talking about her grandpa's birthday.",
        "lines": [
         [
-         "bf_alice",
-         "Amelia",
-         "Tariq, how was the climbing centre? You went for your birthday, didn't you?"
+         "bm_lewis",
+         "Oscar",
+         "Pia, you look happy! How was your grandpa's birthday?"
         ],
         [
-         "bm_fable",
-         "Tariq",
-         "Yes, on Saturday. Honestly, I was worried before we went, because I don't like being high up. But it was the best birthday ever."
+         "bf_lily",
+         "Pia",
+         "Brilliant! He was seventy on Saturday, and we had a surprise party for him at my aunt's house. Thirty people shouted \"Surprise!\" when he walked in."
         ],
         [
-         "bf_alice",
-         "Amelia",
-         "Really? Weren't you scared?"
+         "bm_lewis",
+         "Oscar",
+         "Was he cross? Some people hate surprises."
         ],
         [
-         "bm_fable",
-         "Tariq",
-         "At first, yes. But the instructor was great. She checked our ropes every time, and she told us to look at the wall, not at the floor. That really helped."
+         "bf_lily",
+         "Pia",
+         "He wasn't cross, and he wasn't tired at all. He laughed and laughed, and he danced until midnight!"
         ],
         [
-         "bf_alice",
-         "Amelia",
-         "How many of you went?"
+         "bm_lewis",
+         "Oscar",
+         "Did you have balloons?"
         ],
         [
-         "bm_fable",
-         "Tariq",
-         "Six. Me, my cousin and four friends from school. Everyone had a different colour rope."
+         "bf_lily",
+         "Pia",
+         "My cousins wanted balloons, and the shop near my aunt's house had lots. But Grandpa hates the noise when they pop. So we made paper flowers instead."
         ],
         [
-         "bf_alice",
-         "Amelia",
-         "How high did you climb?"
+         "bm_lewis",
+         "Oscar",
+         "Was there a big cake?"
         ],
         [
-         "bm_fable",
-         "Tariq",
-         "The tall wall is fifteen metres. I only got halfway, but my cousin reached the top. I wasn't disappointed, though. Next time I'll get higher."
+         "bf_lily",
+         "Pia",
+         "Yes, but Grandpa mustn't eat much sugar now. So he only had a tiny piece, and he loves cake!"
         ],
         [
-         "bf_alice",
-         "Amelia",
-         "Did you do anything else there?"
+         "bm_lewis",
+         "Oscar",
+         "What was the best moment?"
         ],
         [
-         "bm_fable",
-         "Tariq",
-         "There's a café and a little shop, but we didn't have time for them. We had pizza at home afterwards instead. That was nice, because Grandma came too."
+         "bf_lily",
+         "Pia",
+         "His speech. Grandpa is usually really quiet. But that night he talked for ten minutes and told funny stories about Grandma."
         ],
         [
-         "bf_alice",
-         "Amelia",
-         "I'd love to try it. Is it expensive?"
+         "bm_lewis",
+         "Oscar",
+         "Are you doing anything else for him?"
         ],
         [
-         "bm_fable",
-         "Tariq",
-         "It's not cheap, but one ticket lets you stay all day, so it's worth it. And you don't have to bring anything. They give you special shoes and a helmet."
-        ],
-        [
-         "bf_alice",
-         "Amelia",
-         "Great. Maybe I'll go for my birthday too."
-        ],
-        [
-         "bm_fable",
-         "Tariq",
-         "You should! Ask for the instructor called Becky. She's the best."
+         "bf_lily",
+         "Pia",
+         "Dad wanted to make a video, but we're making a photo book instead. My cousin is choosing the photos, and I'm writing the words."
         ]
        ]
       }
@@ -5167,196 +4399,181 @@
    {
     "dok": 2,
     "lo": [
-     "6Ld.05"
+     "5Lm.01"
     ],
     "v": [
      {
       "hint": {
-       "step": "The question asks for an opinion. Listen for the problems Ines gives, then think what they mean together."
+       "step": "Eva makes two guesses. Then listen to Kenji's own plan."
       },
-      "worked": "Ines says \"<b>The food was cold and it cost a lot</b>\", so it wasn't worth the money.",
+      "worked": "Kenji says \"<b>I'll take a big bottle of water</b>\". That means more to drink.",
       "type": "mcq",
-      "q": "What does Ines think about the café?",
+      "q": "What will Kenji do differently next year?",
       "opts": [
-       "It wasn't worth the money.",
-       "It was a good place for a picnic.",
-       "It was cheap, but the food was cold."
-      ],
-      "at": 1,
-      "whys": [
-       null,
-       "Ines wants to bring a picnic *instead of* using the café.",
-       "The food was cold, but it cost a lot, so the café wasn't cheap."
-      ],
-      "letters": true,
-      "fig": {
-       "k": "stim",
-       "id": "s5-t-2a",
-       "kind": "audio",
-       "head": "Listen to Ines talking to her grandpa about a museum.",
-       "lines": [
-        [
-         "bm_george",
-         "Grandpa",
-         "So, Ines, did you enjoy the transport museum today?"
-        ],
-        [
-         "bf_alice",
-         "Ines",
-         "I did, Grandpa! I was tired at the end, but it was really interesting. I didn't think I'd like old trains, but I was wrong."
-        ],
-        [
-         "bm_george",
-         "Grandpa",
-         "What surprised you most?"
-        ],
-        [
-         "bf_alice",
-         "Ines",
-         "The first steam train. It was so small! And the guide said people were scared to travel on it because they thought it was too fast. It only went about twenty kilometres an hour."
-        ],
-        [
-         "bm_george",
-         "Grandpa",
-         "Ha! My bike goes faster than that. And how was the guide?"
-        ],
-        [
-         "bf_alice",
-         "Ines",
-         "She was great. She knew so many stories, and she let me ring the bell on an old train."
-        ],
-        [
-         "bm_george",
-         "Grandpa",
-         "Lovely. So what was your favourite part?"
-        ],
-        [
-         "bf_alice",
-         "Ines",
-         "The old buses were fun, and I liked sitting in the plane. But the best bit was driving the train in the simulator. It felt real, and I didn't crash once!"
-        ],
-        [
-         "bm_george",
-         "Grandpa",
-         "Well done! Was there anything you didn't like?"
-        ],
-        [
-         "bf_alice",
-         "Ines",
-         "The café. The food was cold and it cost a lot. Next time we should bring a picnic instead."
-        ],
-        [
-         "bm_george",
-         "Grandpa",
-         "Good idea. I didn't enjoy my soup much either. Would you go again?"
-        ],
-        [
-         "bf_alice",
-         "Ines",
-         "Yes, definitely. Actually, I want to bring Dad. He's mad about planes, and there's a new room about planes opening in June."
-        ],
-        [
-         "bm_george",
-         "Grandpa",
-         "Then we'll all go together. And we'll bring sandwiches!"
-        ]
-       ]
-      }
-     },
-     {
-      "hint": {
-       "step": "The question asks <b>why</b>. Listen for <b>instead</b>, and check the sentence just before it for the reason the plan changed."
-      },
-      "worked": "Tariq says \"<b>we didn't have time</b> for them. We had pizza at home afterwards instead.\"",
-      "type": "mcq",
-      "q": "Why did they eat at home?",
-      "opts": [
-       "There was no time for the café.",
-       "Grandma was coming too.",
-       "The tickets were not cheap."
+       "take more to drink",
+       "run more slowly",
+       "not do the race at all"
       ],
       "at": 0,
       "whys": [
        null,
-       "Grandma came too, and that was nice, but it is not why they ate at home.",
-       "Tariq says the tickets are not cheap, but that is not why they ate at home."
+       "Eva asks this, but Kenji says \"No way!\"",
+       "Eva asks this too, but Kenji says \"No way!\""
+      ],
+      "letters": true,
+      "fig": {
+       "k": "stim",
+       "id": "s5-t-2a",
+       "kind": "audio",
+       "head": "Listen to Eva and Kenji talking about sports day.",
+       "lines": [
+        [
+         "bf_lily",
+         "Eva",
+         "Kenji, are you OK now? You looked terrible on sports day."
+        ],
+        [
+         "bm_fable",
+         "Kenji",
+         "I'm fine now, thanks. I felt really dizzy after the running race."
+        ],
+        [
+         "bf_lily",
+         "Eva",
+         "Oh no. Were you nervous before the race?"
+        ],
+        [
+         "bm_fable",
+         "Kenji",
+         "No, not at all. My friends said I ran too fast. But the nurse said it was the heat. I didn't wear my hat, and I only had a tiny bottle of water all morning."
+        ],
+        [
+         "bf_lily",
+         "Eva",
+         "Did you finish the race?"
+        ],
+        [
+         "bm_fable",
+         "Kenji",
+         "Yes, I came second, not last! But after that, I had to sit in the nurse's room. So I missed the long jump, and that's my best event."
+        ],
+        [
+         "bf_lily",
+         "Eva",
+         "But your team still won the cup!"
+        ],
+        [
+         "bm_fable",
+         "Kenji",
+         "I know. I was happy for them, but I wanted to be there."
+        ],
+        [
+         "bf_lily",
+         "Eva",
+         "So what will you do next year? Run more slowly? Or not do the race at all?"
+        ],
+        [
+         "bm_fable",
+         "Kenji",
+         "No way! I'll take a big bottle of water and wear my hat. And Mum says I should eat a proper breakfast. That day I only had a banana."
+        ],
+        [
+         "bf_lily",
+         "Eva",
+         "What do you have for breakfast now?"
+        ],
+        [
+         "bm_fable",
+         "Kenji",
+         "Eggs and rice. They aren't my favourite food, but they're much better for me than biscuits."
+        ]
+       ]
+      }
+     },
+     {
+      "hint": {
+       "step": "Listen for <b>mustn't</b>. It tells you about a rule."
+      },
+      "worked": "Pia says \"<b>Grandpa mustn't eat much sugar now</b>\".",
+      "type": "mcq",
+      "q": "Why did Grandpa only have a small piece of cake?",
+      "opts": [
+       "He mustn't eat much sugar.",
+       "He doesn't like cake.",
+       "The cake was very small."
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Pia says \"he loves cake!\"",
+       "Oscar asks about a big cake, and Pia says \"Yes\"."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s5-t-2b",
        "kind": "audio",
-       "head": "Listen to Amelia and Tariq talking about a birthday.",
+       "head": "Listen to Oscar and Pia talking about her grandpa's birthday.",
        "lines": [
         [
-         "bf_alice",
-         "Amelia",
-         "Tariq, how was the climbing centre? You went for your birthday, didn't you?"
+         "bm_lewis",
+         "Oscar",
+         "Pia, you look happy! How was your grandpa's birthday?"
         ],
         [
-         "bm_fable",
-         "Tariq",
-         "Yes, on Saturday. Honestly, I was worried before we went, because I don't like being high up. But it was the best birthday ever."
+         "bf_lily",
+         "Pia",
+         "Brilliant! He was seventy on Saturday, and we had a surprise party for him at my aunt's house. Thirty people shouted \"Surprise!\" when he walked in."
         ],
         [
-         "bf_alice",
-         "Amelia",
-         "Really? Weren't you scared?"
+         "bm_lewis",
+         "Oscar",
+         "Was he cross? Some people hate surprises."
         ],
         [
-         "bm_fable",
-         "Tariq",
-         "At first, yes. But the instructor was great. She checked our ropes every time, and she told us to look at the wall, not at the floor. That really helped."
+         "bf_lily",
+         "Pia",
+         "He wasn't cross, and he wasn't tired at all. He laughed and laughed, and he danced until midnight!"
         ],
         [
-         "bf_alice",
-         "Amelia",
-         "How many of you went?"
+         "bm_lewis",
+         "Oscar",
+         "Did you have balloons?"
         ],
         [
-         "bm_fable",
-         "Tariq",
-         "Six. Me, my cousin and four friends from school. Everyone had a different colour rope."
+         "bf_lily",
+         "Pia",
+         "My cousins wanted balloons, and the shop near my aunt's house had lots. But Grandpa hates the noise when they pop. So we made paper flowers instead."
         ],
         [
-         "bf_alice",
-         "Amelia",
-         "How high did you climb?"
+         "bm_lewis",
+         "Oscar",
+         "Was there a big cake?"
         ],
         [
-         "bm_fable",
-         "Tariq",
-         "The tall wall is fifteen metres. I only got halfway, but my cousin reached the top. I wasn't disappointed, though. Next time I'll get higher."
+         "bf_lily",
+         "Pia",
+         "Yes, but Grandpa mustn't eat much sugar now. So he only had a tiny piece, and he loves cake!"
         ],
         [
-         "bf_alice",
-         "Amelia",
-         "Did you do anything else there?"
+         "bm_lewis",
+         "Oscar",
+         "What was the best moment?"
         ],
         [
-         "bm_fable",
-         "Tariq",
-         "There's a café and a little shop, but we didn't have time for them. We had pizza at home afterwards instead. That was nice, because Grandma came too."
+         "bf_lily",
+         "Pia",
+         "His speech. Grandpa is usually really quiet. But that night he talked for ten minutes and told funny stories about Grandma."
         ],
         [
-         "bf_alice",
-         "Amelia",
-         "I'd love to try it. Is it expensive?"
+         "bm_lewis",
+         "Oscar",
+         "Are you doing anything else for him?"
         ],
         [
-         "bm_fable",
-         "Tariq",
-         "It's not cheap, but one ticket lets you stay all day, so it's worth it. And you don't have to bring anything. They give you special shoes and a helmet."
-        ],
-        [
-         "bf_alice",
-         "Amelia",
-         "Great. Maybe I'll go for my birthday too."
-        ],
-        [
-         "bm_fable",
-         "Tariq",
-         "You should! Ask for the instructor called Becky. She's the best."
+         "bf_lily",
+         "Pia",
+         "Dad wanted to make a video, but we're making a photo book instead. My cousin is choosing the photos, and I'm writing the words."
         ]
        ]
       }
@@ -5366,196 +4583,365 @@
    {
     "dok": 2,
     "lo": [
-     "6Ld.05"
+     "5Ld.03"
     ],
     "v": [
      {
       "hint": {
-       "step": "The question asks <b>why</b>. Listen for what Ines says about Dad, and look for an option that says the same thing in different words."
+       "step": "Listen for <b>Mum says</b>. What is Mum's own advice?"
       },
-      "worked": "Ines says \"<b>He's mad about planes</b>, and there's a new room about planes\".",
+      "worked": "Kenji says \"<b>Mum says I should eat a proper breakfast</b>\".",
       "type": "mcq",
-      "q": "Why does Ines want to take her dad to the museum?",
+      "q": "What does Kenji's mum want him to do?",
       "opts": [
-       "He is very interested in planes.",
-       "He likes old trains.",
-       "He wants to try the simulator."
+       "eat a better breakfast",
+       "wear his hat every day",
+       "eat more bananas"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
-       "Ines is the one who liked the old trains, not Dad.",
-       "Ines used the simulator, but she doesn't say Dad wants to."
+       "Kenji says he will wear his hat, but that is his own idea.",
+       "Kenji only had a banana that day. Mum wants a proper breakfast."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s5-t-2a",
        "kind": "audio",
-       "head": "Listen to Ines talking to her grandpa about a museum.",
+       "head": "Listen to Eva and Kenji talking about sports day.",
        "lines": [
         [
-         "bm_george",
-         "Grandpa",
-         "So, Ines, did you enjoy the transport museum today?"
+         "bf_lily",
+         "Eva",
+         "Kenji, are you OK now? You looked terrible on sports day."
         ],
         [
-         "bf_alice",
-         "Ines",
-         "I did, Grandpa! I was tired at the end, but it was really interesting. I didn't think I'd like old trains, but I was wrong."
+         "bm_fable",
+         "Kenji",
+         "I'm fine now, thanks. I felt really dizzy after the running race."
         ],
         [
-         "bm_george",
-         "Grandpa",
-         "What surprised you most?"
+         "bf_lily",
+         "Eva",
+         "Oh no. Were you nervous before the race?"
         ],
         [
-         "bf_alice",
-         "Ines",
-         "The first steam train. It was so small! And the guide said people were scared to travel on it because they thought it was too fast. It only went about twenty kilometres an hour."
+         "bm_fable",
+         "Kenji",
+         "No, not at all. My friends said I ran too fast. But the nurse said it was the heat. I didn't wear my hat, and I only had a tiny bottle of water all morning."
         ],
         [
-         "bm_george",
-         "Grandpa",
-         "Ha! My bike goes faster than that. And how was the guide?"
+         "bf_lily",
+         "Eva",
+         "Did you finish the race?"
         ],
         [
-         "bf_alice",
-         "Ines",
-         "She was great. She knew so many stories, and she let me ring the bell on an old train."
+         "bm_fable",
+         "Kenji",
+         "Yes, I came second, not last! But after that, I had to sit in the nurse's room. So I missed the long jump, and that's my best event."
         ],
         [
-         "bm_george",
-         "Grandpa",
-         "Lovely. So what was your favourite part?"
+         "bf_lily",
+         "Eva",
+         "But your team still won the cup!"
         ],
         [
-         "bf_alice",
-         "Ines",
-         "The old buses were fun, and I liked sitting in the plane. But the best bit was driving the train in the simulator. It felt real, and I didn't crash once!"
+         "bm_fable",
+         "Kenji",
+         "I know. I was happy for them, but I wanted to be there."
         ],
         [
-         "bm_george",
-         "Grandpa",
-         "Well done! Was there anything you didn't like?"
+         "bf_lily",
+         "Eva",
+         "So what will you do next year? Run more slowly? Or not do the race at all?"
         ],
         [
-         "bf_alice",
-         "Ines",
-         "The café. The food was cold and it cost a lot. Next time we should bring a picnic instead."
+         "bm_fable",
+         "Kenji",
+         "No way! I'll take a big bottle of water and wear my hat. And Mum says I should eat a proper breakfast. That day I only had a banana."
         ],
         [
-         "bm_george",
-         "Grandpa",
-         "Good idea. I didn't enjoy my soup much either. Would you go again?"
+         "bf_lily",
+         "Eva",
+         "What do you have for breakfast now?"
         ],
         [
-         "bf_alice",
-         "Ines",
-         "Yes, definitely. Actually, I want to bring Dad. He's mad about planes, and there's a new room about planes opening in June."
-        ],
-        [
-         "bm_george",
-         "Grandpa",
-         "Then we'll all go together. And we'll bring sandwiches!"
+         "bm_fable",
+         "Kenji",
+         "Eggs and rice. They aren't my favourite food, but they're much better for me than biscuits."
         ]
        ]
       }
      },
      {
       "hint": {
-       "step": "Listen for <b>so it's worth it</b>. The reason comes just before."
+       "step": "Listen for <b>usually</b>. Then listen for <b>But that night</b>."
       },
-      "worked": "Tariq says \"<b>one ticket lets you stay all day, so it's worth it</b>\".",
+      "worked": "Pia says \"<b>Grandpa is usually really quiet</b>. But that night he talked for ten minutes\".",
       "type": "mcq",
-      "q": "Why does Tariq think the climbing centre is worth it?",
+      "q": "Why was Grandpa's speech special?",
       "opts": [
-       "One ticket lasts all day.",
-       "It is very cheap.",
-       "You can bring your own shoes."
+       "He's normally very quiet.",
+       "It was really short.",
+       "Grandma told funny stories."
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
-       "Tariq says \"It's not cheap\".",
-       "You don't have to bring anything, because they give you shoes."
+       "Grandpa talked for ten minutes, so it wasn't short.",
+       "Grandpa told the funny stories about Grandma. Grandma didn't tell them."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s5-t-2b",
        "kind": "audio",
-       "head": "Listen to Amelia and Tariq talking about a birthday.",
+       "head": "Listen to Oscar and Pia talking about her grandpa's birthday.",
        "lines": [
         [
-         "bf_alice",
-         "Amelia",
-         "Tariq, how was the climbing centre? You went for your birthday, didn't you?"
+         "bm_lewis",
+         "Oscar",
+         "Pia, you look happy! How was your grandpa's birthday?"
+        ],
+        [
+         "bf_lily",
+         "Pia",
+         "Brilliant! He was seventy on Saturday, and we had a surprise party for him at my aunt's house. Thirty people shouted \"Surprise!\" when he walked in."
+        ],
+        [
+         "bm_lewis",
+         "Oscar",
+         "Was he cross? Some people hate surprises."
+        ],
+        [
+         "bf_lily",
+         "Pia",
+         "He wasn't cross, and he wasn't tired at all. He laughed and laughed, and he danced until midnight!"
+        ],
+        [
+         "bm_lewis",
+         "Oscar",
+         "Did you have balloons?"
+        ],
+        [
+         "bf_lily",
+         "Pia",
+         "My cousins wanted balloons, and the shop near my aunt's house had lots. But Grandpa hates the noise when they pop. So we made paper flowers instead."
+        ],
+        [
+         "bm_lewis",
+         "Oscar",
+         "Was there a big cake?"
+        ],
+        [
+         "bf_lily",
+         "Pia",
+         "Yes, but Grandpa mustn't eat much sugar now. So he only had a tiny piece, and he loves cake!"
+        ],
+        [
+         "bm_lewis",
+         "Oscar",
+         "What was the best moment?"
+        ],
+        [
+         "bf_lily",
+         "Pia",
+         "His speech. Grandpa is usually really quiet. But that night he talked for ten minutes and told funny stories about Grandma."
+        ],
+        [
+         "bm_lewis",
+         "Oscar",
+         "Are you doing anything else for him?"
+        ],
+        [
+         "bf_lily",
+         "Pia",
+         "Dad wanted to make a video, but we're making a photo book instead. My cousin is choosing the photos, and I'm writing the words."
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "5Lm.01"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Listen to Kenji's last words. What does <b>better for me</b> mean?"
+      },
+      "worked": "Kenji says \"<b>they're much better for me than biscuits</b>\".",
+      "type": "mcq",
+      "q": "What does Kenji think of eggs and rice?",
+      "opts": [
+       "They're good for him.",
+       "They're his favourite food.",
+       "They're worse than biscuits."
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "Kenji says they aren't his favourite food.",
+       "Kenji says they are better for him than biscuits, not worse."
+      ],
+      "letters": true,
+      "fig": {
+       "k": "stim",
+       "id": "s5-t-2a",
+       "kind": "audio",
+       "head": "Listen to Eva and Kenji talking about sports day.",
+       "lines": [
+        [
+         "bf_lily",
+         "Eva",
+         "Kenji, are you OK now? You looked terrible on sports day."
         ],
         [
          "bm_fable",
-         "Tariq",
-         "Yes, on Saturday. Honestly, I was worried before we went, because I don't like being high up. But it was the best birthday ever."
+         "Kenji",
+         "I'm fine now, thanks. I felt really dizzy after the running race."
         ],
         [
-         "bf_alice",
-         "Amelia",
-         "Really? Weren't you scared?"
-        ],
-        [
-         "bm_fable",
-         "Tariq",
-         "At first, yes. But the instructor was great. She checked our ropes every time, and she told us to look at the wall, not at the floor. That really helped."
-        ],
-        [
-         "bf_alice",
-         "Amelia",
-         "How many of you went?"
+         "bf_lily",
+         "Eva",
+         "Oh no. Were you nervous before the race?"
         ],
         [
          "bm_fable",
-         "Tariq",
-         "Six. Me, my cousin and four friends from school. Everyone had a different colour rope."
+         "Kenji",
+         "No, not at all. My friends said I ran too fast. But the nurse said it was the heat. I didn't wear my hat, and I only had a tiny bottle of water all morning."
         ],
         [
-         "bf_alice",
-         "Amelia",
-         "How high did you climb?"
-        ],
-        [
-         "bm_fable",
-         "Tariq",
-         "The tall wall is fifteen metres. I only got halfway, but my cousin reached the top. I wasn't disappointed, though. Next time I'll get higher."
-        ],
-        [
-         "bf_alice",
-         "Amelia",
-         "Did you do anything else there?"
+         "bf_lily",
+         "Eva",
+         "Did you finish the race?"
         ],
         [
          "bm_fable",
-         "Tariq",
-         "There's a café and a little shop, but we didn't have time for them. We had pizza at home afterwards instead. That was nice, because Grandma came too."
+         "Kenji",
+         "Yes, I came second, not last! But after that, I had to sit in the nurse's room. So I missed the long jump, and that's my best event."
         ],
         [
-         "bf_alice",
-         "Amelia",
-         "I'd love to try it. Is it expensive?"
-        ],
-        [
-         "bm_fable",
-         "Tariq",
-         "It's not cheap, but one ticket lets you stay all day, so it's worth it. And you don't have to bring anything. They give you special shoes and a helmet."
-        ],
-        [
-         "bf_alice",
-         "Amelia",
-         "Great. Maybe I'll go for my birthday too."
+         "bf_lily",
+         "Eva",
+         "But your team still won the cup!"
         ],
         [
          "bm_fable",
-         "Tariq",
-         "You should! Ask for the instructor called Becky. She's the best."
+         "Kenji",
+         "I know. I was happy for them, but I wanted to be there."
+        ],
+        [
+         "bf_lily",
+         "Eva",
+         "So what will you do next year? Run more slowly? Or not do the race at all?"
+        ],
+        [
+         "bm_fable",
+         "Kenji",
+         "No way! I'll take a big bottle of water and wear my hat. And Mum says I should eat a proper breakfast. That day I only had a banana."
+        ],
+        [
+         "bf_lily",
+         "Eva",
+         "What do you have for breakfast now?"
+        ],
+        [
+         "bm_fable",
+         "Kenji",
+         "Eggs and rice. They aren't my favourite food, but they're much better for me than biscuits."
+        ]
+       ]
+      }
+     },
+     {
+      "hint": {
+       "step": "Two people have jobs. Find Pia's job."
+      },
+      "worked": "Pia says \"<b>I'm writing the words</b>\".",
+      "type": "mcq",
+      "q": "What is Pia going to do for the photo book?",
+      "opts": [
+       "write the words",
+       "make a video",
+       "choose the photos"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Dad wanted a video, but they're making a photo book instead.",
+       "Pia's cousin is choosing the photos, not Pia."
+      ],
+      "letters": true,
+      "fig": {
+       "k": "stim",
+       "id": "s5-t-2b",
+       "kind": "audio",
+       "head": "Listen to Oscar and Pia talking about her grandpa's birthday.",
+       "lines": [
+        [
+         "bm_lewis",
+         "Oscar",
+         "Pia, you look happy! How was your grandpa's birthday?"
+        ],
+        [
+         "bf_lily",
+         "Pia",
+         "Brilliant! He was seventy on Saturday, and we had a surprise party for him at my aunt's house. Thirty people shouted \"Surprise!\" when he walked in."
+        ],
+        [
+         "bm_lewis",
+         "Oscar",
+         "Was he cross? Some people hate surprises."
+        ],
+        [
+         "bf_lily",
+         "Pia",
+         "He wasn't cross, and he wasn't tired at all. He laughed and laughed, and he danced until midnight!"
+        ],
+        [
+         "bm_lewis",
+         "Oscar",
+         "Did you have balloons?"
+        ],
+        [
+         "bf_lily",
+         "Pia",
+         "My cousins wanted balloons, and the shop near my aunt's house had lots. But Grandpa hates the noise when they pop. So we made paper flowers instead."
+        ],
+        [
+         "bm_lewis",
+         "Oscar",
+         "Was there a big cake?"
+        ],
+        [
+         "bf_lily",
+         "Pia",
+         "Yes, but Grandpa mustn't eat much sugar now. So he only had a tiny piece, and he loves cake!"
+        ],
+        [
+         "bm_lewis",
+         "Oscar",
+         "What was the best moment?"
+        ],
+        [
+         "bf_lily",
+         "Pia",
+         "His speech. Grandpa is usually really quiet. But that night he talked for ten minutes and told funny stories about Grandma."
+        ],
+        [
+         "bm_lewis",
+         "Oscar",
+         "Are you doing anything else for him?"
+        ],
+        [
+         "bf_lily",
+         "Pia",
+         "Dad wanted to make a video, but we're making a photo book instead. My cousin is choosing the photos, and I'm writing the words."
         ]
        ]
       }
@@ -5568,11 +4954,11 @@
   "secs": 60,
   "items": [
    [
-    "\"I'm not keen on it\" means...",
+    "\"I'm not keen on it\" means I...",
     [
-     "I don't like it",
-     "I love it",
-     "I want it"
+     "don't like it",
+     "love it",
+     "want it"
     ]
    ],
    [
@@ -5584,23 +4970,23 @@
     ]
    ],
    [
-    "\"It was worth it\" means...",
+    "\"The best part\" means the part I liked...",
     [
-     "glad I did it",
-     "too expensive",
-     "I didn't go"
+     "most",
+     "least",
+     "first"
     ]
    ],
    [
-    "Disappointed is a ___ feeling.",
+    "\"The worst part\" means the part I liked...",
     [
-     "sad",
-     "happy",
-     "excited"
+     "least",
+     "most",
+     "last"
     ]
    ],
    [
-    "\"Actually\" often gives the ___ fact.",
+    "\"Actually\" often comes before the ___ fact.",
     [
      "true",
      "wrong",
@@ -5608,11 +4994,11 @@
     ]
    ],
    [
-    "\"How long?\" asks about...",
+    "\"Was going to\" tells you about an...",
     [
-     "time",
-     "a price",
-     "a place"
+     "old plan",
+     "old friend",
+     "old house"
     ]
    ],
    [
@@ -5624,147 +5010,19 @@
     ]
    ],
    [
-    "\"I'd recommend it\" means you should...",
+    "\"Where?\" asks about...",
     [
-     "try it",
-     "avoid it",
-     "buy two"
-    ]
-   ],
-   [
-    "Which word shows a changed plan?",
-    [
-     "instead",
-     "because",
-     "also"
-    ]
-   ],
-   [
-    "\"The best bit\" means the...",
-    [
-     "favourite part",
-     "worst part",
-     "first part"
-    ]
-   ],
-   [
-    "\"I can't wait!\" means I'm...",
-    [
-     "excited",
-     "bored",
-     "late"
-    ]
-   ],
-   [
-    "The reason often comes after...",
-    [
-     "because",
-     "but",
-     "then"
-    ]
-   ],
-   [
-    "\"Find out\" means...",
-    [
-     "learn",
-     "lose",
-     "forget"
-    ]
-   ],
-   [
-    "\"In the end\" tells you what...",
-    [
-     "finally happened",
-     "happened first",
-     "never happened"
-    ]
-   ],
-   [
-    "\"Although\" joins two ___ ideas.",
-    [
-     "different",
-     "same",
-     "funny"
-    ]
-   ],
-   [
-    "Part 3 questions follow the talk's...",
-    [
-     "order",
-     "title",
-     "speaker"
-    ]
-   ],
-   [
-    "How many options in Part 3?",
-    [
-     "three",
-     "two",
-     "four"
-    ]
-   ],
-   [
-    "Wrong options in Part 3 are usually...",
-    [
-     "mentioned",
-     "never said",
-     "pictures"
-    ]
-   ],
-   [
-    "How many times do you hear it?",
-    [
-     "twice",
-     "once",
-     "three times"
-    ]
-   ],
-   [
-    "\"It cost a lot\" means it was...",
-    [
-     "expensive",
-     "cheap",
-     "free"
-    ]
-   ],
-   [
-    "\"It was free\" means it cost...",
-    [
-     "nothing",
-     "a lot",
-     "a little"
-    ]
-   ],
-   [
-    "\"I wish I'd kept my old one\": she's...",
-    [
-     "disappointed",
-     "delighted",
-     "proud"
-    ]
-   ],
-   [
-    "\"Not at all!\" can mean...",
-    [
-     "no",
-     "yes",
-     "maybe"
-    ]
-   ],
-   [
-    "\"Mad about planes\" means he...",
-    [
-     "loves planes",
-     "hates planes",
-     "fears planes"
+     "a place",
+     "a person",
+     "a reason"
     ]
    ],
    [
     "\"When?\" asks about...",
     [
      "a time",
-     "a person",
-     "a reason"
+     "a place",
+     "a feeling"
     ]
    ],
    [
@@ -5772,103 +5030,263 @@
     [
      "reason",
      "place",
-     "number"
+     "price"
     ]
    ],
    [
-    "\"How did you hear about it?\" asks...",
-    [
-     "how you found out",
-     "how you got there",
-     "how much"
-    ]
-   ],
-   [
-    "\"I'm going to...\" talks about the...",
-    [
-     "future",
-     "past",
-     "present"
-    ]
-   ],
-   [
-    "\"I was going to, but...\" means plan...",
-    [
-     "changed",
-     "worked",
-     "started"
-    ]
-   ],
-   [
-    "\"It's OK\" means it's...",
-    [
-     "not bad",
-     "the best",
-     "terrible"
-    ]
-   ],
-   [
-    "\"Mention\" means...",
-    [
-     "say quickly",
-     "shout",
-     "write down"
-    ]
-   ],
-   [
-    "\"Brilliant!\" means...",
-    [
-     "very good",
-     "very bad",
-     "very old"
-    ]
-   ],
-   [
-    "\"Honestly, I was worried\" means he felt...",
-    [
-     "nervous",
-     "happy",
-     "angry"
-    ]
-   ],
-   [
-    "Which word means \"in its place\"?",
+    "Which word shows a changed plan?",
     [
      "instead",
-     "actually",
-     "already"
+     "also",
+     "because"
     ]
    ],
    [
-    "\"She runs the club\" means she...",
+    "Which word often brings a reason?",
     [
-     "leads it",
-     "jogs there",
-     "left it"
+     "because",
+     "instead",
+     "then"
     ]
    ],
    [
-    "\"Not earlier than eleven\" means come...",
+    "\"In the end\" means...",
     [
-     "at eleven or later",
-     "before eleven",
-     "at ten"
-    ]
-   ],
-   [
-    "\"Most of the time\" means...",
-    [
-     "usually",
-     "never",
-     "once"
-    ]
-   ],
-   [
-    "\"It's only a treat\" means...",
-    [
-     "just sometimes",
-     "every day",
+     "finally",
+     "at first",
      "never"
+    ]
+   ],
+   [
+    "A boring film is...",
+    [
+     "not interesting",
+     "very exciting",
+     "very funny"
+    ]
+   ],
+   [
+    "Shaking hands before a show: you feel...",
+    [
+     "nervous",
+     "bored",
+     "lazy"
+    ]
+   ],
+   [
+    "You did well and feel...",
+    [
+     "proud",
+     "lonely",
+     "bored"
+    ]
+   ],
+   [
+    "No friends to play with: you feel...",
+    [
+     "lonely",
+     "proud",
+     "excited"
+    ]
+   ],
+   [
+    "Someone who talks all the time is...",
+    [
+     "talkative",
+     "shy",
+     "quiet"
+    ]
+   ],
+   [
+    "Someone who shares their things is...",
+    [
+     "generous",
+     "selfish",
+     "lazy"
+    ]
+   ],
+   [
+    "Someone who never shares is...",
+    [
+     "selfish",
+     "generous",
+     "kind"
+    ]
+   ],
+   [
+    "Someone who gets angry easily is...",
+    [
+     "bad-tempered",
+     "calm",
+     "cheerful"
+    ]
+   ],
+   [
+    "Someone always happy and smiling is...",
+    [
+     "cheerful",
+     "nervous",
+     "selfish"
+    ]
+   ],
+   [
+    "Hot body and you feel ill: a...",
+    [
+     "fever",
+     "cough",
+     "runny nose"
+    ]
+   ],
+   [
+    "Pain in your tummy: a...",
+    [
+     "stomach ache",
+     "headache",
+     "sore throat"
+    ]
+   ],
+   [
+    "The room is spinning: you feel...",
+    [
+     "dizzy",
+     "hungry",
+     "proud"
+    ]
+   ],
+   [
+    "Achoo! You are...",
+    [
+     "sneezing",
+     "coughing",
+     "shouting"
+    ]
+   ],
+   [
+    "Milk, cheese and yoghurt are...",
+    [
+     "dairy food",
+     "grains",
+     "fats"
+    ]
+   ],
+   [
+    "Rice, bread and pasta are...",
+    [
+     "grains",
+     "dairy food",
+     "fruit"
+    ]
+   ],
+   [
+    "Too much salt: the food is too...",
+    [
+     "salty",
+     "sweet",
+     "soft"
+    ]
+   ],
+   [
+    "\"It was so loud\" is about...",
+    [
+     "noise",
+     "taste",
+     "size"
+    ]
+   ],
+   [
+    "\"Sold out\" means there are...",
+    [
+     "none left",
+     "lots left",
+     "some free"
+    ]
+   ],
+   [
+    "\"Too expensive\" is about...",
+    [
+     "money",
+     "time",
+     "size"
+    ]
+   ],
+   [
+    "\"Closed\" means you can't...",
+    [
+     "go in",
+     "be happy",
+     "say hello"
+    ]
+   ],
+   [
+    "\"There used to be a market\" means...",
+    [
+     "not now",
+     "still now",
+     "next year"
+    ]
+   ],
+   [
+    "Enormous means very...",
+    [
+     "big",
+     "small",
+     "old"
+    ]
+   ],
+   [
+    "Fireworks, lights and a feast: a...",
+    [
+     "celebration",
+     "test",
+     "lesson"
+    ]
+   ],
+   [
+    "\"Surprise!\" is shouted at a...",
+    [
+     "surprise party",
+     "maths test",
+     "doctor's"
+    ]
+   ],
+   [
+    "Lucky money is a Tet...",
+    [
+     "gift",
+     "game",
+     "food"
+    ]
+   ],
+   [
+    "\"My hero\" is a person I...",
+    [
+     "admire",
+     "don't know",
+     "dislike"
+    ]
+   ],
+   [
+    "\"No way!\" means...",
+    [
+     "definitely not",
+     "yes, please",
+     "maybe"
+    ]
+   ],
+   [
+    "\"Not now\" means it was true...",
+    [
+     "before",
+     "today",
+     "always"
+    ]
+   ],
+   [
+    "Someone's guess can be...",
+    [
+     "wrong",
+     "a reason",
+     "a place"
     ]
    ],
    [
@@ -5876,105 +5294,73 @@
     [
      "before",
      "after",
-     "instead of"
+     "instead"
     ]
    ],
    [
-    "\"So instead, I'll ride with you.\" Who rides?",
+    "Questions follow the talk's...",
     [
-     "you and me",
-     "only you",
-     "only me"
+     "order",
+     "speaker",
+     "title"
     ]
    ],
    [
-    "\"I'm not sorry I did it\" means...",
+    "The recording in the exam plays...",
     [
-     "I'm glad",
-     "I'm sad",
-     "I'm angry"
+     "twice",
+     "once",
+     "three times"
     ]
    ],
    [
-    "\"Harder than I expected\" means it was...",
+    "\"What did she NOT like?\" Find a...",
     [
-     "difficult",
-     "easy",
-     "boring"
+     "problem",
+     "favourite",
+     "plan"
     ]
    ],
    [
-    "\"I'd definitely go again\" means she...",
+    "\"Next month\" is about the...",
     [
-     "enjoyed it",
-     "hated it",
-     "got lost"
+     "future",
+     "past",
+     "present"
     ]
    ],
    [
-    "\"It felt real\" describes...",
+    "\"Last year\" is about the...",
     [
-     "a simulator",
-     "a sandwich",
-     "a song"
+     "past",
+     "future",
+     "present"
     ]
    ],
    [
-    "\"He's already joined\" means he...",
+    "\"So I'm saving for a bike\": the plan is...",
     [
-     "is a member",
-     "will join",
-     "won't join"
+     "a bike",
+     "a game",
+     "a book"
     ]
    ],
    [
-    "\"That's not the reason\" means the idea is...",
+    "\"He's usually quiet\" means he is quiet...",
     [
-     "wrong",
-     "right",
-     "funny"
-    ]
-   ],
-   [
-    "\"Very sensible\" means a...",
-    [
-     "good idea",
-     "silly idea",
-     "new idea"
-    ]
-   ],
-   [
-    "\"It was so-so\" means...",
-    [
-     "just OK",
-     "amazing",
-     "awful"
-    ]
-   ],
-   [
-    "\"I'd rather stay home\" means I...",
-    [
-     "prefer home",
-     "must go out",
-     "hate home"
-    ]
-   ],
-   [
-    "\"What's next?\" asks about...",
-    [
-     "a plan",
-     "the past",
-     "a price"
+     "most days",
+     "never",
+     "today only"
     ]
    ]
   ]
  },
  "selfcheck": {
   "goals": [
-   "hear the real answer after but, actually and instead",
-   "understand opinion words like prefer, not keen on and worth it",
-   "find the reason after because or before so",
-   "answer Part 3 questions in the order of the talk"
+   "hear the real answer after but, actually, instead and in the end",
+   "spot an old plan with was going to",
+   "find what someone liked best or did not like",
+   "answer conversation questions in the order of the talk"
   ],
   "again": [
    "c",

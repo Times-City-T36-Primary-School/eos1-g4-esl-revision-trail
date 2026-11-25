@@ -15,50 +15,51 @@
       "num": 1,
       "dok": 2,
       "lo": [
-       "6Ld.04"
+       "5Ld.04",
+       "5Ld.03"
       ],
       "v": [
        {
         "hint": {
-         "step": "Three times are said. Listen for the time that comes with the word 'starts'."
+         "step": "Three presents are talked about. Listen for the reason why two of them are not good."
         },
-        "worked": "Dad says the match 'starts later, at half past ten'. Nine was last week and ten is the warm-up time.",
+        "worked": "Grandma is 'always cold in the evenings', so Dad says 'a warm scarf is perfect' and Emily says 'Yes!'.",
         "type": "mcq",
-        "q": "What time does Kenji's football match start on Saturday?",
+        "q": "What will Emily give Grandma for her birthday?",
         "opts": [
          {
           "html": "",
           "fig": {
            "k": "pico",
-           "pic": "🕥",
-           "tag": "10:30"
+           "pic": "🧣",
+           "tag": "scarf"
           },
-          "alt": "10:30 picture"
+          "alt": "scarf picture"
          },
          {
           "html": "",
           "fig": {
            "k": "pico",
-           "pic": "🕘",
-           "tag": "9:00"
+           "pic": "💐",
+           "tag": "flowers"
           },
-          "alt": "9:00 picture"
+          "alt": "flowers picture"
          },
          {
           "html": "",
           "fig": {
            "k": "pico",
-           "pic": "🕙",
-           "tag": "10:00"
+           "pic": "📖",
+           "tag": "book"
           },
-          "alt": "10:00 picture"
+          "alt": "book picture"
          }
         ],
-        "at": 1,
+        "at": 2,
         "whys": [
          null,
-         "Nine o'clock was the time last week. Dad says 'No' to nine.",
-         "Ten o'clock is when Kenji must arrive to warm up, not when the match starts."
+         "Emily asks about flowers first, but Dad says Grandma has lots in her garden.",
+         "Grandma is reading three books already, so Emily doesn't choose a book."
         ],
         "letters": true,
         "sub": "Tap one picture.",
@@ -66,27 +67,32 @@
          "k": "stim",
          "id": "sm-summit-l1-q1",
          "kind": "audio",
-         "head": "Listen to Kenji and his dad.",
+         "head": "Listen to Emily and her dad.",
          "lines": [
           [
-           "bm_lewis",
-           "Kenji",
-           "Dad, does my football match start at nine on Saturday, like last week?"
+           "bf_lily",
+           "Emily",
+           "Dad, what should I give Grandma for her birthday? Some flowers?"
           ],
           [
            "bm_george",
            "Dad",
-           "No, the coach sent a message. The other team has a long journey, so the match starts later, at half past ten."
+           "She's got lots of flowers in her garden. What about a book?"
           ],
           [
-           "bm_lewis",
-           "Kenji",
-           "Great! I can have a longer sleep."
+           "bf_lily",
+           "Emily",
+           "She's reading three books already! But she's always cold in the evenings."
           ],
           [
            "bm_george",
            "Dad",
-           "Not too long! The coach wants everyone at the pitch at ten o'clock to warm up."
+           "Then a warm scarf is perfect."
+          ],
+          [
+           "bf_lily",
+           "Emily",
+           "Yes! A blue one. Blue is her favourite colour."
           ]
          ]
         }
@@ -97,50 +103,50 @@
       "num": 2,
       "dok": 1,
       "lo": [
-       "6Ld.04"
+       "5Ld.04"
       ],
       "v": [
        {
         "hint": {
-         "step": "Listen for what Lan saw, not what she wanted to see."
+         "step": "You will hear three times. Listen for the one that goes with 'this year it starts'."
         },
-        "worked": "Lan says 'A whole family of ducks! They walked right past us.' The goats were inside and the horse is for next year.",
+        "worked": "Mum says 'This year it starts at seven o'clock.' Half past six was last year, and half past seven is the fireworks.",
         "type": "mcq",
-        "q": "Which animal did Lan see at the farm?",
+        "q": "What time does the lantern parade start this year?",
         "opts": [
          {
           "html": "",
           "fig": {
            "k": "pico",
-           "pic": "🦆",
-           "tag": ""
+           "pic": "🕖",
+           "tag": "7:00"
           },
-          "alt": " picture"
+          "alt": "7:00 picture"
          },
          {
           "html": "",
           "fig": {
            "k": "pico",
-           "pic": "🐐",
-           "tag": ""
+           "pic": "🕡",
+           "tag": "6:30"
           },
-          "alt": " picture"
+          "alt": "6:30 picture"
          },
          {
           "html": "",
           "fig": {
            "k": "pico",
-           "pic": "🐴",
-           "tag": ""
+           "pic": "🕢",
+           "tag": "7:30"
           },
-          "alt": " picture"
+          "alt": "7:30 picture"
          }
         ],
         "at": 0,
         "whys": [
          null,
-         "Lan wanted to feed the goats, but they were inside because of the rain.",
-         "Grandpa is going to buy a horse next year. There is no horse yet."
+         "Half past six was last year's start time. This year it is the time they leave home.",
+         "Half past seven is when the fireworks start, not the parade."
         ],
         "letters": true,
         "sub": "Tap one picture.",
@@ -148,27 +154,27 @@
          "k": "stim",
          "id": "sm-summit-l1-q2",
          "kind": "audio",
-         "head": "Listen to Lan and her mum.",
+         "head": "Listen to Owen and his mum.",
          "lines": [
           [
-           "bf_emma",
-           "Mum",
-           "Did you enjoy the farm with Grandpa yesterday, Lan?"
-          ],
-          [
-           "bf_lily",
-           "Lan",
-           "Yes! I really wanted to feed the goats, but they were inside because of the rain."
+           "bm_lewis",
+           "Owen",
+           "Mum, does the lantern parade start at half past six?"
           ],
           [
            "bf_emma",
            "Mum",
-           "Oh, what a pity. So what did you see?"
+           "That was last year. This year it starts at seven o'clock."
           ],
           [
-           "bf_lily",
-           "Lan",
-           "A whole family of ducks! They walked right past us across the yard. And Grandpa says he's going to buy a horse next year!"
+           "bm_lewis",
+           "Owen",
+           "Can we get there early? I want to stand at the front."
+          ],
+          [
+           "bf_emma",
+           "Mum",
+           "Yes, we'll leave home at half past six. And the fireworks are at half past seven."
           ]
          ]
         }
@@ -177,52 +183,52 @@
      },
      {
       "num": 3,
-      "dok": 2,
+      "dok": 1,
       "lo": [
-       "6Ld.04"
+       "5Ld.04"
       ],
       "v": [
        {
         "hint": {
-         "step": "Mum changes the plan. Listen for the word 'instead'."
+         "step": "Chi makes a guess. Does Mum say yes or no to it? Listen to what she says next."
         },
-        "worked": "Mum says 'We'll go by train instead.' The car is not free and the bus is too slow.",
+        "worked": "Mum says 'No, his head is fine. He's got earache.' His cough is 'much better now'.",
         "type": "mcq",
-        "q": "How will Omar and his mum get to the museum?",
+        "q": "What is wrong with Chi's brother today?",
         "opts": [
          {
           "html": "",
           "fig": {
            "k": "pico",
-           "pic": "🚆",
-           "tag": ""
+           "pic": "👂",
+           "tag": "earache"
           },
-          "alt": " picture"
+          "alt": "earache picture"
          },
          {
           "html": "",
           "fig": {
            "k": "pico",
-           "pic": "🚗",
-           "tag": ""
+           "pic": "🤕",
+           "tag": "headache"
           },
-          "alt": " picture"
+          "alt": "headache picture"
          },
          {
           "html": "",
           "fig": {
            "k": "pico",
-           "pic": "🚌",
-           "tag": ""
+           "pic": "😷",
+           "tag": "cough"
           },
-          "alt": " picture"
+          "alt": "cough picture"
          }
         ],
-        "at": 2,
+        "at": 1,
         "whys": [
          null,
-         "Mum was going to drive, but Dad needs the car for work.",
-         "Omar asks about the bus, but Mum says it takes ages on Sundays."
+         "Chi guesses a headache, but Mum says 'his head is fine'.",
+         "Mum says his cough is much better now. It is not the problem today."
         ],
         "letters": true,
         "sub": "Tap one picture.",
@@ -230,32 +236,27 @@
          "k": "stim",
          "id": "sm-summit-l1-q3",
          "kind": "audio",
-         "head": "Listen to Omar and his mum.",
+         "head": "Listen to Chi and her mum.",
          "lines": [
           [
-           "bm_fable",
-           "Omar",
-           "Mum, how are we getting to the science museum tomorrow? Are we going by car?"
+           "bf_alice",
+           "Chi",
+           "Mum, why isn't my brother at school today? Has he got a headache again?"
           ],
           [
-           "bf_isabella",
+           "bf_emma",
            "Mum",
-           "I was going to drive, but Dad needs the car for work."
+           "No, his head is fine. He's got earache. He couldn't sleep last night."
           ],
           [
-           "bm_fable",
-           "Omar",
-           "So shall we take the bus? It stops right outside our flat."
+           "bf_alice",
+           "Chi",
+           "Oh no. Is it because of his cough?"
           ],
           [
-           "bf_isabella",
+           "bf_emma",
            "Mum",
-           "The bus takes ages on Sundays. We'll go by train instead. The station is next to the museum."
-          ],
-          [
-           "bm_fable",
-           "Omar",
-           "Cool! I love trains."
+           "Maybe. His cough is much better now, but the doctor is going to look at his ear this afternoon."
           ]
          ]
         }
@@ -264,52 +265,53 @@
      },
      {
       "num": 4,
-      "dok": 1,
+      "dok": 2,
       "lo": [
-       "6Ld.04"
+       "5Ld.04",
+       "5Ld.03"
       ],
       "v": [
        {
         "hint": {
-         "step": "Listen for the word 'paid'."
+         "step": "Two costumes are ruled out. Listen for the reason each one is not possible."
         },
-        "worked": "Freya says 'there was a sale, so I only paid nine'. Fifteen is the usual price and twelve is Nam's bottle.",
+        "worked": "The pirate was last year and the astronaut costume 'was too small', so he is wearing 'My cousin's green dinosaur costume'.",
         "type": "mcq",
-        "q": "How much did Freya pay for her water bottle?",
+        "q": "What will Yusuf wear to the school party?",
         "opts": [
          {
           "html": "",
           "fig": {
            "k": "pico",
-           "pic": "💷",
-           "tag": "£9"
+           "pic": "🦖",
+           "tag": "dinosaur"
           },
-          "alt": "£9 picture"
+          "alt": "dinosaur picture"
          },
          {
           "html": "",
           "fig": {
            "k": "pico",
-           "pic": "💷",
-           "tag": "£15"
+           "pic": "🏴‍☠️",
+           "tag": "pirate"
           },
-          "alt": "£15 picture"
+          "alt": "pirate picture"
          },
          {
           "html": "",
           "fig": {
            "k": "pico",
-           "pic": "💷",
-           "tag": "£12"
+           "pic": "🧑‍🚀",
+           "tag": "astronaut"
           },
-          "alt": "£12 picture"
+          "alt": "astronaut picture"
          }
         ],
-        "at": 1,
+        "at": 2,
         "whys": [
          null,
-         "Fifteen pounds is the usual price, but there was a sale.",
-         "Twelve pounds was the price of Nam's bottle, not Freya's."
+         "Yusuf was a pirate last year. He says 'No' to that idea.",
+         "Yusuf wanted to be an astronaut, but the costume was too small."
         ],
         "letters": true,
         "sub": "Tap one picture.",
@@ -317,32 +319,27 @@
          "k": "stim",
          "id": "sm-summit-l1-q4",
          "kind": "audio",
-         "head": "Listen to Freya and her friend Nam.",
+         "head": "Listen to Nora and her friend Yusuf.",
          "lines": [
           [
-           "bm_lewis",
-           "Nam",
-           "Is that a new water bottle, Freya?"
+           "bf_lily",
+           "Nora",
+           "Yusuf, are you going to the school party as a pirate again?"
           ],
           [
-           "bf_alice",
-           "Freya",
-           "Yes, I bought it for running club. It keeps my water cold all day."
+           "bm_fable",
+           "Yusuf",
+           "No, I was a pirate last year. I wanted to be an astronaut, but the costume was too small."
           ],
           [
-           "bm_lewis",
-           "Nam",
-           "Was it expensive?"
+           "bf_lily",
+           "Nora",
+           "Oh no! So what are you wearing?"
           ],
           [
-           "bf_alice",
-           "Freya",
-           "It usually costs fifteen pounds, but there was a sale, so I only paid nine."
-          ],
-          [
-           "bm_lewis",
-           "Nam",
-           "Nine pounds? That's a good price! Mine cost twelve, and it leaks."
+           "bm_fable",
+           "Yusuf",
+           "My cousin's green dinosaur costume. It's got a long tail!"
           ]
          ]
         }
@@ -353,50 +350,51 @@
       "num": 5,
       "dok": 2,
       "lo": [
-       "6Ld.04"
+       "5Ld.04",
+       "5Ld.03"
       ],
       "v": [
        {
         "hint": {
-         "step": "Listen to the END. Where does Mum see the cat when she looks out of the window?"
+         "step": "Dad makes a mistake. Listen to how Luna corrects him."
         },
-        "worked": "Mum says 'There she is, under the mango tree in the garden.' The bed and the kitchen were earlier ideas.",
+        "worked": "Luna says 'that sign is for the chocolate cake. The mango one is ten pounds.' Eight pounds is for the small ones.",
         "type": "mcq",
-        "q": "Where is Huy's cat now?",
+        "q": "How much is the big mango cake?",
         "opts": [
          {
           "html": "",
           "fig": {
            "k": "pico",
-           "pic": "🌳",
-           "tag": "garden"
+           "pic": "🥭🎂",
+           "tag": "£10"
           },
-          "alt": "garden picture"
+          "alt": "£10 picture"
          },
          {
           "html": "",
           "fig": {
            "k": "pico",
-           "pic": "🛏️",
-           "tag": "bed"
+           "pic": "🥭🎂",
+           "tag": "£12"
           },
-          "alt": "bed picture"
+          "alt": "£12 picture"
          },
          {
           "html": "",
           "fig": {
            "k": "pico",
-           "pic": "🥣",
-           "tag": "kitchen"
+           "pic": "🥭🎂",
+           "tag": "£8"
           },
-          "alt": "kitchen picture"
+          "alt": "£8 picture"
          }
         ],
-        "at": 2,
+        "at": 1,
         "whys": [
          null,
-         "Huy says Biscuit isn't asleep on his bed.",
-         "Mum saw Biscuit in the kitchen earlier, but Huy has already looked there."
+         "Twelve pounds is on the sign for the chocolate cake. Luna corrects her dad.",
+         "Eight pounds is the price of the small mango cakes, not the big one."
         ],
         "letters": true,
         "sub": "Tap one picture.",
@@ -404,191 +402,27 @@
          "k": "stim",
          "id": "sm-summit-l1-q5",
          "kind": "audio",
-         "head": "Listen to Huy and his mum.",
+         "head": "Listen to Luna and her dad in a cake shop.",
          "lines": [
           [
-           "bm_fable",
-           "Huy",
-           "Mum, have you seen Biscuit? She isn't asleep on my bed."
+           "bf_lily",
+           "Luna",
+           "Dad, look at that big mango cake! How much is it?"
           ],
           [
-           "bf_emma",
-           "Mum",
-           "I saw her in the kitchen earlier, next to her food bowl."
-          ],
-          [
-           "bm_fable",
-           "Huy",
-           "I've already looked there. She isn't in the kitchen."
-          ],
-          [
-           "bf_emma",
-           "Mum",
-           "Hmm. Oh, look out of the window! There she is, under the mango tree in the garden. She's chasing a butterfly."
-          ]
-         ]
-        }
-       }
-      ]
-     },
-     {
-      "num": 6,
-      "dok": 2,
-      "lo": [
-       "6Ld.04"
-      ],
-      "v": [
-       {
-        "hint": {
-         "step": "The first plan changed. Listen for what Isla really did."
-        },
-        "worked": "Isla says 'I went to my grandma's flat and we baked a chocolate cake together.' They didn't go to the cinema and she didn't watch TV.",
-        "type": "mcq",
-        "q": "What did Isla do on Saturday afternoon?",
-        "opts": [
-         {
-          "html": "",
-          "fig": {
-           "k": "pico",
-           "pic": "🎂",
-           "tag": ""
-          },
-          "alt": " picture"
-         },
-         {
-          "html": "",
-          "fig": {
-           "k": "pico",
-           "pic": "🎬",
-           "tag": ""
-          },
-          "alt": " picture"
-         },
-         {
-          "html": "",
-          "fig": {
-           "k": "pico",
-           "pic": "📺",
-           "tag": ""
-          },
-          "alt": " picture"
-         }
-        ],
-        "at": 0,
-        "whys": [
-         null,
-         "The cinema was the plan, but Ines had a bad cold, so they didn't go.",
-         "Arlo asks about TV, but Isla says 'No'."
-        ],
-        "letters": true,
-        "sub": "Tap one picture.",
-        "fig": {
-         "k": "stim",
-         "id": "sm-summit-l1-q6",
-         "kind": "audio",
-         "head": "Listen to Isla and her friend Arlo.",
-         "lines": [
-          [
-           "bm_lewis",
-           "Arlo",
-           "What did you do on Saturday afternoon, Isla? Did you go to the cinema with Ines?"
+           "bm_george",
+           "Dad",
+           "The sign says twelve pounds."
           ],
           [
            "bf_lily",
-           "Isla",
-           "That was the plan, but Ines had a bad cold, so we didn't go."
+           "Luna",
+           "No, that sign is for the chocolate cake. The mango one is ten pounds."
           ],
           [
-           "bm_lewis",
-           "Arlo",
-           "Oh no. Did you just watch TV at home, then?"
-          ],
-          [
-           "bf_lily",
-           "Isla",
-           "No, I went to my grandma's flat and we baked a chocolate cake together. It was delicious!"
-          ]
-         ]
-        }
-       }
-      ]
-     },
-     {
-      "num": 7,
-      "dok": 1,
-      "lo": [
-       "6Ld.04"
-      ],
-      "v": [
-       {
-        "hint": {
-         "step": "Listen for 'But I got ...'."
-        },
-        "worked": "Tariq says 'But I got a smartwatch! It counts my steps.' The tablet was what he wanted and the camera belongs to Elena's brother.",
-        "type": "mcq",
-        "q": "What did Tariq get for his birthday?",
-        "opts": [
-         {
-          "html": "",
-          "fig": {
-           "k": "pico",
-           "pic": "⌚",
-           "tag": ""
-          },
-          "alt": " picture"
-         },
-         {
-          "html": "",
-          "fig": {
-           "k": "pico",
-           "pic": "📱",
-           "tag": "tablet"
-          },
-          "alt": "tablet picture"
-         },
-         {
-          "html": "",
-          "fig": {
-           "k": "pico",
-           "pic": "📷",
-           "tag": ""
-          },
-          "alt": " picture"
-         }
-        ],
-        "at": 1,
-        "whys": [
-         null,
-         "Tariq wanted a tablet, but his mum says he is too young.",
-         "The camera was a present for Elena's brother."
-        ],
-        "letters": true,
-        "sub": "Tap one picture.",
-        "fig": {
-         "k": "stim",
-         "id": "sm-summit-l1-q7",
-         "kind": "audio",
-         "head": "Listen to Tariq and his friend Elena.",
-         "lines": [
-          [
-           "bf_alice",
-           "Elena",
-           "Happy birthday, Tariq! Did you get the tablet you wanted?"
-          ],
-          [
-           "bm_fable",
-           "Tariq",
-           "No. Mum says I'm too young for a tablet. But I got a smartwatch! It counts my steps when I walk to school."
-          ],
-          [
-           "bf_alice",
-           "Elena",
-           "That's cool. My brother got a camera for his birthday, but he never uses it."
-          ],
-          [
-           "bm_fable",
-           "Tariq",
-           "Maybe he can lend it to me!"
+           "bm_george",
+           "Dad",
+           "You're right. And the small mango cakes are eight pounds. But let's get the big one for the party."
           ]
          ]
         }
@@ -600,61 +434,130 @@
    {
     "n": 2,
     "title": "Part 2",
-    "instr": "You will hear a teacher talking about a school fun run. For each question, write the missing information.",
+    "instr": "You will hear a teacher talking to her class about a lantern-making afternoon. For each question, write the missing information. Write one word or a number or a date.",
     "items": [
      {
-      "num": 8,
+      "num": 6,
       "dok": 1,
       "lo": [
-       "6Ld.04"
+       "5Ld.04"
       ],
       "v": [
        {
         "hint": {
-         "step": "Two times are said close together. Which one is when the run STARTS?"
+         "step": "A day, a date and a time are said close together. Write only the number of the day."
         },
-        "worked": "The teacher says 'The run starts at a quarter past eight'. Half past seven is the time to arrive.",
+        "worked": "The teacher says 'It's on Thursday the eighteenth of September.' Quarter past two is the start time, not the date.",
         "type": "tfill",
-        "q": "Write the missing information for question 8.",
+        "q": "Write the missing information for question 6.",
         "lines": [
-         "Start time: {0}"
+         "Date: {0} September"
         ],
         "ans": [
          [
-          "8:15",
-          "8.15",
-          "quarter past eight",
-          "a quarter past eight",
-          "8:15 am",
-          "8.15 am",
-          "8:15am",
-          "8.15am",
-          "eight fifteen",
-          "08:15",
-          "08.15",
-          "8:15a.m.",
-          "8.15a.m.",
-          "8:15 a.m.",
-          "8.15 a.m.",
-          "08:15 am",
-          "08.15 am",
-          "08:15am",
-          "08.15am",
-          "08:15 a.m.",
-          "08.15 a.m.",
-          "quarter past 8"
+          "18",
+          "18th",
+          "eighteenth",
+          "the 18th",
+          "the eighteenth",
+          "thursday 18",
+          "thursday 18th",
+          "thursday the 18th",
+          "thursday the eighteenth",
+          "eighteen"
          ]
         ],
         "fig": {
          "k": "stim",
          "id": "sm-summit-l2",
          "kind": "audio",
-         "head": "<b>School Fun Run</b><br>Place: <b>Green Lake Park</b> (example)<br>(8) Start time: ________<br>(9) Distance for Grade 5: ________ kilometres<br>(10) Every runner must bring a: ________<br>(11) Give your form to: Mr ________<br>(12) Every runner who finishes gets a: ________",
+         "head": "<b>LANTERN-MAKING AFTERNOON</b><br>Place: <b>school hall</b> (example)<br>(6) Date: ________ September<br>(7) Lantern shape: a star or a ________<br>(8) Bring: scissors and an old ________<br>(9) At 4.30, walk round the ________<br>(10) Price: £________",
          "lines": [
           [
            "bf_isabella",
            "Teacher",
-           "Hello, everyone. I'd like to tell you about the school fun run, which is taking place next Saturday at Green Lake Park. We're raising money to buy new books for the school library. The run starts at a quarter past eight, but please arrive at the park by half past seven. That gives you time to warm up and find your group. Students in Grades 1 to 3 will run two kilometres, and students in Grades 4 and 5 will run three kilometres. Don't worry if you can't run all the way. You can walk for part of it, too! You needn't bring any water, because the school will give every runner a bottle at the start. But you must bring a cap, because it gets very sunny by the lake. If you want to take part, please give your form to the teacher who is organising the event. His name is Mr Thornley. That's T-H-O-R-N-L-E-Y. He's in Room 12, next to the sports hall, and you have to give him your form by Wednesday. Last year, every runner got a certificate. This year, we've got something even better. Every runner who finishes will get a medal to take home. If it rains, we'll move the run to the following Saturday. I hope to see lots of you there!"
+           "Good morning, everyone. Next week our class is having a lantern-making afternoon in the school hall. It's on Thursday the eighteenth of September. We'll start at quarter past two, straight after lunch. Last year, everyone made a moon lantern. This year, you can choose. You can make a star or a fish. The fish lanterns are a bit harder, but they look lovely! We've got lots of coloured paper and glue, so you don't need to bring those. But please bring scissors and an old newspaper to keep the tables clean. At four o'clock, we'll stop for a snack. Then at half past four, we'll turn on the little lights inside and walk round the playground. Your parents can watch from the gate. The afternoon costs three pounds. That pays for the sticks and the lights. Please bring the money by Monday. Thank you!"
+          ]
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "num": 7,
+      "dok": 1,
+      "lo": [
+       "5Ld.04",
+       "5Ld.01"
+      ],
+      "v": [
+       {
+        "hint": {
+         "step": "Two years are talked about. Listen for the shapes for THIS year."
+        },
+        "worked": "'This year, you can choose. You can make a star or a fish.' The moon lantern was last year.",
+        "type": "tfill",
+        "q": "Write the missing information for question 7.",
+        "lines": [
+         "Lantern shape: a star or a {0}"
+        ],
+        "ans": [
+         [
+          "fish",
+          "fish lantern"
+         ]
+        ],
+        "fig": {
+         "k": "stim",
+         "id": "sm-summit-l2",
+         "kind": "audio",
+         "head": "<b>LANTERN-MAKING AFTERNOON</b><br>Place: <b>school hall</b> (example)<br>(6) Date: ________ September<br>(7) Lantern shape: a star or a ________<br>(8) Bring: scissors and an old ________<br>(9) At 4.30, walk round the ________<br>(10) Price: £________",
+         "lines": [
+          [
+           "bf_isabella",
+           "Teacher",
+           "Good morning, everyone. Next week our class is having a lantern-making afternoon in the school hall. It's on Thursday the eighteenth of September. We'll start at quarter past two, straight after lunch. Last year, everyone made a moon lantern. This year, you can choose. You can make a star or a fish. The fish lanterns are a bit harder, but they look lovely! We've got lots of coloured paper and glue, so you don't need to bring those. But please bring scissors and an old newspaper to keep the tables clean. At four o'clock, we'll stop for a snack. Then at half past four, we'll turn on the little lights inside and walk round the playground. Your parents can watch from the gate. The afternoon costs three pounds. That pays for the sticks and the lights. Please bring the money by Monday. Thank you!"
+          ]
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "num": 8,
+      "dok": 1,
+      "lo": [
+       "5Ld.04",
+       "5Ld.01"
+      ],
+      "v": [
+       {
+        "hint": {
+         "step": "Some things are in school already. Listen for what students must bring."
+        },
+        "worked": "The teacher says 'please bring scissors and an old newspaper'. The paper and glue are at school already.",
+        "type": "tfill",
+        "q": "Write the missing information for question 8.",
+        "lines": [
+         "Bring: scissors and an old {0}"
+        ],
+        "ans": [
+         [
+          "newspaper",
+          "newspapers",
+          "news paper"
+         ]
+        ],
+        "fig": {
+         "k": "stim",
+         "id": "sm-summit-l2",
+         "kind": "audio",
+         "head": "<b>LANTERN-MAKING AFTERNOON</b><br>Place: <b>school hall</b> (example)<br>(6) Date: ________ September<br>(7) Lantern shape: a star or a ________<br>(8) Bring: scissors and an old ________<br>(9) At 4.30, walk round the ________<br>(10) Price: £________",
+         "lines": [
+          [
+           "bf_isabella",
+           "Teacher",
+           "Good morning, everyone. Next week our class is having a lantern-making afternoon in the school hall. It's on Thursday the eighteenth of September. We'll start at quarter past two, straight after lunch. Last year, everyone made a moon lantern. This year, you can choose. You can make a star or a fish. The fish lanterns are a bit harder, but they look lovely! We've got lots of coloured paper and glue, so you don't need to bring those. But please bring scissors and an old newspaper to keep the tables clean. At four o'clock, we'll stop for a snack. Then at half past four, we'll turn on the little lights inside and walk round the playground. Your parents can watch from the gate. The afternoon costs three pounds. That pays for the sticks and the lights. Please bring the money by Monday. Thank you!"
           ]
          ]
         }
@@ -665,35 +568,36 @@
       "num": 9,
       "dok": 1,
       "lo": [
-       "6Ld.04"
+       "5Ld.04"
       ],
       "v": [
        {
         "hint": {
-         "step": "Two distances are said. Listen for the one for Grades 4 and 5."
+         "step": "Two times are close together. Which one is half past four?"
         },
-        "worked": "'Students in Grades 4 and 5 will run three kilometres.' Two kilometres is for Grades 1 to 3.",
+        "worked": "'At half past four, we'll turn on the little lights inside and walk round the playground.' At four o'clock they have a snack.",
         "type": "tfill",
         "q": "Write the missing information for question 9.",
         "lines": [
-         "Distance for Grade 5: {0} kilometres"
+         "At 4.30, walk round the {0}"
         ],
         "ans": [
          [
-          "3",
-          "three"
+          "playground",
+          "play ground",
+          "school playground"
          ]
         ],
         "fig": {
          "k": "stim",
          "id": "sm-summit-l2",
          "kind": "audio",
-         "head": "<b>School Fun Run</b><br>Place: <b>Green Lake Park</b> (example)<br>(8) Start time: ________<br>(9) Distance for Grade 5: ________ kilometres<br>(10) Every runner must bring a: ________<br>(11) Give your form to: Mr ________<br>(12) Every runner who finishes gets a: ________",
+         "head": "<b>LANTERN-MAKING AFTERNOON</b><br>Place: <b>school hall</b> (example)<br>(6) Date: ________ September<br>(7) Lantern shape: a star or a ________<br>(8) Bring: scissors and an old ________<br>(9) At 4.30, walk round the ________<br>(10) Price: £________",
          "lines": [
           [
            "bf_isabella",
            "Teacher",
-           "Hello, everyone. I'd like to tell you about the school fun run, which is taking place next Saturday at Green Lake Park. We're raising money to buy new books for the school library. The run starts at a quarter past eight, but please arrive at the park by half past seven. That gives you time to warm up and find your group. Students in Grades 1 to 3 will run two kilometres, and students in Grades 4 and 5 will run three kilometres. Don't worry if you can't run all the way. You can walk for part of it, too! You needn't bring any water, because the school will give every runner a bottle at the start. But you must bring a cap, because it gets very sunny by the lake. If you want to take part, please give your form to the teacher who is organising the event. His name is Mr Thornley. That's T-H-O-R-N-L-E-Y. He's in Room 12, next to the sports hall, and you have to give him your form by Wednesday. Last year, every runner got a certificate. This year, we've got something even better. Every runner who finishes will get a medal to take home. If it rains, we'll move the run to the following Saturday. I hope to see lots of you there!"
+           "Good morning, everyone. Next week our class is having a lantern-making afternoon in the school hall. It's on Thursday the eighteenth of September. We'll start at quarter past two, straight after lunch. Last year, everyone made a moon lantern. This year, you can choose. You can make a star or a fish. The fish lanterns are a bit harder, but they look lovely! We've got lots of coloured paper and glue, so you don't need to bring those. But please bring scissors and an old newspaper to keep the tables clean. At four o'clock, we'll stop for a snack. Then at half past four, we'll turn on the little lights inside and walk round the playground. Your parents can watch from the gate. The afternoon costs three pounds. That pays for the sticks and the lights. Please bring the money by Monday. Thank you!"
           ]
          ]
         }
@@ -704,115 +608,39 @@
       "num": 10,
       "dok": 1,
       "lo": [
-       "6Ld.01",
-       "6Ld.04"
+       "5Ld.04"
       ],
       "v": [
        {
         "hint": {
-         "step": "Listen for 'must bring'. Something else is given by the school."
+         "step": "Listen for the word 'costs'. Other numbers are a date and times."
         },
-        "worked": "'You needn't bring any water ... But you must bring a cap.' The school gives the water.",
+        "worked": "'The afternoon costs three pounds.' Monday is the day to bring the money.",
         "type": "tfill",
         "q": "Write the missing information for question 10.",
         "lines": [
-         "Every runner must bring a: {0}"
+         "Price: £{0}"
         ],
         "ans": [
          [
-          "cap",
-          "a cap"
+          "3",
+          "three",
+          "3.00",
+          "3.00p",
+          "three pounds",
+          "3 pounds"
          ]
         ],
         "fig": {
          "k": "stim",
          "id": "sm-summit-l2",
          "kind": "audio",
-         "head": "<b>School Fun Run</b><br>Place: <b>Green Lake Park</b> (example)<br>(8) Start time: ________<br>(9) Distance for Grade 5: ________ kilometres<br>(10) Every runner must bring a: ________<br>(11) Give your form to: Mr ________<br>(12) Every runner who finishes gets a: ________",
+         "head": "<b>LANTERN-MAKING AFTERNOON</b><br>Place: <b>school hall</b> (example)<br>(6) Date: ________ September<br>(7) Lantern shape: a star or a ________<br>(8) Bring: scissors and an old ________<br>(9) At 4.30, walk round the ________<br>(10) Price: £________",
          "lines": [
           [
            "bf_isabella",
            "Teacher",
-           "Hello, everyone. I'd like to tell you about the school fun run, which is taking place next Saturday at Green Lake Park. We're raising money to buy new books for the school library. The run starts at a quarter past eight, but please arrive at the park by half past seven. That gives you time to warm up and find your group. Students in Grades 1 to 3 will run two kilometres, and students in Grades 4 and 5 will run three kilometres. Don't worry if you can't run all the way. You can walk for part of it, too! You needn't bring any water, because the school will give every runner a bottle at the start. But you must bring a cap, because it gets very sunny by the lake. If you want to take part, please give your form to the teacher who is organising the event. His name is Mr Thornley. That's T-H-O-R-N-L-E-Y. He's in Room 12, next to the sports hall, and you have to give him your form by Wednesday. Last year, every runner got a certificate. This year, we've got something even better. Every runner who finishes will get a medal to take home. If it rains, we'll move the run to the following Saturday. I hope to see lots of you there!"
-          ]
-         ]
-        }
-       }
-      ]
-     },
-     {
-      "num": 11,
-      "dok": 1,
-      "lo": [
-       "6Ld.01",
-       "6Ld.04"
-      ],
-      "v": [
-       {
-        "hint": {
-         "step": "The name is spelled letter by letter. Write each letter carefully."
-        },
-        "worked": "The teacher spells the name: T-H-O-R-N-L-E-Y, so the answer is Thornley.",
-        "type": "tfill",
-        "q": "Write the missing information for question 11.",
-        "lines": [
-         "Give your form to: Mr {0}"
-        ],
-        "ans": [
-         [
-          "thornley"
-         ]
-        ],
-        "fig": {
-         "k": "stim",
-         "id": "sm-summit-l2",
-         "kind": "audio",
-         "head": "<b>School Fun Run</b><br>Place: <b>Green Lake Park</b> (example)<br>(8) Start time: ________<br>(9) Distance for Grade 5: ________ kilometres<br>(10) Every runner must bring a: ________<br>(11) Give your form to: Mr ________<br>(12) Every runner who finishes gets a: ________",
-         "lines": [
-          [
-           "bf_isabella",
-           "Teacher",
-           "Hello, everyone. I'd like to tell you about the school fun run, which is taking place next Saturday at Green Lake Park. We're raising money to buy new books for the school library. The run starts at a quarter past eight, but please arrive at the park by half past seven. That gives you time to warm up and find your group. Students in Grades 1 to 3 will run two kilometres, and students in Grades 4 and 5 will run three kilometres. Don't worry if you can't run all the way. You can walk for part of it, too! You needn't bring any water, because the school will give every runner a bottle at the start. But you must bring a cap, because it gets very sunny by the lake. If you want to take part, please give your form to the teacher who is organising the event. His name is Mr Thornley. That's T-H-O-R-N-L-E-Y. He's in Room 12, next to the sports hall, and you have to give him your form by Wednesday. Last year, every runner got a certificate. This year, we've got something even better. Every runner who finishes will get a medal to take home. If it rains, we'll move the run to the following Saturday. I hope to see lots of you there!"
-          ]
-         ]
-        }
-       }
-      ]
-     },
-     {
-      "num": 12,
-      "dok": 2,
-      "lo": [
-       "6Ld.04",
-       "6Lm.01"
-      ],
-      "v": [
-       {
-        "hint": {
-         "step": "Listen for what happens THIS year, not last year."
-        },
-        "worked": "'Last year, every runner got a certificate ... This year ... every runner who finishes will get a medal.'",
-        "type": "tfill",
-        "q": "Write the missing information for question 12.",
-        "lines": [
-         "Every runner who finishes gets a: {0}"
-        ],
-        "ans": [
-         [
-          "medal",
-          "a medal"
-         ]
-        ],
-        "fig": {
-         "k": "stim",
-         "id": "sm-summit-l2",
-         "kind": "audio",
-         "head": "<b>School Fun Run</b><br>Place: <b>Green Lake Park</b> (example)<br>(8) Start time: ________<br>(9) Distance for Grade 5: ________ kilometres<br>(10) Every runner must bring a: ________<br>(11) Give your form to: Mr ________<br>(12) Every runner who finishes gets a: ________",
-         "lines": [
-          [
-           "bf_isabella",
-           "Teacher",
-           "Hello, everyone. I'd like to tell you about the school fun run, which is taking place next Saturday at Green Lake Park. We're raising money to buy new books for the school library. The run starts at a quarter past eight, but please arrive at the park by half past seven. That gives you time to warm up and find your group. Students in Grades 1 to 3 will run two kilometres, and students in Grades 4 and 5 will run three kilometres. Don't worry if you can't run all the way. You can walk for part of it, too! You needn't bring any water, because the school will give every runner a bottle at the start. But you must bring a cap, because it gets very sunny by the lake. If you want to take part, please give your form to the teacher who is organising the event. His name is Mr Thornley. That's T-H-O-R-N-L-E-Y. He's in Room 12, next to the sports hall, and you have to give him your form by Wednesday. Last year, every runner got a certificate. This year, we've got something even better. Every runner who finishes will get a medal to take home. If it rains, we'll move the run to the following Saturday. I hope to see lots of you there!"
+           "Good morning, everyone. Next week our class is having a lantern-making afternoon in the school hall. It's on Thursday the eighteenth of September. We'll start at quarter past two, straight after lunch. Last year, everyone made a moon lantern. This year, you can choose. You can make a star or a fish. The fish lanterns are a bit harder, but they look lovely! We've got lots of coloured paper and glue, so you don't need to bring those. But please bring scissors and an old newspaper to keep the tables clean. At four o'clock, we'll stop for a snack. Then at half past four, we'll turn on the little lights inside and walk round the playground. Your parents can watch from the gate. The afternoon costs three pounds. That pays for the sticks and the lights. Please bring the money by Monday. Thank you!"
           ]
          ]
         }
@@ -824,129 +652,324 @@
    {
     "n": 3,
     "title": "Part 3",
-    "instr": "You will hear Mai talking to her friend Leo about his drum lessons. For each question, choose the correct answer.",
+    "instr": "You will hear Luna talking to her friend Tam about his cousin's wedding. For each question, choose the correct answer.",
     "items": [
      {
-      "num": 13,
+      "num": 11,
       "dok": 1,
       "lo": [
-       "6Ld.04"
+       "5Ld.04"
       ],
       "v": [
        {
         "hint": {
-         "step": "Mai guesses first. Listen to Leo's answer after 'but'."
+         "step": "Luna makes a guess. Listen to Tam's answer after 'but'."
         },
-        "worked": "Leo says 'I only saw it later. My cousin Duc told me about the teacher.'",
+        "worked": "Tam says 'That's what I expected, but it was in my uncle's garden.'",
         "type": "mcq",
-        "q": "How did Leo find out about his drum teacher?",
+        "q": "Where was the wedding?",
         "opts": [
-         "His cousin told him about her.",
-         "He saw a poster at the community centre.",
-         "His aunt told him about her."
+         "in a garden",
+         "in a big hotel",
+         "at Tam's house"
         ],
-        "at": 0,
+        "at": 2,
         "whys": [
          null,
-         "Leo says he only saw the poster later, after he found the teacher.",
-         "Leo's aunt has the garage where he practises. She didn't tell him about the teacher."
+         "Tam expected a hotel, but he says the wedding wasn't there.",
+         "Tam's house is where his cousin is bringing her photos next Sunday."
         ],
         "letters": true,
         "fig": {
          "k": "stim",
          "id": "sm-summit-l3",
          "kind": "audio",
-         "head": "Listen to Mai and her friend Leo talking about Leo's drum lessons.",
+         "head": "Listen to Luna and her friend Tam talking about his cousin's wedding.",
          "lines": [
           [
-           "bf_alice",
-           "Mai",
-           "Hi, Leo. You look happy today!"
+           "bf_lily",
+           "Luna",
+           "Hi, Tam! Did you have a nice weekend?"
           ],
           [
            "bm_lewis",
-           "Leo",
-           "I am. I've just had my drum lesson. I've been learning the drums since September."
+           "Tam",
+           "Yes! My cousin got married on Saturday."
           ],
           [
-           "bf_alice",
-           "Mai",
-           "Really? How did you find out about the lessons? Did you see a poster at the community centre?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "There is a poster there, but I only saw it later. My cousin Duc told me about the teacher. He has lessons with her, too."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Is she a good teacher?"
+           "bf_lily",
+           "Luna",
+           "Was the wedding in a big hotel?"
           ],
           [
            "bm_lewis",
-           "Leo",
-           "She's brilliant. She played in a band when she was younger, so she knows lots of songs. And she's really patient. She never gets cross when I make mistakes."
+           "Tam",
+           "That's what I expected, but it was in my uncle's garden."
           ],
           [
-           "bf_alice",
-           "Mai",
-           "Where do you practise? Drums are so loud!"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "That's the problem. We live in a flat, and our neighbours would complain about the noise. So I practise at my aunt's house. It's quite far from our flat, but she has a big garage."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "How often do you go there?"
+           "bf_lily",
+           "Luna",
+           "Lovely! Did your mum and dad go with you?"
           ],
           [
            "bm_lewis",
-           "Leo",
-           "I'd love to go every day, but I can only go twice a week, on Tuesdays and Fridays. I have football training on the other days."
+           "Tam",
+           "Mum had to work, so I went with Dad and Grandma."
           ],
           [
-           "bf_alice",
-           "Mai",
-           "What's the best thing about playing the drums?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Learning new songs is fun, but the best part is playing with other people. Last month, my teacher asked three of us to play together, and it sounded amazing."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Was it difficult at the beginning?"
+           "bf_lily",
+           "Luna",
+           "Did you wear something special?"
           ],
           [
            "bm_lewis",
-           "Leo",
-           "Holding the sticks was easy, but counting the beats was really hard. My hands always wanted to go faster than the music!"
+           "Tam",
+           "Yes, a new suit. But I didn't want to wear the jacket. It was so hot!"
           ],
           [
-           "bf_alice",
-           "Mai",
-           "Are you going to play in a concert?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Yes, there's a concert at the community centre in December. I was nervous about playing in front of an audience, but now I'm excited."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Can I come and watch?"
+           "bf_lily",
+           "Luna",
+           "Was it too small? My brother's jacket was too small at our aunt's party."
           ],
           [
            "bm_lewis",
-           "Leo",
-           "Of course! Tickets are free for children, but you must come with an adult."
+           "Tam",
+           "No, it fitted me. Dad said I could take it off after the photos."
+          ],
+          [
+           "bf_lily",
+           "Luna",
+           "What was the best part? The food?"
+          ],
+          [
+           "bm_lewis",
+           "Tam",
+           "The food was delicious, and the dancing was even more fun. But the fireworks at the end were the best!"
+          ],
+          [
+           "bf_lily",
+           "Luna",
+           "Will you see your cousin again soon?"
+          ],
+          [
+           "bm_lewis",
+           "Tam",
+           "Yes. Last week we helped her choose flowers. We were going to watch the wedding video next Sunday, but it isn't ready. So she's bringing her photos to our house instead."
+          ]
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "num": 12,
+      "dok": 1,
+      "lo": [
+       "5Ld.04"
+      ],
+      "v": [
+       {
+        "hint": {
+         "step": "One person couldn't go. Who was it, and who went instead?"
+        },
+        "worked": "Tam says 'Mum had to work, so I went with Dad and Grandma.'",
+        "type": "mcq",
+        "q": "Who went to the wedding with Tam?",
+        "opts": [
+         "his dad and grandma",
+         "his mum and dad",
+         "his mum and grandma"
+        ],
+        "at": 0,
+        "whys": [
+         null,
+         "Luna asks about his mum and dad, but Tam says his mum had to work.",
+         "His mum couldn't go. She had to work."
+        ],
+        "letters": true,
+        "fig": {
+         "k": "stim",
+         "id": "sm-summit-l3",
+         "kind": "audio",
+         "head": "Listen to Luna and her friend Tam talking about his cousin's wedding.",
+         "lines": [
+          [
+           "bf_lily",
+           "Luna",
+           "Hi, Tam! Did you have a nice weekend?"
+          ],
+          [
+           "bm_lewis",
+           "Tam",
+           "Yes! My cousin got married on Saturday."
+          ],
+          [
+           "bf_lily",
+           "Luna",
+           "Was the wedding in a big hotel?"
+          ],
+          [
+           "bm_lewis",
+           "Tam",
+           "That's what I expected, but it was in my uncle's garden."
+          ],
+          [
+           "bf_lily",
+           "Luna",
+           "Lovely! Did your mum and dad go with you?"
+          ],
+          [
+           "bm_lewis",
+           "Tam",
+           "Mum had to work, so I went with Dad and Grandma."
+          ],
+          [
+           "bf_lily",
+           "Luna",
+           "Did you wear something special?"
+          ],
+          [
+           "bm_lewis",
+           "Tam",
+           "Yes, a new suit. But I didn't want to wear the jacket. It was so hot!"
+          ],
+          [
+           "bf_lily",
+           "Luna",
+           "Was it too small? My brother's jacket was too small at our aunt's party."
+          ],
+          [
+           "bm_lewis",
+           "Tam",
+           "No, it fitted me. Dad said I could take it off after the photos."
+          ],
+          [
+           "bf_lily",
+           "Luna",
+           "What was the best part? The food?"
+          ],
+          [
+           "bm_lewis",
+           "Tam",
+           "The food was delicious, and the dancing was even more fun. But the fireworks at the end were the best!"
+          ],
+          [
+           "bf_lily",
+           "Luna",
+           "Will you see your cousin again soon?"
+          ],
+          [
+           "bm_lewis",
+           "Tam",
+           "Yes. Last week we helped her choose flowers. We were going to watch the wedding video next Sunday, but it isn't ready. So she's bringing her photos to our house instead."
+          ]
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "num": 13,
+      "dok": 2,
+      "lo": [
+       "5Ld.03",
+       "5Lm.01"
+      ],
+      "v": [
+       {
+        "hint": {
+         "step": "Luna talks about her brother's jacket. Is that Tam's reason or someone else's?"
+        },
+        "worked": "Tam says 'I didn't want to wear the jacket. It was so hot!' So it made him feel too hot.",
+        "type": "mcq",
+        "q": "Tam didn't want to wear his jacket because",
+        "opts": [
+         "it made him feel too hot.",
+         "it was too small for him.",
+         "Dad told him to take it off."
+        ],
+        "at": 1,
+        "whys": [
+         null,
+         "The small jacket was Luna's brother's. Tam says 'No, it fitted me.'",
+         "Dad said he COULD take it off after the photos. That isn't why Tam didn't want to wear it."
+        ],
+        "letters": true,
+        "fig": {
+         "k": "stim",
+         "id": "sm-summit-l3",
+         "kind": "audio",
+         "head": "Listen to Luna and her friend Tam talking about his cousin's wedding.",
+         "lines": [
+          [
+           "bf_lily",
+           "Luna",
+           "Hi, Tam! Did you have a nice weekend?"
+          ],
+          [
+           "bm_lewis",
+           "Tam",
+           "Yes! My cousin got married on Saturday."
+          ],
+          [
+           "bf_lily",
+           "Luna",
+           "Was the wedding in a big hotel?"
+          ],
+          [
+           "bm_lewis",
+           "Tam",
+           "That's what I expected, but it was in my uncle's garden."
+          ],
+          [
+           "bf_lily",
+           "Luna",
+           "Lovely! Did your mum and dad go with you?"
+          ],
+          [
+           "bm_lewis",
+           "Tam",
+           "Mum had to work, so I went with Dad and Grandma."
+          ],
+          [
+           "bf_lily",
+           "Luna",
+           "Did you wear something special?"
+          ],
+          [
+           "bm_lewis",
+           "Tam",
+           "Yes, a new suit. But I didn't want to wear the jacket. It was so hot!"
+          ],
+          [
+           "bf_lily",
+           "Luna",
+           "Was it too small? My brother's jacket was too small at our aunt's party."
+          ],
+          [
+           "bm_lewis",
+           "Tam",
+           "No, it fitted me. Dad said I could take it off after the photos."
+          ],
+          [
+           "bf_lily",
+           "Luna",
+           "What was the best part? The food?"
+          ],
+          [
+           "bm_lewis",
+           "Tam",
+           "The food was delicious, and the dancing was even more fun. But the fireworks at the end were the best!"
+          ],
+          [
+           "bf_lily",
+           "Luna",
+           "Will you see your cousin again soon?"
+          ],
+          [
+           "bm_lewis",
+           "Tam",
+           "Yes. Last week we helped her choose flowers. We were going to watch the wedding video next Sunday, but it isn't ready. So she's bringing her photos to our house instead."
           ]
          ]
         }
@@ -957,124 +980,104 @@
       "num": 14,
       "dok": 2,
       "lo": [
-       "6Ld.05",
-       "6Lm.01"
+       "5Ld.03",
+       "5Lm.01"
       ],
       "v": [
        {
         "hint": {
-         "step": "'Patient' and 'never gets cross' tell you what she is like."
+         "step": "Tam compares three things. Listen for the word 'best'."
         },
-        "worked": "Leo says 'she's really patient. She never gets cross when I make mistakes.' So she is kind when he gets things wrong.",
+        "worked": "The food was delicious and the dancing 'even more fun', 'But the fireworks at the end were the best!'",
         "type": "mcq",
-        "q": "What does Leo say about his teacher?",
+        "q": "What did Tam enjoy most at the wedding?",
         "opts": [
-         "She is kind when he gets things wrong.",
-         "She still plays in a band with friends.",
-         "She makes him practise every day."
+         "the fireworks",
+         "the dancing",
+         "the food"
         ],
         "at": 2,
         "whys": [
          null,
-         "She played in a band when she was younger. That was in the past.",
-         "Leo would love to practise every day, but he only goes twice a week. His teacher doesn't make him."
+         "The dancing was more fun than the food, but it wasn't the best part.",
+         "Tam liked the food, but he says the dancing was even more fun."
         ],
         "letters": true,
         "fig": {
          "k": "stim",
          "id": "sm-summit-l3",
          "kind": "audio",
-         "head": "Listen to Mai and her friend Leo talking about Leo's drum lessons.",
+         "head": "Listen to Luna and her friend Tam talking about his cousin's wedding.",
          "lines": [
           [
-           "bf_alice",
-           "Mai",
-           "Hi, Leo. You look happy today!"
+           "bf_lily",
+           "Luna",
+           "Hi, Tam! Did you have a nice weekend?"
           ],
           [
            "bm_lewis",
-           "Leo",
-           "I am. I've just had my drum lesson. I've been learning the drums since September."
+           "Tam",
+           "Yes! My cousin got married on Saturday."
           ],
           [
-           "bf_alice",
-           "Mai",
-           "Really? How did you find out about the lessons? Did you see a poster at the community centre?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "There is a poster there, but I only saw it later. My cousin Duc told me about the teacher. He has lessons with her, too."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Is she a good teacher?"
+           "bf_lily",
+           "Luna",
+           "Was the wedding in a big hotel?"
           ],
           [
            "bm_lewis",
-           "Leo",
-           "She's brilliant. She played in a band when she was younger, so she knows lots of songs. And she's really patient. She never gets cross when I make mistakes."
+           "Tam",
+           "That's what I expected, but it was in my uncle's garden."
           ],
           [
-           "bf_alice",
-           "Mai",
-           "Where do you practise? Drums are so loud!"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "That's the problem. We live in a flat, and our neighbours would complain about the noise. So I practise at my aunt's house. It's quite far from our flat, but she has a big garage."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "How often do you go there?"
+           "bf_lily",
+           "Luna",
+           "Lovely! Did your mum and dad go with you?"
           ],
           [
            "bm_lewis",
-           "Leo",
-           "I'd love to go every day, but I can only go twice a week, on Tuesdays and Fridays. I have football training on the other days."
+           "Tam",
+           "Mum had to work, so I went with Dad and Grandma."
           ],
           [
-           "bf_alice",
-           "Mai",
-           "What's the best thing about playing the drums?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Learning new songs is fun, but the best part is playing with other people. Last month, my teacher asked three of us to play together, and it sounded amazing."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Was it difficult at the beginning?"
+           "bf_lily",
+           "Luna",
+           "Did you wear something special?"
           ],
           [
            "bm_lewis",
-           "Leo",
-           "Holding the sticks was easy, but counting the beats was really hard. My hands always wanted to go faster than the music!"
+           "Tam",
+           "Yes, a new suit. But I didn't want to wear the jacket. It was so hot!"
           ],
           [
-           "bf_alice",
-           "Mai",
-           "Are you going to play in a concert?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Yes, there's a concert at the community centre in December. I was nervous about playing in front of an audience, but now I'm excited."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Can I come and watch?"
+           "bf_lily",
+           "Luna",
+           "Was it too small? My brother's jacket was too small at our aunt's party."
           ],
           [
            "bm_lewis",
-           "Leo",
-           "Of course! Tickets are free for children, but you must come with an adult."
+           "Tam",
+           "No, it fitted me. Dad said I could take it off after the photos."
+          ],
+          [
+           "bf_lily",
+           "Luna",
+           "What was the best part? The food?"
+          ],
+          [
+           "bm_lewis",
+           "Tam",
+           "The food was delicious, and the dancing was even more fun. But the fireworks at the end were the best!"
+          ],
+          [
+           "bf_lily",
+           "Luna",
+           "Will you see your cousin again soon?"
+          ],
+          [
+           "bm_lewis",
+           "Tam",
+           "Yes. Last week we helped her choose flowers. We were going to watch the wedding video next Sunday, but it isn't ready. So she's bringing her photos to our house instead."
           ]
          ]
         }
@@ -1085,633 +1088,104 @@
       "num": 15,
       "dok": 2,
       "lo": [
-       "6Ld.05"
+       "5Ld.03",
+       "5Lm.01"
       ],
       "v": [
        {
         "hint": {
-         "step": "Mai says 'Drums are so loud!' Listen to Leo's problem."
+         "step": "Listen for a plan that changed. What will they do 'instead'?"
         },
-        "worked": "Leo lives in a flat and 'our neighbours would complain about the noise', so he can't play at home.",
+        "worked": "The video 'isn't ready', so his cousin is 'bringing her photos to our house instead'.",
         "type": "mcq",
-        "q": "Why does Leo practise at his aunt's house?",
+        "q": "What will Tam do next Sunday?",
         "opts": [
-         "Playing at home would be too noisy.",
-         "Her house is close to his flat.",
-         "It is near the community centre."
+         "look at some wedding photos",
+         "watch the wedding video",
+         "help choose some flowers"
         ],
         "at": 0,
         "whys": [
          null,
-         "Leo says her house is 'quite far from our flat'.",
-         "The community centre is where the concert is. Leo doesn't say his aunt lives near it."
+         "That was the first plan, but the video isn't ready.",
+         "They helped choose flowers last week. That has already happened."
         ],
         "letters": true,
         "fig": {
          "k": "stim",
          "id": "sm-summit-l3",
          "kind": "audio",
-         "head": "Listen to Mai and her friend Leo talking about Leo's drum lessons.",
+         "head": "Listen to Luna and her friend Tam talking about his cousin's wedding.",
          "lines": [
           [
-           "bf_alice",
-           "Mai",
-           "Hi, Leo. You look happy today!"
+           "bf_lily",
+           "Luna",
+           "Hi, Tam! Did you have a nice weekend?"
           ],
           [
            "bm_lewis",
-           "Leo",
-           "I am. I've just had my drum lesson. I've been learning the drums since September."
+           "Tam",
+           "Yes! My cousin got married on Saturday."
           ],
           [
-           "bf_alice",
-           "Mai",
-           "Really? How did you find out about the lessons? Did you see a poster at the community centre?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "There is a poster there, but I only saw it later. My cousin Duc told me about the teacher. He has lessons with her, too."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Is she a good teacher?"
+           "bf_lily",
+           "Luna",
+           "Was the wedding in a big hotel?"
           ],
           [
            "bm_lewis",
-           "Leo",
-           "She's brilliant. She played in a band when she was younger, so she knows lots of songs. And she's really patient. She never gets cross when I make mistakes."
+           "Tam",
+           "That's what I expected, but it was in my uncle's garden."
           ],
           [
-           "bf_alice",
-           "Mai",
-           "Where do you practise? Drums are so loud!"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "That's the problem. We live in a flat, and our neighbours would complain about the noise. So I practise at my aunt's house. It's quite far from our flat, but she has a big garage."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "How often do you go there?"
+           "bf_lily",
+           "Luna",
+           "Lovely! Did your mum and dad go with you?"
           ],
           [
            "bm_lewis",
-           "Leo",
-           "I'd love to go every day, but I can only go twice a week, on Tuesdays and Fridays. I have football training on the other days."
+           "Tam",
+           "Mum had to work, so I went with Dad and Grandma."
           ],
           [
-           "bf_alice",
-           "Mai",
-           "What's the best thing about playing the drums?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Learning new songs is fun, but the best part is playing with other people. Last month, my teacher asked three of us to play together, and it sounded amazing."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Was it difficult at the beginning?"
+           "bf_lily",
+           "Luna",
+           "Did you wear something special?"
           ],
           [
            "bm_lewis",
-           "Leo",
-           "Holding the sticks was easy, but counting the beats was really hard. My hands always wanted to go faster than the music!"
+           "Tam",
+           "Yes, a new suit. But I didn't want to wear the jacket. It was so hot!"
           ],
           [
-           "bf_alice",
-           "Mai",
-           "Are you going to play in a concert?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Yes, there's a concert at the community centre in December. I was nervous about playing in front of an audience, but now I'm excited."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Can I come and watch?"
+           "bf_lily",
+           "Luna",
+           "Was it too small? My brother's jacket was too small at our aunt's party."
           ],
           [
            "bm_lewis",
-           "Leo",
-           "Of course! Tickets are free for children, but you must come with an adult."
-          ]
-         ]
-        }
-       }
-      ]
-     },
-     {
-      "num": 16,
-      "dok": 1,
-      "lo": [
-       "6Ld.04"
-      ],
-      "v": [
-       {
-        "hint": {
-         "step": "Listen for 'only'. What can Leo really do?"
-        },
-        "worked": "Leo says 'I can only go twice a week, on Tuesdays and Fridays.'",
-        "type": "mcq",
-        "q": "How often does Leo go to his aunt's house?",
-        "opts": [
-         "two days a week",
-         "every day",
-         "three days a week"
-        ],
-        "at": 1,
-        "whys": [
-         null,
-         "Leo would love to go every day, but he can't.",
-         "Three is the number of students who played together, not the number of days."
-        ],
-        "letters": true,
-        "fig": {
-         "k": "stim",
-         "id": "sm-summit-l3",
-         "kind": "audio",
-         "head": "Listen to Mai and her friend Leo talking about Leo's drum lessons.",
-         "lines": [
+           "Tam",
+           "No, it fitted me. Dad said I could take it off after the photos."
+          ],
           [
-           "bf_alice",
-           "Mai",
-           "Hi, Leo. You look happy today!"
+           "bf_lily",
+           "Luna",
+           "What was the best part? The food?"
           ],
           [
            "bm_lewis",
-           "Leo",
-           "I am. I've just had my drum lesson. I've been learning the drums since September."
+           "Tam",
+           "The food was delicious, and the dancing was even more fun. But the fireworks at the end were the best!"
           ],
           [
-           "bf_alice",
-           "Mai",
-           "Really? How did you find out about the lessons? Did you see a poster at the community centre?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "There is a poster there, but I only saw it later. My cousin Duc told me about the teacher. He has lessons with her, too."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Is she a good teacher?"
+           "bf_lily",
+           "Luna",
+           "Will you see your cousin again soon?"
           ],
           [
            "bm_lewis",
-           "Leo",
-           "She's brilliant. She played in a band when she was younger, so she knows lots of songs. And she's really patient. She never gets cross when I make mistakes."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Where do you practise? Drums are so loud!"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "That's the problem. We live in a flat, and our neighbours would complain about the noise. So I practise at my aunt's house. It's quite far from our flat, but she has a big garage."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "How often do you go there?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "I'd love to go every day, but I can only go twice a week, on Tuesdays and Fridays. I have football training on the other days."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "What's the best thing about playing the drums?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Learning new songs is fun, but the best part is playing with other people. Last month, my teacher asked three of us to play together, and it sounded amazing."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Was it difficult at the beginning?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Holding the sticks was easy, but counting the beats was really hard. My hands always wanted to go faster than the music!"
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Are you going to play in a concert?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Yes, there's a concert at the community centre in December. I was nervous about playing in front of an audience, but now I'm excited."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Can I come and watch?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Of course! Tickets are free for children, but you must come with an adult."
-          ]
-         ]
-        }
-       }
-      ]
-     },
-     {
-      "num": 17,
-      "dok": 2,
-      "lo": [
-       "6Ld.05",
-       "6Lm.01"
-      ],
-      "v": [
-       {
-        "hint": {
-         "step": "Listen for 'the best part is ...'."
-        },
-        "worked": "Leo says 'the best part is playing with other people', which means playing in a group.",
-        "type": "mcq",
-        "q": "What does Leo enjoy most about playing the drums?",
-        "opts": [
-         "playing music in a group",
-         "learning new songs",
-         "performing in a concert"
-        ],
-        "at": 2,
-        "whys": [
-         null,
-         "Leo says learning new songs is fun, BUT something else is the best part.",
-         "Leo was nervous about the concert. It hasn't happened yet."
-        ],
-        "letters": true,
-        "fig": {
-         "k": "stim",
-         "id": "sm-summit-l3",
-         "kind": "audio",
-         "head": "Listen to Mai and her friend Leo talking about Leo's drum lessons.",
-         "lines": [
-          [
-           "bf_alice",
-           "Mai",
-           "Hi, Leo. You look happy today!"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "I am. I've just had my drum lesson. I've been learning the drums since September."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Really? How did you find out about the lessons? Did you see a poster at the community centre?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "There is a poster there, but I only saw it later. My cousin Duc told me about the teacher. He has lessons with her, too."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Is she a good teacher?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "She's brilliant. She played in a band when she was younger, so she knows lots of songs. And she's really patient. She never gets cross when I make mistakes."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Where do you practise? Drums are so loud!"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "That's the problem. We live in a flat, and our neighbours would complain about the noise. So I practise at my aunt's house. It's quite far from our flat, but she has a big garage."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "How often do you go there?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "I'd love to go every day, but I can only go twice a week, on Tuesdays and Fridays. I have football training on the other days."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "What's the best thing about playing the drums?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Learning new songs is fun, but the best part is playing with other people. Last month, my teacher asked three of us to play together, and it sounded amazing."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Was it difficult at the beginning?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Holding the sticks was easy, but counting the beats was really hard. My hands always wanted to go faster than the music!"
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Are you going to play in a concert?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Yes, there's a concert at the community centre in December. I was nervous about playing in front of an audience, but now I'm excited."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Can I come and watch?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Of course! Tickets are free for children, but you must come with an adult."
-          ]
-         ]
-        }
-       }
-      ]
-     },
-     {
-      "num": 18,
-      "dok": 1,
-      "lo": [
-       "6Ld.04"
-      ],
-      "v": [
-       {
-        "hint": {
-         "step": "Two things are compared. One was easy and one was hard."
-        },
-        "worked": "Leo says 'Holding the sticks was easy, but counting the beats was really hard.'",
-        "type": "mcq",
-        "q": "What was difficult for Leo at the beginning?",
-        "opts": [
-         "counting the beats",
-         "holding the sticks",
-         "playing fast music"
-        ],
-        "at": 0,
-        "whys": [
-         null,
-         "Leo says holding the sticks was easy.",
-         "His hands wanted to go fast, but he doesn't say fast music was the hard part."
-        ],
-        "letters": true,
-        "fig": {
-         "k": "stim",
-         "id": "sm-summit-l3",
-         "kind": "audio",
-         "head": "Listen to Mai and her friend Leo talking about Leo's drum lessons.",
-         "lines": [
-          [
-           "bf_alice",
-           "Mai",
-           "Hi, Leo. You look happy today!"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "I am. I've just had my drum lesson. I've been learning the drums since September."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Really? How did you find out about the lessons? Did you see a poster at the community centre?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "There is a poster there, but I only saw it later. My cousin Duc told me about the teacher. He has lessons with her, too."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Is she a good teacher?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "She's brilliant. She played in a band when she was younger, so she knows lots of songs. And she's really patient. She never gets cross when I make mistakes."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Where do you practise? Drums are so loud!"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "That's the problem. We live in a flat, and our neighbours would complain about the noise. So I practise at my aunt's house. It's quite far from our flat, but she has a big garage."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "How often do you go there?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "I'd love to go every day, but I can only go twice a week, on Tuesdays and Fridays. I have football training on the other days."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "What's the best thing about playing the drums?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Learning new songs is fun, but the best part is playing with other people. Last month, my teacher asked three of us to play together, and it sounded amazing."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Was it difficult at the beginning?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Holding the sticks was easy, but counting the beats was really hard. My hands always wanted to go faster than the music!"
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Are you going to play in a concert?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Yes, there's a concert at the community centre in December. I was nervous about playing in front of an audience, but now I'm excited."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Can I come and watch?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Of course! Tickets are free for children, but you must come with an adult."
-          ]
-         ]
-        }
-       }
-      ]
-     },
-     {
-      "num": 19,
-      "dok": 2,
-      "lo": [
-       "6Ld.01",
-       "6Ld.04"
-      ],
-      "v": [
-       {
-        "hint": {
-         "step": "Listen for 'must' at the end of the talk."
-        },
-        "worked": "Leo says 'Tickets are free for children, but you must come with an adult.'",
-        "type": "mcq",
-        "q": "What does Mai have to do if she wants to go to the concert?",
-        "opts": [
-         "take an adult with her",
-         "pay for a ticket",
-         "go with Leo's cousin Duc"
-        ],
-        "at": 2,
-        "whys": [
-         null,
-         "Tickets are free for children, so Mai doesn't pay.",
-         "Leo talks about his cousin Duc earlier, but children must come with an adult."
-        ],
-        "letters": true,
-        "fig": {
-         "k": "stim",
-         "id": "sm-summit-l3",
-         "kind": "audio",
-         "head": "Listen to Mai and her friend Leo talking about Leo's drum lessons.",
-         "lines": [
-          [
-           "bf_alice",
-           "Mai",
-           "Hi, Leo. You look happy today!"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "I am. I've just had my drum lesson. I've been learning the drums since September."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Really? How did you find out about the lessons? Did you see a poster at the community centre?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "There is a poster there, but I only saw it later. My cousin Duc told me about the teacher. He has lessons with her, too."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Is she a good teacher?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "She's brilliant. She played in a band when she was younger, so she knows lots of songs. And she's really patient. She never gets cross when I make mistakes."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Where do you practise? Drums are so loud!"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "That's the problem. We live in a flat, and our neighbours would complain about the noise. So I practise at my aunt's house. It's quite far from our flat, but she has a big garage."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "How often do you go there?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "I'd love to go every day, but I can only go twice a week, on Tuesdays and Fridays. I have football training on the other days."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "What's the best thing about playing the drums?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Learning new songs is fun, but the best part is playing with other people. Last month, my teacher asked three of us to play together, and it sounded amazing."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Was it difficult at the beginning?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Holding the sticks was easy, but counting the beats was really hard. My hands always wanted to go faster than the music!"
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Are you going to play in a concert?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Yes, there's a concert at the community centre in December. I was nervous about playing in front of an audience, but now I'm excited."
-          ],
-          [
-           "bf_alice",
-           "Mai",
-           "Can I come and watch?"
-          ],
-          [
-           "bm_lewis",
-           "Leo",
-           "Of course! Tickets are free for children, but you must come with an adult."
+           "Tam",
+           "Yes. Last week we helped her choose flowers. We were going to watch the wedding video next Sunday, but it isn't ready. So she's bringing her photos to our house instead."
           ]
          ]
         }
@@ -1728,32 +1202,32 @@
    {
     "n": 1,
     "title": "Part 1",
-    "instr": "Read the story about a class trip to the aquarium. For each question, choose the correct word or words.",
+    "instr": "Read the story about Vinh. For each question, choose the correct word.",
     "items": [
      {
       "num": 1,
       "dok": 1,
       "lo": [
-       "6Ug.04"
+       "5Ug.04"
       ],
       "v": [
        {
         "hint": {
-         "step": "Who did the action: our class or Mr Patel? Look at the word 'by'."
+         "step": "Find the time words at the start of the sentence."
         },
-        "worked": "Mr Patel did the action, so we need the past passive: our class <b>was taken</b> to the aquarium <b>by</b> Mr Patel.",
+        "worked": "'Last Sunday' is in the past, so we use the past simple: Vinh <b>went</b> to his uncle's flat.",
         "type": "mcq",
-        "q": "Last Friday, our class .......... to the new city aquarium by our science teacher, Mr Patel.",
+        "q": "Last Sunday, Vinh ________ to his uncle's flat to learn how to make spring rolls.",
         "opts": [
-         "was taken",
-         "took",
-         "has taken"
+         "went",
+         "goes",
+         "going"
         ],
         "at": 1,
         "whys": [
          null,
-         "'Took' needs a person who does the taking. Our class didn't do it; Mr Patel did. Look at the word 'by'.",
-         "'Last Friday' is a finished time, so we don't use the present perfect here."
+         "'Goes' is for every day or every week. 'Last Sunday' is finished.",
+         "'Going' needs 'was' or 'is' before it. Here the verb is alone."
         ],
         "letters": true
        }
@@ -1763,26 +1237,26 @@
       "num": 2,
       "dok": 1,
       "lo": [
-       "6Us.05"
+       "5Us.04"
       ],
       "v": [
        {
         "hint": {
-         "step": "The gap comes before 'name'. Whose name is it?"
+         "step": "Look at the word just before the gap. Is it a person, a thing or a place?"
         },
-        "worked": "<b>Whose</b> shows that the name belongs to the guide: a guide <b>whose name</b> was Mrs Ortiz.",
+        "worked": "'A cook' is a person, so we use <b>who</b>: a cook <b>who</b> works in a busy restaurant.",
         "type": "mcq",
-        "q": "A guide .......... name was Mrs Ortiz showed us a huge tank full of sharks.",
+        "q": "His uncle is a cook ________ works in a busy restaurant near the river.",
         "opts": [
-         "whose",
          "who",
-         "which"
+         "which",
+         "where"
         ],
         "at": 0,
         "whys": [
          null,
-         "'Who' cannot go straight before 'name' here. We need a word that means 'her'.",
-         "'Which' is for things and animals, not people."
+         "'Which' is for things and animals. A cook is a person.",
+         "'Where' is for places. The word before the gap is a person."
         ],
         "letters": true
        }
@@ -1790,28 +1264,28 @@
      },
      {
       "num": 3,
-      "dok": 2,
+      "dok": 1,
       "lo": [
-       "6Ug.03"
+       "5Uv.01"
       ],
       "v": [
        {
         "hint": {
-         "step": "Do the sharks do the action, or does someone do it to them?"
+         "step": "Which small word always comes after 'good' when we talk about a skill?"
         },
-        "worked": "The keepers feed the sharks, so we need the present passive: the sharks <b>are given</b> fresh fish twice a week.",
+        "worked": "We say <b>good at</b> something: he wasn't very <b>good at</b> cooking.",
         "type": "mcq",
-        "q": "She explained that the sharks .......... fresh fish only twice a week.",
+        "q": "Vinh felt a bit nervous because he wasn't very good ________ cooking.",
         "opts": [
-         "are given",
-         "give",
-         "are giving"
+         "at",
+         "of",
+         "in"
         ],
         "at": 2,
         "whys": [
          null,
-         "The sharks don't give fish to anyone. Someone gives fish to them.",
-         "The sharks don't give fish, and 'twice a week' is a habit, not something happening now."
+         "We say 'afraid of' or 'proud of', but not 'good of'.",
+         "We say 'interested in', but not 'good in' for an activity."
         ],
         "letters": true
        }
@@ -1821,26 +1295,26 @@
       "num": 4,
       "dok": 2,
       "lo": [
-       "6Ug.12"
+       "5Us.01"
       ],
       "v": [
        {
         "hint": {
-         "step": "Is this a rule (not allowed) or something that is not necessary?"
+         "step": "Can you count spring rolls? Which word goes with 'than' and a plural noun?"
         },
-        "worked": "Loud noises frighten the fish, so tapping is not allowed: you <b>mustn't</b> tap on the glass.",
+        "worked": "Spring rolls can be counted and he was slower, so he made <b>fewer</b> spring rolls <b>than</b> his uncle.",
         "type": "mcq",
-        "q": "She also told us, 'You .......... tap on the glass, because loud noises frighten the fish.'",
+        "q": "Vinh made ________ spring rolls than his uncle, because he rolled them much more slowly.",
         "opts": [
-         "mustn't",
-         "needn't",
-         "don't have to"
+         "fewer",
+         "less",
+         "much"
         ],
         "at": 1,
         "whys": [
          null,
-         "'Needn't' means something is not necessary. Here tapping is not allowed at all.",
-         "'Don't have to' means you can choose. Here there is no choice."
+         "'Less' is for things we can't count, like rice or water. We can count spring rolls.",
+         "'Much' doesn't go with 'than', and it is for things we can't count."
         ],
         "letters": true
        }
@@ -1848,28 +1322,28 @@
      },
      {
       "num": 5,
-      "dok": 1,
+      "dok": 2,
       "lo": [
-       "6Ug.09"
+       "5Us.02"
       ],
       "v": [
        {
         "hint": {
-         "step": "'If we finish' is present simple. What comes in the other part of a first conditional?"
+         "step": "Read the end of the sentence: 'they all loved them'. How many people tried them?"
         },
-        "worked": "First conditional: If + present simple, <b>will</b> + verb. If we finish our posters, Mr Patel <b>will</b> put them up.",
+        "worked": "'They all loved them' tells us all the family tried them, so the answer is <b>everyone</b>.",
         "type": "mcq",
-        "q": "If we finish our posters about the trip by Friday, Mr Patel .......... put them up in the school hall.",
+        "q": "At dinner, ________ in the family tried Vinh's spring rolls, and they all loved them!",
         "opts": [
-         "will",
-         "would",
-         "has"
+         "everyone",
+         "anyone",
+         "no-one"
         ],
-        "at": 2,
+        "at": 0,
         "whys": [
          null,
-         "After 'If + present simple' we use 'will', not 'would'.",
-         "'Has put' is the present perfect, but this sentence is about the future."
+         "We use 'anyone' in questions and 'not' sentences. This sentence is positive.",
+         "If no-one tried them, they couldn't all love them."
         ],
         "letters": true
        }
@@ -1886,34 +1360,34 @@
       "num": 6,
       "dok": 1,
       "lo": [
-       "6Rd.01"
+       "5Ug.10"
       ],
       "v": [
        {
         "hint": {
-         "step": "Read both lines. Who must have an adult, and who may swim alone?"
+         "step": "Is the notice giving a rule, saying something is not necessary, or saying something is possible?"
         },
-        "worked": "The sign says children under 8 'must have an adult with them in the water'. Older children 'may swim alone'.",
+        "worked": "The paintings are very old, so touching them is not allowed: Visitors <b>mustn't</b> touch them.",
         "type": "mcq",
-        "q": "What does the sign say?",
+        "q": "Which option correctly completes the notice?",
         "opts": [
-         "Young children can't swim without an adult.",
-         "Adults must stay in the water with all children.",
-         "Children under 8 can't use the pool."
+         "mustn't",
+         "needn't",
+         "could"
         ],
-        "at": 0,
+        "at": 2,
         "whys": [
          null,
-         "Only children under 8 need an adult. Older children may swim alone.",
-         "Children under 8 can use the pool if an adult is with them."
+         "'Needn't' means it is not necessary. The notice is giving a rule.",
+         "'Could' means something is possible. The paintings are too old to touch."
         ],
         "letters": true,
         "fig": {
          "k": "stim",
          "id": "sm-summit-r2-6",
          "kind": "text",
-         "head": "Sign",
-         "html": "<b>RIVERSIDE SPORTS CENTRE: POOL RULES</b><br>Children under 8 must have an adult with them in the water at all times.<br>Children aged 8 and over may swim alone."
+         "head": "Notice",
+         "html": "<b>OLD TOWN MUSEUM</b><br>The paintings in Room 2 are more than 200 years old. Visitors ________ touch them. You can take photos, but please turn off the flash. Thank you!"
         }
        }
       ]
@@ -1922,27 +1396,27 @@
       "num": 7,
       "dok": 2,
       "lo": [
-       "6Rd.01",
-       "6Rd.03"
+       "5Rd.03",
+       "5Rm.01"
       ],
       "v": [
        {
         "hint": {
-         "step": "'Needn't' means it is not necessary. Look for what Ana really asks for."
+         "step": "Read the question at the end of the message. What does Emily want to do?"
         },
-        "worked": "Ana writes 'could you bring your badminton set?' A badminton set is something to play a game with.",
+        "worked": "Emily can't go 'tomorrow' and asks 'Can we go next Saturday?', so she wants to change the day.",
         "type": "mcq",
-        "q": "What does Ana ask Priya to do?",
+        "q": "Why has Emily written to Owen?",
         "opts": [
-         "bring something to play a game with",
-         "bring some food for the picnic",
-         "come to Ana's house at 11"
+         "to change the day of their cinema trip",
+         "to invite Owen to her house tomorrow",
+         "to say she is seeing a doctor tomorrow"
         ],
-        "at": 2,
+        "at": 0,
         "whys": [
          null,
-         "Ana says Priya needn't bring any food. There will be lots.",
-         "They are meeting at the park gate, not at Ana's house."
+         "Emily must stay at home, but she doesn't ask Owen to come to her house.",
+         "The doctor has already told Emily to stay at home. She isn't going to see a doctor tomorrow."
         ],
         "letters": true,
         "fig": {
@@ -1950,7 +1424,7 @@
          "id": "sm-summit-r2-7",
          "kind": "text",
          "head": "Text message",
-         "html": "Hi Priya! Mum says you can come to my birthday picnic on Sunday. We're meeting at the park gate at 11. You needn't bring any food, because there will be lots! But could you bring your badminton set? Ana"
+         "html": "Hi Owen, sorry, I can't come to the cinema with you and your mum tomorrow. I've got a sore throat and a fever, and the doctor says I should stay at home. Can we go next Saturday? Emily"
         }
        }
       ]
@@ -1959,34 +1433,34 @@
       "num": 8,
       "dok": 1,
       "lo": [
-       "6Rd.01"
+       "5Ug.05"
       ],
       "v": [
        {
         "hint": {
-         "step": "Check WHO will check the pond and WHEN the tadpoles hatch."
+         "step": "Look for the time words. Is Seb talking about the past, every week or a plan?"
         },
-        "worked": "The notice says 'Please look, but do not touch the water.' Only Mr Lee's class checks the pond, and the tadpoles haven't hatched yet.",
+        "worked": "'Next Saturday' is a plan for the future, so we use the present continuous: I <b>am buying</b> a new football.",
         "type": "mcq",
-        "q": "What does the notice say?",
+        "q": "Which option correctly completes the email?",
         "opts": [
-         "Students may look but must not touch the water.",
-         "Every class should check the pond each morning.",
-         "The tadpoles have already come out of the eggs."
+         "am buying",
+         "bought",
+         "buy"
         ],
         "at": 1,
         "whys": [
          null,
-         "Only Mr Lee's class will check the pond, not every class.",
-         "The tadpoles will hatch later. The notice says 'until the tadpoles hatch'."
+         "'Bought' is the past, but 'next Saturday' is in the future.",
+         "'I buy' is for things we do every day or every week, not for one plan."
         ],
         "letters": true,
         "fig": {
          "k": "stim",
          "id": "sm-summit-r2-8",
          "kind": "text",
-         "head": "Notice",
-         "html": "<b>SCHOOL POND</b><br>The frogs have laid their eggs! Please look, but do not touch the water. Mr Lee's class will check the pond every morning until the tadpoles hatch."
+         "head": "Email",
+         "html": "Dear Grandma,<br>Thank you for the birthday money! I ________ a new football with it next Saturday. Dad is taking me to the sports shop in town. I can't wait!<br>Love, Seb"
         }
        }
       ]
@@ -1995,70 +1469,70 @@
       "num": 9,
       "dok": 1,
       "lo": [
-       "6Rd.01"
+       "5Rd.01"
       ],
       "v": [
        {
         "hint": {
-         "step": "Find the word 'so'. What should students do because of the problem?"
+         "step": "Find each option in the notice. Check small words like 'school' and 'centre'."
         },
-        "worked": "The message says 'There are no chargers in the library, so charge your tablet before you come!'",
+        "worked": "'You don't need to bring any money, because the tickets are free.' So students don't have to pay to go in.",
         "type": "mcq",
-        "q": "What must students do before Tablet Club today?",
+        "q": "What does the notice say?",
         "opts": [
-         "make sure their tablet is charged",
-         "bring their charger to the library",
-         "meet in Room 5 first"
+         "Students don't have to pay to go in.",
+         "Students can buy lunch at the centre.",
+         "The coach leaves the centre at 8.15."
         ],
-        "at": 0,
+        "at": 2,
         "whys": [
          null,
-         "There are no chargers in the library, so a charger won't help there. Students must charge the tablet before.",
-         "Room 5 is being painted. The club is in the library today."
+         "The notice asks students to bring a packed lunch, so they don't buy it there.",
+         "The coach leaves SCHOOL at 8.15. It comes back to school at 3.00."
         ],
         "letters": true,
         "fig": {
          "k": "stim",
          "id": "sm-summit-r2-9",
          "kind": "text",
-         "head": "App message",
-         "html": "<b>TABLET CLUB</b><br>Today we're meeting in the library, not Room 5, because Room 5 is being painted. There are no chargers in the library, so charge your tablet before you come!"
+         "head": "School notice",
+         "html": "<b>GRADE 4 TRIP TO THE SCIENCE CENTRE: THIS FRIDAY</b><br>The coach leaves school at 8.15 and comes back at 3.00. Please bring a packed lunch and a drink. You don't need to bring any money, because the tickets are free."
         }
        }
       ]
      },
      {
       "num": 10,
-      "dok": 2,
+      "dok": 1,
       "lo": [
-       "6Rd.03"
+       "5Ug.10"
       ],
       "v": [
        {
         "hint": {
-         "step": "Look for the word 'but'. What problem does Ms Grant give?"
+         "step": "Matilda is asking her dad for help. Which word starts a polite request?"
         },
-        "worked": "Ms Grant writes 'many children enjoy fruit juice, but it has a lot of sugar.'",
+        "worked": "We start a polite request with <b>Could</b>: '<b>Could</b> you help me with my poster tonight?'",
         "type": "mcq",
-        "q": "Why is the school making this change?",
+        "q": "Which option correctly completes the note?",
         "opts": [
-         "Juice has too much sugar in it.",
-         "Children don't like drinking water.",
-         "Children drink too much juice at home."
+         "Could",
+         "Must",
+         "Should"
         ],
-        "at": 2,
+        "at": 0,
         "whys": [
          null,
-         "The email doesn't say children don't like water.",
-         "The email says children CAN still have juice at home."
+         "'Must you ...?' asks if something is really necessary. It is not a polite way to ask for help.",
+         "'Should you ...?' asks for advice. Matilda wants to ask for help."
         ],
         "letters": true,
         "fig": {
          "k": "stim",
          "id": "sm-summit-r2-10",
          "kind": "text",
-         "head": "Email",
-         "html": "Dear Parents,<br>From next Monday, children may only bring water to drink at lunch. We know many children enjoy fruit juice, but it has a lot of sugar. Children can still have juice at home.<br>Ms Grant, Head Teacher"
+         "head": "Note",
+         "html": "Dad,<br>________ you help me with my street art poster tonight? I need to finish it by Thursday, and I can't draw the shadows on the bricks. Thanks!<br>Matilda"
         }
        }
       ]
@@ -2067,35 +1541,35 @@
       "num": 11,
       "dok": 2,
       "lo": [
-       "6Rd.03",
-       "6Rd.04"
+       "5Rd.03",
+       "5Rm.01"
       ],
       "v": [
        {
         "hint": {
-         "step": "Why do the owners say 'he can't be far away'?"
+         "step": "Find the two sentences about jobs. Which classes do each job? Look at the word 'also'."
         },
-        "worked": "The poster says 'He's very slow, so he can't be far away!' The owners think he is still close to their home.",
+        "worked": "'All classes will look for standing water' and 'Grades 4 and 5 will also make posters'. So Grade 4 does both.",
         "type": "mcq",
-        "q": "What do Pebble's owners think?",
+        "q": "What will Grade 4 students do on Monday afternoon?",
         "opts": [
-         "Pebble is probably still near their house.",
-         "Pebble will only come back for strawberries.",
-         "Someone has taken Pebble from the garden."
+         "look for water and make posters",
+         "make posters but not look for water",
+         "look for standing water in the canteen"
         ],
         "at": 1,
         "whys": [
          null,
-         "Pebble loves strawberries, but the poster doesn't say he will ONLY come back for them.",
-         "The poster says Pebble escaped. Nobody took him."
+         "'Also' means Grades 4 and 5 do both jobs, not only the posters.",
+         "The posters are for the canteen. The water search is around the school."
         ],
         "letters": true,
         "fig": {
          "k": "stim",
          "id": "sm-summit-r2-11",
          "kind": "text",
-         "head": "Poster",
-         "html": "<b>LOST TORTOISE!</b><br>Pebble escaped from our garden at 14 Hill Street on Tuesday. He's very slow, so he can't be far away. He loves strawberries! If you see him, please knock on our door. Thank you!"
+         "head": "School notice",
+         "html": "<b>STOP THE MOSQUITOES!</b><br>On Monday afternoon, all classes will look for standing water around the school. Grades 4 and 5 will also make posters for the canteen. Please wear long sleeves that day."
         }
        }
       ]
@@ -2104,35 +1578,35 @@
       "num": 12,
       "dok": 2,
       "lo": [
-       "6Rm.01",
-       "6Rd.04"
+       "5Rd.03",
+       "5Rm.01"
       ],
       "v": [
        {
         "hint": {
-         "step": "Look at 'I've borrowed'. Has Minh got the camera now or not?"
+         "step": "Two things are different now. Find them both, then choose the option that says the same."
         },
-        "worked": "Minh writes 'I've borrowed your old camera' and 'it's safe in its case', so Grandpa knows where the camera is.",
+        "worked": "The visit is 'on Thursday now, not Tuesday', and they'll be 'back at school before twelve', so they will have lunch at school.",
         "type": "mcq",
-        "q": "Why did Minh write this note?",
+        "q": "What does Nora want Chi to know?",
         "opts": [
-         "to tell Grandpa where his camera is",
-         "to ask Grandpa if he can borrow his camera",
-         "to invite Grandpa to the photo competition"
+         "The day has changed, and they'll have lunch at school.",
+         "They need to take lunch to the fire station on Thursday.",
+         "The fire station is closed on both Tuesday and Thursday."
         ],
-        "at": 0,
+        "at": 2,
         "whys": [
          null,
-         "Minh has ALREADY borrowed the camera, so he isn't asking.",
-         "Minh doesn't invite Grandpa. The competition is at school."
+         "Nora says they DON'T need to bring lunch any more.",
+         "The visit has moved from Tuesday to Thursday. Nora doesn't say the fire station is closed."
         ],
         "letters": true,
         "fig": {
          "k": "stim",
          "id": "sm-summit-r2-12",
          "kind": "text",
-         "head": "Note",
-         "html": "Grandpa,<br>I've borrowed your old camera for the school photo competition. Don't worry, it's safe in its case, and I'll bring it back on Saturday. Thanks!<br>Minh"
+         "head": "Phone message",
+         "html": "Hi Chi, it's Nora. Our class visit to the old fire station is on Thursday now, not Tuesday. We don't need to bring lunch any more, because we'll be back at school before twelve. See you!"
         }
        }
       ]
@@ -2142,64 +1616,64 @@
    {
     "n": 3,
     "title": "Part 3",
-    "instr": "Read the conversation between Jonah and Zara. Choose the best answer, A to H, for each gap. There is one example (0). You do not need to use all the letters.",
+    "instr": "Read the conversation between Matilda and Seb. Choose the best answer, A to H, for each gap. There is one example (0). You do not need to use all the letters.",
     "items": [
      {
       "num": 13,
       "dok": 2,
       "lo": [
-       "6Rm.01",
-       "6Rd.01"
+       "5Rm.01",
+       "5Rd.03"
       ],
       "v": [
        {
         "hint": {
-         "step": "Read Jonah's NEXT line. Who is 'he'? Your answer must tell us who that person is."
+         "step": "Read Matilda's NEXT line. What does 'film it' tell you about Seb's idea?"
         },
-        "worked": "F fits: 'My little brother' answers 'Who found it first?', and Jonah then asks 'Was HE frightened?'. D starts 'My mum did', but then Jonah would say 'she', not 'he'.",
+        "worked": "F fits: Seb suggests 'a short video', and Matilda then asks 'who can film it?'. E is about flowers, and you can't film flowers as a thank-you message.",
         "type": "bank",
         "q": "Choose the best answer for gap 13.",
         "bank": [
          [
           "A",
-          "Not at all. He sat on the step and watched it for ages."
+          "My dad has got one. I'm sure he'd lend it to us."
          ],
          [
           "B",
-          "Only about twenty minutes. Then it goes back under the hedge."
+          "Not too long. About five minutes is enough."
          ],
          [
           "C",
-          "Yes. I was watching a hedgehog in our garden until ten o'clock!"
+          "Yes, she told us this morning. She's moving to another city."
          ],
          [
           "D",
-          "My mum did. She got a great one on her phone."
+          "We could do it on Friday at lunchtime, while she's at a meeting."
          ],
          [
           "E",
-          "Yes, he was. He ran inside and hid behind Mum."
+          "Maybe we could buy her some flowers instead."
          ],
          [
           "F",
-          "My little brother. He heard a noise near the bins."
+          "Good idea! What about a short video with a message from everyone?"
          ],
          [
           "G",
-          "No, not yet. My dad wants to try tonight."
+          "Yes, she was always kind to everyone in our class."
          ],
          [
           "H",
-          "Almost every night. It usually arrives at about nine."
+          "What about the school garden? There's lots of space there."
          ]
         ],
         "ans": "F",
         "fig": {
          "k": "stim",
-         "id": "sm-r3-dlg2",
+         "id": "sm-summit-r3",
          "kind": "text",
-         "head": "Conversation: Jonah and Zara",
-         "html": "Jonah: Hi, Zara! You look tired. Did you go to bed late?<br>Zara: (0) <b>C</b><br>Jonah: A hedgehog? I've never seen a real one. Who found it first?<br>Zara: (13) ________<br>Jonah: Was he frightened when he saw it?<br>Zara: (14) ________<br>Jonah: He's braver than me! How often does it come to your garden?<br>Zara: (15) ________<br>Jonah: Every night? Lucky you! Did anyone take a photo of it?<br>Zara: (16) ________<br>Jonah: Cool! Ask her to send it to me, please. How long does the hedgehog stay each night?<br>Zara: (17) ________<br>Jonah: That's not very long! Can I come and watch it with you on Friday?"
+         "head": "Conversation: Matilda and Seb",
+         "html": "Matilda: Seb, did you know that our class teacher is leaving at the end of term?<br>Seb: (0) <b>C</b><br>Matilda: I'm going to miss her. Shall we make something to say thank you?<br>Seb: (13) ________<br>Matilda: That's perfect! But who can film it? I haven't got a camera.<br>Seb: (14) ________<br>Matilda: Great. Where should we film it? Our classroom is too small for everyone.<br>Seb: (15) ________<br>Matilda: Good, and it looks really pretty in the sunshine. When can we do it?<br>Seb: (16) ________<br>Matilda: Yes, then she won't see us. How long should the video be?<br>Seb: (17) ________<br>Matilda: OK. I'll write a list of everyone's names tonight."
         }
        }
       ]
@@ -2208,58 +1682,58 @@
       "num": 14,
       "dok": 2,
       "lo": [
-       "6Rm.01",
-       "6Rd.01"
+       "5Rm.01",
+       "5Rd.03"
       ],
       "v": [
        {
         "hint": {
-         "step": "Jonah asks a Yes/No question. Read his next line to check if the answer is yes or no."
+         "step": "Matilda has a problem: she has no camera. Find a line that solves it."
         },
-        "worked": "A fits: 'Not at all. He sat on the step and watched it for ages.' Jonah then says 'He's braver than me!'. E says he was frightened, so 'braver than me' would not make sense.",
+        "worked": "A fits: 'My dad has got one' answers 'I haven't got a camera', and Matilda says 'Great.'",
         "type": "bank",
         "q": "Choose the best answer for gap 14.",
         "bank": [
          [
           "A",
-          "Not at all. He sat on the step and watched it for ages."
+          "My dad has got one. I'm sure he'd lend it to us."
          ],
          [
           "B",
-          "Only about twenty minutes. Then it goes back under the hedge."
+          "Not too long. About five minutes is enough."
          ],
          [
           "C",
-          "Yes. I was watching a hedgehog in our garden until ten o'clock!"
+          "Yes, she told us this morning. She's moving to another city."
          ],
          [
           "D",
-          "My mum did. She got a great one on her phone."
+          "We could do it on Friday at lunchtime, while she's at a meeting."
          ],
          [
           "E",
-          "Yes, he was. He ran inside and hid behind Mum."
+          "Maybe we could buy her some flowers instead."
          ],
          [
           "F",
-          "My little brother. He heard a noise near the bins."
+          "Good idea! What about a short video with a message from everyone?"
          ],
          [
           "G",
-          "No, not yet. My dad wants to try tonight."
+          "Yes, she was always kind to everyone in our class."
          ],
          [
           "H",
-          "Almost every night. It usually arrives at about nine."
+          "What about the school garden? There's lots of space there."
          ]
         ],
         "ans": "A",
         "fig": {
          "k": "stim",
-         "id": "sm-r3-dlg2",
+         "id": "sm-summit-r3",
          "kind": "text",
-         "head": "Conversation: Jonah and Zara",
-         "html": "Jonah: Hi, Zara! You look tired. Did you go to bed late?<br>Zara: (0) <b>C</b><br>Jonah: A hedgehog? I've never seen a real one. Who found it first?<br>Zara: (13) ________<br>Jonah: Was he frightened when he saw it?<br>Zara: (14) ________<br>Jonah: He's braver than me! How often does it come to your garden?<br>Zara: (15) ________<br>Jonah: Every night? Lucky you! Did anyone take a photo of it?<br>Zara: (16) ________<br>Jonah: Cool! Ask her to send it to me, please. How long does the hedgehog stay each night?<br>Zara: (17) ________<br>Jonah: That's not very long! Can I come and watch it with you on Friday?"
+         "head": "Conversation: Matilda and Seb",
+         "html": "Matilda: Seb, did you know that our class teacher is leaving at the end of term?<br>Seb: (0) <b>C</b><br>Matilda: I'm going to miss her. Shall we make something to say thank you?<br>Seb: (13) ________<br>Matilda: That's perfect! But who can film it? I haven't got a camera.<br>Seb: (14) ________<br>Matilda: Great. Where should we film it? Our classroom is too small for everyone.<br>Seb: (15) ________<br>Matilda: Good, and it looks really pretty in the sunshine. When can we do it?<br>Seb: (16) ________<br>Matilda: Yes, then she won't see us. How long should the video be?<br>Seb: (17) ________<br>Matilda: OK. I'll write a list of everyone's names tonight."
         }
        }
       ]
@@ -2268,58 +1742,58 @@
       "num": 15,
       "dok": 2,
       "lo": [
-       "6Rm.01",
-       "6Rd.01"
+       "5Rm.01",
+       "5Rd.03"
       ],
       "v": [
        {
         "hint": {
-         "step": "Jonah asks 'How often?', not 'How long?'. Check his next line too."
+         "step": "Matilda asks 'Where ...?'. Your answer must name a place with more space than the classroom."
         },
-        "worked": "H fits: 'Almost every night' answers 'How often', and Jonah repeats 'Every night?'. B tells us how long, not how often.",
+        "worked": "H fits: 'the school garden' has 'lots of space', and Matilda says it 'looks really pretty in the sunshine'.",
         "type": "bank",
         "q": "Choose the best answer for gap 15.",
         "bank": [
          [
           "A",
-          "Not at all. He sat on the step and watched it for ages."
+          "My dad has got one. I'm sure he'd lend it to us."
          ],
          [
           "B",
-          "Only about twenty minutes. Then it goes back under the hedge."
+          "Not too long. About five minutes is enough."
          ],
          [
           "C",
-          "Yes. I was watching a hedgehog in our garden until ten o'clock!"
+          "Yes, she told us this morning. She's moving to another city."
          ],
          [
           "D",
-          "My mum did. She got a great one on her phone."
+          "We could do it on Friday at lunchtime, while she's at a meeting."
          ],
          [
           "E",
-          "Yes, he was. He ran inside and hid behind Mum."
+          "Maybe we could buy her some flowers instead."
          ],
          [
           "F",
-          "My little brother. He heard a noise near the bins."
+          "Good idea! What about a short video with a message from everyone?"
          ],
          [
           "G",
-          "No, not yet. My dad wants to try tonight."
+          "Yes, she was always kind to everyone in our class."
          ],
          [
           "H",
-          "Almost every night. It usually arrives at about nine."
+          "What about the school garden? There's lots of space there."
          ]
         ],
         "ans": "H",
         "fig": {
          "k": "stim",
-         "id": "sm-r3-dlg2",
+         "id": "sm-summit-r3",
          "kind": "text",
-         "head": "Conversation: Jonah and Zara",
-         "html": "Jonah: Hi, Zara! You look tired. Did you go to bed late?<br>Zara: (0) <b>C</b><br>Jonah: A hedgehog? I've never seen a real one. Who found it first?<br>Zara: (13) ________<br>Jonah: Was he frightened when he saw it?<br>Zara: (14) ________<br>Jonah: He's braver than me! How often does it come to your garden?<br>Zara: (15) ________<br>Jonah: Every night? Lucky you! Did anyone take a photo of it?<br>Zara: (16) ________<br>Jonah: Cool! Ask her to send it to me, please. How long does the hedgehog stay each night?<br>Zara: (17) ________<br>Jonah: That's not very long! Can I come and watch it with you on Friday?"
+         "head": "Conversation: Matilda and Seb",
+         "html": "Matilda: Seb, did you know that our class teacher is leaving at the end of term?<br>Seb: (0) <b>C</b><br>Matilda: I'm going to miss her. Shall we make something to say thank you?<br>Seb: (13) ________<br>Matilda: That's perfect! But who can film it? I haven't got a camera.<br>Seb: (14) ________<br>Matilda: Great. Where should we film it? Our classroom is too small for everyone.<br>Seb: (15) ________<br>Matilda: Good, and it looks really pretty in the sunshine. When can we do it?<br>Seb: (16) ________<br>Matilda: Yes, then she won't see us. How long should the video be?<br>Seb: (17) ________<br>Matilda: OK. I'll write a list of everyone's names tonight."
         }
        }
       ]
@@ -2328,58 +1802,58 @@
       "num": 16,
       "dok": 2,
       "lo": [
-       "6Rm.01",
-       "6Rd.01"
+       "5Rm.01",
+       "5Rd.03"
       ],
       "v": [
        {
         "hint": {
-         "step": "Read Jonah's next line. Who is 'her', and what is 'it'? Both must be in your answer."
+         "step": "Matilda asks 'When ...?'. Then she says 'she won't see us'. Which answer gives a time AND explains that?"
         },
-        "worked": "D fits: 'My mum did. She got a great one on her phone.' Then Jonah says 'Ask HER to send IT to me': her = Zara's mum, it = the photo. G says nobody has a photo yet, so there is nothing to send.",
+        "worked": "D fits: 'on Friday at lunchtime, while she's at a meeting' answers 'When?', so the teacher 'won't see us'.",
         "type": "bank",
         "q": "Choose the best answer for gap 16.",
         "bank": [
          [
           "A",
-          "Not at all. He sat on the step and watched it for ages."
+          "My dad has got one. I'm sure he'd lend it to us."
          ],
          [
           "B",
-          "Only about twenty minutes. Then it goes back under the hedge."
+          "Not too long. About five minutes is enough."
          ],
          [
           "C",
-          "Yes. I was watching a hedgehog in our garden until ten o'clock!"
+          "Yes, she told us this morning. She's moving to another city."
          ],
          [
           "D",
-          "My mum did. She got a great one on her phone."
+          "We could do it on Friday at lunchtime, while she's at a meeting."
          ],
          [
           "E",
-          "Yes, he was. He ran inside and hid behind Mum."
+          "Maybe we could buy her some flowers instead."
          ],
          [
           "F",
-          "My little brother. He heard a noise near the bins."
+          "Good idea! What about a short video with a message from everyone?"
          ],
          [
           "G",
-          "No, not yet. My dad wants to try tonight."
+          "Yes, she was always kind to everyone in our class."
          ],
          [
           "H",
-          "Almost every night. It usually arrives at about nine."
+          "What about the school garden? There's lots of space there."
          ]
         ],
         "ans": "D",
         "fig": {
          "k": "stim",
-         "id": "sm-r3-dlg2",
+         "id": "sm-summit-r3",
          "kind": "text",
-         "head": "Conversation: Jonah and Zara",
-         "html": "Jonah: Hi, Zara! You look tired. Did you go to bed late?<br>Zara: (0) <b>C</b><br>Jonah: A hedgehog? I've never seen a real one. Who found it first?<br>Zara: (13) ________<br>Jonah: Was he frightened when he saw it?<br>Zara: (14) ________<br>Jonah: He's braver than me! How often does it come to your garden?<br>Zara: (15) ________<br>Jonah: Every night? Lucky you! Did anyone take a photo of it?<br>Zara: (16) ________<br>Jonah: Cool! Ask her to send it to me, please. How long does the hedgehog stay each night?<br>Zara: (17) ________<br>Jonah: That's not very long! Can I come and watch it with you on Friday?"
+         "head": "Conversation: Matilda and Seb",
+         "html": "Matilda: Seb, did you know that our class teacher is leaving at the end of term?<br>Seb: (0) <b>C</b><br>Matilda: I'm going to miss her. Shall we make something to say thank you?<br>Seb: (13) ________<br>Matilda: That's perfect! But who can film it? I haven't got a camera.<br>Seb: (14) ________<br>Matilda: Great. Where should we film it? Our classroom is too small for everyone.<br>Seb: (15) ________<br>Matilda: Good, and it looks really pretty in the sunshine. When can we do it?<br>Seb: (16) ________<br>Matilda: Yes, then she won't see us. How long should the video be?<br>Seb: (17) ________<br>Matilda: OK. I'll write a list of everyone's names tonight."
         }
        }
       ]
@@ -2388,58 +1862,58 @@
       "num": 17,
       "dok": 2,
       "lo": [
-       "6Rm.01",
-       "6Rd.03"
+       "5Rm.01",
+       "5Rd.03"
       ],
       "v": [
        {
         "hint": {
-         "step": "Jonah asks 'How long?'. Then he says 'That's not very long!'. Look for an amount of time, not a time on the clock."
+         "step": "Matilda asks 'How long ...?'. Look for an amount of time."
         },
-        "worked": "B fits: 'Only about twenty minutes' answers 'How long', and Jonah says 'That's not very long!'. H tells us how often and at what time, not how long.",
+        "worked": "B fits: 'About five minutes is enough' answers 'How long should the video be?'.",
         "type": "bank",
         "q": "Choose the best answer for gap 17.",
         "bank": [
          [
           "A",
-          "Not at all. He sat on the step and watched it for ages."
+          "My dad has got one. I'm sure he'd lend it to us."
          ],
          [
           "B",
-          "Only about twenty minutes. Then it goes back under the hedge."
+          "Not too long. About five minutes is enough."
          ],
          [
           "C",
-          "Yes. I was watching a hedgehog in our garden until ten o'clock!"
+          "Yes, she told us this morning. She's moving to another city."
          ],
          [
           "D",
-          "My mum did. She got a great one on her phone."
+          "We could do it on Friday at lunchtime, while she's at a meeting."
          ],
          [
           "E",
-          "Yes, he was. He ran inside and hid behind Mum."
+          "Maybe we could buy her some flowers instead."
          ],
          [
           "F",
-          "My little brother. He heard a noise near the bins."
+          "Good idea! What about a short video with a message from everyone?"
          ],
          [
           "G",
-          "No, not yet. My dad wants to try tonight."
+          "Yes, she was always kind to everyone in our class."
          ],
          [
           "H",
-          "Almost every night. It usually arrives at about nine."
+          "What about the school garden? There's lots of space there."
          ]
         ],
         "ans": "B",
         "fig": {
          "k": "stim",
-         "id": "sm-r3-dlg2",
+         "id": "sm-summit-r3",
          "kind": "text",
-         "head": "Conversation: Jonah and Zara",
-         "html": "Jonah: Hi, Zara! You look tired. Did you go to bed late?<br>Zara: (0) <b>C</b><br>Jonah: A hedgehog? I've never seen a real one. Who found it first?<br>Zara: (13) ________<br>Jonah: Was he frightened when he saw it?<br>Zara: (14) ________<br>Jonah: He's braver than me! How often does it come to your garden?<br>Zara: (15) ________<br>Jonah: Every night? Lucky you! Did anyone take a photo of it?<br>Zara: (16) ________<br>Jonah: Cool! Ask her to send it to me, please. How long does the hedgehog stay each night?<br>Zara: (17) ________<br>Jonah: That's not very long! Can I come and watch it with you on Friday?"
+         "head": "Conversation: Matilda and Seb",
+         "html": "Matilda: Seb, did you know that our class teacher is leaving at the end of term?<br>Seb: (0) <b>C</b><br>Matilda: I'm going to miss her. Shall we make something to say thank you?<br>Seb: (13) ________<br>Matilda: That's perfect! But who can film it? I haven't got a camera.<br>Seb: (14) ________<br>Matilda: Great. Where should we film it? Our classroom is too small for everyone.<br>Seb: (15) ________<br>Matilda: Good, and it looks really pretty in the sunshine. When can we do it?<br>Seb: (16) ________<br>Matilda: Yes, then she won't see us. How long should the video be?<br>Seb: (17) ________<br>Matilda: OK. I'll write a list of everyone's names tonight."
         }
        }
       ]
@@ -2449,37 +1923,36 @@
    {
     "n": 4,
     "title": "Part 4",
-    "instr": "Read the email. Write ONE word in each gap. There is one example (0).",
+    "instr": "Read the letter. Write ONE word from the box in each gap. Use each word only once. There is one example (0).",
     "items": [
      {
       "num": 18,
       "dok": 1,
       "lo": [
-       "6Ug.07"
+       "5Ug.04"
       ],
       "v": [
        {
         "hint": {
-         "step": "Look at 'replied' and 'yet'. Which tense uses 'yet'?"
+         "step": "'That day' is in the past. Is 'hundreds of kites' one thing or many?"
         },
-        "worked": "'Yet' goes with the present perfect: I <b>have</b> not replied yet.",
+        "worked": "'That day' is the past and 'hundreds of kites' is plural, so we write There <b>were</b>.",
         "type": "tfill",
-        "q": "Write ONE word for gap 18.",
+        "q": "Write ONE word from the box for gap 18.",
         "lines": [
-         "I'm sorry I {0} not replied yet, but I've been really busy!"
+         "There {0} hundreds of kites in the sky that day!"
         ],
         "ans": [
          [
-          "have",
-          "'ve"
+          "were"
          ]
         ],
         "fig": {
          "k": "stim",
          "id": "sm-summit-r4",
          "kind": "text",
-         "head": "Email from Chloe",
-         "html": "Hi Tomas,<br>Thanks (0) <b>for</b> your email. I'm sorry I (18) ________ not replied yet, but I've been really busy! Last weekend we visited my grandparents, (19) ________ live on a farm in the mountains. Their farmhouse (20) ________ built by my great-grandfather eighty years ago, and it still looks great. My grandma, (21) ________ banana cake is famous in the village, taught me how to make it. I'm going (22) ________ bake one for my class next week.<br>And guess what? I've joined the school choir, but I did it (23) ________ mistake! I went into the wrong room, and the teacher thought I was a new singer. Now I love it! Our first concert (24) ________ on 15th December. Would you like to come?<br>Write soon,<br>Chloe"
+         "head": "Letter from Yusuf",
+         "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Emily,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we went to a little café (21) ________ they sell fresh coconut juice. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Would you like to come with us?<br>Write soon,<br>Yusuf"
         }
        }
       ]
@@ -2488,30 +1961,30 @@
       "num": 19,
       "dok": 1,
       "lo": [
-       "6Us.05"
+       "5Ug.11"
       ],
       "v": [
        {
         "hint": {
-         "step": "The word after the comma is about people. Which relative pronoun is for people?"
+         "step": "Look at the word before the gap. Which word comes after a comparative?"
         },
-        "worked": "The gap gives more information about 'my grandparents' (people), so we use <b>who</b>.",
+        "worked": "After a comparative like 'bigger' we use <b>than</b>: bigger <b>than</b> our car.",
         "type": "tfill",
-        "q": "Write ONE word for gap 19.",
+        "q": "Write ONE word from the box for gap 19.",
         "lines": [
-         "Last weekend we visited my grandparents, {0} live on a farm in the mountains."
+         "It was even bigger {0} our car!"
         ],
         "ans": [
          [
-          "who"
+          "than"
          ]
         ],
         "fig": {
          "k": "stim",
          "id": "sm-summit-r4",
          "kind": "text",
-         "head": "Email from Chloe",
-         "html": "Hi Tomas,<br>Thanks (0) <b>for</b> your email. I'm sorry I (18) ________ not replied yet, but I've been really busy! Last weekend we visited my grandparents, (19) ________ live on a farm in the mountains. Their farmhouse (20) ________ built by my great-grandfather eighty years ago, and it still looks great. My grandma, (21) ________ banana cake is famous in the village, taught me how to make it. I'm going (22) ________ bake one for my class next week.<br>And guess what? I've joined the school choir, but I did it (23) ________ mistake! I went into the wrong room, and the teacher thought I was a new singer. Now I love it! Our first concert (24) ________ on 15th December. Would you like to come?<br>Write soon,<br>Chloe"
+         "head": "Letter from Yusuf",
+         "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Emily,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we went to a little café (21) ________ they sell fresh coconut juice. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Would you like to come with us?<br>Write soon,<br>Yusuf"
         }
        }
       ]
@@ -2520,30 +1993,30 @@
       "num": 20,
       "dok": 1,
       "lo": [
-       "6Ug.04"
+       "5Uv.01"
       ],
       "v": [
        {
         "hint": {
-         "step": "Look at 'built by' and 'eighty years ago'. Is this active or passive?"
+         "step": "Which small word always comes after 'afraid'?"
         },
-        "worked": "The farmhouse didn't build itself, and it happened in the past: it <b>was</b> built (past passive).",
+        "worked": "We say <b>afraid of</b> something: she was <b>afraid of</b> it.",
         "type": "tfill",
-        "q": "Write ONE word for gap 20.",
+        "q": "Write ONE word from the box for gap 20.",
         "lines": [
-         "Their farmhouse {0} built by my great-grandfather eighty years ago, and it still looks great."
+         "My little sister was afraid {0} it at first."
         ],
         "ans": [
          [
-          "was"
+          "of"
          ]
         ],
         "fig": {
          "k": "stim",
          "id": "sm-summit-r4",
          "kind": "text",
-         "head": "Email from Chloe",
-         "html": "Hi Tomas,<br>Thanks (0) <b>for</b> your email. I'm sorry I (18) ________ not replied yet, but I've been really busy! Last weekend we visited my grandparents, (19) ________ live on a farm in the mountains. Their farmhouse (20) ________ built by my great-grandfather eighty years ago, and it still looks great. My grandma, (21) ________ banana cake is famous in the village, taught me how to make it. I'm going (22) ________ bake one for my class next week.<br>And guess what? I've joined the school choir, but I did it (23) ________ mistake! I went into the wrong room, and the teacher thought I was a new singer. Now I love it! Our first concert (24) ________ on 15th December. Would you like to come?<br>Write soon,<br>Chloe"
+         "head": "Letter from Yusuf",
+         "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Emily,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we went to a little café (21) ________ they sell fresh coconut juice. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Would you like to come with us?<br>Write soon,<br>Yusuf"
         }
        }
       ]
@@ -2552,94 +2025,94 @@
       "num": 21,
       "dok": 2,
       "lo": [
-       "6Us.05"
+       "5Us.04"
       ],
       "v": [
        {
         "hint": {
-         "step": "The gap comes before 'banana cake'. Whose cake is it?"
+         "step": "The word before the gap is a place. Which word in the box joins a place to more information about it?"
         },
-        "worked": "The cake belongs to grandma, so we need <b>whose</b>: my grandma, <b>whose</b> banana cake is famous.",
+        "worked": "A café is a place, so we use <b>where</b>: a little café <b>where</b> they sell coconut juice.",
         "type": "tfill",
-        "q": "Write ONE word for gap 21.",
+        "q": "Write ONE word from the box for gap 21.",
         "lines": [
-         "My grandma, {0} banana cake is famous in the village, taught me how to make it."
+         "At lunchtime, we went to a little café {0} they sell fresh coconut juice."
         ],
         "ans": [
          [
-          "whose"
+          "where"
          ]
         ],
         "fig": {
          "k": "stim",
          "id": "sm-summit-r4",
          "kind": "text",
-         "head": "Email from Chloe",
-         "html": "Hi Tomas,<br>Thanks (0) <b>for</b> your email. I'm sorry I (18) ________ not replied yet, but I've been really busy! Last weekend we visited my grandparents, (19) ________ live on a farm in the mountains. Their farmhouse (20) ________ built by my great-grandfather eighty years ago, and it still looks great. My grandma, (21) ________ banana cake is famous in the village, taught me how to make it. I'm going (22) ________ bake one for my class next week.<br>And guess what? I've joined the school choir, but I did it (23) ________ mistake! I went into the wrong room, and the teacher thought I was a new singer. Now I love it! Our first concert (24) ________ on 15th December. Would you like to come?<br>Write soon,<br>Chloe"
+         "head": "Letter from Yusuf",
+         "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Emily,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we went to a little café (21) ________ they sell fresh coconut juice. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Would you like to come with us?<br>Write soon,<br>Yusuf"
         }
        }
       ]
      },
      {
       "num": 22,
-      "dok": 1,
+      "dok": 2,
       "lo": [
-       "6Ug.08"
+       "5Us.02"
       ],
       "v": [
        {
         "hint": {
-         "step": "This is a plan for the future: be going ... + verb."
+         "step": "The gap needs a word for people. Who had to hold their hats: one person or all the people?"
         },
-        "worked": "The future form is 'be going <b>to</b> + verb': I'm going <b>to</b> bake one.",
+        "worked": "It was very windy, so all the people had to hold their hats: <b>everyone</b> on the beach.",
         "type": "tfill",
-        "q": "Write ONE word for gap 22.",
+        "q": "Write ONE word from the box for gap 22.",
         "lines": [
-         "I'm going {0} bake one for my class next week."
+         "It was so windy that {0} on the beach had to hold on to their hats!"
         ],
         "ans": [
          [
-          "to"
+          "everyone"
          ]
         ],
         "fig": {
          "k": "stim",
          "id": "sm-summit-r4",
          "kind": "text",
-         "head": "Email from Chloe",
-         "html": "Hi Tomas,<br>Thanks (0) <b>for</b> your email. I'm sorry I (18) ________ not replied yet, but I've been really busy! Last weekend we visited my grandparents, (19) ________ live on a farm in the mountains. Their farmhouse (20) ________ built by my great-grandfather eighty years ago, and it still looks great. My grandma, (21) ________ banana cake is famous in the village, taught me how to make it. I'm going (22) ________ bake one for my class next week.<br>And guess what? I've joined the school choir, but I did it (23) ________ mistake! I went into the wrong room, and the teacher thought I was a new singer. Now I love it! Our first concert (24) ________ on 15th December. Would you like to come?<br>Write soon,<br>Chloe"
+         "head": "Letter from Yusuf",
+         "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Emily,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we went to a little café (21) ________ they sell fresh coconut juice. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Would you like to come with us?<br>Write soon,<br>Yusuf"
         }
        }
       ]
      },
      {
       "num": 23,
-      "dok": 1,
+      "dok": 2,
       "lo": [
-       "6Uv.02"
+       "5Us.01"
       ],
       "v": [
        {
         "hint": {
-         "step": "Chloe went into the wrong room. She didn't plan it. Which preposition goes with 'mistake'?"
+         "step": "How many people are before the gap? Which word in the box is for two people?"
         },
-        "worked": "We say <b>by mistake</b> when we do something without planning it.",
+        "worked": "Mum and Dad are two people, and each one bought a kite, so we write Mum and Dad <b>both</b> bought a kite.",
         "type": "tfill",
-        "q": "Write ONE word for gap 23.",
+        "q": "Write ONE word from the box for gap 23.",
         "lines": [
-         "I've joined the school choir, but I did it {0} mistake!"
+         "Mum and Dad {0} bought a kite, so now we have lots of kites at home."
         ],
         "ans": [
          [
-          "by"
+          "both"
          ]
         ],
         "fig": {
          "k": "stim",
          "id": "sm-summit-r4",
          "kind": "text",
-         "head": "Email from Chloe",
-         "html": "Hi Tomas,<br>Thanks (0) <b>for</b> your email. I'm sorry I (18) ________ not replied yet, but I've been really busy! Last weekend we visited my grandparents, (19) ________ live on a farm in the mountains. Their farmhouse (20) ________ built by my great-grandfather eighty years ago, and it still looks great. My grandma, (21) ________ banana cake is famous in the village, taught me how to make it. I'm going (22) ________ bake one for my class next week.<br>And guess what? I've joined the school choir, but I did it (23) ________ mistake! I went into the wrong room, and the teacher thought I was a new singer. Now I love it! Our first concert (24) ________ on 15th December. Would you like to come?<br>Write soon,<br>Chloe"
+         "head": "Letter from Yusuf",
+         "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Emily,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we went to a little café (21) ________ they sell fresh coconut juice. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Would you like to come with us?<br>Write soon,<br>Yusuf"
         }
        }
       ]
@@ -2648,32 +2121,30 @@
       "num": 24,
       "dok": 1,
       "lo": [
-       "6Ug.08"
+       "5Ug.05"
       ],
       "v": [
        {
         "hint": {
-         "step": "A concert on a fixed date is like a timetable. There is only space for one word."
+         "step": "'Next month' is a plan. Which word goes before 'going' with 'we'?"
         },
-        "worked": "We use the present simple for timetabled future events: our first concert <b>is</b> on 15th December. ('Starts' and 'begins' are also correct.)",
+        "worked": "A plan for the future uses the present continuous: we <b>are</b> going back next month.",
         "type": "tfill",
-        "q": "Write ONE word for gap 24.",
+        "q": "Write ONE word from the box for gap 24.",
         "lines": [
-         "Our first concert {0} on 15th December."
+         "Next month, we {0} going back for the night festival with lantern kites."
         ],
         "ans": [
          [
-          "is",
-          "starts",
-          "begins"
+          "are"
          ]
         ],
         "fig": {
          "k": "stim",
          "id": "sm-summit-r4",
          "kind": "text",
-         "head": "Email from Chloe",
-         "html": "Hi Tomas,<br>Thanks (0) <b>for</b> your email. I'm sorry I (18) ________ not replied yet, but I've been really busy! Last weekend we visited my grandparents, (19) ________ live on a farm in the mountains. Their farmhouse (20) ________ built by my great-grandfather eighty years ago, and it still looks great. My grandma, (21) ________ banana cake is famous in the village, taught me how to make it. I'm going (22) ________ bake one for my class next week.<br>And guess what? I've joined the school choir, but I did it (23) ________ mistake! I went into the wrong room, and the teacher thought I was a new singer. Now I love it! Our first concert (24) ________ on 15th December. Would you like to come?<br>Write soon,<br>Chloe"
+         "head": "Letter from Yusuf",
+         "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Emily,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we went to a little café (21) ________ they sell fresh coconut juice. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Would you like to come with us?<br>Write soon,<br>Yusuf"
         }
        }
       ]
@@ -2683,60 +2154,41 @@
    {
     "n": 5,
     "title": "Part 5",
-    "instr": "The young people below all want to do an activity in the holidays. Read about seven activities, A to G. Choose the best activity for each person.",
+    "instr": "Read what three children say about helping at home. For each question, choose the correct person.",
     "items": [
      {
       "num": 25,
       "dok": 2,
       "lo": [
-       "6Rd.01",
-       "6Rm.01"
+       "5Rm.01",
+       "5Rd.03"
       ],
       "v": [
        {
         "hint": {
-         "step": "Bao has three wishes: a water sport, no nights away, home for lunch. Find the text that has all three."
+         "step": "'Worried' has a similar meaning to another feeling word. Look for it in the three texts."
         },
-        "worked": "D: canoeing on the river, 'from 8 am until 12 noon ... so you are home for lunch', and swimmers only. E is a water sport too, but everyone stays at the camp.",
-        "type": "bank",
-        "q": "Bao loves being in the water and wants to try a new water sport this summer. He is a strong swimmer. He doesn't want to sleep away from home, and he wants to be back home for lunch every day.",
-        "bank": [
-         [
-          "A",
-          "<b>Sunrise Cooking Kitchen</b><br>Learn to make healthy snacks and meals that are quick and tasty. Our chefs show you how to choose fresh food and use less sugar and salt. Every week you cook a different dish and take it home for your family to try. Courses run on Saturday afternoons for four weeks."
-         ],
-         [
-          "B",
-          "<b>City Tennis Academy</b><br>Have one-to-one lessons with a coach on our indoor courts, so rain never stops play. Lessons can be booked on any weekday after 4 pm. This course is for players who can already serve and hit the ball well. Rackets can be borrowed from reception."
-         ],
-         [
-          "C",
-          "<b>Starlight Dance Studio</b><br>Love music? Learn hip hop and street dance with a team of dancers your age. Come with your friends or make new ones! Classes are every Saturday morning from 9 to 11. At the end of the term, every dancer takes part in a show for families at the town theatre."
-         ],
-         [
-          "D",
-          "<b>Riverside Canoe Club</b><br>Spend five mornings on the river and learn to paddle a canoe. Sessions run from 8 am until 12 noon, Monday to Friday, so you are home for lunch. You must be able to swim 50 metres. Our coaches, who have taught canoeing for many years, will keep you safe."
-         ],
-         [
-          "E",
-          "<b>Ocean Sailing Week</b><br>Spend a week by the sea learning to sail small boats in a team of four. Everyone stays in our camp on the beach, and all meals are included. In the evenings there are games and campfires. You must be a good swimmer. For ages 11 to 15."
-         ],
-         [
-          "F",
-          "<b>Treetop Climbing Centre</b><br>Climb our indoor walls with friendly instructors. Beginners are very welcome, and you don't need any special clothes. Classes take place after school, from 5 to 6.30 pm, Monday to Thursday. Climbing makes your arms and legs stronger, and it helps you to feel more confident too."
-         ],
-         [
-          "G",
-          "<b>Green Valley Cycling</b><br>Join our family bike rides through the countryside every Saturday and Sunday. Bring your own bike and helmet. Each ride is about 15 kilometres and ends with a picnic by the lake, so bring something to eat. Children under 12 must ride with an adult."
-         ]
+        "worked": "Chi writes 'Cooking used to make me nervous'. Nervous is like worried.",
+        "type": "mcq",
+        "q": "Which person was worried about doing a job at first?",
+        "opts": [
+         "Chi",
+         "Owen",
+         "Matilda"
         ],
-        "ans": "D",
+        "at": 1,
+        "whys": [
+         null,
+         "Owen hated washing the car because it took a long time. He wasn't worried about it.",
+         "Matilda doesn't enjoy taking out the rubbish, but she never says she was worried."
+        ],
+        "letters": true,
         "fig": {
          "k": "stim",
          "id": "sm-summit-r5",
          "kind": "text",
-         "head": "Holiday activities",
-         "html": "Read about seven holiday activities, A to G. Choose the best activity for each person."
+         "head": "Magazine page",
+         "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. My job is to feed our two cats and wash their bowls. At the weekend, I also help Dad clean the car. I used to hate that job, because it took all morning. But now my friend from next door helps us, and we finish quickly and play football after. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money for my jobs, and I'm saving it for a new bike.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to hold the knife and cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I feel proud of the meals we make.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the plastic bottles and the paper so we can recycle them. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! I think helping at home is good practice for when I'm older."
         }
        }
       ]
@@ -2745,54 +2197,35 @@
       "num": 26,
       "dok": 2,
       "lo": [
-       "6Rd.01",
-       "6Rm.01"
+       "5Rm.01",
+       "5Rd.03"
       ],
       "v": [
        {
         "hint": {
-         "step": "Check the food, the family and the TIME of each activity."
+         "step": "Look for words about money in all three texts. Be careful: one text says 'don't'."
         },
-        "worked": "A: healthy meals, 'take it home for your family to try', and 'Saturday afternoons'. C is on Saturday morning, when Hana is swimming.",
-        "type": "bank",
-        "q": "Hana is very interested in healthy food. She wants to learn something that she can share with her family at home. She has swimming lessons every Saturday morning, so she is only free in the afternoons.",
-        "bank": [
-         [
-          "A",
-          "<b>Sunrise Cooking Kitchen</b><br>Learn to make healthy snacks and meals that are quick and tasty. Our chefs show you how to choose fresh food and use less sugar and salt. Every week you cook a different dish and take it home for your family to try. Courses run on Saturday afternoons for four weeks."
-         ],
-         [
-          "B",
-          "<b>City Tennis Academy</b><br>Have one-to-one lessons with a coach on our indoor courts, so rain never stops play. Lessons can be booked on any weekday after 4 pm. This course is for players who can already serve and hit the ball well. Rackets can be borrowed from reception."
-         ],
-         [
-          "C",
-          "<b>Starlight Dance Studio</b><br>Love music? Learn hip hop and street dance with a team of dancers your age. Come with your friends or make new ones! Classes are every Saturday morning from 9 to 11. At the end of the term, every dancer takes part in a show for families at the town theatre."
-         ],
-         [
-          "D",
-          "<b>Riverside Canoe Club</b><br>Spend five mornings on the river and learn to paddle a canoe. Sessions run from 8 am until 12 noon, Monday to Friday, so you are home for lunch. You must be able to swim 50 metres. Our coaches, who have taught canoeing for many years, will keep you safe."
-         ],
-         [
-          "E",
-          "<b>Ocean Sailing Week</b><br>Spend a week by the sea learning to sail small boats in a team of four. Everyone stays in our camp on the beach, and all meals are included. In the evenings there are games and campfires. You must be a good swimmer. For ages 11 to 15."
-         ],
-         [
-          "F",
-          "<b>Treetop Climbing Centre</b><br>Climb our indoor walls with friendly instructors. Beginners are very welcome, and you don't need any special clothes. Classes take place after school, from 5 to 6.30 pm, Monday to Thursday. Climbing makes your arms and legs stronger, and it helps you to feel more confident too."
-         ],
-         [
-          "G",
-          "<b>Green Valley Cycling</b><br>Join our family bike rides through the countryside every Saturday and Sunday. Bring your own bike and helmet. Each ride is about 15 kilometres and ends with a picnic by the lake, so bring something to eat. Children under 12 must ride with an adult."
-         ]
+        "worked": "Owen writes 'Dad gives me a little pocket money for my jobs'.",
+        "type": "mcq",
+        "q": "Which person gets money for helping at home?",
+        "opts": [
+         "Owen",
+         "Chi",
+         "Matilda"
         ],
-        "ans": "A",
+        "at": 0,
+        "whys": [
+         null,
+         "Chi feels proud of the meals, but she doesn't talk about money.",
+         "Matilda says 'I don't get any money for it'."
+        ],
+        "letters": true,
         "fig": {
          "k": "stim",
          "id": "sm-summit-r5",
          "kind": "text",
-         "head": "Holiday activities",
-         "html": "Read about seven holiday activities, A to G. Choose the best activity for each person."
+         "head": "Magazine page",
+         "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. My job is to feed our two cats and wash their bowls. At the weekend, I also help Dad clean the car. I used to hate that job, because it took all morning. But now my friend from next door helps us, and we finish quickly and play football after. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money for my jobs, and I'm saving it for a new bike.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to hold the knife and cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I feel proud of the meals we make.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the plastic bottles and the paper so we can recycle them. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! I think helping at home is good practice for when I'm older."
         }
        }
       ]
@@ -2801,54 +2234,35 @@
       "num": 27,
       "dok": 2,
       "lo": [
-       "6Rd.01",
-       "6Rm.01"
+       "5Rm.01",
+       "5Rd.03"
       ],
       "v": [
        {
         "hint": {
-         "step": "Khoa is a beginner. Which indoor activity says beginners are welcome?"
+         "step": "All three texts talk about a mistake. Who did something so the mistake stopped?"
         },
-        "worked": "F: indoor walls, 'Beginners are very welcome', after school Monday to Thursday. B is indoors on weekdays, but it is only for players who can already serve and hit well.",
-        "type": "bank",
-        "q": "Khoa has never done a sport at a club before, and he is a bit nervous about it. He wants to get fitter after school on weekdays. He would like an indoor activity, because it often rains where he lives.",
-        "bank": [
-         [
-          "A",
-          "<b>Sunrise Cooking Kitchen</b><br>Learn to make healthy snacks and meals that are quick and tasty. Our chefs show you how to choose fresh food and use less sugar and salt. Every week you cook a different dish and take it home for your family to try. Courses run on Saturday afternoons for four weeks."
-         ],
-         [
-          "B",
-          "<b>City Tennis Academy</b><br>Have one-to-one lessons with a coach on our indoor courts, so rain never stops play. Lessons can be booked on any weekday after 4 pm. This course is for players who can already serve and hit the ball well. Rackets can be borrowed from reception."
-         ],
-         [
-          "C",
-          "<b>Starlight Dance Studio</b><br>Love music? Learn hip hop and street dance with a team of dancers your age. Come with your friends or make new ones! Classes are every Saturday morning from 9 to 11. At the end of the term, every dancer takes part in a show for families at the town theatre."
-         ],
-         [
-          "D",
-          "<b>Riverside Canoe Club</b><br>Spend five mornings on the river and learn to paddle a canoe. Sessions run from 8 am until 12 noon, Monday to Friday, so you are home for lunch. You must be able to swim 50 metres. Our coaches, who have taught canoeing for many years, will keep you safe."
-         ],
-         [
-          "E",
-          "<b>Ocean Sailing Week</b><br>Spend a week by the sea learning to sail small boats in a team of four. Everyone stays in our camp on the beach, and all meals are included. In the evenings there are games and campfires. You must be a good swimmer. For ages 11 to 15."
-         ],
-         [
-          "F",
-          "<b>Treetop Climbing Centre</b><br>Climb our indoor walls with friendly instructors. Beginners are very welcome, and you don't need any special clothes. Classes take place after school, from 5 to 6.30 pm, Monday to Thursday. Climbing makes your arms and legs stronger, and it helps you to feel more confident too."
-         ],
-         [
-          "G",
-          "<b>Green Valley Cycling</b><br>Join our family bike rides through the countryside every Saturday and Sunday. Bring your own bike and helmet. Each ride is about 15 kilometres and ends with a picnic by the lake, so bring something to eat. Children under 12 must ride with an adult."
-         ]
+        "worked": "Matilda made a poster because Dad 'always put paper in the wrong bin'. 'Now he never makes that mistake!'",
+        "type": "mcq",
+        "q": "Which person helped someone in the family to stop making a mistake?",
+        "opts": [
+         "Matilda",
+         "Owen",
+         "Chi"
         ],
-        "ans": "F",
+        "at": 2,
+        "whys": [
+         null,
+         "Owen is the one who makes a mistake: he forgets the cats' dinner.",
+         "Chi's brother puts the forks in the wrong place, but Chi doesn't help him change it. She says 'I don't mind'."
+        ],
+        "letters": true,
         "fig": {
          "k": "stim",
          "id": "sm-summit-r5",
          "kind": "text",
-         "head": "Holiday activities",
-         "html": "Read about seven holiday activities, A to G. Choose the best activity for each person."
+         "head": "Magazine page",
+         "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. My job is to feed our two cats and wash their bowls. At the weekend, I also help Dad clean the car. I used to hate that job, because it took all morning. But now my friend from next door helps us, and we finish quickly and play football after. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money for my jobs, and I'm saving it for a new bike.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to hold the knife and cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I feel proud of the meals we make.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the plastic bottles and the paper so we can recycle them. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! I think helping at home is good practice for when I'm older."
         }
        }
       ]
@@ -2857,54 +2271,35 @@
       "num": 28,
       "dok": 2,
       "lo": [
-       "6Rd.01",
-       "6Rm.01"
+       "5Rm.01",
+       "5Rd.03"
       ],
       "v": [
        {
         "hint": {
-         "step": "Find music, friends, the weekend and a chance to perform."
+         "step": "Find the word 'forget' or a similar idea. Who forgets, the writer or someone else?"
         },
-        "worked": "C: dance to music, 'Come with your friends', Saturday mornings, and 'a show for families'. A is at the weekend, but it has no music and no show.",
-        "type": "bank",
-        "q": "Amira loves music and moving to it. She wants to do something with friends at the weekend. She would also love the chance to perform in front of her parents.",
-        "bank": [
-         [
-          "A",
-          "<b>Sunrise Cooking Kitchen</b><br>Learn to make healthy snacks and meals that are quick and tasty. Our chefs show you how to choose fresh food and use less sugar and salt. Every week you cook a different dish and take it home for your family to try. Courses run on Saturday afternoons for four weeks."
-         ],
-         [
-          "B",
-          "<b>City Tennis Academy</b><br>Have one-to-one lessons with a coach on our indoor courts, so rain never stops play. Lessons can be booked on any weekday after 4 pm. This course is for players who can already serve and hit the ball well. Rackets can be borrowed from reception."
-         ],
-         [
-          "C",
-          "<b>Starlight Dance Studio</b><br>Love music? Learn hip hop and street dance with a team of dancers your age. Come with your friends or make new ones! Classes are every Saturday morning from 9 to 11. At the end of the term, every dancer takes part in a show for families at the town theatre."
-         ],
-         [
-          "D",
-          "<b>Riverside Canoe Club</b><br>Spend five mornings on the river and learn to paddle a canoe. Sessions run from 8 am until 12 noon, Monday to Friday, so you are home for lunch. You must be able to swim 50 metres. Our coaches, who have taught canoeing for many years, will keep you safe."
-         ],
-         [
-          "E",
-          "<b>Ocean Sailing Week</b><br>Spend a week by the sea learning to sail small boats in a team of four. Everyone stays in our camp on the beach, and all meals are included. In the evenings there are games and campfires. You must be a good swimmer. For ages 11 to 15."
-         ],
-         [
-          "F",
-          "<b>Treetop Climbing Centre</b><br>Climb our indoor walls with friendly instructors. Beginners are very welcome, and you don't need any special clothes. Classes take place after school, from 5 to 6.30 pm, Monday to Thursday. Climbing makes your arms and legs stronger, and it helps you to feel more confident too."
-         ],
-         [
-          "G",
-          "<b>Green Valley Cycling</b><br>Join our family bike rides through the countryside every Saturday and Sunday. Bring your own bike and helmet. Each ride is about 15 kilometres and ends with a picnic by the lake, so bring something to eat. Children under 12 must ride with an adult."
-         ]
+        "worked": "Owen writes 'sometimes I forget the cats' dinner'.",
+        "type": "mcq",
+        "q": "Which person sometimes forgets to do a job?",
+        "opts": [
+         "Owen",
+         "Chi",
+         "Matilda"
         ],
-        "ans": "C",
+        "at": 0,
+        "whys": [
+         null,
+         "Chi's little brother gets the forks wrong, but nobody forgets a job in Chi's text.",
+         "Matilda's dad made a mistake with the bins. That is not forgetting."
+        ],
+        "letters": true,
         "fig": {
          "k": "stim",
          "id": "sm-summit-r5",
          "kind": "text",
-         "head": "Holiday activities",
-         "html": "Read about seven holiday activities, A to G. Choose the best activity for each person."
+         "head": "Magazine page",
+         "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. My job is to feed our two cats and wash their bowls. At the weekend, I also help Dad clean the car. I used to hate that job, because it took all morning. But now my friend from next door helps us, and we finish quickly and play football after. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money for my jobs, and I'm saving it for a new bike.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to hold the knife and cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I feel proud of the meals we make.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the plastic bottles and the paper so we can recycle them. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! I think helping at home is good practice for when I'm older."
         }
        }
       ]
@@ -2913,54 +2308,35 @@
       "num": 29,
       "dok": 2,
       "lo": [
-       "6Rd.01",
-       "6Rm.01"
+       "5Rm.01",
+       "5Rd.03"
       ],
       "v": [
        {
         "hint": {
-         "step": "Ravi wants to be outside with his dad and use his bike. Which text has a meal outdoors too?"
+         "step": "Look for 'showed me' or 'taught me' in the texts. Who did the showing?"
         },
-        "worked": "G: family bike rides every Saturday and Sunday, 'Bring your own bike and helmet', and 'a picnic by the lake'. B and F are indoors.",
-        "type": "bank",
-        "q": "Ravi and his dad want to do an outdoor activity together at the weekends. Ravi already has his own bike and helmet, and they both love eating outside when the weather is nice.",
-        "bank": [
-         [
-          "A",
-          "<b>Sunrise Cooking Kitchen</b><br>Learn to make healthy snacks and meals that are quick and tasty. Our chefs show you how to choose fresh food and use less sugar and salt. Every week you cook a different dish and take it home for your family to try. Courses run on Saturday afternoons for four weeks."
-         ],
-         [
-          "B",
-          "<b>City Tennis Academy</b><br>Have one-to-one lessons with a coach on our indoor courts, so rain never stops play. Lessons can be booked on any weekday after 4 pm. This course is for players who can already serve and hit the ball well. Rackets can be borrowed from reception."
-         ],
-         [
-          "C",
-          "<b>Starlight Dance Studio</b><br>Love music? Learn hip hop and street dance with a team of dancers your age. Come with your friends or make new ones! Classes are every Saturday morning from 9 to 11. At the end of the term, every dancer takes part in a show for families at the town theatre."
-         ],
-         [
-          "D",
-          "<b>Riverside Canoe Club</b><br>Spend five mornings on the river and learn to paddle a canoe. Sessions run from 8 am until 12 noon, Monday to Friday, so you are home for lunch. You must be able to swim 50 metres. Our coaches, who have taught canoeing for many years, will keep you safe."
-         ],
-         [
-          "E",
-          "<b>Ocean Sailing Week</b><br>Spend a week by the sea learning to sail small boats in a team of four. Everyone stays in our camp on the beach, and all meals are included. In the evenings there are games and campfires. You must be a good swimmer. For ages 11 to 15."
-         ],
-         [
-          "F",
-          "<b>Treetop Climbing Centre</b><br>Climb our indoor walls with friendly instructors. Beginners are very welcome, and you don't need any special clothes. Classes take place after school, from 5 to 6.30 pm, Monday to Thursday. Climbing makes your arms and legs stronger, and it helps you to feel more confident too."
-         ],
-         [
-          "G",
-          "<b>Green Valley Cycling</b><br>Join our family bike rides through the countryside every Saturday and Sunday. Bring your own bike and helmet. Each ride is about 15 kilometres and ends with a picnic by the lake, so bring something to eat. Children under 12 must ride with an adult."
-         ]
+        "worked": "Chi writes that Grandma 'showed me how to hold the knife and cut carrots safely'.",
+        "type": "mcq",
+        "q": "Which person learned how to do something from an older person?",
+        "opts": [
+         "Chi",
+         "Owen",
+         "Matilda"
         ],
-        "ans": "G",
+        "at": 1,
+        "whys": [
+         null,
+         "Owen's friend helps with the car, but he doesn't teach Owen anything.",
+         "Matilda taught her dad. She didn't learn from an older person."
+        ],
+        "letters": true,
         "fig": {
          "k": "stim",
          "id": "sm-summit-r5",
          "kind": "text",
-         "head": "Holiday activities",
-         "html": "Read about seven holiday activities, A to G. Choose the best activity for each person."
+         "head": "Magazine page",
+         "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. My job is to feed our two cats and wash their bowls. At the weekend, I also help Dad clean the car. I used to hate that job, because it took all morning. But now my friend from next door helps us, and we finish quickly and play football after. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money for my jobs, and I'm saving it for a new bike.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to hold the knife and cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I feel proud of the meals we make.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the plastic bottles and the paper so we can recycle them. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! I think helping at home is good practice for when I'm older."
         }
        }
       ]
@@ -2974,109 +2350,110 @@
     "items": [
      {
       "num": 30,
-      "dok": 2,
+      "dok": 1,
       "lo": [
-       "6Rd.01",
-       "6Rd.04"
+       "5Rd.01"
       ],
       "v": [
        {
         "hint": {
-         "step": "Read the first paragraph. Find 'I was worried' and read the next two sentences."
+         "step": "Read the first paragraph. What happened 'one morning'?"
         },
-        "worked": "Phuong writes that Kiet 'gave up after one afternoon because it was too hard', so she 'thought I would give up too'.",
+        "worked": "'One morning, the head teacher asked Nora's class for ideas to make it brighter.'",
         "type": "mcq",
-        "q": "Why was Phuong worried before she started?",
+        "q": "How did the mural start?",
         "opts": [
-         "Her brother had found it too difficult.",
-         "Her brother told her not to try it.",
-         "The unicycle was too old to ride safely."
+         "The head teacher asked the class for ideas.",
+         "Some children planted flowers by the wall.",
+         "Nora saw a colourful mural on a wall in town."
         ],
         "at": 1,
         "whys": [
          null,
-         "Kiet gave up, but the article doesn't say he told Phuong not to try. Read the sentence about him again.",
-         "The unicycle was old, but Phuong never says it wasn't safe. Check the sentence after 'I was worried'."
+         "Some children only WANTED to plant flowers. That was their idea, not Nora's.",
+         "The text doesn't say Nora saw a mural in the town. The town is what the picture shows."
         ],
         "letters": true,
         "fig": {
          "k": "stim",
-         "id": "sm-r6-art2",
+         "id": "sm-summit-r6",
          "kind": "text",
-         "head": "Article",
-         "html": "<b>One Wheel and Two Hundred Falls</b><br>by Phuong, aged 11<br><br>Last spring, our neighbour, Mr Fenwick, gave me his old unicycle. He used to ride it in a circus when he was young. I wanted to ride it in our school talent show in June, but I was worried. My older brother, Kiet, had tried it the year before, and he gave up after one afternoon because it was too hard. I thought I would give up too.<br><br>For the first two weeks, I practised in our hallway, holding on to the wall with one hand. I fell off again and again. Mum counted, and by the end of the month I had fallen more than two hundred times!<br><br>What surprised me most was that looking down made things worse. When I looked at the wheel, I fell straight away. When I looked at a point far in front of me, I stayed up for much longer.<br><br>One Saturday, Mr Fenwick came to watch me. He told me to practise for ten minutes every day instead of for two hours at the weekend. He explained that my body would learn to balance better with short, regular practice, and I wouldn't get so tired and cross.<br><br>In June, I rode across the stage in front of the whole school. I wobbled at the start, but I didn't fall. The best part wasn't the clapping, though. It was seeing Kiet at the back of the hall, cheering louder than anyone.<br><br>Now Kiet has asked me to teach him. I've told him the secret: look ahead, and practise a little every day."
+         "head": "Magazine article",
+         "html": "<b>A Wall Full of Colour</b><br><i>Nora, aged 10, helped her class to paint a huge picture on their school wall.</i><br><br>The wall next to Nora's school playground was grey and dirty. One morning, the head teacher asked Nora's class for ideas to make it brighter. Some children wanted to plant flowers. Nora had a different idea: a mural, a big painting on the wall.<br><br>Nora thought the planning would be quick. She was wrong! The class chose the theme 'Our town, then and now', and everyone drew sketches. Her friends loved drawing, but Nora found it slow and tiring. The planning took three weeks, much longer than the painting.<br><br>When the painting began, Nora wanted to paint the people in the old market, because she is good at faces. But a quiet boy in her class was even better at tiny details. So Nora let him paint the faces, and she painted the sky.<br><br>Later, a local artist came to see the mural. He said the colours were bright, but the thing he liked most was a small cat asleep under a market stall.<br><br>Now younger children stop to look at it every day. Nora's classmates want to paint the wall in the school hall next. But Nora has a bigger plan. She wants to ask the town if children can paint the old bus station."
         }
        }
       ]
      },
      {
       "num": 31,
-      "dok": 1,
+      "dok": 2,
       "lo": [
-       "6Rd.01"
+       "5Rd.03",
+       "5Rm.01"
       ],
       "v": [
        {
         "hint": {
-         "step": "Find the words 'surprised me most'. Read the sentences that come after them."
+         "step": "Read the second paragraph. What did Nora think BEFORE, and what really happened?"
         },
-        "worked": "'What surprised me most was that looking down made things worse ... When I looked at a point far in front of me, I stayed up for much longer.'",
+        "worked": "'Nora thought the planning would be quick. She was wrong!' It took three weeks and she 'found it slow and tiring'.",
         "type": "mcq",
-        "q": "What surprised Phuong most?",
+        "q": "What did Nora think about the planning?",
         "opts": [
-         "She stayed up longer when she looked ahead.",
-         "She fell off more than two hundred times.",
-         "Holding the wall helped her to stay up."
+         "It was slower than she expected.",
+         "It was the best part of the project.",
+         "It was quicker than the painting."
         ],
         "at": 2,
         "whys": [
          null,
-         "Mum counted the falls, but Phuong doesn't say this surprised her most.",
-         "Phuong held the wall in the first two weeks, but that is not what surprised her most."
+         "Nora's friends loved drawing the sketches, but Nora found the planning slow and tiring.",
+         "The planning took three weeks, much longer than the painting."
         ],
         "letters": true,
         "fig": {
          "k": "stim",
-         "id": "sm-r6-art2",
+         "id": "sm-summit-r6",
          "kind": "text",
-         "head": "Article",
-         "html": "<b>One Wheel and Two Hundred Falls</b><br>by Phuong, aged 11<br><br>Last spring, our neighbour, Mr Fenwick, gave me his old unicycle. He used to ride it in a circus when he was young. I wanted to ride it in our school talent show in June, but I was worried. My older brother, Kiet, had tried it the year before, and he gave up after one afternoon because it was too hard. I thought I would give up too.<br><br>For the first two weeks, I practised in our hallway, holding on to the wall with one hand. I fell off again and again. Mum counted, and by the end of the month I had fallen more than two hundred times!<br><br>What surprised me most was that looking down made things worse. When I looked at the wheel, I fell straight away. When I looked at a point far in front of me, I stayed up for much longer.<br><br>One Saturday, Mr Fenwick came to watch me. He told me to practise for ten minutes every day instead of for two hours at the weekend. He explained that my body would learn to balance better with short, regular practice, and I wouldn't get so tired and cross.<br><br>In June, I rode across the stage in front of the whole school. I wobbled at the start, but I didn't fall. The best part wasn't the clapping, though. It was seeing Kiet at the back of the hall, cheering louder than anyone.<br><br>Now Kiet has asked me to teach him. I've told him the secret: look ahead, and practise a little every day."
+         "head": "Magazine article",
+         "html": "<b>A Wall Full of Colour</b><br><i>Nora, aged 10, helped her class to paint a huge picture on their school wall.</i><br><br>The wall next to Nora's school playground was grey and dirty. One morning, the head teacher asked Nora's class for ideas to make it brighter. Some children wanted to plant flowers. Nora had a different idea: a mural, a big painting on the wall.<br><br>Nora thought the planning would be quick. She was wrong! The class chose the theme 'Our town, then and now', and everyone drew sketches. Her friends loved drawing, but Nora found it slow and tiring. The planning took three weeks, much longer than the painting.<br><br>When the painting began, Nora wanted to paint the people in the old market, because she is good at faces. But a quiet boy in her class was even better at tiny details. So Nora let him paint the faces, and she painted the sky.<br><br>Later, a local artist came to see the mural. He said the colours were bright, but the thing he liked most was a small cat asleep under a market stall.<br><br>Now younger children stop to look at it every day. Nora's classmates want to paint the wall in the school hall next. But Nora has a bigger plan. She wants to ask the town if children can paint the old bus station."
         }
        }
       ]
      },
      {
       "num": 32,
-      "dok": 1,
+      "dok": 2,
       "lo": [
-       "6Rd.01"
+       "5Rd.03",
+       "5Rm.01"
       ],
       "v": [
        {
         "hint": {
-         "step": "Look for 'He explained that ...'. The reason comes after these words."
+         "step": "Look for 'even better' in the third paragraph. Who was better, and at what?"
         },
-        "worked": "Mr Fenwick 'explained that my body would learn to balance better with short, regular practice'.",
+        "worked": "'A quiet boy in her class was even better at tiny details', so Nora 'let him paint the faces'.",
         "type": "mcq",
-        "q": "Why did Mr Fenwick tell Phuong to practise for ten minutes every day?",
+        "q": "Why did Nora let the boy paint the faces?",
         "opts": [
-         "Short, regular practice helps the body learn.",
-         "She was too tired to practise at weekends.",
-         "He could only come and watch her on Saturdays."
+         "He could paint small things better than her.",
+         "She wasn't very good at painting faces.",
+         "The teacher asked her to paint the sky."
         ],
         "at": 0,
         "whys": [
          null,
-         "Mr Fenwick says short practice will stop her getting tired. He doesn't say she was too tired at weekends.",
-         "Mr Fenwick came to watch one Saturday, but that is not the reason for his advice."
+         "The text says Nora IS good at faces. The boy was even better.",
+         "Nora painted the sky, but the text doesn't say a teacher asked her to."
         ],
         "letters": true,
         "fig": {
          "k": "stim",
-         "id": "sm-r6-art2",
+         "id": "sm-summit-r6",
          "kind": "text",
-         "head": "Article",
-         "html": "<b>One Wheel and Two Hundred Falls</b><br>by Phuong, aged 11<br><br>Last spring, our neighbour, Mr Fenwick, gave me his old unicycle. He used to ride it in a circus when he was young. I wanted to ride it in our school talent show in June, but I was worried. My older brother, Kiet, had tried it the year before, and he gave up after one afternoon because it was too hard. I thought I would give up too.<br><br>For the first two weeks, I practised in our hallway, holding on to the wall with one hand. I fell off again and again. Mum counted, and by the end of the month I had fallen more than two hundred times!<br><br>What surprised me most was that looking down made things worse. When I looked at the wheel, I fell straight away. When I looked at a point far in front of me, I stayed up for much longer.<br><br>One Saturday, Mr Fenwick came to watch me. He told me to practise for ten minutes every day instead of for two hours at the weekend. He explained that my body would learn to balance better with short, regular practice, and I wouldn't get so tired and cross.<br><br>In June, I rode across the stage in front of the whole school. I wobbled at the start, but I didn't fall. The best part wasn't the clapping, though. It was seeing Kiet at the back of the hall, cheering louder than anyone.<br><br>Now Kiet has asked me to teach him. I've told him the secret: look ahead, and practise a little every day."
+         "head": "Magazine article",
+         "html": "<b>A Wall Full of Colour</b><br><i>Nora, aged 10, helped her class to paint a huge picture on their school wall.</i><br><br>The wall next to Nora's school playground was grey and dirty. One morning, the head teacher asked Nora's class for ideas to make it brighter. Some children wanted to plant flowers. Nora had a different idea: a mural, a big painting on the wall.<br><br>Nora thought the planning would be quick. She was wrong! The class chose the theme 'Our town, then and now', and everyone drew sketches. Her friends loved drawing, but Nora found it slow and tiring. The planning took three weeks, much longer than the painting.<br><br>When the painting began, Nora wanted to paint the people in the old market, because she is good at faces. But a quiet boy in her class was even better at tiny details. So Nora let him paint the faces, and she painted the sky.<br><br>Later, a local artist came to see the mural. He said the colours were bright, but the thing he liked most was a small cat asleep under a market stall.<br><br>Now younger children stop to look at it every day. Nora's classmates want to paint the wall in the school hall next. But Nora has a bigger plan. She wants to ask the town if children can paint the old bus station."
         }
        }
       ]
@@ -3085,35 +2462,34 @@
       "num": 33,
       "dok": 1,
       "lo": [
-       "6Rd.01",
-       "6Ro.01"
+       "5Rd.01"
       ],
       "v": [
        {
         "hint": {
-         "step": "Find 'The best part'. Be careful: the sentence first says what the best part WASN'T."
+         "step": "Find 'the thing he liked most'."
         },
-        "worked": "'The best part wasn't the clapping, though. It was seeing Kiet at the back of the hall, cheering louder than anyone.'",
+        "worked": "'The thing he liked most was a small cat asleep under a market stall.' A cat is a little animal.",
         "type": "mcq",
-        "q": "What was the best part of the talent show for Phuong?",
+        "q": "What did the artist like best about the mural?",
         "opts": [
-         "seeing her brother cheer for her",
-         "hearing the whole school clap for her",
-         "riding without a single wobble"
+         "a little animal in it",
+         "the bright colours in it",
+         "the people's faces"
         ],
-        "at": 2,
+        "at": 0,
         "whys": [
          null,
-         "Phuong says 'The best part wasn't the clapping'. Read that sentence again.",
-         "Phuong 'wobbled at the start'. She didn't fall, but she did wobble."
+         "The artist said the colours were bright, 'but' something else was his favourite.",
+         "The text doesn't say what the artist thought about the faces."
         ],
         "letters": true,
         "fig": {
          "k": "stim",
-         "id": "sm-r6-art2",
+         "id": "sm-summit-r6",
          "kind": "text",
-         "head": "Article",
-         "html": "<b>One Wheel and Two Hundred Falls</b><br>by Phuong, aged 11<br><br>Last spring, our neighbour, Mr Fenwick, gave me his old unicycle. He used to ride it in a circus when he was young. I wanted to ride it in our school talent show in June, but I was worried. My older brother, Kiet, had tried it the year before, and he gave up after one afternoon because it was too hard. I thought I would give up too.<br><br>For the first two weeks, I practised in our hallway, holding on to the wall with one hand. I fell off again and again. Mum counted, and by the end of the month I had fallen more than two hundred times!<br><br>What surprised me most was that looking down made things worse. When I looked at the wheel, I fell straight away. When I looked at a point far in front of me, I stayed up for much longer.<br><br>One Saturday, Mr Fenwick came to watch me. He told me to practise for ten minutes every day instead of for two hours at the weekend. He explained that my body would learn to balance better with short, regular practice, and I wouldn't get so tired and cross.<br><br>In June, I rode across the stage in front of the whole school. I wobbled at the start, but I didn't fall. The best part wasn't the clapping, though. It was seeing Kiet at the back of the hall, cheering louder than anyone.<br><br>Now Kiet has asked me to teach him. I've told him the secret: look ahead, and practise a little every day."
+         "head": "Magazine article",
+         "html": "<b>A Wall Full of Colour</b><br><i>Nora, aged 10, helped her class to paint a huge picture on their school wall.</i><br><br>The wall next to Nora's school playground was grey and dirty. One morning, the head teacher asked Nora's class for ideas to make it brighter. Some children wanted to plant flowers. Nora had a different idea: a mural, a big painting on the wall.<br><br>Nora thought the planning would be quick. She was wrong! The class chose the theme 'Our town, then and now', and everyone drew sketches. Her friends loved drawing, but Nora found it slow and tiring. The planning took three weeks, much longer than the painting.<br><br>When the painting began, Nora wanted to paint the people in the old market, because she is good at faces. But a quiet boy in her class was even better at tiny details. So Nora let him paint the faces, and she painted the sky.<br><br>Later, a local artist came to see the mural. He said the colours were bright, but the thing he liked most was a small cat asleep under a market stall.<br><br>Now younger children stop to look at it every day. Nora's classmates want to paint the wall in the school hall next. But Nora has a bigger plan. She wants to ask the town if children can paint the old bus station."
         }
        }
       ]
@@ -3122,35 +2498,35 @@
       "num": 34,
       "dok": 2,
       "lo": [
-       "6Rm.01",
-       "6Ro.01"
+       "5Rd.03",
+       "5Rm.01"
       ],
       "v": [
        {
         "hint": {
-         "step": "Think about the WHOLE article: what could Phuong do at the start, and what can she do at the end?"
+         "step": "Read the last paragraph. Whose plan is each idea: the classmates' or Nora's?"
         },
-        "worked": "At the start Phuong fell 'more than two hundred times'; at the end she 'rode across the stage' and is going to teach Kiet. The article describes how she learned to ride a unicycle.",
+        "worked": "'Nora has a bigger plan. She wants to ask the town if children can paint the old bus station.' That is a building outside her school.",
         "type": "mcq",
-        "q": "What is the writer mainly doing in this article?",
+        "q": "What does Nora want to do next?",
         "opts": [
-         "describing how she learned a difficult skill",
-         "telling the story of Mr Fenwick's circus life",
-         "persuading readers to enter a talent show"
+         "paint a building outside her school",
+         "paint a wall in the school hall",
+         "teach younger children to paint"
         ],
         "at": 1,
         "whys": [
          null,
-         "Mr Fenwick's circus is in one sentence only. The article is about Phuong.",
-         "The talent show is one part of the story. Phuong doesn't ask readers to enter one."
+         "Painting the school hall is her classmates' plan, not Nora's.",
+         "Younger children look at the wall, but Nora doesn't say she will teach them."
         ],
         "letters": true,
         "fig": {
          "k": "stim",
-         "id": "sm-r6-art2",
+         "id": "sm-summit-r6",
          "kind": "text",
-         "head": "Article",
-         "html": "<b>One Wheel and Two Hundred Falls</b><br>by Phuong, aged 11<br><br>Last spring, our neighbour, Mr Fenwick, gave me his old unicycle. He used to ride it in a circus when he was young. I wanted to ride it in our school talent show in June, but I was worried. My older brother, Kiet, had tried it the year before, and he gave up after one afternoon because it was too hard. I thought I would give up too.<br><br>For the first two weeks, I practised in our hallway, holding on to the wall with one hand. I fell off again and again. Mum counted, and by the end of the month I had fallen more than two hundred times!<br><br>What surprised me most was that looking down made things worse. When I looked at the wheel, I fell straight away. When I looked at a point far in front of me, I stayed up for much longer.<br><br>One Saturday, Mr Fenwick came to watch me. He told me to practise for ten minutes every day instead of for two hours at the weekend. He explained that my body would learn to balance better with short, regular practice, and I wouldn't get so tired and cross.<br><br>In June, I rode across the stage in front of the whole school. I wobbled at the start, but I didn't fall. The best part wasn't the clapping, though. It was seeing Kiet at the back of the hall, cheering louder than anyone.<br><br>Now Kiet has asked me to teach him. I've told him the secret: look ahead, and practise a little every day."
+         "head": "Magazine article",
+         "html": "<b>A Wall Full of Colour</b><br><i>Nora, aged 10, helped her class to paint a huge picture on their school wall.</i><br><br>The wall next to Nora's school playground was grey and dirty. One morning, the head teacher asked Nora's class for ideas to make it brighter. Some children wanted to plant flowers. Nora had a different idea: a mural, a big painting on the wall.<br><br>Nora thought the planning would be quick. She was wrong! The class chose the theme 'Our town, then and now', and everyone drew sketches. Her friends loved drawing, but Nora found it slow and tiring. The planning took three weeks, much longer than the painting.<br><br>When the painting began, Nora wanted to paint the people in the old market, because she is good at faces. But a quiet boy in her class was even better at tiny details. So Nora let him paint the faces, and she painted the sky.<br><br>Later, a local artist came to see the mural. He said the colours were bright, but the thing he liked most was a small cat asleep under a market stall.<br><br>Now younger children stop to look at it every day. Nora's classmates want to paint the wall in the school hall next. But Nora has a bigger plan. She wants to ask the town if children can paint the old bus station."
         }
        }
       ]
@@ -3167,70 +2543,85 @@
     "task": 1,
     "dok": 2,
     "lo": [
-     "6Wc.01",
-     "6Wor.02",
-     "6Wca.02",
-     "6Wca.04"
+     "5Wc.02",
+     "5Wca.02",
+     "5Wca.04",
+     "5Wor.02",
+     "5Ug.10"
     ],
-    "title": "How to make a cup telephone",
-    "prompt": "Your friend Felix wants to make a cup telephone so he can talk to his brother in the garden. Write a short message to Felix (35 to 45 words) telling him how to make it.",
+    "title": "How to get ready for a school sleepover",
+    "prompt": "Your class is having a sleepover at school next month. Write 1 to 2 paragraphs (7 to 8 sentences) explaining how students can get ready for it. Use modal verbs (should, shouldn't, must, mustn't, need to) and connectives. Check your spelling, grammar and punctuation.",
     "bullets": [
-     "Say what Felix needs.",
-     "Explain the steps.",
-     "Explain why one of the steps is important."
+     "what students need to pack",
+     "what good habits they should follow on the night",
+     "what they mustn't do",
+     "why it is important to get ready well",
+     "use modal verbs (should, shouldn't, must, mustn't, need to)"
     ],
-    "min": 35,
-    "max": 45,
+    "min": 60,
+    "max": 90,
     "needTitle": false,
     "starters": [
-     "First, you need ...",
-     "Next, ...",
-     "Make sure you ...",
-     "Don't forget to ...",
+     "Before the sleepover, you need to ...",
+     "You should pack ...",
+     "On the night, you should ...",
+     "You mustn't ...",
      "This is important because ..."
     ],
     "models": [
      {
       "level": "Developing",
-      "text": "Felix, you need two paper cup and a string. Make a hole in a bottom of each cup. Put the string in and tie it. Then your brother talk into one cup.",
-      "marks": {
-       "content": 2,
-       "organisation": 1,
-       "language": 1
-      },
+      "text": "For the sleepover you need bring a sleeping bag, pyjamas and a toothbrush. You should packing a torch too. At night you should listen the teacher and stay with your class. You mustn't run in the corridors. It is very fun to sleep at school with all your friends and watch a film together.",
       "notes": [
-       "Content (2/4): covers 2 of 3 points (what Felix needs and the steps), but does not explain why one step is important.",
-       "Organisation (1/3): the steps are in a sensible order, but there is only one connective ('Then').",
-       "Language (1/3): simple vocabulary and three grammar mistakes: 'two paper cup' should be 'two paper cups', 'a bottom' should be 'the bottom', and 'your brother talk' should be 'your brother talks'. No advice forms. A little short."
-      ]
+       "Task achievement and content 1/2: what to pack, a good habit and one thing you mustn't do are there, but it never says why getting ready is important.",
+       "Organisation and layout 1/2: one short paragraph in a sensible order, but only 'and' and 'too' link the ideas.",
+       "Grammar 1/2: modal verbs are used, but with three mistakes: 'need bring' should be 'need to bring', 'should packing' should be 'should pack', and 'listen the teacher' should be 'listen to the teacher'.",
+       "Vocabulary and spelling 1/2: simple sleepover words (sleeping bag, pyjamas, torch) spelled correctly, but 'very fun' is not quite right; say 'great fun'.",
+       "Fluency 1/2: full sentences with capital letters and full stops, but it is a little short (only 5 sentences)."
+      ],
+      "marks": {
+       "content": 1,
+       "organisation": 1,
+       "grammar": 1,
+       "vocabulary": 1,
+       "fluency": 1
+      }
      },
      {
       "level": "Secure",
-      "text": "Hi Felix! You need two paper cups, a pencil and some string. First, make a hole in the bottom of each cup. Then put the string through and tie a knot. Keep the string tight, because sound can't travel along a loose string.",
-      "marks": {
-       "content": 3,
-       "organisation": 2,
-       "language": 2
-      },
+      "text": "Before the school sleepover, you need to pack a sleeping bag, a pillow, your pyjamas and a toothbrush. You should also bring a torch and a water bottle. A small book is useful too. On the night, you should listen to the teachers and stay with your group. You mustn't walk around the school alone in the dark. You shouldn't stay awake too late, because you will be tired the next day. It is important to get ready well, so you can enjoy the night with your friends.",
       "notes": [
-       "Content (3/4): all three points are covered, including why the string must be tight, but with little extra detail.",
-       "Organisation (2/3): clear order with 'First' and 'Then', and 'because' links the reason to the step.",
-       "Language (2/3): accurate grammar and spelling, but the vocabulary is simple and there are no advice forms such as 'make sure' or 'should'."
-      ]
+       "Task achievement and content 2/2: every bullet point is covered: what to pack, good habits, what you mustn't do and why it matters.",
+       "Organisation and layout 1/2: the ideas are in a good order, but it is one long paragraph and the linking words are simple (also, because, so).",
+       "Grammar 2/2: a good range of correct modal verbs: need to, should, mustn't, shouldn't.",
+       "Vocabulary and spelling 1/2: spelling is correct, but the words are quite simple and 'should' is repeated a lot.",
+       "Fluency 1/2: complete, correct sentences, but many start with 'You', so it doesn't flow very smoothly yet."
+      ],
+      "marks": {
+       "content": 2,
+       "organisation": 1,
+       "grammar": 2,
+       "vocabulary": 1,
+       "fluency": 1
+      }
      },
      {
       "level": "Excellent",
-      "text": "Felix, you'll need two paper cups, a pencil and some string. First, ask an adult to help you make a hole in each cup. Next, thread the string through and tie a knot inside. Finally, pull it tight, because sound needs a straight string.",
-      "marks": {
-       "content": 4,
-       "organisation": 3,
-       "language": 3
-      },
+      "text": "Getting ready for a school sleepover is exciting, but you need to plan carefully. First, you should pack a warm sleeping bag, comfortable pyjamas, a toothbrush and a small torch. You must also write your name on everything, because bags easily get mixed up. On the night, you should follow the teachers' instructions. However, you mustn't wander around the dark corridors alone. Finally, you shouldn't chat all night. If you prepare well, you will feel safe, sleep well and enjoy the best night of the term!",
       "notes": [
-       "Content (4/4): all three points with useful detail (an adult to help, a knot inside, why the string must be straight).",
-       "Organisation (3/3): smooth order with 'First', 'Next' and 'Finally', and the reason comes right after the step it explains.",
-       "Language (3/3): good range ('thread', 'ask an adult to help you', 'sound needs a straight string'), the future form 'You'll need', and accurate grammar and spelling."
-      ]
+       "Task achievement and content 2/2: all bullet points are covered with useful detail (names on bags, why to sleep, feeling safe).",
+       "Organisation and layout 2/2: a clear opening and ending, and the advice is in order with First, However and Finally.",
+       "Grammar 2/2: accurate and varied modal verbs (need to, should, must, mustn't, shouldn't) and an 'If' sentence.",
+       "Vocabulary and spelling 2/2: good topic words (comfortable, instructions, wander, corridors, prepare), all spelled correctly.",
+       "Fluency 2/2: 7 smooth, complete sentences that are easy to read."
+      ],
+      "marks": {
+       "content": 2,
+       "organisation": 2,
+       "grammar": 2,
+       "vocabulary": 2,
+       "fluency": 2
+      }
      }
     ]
    },
@@ -3239,78 +2630,86 @@
     "task": 2,
     "dok": 2,
     "lo": [
-     "6Wc.02",
-     "6Wc.03",
-     "6Wor.02",
-     "6Wor.03",
-     "6Wca.03",
-     "6Wca.04"
+     "5Wc.02",
+     "5Wc.03",
+     "5Wca.02",
+     "5Wca.04",
+     "5Wor.02",
+     "5Ug.11"
     ],
-    "title": "A hobby I love",
-    "prompt": "Your school magazine wants articles about students' hobbies. Write an article (90 to 110 words) about a hobby that you enjoy. Give your writing a suitable title.",
+    "title": "The best family celebration I would plan",
+    "prompt": "Write 1 to 2 paragraphs (7 to 8 sentences) about the best family celebration you would plan. It can be real or imaginary. Use descriptive adjectives, at least one comparative or superlative, and connectives. Check your spelling, grammar and punctuation.",
     "bullets": [
-     "Describe your hobby: what you do, when and where.",
-     "Explain how you started and what you have learned.",
-     "Say why you think other children should try it."
+     "what the celebration is and what it would look like",
+     "what makes it special or interesting",
+     "what you and your family would do",
+     "why you chose it",
+     "use adjectives and at least one comparative or superlative"
     ],
-    "min": 90,
-    "max": 110,
-    "needTitle": true,
+    "min": 60,
+    "max": 90,
+    "needTitle": false,
     "starters": [
-     "My favourite hobby is ...",
-     "I usually ... every ...",
-     "I started when ...",
-     "Since then, I have learned ...",
-     "I think everyone should try it because ..."
+     "The best celebration I would plan is ...",
+     "It would look ...",
+     "It would be special because ...",
+     "First, we would ...",
+     "I chose it because ..."
     ],
     "models": [
      {
       "level": "Developing",
-      "text": "<b>My Hobby</b><br><br>My hobby is origami. Origami is making animals and other things with paper. I do it every day after school in my bedroom. I start origami when I was eight. My aunt give me a book with many idea. I have learned to make a frog, a bird and a boat. The frog can jump! I like origami very much. It is fun and it is cheap because you only need paper. You should try it.",
-      "marks": {
-       "content": 2,
-       "reader": 2,
-       "organisation": 1,
-       "language": 1
-      },
+      "text": "I would plan a party for my grandpa birthday. It would be in our house. There is a big cake and many balloon. We would sing songs and eat noodles together. It would be the most big party in my family. I chose it because I love my grandpa very much.",
       "notes": [
-       "Content (2/4): describes the hobby and how it started, but the reason why others should try it is very short.",
-       "Communicative achievement (2/4): the reader understands the main idea, but 'origami' is repeated many times and there are few interesting details.",
-       "Organisation (1/3): has a title, but it is all one paragraph with simple linking ('and', 'because').",
-       "Language (1/3): three mistakes: 'I start' should be 'I started', 'give' should be 'gave', and 'many idea' should be 'many ideas'. A little short."
-      ]
+       "Task achievement and content 1/2: it says what the party is, what they would do and why, but it doesn't really say what makes it special.",
+       "Organisation and layout 1/2: one short paragraph in a sensible order, but there are almost no linking words.",
+       "Grammar 1/2: 'would' is used well, but there are mistakes: 'my grandpa birthday' should be 'my grandpa's birthday', 'There is' should be 'There would be', and 'the most big' should be 'the biggest'.",
+       "Vocabulary and spelling 1/2: simple words only, and 'many balloon' needs an s: 'many balloons'.",
+       "Fluency 1/2: full sentences with capitals and full stops, but it is short (only 6 sentences)."
+      ],
+      "marks": {
+       "content": 1,
+       "organisation": 1,
+       "grammar": 1,
+       "vocabulary": 1,
+       "fluency": 1
+      }
      },
      {
       "level": "Secure",
-      "text": "<b>Magic Is My Hobby</b><br><br>My favourite hobby is doing magic tricks. I practise in my bedroom every evening, and at the weekend I show my tricks to my family.<br><br>I started two years ago, when my uncle showed me a card trick at a birthday party. Since then, I have learned more than twenty tricks from a library book. My best trick makes a coin disappear!<br><br>I think other children should try magic because it is cheap and fun. It also helps you to speak in front of people. If you practise a lot, you will surprise all your friends.",
-      "marks": {
-       "content": 3,
-       "reader": 3,
-       "organisation": 2,
-       "language": 3
-      },
+      "text": "The best celebration I would plan is a Tet party at my grandparents' house in the countryside. The garden would look bright and colourful. There would be red lanterns and yellow flowers everywhere. It would be special because all my cousins would come, even the ones who live far away. We would cook a big feast and play games. At midnight, we would watch the fireworks. I chose it because Tet is the happiest time of the year for my family.",
       "notes": [
-       "Content (3/4): all three points are covered with some detail (when and where, how it started, two reasons).",
-       "Communicative achievement (3/4): clear and friendly for a school magazine reader; the coin trick makes it interesting.",
-       "Organisation (2/3): a suitable title and three paragraphs, one for each point, but the linking is mostly simple ('and', 'because', 'also').",
-       "Language (3/4): accurate, with the present perfect ('I have learned'), 'showed me a card trick' and a first conditional ('If you practise ... you will ...')."
-      ]
+       "Task achievement and content 2/2: all four bullet points are covered with some detail.",
+       "Organisation and layout 1/2: a clear order, but it is one paragraph and the only linking word is 'because'.",
+       "Grammar 2/2: correct 'would' sentences, a relative clause ('the ones who live far away') and a correct superlative ('the happiest').",
+       "Vocabulary and spelling 1/2: spelling is correct, but the describing words are quite simple (big, bright); try some more exact adjectives.",
+       "Fluency 2/2: complete sentences that read smoothly."
+      ],
+      "marks": {
+       "content": 2,
+       "organisation": 1,
+       "grammar": 2,
+       "vocabulary": 1,
+       "fluency": 2
+      }
      },
      {
       "level": "Excellent",
-      "text": "<b>A Diary Full of Wings and Leaves</b><br><br>My hobby is keeping a nature diary, which is a notebook where I draw and write about living things. Every Saturday morning, I take it to the park near my flat and sit quietly by the pond.<br><br>I started last year, after our teacher asked us to record the birds in the playground. Since then, I have filled three notebooks and learned the names of fifteen birds. I have even watched a family of ducks grow up!<br><br>I think everyone should try it, because it teaches you to slow down and notice small things. All you need is a pencil and some patience.",
-      "marks": {
-       "content": 4,
-       "reader": 4,
-       "organisation": 3,
-       "language": 4
-      },
+      "text": "The best celebration I would plan is a surprise party for my parents' anniversary. It would be on a boat on the river at night. Hundreds of tiny golden lights would shine above us. First, we would share a delicious feast of grilled fish and sticky rice. Then my sister and I would show a funny video of our happiest moments. It would be more special than a birthday, because my parents never celebrate it. I chose this idea because they work hard and deserve the most wonderful evening!",
       "notes": [
-       "Content (4/4): all three points with rich, interesting detail (the pond, fifteen birds, the ducks growing up).",
-       "Communicative achievement (4/4): engaging for the reader; the title and the last sentence make readers want to try it.",
-       "Organisation (3/3): a strong title, three clear paragraphs and good linking ('which', 'after', 'Since then', 'because').",
-       "Language (4/4): wide range and accurate: relative clauses ('which is a notebook where I draw'), present perfect with 'Since then' and 'even', verb + object + infinitive ('asked us to record', 'teaches you to slow down'), collective noun ('a family of ducks')."
-      ]
+       "Task achievement and content 2/2: every bullet point is covered with interesting detail (the boat, the lights, the video, the reason).",
+       "Organisation and layout 2/2: ideas are in a clear order with First, Then and because, and the ending sums up the choice.",
+       "Grammar 2/2: accurate 'would' sentences, a comparative ('more special than') and two superlatives ('happiest', 'the most wonderful').",
+       "Vocabulary and spelling 2/2: rich adjectives (tiny, golden, delicious, sticky, funny, wonderful) and topic words (anniversary, feast), all spelled correctly.",
+       "Fluency 2/2: 7 smooth, varied sentences that are easy and enjoyable to read."
+      ],
+      "marks": {
+       "content": 2,
+       "organisation": 2,
+       "grammar": 2,
+       "vocabulary": 2,
+       "fluency": 2
+      }
      }
     ]
    }

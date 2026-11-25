@@ -1,0 +1,2298 @@
+{
+ "listening": {
+  "mins": 25,
+  "parts": [
+   {
+    "n": 1,
+    "title": "Part 1",
+    "instr": "For each question, choose the correct picture.",
+    "items": [
+     {
+      "type": "pmcq",
+      "num": 1,
+      "dok": 2,
+      "lo": [
+       "5Ld.04",
+       "5Ld.03"
+      ],
+      "q": "What will Emily give Grandma for her birthday?",
+      "opts": [
+       {
+        "pic": "🧣",
+        "tag": "scarf"
+       },
+       {
+        "pic": "💐",
+        "tag": "flowers"
+       },
+       {
+        "pic": "📖",
+        "tag": "book"
+       }
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "Emily asks about flowers first, but Dad says Grandma has lots in her garden.",
+       "Grandma is reading three books already, so Emily doesn't choose a book."
+      ],
+      "hint": "Three presents are talked about. Listen for the reason why two of them are not good.",
+      "worked": "Grandma is 'always cold in the evenings', so Dad says 'a warm scarf is perfect' and Emily says 'Yes!'.",
+      "stim": {
+       "id": "summit-l1-q1",
+       "kind": "audio",
+       "head": "Listen to Emily and her dad.",
+       "lines": [
+        [
+         "bf_lily",
+         "Emily",
+         "Dad, what should I give Grandma for her birthday? Some flowers?"
+        ],
+        [
+         "bm_george",
+         "Dad",
+         "She's got lots of flowers in her garden. What about a book?"
+        ],
+        [
+         "bf_lily",
+         "Emily",
+         "She's reading three books already! But she's always cold in the evenings."
+        ],
+        [
+         "bm_george",
+         "Dad",
+         "Then a warm scarf is perfect."
+        ],
+        [
+         "bf_lily",
+         "Emily",
+         "Yes! A blue one. Blue is her favourite colour."
+        ]
+       ]
+      }
+     },
+     {
+      "type": "pmcq",
+      "num": 2,
+      "dok": 1,
+      "lo": [
+       "5Ld.04"
+      ],
+      "q": "What time does the lantern parade start this year?",
+      "opts": [
+       {
+        "pic": "🕖",
+        "tag": "7:00"
+       },
+       {
+        "pic": "🕡",
+        "tag": "6:30"
+       },
+       {
+        "pic": "🕢",
+        "tag": "7:30"
+       }
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Half past six was last year's start time. This year it is the time they leave home.",
+       "Half past seven is when the fireworks start, not the parade."
+      ],
+      "hint": "You will hear three times. Listen for the one that goes with 'this year it starts'.",
+      "worked": "Mum says 'This year it starts at seven o'clock.' Half past six was last year, and half past seven is the fireworks.",
+      "stim": {
+       "id": "summit-l1-q2",
+       "kind": "audio",
+       "head": "Listen to Owen and his mum.",
+       "lines": [
+        [
+         "bm_lewis",
+         "Owen",
+         "Mum, does the lantern parade start at half past six?"
+        ],
+        [
+         "bf_emma",
+         "Mum",
+         "That was last year. This year it starts at seven o'clock."
+        ],
+        [
+         "bm_lewis",
+         "Owen",
+         "Can we get there early? I want to stand at the front."
+        ],
+        [
+         "bf_emma",
+         "Mum",
+         "Yes, we'll leave home at half past six. And the fireworks are at half past seven."
+        ]
+       ]
+      }
+     },
+     {
+      "type": "pmcq",
+      "num": 3,
+      "dok": 1,
+      "lo": [
+       "5Ld.04"
+      ],
+      "q": "What is wrong with Chi's brother today?",
+      "opts": [
+       {
+        "pic": "👂",
+        "tag": "earache"
+       },
+       {
+        "pic": "🤕",
+        "tag": "headache"
+       },
+       {
+        "pic": "😷",
+        "tag": "cough"
+       }
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Chi guesses a headache, but Mum says 'his head is fine'.",
+       "Mum says his cough is much better now. It is not the problem today."
+      ],
+      "hint": "Chi makes a guess. Does Mum say yes or no to it? Listen to what she says next.",
+      "worked": "Mum says 'No, his head is fine. He's got earache.' His cough is 'much better now'.",
+      "stim": {
+       "id": "summit-l1-q3",
+       "kind": "audio",
+       "head": "Listen to Chi and her mum.",
+       "lines": [
+        [
+         "bf_alice",
+         "Chi",
+         "Mum, why isn't my brother at school today? Has he got a headache again?"
+        ],
+        [
+         "bf_emma",
+         "Mum",
+         "No, his head is fine. He's got earache. He couldn't sleep last night."
+        ],
+        [
+         "bf_alice",
+         "Chi",
+         "Oh no. Is it because of his cough?"
+        ],
+        [
+         "bf_emma",
+         "Mum",
+         "Maybe. His cough is much better now, but the doctor is going to look at his ear this afternoon."
+        ]
+       ]
+      }
+     },
+     {
+      "type": "pmcq",
+      "num": 4,
+      "dok": 2,
+      "lo": [
+       "5Ld.04",
+       "5Ld.03"
+      ],
+      "q": "What will Yusuf wear to the school party?",
+      "opts": [
+       {
+        "pic": "🦖",
+        "tag": "dinosaur"
+       },
+       {
+        "pic": "🏴‍☠️",
+        "tag": "pirate"
+       },
+       {
+        "pic": "🧑‍🚀",
+        "tag": "astronaut"
+       }
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "Yusuf was a pirate last year. He says 'No' to that idea.",
+       "Yusuf wanted to be an astronaut, but the costume was too small."
+      ],
+      "hint": "Two costumes are ruled out. Listen for the reason each one is not possible.",
+      "worked": "The pirate was last year and the astronaut costume 'was too small', so he is wearing 'My cousin's green dinosaur costume'.",
+      "stim": {
+       "id": "summit-l1-q4",
+       "kind": "audio",
+       "head": "Listen to Nora and her friend Yusuf.",
+       "lines": [
+        [
+         "bf_lily",
+         "Nora",
+         "Yusuf, are you going to the school party as a pirate again?"
+        ],
+        [
+         "bm_fable",
+         "Yusuf",
+         "No, I was a pirate last year. I wanted to be an astronaut, but the costume was too small."
+        ],
+        [
+         "bf_lily",
+         "Nora",
+         "Oh no! So what are you wearing?"
+        ],
+        [
+         "bm_fable",
+         "Yusuf",
+         "My cousin's green dinosaur costume. It's got a long tail!"
+        ]
+       ]
+      }
+     },
+     {
+      "type": "pmcq",
+      "num": 5,
+      "dok": 2,
+      "lo": [
+       "5Ld.04",
+       "5Ld.03"
+      ],
+      "q": "How much is the big mango cake?",
+      "opts": [
+       {
+        "pic": "🥭🎂",
+        "tag": "£10"
+       },
+       {
+        "pic": "🥭🎂",
+        "tag": "£12"
+       },
+       {
+        "pic": "🥭🎂",
+        "tag": "£8"
+       }
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Twelve pounds is on the sign for the chocolate cake. Luna corrects her dad.",
+       "Eight pounds is the price of the small mango cakes, not the big one."
+      ],
+      "hint": "Dad makes a mistake. Listen to how Luna corrects him.",
+      "worked": "Luna says 'that sign is for the chocolate cake. The mango one is ten pounds.' Eight pounds is for the small ones.",
+      "stim": {
+       "id": "summit-l1-q5",
+       "kind": "audio",
+       "head": "Listen to Luna and her dad in a cake shop.",
+       "lines": [
+        [
+         "bf_lily",
+         "Luna",
+         "Dad, look at that big mango cake! How much is it?"
+        ],
+        [
+         "bm_george",
+         "Dad",
+         "The sign says twelve pounds."
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "No, that sign is for the chocolate cake. The mango one is ten pounds."
+        ],
+        [
+         "bm_george",
+         "Dad",
+         "You're right. And the small mango cakes are eight pounds. But let's get the big one for the party."
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "Part 2",
+    "instr": "You will hear a teacher talking to her class about a lantern-making afternoon. For each question, write the missing information. Write one word or a number or a date.",
+    "items": [
+     {
+      "type": "tfill",
+      "num": 6,
+      "dok": 1,
+      "lo": [
+       "5Ld.04"
+      ],
+      "q": "Write the missing information for question 6.",
+      "lines": [
+       "Date: {0} September"
+      ],
+      "ans": [
+       [
+        "18",
+        "18th",
+        "eighteenth",
+        "the 18th",
+        "the eighteenth",
+        "thursday 18",
+        "thursday 18th",
+        "thursday the 18th",
+        "thursday the eighteenth",
+        "eighteen"
+       ]
+      ],
+      "hint": "A day, a date and a time are said close together. Write only the number of the day.",
+      "worked": "The teacher says 'It's on Thursday the eighteenth of September.' Quarter past two is the start time, not the date.",
+      "stim": {
+       "id": "summit-l2",
+       "kind": "audio",
+       "head": "<b>LANTERN-MAKING AFTERNOON</b><br>Place: <b>school hall</b> (example)<br>(6) Date: ________ September<br>(7) Lantern shape: a star or a ________<br>(8) Bring: scissors and an old ________<br>(9) At 4.30, walk round the ________<br>(10) Price: £________",
+       "lines": [
+        [
+         "bf_isabella",
+         "Teacher",
+         "Good morning, everyone. Next week our class is having a lantern-making afternoon in the school hall. It's on Thursday the eighteenth of September. We'll start at quarter past two, straight after lunch. Last year, everyone made a moon lantern. This year, you can choose. You can make a star or a fish. The fish lanterns are a bit harder, but they look lovely! We've got lots of coloured paper and glue, so you don't need to bring those. But please bring scissors and an old newspaper to keep the tables clean. At four o'clock, we'll stop for a snack. Then at half past four, we'll turn on the little lights inside and walk round the playground. Your parents can watch from the gate. The afternoon costs three pounds. That pays for the sticks and the lights. Please bring the money by Monday. Thank you!"
+        ]
+       ]
+      }
+     },
+     {
+      "type": "tfill",
+      "num": 7,
+      "dok": 1,
+      "lo": [
+       "5Ld.04",
+       "5Ld.01"
+      ],
+      "q": "Write the missing information for question 7.",
+      "lines": [
+       "Lantern shape: a star or a {0}"
+      ],
+      "ans": [
+       [
+        "fish",
+        "fish lantern"
+       ]
+      ],
+      "hint": "Two years are talked about. Listen for the shapes for THIS year.",
+      "worked": "'This year, you can choose. You can make a star or a fish.' The moon lantern was last year.",
+      "stim": {
+       "id": "summit-l2",
+       "kind": "audio",
+       "head": "<b>LANTERN-MAKING AFTERNOON</b><br>Place: <b>school hall</b> (example)<br>(6) Date: ________ September<br>(7) Lantern shape: a star or a ________<br>(8) Bring: scissors and an old ________<br>(9) At 4.30, walk round the ________<br>(10) Price: £________",
+       "lines": [
+        [
+         "bf_isabella",
+         "Teacher",
+         "Good morning, everyone. Next week our class is having a lantern-making afternoon in the school hall. It's on Thursday the eighteenth of September. We'll start at quarter past two, straight after lunch. Last year, everyone made a moon lantern. This year, you can choose. You can make a star or a fish. The fish lanterns are a bit harder, but they look lovely! We've got lots of coloured paper and glue, so you don't need to bring those. But please bring scissors and an old newspaper to keep the tables clean. At four o'clock, we'll stop for a snack. Then at half past four, we'll turn on the little lights inside and walk round the playground. Your parents can watch from the gate. The afternoon costs three pounds. That pays for the sticks and the lights. Please bring the money by Monday. Thank you!"
+        ]
+       ]
+      }
+     },
+     {
+      "type": "tfill",
+      "num": 8,
+      "dok": 1,
+      "lo": [
+       "5Ld.04",
+       "5Ld.01"
+      ],
+      "q": "Write the missing information for question 8.",
+      "lines": [
+       "Bring: scissors and an old {0}"
+      ],
+      "ans": [
+       [
+        "newspaper",
+        "newspapers",
+        "news paper"
+       ]
+      ],
+      "hint": "Some things are in school already. Listen for what students must bring.",
+      "worked": "The teacher says 'please bring scissors and an old newspaper'. The paper and glue are at school already.",
+      "stim": {
+       "id": "summit-l2",
+       "kind": "audio",
+       "head": "<b>LANTERN-MAKING AFTERNOON</b><br>Place: <b>school hall</b> (example)<br>(6) Date: ________ September<br>(7) Lantern shape: a star or a ________<br>(8) Bring: scissors and an old ________<br>(9) At 4.30, walk round the ________<br>(10) Price: £________",
+       "lines": [
+        [
+         "bf_isabella",
+         "Teacher",
+         "Good morning, everyone. Next week our class is having a lantern-making afternoon in the school hall. It's on Thursday the eighteenth of September. We'll start at quarter past two, straight after lunch. Last year, everyone made a moon lantern. This year, you can choose. You can make a star or a fish. The fish lanterns are a bit harder, but they look lovely! We've got lots of coloured paper and glue, so you don't need to bring those. But please bring scissors and an old newspaper to keep the tables clean. At four o'clock, we'll stop for a snack. Then at half past four, we'll turn on the little lights inside and walk round the playground. Your parents can watch from the gate. The afternoon costs three pounds. That pays for the sticks and the lights. Please bring the money by Monday. Thank you!"
+        ]
+       ]
+      }
+     },
+     {
+      "type": "tfill",
+      "num": 9,
+      "dok": 1,
+      "lo": [
+       "5Ld.04"
+      ],
+      "q": "Write the missing information for question 9.",
+      "lines": [
+       "At 4.30, walk round the {0}"
+      ],
+      "ans": [
+       [
+        "playground",
+        "play ground",
+        "school playground"
+       ]
+      ],
+      "hint": "Two times are close together. Which one is half past four?",
+      "worked": "'At half past four, we'll turn on the little lights inside and walk round the playground.' At four o'clock they have a snack.",
+      "stim": {
+       "id": "summit-l2",
+       "kind": "audio",
+       "head": "<b>LANTERN-MAKING AFTERNOON</b><br>Place: <b>school hall</b> (example)<br>(6) Date: ________ September<br>(7) Lantern shape: a star or a ________<br>(8) Bring: scissors and an old ________<br>(9) At 4.30, walk round the ________<br>(10) Price: £________",
+       "lines": [
+        [
+         "bf_isabella",
+         "Teacher",
+         "Good morning, everyone. Next week our class is having a lantern-making afternoon in the school hall. It's on Thursday the eighteenth of September. We'll start at quarter past two, straight after lunch. Last year, everyone made a moon lantern. This year, you can choose. You can make a star or a fish. The fish lanterns are a bit harder, but they look lovely! We've got lots of coloured paper and glue, so you don't need to bring those. But please bring scissors and an old newspaper to keep the tables clean. At four o'clock, we'll stop for a snack. Then at half past four, we'll turn on the little lights inside and walk round the playground. Your parents can watch from the gate. The afternoon costs three pounds. That pays for the sticks and the lights. Please bring the money by Monday. Thank you!"
+        ]
+       ]
+      }
+     },
+     {
+      "type": "tfill",
+      "num": 10,
+      "dok": 1,
+      "lo": [
+       "5Ld.04"
+      ],
+      "q": "Write the missing information for question 10.",
+      "lines": [
+       "Price: £{0}"
+      ],
+      "ans": [
+       [
+        "3",
+        "three",
+        "3.00",
+        "3.00p",
+        "three pounds",
+        "3 pounds"
+       ]
+      ],
+      "hint": "Listen for the word 'costs'. Other numbers are a date and times.",
+      "worked": "'The afternoon costs three pounds.' Monday is the day to bring the money.",
+      "stim": {
+       "id": "summit-l2",
+       "kind": "audio",
+       "head": "<b>LANTERN-MAKING AFTERNOON</b><br>Place: <b>school hall</b> (example)<br>(6) Date: ________ September<br>(7) Lantern shape: a star or a ________<br>(8) Bring: scissors and an old ________<br>(9) At 4.30, walk round the ________<br>(10) Price: £________",
+       "lines": [
+        [
+         "bf_isabella",
+         "Teacher",
+         "Good morning, everyone. Next week our class is having a lantern-making afternoon in the school hall. It's on Thursday the eighteenth of September. We'll start at quarter past two, straight after lunch. Last year, everyone made a moon lantern. This year, you can choose. You can make a star or a fish. The fish lanterns are a bit harder, but they look lovely! We've got lots of coloured paper and glue, so you don't need to bring those. But please bring scissors and an old newspaper to keep the tables clean. At four o'clock, we'll stop for a snack. Then at half past four, we'll turn on the little lights inside and walk round the playground. Your parents can watch from the gate. The afternoon costs three pounds. That pays for the sticks and the lights. Please bring the money by Monday. Thank you!"
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "Part 3",
+    "instr": "You will hear Luna talking to her friend Tam about his cousin's wedding. For each question, choose the correct answer.",
+    "items": [
+     {
+      "type": "mcq",
+      "num": 11,
+      "dok": 1,
+      "lo": [
+       "5Ld.04"
+      ],
+      "q": "Where was the wedding?",
+      "opts": [
+       "in a garden",
+       "in a big hotel",
+       "at Tam's house"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "Tam expected a hotel, but he says the wedding wasn't there.",
+       "Tam's house is where his cousin is bringing her photos next Sunday."
+      ],
+      "hint": "Luna makes a guess. Listen to Tam's answer after 'but'.",
+      "worked": "Tam says 'That's what I expected, but it was in my uncle's garden.'",
+      "stim": {
+       "id": "summit-l3",
+       "kind": "audio",
+       "head": "Listen to Luna and her friend Tam talking about his cousin's wedding.",
+       "lines": [
+        [
+         "bf_lily",
+         "Luna",
+         "Hi, Tam! Did you have a nice weekend?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "Yes! My cousin got married on Saturday."
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Was the wedding in a big hotel?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "That's what I expected, but it was in my uncle's garden."
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Lovely! Did your mum and dad go with you?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "Mum had to work, so I went with Dad and Grandma."
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Did you wear something special?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "Yes, a new suit. But I didn't want to wear the jacket. It was so hot!"
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Was it too small? My brother's jacket was too small at our aunt's party."
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "No, it fitted me. Dad said I could take it off after the photos."
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "What was the best part? The food?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "The food was delicious, and the dancing was even more fun. But the fireworks at the end were the best!"
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Will you see your cousin again soon?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "Yes. Last week we helped her choose flowers. We were going to watch the wedding video next Sunday, but it isn't ready. So she's bringing her photos to our house instead."
+        ]
+       ]
+      }
+     },
+     {
+      "type": "mcq",
+      "num": 12,
+      "dok": 1,
+      "lo": [
+       "5Ld.04"
+      ],
+      "q": "Who went to the wedding with Tam?",
+      "opts": [
+       "his dad and grandma",
+       "his mum and dad",
+       "his mum and grandma"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Luna asks about his mum and dad, but Tam says his mum had to work.",
+       "His mum couldn't go. She had to work."
+      ],
+      "hint": "One person couldn't go. Who was it, and who went instead?",
+      "worked": "Tam says 'Mum had to work, so I went with Dad and Grandma.'",
+      "stim": {
+       "id": "summit-l3",
+       "kind": "audio",
+       "head": "Listen to Luna and her friend Tam talking about his cousin's wedding.",
+       "lines": [
+        [
+         "bf_lily",
+         "Luna",
+         "Hi, Tam! Did you have a nice weekend?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "Yes! My cousin got married on Saturday."
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Was the wedding in a big hotel?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "That's what I expected, but it was in my uncle's garden."
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Lovely! Did your mum and dad go with you?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "Mum had to work, so I went with Dad and Grandma."
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Did you wear something special?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "Yes, a new suit. But I didn't want to wear the jacket. It was so hot!"
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Was it too small? My brother's jacket was too small at our aunt's party."
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "No, it fitted me. Dad said I could take it off after the photos."
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "What was the best part? The food?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "The food was delicious, and the dancing was even more fun. But the fireworks at the end were the best!"
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Will you see your cousin again soon?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "Yes. Last week we helped her choose flowers. We were going to watch the wedding video next Sunday, but it isn't ready. So she's bringing her photos to our house instead."
+        ]
+       ]
+      }
+     },
+     {
+      "type": "mcq",
+      "num": 13,
+      "dok": 2,
+      "lo": [
+       "5Ld.03",
+       "5Lm.01"
+      ],
+      "q": "Tam didn't want to wear his jacket because",
+      "opts": [
+       "it made him feel too hot.",
+       "it was too small for him.",
+       "Dad told him to take it off."
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "The small jacket was Luna's brother's. Tam says 'No, it fitted me.'",
+       "Dad said he COULD take it off after the photos. That isn't why Tam didn't want to wear it."
+      ],
+      "hint": "Luna talks about her brother's jacket. Is that Tam's reason or someone else's?",
+      "worked": "Tam says 'I didn't want to wear the jacket. It was so hot!' So it made him feel too hot.",
+      "stim": {
+       "id": "summit-l3",
+       "kind": "audio",
+       "head": "Listen to Luna and her friend Tam talking about his cousin's wedding.",
+       "lines": [
+        [
+         "bf_lily",
+         "Luna",
+         "Hi, Tam! Did you have a nice weekend?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "Yes! My cousin got married on Saturday."
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Was the wedding in a big hotel?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "That's what I expected, but it was in my uncle's garden."
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Lovely! Did your mum and dad go with you?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "Mum had to work, so I went with Dad and Grandma."
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Did you wear something special?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "Yes, a new suit. But I didn't want to wear the jacket. It was so hot!"
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Was it too small? My brother's jacket was too small at our aunt's party."
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "No, it fitted me. Dad said I could take it off after the photos."
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "What was the best part? The food?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "The food was delicious, and the dancing was even more fun. But the fireworks at the end were the best!"
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Will you see your cousin again soon?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "Yes. Last week we helped her choose flowers. We were going to watch the wedding video next Sunday, but it isn't ready. So she's bringing her photos to our house instead."
+        ]
+       ]
+      }
+     },
+     {
+      "type": "mcq",
+      "num": 14,
+      "dok": 2,
+      "lo": [
+       "5Ld.03",
+       "5Lm.01"
+      ],
+      "q": "What did Tam enjoy most at the wedding?",
+      "opts": [
+       "the fireworks",
+       "the dancing",
+       "the food"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "The dancing was more fun than the food, but it wasn't the best part.",
+       "Tam liked the food, but he says the dancing was even more fun."
+      ],
+      "hint": "Tam compares three things. Listen for the word 'best'.",
+      "worked": "The food was delicious and the dancing 'even more fun', 'But the fireworks at the end were the best!'",
+      "stim": {
+       "id": "summit-l3",
+       "kind": "audio",
+       "head": "Listen to Luna and her friend Tam talking about his cousin's wedding.",
+       "lines": [
+        [
+         "bf_lily",
+         "Luna",
+         "Hi, Tam! Did you have a nice weekend?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "Yes! My cousin got married on Saturday."
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Was the wedding in a big hotel?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "That's what I expected, but it was in my uncle's garden."
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Lovely! Did your mum and dad go with you?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "Mum had to work, so I went with Dad and Grandma."
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Did you wear something special?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "Yes, a new suit. But I didn't want to wear the jacket. It was so hot!"
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Was it too small? My brother's jacket was too small at our aunt's party."
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "No, it fitted me. Dad said I could take it off after the photos."
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "What was the best part? The food?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "The food was delicious, and the dancing was even more fun. But the fireworks at the end were the best!"
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Will you see your cousin again soon?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "Yes. Last week we helped her choose flowers. We were going to watch the wedding video next Sunday, but it isn't ready. So she's bringing her photos to our house instead."
+        ]
+       ]
+      }
+     },
+     {
+      "type": "mcq",
+      "num": 15,
+      "dok": 2,
+      "lo": [
+       "5Ld.03",
+       "5Lm.01"
+      ],
+      "q": "What will Tam do next Sunday?",
+      "opts": [
+       "look at some wedding photos",
+       "watch the wedding video",
+       "help choose some flowers"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "That was the first plan, but the video isn't ready.",
+       "They helped choose flowers last week. That has already happened."
+      ],
+      "hint": "Listen for a plan that changed. What will they do 'instead'?",
+      "worked": "The video 'isn't ready', so his cousin is 'bringing her photos to our house instead'.",
+      "stim": {
+       "id": "summit-l3",
+       "kind": "audio",
+       "head": "Listen to Luna and her friend Tam talking about his cousin's wedding.",
+       "lines": [
+        [
+         "bf_lily",
+         "Luna",
+         "Hi, Tam! Did you have a nice weekend?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "Yes! My cousin got married on Saturday."
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Was the wedding in a big hotel?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "That's what I expected, but it was in my uncle's garden."
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Lovely! Did your mum and dad go with you?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "Mum had to work, so I went with Dad and Grandma."
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Did you wear something special?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "Yes, a new suit. But I didn't want to wear the jacket. It was so hot!"
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Was it too small? My brother's jacket was too small at our aunt's party."
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "No, it fitted me. Dad said I could take it off after the photos."
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "What was the best part? The food?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "The food was delicious, and the dancing was even more fun. But the fireworks at the end were the best!"
+        ],
+        [
+         "bf_lily",
+         "Luna",
+         "Will you see your cousin again soon?"
+        ],
+        [
+         "bm_lewis",
+         "Tam",
+         "Yes. Last week we helped her choose flowers. We were going to watch the wedding video next Sunday, but it isn't ready. So she's bringing her photos to our house instead."
+        ]
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "mins": 35,
+  "parts": [
+   {
+    "n": 1,
+    "title": "Part 1",
+    "instr": "Read the story about Vinh. For each question, choose the correct word.",
+    "items": [
+     {
+      "type": "mcq",
+      "num": 1,
+      "dok": 1,
+      "lo": [
+       "5Ug.04"
+      ],
+      "q": "Last Sunday, Vinh ________ to his uncle's flat to learn how to make spring rolls.",
+      "opts": [
+       "went",
+       "goes",
+       "going"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "'Goes' is for every day or every week. 'Last Sunday' is finished.",
+       "'Going' needs 'was' or 'is' before it. Here the verb is alone."
+      ],
+      "hint": "Find the time words at the start of the sentence.",
+      "worked": "'Last Sunday' is in the past, so we use the past simple: Vinh *went* to his uncle's flat.",
+      "stim": null
+     },
+     {
+      "type": "mcq",
+      "num": 2,
+      "dok": 1,
+      "lo": [
+       "5Us.04"
+      ],
+      "q": "His uncle is a cook ________ works in a busy restaurant near the river.",
+      "opts": [
+       "who",
+       "which",
+       "where"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "'Which' is for things and animals. A cook is a person.",
+       "'Where' is for places. The word before the gap is a person."
+      ],
+      "hint": "Look at the word just before the gap. Is it a person, a thing or a place?",
+      "worked": "'A cook' is a person, so we use *who*: a cook *who* works in a busy restaurant.",
+      "stim": null
+     },
+     {
+      "type": "mcq",
+      "num": 3,
+      "dok": 1,
+      "lo": [
+       "5Uv.01"
+      ],
+      "q": "Vinh felt a bit nervous because he wasn't very good ________ cooking.",
+      "opts": [
+       "at",
+       "of",
+       "in"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "We say 'afraid of' or 'proud of', but not 'good of'.",
+       "We say 'interested in', but not 'good in' for an activity."
+      ],
+      "hint": "Which small word always comes after 'good' when we talk about a skill?",
+      "worked": "We say *good at* something: he wasn't very *good at* cooking.",
+      "stim": null
+     },
+     {
+      "type": "mcq",
+      "num": 4,
+      "dok": 2,
+      "lo": [
+       "5Us.01"
+      ],
+      "q": "Vinh made ________ spring rolls than his uncle, because he rolled them much more slowly.",
+      "opts": [
+       "fewer",
+       "less",
+       "much"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "'Less' is for things we can't count, like rice or water. We can count spring rolls.",
+       "'Much' doesn't go with 'than', and it is for things we can't count."
+      ],
+      "hint": "Can you count spring rolls? Which word goes with 'than' and a plural noun?",
+      "worked": "Spring rolls can be counted and he was slower, so he made *fewer* spring rolls *than* his uncle.",
+      "stim": null
+     },
+     {
+      "type": "mcq",
+      "num": 5,
+      "dok": 2,
+      "lo": [
+       "5Us.02"
+      ],
+      "q": "At dinner, ________ in the family tried Vinh's spring rolls, and they all loved them!",
+      "opts": [
+       "everyone",
+       "anyone",
+       "no-one"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "We use 'anyone' in questions and 'not' sentences. This sentence is positive.",
+       "If no-one tried them, they couldn't all love them."
+      ],
+      "hint": "Read the end of the sentence: 'they all loved them'. How many people tried them?",
+      "worked": "'They all loved them' tells us all the family tried them, so the answer is *everyone*.",
+      "stim": null
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "Part 2",
+    "instr": "Read the texts. For each question, choose the correct answer.",
+    "items": [
+     {
+      "type": "mcq",
+      "num": 6,
+      "dok": 1,
+      "lo": [
+       "5Ug.10"
+      ],
+      "q": "Which option correctly completes the notice?",
+      "opts": [
+       "mustn't",
+       "needn't",
+       "could"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "'Needn't' means it is not necessary. The notice is giving a rule.",
+       "'Could' means something is possible. The paintings are too old to touch."
+      ],
+      "hint": "Is the notice giving a rule, saying something is not necessary, or saying something is possible?",
+      "worked": "The paintings are very old, so touching them is not allowed: Visitors *mustn't* touch them.",
+      "stim": {
+       "id": "summit-r2-6",
+       "kind": "text",
+       "head": "Notice",
+       "html": "<b>OLD TOWN MUSEUM</b><br>The paintings in Room 2 are more than 200 years old. Visitors ________ touch them. You can take photos, but please turn off the flash. Thank you!",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "num": 7,
+      "dok": 2,
+      "lo": [
+       "5Rd.03",
+       "5Rm.01"
+      ],
+      "q": "Why has Emily written to Owen?",
+      "opts": [
+       "to change the day of their cinema trip",
+       "to invite Owen to her house tomorrow",
+       "to say she is seeing a doctor tomorrow"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Emily must stay at home, but she doesn't ask Owen to come to her house.",
+       "The doctor has already told Emily to stay at home. She isn't going to see a doctor tomorrow."
+      ],
+      "hint": "Read the question at the end of the message. What does Emily want to do?",
+      "worked": "Emily can't go 'tomorrow' and asks 'Can we go next Saturday?', so she wants to change the day.",
+      "stim": {
+       "id": "summit-r2-7",
+       "kind": "text",
+       "head": "Text message",
+       "html": "Hi Owen, sorry, I can't come to the cinema with you and your mum tomorrow. I've got a sore throat and a fever, and the doctor says I should stay at home. Can we go next Saturday? Emily",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "num": 8,
+      "dok": 1,
+      "lo": [
+       "5Ug.05"
+      ],
+      "q": "Which option correctly completes the email?",
+      "opts": [
+       "am buying",
+       "bought",
+       "buy"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "'Bought' is the past, but 'next Saturday' is in the future.",
+       "'I buy' is for things we do every day or every week, not for one plan."
+      ],
+      "hint": "Look for the time words. Is Seb talking about the past, every week or a plan?",
+      "worked": "'Next Saturday' is a plan for the future, so we use the present continuous: I *am buying* a new football.",
+      "stim": {
+       "id": "summit-r2-8",
+       "kind": "text",
+       "head": "Email",
+       "html": "Dear Grandma,<br>Thank you for the birthday money! I ________ a new football with it next Saturday. Dad is taking me to the sports shop in town. I can't wait!<br>Love, Seb",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "num": 9,
+      "dok": 1,
+      "lo": [
+       "5Rd.01"
+      ],
+      "q": "What does the notice say?",
+      "opts": [
+       "Students don't have to pay to go in.",
+       "Students can buy lunch at the centre.",
+       "The coach leaves the centre at 8.15."
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "The notice asks students to bring a packed lunch, so they don't buy it there.",
+       "The coach leaves SCHOOL at 8.15. It comes back to school at 3.00."
+      ],
+      "hint": "Find each option in the notice. Check small words like 'school' and 'centre'.",
+      "worked": "'You don't need to bring any money, because the tickets are free.' So students don't have to pay to go in.",
+      "stim": {
+       "id": "summit-r2-9",
+       "kind": "text",
+       "head": "School notice",
+       "html": "<b>GRADE 4 TRIP TO THE SCIENCE CENTRE: THIS FRIDAY</b><br>The coach leaves school at 8.15 and comes back at 3.00. Please bring a packed lunch and a drink. You don't need to bring any money, because the tickets are free.",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "num": 10,
+      "dok": 1,
+      "lo": [
+       "5Ug.10"
+      ],
+      "q": "Which option correctly completes the note?",
+      "opts": [
+       "Could",
+       "Must",
+       "Should"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "'Must you ...?' asks if something is really necessary. It is not a polite way to ask for help.",
+       "'Should you ...?' asks for advice. Matilda wants to ask for help."
+      ],
+      "hint": "Matilda is asking her dad for help. Which word starts a polite request?",
+      "worked": "We start a polite request with *Could*: '*Could* you help me with my poster tonight?'",
+      "stim": {
+       "id": "summit-r2-10",
+       "kind": "text",
+       "head": "Note",
+       "html": "Dad,<br>________ you help me with my street art poster tonight? I need to finish it by Thursday, and I can't draw the shadows on the bricks. Thanks!<br>Matilda",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "num": 11,
+      "dok": 2,
+      "lo": [
+       "5Rd.03",
+       "5Rm.01"
+      ],
+      "q": "What will Grade 4 students do on Monday afternoon?",
+      "opts": [
+       "look for water and make posters",
+       "make posters but not look for water",
+       "look for standing water in the canteen"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "'Also' means Grades 4 and 5 do both jobs, not only the posters.",
+       "The posters are for the canteen. The water search is around the school."
+      ],
+      "hint": "Find the two sentences about jobs. Which classes do each job? Look at the word 'also'.",
+      "worked": "'All classes will look for standing water' and 'Grades 4 and 5 will also make posters'. So Grade 4 does both.",
+      "stim": {
+       "id": "summit-r2-11",
+       "kind": "text",
+       "head": "School notice",
+       "html": "<b>STOP THE MOSQUITOES!</b><br>On Monday afternoon, all classes will look for standing water around the school. Grades 4 and 5 will also make posters for the canteen. Please wear long sleeves that day.",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "num": 12,
+      "dok": 2,
+      "lo": [
+       "5Rd.03",
+       "5Rm.01"
+      ],
+      "q": "What does Nora want Chi to know?",
+      "opts": [
+       "The day has changed, and they'll have lunch at school.",
+       "They need to take lunch to the fire station on Thursday.",
+       "The fire station is closed on both Tuesday and Thursday."
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "Nora says they DON'T need to bring lunch any more.",
+       "The visit has moved from Tuesday to Thursday. Nora doesn't say the fire station is closed."
+      ],
+      "hint": "Two things are different now. Find them both, then choose the option that says the same.",
+      "worked": "The visit is 'on Thursday now, not Tuesday', and they'll be 'back at school before twelve', so they will have lunch at school.",
+      "stim": {
+       "id": "summit-r2-12",
+       "kind": "text",
+       "head": "Phone message",
+       "html": "Hi Chi, it's Nora. Our class visit to the old fire station is on Thursday now, not Tuesday. We don't need to bring lunch any more, because we'll be back at school before twelve. See you!",
+       "bank": null
+      }
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "Part 3",
+    "instr": "Read the conversation between Matilda and Seb. Choose the best answer, A to H, for each gap. There is one example (0). You do not need to use all the letters.",
+    "items": [
+     {
+      "type": "bank",
+      "num": 13,
+      "dok": 2,
+      "lo": [
+       "5Rm.01",
+       "5Rd.03"
+      ],
+      "q": "Choose the best answer for gap 13.",
+      "bank": "summit-r3",
+      "ans": "F",
+      "hint": "Read Matilda's NEXT line. What does 'film it' tell you about Seb's idea?",
+      "worked": "F fits: Seb suggests 'a short video', and Matilda then asks 'who can film it?'. E is about flowers, and you can't film flowers as a thank-you message.",
+      "stim": {
+       "id": "summit-r3",
+       "kind": "text",
+       "head": "Conversation: Matilda and Seb",
+       "html": "Matilda: Seb, did you know that our class teacher is leaving at the end of term?<br>Seb: (0) <b>C</b><br>Matilda: I'm going to miss her. Shall we make something to say thank you?<br>Seb: (13) ________<br>Matilda: That's perfect! But who can film it? I haven't got a camera.<br>Seb: (14) ________<br>Matilda: Great. Where should we film it? Our classroom is too small for everyone.<br>Seb: (15) ________<br>Matilda: Good, and it looks really pretty in the sunshine. When can we do it?<br>Seb: (16) ________<br>Matilda: Yes, then she won't see us. How long should the video be?<br>Seb: (17) ________<br>Matilda: OK. I'll write a list of everyone's names tonight.",
+       "bank": [
+        [
+         "A",
+         "My dad has got one. I'm sure he'd lend it to us."
+        ],
+        [
+         "B",
+         "Not too long. About five minutes is enough."
+        ],
+        [
+         "C",
+         "Yes, she told us this morning. She's moving to another city."
+        ],
+        [
+         "D",
+         "We could do it on Friday at lunchtime, while she's at a meeting."
+        ],
+        [
+         "E",
+         "Maybe we could buy her some flowers instead."
+        ],
+        [
+         "F",
+         "Good idea! What about a short video with a message from everyone?"
+        ],
+        [
+         "G",
+         "Yes, she was always kind to everyone in our class."
+        ],
+        [
+         "H",
+         "What about the school garden? There's lots of space there."
+        ]
+       ]
+      }
+     },
+     {
+      "type": "bank",
+      "num": 14,
+      "dok": 2,
+      "lo": [
+       "5Rm.01",
+       "5Rd.03"
+      ],
+      "q": "Choose the best answer for gap 14.",
+      "bank": "summit-r3",
+      "ans": "A",
+      "hint": "Matilda has a problem: she has no camera. Find a line that solves it.",
+      "worked": "A fits: 'My dad has got one' answers 'I haven't got a camera', and Matilda says 'Great.'",
+      "stim": {
+       "id": "summit-r3",
+       "kind": "text",
+       "head": "Conversation: Matilda and Seb",
+       "html": "Matilda: Seb, did you know that our class teacher is leaving at the end of term?<br>Seb: (0) <b>C</b><br>Matilda: I'm going to miss her. Shall we make something to say thank you?<br>Seb: (13) ________<br>Matilda: That's perfect! But who can film it? I haven't got a camera.<br>Seb: (14) ________<br>Matilda: Great. Where should we film it? Our classroom is too small for everyone.<br>Seb: (15) ________<br>Matilda: Good, and it looks really pretty in the sunshine. When can we do it?<br>Seb: (16) ________<br>Matilda: Yes, then she won't see us. How long should the video be?<br>Seb: (17) ________<br>Matilda: OK. I'll write a list of everyone's names tonight.",
+       "bank": [
+        [
+         "A",
+         "My dad has got one. I'm sure he'd lend it to us."
+        ],
+        [
+         "B",
+         "Not too long. About five minutes is enough."
+        ],
+        [
+         "C",
+         "Yes, she told us this morning. She's moving to another city."
+        ],
+        [
+         "D",
+         "We could do it on Friday at lunchtime, while she's at a meeting."
+        ],
+        [
+         "E",
+         "Maybe we could buy her some flowers instead."
+        ],
+        [
+         "F",
+         "Good idea! What about a short video with a message from everyone?"
+        ],
+        [
+         "G",
+         "Yes, she was always kind to everyone in our class."
+        ],
+        [
+         "H",
+         "What about the school garden? There's lots of space there."
+        ]
+       ]
+      }
+     },
+     {
+      "type": "bank",
+      "num": 15,
+      "dok": 2,
+      "lo": [
+       "5Rm.01",
+       "5Rd.03"
+      ],
+      "q": "Choose the best answer for gap 15.",
+      "bank": "summit-r3",
+      "ans": "H",
+      "hint": "Matilda asks 'Where ...?'. Your answer must name a place with more space than the classroom.",
+      "worked": "H fits: 'the school garden' has 'lots of space', and Matilda says it 'looks really pretty in the sunshine'.",
+      "stim": {
+       "id": "summit-r3",
+       "kind": "text",
+       "head": "Conversation: Matilda and Seb",
+       "html": "Matilda: Seb, did you know that our class teacher is leaving at the end of term?<br>Seb: (0) <b>C</b><br>Matilda: I'm going to miss her. Shall we make something to say thank you?<br>Seb: (13) ________<br>Matilda: That's perfect! But who can film it? I haven't got a camera.<br>Seb: (14) ________<br>Matilda: Great. Where should we film it? Our classroom is too small for everyone.<br>Seb: (15) ________<br>Matilda: Good, and it looks really pretty in the sunshine. When can we do it?<br>Seb: (16) ________<br>Matilda: Yes, then she won't see us. How long should the video be?<br>Seb: (17) ________<br>Matilda: OK. I'll write a list of everyone's names tonight.",
+       "bank": [
+        [
+         "A",
+         "My dad has got one. I'm sure he'd lend it to us."
+        ],
+        [
+         "B",
+         "Not too long. About five minutes is enough."
+        ],
+        [
+         "C",
+         "Yes, she told us this morning. She's moving to another city."
+        ],
+        [
+         "D",
+         "We could do it on Friday at lunchtime, while she's at a meeting."
+        ],
+        [
+         "E",
+         "Maybe we could buy her some flowers instead."
+        ],
+        [
+         "F",
+         "Good idea! What about a short video with a message from everyone?"
+        ],
+        [
+         "G",
+         "Yes, she was always kind to everyone in our class."
+        ],
+        [
+         "H",
+         "What about the school garden? There's lots of space there."
+        ]
+       ]
+      }
+     },
+     {
+      "type": "bank",
+      "num": 16,
+      "dok": 2,
+      "lo": [
+       "5Rm.01",
+       "5Rd.03"
+      ],
+      "q": "Choose the best answer for gap 16.",
+      "bank": "summit-r3",
+      "ans": "D",
+      "hint": "Matilda asks 'When ...?'. Then she says 'she won't see us'. Which answer gives a time AND explains that?",
+      "worked": "D fits: 'on Friday at lunchtime, while she's at a meeting' answers 'When?', so the teacher 'won't see us'.",
+      "stim": {
+       "id": "summit-r3",
+       "kind": "text",
+       "head": "Conversation: Matilda and Seb",
+       "html": "Matilda: Seb, did you know that our class teacher is leaving at the end of term?<br>Seb: (0) <b>C</b><br>Matilda: I'm going to miss her. Shall we make something to say thank you?<br>Seb: (13) ________<br>Matilda: That's perfect! But who can film it? I haven't got a camera.<br>Seb: (14) ________<br>Matilda: Great. Where should we film it? Our classroom is too small for everyone.<br>Seb: (15) ________<br>Matilda: Good, and it looks really pretty in the sunshine. When can we do it?<br>Seb: (16) ________<br>Matilda: Yes, then she won't see us. How long should the video be?<br>Seb: (17) ________<br>Matilda: OK. I'll write a list of everyone's names tonight.",
+       "bank": [
+        [
+         "A",
+         "My dad has got one. I'm sure he'd lend it to us."
+        ],
+        [
+         "B",
+         "Not too long. About five minutes is enough."
+        ],
+        [
+         "C",
+         "Yes, she told us this morning. She's moving to another city."
+        ],
+        [
+         "D",
+         "We could do it on Friday at lunchtime, while she's at a meeting."
+        ],
+        [
+         "E",
+         "Maybe we could buy her some flowers instead."
+        ],
+        [
+         "F",
+         "Good idea! What about a short video with a message from everyone?"
+        ],
+        [
+         "G",
+         "Yes, she was always kind to everyone in our class."
+        ],
+        [
+         "H",
+         "What about the school garden? There's lots of space there."
+        ]
+       ]
+      }
+     },
+     {
+      "type": "bank",
+      "num": 17,
+      "dok": 2,
+      "lo": [
+       "5Rm.01",
+       "5Rd.03"
+      ],
+      "q": "Choose the best answer for gap 17.",
+      "bank": "summit-r3",
+      "ans": "B",
+      "hint": "Matilda asks 'How long ...?'. Look for an amount of time.",
+      "worked": "B fits: 'About five minutes is enough' answers 'How long should the video be?'.",
+      "stim": {
+       "id": "summit-r3",
+       "kind": "text",
+       "head": "Conversation: Matilda and Seb",
+       "html": "Matilda: Seb, did you know that our class teacher is leaving at the end of term?<br>Seb: (0) <b>C</b><br>Matilda: I'm going to miss her. Shall we make something to say thank you?<br>Seb: (13) ________<br>Matilda: That's perfect! But who can film it? I haven't got a camera.<br>Seb: (14) ________<br>Matilda: Great. Where should we film it? Our classroom is too small for everyone.<br>Seb: (15) ________<br>Matilda: Good, and it looks really pretty in the sunshine. When can we do it?<br>Seb: (16) ________<br>Matilda: Yes, then she won't see us. How long should the video be?<br>Seb: (17) ________<br>Matilda: OK. I'll write a list of everyone's names tonight.",
+       "bank": [
+        [
+         "A",
+         "My dad has got one. I'm sure he'd lend it to us."
+        ],
+        [
+         "B",
+         "Not too long. About five minutes is enough."
+        ],
+        [
+         "C",
+         "Yes, she told us this morning. She's moving to another city."
+        ],
+        [
+         "D",
+         "We could do it on Friday at lunchtime, while she's at a meeting."
+        ],
+        [
+         "E",
+         "Maybe we could buy her some flowers instead."
+        ],
+        [
+         "F",
+         "Good idea! What about a short video with a message from everyone?"
+        ],
+        [
+         "G",
+         "Yes, she was always kind to everyone in our class."
+        ],
+        [
+         "H",
+         "What about the school garden? There's lots of space there."
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "title": "Part 4",
+    "instr": "Read the letter. Write ONE word from the box in each gap. Use each word only once. There is one example (0).",
+    "items": [
+     {
+      "type": "tfill",
+      "num": 18,
+      "dok": 1,
+      "lo": [
+       "5Ug.04"
+      ],
+      "q": "Write ONE word from the box for gap 18.",
+      "lines": [
+       "There {0} hundreds of kites in the sky that day!"
+      ],
+      "ans": [
+       [
+        "were"
+       ]
+      ],
+      "hint": "'That day' is in the past. Is 'hundreds of kites' one thing or many?",
+      "worked": "'That day' is the past and 'hundreds of kites' is plural, so we write There *were*.",
+      "stim": {
+       "id": "summit-r4",
+       "kind": "text",
+       "head": "Letter from Yusuf",
+       "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Emily,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we went to a little café (21) ________ they sell fresh coconut juice. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Would you like to come with us?<br>Write soon,<br>Yusuf",
+       "bank": null
+      }
+     },
+     {
+      "type": "tfill",
+      "num": 19,
+      "dok": 1,
+      "lo": [
+       "5Ug.11"
+      ],
+      "q": "Write ONE word from the box for gap 19.",
+      "lines": [
+       "It was even bigger {0} our car!"
+      ],
+      "ans": [
+       [
+        "than"
+       ]
+      ],
+      "hint": "Look at the word before the gap. Which word comes after a comparative?",
+      "worked": "After a comparative like 'bigger' we use *than*: bigger *than* our car.",
+      "stim": {
+       "id": "summit-r4",
+       "kind": "text",
+       "head": "Letter from Yusuf",
+       "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Emily,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we went to a little café (21) ________ they sell fresh coconut juice. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Would you like to come with us?<br>Write soon,<br>Yusuf",
+       "bank": null
+      }
+     },
+     {
+      "type": "tfill",
+      "num": 20,
+      "dok": 1,
+      "lo": [
+       "5Uv.01"
+      ],
+      "q": "Write ONE word from the box for gap 20.",
+      "lines": [
+       "My little sister was afraid {0} it at first."
+      ],
+      "ans": [
+       [
+        "of"
+       ]
+      ],
+      "hint": "Which small word always comes after 'afraid'?",
+      "worked": "We say *afraid of* something: she was *afraid of* it.",
+      "stim": {
+       "id": "summit-r4",
+       "kind": "text",
+       "head": "Letter from Yusuf",
+       "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Emily,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we went to a little café (21) ________ they sell fresh coconut juice. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Would you like to come with us?<br>Write soon,<br>Yusuf",
+       "bank": null
+      }
+     },
+     {
+      "type": "tfill",
+      "num": 21,
+      "dok": 2,
+      "lo": [
+       "5Us.04"
+      ],
+      "q": "Write ONE word from the box for gap 21.",
+      "lines": [
+       "At lunchtime, we went to a little café {0} they sell fresh coconut juice."
+      ],
+      "ans": [
+       [
+        "where"
+       ]
+      ],
+      "hint": "The word before the gap is a place. Which word in the box joins a place to more information about it?",
+      "worked": "A café is a place, so we use *where*: a little café *where* they sell coconut juice.",
+      "stim": {
+       "id": "summit-r4",
+       "kind": "text",
+       "head": "Letter from Yusuf",
+       "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Emily,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we went to a little café (21) ________ they sell fresh coconut juice. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Would you like to come with us?<br>Write soon,<br>Yusuf",
+       "bank": null
+      }
+     },
+     {
+      "type": "tfill",
+      "num": 22,
+      "dok": 2,
+      "lo": [
+       "5Us.02"
+      ],
+      "q": "Write ONE word from the box for gap 22.",
+      "lines": [
+       "It was so windy that {0} on the beach had to hold on to their hats!"
+      ],
+      "ans": [
+       [
+        "everyone"
+       ]
+      ],
+      "hint": "The gap needs a word for people. Who had to hold their hats: one person or all the people?",
+      "worked": "It was very windy, so all the people had to hold their hats: *everyone* on the beach.",
+      "stim": {
+       "id": "summit-r4",
+       "kind": "text",
+       "head": "Letter from Yusuf",
+       "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Emily,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we went to a little café (21) ________ they sell fresh coconut juice. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Would you like to come with us?<br>Write soon,<br>Yusuf",
+       "bank": null
+      }
+     },
+     {
+      "type": "tfill",
+      "num": 23,
+      "dok": 2,
+      "lo": [
+       "5Us.01"
+      ],
+      "q": "Write ONE word from the box for gap 23.",
+      "lines": [
+       "Mum and Dad {0} bought a kite, so now we have lots of kites at home."
+      ],
+      "ans": [
+       [
+        "both"
+       ]
+      ],
+      "hint": "How many people are before the gap? Which word in the box is for two people?",
+      "worked": "Mum and Dad are two people, and each one bought a kite, so we write Mum and Dad *both* bought a kite.",
+      "stim": {
+       "id": "summit-r4",
+       "kind": "text",
+       "head": "Letter from Yusuf",
+       "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Emily,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we went to a little café (21) ________ they sell fresh coconut juice. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Would you like to come with us?<br>Write soon,<br>Yusuf",
+       "bank": null
+      }
+     },
+     {
+      "type": "tfill",
+      "num": 24,
+      "dok": 1,
+      "lo": [
+       "5Ug.05"
+      ],
+      "q": "Write ONE word from the box for gap 24.",
+      "lines": [
+       "Next month, we {0} going back for the night festival with lantern kites."
+      ],
+      "ans": [
+       [
+        "are"
+       ]
+      ],
+      "hint": "'Next month' is a plan. Which word goes before 'going' with 'we'?",
+      "worked": "A plan for the future uses the present continuous: we *are* going back next month.",
+      "stim": {
+       "id": "summit-r4",
+       "kind": "text",
+       "head": "Letter from Yusuf",
+       "html": "<b>Word box:</b> are, at, both, everyone, for, of, than, were, where, with<br><br><b>The Kite Festival</b><br>Hi Emily,<br>Thank you (0) <b>for</b> your letter. Guess what? Last Saturday, my family went to the kite festival at Sandy Bay beach. There (18) ________ hundreds of kites in the sky that day! My favourite was a giant red fish. It was even bigger (19) ________ our car! My little sister was afraid (20) ________ it at first, but later she wanted to hold its string. At lunchtime, we went to a little café (21) ________ they sell fresh coconut juice. It was so windy that (22) ________ on the beach had to hold on to their hats! Mum and Dad (23) ________ bought a kite, so now we have lots of kites at home. Next month, we (24) ________ going back for the night festival with lantern kites. Would you like to come with us?<br>Write soon,<br>Yusuf",
+       "bank": null
+      }
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "title": "Part 5",
+    "instr": "Read what three children say about helping at home. For each question, choose the correct person.",
+    "items": [
+     {
+      "type": "mcq",
+      "num": 25,
+      "dok": 2,
+      "lo": [
+       "5Rm.01",
+       "5Rd.03"
+      ],
+      "q": "Which person was worried about doing a job at first?",
+      "opts": [
+       "Chi",
+       "Owen",
+       "Matilda"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Owen hated washing the car because it took a long time. He wasn't worried about it.",
+       "Matilda doesn't enjoy taking out the rubbish, but she never says she was worried."
+      ],
+      "hint": "'Worried' has a similar meaning to another feeling word. Look for it in the three texts.",
+      "worked": "Chi writes 'Cooking used to make me nervous'. Nervous is like worried.",
+      "stim": {
+       "id": "summit-r5",
+       "kind": "text",
+       "head": "Magazine page",
+       "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. My job is to feed our two cats and wash their bowls. At the weekend, I also help Dad clean the car. I used to hate that job, because it took all morning. But now my friend from next door helps us, and we finish quickly and play football after. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money for my jobs, and I'm saving it for a new bike.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to hold the knife and cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I feel proud of the meals we make.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the plastic bottles and the paper so we can recycle them. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! I think helping at home is good practice for when I'm older.",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "num": 26,
+      "dok": 2,
+      "lo": [
+       "5Rm.01",
+       "5Rd.03"
+      ],
+      "q": "Which person gets money for helping at home?",
+      "opts": [
+       "Owen",
+       "Chi",
+       "Matilda"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Chi feels proud of the meals, but she doesn't talk about money.",
+       "Matilda says 'I don't get any money for it'."
+      ],
+      "hint": "Look for words about money in all three texts. Be careful: one text says 'don't'.",
+      "worked": "Owen writes 'Dad gives me a little pocket money for my jobs'.",
+      "stim": {
+       "id": "summit-r5",
+       "kind": "text",
+       "head": "Magazine page",
+       "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. My job is to feed our two cats and wash their bowls. At the weekend, I also help Dad clean the car. I used to hate that job, because it took all morning. But now my friend from next door helps us, and we finish quickly and play football after. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money for my jobs, and I'm saving it for a new bike.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to hold the knife and cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I feel proud of the meals we make.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the plastic bottles and the paper so we can recycle them. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! I think helping at home is good practice for when I'm older.",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "num": 27,
+      "dok": 2,
+      "lo": [
+       "5Rm.01",
+       "5Rd.03"
+      ],
+      "q": "Which person helped someone in the family to stop making a mistake?",
+      "opts": [
+       "Matilda",
+       "Owen",
+       "Chi"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "Owen is the one who makes a mistake: he forgets the cats' dinner.",
+       "Chi's brother puts the forks in the wrong place, but Chi doesn't help him change it. She says 'I don't mind'."
+      ],
+      "hint": "All three texts talk about a mistake. Who did something so the mistake stopped?",
+      "worked": "Matilda made a poster because Dad 'always put paper in the wrong bin'. 'Now he never makes that mistake!'",
+      "stim": {
+       "id": "summit-r5",
+       "kind": "text",
+       "head": "Magazine page",
+       "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. My job is to feed our two cats and wash their bowls. At the weekend, I also help Dad clean the car. I used to hate that job, because it took all morning. But now my friend from next door helps us, and we finish quickly and play football after. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money for my jobs, and I'm saving it for a new bike.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to hold the knife and cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I feel proud of the meals we make.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the plastic bottles and the paper so we can recycle them. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! I think helping at home is good practice for when I'm older.",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "num": 28,
+      "dok": 2,
+      "lo": [
+       "5Rm.01",
+       "5Rd.03"
+      ],
+      "q": "Which person sometimes forgets to do a job?",
+      "opts": [
+       "Owen",
+       "Chi",
+       "Matilda"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Chi's little brother gets the forks wrong, but nobody forgets a job in Chi's text.",
+       "Matilda's dad made a mistake with the bins. That is not forgetting."
+      ],
+      "hint": "Find the word 'forget' or a similar idea. Who forgets, the writer or someone else?",
+      "worked": "Owen writes 'sometimes I forget the cats' dinner'.",
+      "stim": {
+       "id": "summit-r5",
+       "kind": "text",
+       "head": "Magazine page",
+       "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. My job is to feed our two cats and wash their bowls. At the weekend, I also help Dad clean the car. I used to hate that job, because it took all morning. But now my friend from next door helps us, and we finish quickly and play football after. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money for my jobs, and I'm saving it for a new bike.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to hold the knife and cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I feel proud of the meals we make.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the plastic bottles and the paper so we can recycle them. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! I think helping at home is good practice for when I'm older.",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "num": 29,
+      "dok": 2,
+      "lo": [
+       "5Rm.01",
+       "5Rd.03"
+      ],
+      "q": "Which person learned how to do something from an older person?",
+      "opts": [
+       "Chi",
+       "Owen",
+       "Matilda"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Owen's friend helps with the car, but he doesn't teach Owen anything.",
+       "Matilda taught her dad. She didn't learn from an older person."
+      ],
+      "hint": "Look for 'showed me' or 'taught me' in the texts. Who did the showing?",
+      "worked": "Chi writes that Grandma 'showed me how to hold the knife and cut carrots safely'.",
+      "stim": {
+       "id": "summit-r5",
+       "kind": "text",
+       "head": "Magazine page",
+       "html": "<b>Helping at home</b><br><br><b>Owen</b><br>I help at home every day. My job is to feed our two cats and wash their bowls. At the weekend, I also help Dad clean the car. I used to hate that job, because it took all morning. But now my friend from next door helps us, and we finish quickly and play football after. Mum says I'm hard-working, but sometimes I forget the cats' dinner. Then they follow me round the flat until I remember! Dad gives me a little pocket money for my jobs, and I'm saving it for a new bike.<br><br><b>Chi</b><br>My mum works late on Tuesdays and Thursdays, so on those days I make dinner with my grandma. I wash and chop the vegetables, and she cooks the rice. Grandma is very patient. She showed me how to hold the knife and cut carrots safely. My little brother is too young to cook, so he lays the table. Sometimes he puts the forks in the wrong place, but I don't mind. Cooking used to make me nervous, but now I feel proud of the meals we make.<br><br><b>Matilda</b><br>In our flat, everyone has a job every evening. Mine is to water the plants on the balcony and take out the rubbish. I don't get any money for it, but I know it's important. Last month, I started a new job: I sort the plastic bottles and the paper so we can recycle them. Dad used to put paper in the wrong bin, so I made a poster with pictures for him. Now he never makes that mistake! I think helping at home is good practice for when I'm older.",
+       "bank": null
+      }
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "title": "Part 6",
+    "instr": "Read the article. For each question, choose the correct answer.",
+    "items": [
+     {
+      "type": "mcq",
+      "num": 30,
+      "dok": 1,
+      "lo": [
+       "5Rd.01"
+      ],
+      "q": "How did the mural start?",
+      "opts": [
+       "The head teacher asked the class for ideas.",
+       "Some children planted flowers by the wall.",
+       "Nora saw a colourful mural on a wall in town."
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Some children only WANTED to plant flowers. That was their idea, not Nora's.",
+       "The text doesn't say Nora saw a mural in the town. The town is what the picture shows."
+      ],
+      "hint": "Read the first paragraph. What happened 'one morning'?",
+      "worked": "'One morning, the head teacher asked Nora's class for ideas to make it brighter.'",
+      "stim": {
+       "id": "summit-r6",
+       "kind": "text",
+       "head": "Magazine article",
+       "html": "<b>A Wall Full of Colour</b><br><i>Nora, aged 10, helped her class to paint a huge picture on their school wall.</i><br><br>The wall next to Nora's school playground was grey and dirty. One morning, the head teacher asked Nora's class for ideas to make it brighter. Some children wanted to plant flowers. Nora had a different idea: a mural, a big painting on the wall.<br><br>Nora thought the planning would be quick. She was wrong! The class chose the theme 'Our town, then and now', and everyone drew sketches. Her friends loved drawing, but Nora found it slow and tiring. The planning took three weeks, much longer than the painting.<br><br>When the painting began, Nora wanted to paint the people in the old market, because she is good at faces. But a quiet boy in her class was even better at tiny details. So Nora let him paint the faces, and she painted the sky.<br><br>Later, a local artist came to see the mural. He said the colours were bright, but the thing he liked most was a small cat asleep under a market stall.<br><br>Now younger children stop to look at it every day. Nora's classmates want to paint the wall in the school hall next. But Nora has a bigger plan. She wants to ask the town if children can paint the old bus station.",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "num": 31,
+      "dok": 2,
+      "lo": [
+       "5Rd.03",
+       "5Rm.01"
+      ],
+      "q": "What did Nora think about the planning?",
+      "opts": [
+       "It was slower than she expected.",
+       "It was the best part of the project.",
+       "It was quicker than the painting."
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "Nora's friends loved drawing the sketches, but Nora found the planning slow and tiring.",
+       "The planning took three weeks, much longer than the painting."
+      ],
+      "hint": "Read the second paragraph. What did Nora think BEFORE, and what really happened?",
+      "worked": "'Nora thought the planning would be quick. She was wrong!' It took three weeks and she 'found it slow and tiring'.",
+      "stim": {
+       "id": "summit-r6",
+       "kind": "text",
+       "head": "Magazine article",
+       "html": "<b>A Wall Full of Colour</b><br><i>Nora, aged 10, helped her class to paint a huge picture on their school wall.</i><br><br>The wall next to Nora's school playground was grey and dirty. One morning, the head teacher asked Nora's class for ideas to make it brighter. Some children wanted to plant flowers. Nora had a different idea: a mural, a big painting on the wall.<br><br>Nora thought the planning would be quick. She was wrong! The class chose the theme 'Our town, then and now', and everyone drew sketches. Her friends loved drawing, but Nora found it slow and tiring. The planning took three weeks, much longer than the painting.<br><br>When the painting began, Nora wanted to paint the people in the old market, because she is good at faces. But a quiet boy in her class was even better at tiny details. So Nora let him paint the faces, and she painted the sky.<br><br>Later, a local artist came to see the mural. He said the colours were bright, but the thing he liked most was a small cat asleep under a market stall.<br><br>Now younger children stop to look at it every day. Nora's classmates want to paint the wall in the school hall next. But Nora has a bigger plan. She wants to ask the town if children can paint the old bus station.",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "num": 32,
+      "dok": 2,
+      "lo": [
+       "5Rd.03",
+       "5Rm.01"
+      ],
+      "q": "Why did Nora let the boy paint the faces?",
+      "opts": [
+       "He could paint small things better than her.",
+       "She wasn't very good at painting faces.",
+       "The teacher asked her to paint the sky."
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "The text says Nora IS good at faces. The boy was even better.",
+       "Nora painted the sky, but the text doesn't say a teacher asked her to."
+      ],
+      "hint": "Look for 'even better' in the third paragraph. Who was better, and at what?",
+      "worked": "'A quiet boy in her class was even better at tiny details', so Nora 'let him paint the faces'.",
+      "stim": {
+       "id": "summit-r6",
+       "kind": "text",
+       "head": "Magazine article",
+       "html": "<b>A Wall Full of Colour</b><br><i>Nora, aged 10, helped her class to paint a huge picture on their school wall.</i><br><br>The wall next to Nora's school playground was grey and dirty. One morning, the head teacher asked Nora's class for ideas to make it brighter. Some children wanted to plant flowers. Nora had a different idea: a mural, a big painting on the wall.<br><br>Nora thought the planning would be quick. She was wrong! The class chose the theme 'Our town, then and now', and everyone drew sketches. Her friends loved drawing, but Nora found it slow and tiring. The planning took three weeks, much longer than the painting.<br><br>When the painting began, Nora wanted to paint the people in the old market, because she is good at faces. But a quiet boy in her class was even better at tiny details. So Nora let him paint the faces, and she painted the sky.<br><br>Later, a local artist came to see the mural. He said the colours were bright, but the thing he liked most was a small cat asleep under a market stall.<br><br>Now younger children stop to look at it every day. Nora's classmates want to paint the wall in the school hall next. But Nora has a bigger plan. She wants to ask the town if children can paint the old bus station.",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "num": 33,
+      "dok": 1,
+      "lo": [
+       "5Rd.01"
+      ],
+      "q": "What did the artist like best about the mural?",
+      "opts": [
+       "a little animal in it",
+       "the bright colours in it",
+       "the people's faces"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "The artist said the colours were bright, 'but' something else was his favourite.",
+       "The text doesn't say what the artist thought about the faces."
+      ],
+      "hint": "Find 'the thing he liked most'.",
+      "worked": "'The thing he liked most was a small cat asleep under a market stall.' A cat is a little animal.",
+      "stim": {
+       "id": "summit-r6",
+       "kind": "text",
+       "head": "Magazine article",
+       "html": "<b>A Wall Full of Colour</b><br><i>Nora, aged 10, helped her class to paint a huge picture on their school wall.</i><br><br>The wall next to Nora's school playground was grey and dirty. One morning, the head teacher asked Nora's class for ideas to make it brighter. Some children wanted to plant flowers. Nora had a different idea: a mural, a big painting on the wall.<br><br>Nora thought the planning would be quick. She was wrong! The class chose the theme 'Our town, then and now', and everyone drew sketches. Her friends loved drawing, but Nora found it slow and tiring. The planning took three weeks, much longer than the painting.<br><br>When the painting began, Nora wanted to paint the people in the old market, because she is good at faces. But a quiet boy in her class was even better at tiny details. So Nora let him paint the faces, and she painted the sky.<br><br>Later, a local artist came to see the mural. He said the colours were bright, but the thing he liked most was a small cat asleep under a market stall.<br><br>Now younger children stop to look at it every day. Nora's classmates want to paint the wall in the school hall next. But Nora has a bigger plan. She wants to ask the town if children can paint the old bus station.",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "num": 34,
+      "dok": 2,
+      "lo": [
+       "5Rd.03",
+       "5Rm.01"
+      ],
+      "q": "What does Nora want to do next?",
+      "opts": [
+       "paint a building outside her school",
+       "paint a wall in the school hall",
+       "teach younger children to paint"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Painting the school hall is her classmates' plan, not Nora's.",
+       "Younger children look at the wall, but Nora doesn't say she will teach them."
+      ],
+      "hint": "Read the last paragraph. Whose plan is each idea: the classmates' or Nora's?",
+      "worked": "'Nora has a bigger plan. She wants to ask the town if children can paint the old bus station.' That is a building outside her school.",
+      "stim": {
+       "id": "summit-r6",
+       "kind": "text",
+       "head": "Magazine article",
+       "html": "<b>A Wall Full of Colour</b><br><i>Nora, aged 10, helped her class to paint a huge picture on their school wall.</i><br><br>The wall next to Nora's school playground was grey and dirty. One morning, the head teacher asked Nora's class for ideas to make it brighter. Some children wanted to plant flowers. Nora had a different idea: a mural, a big painting on the wall.<br><br>Nora thought the planning would be quick. She was wrong! The class chose the theme 'Our town, then and now', and everyone drew sketches. Her friends loved drawing, but Nora found it slow and tiring. The planning took three weeks, much longer than the painting.<br><br>When the painting began, Nora wanted to paint the people in the old market, because she is good at faces. But a quiet boy in her class was even better at tiny details. So Nora let him paint the faces, and she painted the sky.<br><br>Later, a local artist came to see the mural. He said the colours were bright, but the thing he liked most was a small cat asleep under a market stall.<br><br>Now younger children stop to look at it every day. Nora's classmates want to paint the wall in the school hall next. But Nora has a bigger plan. She wants to ask the town if children can paint the old bus station.",
+       "bank": null
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "writing": {
+  "mins": 35,
+  "tasks": [
+   {
+    "id": "sw1",
+    "task": 1,
+    "dok": 2,
+    "lo": [
+     "5Wc.02",
+     "5Wca.02",
+     "5Wca.04",
+     "5Wor.02",
+     "5Ug.10"
+    ],
+    "title": "How to get ready for a school sleepover",
+    "prompt": "Your class is having a sleepover at school next month. Write 1 to 2 paragraphs (7 to 8 sentences) explaining how students can get ready for it. Use modal verbs (should, shouldn't, must, mustn't, need to) and connectives. Check your spelling, grammar and punctuation.",
+    "bullets": [
+     "what students need to pack",
+     "what good habits they should follow on the night",
+     "what they mustn't do",
+     "why it is important to get ready well",
+     "use modal verbs (should, shouldn't, must, mustn't, need to)"
+    ],
+    "min": 60,
+    "max": 90,
+    "needTitle": false,
+    "starters": [
+     "Before the sleepover, you need to ...",
+     "You should pack ...",
+     "On the night, you should ...",
+     "You mustn't ...",
+     "This is important because ..."
+    ],
+    "models": [
+     {
+      "level": "Developing",
+      "text": "For the sleepover you need bring a sleeping bag, pyjamas and a toothbrush. You should packing a torch too. At night you should listen the teacher and stay with your class. You mustn't run in the corridors. It is very fun to sleep at school with all your friends and watch a film together.",
+      "notes": [
+       "Task achievement and content 1/2: what to pack, a good habit and one thing you mustn't do are there, but it never says why getting ready is important.",
+       "Organisation and layout 1/2: one short paragraph in a sensible order, but only 'and' and 'too' link the ideas.",
+       "Grammar 1/2: modal verbs are used, but with three mistakes: 'need bring' should be 'need to bring', 'should packing' should be 'should pack', and 'listen the teacher' should be 'listen to the teacher'.",
+       "Vocabulary and spelling 1/2: simple sleepover words (sleeping bag, pyjamas, torch) spelled correctly, but 'very fun' is not quite right; say 'great fun'.",
+       "Fluency 1/2: full sentences with capital letters and full stops, but it is a little short (only 5 sentences)."
+      ],
+      "marks": {
+       "content": 1,
+       "organisation": 1,
+       "grammar": 1,
+       "vocabulary": 1,
+       "fluency": 1
+      }
+     },
+     {
+      "level": "Secure",
+      "text": "Before the school sleepover, you need to pack a sleeping bag, a pillow, your pyjamas and a toothbrush. You should also bring a torch and a water bottle. A small book is useful too. On the night, you should listen to the teachers and stay with your group. You mustn't walk around the school alone in the dark. You shouldn't stay awake too late, because you will be tired the next day. It is important to get ready well, so you can enjoy the night with your friends.",
+      "notes": [
+       "Task achievement and content 2/2: every bullet point is covered: what to pack, good habits, what you mustn't do and why it matters.",
+       "Organisation and layout 1/2: the ideas are in a good order, but it is one long paragraph and the linking words are simple (also, because, so).",
+       "Grammar 2/2: a good range of correct modal verbs: need to, should, mustn't, shouldn't.",
+       "Vocabulary and spelling 1/2: spelling is correct, but the words are quite simple and 'should' is repeated a lot.",
+       "Fluency 1/2: complete, correct sentences, but many start with 'You', so it doesn't flow very smoothly yet."
+      ],
+      "marks": {
+       "content": 2,
+       "organisation": 1,
+       "grammar": 2,
+       "vocabulary": 1,
+       "fluency": 1
+      }
+     },
+     {
+      "level": "Excellent",
+      "text": "Getting ready for a school sleepover is exciting, but you need to plan carefully. First, you should pack a warm sleeping bag, comfortable pyjamas, a toothbrush and a small torch. You must also write your name on everything, because bags easily get mixed up. On the night, you should follow the teachers' instructions. However, you mustn't wander around the dark corridors alone. Finally, you shouldn't chat all night. If you prepare well, you will feel safe, sleep well and enjoy the best night of the term!",
+      "notes": [
+       "Task achievement and content 2/2: all bullet points are covered with useful detail (names on bags, why to sleep, feeling safe).",
+       "Organisation and layout 2/2: a clear opening and ending, and the advice is in order with First, However and Finally.",
+       "Grammar 2/2: accurate and varied modal verbs (need to, should, must, mustn't, shouldn't) and an 'If' sentence.",
+       "Vocabulary and spelling 2/2: good topic words (comfortable, instructions, wander, corridors, prepare), all spelled correctly.",
+       "Fluency 2/2: 7 smooth, complete sentences that are easy to read."
+      ],
+      "marks": {
+       "content": 2,
+       "organisation": 2,
+       "grammar": 2,
+       "vocabulary": 2,
+       "fluency": 2
+      }
+     }
+    ]
+   },
+   {
+    "id": "sw2",
+    "task": 2,
+    "dok": 2,
+    "lo": [
+     "5Wc.02",
+     "5Wc.03",
+     "5Wca.02",
+     "5Wca.04",
+     "5Wor.02",
+     "5Ug.11"
+    ],
+    "title": "The best family celebration I would plan",
+    "prompt": "Write 1 to 2 paragraphs (7 to 8 sentences) about the best family celebration you would plan. It can be real or imaginary. Use descriptive adjectives, at least one comparative or superlative, and connectives. Check your spelling, grammar and punctuation.",
+    "bullets": [
+     "what the celebration is and what it would look like",
+     "what makes it special or interesting",
+     "what you and your family would do",
+     "why you chose it",
+     "use adjectives and at least one comparative or superlative"
+    ],
+    "min": 60,
+    "max": 90,
+    "needTitle": false,
+    "starters": [
+     "The best celebration I would plan is ...",
+     "It would look ...",
+     "It would be special because ...",
+     "First, we would ...",
+     "I chose it because ..."
+    ],
+    "models": [
+     {
+      "level": "Developing",
+      "text": "I would plan a party for my grandpa birthday. It would be in our house. There is a big cake and many balloon. We would sing songs and eat noodles together. It would be the most big party in my family. I chose it because I love my grandpa very much.",
+      "notes": [
+       "Task achievement and content 1/2: it says what the party is, what they would do and why, but it doesn't really say what makes it special.",
+       "Organisation and layout 1/2: one short paragraph in a sensible order, but there are almost no linking words.",
+       "Grammar 1/2: 'would' is used well, but there are mistakes: 'my grandpa birthday' should be 'my grandpa's birthday', 'There is' should be 'There would be', and 'the most big' should be 'the biggest'.",
+       "Vocabulary and spelling 1/2: simple words only, and 'many balloon' needs an s: 'many balloons'.",
+       "Fluency 1/2: full sentences with capitals and full stops, but it is short (only 6 sentences)."
+      ],
+      "marks": {
+       "content": 1,
+       "organisation": 1,
+       "grammar": 1,
+       "vocabulary": 1,
+       "fluency": 1
+      }
+     },
+     {
+      "level": "Secure",
+      "text": "The best celebration I would plan is a Tet party at my grandparents' house in the countryside. The garden would look bright and colourful. There would be red lanterns and yellow flowers everywhere. It would be special because all my cousins would come, even the ones who live far away. We would cook a big feast and play games. At midnight, we would watch the fireworks. I chose it because Tet is the happiest time of the year for my family.",
+      "notes": [
+       "Task achievement and content 2/2: all four bullet points are covered with some detail.",
+       "Organisation and layout 1/2: a clear order, but it is one paragraph and the only linking word is 'because'.",
+       "Grammar 2/2: correct 'would' sentences, a relative clause ('the ones who live far away') and a correct superlative ('the happiest').",
+       "Vocabulary and spelling 1/2: spelling is correct, but the describing words are quite simple (big, bright); try some more exact adjectives.",
+       "Fluency 2/2: complete sentences that read smoothly."
+      ],
+      "marks": {
+       "content": 2,
+       "organisation": 1,
+       "grammar": 2,
+       "vocabulary": 1,
+       "fluency": 2
+      }
+     },
+     {
+      "level": "Excellent",
+      "text": "The best celebration I would plan is a surprise party for my parents' anniversary. It would be on a boat on the river at night. Hundreds of tiny golden lights would shine above us. First, we would share a delicious feast of grilled fish and sticky rice. Then my sister and I would show a funny video of our happiest moments. It would be more special than a birthday, because my parents never celebrate it. I chose this idea because they work hard and deserve the most wonderful evening!",
+      "notes": [
+       "Task achievement and content 2/2: every bullet point is covered with interesting detail (the boat, the lights, the video, the reason).",
+       "Organisation and layout 2/2: ideas are in a clear order with First, Then and because, and the ending sums up the choice.",
+       "Grammar 2/2: accurate 'would' sentences, a comparative ('more special than') and two superlatives ('happiest', 'the most wonderful').",
+       "Vocabulary and spelling 2/2: rich adjectives (tiny, golden, delicious, sticky, funny, wonderful) and topic words (anniversary, feast), all spelled correctly.",
+       "Fluency 2/2: 7 smooth, varied sentences that are easy and enjoyable to read."
+      ],
+      "marks": {
+       "content": 2,
+       "organisation": 2,
+       "grammar": 2,
+       "vocabulary": 2,
+       "fluency": 2
+      }
+     }
+    ]
+   }
+  ]
+ }
+}
