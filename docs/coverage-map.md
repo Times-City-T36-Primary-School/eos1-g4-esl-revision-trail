@@ -24,4 +24,4 @@ Items = questions in See it challenges, both games and the Mini test, counting b
 | 2 Reading and Use of English | 35 min | Part 1 (5), Part 2 (7), Part 3 (5), Part 4 (7), Part 5 (5), Part 6 (5) | 34 | 13 / 21 |
 | 3 Writing | 35 min | Task 1 and Task 2 (60 to 90 words each) | 2 tasks | self-marked with the school rubric |
 
-Recordings: 32 in all.
+Recordings: 101 in all.

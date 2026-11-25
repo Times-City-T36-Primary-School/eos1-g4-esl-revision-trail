@@ -8,7 +8,7 @@ Owner: Jovan Tacatani, Vice Principal (Cambridge Advanced Programme). He is not 
 
 | Path | What it is |
 | --- | --- |
-| `dist/index.html` + `dist/audio/*.mp3` + `dist/img/emoji/*.svg` | The finished app (one HTML page + 32 recordings + the picture set). This is what gets published. |
+| `dist/index.html` + `dist/audio/*.mp3` + `dist/img/emoji/*.svg` | The finished app (one HTML page + 101 recordings + the picture set). This is what gets published. |
 | `app/src/` | The app source: 151 parts (CSS and JS) joined in the order of `app/src/_order.txt`. |
 | `app/audio/` | One manifest per stop of every recording (who says what), plus `cache.json` (which recordings are up to date). |
 | `content/stop1.json` to `stop9.json`, `content/summit.json` | ALL the questions, texts, listening scripts, writing tasks and model answers. The source of truth for content. |

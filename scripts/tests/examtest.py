@@ -21,12 +21,12 @@ async def main():
         print('playing:', await au.locator('.au__count').inner_text(), '| button disabled:', await au.locator('.au__btn').is_disabled())
         # jump to the end of play 1
         await pg.evaluate("() => { const a = [...document.querySelectorAll('audio')]; }")
-        for k in range(60):
+        for k in range(150):
             t = await au.locator('.au__count').inner_text()
             if 'again in' in t: break
             await pg.wait_for_timeout(1000)
         print('gap:', await au.locator('.au__count').inner_text())
-        for k in range(60):
+        for k in range(150):
             t = await au.locator('.au__count').inner_text()
             if 'two times' in t: break
             await pg.wait_for_timeout(1000)
