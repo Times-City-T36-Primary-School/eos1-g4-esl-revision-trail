@@ -45,7 +45,7 @@ Never edit `app/src/22-pack-stop*.js` or `22-summit-esl.js` by hand: they are ge
 ## Publishing
 
 The app is a private claude.ai artifact (multi-file: `index.html` + `audio/*.mp3` + `img/emoji/*.svg`), published with the Artifact tool (more than 255 files go up over two publishes to the same URL).
-- Live artifact (25 November 2026): (to be added after publishing)
+- Live artifact (25 November 2026): https://claude.ai/artifact/UmN3rde6WuJXEsewB8m8HQ
 - Website (GitHub Pages, `main` / root): https://times-city-t36-primary-school.github.io/eos1-g4-esl-revision-trail/ (the root `index.html` opens `dist/`).
 - Backups: zips in the grade's Google Drive folder (source, page, audio), never with the papers.
 
