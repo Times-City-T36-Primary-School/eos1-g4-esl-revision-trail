@@ -1,10 +1,10 @@
 # Architecture
 
-The app is ONE HTML page (`dist/index.html`, about 3.4 MB) plus 103 MP3 recordings in `dist/audio/` and the picture set in `dist/img/emoji/` (Fluent Emoji SVGs, made by `scripts/emoji_build.py`). Publish all three. There is no server and no framework: plain CSS and JavaScript on a global object `T`, a hash router, and saved data in the browser's localStorage.
+The app is ONE HTML page (`dist/index.html`, about 3.4 MB) plus 32 MP3 recordings in `dist/audio/` and the picture set in `dist/img/emoji/` (Fluent Emoji SVGs, made by `scripts/emoji_build.py`). Publish all three. There is no server and no framework: plain CSS and JavaScript on a global object `T`, a hash router, and saved data in the browser's localStorage.
 
 ## How the page is made
 
-`app/src/` holds 150 parts. `scripts/build.py app/src dist/index.html` joins them in the order of `app/src/_order.txt`:
+`app/src/` holds 151 parts. `scripts/build.py app/src dist/index.html` joins them in the order of `app/src/_order.txt`:
 
 - `_head.html`, `_css_pre.css`, then every `NN-name.css`, `_mid.html`, `_js_pre.js`, every `NN-name.js`, `_tail.html`.
 - The number at the start of a part's name is its load order. Each part starts with a comment that says what it does.
@@ -27,7 +27,7 @@ Some maths-only parts (maths tools, maths art, `08-g5-models-s*.js`) are still i
 
 | Part | What it does |
 | --- | --- |
-| `20-stops.js` | The nine ESL stops, the Stage 6 learning objectives, DOK settings (Mini test = 5 DOK 1 then 5 DOK 2), no TWM |
+| `20-stops.js` | The nine ESL stops, the Stage 5 learning objectives, DOK settings (Mini test = 5 DOK 1 then 5 DOK 2), no TWM |
 | `22-pack-stop1.js` to `22-pack-stop9.js` | Generated from `content/stopN.json` by `scripts/convert.py` |
 | `22-summit-esl.js` | Generated from `content/summit.json` by `scripts/convert_summit.py` |
 | `02-esl-badges.js` | The nine stop badges (an emoji on a ring in the world colour) |
@@ -35,9 +35,9 @@ Some maths-only parts (maths tools, maths art, `08-g5-models-s*.js`) are still i
 | `39-esl-tools.js` | Picture kinds `stim` (a shared text, dialogue or talk) and `pico` (a picture answer: emoji + tag); the listening player (two plays on a test paper, "Show the words" in practice); `T.esl.dedupe` (a shared text shows once on a paper); ESL See it scenes |
 | `39-numpad.js` (patched) | A letter pad with numbers, colon, full stop, apostrophe and hyphen for typed answers; the physical keyboard also works |
 | `56-kit-write.js` | The Writing desk (Stop 9 game and the Summit Writing paper): word counter with target zone, bullet checklist, language spotter, self-mark with the school rubric words, three model answers |
-| `79-summit-esl.js` | The ESL Summit: Paper 1 Listening (19, 25 min), Paper 2 Reading and Use of English (34, 35 min) with Part headings and real question numbers; Paper 3 Writing (route `summit-writing`) |
+| `79-summit-esl.js` | The ESL Summit: Paper 1 Listening (15, 25 min), Paper 2 Reading and Use of English (34, 35 min) with Part headings and real question numbers; Paper 3 Writing (route `summit-writing`) |
 | `39-esl.css` | Styles for all of the above |
-| Patches | `45-see.js` (ESL scenes), `52-kit-model.js` and `71-test-paper.js` (a shared text above the question), `70-test.js` and `79-summit.js` (strands L, U, R, W; timers; Part headings), `25-players.js`, `00-core.js`, `17-guide.js` (saved-data keys `g5-esl-trail-*`), `10-ui.js` (speech-bubble brand mark), text files (ESL wording; Summit opens after 4 Mini tests) |
+| Patches | `45-see.js` (ESL scenes), `52-kit-model.js` and `71-test-paper.js` (a shared text above the question), `70-test.js` and `79-summit.js` (strands L, U, R, W; timers; Part headings), `25-players.js`, `00-core.js`, `17-guide.js` (saved-data keys `g4-esl-trail-*`), `10-ui.js` (speech-bubble brand mark), text files (ESL wording; the Summit is open for everyone) |
 
 ## Routes
 

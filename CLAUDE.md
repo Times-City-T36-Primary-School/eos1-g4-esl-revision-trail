@@ -1,6 +1,6 @@
-# EOS 1 – G5 ESL Revision Trail: instructions for Claude Code
+# EOS 1 – G4 ESL Revision Trail: instructions for Claude Code
 
-You are working on the **EOS 1 – G5 ESL Revision Trail**: a revision web app for Grade 5 students at Vinschool Times City (T36), Cambridge Advanced Programme. It covers the End of Semester 1 ESL exam (Cambridge Primary English as a Second Language, Stage 6, Units 1 to 4). It is the ESL member of a family of EOS1 trails (G3 to G5 Maths and Science) and runs on the same engine as the G5 Maths trail.
+You are working on the **EOS 1 – G4 ESL Revision Trail**: a revision web app for Grade 4 students at Vinschool Times City (T36), Cambridge Advanced Programme. It covers the End of Semester 1 ESL exam (Cambridge Primary English as a Second Language, Stage 5, Units 1 to 4: Talking about people; Food and health; Places; Special occasions). It was built on 25 November 2026 from the Grade 5 ESL trail (github.com/vjovan-a11y/eos1-g5-esl-revision-trail) with the playbook in that repository, and keeps its engine and look.
 
 Owner: Jovan Tacatani, Vice Principal (Cambridge Advanced Programme). He is not technical: explain steps plainly, and do the work rather than handing it back.
 
@@ -8,8 +8,8 @@ Owner: Jovan Tacatani, Vice Principal (Cambridge Advanced Programme). He is not 
 
 | Path | What it is |
 | --- | --- |
-| `dist/index.html` + `dist/audio/*.mp3` + `dist/img/emoji/*.svg` | The finished app (one HTML page + 103 recordings + the picture set). This is what gets published. |
-| `app/src/` | The app source: 150 parts (CSS and JS) joined in the order of `app/src/_order.txt`. |
+| `dist/index.html` + `dist/audio/*.mp3` + `dist/img/emoji/*.svg` | The finished app (one HTML page + 32 recordings + the picture set). This is what gets published. |
+| `app/src/` | The app source: 151 parts (CSS and JS) joined in the order of `app/src/_order.txt`. |
 | `app/audio/` | One manifest per stop of every recording (who says what), plus `cache.json` (which recordings are up to date). |
 | `content/stop1.json` to `stop9.json`, `content/summit.json` | ALL the questions, texts, listening scripts, writing tasks and model answers. The source of truth for content. |
 | `docs/` | The design documents: exam-style guide, content format, stop briefs, learning objectives, decisions, architecture, item security, coverage. Read these before changing anything. |
@@ -28,6 +28,7 @@ python3 scripts/tts_build.py            # or: python3 scripts/tts_build.py 4 5 s
 # 4. join the parts into the page
 python3 scripts/build.py app/src dist/index.html
 # 5. open it in a headless browser and look for errors (needs playwright + Chrome)
+python3 scripts/quality_check.py        # must end with QUALITY OK
 python3 scripts/walk.py "home,stop-1,stop-4-test,summit" 1280 900    # prints "no errors"; screenshots in /tmp/w*.png
 ```
 
@@ -43,10 +44,10 @@ Never edit `app/src/22-pack-stop*.js` or `22-summit-esl.js` by hand: they are ge
 
 ## Publishing
 
-The app is a claude.ai artifact (multi-file: `index.html` + `audio/*.mp3`), published with the claude-artifacts `publish_files` tool.
-- Live artifact (since 25 November 2026): https://claude.ai/artifact/LoQE6GoHcH9gbz6QAerMXe (publish `index.html` with `files` for `audio/*.mp3` and `img/emoji/*.svg`; more than 255 files go up over two publishes to the same URL).
-- The first version (before the 25 November review) is at https://claude.ai/artifact/Kxdsd2ShBmx83GV8byznSk.
-- To republish: `get_artifact` for the live version, then `publish_files` with `slug`, `base_version`, mode `replace`, and every file (`index.html` and every `audio/*.mp3`).
+The app is a private claude.ai artifact (multi-file: `index.html` + `audio/*.mp3` + `img/emoji/*.svg`), published with the Artifact tool (more than 255 files go up over two publishes to the same URL).
+- Live artifact (25 November 2026): (to be added after publishing)
+- Website (GitHub Pages, `main` / root): https://times-city-t36-primary-school.github.io/eos1-g4-esl-revision-trail/ (the root `index.html` opens `dist/`).
+- Backups: zips in the grade's Google Drive folder (source, page, audio), never with the papers.
 
 ## Rules that must not be broken
 
@@ -56,7 +57,7 @@ The app is a claude.ai artifact (multi-file: `index.html` + `audio/*.mp3`), publ
 4. Vietnamese (`vi`) is only for instructions, titles and word meanings, never for the English being tested.
 5. Mini tests: exactly 10 items, 5 at DOK 1 then 5 at DOK 2. Three options per multiple-choice question, one right answer, `opts[0]` is the right one and `at` says where it is shown.
 6. Keep the behaviour of the EOS1 trails: Student / Teacher / Visitor sign-in, progress codes, How to use guide, Zip the robot, the VI button, stars and badges, the school label line. The LOOK is this trail's own (Jovan, 25 November 2026): the paper look with ink cartoon animation (`99-paper.css`, `99-cartoon.css`), black line-drawing pictures, Map and Stops buttons.
-7. Browser tests for every feature are in `scripts/tests/` (see its README). The plan for building the Grade 3 and Grade 4 trails from this one is `playbook/PLAYBOOK-G3-G4.md`.
+7. Browser tests for every feature are in `scripts/tests/` (see its README). `scripts/quality_check.py` checks the Grade 5 lessons (answer length, "but" pattern, British spelling, em dashes, Summit freshness, Mini test shape).
 
 ## Where to start
 
