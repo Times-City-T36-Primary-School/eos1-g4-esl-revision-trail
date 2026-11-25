@@ -707,7 +707,7 @@
          "whys": [
           null,
           "They already have a plan. Viet is saying he can't come.",
-          "Viet's mum isn't coming anyway: she says Viet must stay in bed."
+          "Viet's mum isn't part of the plan. She only says Viet must stay in bed."
          ],
          "letters": true,
          "fig": {
@@ -1188,13 +1188,13 @@
          "q": "What should parents who drive do in the morning?",
          "opts": [
           "park in another street",
-          "wait inside the school bus",
+          "send their children on the school bus",
           "stop outside the gate at 7.30"
          ],
          "at": 2,
          "whys": [
           null,
-          "The buses need the space. Parents don't wait in them.",
+          "The notice doesn't ask parents to use the buses. It tells them where to park.",
           "7.30 is between 7.15 and 7.45, so parents mustn't park outside the gate then."
          ],
          "letters": true,
@@ -1278,9 +1278,9 @@
         },
         {
          "hint": {
-          "step": "Read the first part: lunch is given at the farm. So is bringing food necessary?"
+          "step": "Read the first part: the farm gives everyone lunch. So is bringing food necessary?"
          },
-         "worked": "'Lunch is provided..., <b>so</b> you <b>don't need to</b> bring food.'",
+         "worked": "'The farm gives everyone lunch, <b>so</b> you <b>don't need to</b> bring food.'",
          "type": "mcq",
          "q": "Which option correctly completes the notice?",
          "opts": [
@@ -1291,7 +1291,7 @@
          "at": 2,
          "whys": [
           null,
-          "'Mustn't' means it is not allowed, but the notice only says lunch is ready for you.",
+          "'Mustn't' means it is not allowed, but the notice only says the farm gives you lunch.",
           "'Could' doesn't say if something is necessary or not."
          ],
          "letters": true,
@@ -1300,7 +1300,7 @@
           "id": "s6-e8",
           "kind": "text",
           "head": "Notice about the farm trip",
-          "html": "FARM TRIP: Lunch is provided at the farm, so you ________ bring food. Please bring a water bottle and a sun hat."
+          "html": "FARM TRIP: The farm gives everyone lunch, so you ________ bring food. Please bring a water bottle and a sun hat."
          }
         }
        ]
@@ -2356,7 +2356,7 @@
       "type": "mcq",
       "q": "What does Viet want An to do?",
       "opts": [
-       "lend him some pencils for a few days",
+       "let him borrow some pencils for a short time",
        "help him to make a poster tomorrow",
        "give back his pencils on Friday"
       ],
@@ -2364,7 +2364,7 @@
       "whys": [
        null,
        "Viet is making the poster himself. He only needs the pencils.",
-       "Viet will give the pencils back on Friday. They are An's pencils."
+       "The pencils are An's. Viet is the one who will give them back on Friday."
       ],
       "letters": true,
       "fig": {
@@ -2418,7 +2418,7 @@
        ],
        [
         "G",
-        "Nine? That's early! I hope I can wake up."
+        "Nine? That's early! I usually sleep until ten on Sundays."
        ],
        [
         "H",
@@ -2431,7 +2431,7 @@
        "id": "s6-d3",
        "kind": "text",
        "head": "Conversation: Alice and Luca",
-       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. My dad can pick you up at half past eight.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
+       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. I'll phone you at eight to wake you up.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
       }
      },
      {
@@ -2497,7 +2497,7 @@
       "hint": {
        "step": "Alice's next line starts 'Don't worry.'. Find a line that shows a small problem."
       },
-      "worked": "'The boat leaves at <b>nine</b>.' '<b>Nine? That's early!</b> I hope I can wake up.' 'Don't worry. My dad can pick you up.' (G)",
+      "worked": "'The boat leaves at <b>nine</b>.' '<b>Nine? That's early! I usually sleep until ten on Sundays.</b>' 'Don't worry. I'll <b>phone you at eight</b> to wake you up.' (G)",
       "type": "bank",
       "q": "Choose the best answer for gap 14.",
       "bank": [
@@ -2527,7 +2527,7 @@
        ],
        [
         "G",
-        "Nine? That's early! I hope I can wake up."
+        "Nine? That's early! I usually sleep until ten on Sundays."
        ],
        [
         "H",
@@ -2540,7 +2540,7 @@
        "id": "s6-d3",
        "kind": "text",
        "head": "Conversation: Alice and Luca",
-       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. My dad can pick you up at half past eight.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
+       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. I'll phone you at eight to wake you up.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
       }
      },
      {
@@ -2636,7 +2636,7 @@
        ],
        [
         "G",
-        "Nine? That's early! I hope I can wake up."
+        "Nine? That's early! I usually sleep until ten on Sundays."
        ],
        [
         "H",
@@ -2649,7 +2649,7 @@
        "id": "s6-d3",
        "kind": "text",
        "head": "Conversation: Alice and Luca",
-       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. My dad can pick you up at half past eight.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
+       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. I'll phone you at eight to wake you up.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
       }
      },
      {
@@ -2745,7 +2745,7 @@
        ],
        [
         "G",
-        "Nine? That's early! I hope I can wake up."
+        "Nine? That's early! I usually sleep until ten on Sundays."
        ],
        [
         "H",
@@ -2758,7 +2758,7 @@
        "id": "s6-d3",
        "kind": "text",
        "head": "Conversation: Alice and Luca",
-       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. My dad can pick you up at half past eight.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
+       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. I'll phone you at eight to wake you up.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
       }
      },
      {
@@ -2854,7 +2854,7 @@
        ],
        [
         "G",
-        "Nine? That's early! I hope I can wake up."
+        "Nine? That's early! I usually sleep until ten on Sundays."
        ],
        [
         "H",
@@ -2867,7 +2867,7 @@
        "id": "s6-d3",
        "kind": "text",
        "head": "Conversation: Alice and Luca",
-       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. My dad can pick you up at half past eight.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
+       "html": "Alice: Hi Luca! What are you doing on Sunday?<br>Luca: (0) <b>E</b><br>Alice: My dad and I are taking a boat trip on Silver Lake to see the birds. Do you want to come with us?<br>Luca: (13) ________<br>Alice: About two hours. The boat leaves at nine o'clock in the morning.<br>Luca: (14) ________<br>Alice: Don't worry. I'll phone you at eight to wake you up.<br>Luca: (15) ________<br>Alice: Lots! Ducks, herons and kingfishers. They're small blue birds which catch fish.<br>Luca: (16) ________<br>Alice: Good idea. But remember, you mustn't stand up on the boat.<br>Luca: (17) ________<br>Alice: Yes, mosquito spray. There are lots of mosquitoes near the water."
       }
      },
      {
@@ -3112,7 +3112,7 @@
     ]
    ],
    [
-    "I ___ football after school today.",
+    "I ___ football after school tomorrow.",
     [
      "am playing",
      "played",

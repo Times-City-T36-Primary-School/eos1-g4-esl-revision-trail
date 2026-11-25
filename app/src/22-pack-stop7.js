@@ -87,7 +87,7 @@
    "preposition": {
     "art": "e-s7-4",
     "vi": "giới từ",
-    "def": "A small word like at, in, of or about. It often comes after an adjective. Example: In 'good at maths', 'at' is a *preposition*."
+    "def": "A small word like at, in, of or about, as in 'good at' or 'in the box'. Example: In 'good at maths', 'at' is a *preposition*."
    },
    "quantifier": {
     "art": "e-s7-5",
@@ -1622,7 +1622,7 @@
     "v": [
      {
       "hint": {
-       "step": "'On Monday' was last week. Which box word is a past form of 'be' for 'I'?"
+       "step": "'On Monday' was last week, when Molly was ill. Which box word is a past form of 'be' for 'I'?"
       },
       "worked": "Last week, with <b>I</b>: I <b>was</b> too tired.",
       "type": "tfill",
@@ -1640,7 +1640,7 @@
        "id": "s7-t1",
        "kind": "text",
        "head": "Letter from Molly",
-       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (18) ________ too tired to get out of bed. Mum took me to see a doctor (19) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (20) ________ before! Are you still interested (21) ________ joining the chess club with me? I (22) ________ going back to school on Monday, so we can sign up together.<br>See you soon,<br>Molly"
+       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (18) ________ too tired to get out of bed. Mum took me to see a doctor (19) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (20) ________ before! Are you still interested (21) ________ joining the chess club with me? I (22) ________ going back to school next Monday, so we can sign up together.<br>See you soon,<br>Molly"
       }
      },
      {
@@ -1695,7 +1695,7 @@
        "id": "s7-t1",
        "kind": "text",
        "head": "Letter from Molly",
-       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (18) ________ too tired to get out of bed. Mum took me to see a doctor (19) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (20) ________ before! Are you still interested (21) ________ joining the chess club with me? I (22) ________ going back to school on Monday, so we can sign up together.<br>See you soon,<br>Molly"
+       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (18) ________ too tired to get out of bed. Mum took me to see a doctor (19) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (20) ________ before! Are you still interested (21) ________ joining the chess club with me? I (22) ________ going back to school next Monday, so we can sign up together.<br>See you soon,<br>Molly"
       }
      },
      {
@@ -1750,7 +1750,7 @@
        "id": "s7-t1",
        "kind": "text",
        "head": "Letter from Molly",
-       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (18) ________ too tired to get out of bed. Mum took me to see a doctor (19) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (20) ________ before! Are you still interested (21) ________ joining the chess club with me? I (22) ________ going back to school on Monday, so we can sign up together.<br>See you soon,<br>Molly"
+       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (18) ________ too tired to get out of bed. Mum took me to see a doctor (19) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (20) ________ before! Are you still interested (21) ________ joining the chess club with me? I (22) ________ going back to school next Monday, so we can sign up together.<br>See you soon,<br>Molly"
       }
      },
      {
@@ -1804,7 +1804,7 @@
        "id": "s7-t1",
        "kind": "text",
        "head": "Letter from Molly",
-       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (18) ________ too tired to get out of bed. Mum took me to see a doctor (19) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (20) ________ before! Are you still interested (21) ________ joining the chess club with me? I (22) ________ going back to school on Monday, so we can sign up together.<br>See you soon,<br>Molly"
+       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (18) ________ too tired to get out of bed. Mum took me to see a doctor (19) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (20) ________ before! Are you still interested (21) ________ joining the chess club with me? I (22) ________ going back to school next Monday, so we can sign up together.<br>See you soon,<br>Molly"
       }
      },
      {
@@ -1840,13 +1840,13 @@
     "v": [
      {
       "hint": {
-       "step": "This is a plan for next Monday. Which helping verb goes with 'I' + -ing?"
+       "step": "'next Monday' is a plan. Which helping verb goes with 'I' + -ing?"
       },
-      "worked": "A plan: I <b>am going</b> back to school on Monday (present continuous).",
+      "worked": "A plan with <b>next Monday</b>: I <b>am going</b> back to school (present continuous).",
       "type": "tfill",
       "q": "Read the letter. Write ONE word from the box for gap 22.",
       "lines": [
-       "I {0} going back to school on Monday, so we can sign up together."
+       "I {0} going back to school next Monday, so we can sign up together."
       ],
       "ans": [
        [
@@ -1859,7 +1859,7 @@
        "id": "s7-t1",
        "kind": "text",
        "head": "Letter from Molly",
-       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (18) ________ too tired to get out of bed. Mum took me to see a doctor (19) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (20) ________ before! Are you still interested (21) ________ joining the chess club with me? I (22) ________ going back to school on Monday, so we can sign up together.<br>See you soon,<br>Molly"
+       "html": "<b>Word box:</b> am, at, for, in, than, to, was, who<br><br><b>Feeling better</b><br>Dear Long,<br>Thank you (0) <b>for</b> the funny get-well card! Last week I had a bad cold with a sore throat and a runny nose. On Monday I (18) ________ too tired to get out of bed. Mum took me to see a doctor (19) ________ was very kind. She told me to drink lots of water and sleep a lot. Now I'm feeling much better, and I'm hungrier (20) ________ before! Are you still interested (21) ________ joining the chess club with me? I (22) ________ going back to school next Monday, so we can sign up together.<br>See you soon,<br>Molly"
       }
      },
      {
@@ -2494,10 +2494,10 @@
     ]
    ],
    [
-    "You ___ run near the pool.",
+    "You ___ run near the pool. It's dangerous.",
     [
      "mustn't",
-     "needn't",
+     "need to",
      "should"
     ]
    ],

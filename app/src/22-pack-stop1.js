@@ -2171,7 +2171,7 @@
     ]
    ],
    [
-    "My cold is ___ today. I feel awful.",
+    "My cold is ___ today than yesterday.",
     [
      "worse",
      "worst",
@@ -2207,7 +2207,7 @@
     [
      "generous",
      "selfish",
-     "lazy"
+     "bad-tempered"
     ]
    ],
    [
@@ -2239,7 +2239,7 @@
     [
      "outgoing",
      "shy",
-     "nervous"
+     "bad-tempered"
     ]
    ],
    [
@@ -2287,7 +2287,7 @@
     [
      "bowl",
      "bunch",
-     "sack"
+     "pinch"
     ]
    ],
    [
@@ -2299,11 +2299,11 @@
     ]
    ],
    [
-    "A ___ of salt",
+    "A very small amount of salt:",
     [
-     "pinch",
-     "bunch",
-     "sack"
+     "a pinch",
+     "a sack",
+     "a bunch"
     ]
    ],
    [

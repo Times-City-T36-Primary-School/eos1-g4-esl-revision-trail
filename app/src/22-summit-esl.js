@@ -59,7 +59,7 @@
         "whys": [
          null,
          "Emily asks about flowers first, but Dad says Grandma has lots in her garden.",
-         "Aunt Hoa always gives Grandma tea, so Emily doesn't choose tea."
+         "Emily's aunt always gives Grandma tea, so Emily doesn't choose tea."
         ],
         "letters": true,
         "sub": "Tap one picture.",
@@ -77,12 +77,12 @@
           [
            "bm_george",
            "Dad",
-           "She's got lots of flowers in her garden. What about some green tea? She loves tea."
+           "She's got lots of flowers in her garden. What about some tea? She loves tea."
           ],
           [
            "bf_lily",
            "Emily",
-           "Aunt Hoa always gives her tea! But Grandma's always cold in the evenings."
+           "My aunt always gives her tea! But Grandma's always cold in the evenings."
           ],
           [
            "bm_george",
@@ -112,7 +112,7 @@
         },
         "worked": "Mum says 'The parade starts at seven o'clock.' Half past six is when they give out the lanterns, and half past seven is when it finishes.",
         "type": "mcq",
-        "q": "What time does the lantern parade start this year?",
+        "q": "What time does the lantern parade start?",
         "opts": [
          {
           "html": "",
@@ -164,7 +164,7 @@
           [
            "bf_emma",
            "Mum",
-           "No, half past six is when they give out the lanterns at the park gate. The parade starts at seven o'clock."
+           "No, half past six is when they give out the lanterns. The parade starts at seven o'clock."
           ],
           [
            "bm_lewis",
@@ -174,7 +174,7 @@
           [
            "bf_emma",
            "Mum",
-           "Yes, we'll be at the gate at half past six. And the parade finishes at half past seven."
+           "Yes, let's be there at half past six. The parade finishes at half past seven."
           ]
          ]
         }
@@ -251,12 +251,12 @@
           [
            "bf_alice",
            "Chi",
-           "Oh no. Is it because of his cough?"
+           "Oh no. Is his cough worse too?"
           ],
           [
            "bf_emma",
            "Mum",
-           "Maybe. His cough is much better now, but the doctor is going to look at his ear this afternoon."
+           "No, his cough is much better now. The doctor will look at his ear this afternoon."
           ]
          ]
         }
@@ -434,7 +434,7 @@
    {
     "n": 2,
     "title": "Part 2",
-    "instr": "You will hear a teacher talking to her class about a lantern-making afternoon. For each question, write the missing information. Write one word or a number or a date.",
+    "instr": "You will hear a teacher talking to her class about a lantern-making afternoon. For each question, write the missing information. Write one word or a number or a date or a time.",
     "items": [
      {
       "num": 6,
@@ -464,7 +464,12 @@
           "thursday 18th",
           "thursday the 18th",
           "thursday the eighteenth",
-          "eighteen"
+          "eighteen",
+          "18 september",
+          "18th september",
+          "the 18th of september",
+          "the eighteenth of september",
+          "thursday 18th september"
          ]
         ],
         "fig": {
@@ -626,9 +631,10 @@
           "3",
           "three",
           "3.00",
-          "3.00p",
           "three pounds",
-          "3 pounds"
+          "3 pounds",
+          "£3",
+          "£3.00"
          ]
         ],
         "fig": {
@@ -689,17 +695,7 @@
           [
            "bf_lily",
            "Luna",
-           "Hi, Tam! Did you have a nice weekend?"
-          ],
-          [
-           "bm_lewis",
-           "Tam",
-           "Yes! My cousin got married on Saturday."
-          ],
-          [
-           "bf_lily",
-           "Luna",
-           "Was the wedding in a big hotel?"
+           "Hi, Tam! Was your cousin's wedding in a big hotel?"
           ],
           [
            "bm_lewis",
@@ -709,7 +705,7 @@
           [
            "bf_lily",
            "Luna",
-           "Lovely! Did your mum and dad go with you?"
+           "Lovely! Did your mum and dad go too?"
           ],
           [
            "bm_lewis",
@@ -744,7 +740,7 @@
           [
            "bm_lewis",
            "Tam",
-           "The food was delicious, and the dancing was even more fun. But the fireworks at the end were the best!"
+           "The fireworks at the end were the best! The food was delicious, and the dancing was even more fun."
           ],
           [
            "bf_lily",
@@ -796,17 +792,7 @@
           [
            "bf_lily",
            "Luna",
-           "Hi, Tam! Did you have a nice weekend?"
-          ],
-          [
-           "bm_lewis",
-           "Tam",
-           "Yes! My cousin got married on Saturday."
-          ],
-          [
-           "bf_lily",
-           "Luna",
-           "Was the wedding in a big hotel?"
+           "Hi, Tam! Was your cousin's wedding in a big hotel?"
           ],
           [
            "bm_lewis",
@@ -816,7 +802,7 @@
           [
            "bf_lily",
            "Luna",
-           "Lovely! Did your mum and dad go with you?"
+           "Lovely! Did your mum and dad go too?"
           ],
           [
            "bm_lewis",
@@ -851,7 +837,7 @@
           [
            "bm_lewis",
            "Tam",
-           "The food was delicious, and the dancing was even more fun. But the fireworks at the end were the best!"
+           "The fireworks at the end were the best! The food was delicious, and the dancing was even more fun."
           ],
           [
            "bf_lily",
@@ -904,17 +890,7 @@
           [
            "bf_lily",
            "Luna",
-           "Hi, Tam! Did you have a nice weekend?"
-          ],
-          [
-           "bm_lewis",
-           "Tam",
-           "Yes! My cousin got married on Saturday."
-          ],
-          [
-           "bf_lily",
-           "Luna",
-           "Was the wedding in a big hotel?"
+           "Hi, Tam! Was your cousin's wedding in a big hotel?"
           ],
           [
            "bm_lewis",
@@ -924,7 +900,7 @@
           [
            "bf_lily",
            "Luna",
-           "Lovely! Did your mum and dad go with you?"
+           "Lovely! Did your mum and dad go too?"
           ],
           [
            "bm_lewis",
@@ -959,7 +935,7 @@
           [
            "bm_lewis",
            "Tam",
-           "The food was delicious, and the dancing was even more fun. But the fireworks at the end were the best!"
+           "The fireworks at the end were the best! The food was delicious, and the dancing was even more fun."
           ],
           [
            "bf_lily",
@@ -988,7 +964,7 @@
         "hint": {
          "step": "Tam compares three things. Listen for the word 'best'."
         },
-        "worked": "The food was delicious and the dancing 'even more fun', 'But the fireworks at the end were the best!'",
+        "worked": "Tam says 'The fireworks at the end were the best!' The food was delicious and the dancing 'even more fun', but not the best.",
         "type": "mcq",
         "q": "What did Tam enjoy most at the wedding?",
         "opts": [
@@ -999,7 +975,7 @@
         "at": 2,
         "whys": [
          null,
-         "The dancing was more fun than the food, but it wasn't the best part.",
+         "The dancing was more fun than the food, but Tam says the fireworks were the best.",
          "Tam liked the food, but he says the dancing was even more fun."
         ],
         "letters": true,
@@ -1012,17 +988,7 @@
           [
            "bf_lily",
            "Luna",
-           "Hi, Tam! Did you have a nice weekend?"
-          ],
-          [
-           "bm_lewis",
-           "Tam",
-           "Yes! My cousin got married on Saturday."
-          ],
-          [
-           "bf_lily",
-           "Luna",
-           "Was the wedding in a big hotel?"
+           "Hi, Tam! Was your cousin's wedding in a big hotel?"
           ],
           [
            "bm_lewis",
@@ -1032,7 +998,7 @@
           [
            "bf_lily",
            "Luna",
-           "Lovely! Did your mum and dad go with you?"
+           "Lovely! Did your mum and dad go too?"
           ],
           [
            "bm_lewis",
@@ -1067,7 +1033,7 @@
           [
            "bm_lewis",
            "Tam",
-           "The food was delicious, and the dancing was even more fun. But the fireworks at the end were the best!"
+           "The fireworks at the end were the best! The food was delicious, and the dancing was even more fun."
           ],
           [
            "bf_lily",
@@ -1120,17 +1086,7 @@
           [
            "bf_lily",
            "Luna",
-           "Hi, Tam! Did you have a nice weekend?"
-          ],
-          [
-           "bm_lewis",
-           "Tam",
-           "Yes! My cousin got married on Saturday."
-          ],
-          [
-           "bf_lily",
-           "Luna",
-           "Was the wedding in a big hotel?"
+           "Hi, Tam! Was your cousin's wedding in a big hotel?"
           ],
           [
            "bm_lewis",
@@ -1140,7 +1096,7 @@
           [
            "bf_lily",
            "Luna",
-           "Lovely! Did your mum and dad go with you?"
+           "Lovely! Did your mum and dad go too?"
           ],
           [
            "bm_lewis",
@@ -1175,7 +1131,7 @@
           [
            "bm_lewis",
            "Tam",
-           "The food was delicious, and the dancing was even more fun. But the fireworks at the end were the best!"
+           "The fireworks at the end were the best! The food was delicious, and the dancing was even more fun."
           ],
           [
            "bf_lily",
@@ -1365,21 +1321,21 @@
       "v": [
        {
         "hint": {
-         "step": "Is the notice giving a rule, saying something is not necessary, or saying something is possible?"
+         "step": "Read the first sentence. Who are the drums for? Is playing them a good idea, or not allowed?"
         },
-        "worked": "The butterflies' wings break easily, so touching them is not allowed: Visitors <b>mustn't</b> touch them.",
+        "worked": "The drums are 'only for the school band', so other students are not allowed to play them: Other students <b>mustn't</b> play them.",
         "type": "mcq",
         "q": "Which option correctly completes the notice?",
         "opts": [
          "mustn't",
-         "needn't",
-         "could"
+         "should",
+         "would"
         ],
         "at": 2,
         "whys": [
          null,
-         "'Needn't' means it is not necessary. The notice is giving a rule.",
-         "'Could' means something is possible. The wings break too easily to touch."
+         "'Should' means it is a good idea. The drums are only for the band, so playing them is not a good idea for other students.",
+         "'Would' is not used for a rule on a notice. A rule says what is allowed or not allowed."
         ],
         "letters": true,
         "fig": {
@@ -1387,7 +1343,7 @@
          "id": "sm-summit-r2-6",
          "kind": "text",
          "head": "Notice",
-         "html": "<b>BUTTERFLY HOUSE</b><br>Our butterflies have very thin wings that break easily. Visitors ________ touch them. You can take photos, but please walk slowly and close the door behind you. Thank you!"
+         "html": "<b>MUSIC ROOM</b><br>The new drums are only for the school band. Other students ________ play them. You can listen to the band every Friday at lunchtime. Thank you!"
         }
        }
       ]
@@ -2136,7 +2092,8 @@
         ],
         "ans": [
          [
-          "are"
+          "are",
+          "'re"
          ]
         ],
         "fig": {
@@ -2571,13 +2528,13 @@
     "models": [
      {
       "level": "Developing",
-      "text": "For the sleepover you need bring a sleeping bag, pyjamas and a toothbrush. You should packing a torch too. At night you should listen the teacher and stay with your class. You mustn't run in the corridors. It is very fun to sleep at school with all your friends and watch a film together.",
+      "text": "For the sleepover, you need bring a sleeping bag, pyjamas and a toothbrush. You should packing a torch too. At night, you should listen to the teacher. You mustn't run in the corridors. You mustn't play with your torch after the lights go off it is time to sleep. Sleeping at school is great fun.",
       "notes": [
-       "Task achievement and content 1/2: what to pack, a good habit and one thing you mustn't do are there, but it never says why getting ready is important.",
+       "Task achievement and content 1/2: what to pack, a good habit and what you mustn't do are there, but it never says why getting ready well is important. It is a little short.",
        "Organisation and layout 1/2: one short paragraph in a sensible order, but only 'and' and 'too' link the ideas.",
-       "Grammar 1/2: modal verbs are used, but with three mistakes: 'need bring' should be 'need to bring', 'should packing' should be 'should pack', and 'listen the teacher' should be 'listen to the teacher'.",
-       "Vocabulary and spelling 1/2: simple sleepover words (sleeping bag, pyjamas, torch) spelled correctly, but 'very fun' is not quite right; say 'great fun'.",
-       "Fluency 1/2: full sentences with capital letters and full stops, but it is a little short (only 5 sentences)."
+       "Grammar range and accuracy 1/2: modal verbs are used, but two are wrong: 'need bring' should be 'need to bring', and 'should packing' should be 'should pack'.",
+       "Vocabulary and spelling 1/2: correct sleepover words (sleeping bag, pyjamas, toothbrush), but the other words are basic and 'torch' and 'mustn't' are repeated.",
+       "Fluency 1/2: mostly easy to read, but the fifth sentence runs two sentences together. Put a full stop after 'go off'."
       ],
       "marks": {
        "content": 1,
@@ -2589,20 +2546,20 @@
      },
      {
       "level": "Secure",
-      "text": "Before the school sleepover, you need to pack a sleeping bag, a pillow, your pyjamas and a toothbrush. You should also bring a torch and a water bottle. A small book is useful too. On the night, you should listen to the teachers and stay with your group. You mustn't walk around the school alone in the dark. You shouldn't stay awake too late, because you will be tired the next day. It is important to get ready well, so you can enjoy the night with your friends.",
+      "text": "Before the school sleepover, you need to pack a sleeping bag, your pyjamas and a toothbrush. You should bring a torch and a water bottle too. On the night, you should listen to the teachers and stay with your group. You mustn't walk around the school alone in the dark. You shouldn't stay awake too late. You will be tierd the next day. It is important to get ready well because then you can enjoy the night with your friends.",
       "notes": [
        "Task achievement and content 2/2: every bullet point is covered: what to pack, good habits, what you mustn't do and why it matters.",
-       "Organisation and layout 1/2: the ideas are in a good order, but it is one long paragraph and the linking words are simple (also, because, so).",
-       "Grammar 2/2: a good range of correct modal verbs: need to, should, mustn't, shouldn't.",
-       "Vocabulary and spelling 1/2: spelling is correct, but the words are quite simple and 'should' is repeated a lot.",
-       "Fluency 1/2: complete, correct sentences, but many start with 'You', so it doesn't flow very smoothly yet."
+       "Organisation and layout 1/2: the advice is in a sensible order, but there are few linking words. 'You shouldn't stay awake too late. You will be tired ...' needs 'because' to join the reason.",
+       "Grammar range and accuracy 2/2: a good range of correct modal verbs: need to, should, mustn't, shouldn't.",
+       "Vocabulary and spelling 1/2: good topic words (sleeping bag, pyjamas, torch), but 'tierd' should be 'tired'.",
+       "Fluency 2/2: complete sentences with capital letters and full stops; easy to read."
       ],
       "marks": {
        "content": 2,
        "organisation": 1,
        "grammar": 2,
        "vocabulary": 1,
-       "fluency": 1
+       "fluency": 2
       }
      },
      {
@@ -2611,7 +2568,7 @@
       "notes": [
        "Task achievement and content 2/2: all bullet points are covered with useful detail (names on bags, why to sleep, feeling safe).",
        "Organisation and layout 2/2: a clear opening and ending, and the advice is in order with First, However and Finally.",
-       "Grammar 2/2: accurate and varied modal verbs (need to, should, must, mustn't, shouldn't) and an 'If' sentence.",
+       "Grammar range and accuracy 2/2: accurate and varied modal verbs (need to, should, must, mustn't, shouldn't) and an 'If' sentence.",
        "Vocabulary and spelling 2/2: good topic words (comfortable, instructions, wander, corridors, prepare), all spelled correctly.",
        "Fluency 2/2: 7 smooth, complete sentences that are easy to read."
       ],
@@ -2659,13 +2616,13 @@
     "models": [
      {
       "level": "Developing",
-      "text": "I would plan a party for my grandpa birthday. It would be in our house. There is a big cake and many balloon. We would sing songs and eat noodles together. It would be the most big party in my family. I chose it because I love my grandpa very much.",
+      "text": "I would plan a party for my grandpa birthday. It would be in our house. There would be a big cake and lots of balloons. We would sing songs and eat noodles together. it would be the most big party in my family. I chose it because I love my grandpa. He is very nice.",
       "notes": [
-       "Task achievement and content 1/2: it says what the party is, what they would do and why, but it doesn't really say what makes it special.",
-       "Organisation and layout 1/2: one short paragraph in a sensible order, but there are almost no linking words.",
-       "Grammar 1/2: 'would' is used well, but there are mistakes: 'my grandpa birthday' should be 'my grandpa's birthday', 'There is' should be 'There would be', and 'the most big' should be 'the biggest'.",
-       "Vocabulary and spelling 1/2: simple words only, and 'many balloon' needs an s: 'many balloons'.",
-       "Fluency 1/2: full sentences with capitals and full stops, but it is short (only 6 sentences)."
+       "Task achievement and content 1/2: it says what the party is, what they would do and why, but what makes it special is very thin (only that it is big). It is a little short.",
+       "Organisation and layout 1/2: one short paragraph in a sensible order, but 'because' is the only linking word.",
+       "Grammar range and accuracy 1/2: 'would' is used well, but 'the most big' should be 'the biggest', and 'my grandpa birthday' should be 'my grandpa's birthday'.",
+       "Vocabulary and spelling 1/2: simple describing words only (big, nice), and 'grandpa' is repeated.",
+       "Fluency 1/2: mostly easy to read, but 'it would be the most big party' needs a capital letter at the start: 'It'."
       ],
       "marks": {
        "content": 1,
@@ -2677,13 +2634,13 @@
      },
      {
       "level": "Secure",
-      "text": "The best celebration I would plan is a Tet party at my grandparents' house in the countryside. The garden would look bright and colourful. There would be red lanterns and yellow flowers everywhere. It would be special because all my cousins would come, even the ones who live far away. We would cook a big feast and play games. At midnight, we would watch the fireworks. I chose it because Tet is the happiest time of the year for my family.",
+      "text": "The best celebration I would plan is a Tet party at my grandparents' house in the countryside. The house would look very nice. There would be red lanterns and yellow flowers everywhere. It would be special because all my cousins would come, even the ones who live far away. We would cook a big feast and play games. At midnight, we would watch the fireworks. I chose it because Tet is the happiest time of the year for my family.",
       "notes": [
        "Task achievement and content 2/2: all four bullet points are covered with some detail.",
-       "Organisation and layout 1/2: a clear order, but it is one paragraph and the only linking word is 'because'.",
-       "Grammar 2/2: correct 'would' sentences, a relative clause ('the ones who live far away') and a correct superlative ('the happiest').",
-       "Vocabulary and spelling 1/2: spelling is correct, but the describing words are quite simple (big, bright); try some more exact adjectives.",
-       "Fluency 2/2: complete sentences that read smoothly."
+       "Organisation and layout 1/2: a clear order, but few linking words: only 'because' and 'and'. 'First' or 'Then' would guide the reader.",
+       "Grammar range and accuracy 2/2: correct 'would' sentences, a relative clause ('the ones who live far away') and a correct superlative ('the happiest').",
+       "Vocabulary and spelling 1/2: good topic words (lanterns, feast, fireworks), but some describing words are basic ('very nice', 'big'); try 'bright' or 'colourful'.",
+       "Fluency 2/2: complete sentences with capital letters and full stops; they read smoothly."
       ],
       "marks": {
        "content": 2,
@@ -2699,7 +2656,7 @@
       "notes": [
        "Task achievement and content 2/2: every bullet point is covered with interesting detail (the boat, the lights, the video, the reason).",
        "Organisation and layout 2/2: ideas are in a clear order with First, Then and because, and the ending sums up the choice.",
-       "Grammar 2/2: accurate 'would' sentences, a comparative ('more special than') and two superlatives ('happiest', 'the most wonderful').",
+       "Grammar range and accuracy 2/2: accurate 'would' sentences, a comparative ('more special than') and two superlatives ('happiest', 'the most wonderful').",
        "Vocabulary and spelling 2/2: rich adjectives (tiny, golden, delicious, sticky, funny, wonderful) and topic words (anniversary, feast), all spelled correctly.",
        "Fluency 2/2: 7 smooth, varied sentences that are easy and enjoyable to read."
       ],

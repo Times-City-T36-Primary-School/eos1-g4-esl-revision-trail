@@ -174,7 +174,7 @@
     "esl": true,
     "kind": "text",
     "head": "A health blog by Thu",
-    "html": "<b>Our family's healthy month</b><br>Last month *all* of us in my family tried to eat better. My brother and I *both* love sweets, so we ate *fewer* sweets and *less* sugar. Dad drank *less* coffee. We didn't buy *as many* biscuits, and we didn't drink *as much* juice. Now *nobody* in my family feels tired in the afternoon, and *everyone* feels great. Has *anyone* got a good soup recipe? Please tell me!",
+    "html": "<b>Our family's healthy month</b><br>Last month *all* of us in my family tried to eat better. My brother and I *both* love sweets, so we ate *fewer* sweets and *less* sugar. Dad drank *less* coffee. We didn't buy *as many* biscuits as before, and we didn't drink *as much* juice. Now *nobody* in my family feels tired in the afternoon, and *everyone* feels great. Has *anyone* got a good soup recipe? Please tell me!",
     "steps": [
      {
       "en": "*fewer* + things you can count (sweets). *less* + things you can't count (sugar, coffee).",
@@ -322,7 +322,7 @@
          "whys": [
           null,
           "We can't count juice, so we don't use 'fewer'.",
-          "'many' is for things we can count, and it doesn't go before 'than' here."
+          "'many' is for things we can count, and it does not compare. Look at 'than'."
          ],
          "letters": true
         }
@@ -457,11 +457,11 @@
        "v": [
         {
          "hint": {
-          "step": "Is it a good idea, a necessary thing, or something not allowed?"
+          "step": "Read the reason after 'because'. Is feeding the animals a good idea, necessary, or not allowed?"
          },
-         "worked": "It's a rule that says 'don't': 'You mustn't feed the animals.'",
+         "worked": "Our food 'makes them ill', so feeding them is not allowed: 'You <b>mustn't</b> feed the animals.'",
          "type": "mcq",
-         "q": "We are at the zoo. You ________ feed the animals. It's a rule.",
+         "q": "We are at the zoo. You ________ feed the animals, because our food makes them ill.",
          "opts": [
           "mustn't",
           "should",
@@ -470,8 +470,8 @@
          "at": 1,
          "whys": [
           null,
-          "'should' is advice, but feeding the animals is against the rule.",
-          "'need to' means it is necessary, but feeding the animals is not allowed."
+          "'should' means it is a good idea. Food that makes the animals ill is not a good idea.",
+          "'need to' means it is necessary. The animals don't need our food: it makes them ill."
          ],
          "letters": true
         },
@@ -937,8 +937,8 @@
          "at": 0,
          "whys": [
           null,
-          "Taking photos can hurt the paintings, so it is not necessary. It is not allowed.",
-          "Taking photos can hurt the paintings, so it isn't a good idea."
+          "'need to' means visitors have to take photos. But the flash can hurt the paintings.",
+          "'should' means it is a good idea. Hurting old paintings is never a good idea."
          ],
          "letters": true
         }
@@ -1027,13 +1027,13 @@
          "q": "Ella asked her class, 'Has ________ got a blue pencil I can borrow, please?'",
          "opts": [
           "anyone",
-          "no-one",
+          "anything",
           "something"
          ],
          "at": 1,
          "whys": [
           null,
-          "If no-one has a pencil, Ella can't borrow one. She is asking a question.",
+          "'anything' is about things. Ella needs a person to lend her a pencil.",
           "'something' is a thing. Things can't have pencils."
          ],
          "letters": true
@@ -1294,7 +1294,7 @@
           "id": "s3-letter-b",
           "kind": "text",
           "head": "A letter from Thu",
-          "html": "<b>Word box:</b> everyone, more, to, both, at<br><br>Hi Rhys,<br>Thank you for coming to my birthday party! (1) ________ in my family loved your funny card. My uncle sang 'Happy Birthday' (2) ________ loudly than everyone else. He was so loud! Next time, you don't need (3) ________ bring a present. Just come and have fun!<br>Love,<br>Thu"
+          "html": "<b>Word box:</b> everyone, more, to, both, at<br><br>Hi Rhys,<br>Thank you for coming to my birthday party! (1) ________ in my family loved your funny card. My uncle sang 'Happy Birthday' (2) ________ loudly than the other guests. He was so loud! Next time, you don't need (3) ________ bring a present. Just come and have fun!<br>Love,<br>Thu"
          }
         }
        ]
@@ -1334,11 +1334,11 @@
          "hint": {
           "step": "Look at 'than'. Which word comes before 'loudly' to compare?"
          },
-         "worked": "Comparing with 'than': 'more loudly than everyone else'. The letter says 'He was so loud!'",
+         "worked": "Comparing with 'than': 'more loudly than the other guests'. The letter says 'He was so loud!'",
          "type": "tfill",
          "q": "Read the letter. Write ONE word from the box for gap 2.",
          "lines": [
-          "My uncle sang 'Happy Birthday' {0} loudly than everyone else."
+          "My uncle sang 'Happy Birthday' {0} loudly than the other guests."
          ],
          "ans": [
           [
@@ -1350,7 +1350,7 @@
           "id": "s3-letter-b",
           "kind": "text",
           "head": "A letter from Thu",
-          "html": "<b>Word box:</b> everyone, more, to, both, at<br><br>Hi Rhys,<br>Thank you for coming to my birthday party! (1) ________ in my family loved your funny card. My uncle sang 'Happy Birthday' (2) ________ loudly than everyone else. He was so loud! Next time, you don't need (3) ________ bring a present. Just come and have fun!<br>Love,<br>Thu"
+          "html": "<b>Word box:</b> everyone, more, to, both, at<br><br>Hi Rhys,<br>Thank you for coming to my birthday party! (1) ________ in my family loved your funny card. My uncle sang 'Happy Birthday' (2) ________ loudly than the other guests. He was so loud! Next time, you don't need (3) ________ bring a present. Just come and have fun!<br>Love,<br>Thu"
          }
         }
        ]
@@ -1405,7 +1405,7 @@
           "id": "s3-letter-b",
           "kind": "text",
           "head": "A letter from Thu",
-          "html": "<b>Word box:</b> everyone, more, to, both, at<br><br>Hi Rhys,<br>Thank you for coming to my birthday party! (1) ________ in my family loved your funny card. My uncle sang 'Happy Birthday' (2) ________ loudly than everyone else. He was so loud! Next time, you don't need (3) ________ bring a present. Just come and have fun!<br>Love,<br>Thu"
+          "html": "<b>Word box:</b> everyone, more, to, both, at<br><br>Hi Rhys,<br>Thank you for coming to my birthday party! (1) ________ in my family loved your funny card. My uncle sang 'Happy Birthday' (2) ________ loudly than the other guests. He was so loud! Next time, you don't need (3) ________ bring a present. Just come and have fun!<br>Love,<br>Thu"
          }
         }
        ]
@@ -1468,7 +1468,7 @@
   ],
   "check": [
    {
-    "sentence": "You {mustn't|need to|should} talk during the test. It's a rule.",
+    "sentence": "You {mustn't|need to|should} talk during the test. Please be quiet.",
     "answer": "mustn't"
    },
    {
@@ -1536,7 +1536,7 @@
       "at": 2,
       "whys": [
        null,
-       "Mud would spoil white trainers, so wearing them is not necessary. It is a bad idea.",
+       "'need to' means Lily has to wear them. But mud will spoil new white trainers.",
        "'would' is for polite offers and requests, not for rules."
       ],
       "letters": true
@@ -1619,11 +1619,11 @@
      },
      {
       "hint": {
-       "step": "Lily needs help. Does a person or a thing help?"
+       "step": "Who can help carry a heavy basket: a person or a thing?"
       },
-      "worked": "Lily needs a person: 'Can someone help me?'",
+      "worked": "A person helped Lily, in a positive sentence: '<b>someone</b> from the class helped her carry it'.",
       "type": "mcq",
-      "q": "Lily asked, 'Can ________ help me carry this basket? It's very heavy!'",
+      "q": "Lily's basket was very heavy, so ________ from the class helped her carry it.",
       "opts": [
        "someone",
        "something",
@@ -1632,8 +1632,8 @@
       "at": 1,
       "whys": [
        null,
-       "'something' is a thing. Lily needs a person to help her.",
-       "'nothing' means zero things. Lily needs a person to help her."
+       "'something' is a thing. A person helped Lily carry the basket.",
+       "'nothing' means zero things. Read 'helped her': a person helped."
       ],
       "letters": true
      }
@@ -1756,8 +1756,8 @@
       "at": 2,
       "whys": [
        null,
-       "Forgetting the bottle is a bad idea on a hot day, so it isn't advice to forget it.",
-       "We don't say 'need forget', and forgetting your bottle isn't necessary."
+       "'should' would mean forgetting your bottle is a good idea. On a hot day, it isn't!",
+       "We don't say 'need forget', and forgetting your bottle is not necessary."
       ],
       "letters": true,
       "fig": {
@@ -1887,7 +1887,7 @@
        "id": "s3-test-letter-1",
        "kind": "text",
        "head": "A letter from Duc",
-       "html": "<b>Word box:</b> who, more, everyone, less, on<br><br>Hi Max,<br>My grandpa is the kindest person (8) ________ I know. He is seventy-five now, so he walks (9) ________ slowly than before. But he still cooks lunch for (10) ________ in our family on Sundays. His fish soup is amazing!<br>Love,<br>Duc"
+       "html": "<b>Word box:</b> who, more, everyone, fewer, on<br><br>Hi Max,<br>My grandpa is the kindest person (8) ________ I know. He is seventy-five now, so he walks (9) ________ slowly than before. But he still cooks lunch for (10) ________ in our family on Sundays. His fish soup is amazing!<br>Love,<br>Duc"
       }
      },
      {
@@ -1942,7 +1942,7 @@
        "id": "s3-test-letter-1",
        "kind": "text",
        "head": "A letter from Duc",
-       "html": "<b>Word box:</b> who, more, everyone, less, on<br><br>Hi Max,<br>My grandpa is the kindest person (8) ________ I know. He is seventy-five now, so he walks (9) ________ slowly than before. But he still cooks lunch for (10) ________ in our family on Sundays. His fish soup is amazing!<br>Love,<br>Duc"
+       "html": "<b>Word box:</b> who, more, everyone, fewer, on<br><br>Hi Max,<br>My grandpa is the kindest person (8) ________ I know. He is seventy-five now, so he walks (9) ________ slowly than before. But he still cooks lunch for (10) ________ in our family on Sundays. His fish soup is amazing!<br>Love,<br>Duc"
       }
      },
      {
@@ -1999,7 +1999,7 @@
        "id": "s3-test-letter-1",
        "kind": "text",
        "head": "A letter from Duc",
-       "html": "<b>Word box:</b> who, more, everyone, less, on<br><br>Hi Max,<br>My grandpa is the kindest person (8) ________ I know. He is seventy-five now, so he walks (9) ________ slowly than before. But he still cooks lunch for (10) ________ in our family on Sundays. His fish soup is amazing!<br>Love,<br>Duc"
+       "html": "<b>Word box:</b> who, more, everyone, fewer, on<br><br>Hi Max,<br>My grandpa is the kindest person (8) ________ I know. He is seventy-five now, so he walks (9) ________ slowly than before. But he still cooks lunch for (10) ________ in our family on Sundays. His fish soup is amazing!<br>Love,<br>Duc"
       }
      },
      {
@@ -2211,8 +2211,8 @@
    [
     "Can ___ help me with this heavy bag?",
     [
-     "someone",
-     "something",
+     "anyone",
+     "anything",
      "nothing"
     ]
    ],

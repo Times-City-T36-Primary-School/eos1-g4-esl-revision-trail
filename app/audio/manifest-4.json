@@ -583,7 +583,7 @@
   [
    "bm_george",
    "Dad",
-   "Just a banana? You need more than that!"
+   "Just a banana? You need more than that! You've got swimming this afternoon."
   ],
   [
    "bf_lily",
@@ -617,12 +617,12 @@
   [
    "bf_emma",
    "Mum",
-   "Elliot, how many friends are coming to your party? Ten?"
+   "Elliot, how many friends are coming to your party on Saturday? Ten?"
   ],
   [
    "bm_lewis",
    "Elliot",
-   "Ten said yes at first, but two are on holiday. So eight are coming."
+   "Ten said yes at first, but two are on holiday that weekend. So eight are coming."
   ],
   [
    "bf_emma",
@@ -897,11 +897,11 @@
   [
    "bf_alice",
    "Lucy",
-   "Mum, can I have my party at the bowling centre?"
+   "Dad, can I have my party at the bowling centre?"
   ],
   [
-   "bf_emma",
-   "Mum",
+   "bm_george",
+   "Dad",
    "It's closed on Sundays, love. What about the park?"
   ],
   [
@@ -910,8 +910,8 @@
    "It's going to rain on Sunday."
   ],
   [
-   "bf_emma",
-   "Mum",
+   "bm_george",
+   "Dad",
    "Then let's have it at the pizza restaurant near the market."
   ],
   [

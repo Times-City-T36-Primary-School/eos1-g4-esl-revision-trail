@@ -264,7 +264,7 @@
      },
      {
       "en": "A long jump was *last year*. This year it is a *sack* race.",
-      "vi": "Nhảy xa là của năm ngoái. Năm nay là chạy nhảy bao bố (sack race)."
+      "vi": "Nhảy xa là của năm ngoái. Năm nay là thi nhảy bao bố (sack race)."
      }
     ],
     "audio": {
@@ -1911,7 +1911,14 @@
            "ninth",
            "the 9th",
            "the ninth",
-           "9 th"
+           "9 th",
+           "9 march",
+           "9th march",
+           "ninth march",
+           "the 9th march",
+           "the 9th of march",
+           "the ninth march",
+           "the ninth of march"
           ]
          ],
          "fig": {
@@ -1943,7 +1950,11 @@
            "thursday",
            "thursdays",
            "thurs",
-           "thu"
+           "thu",
+           "on thursday",
+           "on thursdays",
+           "on thurs",
+           "on thu"
           ]
          ],
          "fig": {
@@ -2004,7 +2015,10 @@
            "09:45 a.m.",
            "quarter to ten",
            "nine forty-five",
-           "nine forty five"
+           "nine forty five",
+           "a quarter to ten",
+           "quarter to 10",
+           "a quarter to 10"
           ],
           [
            "6",
@@ -2013,7 +2027,8 @@
            "£6.00",
            "6 pounds",
            "six",
-           "six pounds"
+           "six pounds",
+           "6.00 pounds"
           ]
          ],
          "fig": {
@@ -2156,7 +2171,11 @@
            "£1,50",
            "1.5",
            "one pound fifty",
-           "one fifty"
+           "one fifty",
+           "1 pound 50",
+           "1.50 pounds",
+           "£1.5",
+           "1 pound fifty"
           ],
           [
            "photo",
@@ -2345,7 +2364,7 @@
            [
             "bm_george",
             "Dad",
-            "Just a banana? You need more than that!"
+            "Just a banana? You need more than that! You've got swimming this afternoon."
            ],
            [
             "bf_lily",
@@ -2441,7 +2460,7 @@
          "hint": {
           "step": "Listen for a number, then listen for what changed."
          },
-         "worked": "Elliot says \"two are on holiday. <b>So eight are coming</b>.\"",
+         "worked": "Elliot says \"two are on holiday that weekend. <b>So eight are coming</b>.\"",
          "type": "mcq",
          "q": "How many friends are coming to Elliot's party?",
          "opts": [
@@ -2490,12 +2509,12 @@
            [
             "bf_emma",
             "Mum",
-            "Elliot, how many friends are coming to your party? Ten?"
+            "Elliot, how many friends are coming to your party on Saturday? Ten?"
            ],
            [
             "bm_lewis",
             "Elliot",
-            "Ten said yes at first, but two are on holiday. So eight are coming."
+            "Ten said yes at first, but two are on holiday that weekend. So eight are coming."
            ],
            [
             "bf_emma",
@@ -3179,7 +3198,10 @@
           [
            "wednesday",
            "wed",
-           "weds"
+           "weds",
+           "on wednesday",
+           "on wed",
+           "on weds"
           ]
          ],
          "fig": {
@@ -3220,7 +3242,10 @@
            "10:45 a.m.",
            "quarter to eleven",
            "ten forty-five",
-           "ten forty five"
+           "ten forty five",
+           "a quarter to eleven",
+           "quarter to 11",
+           "a quarter to 11"
           ]
          ],
          "fig": {
@@ -3363,7 +3388,8 @@
            "£3.00",
            "3 pounds",
            "three",
-           "three pounds"
+           "three pounds",
+           "3.00 pounds"
           ]
          ],
          "fig": {
@@ -3491,7 +3517,14 @@
         "fourteenth",
         "the 14th",
         "the fourteenth",
-        "14 th"
+        "14 th",
+        "14 october",
+        "14th october",
+        "fourteenth october",
+        "the 14th october",
+        "the 14th of october",
+        "the fourteenth october",
+        "the fourteenth of october"
        ]
       ],
       "fig": {
@@ -3525,7 +3558,14 @@
         "third",
         "the 3rd",
         "the third",
-        "3 rd"
+        "3 rd",
+        "3 november",
+        "3rd november",
+        "third november",
+        "the 3rd november",
+        "the 3rd of november",
+        "the third november",
+        "the third of november"
        ]
       ],
       "fig": {
@@ -3584,7 +3624,10 @@
         "08:15a.m.",
         "08:15 a.m.",
         "quarter past eight",
-        "eight fifteen"
+        "eight fifteen",
+        "a quarter past eight",
+        "quarter past 8",
+        "a quarter past 8"
        ]
       ],
       "fig": {
@@ -3632,7 +3675,9 @@
         "quarter to ten",
         "a quarter to ten",
         "nine forty-five",
-        "nine forty five"
+        "nine forty five",
+        "quarter to 10",
+        "a quarter to 10"
        ]
       ],
       "fig": {
@@ -3773,7 +3818,11 @@
         "£4,50",
         "4.5",
         "four pounds fifty",
-        "four fifty"
+        "four fifty",
+        "4 pounds 50",
+        "4.50 pounds",
+        "£4.5",
+        "4 pounds fifty"
        ]
       ],
       "fig": {
@@ -3817,7 +3866,8 @@
         "£9.00",
         "9 pounds",
         "nine",
-        "nine pounds"
+        "nine pounds",
+        "9.00 pounds"
        ]
       ],
       "fig": {
@@ -4031,7 +4081,7 @@
       "hint": {
        "step": "Two places are not possible. Listen for why."
       },
-      "worked": "Mum says \"<b>let's have it at the pizza restaurant</b> near the market\", and Lucy says yes.",
+      "worked": "Dad says \"<b>let's have it at the pizza restaurant</b> near the market\", and Lucy says yes.",
       "type": "mcq",
       "q": "Where will Lucy have her birthday party?",
       "opts": [
@@ -4075,16 +4125,16 @@
        "k": "stim",
        "id": "s4-t-7a",
        "kind": "audio",
-       "head": "Listen to Lucy and her mum.",
+       "head": "Listen to Lucy and her dad.",
        "lines": [
         [
          "bf_alice",
          "Lucy",
-         "Mum, can I have my party at the bowling centre?"
+         "Dad, can I have my party at the bowling centre?"
         ],
         [
-         "bf_emma",
-         "Mum",
+         "bm_george",
+         "Dad",
          "It's closed on Sundays, love. What about the park?"
         ],
         [
@@ -4093,8 +4143,8 @@
          "It's going to rain on Sunday."
         ],
         [
-         "bf_emma",
-         "Mum",
+         "bm_george",
+         "Dad",
          "Then let's have it at the pizza restaurant near the market."
         ],
         [

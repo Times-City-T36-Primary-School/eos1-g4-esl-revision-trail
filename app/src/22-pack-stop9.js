@@ -149,7 +149,7 @@
     "esl": true,
     "kind": "text",
     "head": "Task 1: How to be a good guest at a party (Joe's answer)",
-    "html": "When you go to a friend's party, you *should* arrive on time. You *need to* bring a card or a small gift. During the party, you *should* say hello to everyone and join the games. You *mustn't* open other people's presents, and you *shouldn't* eat all the sweets! *Finally*, you *must* say thank you before you leave. This is important *because* good guests make a party fun for everyone.",
+    "html": "When you go to a friend's party, you *should* arrive on time. You *need to* bring a card or a small gift. During the party, you *should* say hello to everyone and join the games. You *should* also be friendly to children you don't know. You *mustn't* open other people's presents, and you *shouldn't* eat all the sweets! *Finally*, you *must* say thank you before you leave. This is important *because* good guests make a party fun for everyone.",
     "steps": [
      {
       "en": "Task 1 asks you to explain and give advice. Joe uses *should* for good ideas and *shouldn't* for bad ideas.",
@@ -178,15 +178,15 @@
     "esl": true,
     "kind": "text",
     "head": "Task 2: My dream robot (Harriet's answer)",
-    "html": "If I could build a robot, it would be called Sparky. It would be *small* and *round*, with *shiny* blue lights for eyes. Sparky would be *faster than* a cheetah and *the cleverest* robot in my town! It would help me tidy my room and water the plants. *Also*, it could tell *funny* jokes when I feel sad. I chose Sparky *because* it would be *the best* friend and helper in the world.",
+    "html": "If I could build a robot, it would be called Sparky. It would be *small* and *round*, with *shiny* blue lights for eyes. Its *long* arms could reach the top shelf in the kitchen. Sparky would be *faster than* a cheetah and *the cleverest* robot in my town! It would help me tidy my room and water the plants. *Also*, it could tell *funny* jokes when I feel sad. I chose Sparky *because* it would be *the best* friend and helper in the world.",
     "steps": [
      {
       "en": "Task 2 asks you to describe your own choice. It can be real or imaginary.",
       "vi": "Phần 2 yêu cầu em miêu tả lựa chọn của mình. Nó có thể có thật hoặc tưởng tượng."
      },
      {
-      "en": "Harriet uses *adjectives* to help us picture Sparky: *small*, *round*, *shiny*, *funny*.",
-      "vi": "Harriet dùng *tính từ* để giúp ta hình dung Sparky: *small*, *round*, *shiny*, *funny*."
+      "en": "Harriet uses *adjectives* to help us picture Sparky: *small*, *round*, *shiny*, *long*, *funny*.",
+      "vi": "Harriet dùng *tính từ* để giúp ta hình dung Sparky: *small*, *round*, *shiny*, *long*, *funny*."
      },
      {
       "en": "She uses a comparative (*faster than*) and superlatives (*the cleverest*, *the best*).",
@@ -828,17 +828,17 @@
        "v": [
         {
          "hint": {
-          "step": "Look for a time word. Is it now, every day or in the past?"
+          "step": "Look at the word before the gap. Which form of the verb comes after should?"
          },
-         "worked": "<b>Yesterday</b> tells us it is the past, and the past of 'go' is <b>went</b>.",
+         "worked": "After <b>should</b>, we use the verb with no -s and no <b>to</b>: <b>should say</b>.",
          "type": "tfill",
-         "q": "Write the correct form of the verb in brackets.",
+         "q": "Correct the grammar mistake. Write the right word.",
          "lines": [
-          "Yesterday we {0} to the market with Grandma. (go)"
+          "Good neighbours should {0} hello every day. (says)"
          ],
          "ans": [
           [
-           "went"
+           "say"
           ]
          ]
         },
@@ -949,13 +949,13 @@
      "models": [
       {
        "level": "Developing",
-       "text": "Kind classmates should helps other children. They should share pencils and books with everyone. Every day you need say hello and smile. You mustn't laugh at people when they make a mistake. You mustn't be bossy in games. Being kind is important. Then everyone is happy in class and nobody feel sad.",
+       "text": "Kind classmates should helps other children. They should share pencils and books with everyone. Every day you need to say hello and smile. You mustn't laugh at people when they make a mistake. You mustn't be bossy in games. Being kind is importent. Because then everyone is happy in class and nobody is sad.",
        "notes": [
-        "Task achievement and content 1/2: covers what to do, a daily habit and what not to do, but the reason is very thin ('Being kind is important'). It is a little short.",
-        "Organisation and layout 1/2: the ideas are in a sensible order, but there are almost no linking words (only 'Then').",
-        "Grammar 1/2: good modal verbs, but three mistakes: 'should helps' (should help), 'need say' (need to say) and 'nobody feel' (nobody feels).",
-        "Vocabulary and spelling 1/2: spelling is correct, but the words are simple and 'should' and 'mustn't' are repeated.",
-        "Fluency 1/2: capitals and full stops are correct, but the short sentences feel choppy."
+        "Task achievement and content 1/2: it says what to do, a daily habit and what not to do, but the reason is very thin. It is a little short.",
+        "Organisation and layout 1/2: the ideas are in a sensible order, but there are almost no linking words (only 'Because').",
+        "Grammar range and accuracy 1/2: good modal verbs, but 'should helps' is wrong: after 'should', use the verb with no -s (should help). The sentences are all short and simple.",
+        "Vocabulary and spelling 1/2: simple words and 'mustn't' is repeated, and 'importent' should be 'important'.",
+        "Fluency 1/2: mostly easy to read, but 'Because then everyone is happy ...' is not a full sentence. Join it to the sentence before: 'Being kind is important because ...'."
        ],
        "marks": {
         "content": 1,
@@ -967,13 +967,13 @@
       },
       {
        "level": "Secure",
-       "text": "Kind classmates should help each other in lessons. For example, you can share your pencils or explain a hard question. Every day, you need to say hello and listen when other people speak. You should also say thank you. You mustn't laugh at someone who makes a mistake. You shouldn't leave anyone out of a game. Being kind is important because everyone feels safe and happy.",
+       "text": "Kind classmates should be nice to each other in lessons. For example, you can share your pencils or explain a hard question. Every day, you need to say hello and listen when other people speak. You should also say thank you. You mustn't laugh at someone who makes a mistake. You shouldn't leave anyone out of a game. Being kind is important because everyone feels nice and safe.",
        "notes": [
         "Task achievement and content 2/2: all the bullet points are covered, with an example and a clear reason.",
-        "Organisation and layout 1/2: one clear paragraph, but there are only a few linking words. 'First' or 'Finally' would guide the reader.",
-        "Grammar 2/2: a good range of modal verbs (should, need to, mustn't, shouldn't), all used correctly.",
-        "Vocabulary and spelling 1/2: all words are spelled correctly, but they are quite everyday (hello, happy); 'greet' or 'kindness' would add variety.",
-        "Fluency 2/2: complete sentences that are easy to read."
+        "Organisation and layout 1/2: one clear paragraph, but only a few linking words (For example, also, because). 'First' or 'Finally' would guide the reader.",
+        "Grammar range and accuracy 2/2: a good range of modal verbs (should, need to, mustn't, shouldn't), all used correctly.",
+        "Vocabulary and spelling 1/2: all words are spelled correctly, but some are basic and repeated ('nice' twice); 'friendly' or 'kindness' would add variety.",
+        "Fluency 2/2: complete sentences with capital letters and full stops; easy to read."
        ],
        "marks": {
         "content": 2,
@@ -989,7 +989,7 @@
        "notes": [
         "Task achievement and content 2/2: every bullet point is covered and developed with details and a strong reason.",
         "Organisation and layout 2/2: two paragraphs (what to do, then what not to do and why) with First, For example, However and because.",
-        "Grammar 2/2: modal verbs (should, need to, mustn't, shouldn't) and a comparative adverb ('learn better'), all accurate.",
+        "Grammar range and accuracy 2/2: modal verbs (should, need to, mustn't, shouldn't) and a comparative adverb ('learn better'), all accurate.",
         "Vocabulary and spelling 2/2: varied topic words (greet, kindness, friendly, leave anyone out), all spelled correctly.",
         "Fluency 2/2: the sentences flow smoothly from one idea to the next."
        ],
@@ -1007,7 +1007,7 @@
      "id": "t1b",
      "task": 1,
      "title": "How to keep our town clean",
-     "prompt": "Your school is making a booklet called 'Love Where You Live'. Write 1 to 2 paragraphs (7 to 8 sentences) about what everyone can do to keep their town clean and beautiful. Use modal verbs and linking words. Check your spelling, grammar and punctuation.",
+     "prompt": "Your school is making a booklet called 'Love Where You Live'. Write 1 to 2 paragraphs (7 to 8 sentences) explaining how we can all keep our town clean and beautiful. Use modal verbs and linking words. Check your spelling, grammar and punctuation.",
      "bullets": [
       "what people should do",
       "good habits to follow every week",
@@ -1027,13 +1027,13 @@
      "models": [
       {
        "level": "Developing",
-       "text": "People should put rubbish in the bin. We should recycle bottles and paper every week. Every day we need to walking to school or ride a bike. People mustn't drop rubbish on the street. You mustn't write on the walls. A clean town is important. The parks is beautifull and everybody is happy.",
+       "text": "People should put rubbish in the bin. We should recycle bottles and paper every week. Every day we need to walking to school or ride a bike. People mustn't drop rubbish on the street. You mustn't write on the walls. A clean town is important the parks are beautifull and everybody is happy.",
        "notes": [
         "Task achievement and content 1/2: three bullet points are there, but the reason is thin and walking to school is not explained.",
         "Organisation and layout 1/2: one paragraph in a sensible order, but there are no linking words.",
-        "Grammar 1/2: modal verbs are used, but 'need to walking' (need to walk) and 'The parks is' (The parks are) are wrong.",
+        "Grammar range and accuracy 1/2: modal verbs are used, but 'need to walking' is wrong (need to walk), and all the sentences are short and simple.",
         "Vocabulary and spelling 1/2: good topic words (rubbish, recycle), but 'beautifull' should be 'beautiful'.",
-        "Fluency 1/2: short sentences that do not link, so it reads like a list."
+        "Fluency 1/2: mostly easy to read, but the last sentence runs two sentences together. Put a full stop after 'important'."
        ],
        "marks": {
         "content": 1,
@@ -1045,13 +1045,13 @@
       },
       {
        "level": "Secure",
-       "text": "Everyone should help to keep our town clean. First, people should put their rubbish in the bin or take it home. Every week, we need to recycle paper, bottles and cans. People mustn't drop rubbish in the street or the river. You shouldn't draw on walls either, because it looks messy. A clean town is important because it is nicer for everyone. Animals are safer too.",
+       "text": "Everyone should help to keep our town clean and free of rubbish. First, people should put their rubbish in the bin or take it home. Every week, we need to recycle paper, bottles and cans. People mustn't drop rubbish in the street or the river. You shouldn't draw on walls either, because it looks messy. A clean town is important because it is nicer for everyone. animals are safer too.",
        "notes": [
         "Task achievement and content 2/2: every bullet point is covered with relevant ideas and a reason.",
         "Organisation and layout 2/2: a clear order, with First and because to link ideas.",
-        "Grammar 2/2: correct modal verbs (should, need to, mustn't, shouldn't) and correct verb forms.",
+        "Grammar range and accuracy 2/2: correct modal verbs (should, need to, mustn't, shouldn't) and correct verb forms.",
         "Vocabulary and spelling 1/2: spelling is correct, but 'rubbish' is used three times; 'litter' would add variety.",
-        "Fluency 1/2: easy to read, but the last sentence is very short and feels added on."
+        "Fluency 1/2: mostly easy to read, but the last sentence starts with a small letter ('animals'), and it feels added on. Join it: '... nicer for everyone, and animals are safer too.'"
        ],
        "marks": {
         "content": 2,
@@ -1067,7 +1067,7 @@
        "notes": [
         "Task achievement and content 2/2: all bullet points are covered with useful detail and a clear reason.",
         "Organisation and layout 2/2: two paragraphs (good habits, then what not to do and why) linked with First, However, so and because.",
-        "Grammar 2/2: a range of modal verbs used accurately, plus a comparative (safer) and a superlative (the cleanest).",
+        "Grammar range and accuracy 2/2: a range of modal verbs used accurately, plus a comparative (safer) and a superlative (the cleanest).",
         "Vocabulary and spelling 2/2: varied topic words (litter, recycling, sort, cycle), all spelled correctly.",
         "Fluency 2/2: smooth, complete sentences with a strong ending."
        ],
@@ -1105,13 +1105,13 @@
      "models": [
       {
        "level": "Developing",
-       "text": "Families should go early to find a good place to watch. Children must stay with there parents. Everybody need to wear warm clothes. You mustn't go near the fireworks. You mustn't touch them. Fireworks are very loud and hot. It is dangerous so we must be careful and have fun.",
+       "text": "Families should go early to find a good place to watch. Children must stay with there parents. Everybody need to wear warm clothes. You mustn't go near the fireworks. you mustn't touch them. Fireworks are very loud and hot. It is dangerous so we must be careful and have fun.",
        "notes": [
         "Task achievement and content 1/2: before the show, what not to do and a reason are there, but 'during the show' is very thin.",
         "Organisation and layout 1/2: no paragraphs and no time words like 'Before the show' or 'During the show'.",
-        "Grammar 1/2: modal verbs are used, but 'Everybody need' should be 'Everybody needs'.",
+        "Grammar range and accuracy 1/2: modal verbs are used, but 'Everybody need' should be 'Everybody needs', and the sentences are short and simple.",
         "Vocabulary and spelling 1/2: simple words, and 'there parents' should be 'their parents'.",
-        "Fluency 1/2: the short sentences make it read like a list."
+        "Fluency 1/2: mostly easy to read, but 'you mustn't touch them' needs a capital letter at the start: 'You'."
        ],
        "marks": {
         "content": 1,
@@ -1123,13 +1123,13 @@
       },
       {
        "level": "Secure",
-       "text": "Fireworks shows are exciting, but families need to be careful. Before the show, you should arrive early and choose a place far from the fireworks. During the show, children must stay close to an adult. You should also cover your ears if the bangs are too loud. Children mustn't touch fireworks or run towards them. This is important because fireworks are very hot. They can burn you badly.",
+       "text": "Fireworks shows are exciting, but families need to be careful. Before the show, you should arrive early and choose a place far from the fireworks. During the show, children must stay close to an adult. You should cover your ears if the bangs are too loud. Children mustn't touch fireworks or run towards them. It is important to be careful. Fireworks are very hot and they can burn you badly.",
        "notes": [
         "Task achievement and content 2/2: every bullet point is covered with sensible advice and a reason.",
-        "Organisation and layout 1/2: good time words (Before the show, During the show), but it is all one long paragraph.",
-        "Grammar 2/2: correct modal verbs (need to, should, must, mustn't) and correct verb forms.",
-        "Vocabulary and spelling 1/2: correct spelling, but quite simple words; 'crowd' or 'safety line' would add detail.",
-        "Fluency 2/2: complete sentences that are easy to follow."
+        "Organisation and layout 1/2: some order with good time words (Before the show, During the show), but few linking words: the reason in the last two sentences is not joined with 'because'.",
+        "Grammar range and accuracy 2/2: correct modal verbs (need to, should, must, mustn't) and correct verb forms.",
+        "Vocabulary and spelling 1/2: correct spelling, but simple and repeated words ('fireworks' four times, 'careful' twice); 'crowd' or 'safety line' would add detail.",
+        "Fluency 2/2: complete sentences with capital letters and full stops; easy to follow."
        ],
        "marks": {
         "content": 2,
@@ -1145,7 +1145,7 @@
        "notes": [
         "Task achievement and content 2/2: all bullet points are covered and developed with useful details.",
         "Organisation and layout 2/2: two paragraphs (before, then during the show) with clear time words and linking words.",
-        "Grammar 2/2: a range of modal verbs used accurately, plus a superlative (the most exciting).",
+        "Grammar range and accuracy 2/2: a range of modal verbs used accurately, plus a superlative (the most exciting).",
         "Vocabulary and spelling 2/2: precise topic words (safety line, crowd, burns, colourful), all spelled correctly.",
         "Fluency 2/2: the sentences flow well and the ending is cheerful."
        ],
@@ -1182,13 +1182,13 @@
      "models": [
       {
        "level": "Developing",
-       "text": "My new dish is rainbow rice. It have rice with many colour vegetables. It is yellow, green and red. It is special because it is very pretty. I will eat it at lunch on Friday with my best friends. I chose it because I like rice and vegetables. It is good.",
+       "text": "My new dish is rainbow rice. It have rice with many colour vegetables. It is yellow, green and red. It is special because it is very pretty. I will eat it at lunch on Friday with my best friends. I chose it because I like rice and vegetables it is good for you.",
        "notes": [
         "Task achievement and content 1/2: all four bullet points are mentioned, but each one has very little detail. It is a little short.",
         "Organisation and layout 1/2: a sensible order, but 'because' is the only linking word.",
-        "Grammar 1/2: there is no comparative or superlative, and 'It have' should be 'It has'.",
+        "Grammar range and accuracy 1/2: there is no comparative or superlative, and 'It have' should be 'It has'.",
         "Vocabulary and spelling 1/2: few describing words ('pretty', 'good'), and 'many colour vegetables' should be 'colourful vegetables'.",
-        "Fluency 1/2: capitals and full stops are correct, but the short sentences sound choppy."
+        "Fluency 1/2: mostly easy to read, but the last sentence runs two sentences together. Put a full stop after 'vegetables'."
        ],
        "marks": {
         "content": 1,
@@ -1200,13 +1200,13 @@
       },
       {
        "level": "Secure",
-       "text": "My new dish would be rainbow rice. It is a big bowl of rice with yellow corn, green peas and red peppers. It looks brighter than normal fried rice. The special thing is the sweet and crunchy sauce on top. I would eat it at lunch with my best friends. I chose this dish because it is colourful and tasty. Everyone would love it!",
+       "text": "My new dish would be rainbow rice. It is a big bowl of rice with yellow corn, green peas and red peppers. It looks brighter than normal fried rice. The special thing is the sweet and crunchy sauce on top. I would eat it at lunch with my best friends and we would sit together and share it and talk. I chose this dish because it is colourful and tasty. Everyone would love it!",
        "notes": [
         "Task achievement and content 2/2: every bullet point is covered with relevant details.",
-        "Organisation and layout 1/2: one paragraph in a clear order, but only 'because' links the ideas.",
-        "Grammar 2/2: a correct comparative (brighter than) and correct use of 'would'.",
+        "Organisation and layout 1/2: one paragraph in a clear order, but apart from 'and', only 'because' links the ideas.",
+        "Grammar range and accuracy 2/2: a correct comparative (brighter than) and correct use of 'would'.",
         "Vocabulary and spelling 2/2: good adjectives (sweet, crunchy, colourful, tasty), all spelled correctly.",
-        "Fluency 1/2: clear, but most sentences start with 'It' or 'I', so it does not flow very well."
+        "Fluency 1/2: mostly easy to read, but one sentence joins too many ideas with 'and ... and ... and'. Split it into two sentences."
        ],
        "marks": {
         "content": 2,
@@ -1222,7 +1222,7 @@
        "notes": [
         "Task achievement and content 2/2: all four bullet points are covered with lively detail.",
         "Organisation and layout 2/2: two paragraphs (what it looks like, then why it is special and who shares it) linked with also, because and so.",
-        "Grammar 2/2: a superlative (the most delicious), a comparative (more colourful than) and 'would', all accurate.",
+        "Grammar range and accuracy 2/2: a superlative (the most delicious), a comparative (more colourful than) and 'would', all accurate.",
         "Vocabulary and spelling 2/2: rich adjectives (sticky, soft, crunchy, purple, delicious), all spelled correctly.",
         "Fluency 2/2: varied sentences that are a pleasure to read."
        ],
@@ -1259,13 +1259,13 @@
      "models": [
       {
        "level": "Developing",
-       "text": "My superhero is Green Girl. She is tall and she have long green hair. She wears a long green cape and big boots. She can talk to animals and trees. She help animals in danger. I chose her because I love animals. She is very kind and brave. She is my favourite.",
+       "text": "My superhero is Green Girl. She is tall and she have long green hair. She wears a long green cape and big boots. She can talk to animals and trees. She help animals in danger. I chose her. Because I love animals. She is kind and brave and she is my favourite.",
        "notes": [
         "Task achievement and content 1/2: all bullet points are there, but 'help animals in danger' needs more detail. It is a little short.",
         "Organisation and layout 1/2: a clear order, but almost no linking words.",
-        "Grammar 1/2: no comparative or superlative, and 'she have' (she has) and 'She help' (She helps) are wrong.",
+        "Grammar range and accuracy 1/2: no comparative or superlative, and 'she have' (she has) and 'She help' (She helps) are wrong.",
         "Vocabulary and spelling 1/2: correct spelling, but 'green' is repeated three times and the adjectives are simple.",
-        "Fluency 1/2: every sentence starts with 'She', so it does not flow."
+        "Fluency 1/2: mostly easy to read, but 'Because I love animals.' is not a full sentence: 'I chose her because I love animals.' Almost every sentence starts with 'She'."
        ],
        "marks": {
         "content": 1,
@@ -1277,13 +1277,13 @@
       },
       {
        "level": "Secure",
-       "text": "My superhero is called Captain Wave. He is a tall, friendly man with a blue suit and silver boots. He is stronger than ten elephants, and he can swim faster than a dolphin. His special power is that he can talk to sea animals. He would clean the oceans and help fishing boats in storms. I chose him because I love the sea. He is my hero!",
+       "text": "My superhero is called Captain Wave. He is a tall, frendly man with a blue suit and silver boots. He is stronger than ten elephants, and he can swim faster than a dolphin. His special power is that he can talk to sea animals. He would clean the oceans and help fishing boats in storms. I chose him because I love the sea. He is my hero!",
        "notes": [
         "Task achievement and content 2/2: every bullet point is covered with good ideas.",
         "Organisation and layout 1/2: one paragraph in a clear order, but only 'and' and 'because' link the ideas.",
-        "Grammar 2/2: correct comparatives (stronger than, faster than) and correct verb forms.",
-        "Vocabulary and spelling 1/2: correct spelling and some good adjectives (tall, friendly), but the reason uses very simple words.",
-        "Fluency 2/2: complete sentences that read smoothly."
+        "Grammar range and accuracy 2/2: correct comparatives (stronger than, faster than) and correct verb forms.",
+        "Vocabulary and spelling 1/2: some good adjectives (tall, silver), but 'frendly' should be 'friendly'.",
+        "Fluency 2/2: complete sentences with capital letters and full stops; they read smoothly."
        ],
        "marks": {
         "content": 2,
@@ -1299,7 +1299,7 @@
        "notes": [
         "Task achievement and content 2/2: all four bullet points are covered and developed.",
         "Organisation and layout 2/2: two paragraphs (what she looks like, then what she does and why) with clear linking words.",
-        "Grammar 2/2: superlatives (the cleverest, the strongest) and a comparative adverb (more quietly than), all accurate.",
+        "Grammar range and accuracy 2/2: superlatives (the cleverest, the strongest) and a comparative adverb (more quietly than), all accurate.",
         "Vocabulary and spelling 2/2: rich adjectives (dark purple, soft, golden, calm, generous), all spelled correctly.",
         "Fluency 2/2: long and short sentences mix well, and the ending is strong."
        ],
@@ -1336,13 +1336,13 @@
      "models": [
       {
        "level": "Developing",
-       "text": "I would like a magic backpack. It is small and red with a yellow zip. It is speshal because it is never heavy. I can puts many things in it. I would take it to school every day. I chose it because my bag is very heavy now. It is magic and cool.",
+       "text": "I would like a magic backpack. It is small and red with a yellow zip. It is speshal because it is never heavy. I can puts many things in it. i would take it to school every day. I chose it because my bag is very heavy now. It is magic and cool.",
        "notes": [
         "Task achievement and content 1/2: all bullet points are mentioned, but there is little detail about the magic. It is a little short.",
         "Organisation and layout 1/2: a sensible order, but 'because' is the only linking word.",
-        "Grammar 1/2: no comparative or superlative, and 'I can puts' should be 'I can put'.",
+        "Grammar range and accuracy 1/2: no comparative or superlative, and 'I can puts' should be 'I can put'.",
         "Vocabulary and spelling 1/2: simple adjectives (small, red, cool), and 'speshal' should be 'special'.",
-        "Fluency 1/2: short, separate sentences that do not flow."
+        "Fluency 1/2: mostly easy to read, but 'i would take' needs a capital letter: 'I' is always a capital."
        ],
        "marks": {
         "content": 1,
@@ -1354,13 +1354,13 @@
       },
       {
        "level": "Secure",
-       "text": "My magic object would be a small red backpack with a shiny yellow zip. It looks normal, but it is magical. It is never heavy, even with twenty books inside! It can also hold bigger things than a normal bag, like a bike or a tent. I would take it to school and on family holidays. I chose it because my school bag is always too heavy. It would make my life easier.",
+       "text": "My magic object would be a small red backpack with a shiny yellow zip. It looks normal, but it is magical. It is never heavy, even with twenty books inside! It can also hold bigger things than a normal bag. Like a bike or a tent! I would take it to school and on family holidays. I chose it because my school bag is always too heavy. It would make my life easier.",
        "notes": [
         "Task achievement and content 2/2: every bullet point is covered with fun details.",
         "Organisation and layout 2/2: a clear order with but, also and because.",
-        "Grammar 2/2: correct comparatives (bigger than, easier) and correct use of 'would'.",
+        "Grammar range and accuracy 2/2: correct comparatives (bigger than, easier) and correct use of 'would'.",
         "Vocabulary and spelling 1/2: correct spelling, but 'heavy' and 'normal' are repeated; 'ordinary' would add variety.",
-        "Fluency 1/2: clear, but some sentences are short and a little choppy."
+        "Fluency 1/2: mostly easy to read, but 'Like a bike or a tent!' is not a full sentence. Join it to the sentence before with a comma."
        ],
        "marks": {
         "content": 2,
@@ -1376,7 +1376,7 @@
        "notes": [
         "Task achievement and content 2/2: all four bullet points are covered and developed with imaginative detail.",
         "Organisation and layout 2/2: two paragraphs (what it looks like, then its magic and why) with but, For example and because.",
-        "Grammar 2/2: a superlative (the most amazing), a comparative (lighter than) and 'would', all accurate.",
+        "Grammar range and accuracy 2/2: a superlative (the most amazing), a comparative (lighter than) and 'would', all accurate.",
         "Vocabulary and spelling 2/2: rich adjectives (ordinary, amazing, mysterious, tiny, silver), all spelled correctly.",
         "Fluency 2/2: smooth, varied sentences that are easy to read."
        ],
@@ -1780,7 +1780,7 @@
     "v": [
      {
       "hint": {
-       "step": "A reason often starts with 'because'."
+       "step": "Ask yourself: which sentence answers the question 'Why?'"
       },
       "worked": "<b>because plants need care to grow</b> explains why we should look after the garden.",
       "type": "mcq",
@@ -1800,7 +1800,7 @@
      },
      {
       "hint": {
-       "step": "A reason often starts with 'because'."
+       "step": "Ask yourself: which sentence answers the question 'Why?'"
       },
       "worked": "<b>because cars can't always stop quickly</b> explains why we must be careful.",
       "type": "mcq",

@@ -1868,7 +1868,7 @@
            [
             "bf_alice",
             "Vy",
-            "Everyone thinks that! The lucky money is nice, but I love the food more. Grandma makes banh chung. It's soft and a bit chewy, and it's delicious. I could eat it every day!"
+            "Everyone thinks that! The lucky money is nice, but I love the food more. Grandma makes sticky rice cakes. They're soft and a bit chewy, and they're delicious. I could eat them every day!"
            ],
            [
             "bm_fable",
@@ -1973,11 +1973,11 @@
          "hint": {
           "step": "Kenji guesses. Listen to what Vy says after <b>but</b>."
          },
-         "worked": "Vy says \"<b>I love the food more</b>. Grandma makes <b>banh chung</b>\".",
+         "worked": "Vy says \"<b>I love the food more</b>. Grandma makes <b>sticky rice cakes</b>\".",
          "type": "mcq",
          "q": "What does Vy like best about Tet?",
          "opts": [
-          "Grandma's banh chung",
+          "Grandma's rice cakes",
           "the lucky money",
           "cleaning the flat"
          ],
@@ -2022,7 +2022,7 @@
            [
             "bf_alice",
             "Vy",
-            "Everyone thinks that! The lucky money is nice, but I love the food more. Grandma makes banh chung. It's soft and a bit chewy, and it's delicious. I could eat it every day!"
+            "Everyone thinks that! The lucky money is nice, but I love the food more. Grandma makes sticky rice cakes. They're soft and a bit chewy, and they're delicious. I could eat them every day!"
            ],
            [
             "bm_fable",
@@ -2139,7 +2139,7 @@
          "whys": [
           null,
           "Vy is visiting her grandparents on the second day of Tet, not tomorrow.",
-          "Grandma makes the banh chung, but Vy doesn't say she is helping."
+          "Grandma makes the rice cakes, but Vy doesn't say she is helping."
          ],
          "letters": true,
          "fig": {
@@ -2176,7 +2176,7 @@
            [
             "bf_alice",
             "Vy",
-            "Everyone thinks that! The lucky money is nice, but I love the food more. Grandma makes banh chung. It's soft and a bit chewy, and it's delicious. I could eat it every day!"
+            "Everyone thinks that! The lucky money is nice, but I love the food more. Grandma makes sticky rice cakes. They're soft and a bit chewy, and they're delicious. I could eat them every day!"
            ],
            [
             "bm_fable",
@@ -3197,7 +3197,7 @@
         [
          "bm_fable",
          "Huy",
-         "No. We were going to have a party at home this year, but our kitchen is being painted. So we had a picnic by the lake instead."
+         "No. We were going to have a party at home, but our kitchen is being painted. So we had a picnic by the lake instead."
         ],
         [
          "bf_lily",
@@ -3217,7 +3217,7 @@
         [
          "bm_fable",
          "Huy",
-         "Mum made chicken sandwiches and a big bowl of fruit. And there was a chocolate cake, of course. But Grandpa forgot the candles, so we sang without them!"
+         "Chicken sandwiches and a big chocolate cake. Grandpa forgot the candles, so we sang without them!"
         ],
         [
          "bf_lily",
@@ -3227,7 +3227,7 @@
         [
          "bm_fable",
          "Huy",
-         "I got a football and some books. But my favourite was a small camera from Grandpa. I took photos of the ducks on the lake."
+         "My favourite was a small camera from Grandpa. I got a football and some books too."
         ],
         [
          "bf_lily",
@@ -3242,7 +3242,7 @@
         [
          "bf_lily",
          "Freya",
-         "Good idea. Are you going to buy more books too?"
+         "Good idea. What about more books?"
         ],
         [
          "bm_fable",
@@ -3285,7 +3285,7 @@
         [
          "bf_alice",
          "Vy",
-         "Actually, we went on Sunday. On Saturday it was too busy. It's enormous! There are three floors."
+         "Actually, we went on Sunday. On Saturday it was too busy. It's enormous!"
         ],
         [
          "bm_lewis",
@@ -3295,7 +3295,7 @@
         [
          "bf_alice",
          "Vy",
-         "The children's floor is at the top. There's a room where you can make things with paper, and a little cinema. But my favourite part was the reading garden on the roof. It's so quiet and green."
+         "My favourite part was the reading garden on the roof. It's so quiet and green. There's also a room where you can make things with paper, and a little cinema."
         ],
         [
          "bm_lewis",
@@ -3371,7 +3371,7 @@
         [
          "bm_fable",
          "Huy",
-         "No. We were going to have a party at home this year, but our kitchen is being painted. So we had a picnic by the lake instead."
+         "No. We were going to have a party at home, but our kitchen is being painted. So we had a picnic by the lake instead."
         ],
         [
          "bf_lily",
@@ -3391,7 +3391,7 @@
         [
          "bm_fable",
          "Huy",
-         "Mum made chicken sandwiches and a big bowl of fruit. And there was a chocolate cake, of course. But Grandpa forgot the candles, so we sang without them!"
+         "Chicken sandwiches and a big chocolate cake. Grandpa forgot the candles, so we sang without them!"
         ],
         [
          "bf_lily",
@@ -3401,7 +3401,7 @@
         [
          "bm_fable",
          "Huy",
-         "I got a football and some books. But my favourite was a small camera from Grandpa. I took photos of the ducks on the lake."
+         "My favourite was a small camera from Grandpa. I got a football and some books too."
         ],
         [
          "bf_lily",
@@ -3416,7 +3416,7 @@
         [
          "bf_lily",
          "Freya",
-         "Good idea. Are you going to buy more books too?"
+         "Good idea. What about more books?"
         ],
         [
          "bm_fable",
@@ -3430,7 +3430,7 @@
       "hint": {
        "step": "Listen for the words <b>my favourite part</b>."
       },
-      "worked": "Vy says \"<b>my favourite part was the reading garden on the roof</b>\".",
+      "worked": "Vy says \"<b>My favourite part was the reading garden on the roof</b>\".",
       "type": "mcq",
       "q": "What was Vy's favourite part of the library?",
       "opts": [
@@ -3459,7 +3459,7 @@
         [
          "bf_alice",
          "Vy",
-         "Actually, we went on Sunday. On Saturday it was too busy. It's enormous! There are three floors."
+         "Actually, we went on Sunday. On Saturday it was too busy. It's enormous!"
         ],
         [
          "bm_lewis",
@@ -3469,7 +3469,7 @@
         [
          "bf_alice",
          "Vy",
-         "The children's floor is at the top. There's a room where you can make things with paper, and a little cinema. But my favourite part was the reading garden on the roof. It's so quiet and green."
+         "My favourite part was the reading garden on the roof. It's so quiet and green. There's also a room where you can make things with paper, and a little cinema."
         ],
         [
          "bm_lewis",
@@ -3545,7 +3545,7 @@
         [
          "bm_fable",
          "Huy",
-         "No. We were going to have a party at home this year, but our kitchen is being painted. So we had a picnic by the lake instead."
+         "No. We were going to have a party at home, but our kitchen is being painted. So we had a picnic by the lake instead."
         ],
         [
          "bf_lily",
@@ -3565,7 +3565,7 @@
         [
          "bm_fable",
          "Huy",
-         "Mum made chicken sandwiches and a big bowl of fruit. And there was a chocolate cake, of course. But Grandpa forgot the candles, so we sang without them!"
+         "Chicken sandwiches and a big chocolate cake. Grandpa forgot the candles, so we sang without them!"
         ],
         [
          "bf_lily",
@@ -3575,7 +3575,7 @@
         [
          "bm_fable",
          "Huy",
-         "I got a football and some books. But my favourite was a small camera from Grandpa. I took photos of the ducks on the lake."
+         "My favourite was a small camera from Grandpa. I got a football and some books too."
         ],
         [
          "bf_lily",
@@ -3590,7 +3590,7 @@
         [
          "bf_lily",
          "Freya",
-         "Good idea. Are you going to buy more books too?"
+         "Good idea. What about more books?"
         ],
         [
          "bm_fable",
@@ -3633,7 +3633,7 @@
         [
          "bf_alice",
          "Vy",
-         "Actually, we went on Sunday. On Saturday it was too busy. It's enormous! There are three floors."
+         "Actually, we went on Sunday. On Saturday it was too busy. It's enormous!"
         ],
         [
          "bm_lewis",
@@ -3643,7 +3643,7 @@
         [
          "bf_alice",
          "Vy",
-         "The children's floor is at the top. There's a room where you can make things with paper, and a little cinema. But my favourite part was the reading garden on the roof. It's so quiet and green."
+         "My favourite part was the reading garden on the roof. It's so quiet and green. There's also a room where you can make things with paper, and a little cinema."
         ],
         [
          "bm_lewis",
@@ -3688,9 +3688,9 @@
     "v": [
      {
       "hint": {
-       "step": "Huy got three presents. Listen after <b>But my favourite was</b>."
+       "step": "Huy talks about three presents. Listen for <b>my favourite</b>."
       },
-      "worked": "Huy says \"<b>my favourite was a small camera</b> from Grandpa\".",
+      "worked": "Huy says \"<b>My favourite was a small camera</b> from Grandpa\".",
       "type": "mcq",
       "q": "What was Huy's favourite present?",
       "opts": [
@@ -3719,7 +3719,7 @@
         [
          "bm_fable",
          "Huy",
-         "No. We were going to have a party at home this year, but our kitchen is being painted. So we had a picnic by the lake instead."
+         "No. We were going to have a party at home, but our kitchen is being painted. So we had a picnic by the lake instead."
         ],
         [
          "bf_lily",
@@ -3739,7 +3739,7 @@
         [
          "bm_fable",
          "Huy",
-         "Mum made chicken sandwiches and a big bowl of fruit. And there was a chocolate cake, of course. But Grandpa forgot the candles, so we sang without them!"
+         "Chicken sandwiches and a big chocolate cake. Grandpa forgot the candles, so we sang without them!"
         ],
         [
          "bf_lily",
@@ -3749,7 +3749,7 @@
         [
          "bm_fable",
          "Huy",
-         "I got a football and some books. But my favourite was a small camera from Grandpa. I took photos of the ducks on the lake."
+         "My favourite was a small camera from Grandpa. I got a football and some books too."
         ],
         [
          "bf_lily",
@@ -3764,7 +3764,7 @@
         [
          "bf_lily",
          "Freya",
-         "Good idea. Are you going to buy more books too?"
+         "Good idea. What about more books?"
         ],
         [
          "bm_fable",
@@ -3807,7 +3807,7 @@
         [
          "bf_alice",
          "Vy",
-         "Actually, we went on Sunday. On Saturday it was too busy. It's enormous! There are three floors."
+         "Actually, we went on Sunday. On Saturday it was too busy. It's enormous!"
         ],
         [
          "bm_lewis",
@@ -3817,7 +3817,7 @@
         [
          "bf_alice",
          "Vy",
-         "The children's floor is at the top. There's a room where you can make things with paper, and a little cinema. But my favourite part was the reading garden on the roof. It's so quiet and green."
+         "My favourite part was the reading garden on the roof. It's so quiet and green. There's also a room where you can make things with paper, and a little cinema."
         ],
         [
          "bm_lewis",
@@ -3893,7 +3893,7 @@
         [
          "bm_fable",
          "Huy",
-         "No. We were going to have a party at home this year, but our kitchen is being painted. So we had a picnic by the lake instead."
+         "No. We were going to have a party at home, but our kitchen is being painted. So we had a picnic by the lake instead."
         ],
         [
          "bf_lily",
@@ -3913,7 +3913,7 @@
         [
          "bm_fable",
          "Huy",
-         "Mum made chicken sandwiches and a big bowl of fruit. And there was a chocolate cake, of course. But Grandpa forgot the candles, so we sang without them!"
+         "Chicken sandwiches and a big chocolate cake. Grandpa forgot the candles, so we sang without them!"
         ],
         [
          "bf_lily",
@@ -3923,7 +3923,7 @@
         [
          "bm_fable",
          "Huy",
-         "I got a football and some books. But my favourite was a small camera from Grandpa. I took photos of the ducks on the lake."
+         "My favourite was a small camera from Grandpa. I got a football and some books too."
         ],
         [
          "bf_lily",
@@ -3938,7 +3938,7 @@
         [
          "bf_lily",
          "Freya",
-         "Good idea. Are you going to buy more books too?"
+         "Good idea. What about more books?"
         ],
         [
          "bm_fable",
@@ -3954,7 +3954,7 @@
       },
       "worked": "Vy says \"<b>There's a storytelling afternoon at three o'clock</b>\".",
       "type": "mcq",
-      "q": "What is Vy going to next Saturday?",
+      "q": "What will Vy go to next Saturday?",
       "opts": [
        "a storytelling afternoon",
        "a puppet show",
@@ -3981,7 +3981,7 @@
         [
          "bf_alice",
          "Vy",
-         "Actually, we went on Sunday. On Saturday it was too busy. It's enormous! There are three floors."
+         "Actually, we went on Sunday. On Saturday it was too busy. It's enormous!"
         ],
         [
          "bm_lewis",
@@ -3991,7 +3991,7 @@
         [
          "bf_alice",
          "Vy",
-         "The children's floor is at the top. There's a room where you can make things with paper, and a little cinema. But my favourite part was the reading garden on the roof. It's so quiet and green."
+         "My favourite part was the reading garden on the roof. It's so quiet and green. There's also a room where you can make things with paper, and a little cinema."
         ],
         [
          "bm_lewis",
@@ -4036,9 +4036,9 @@
     "v": [
      {
       "hint": {
-       "step": "Kenji's friends had one idea. Who knows better: the friends or the nurse?"
+       "step": "Two ideas are given. Who knows better: the friends or the nurse?"
       },
-      "worked": "Kenji says \"<b>the nurse said it was the heat</b>. I didn't wear my hat\". So he got too hot.",
+      "worked": "Kenji says \"<b>The nurse said it was the heat</b>. I didn't wear my hat\". So he got too hot.",
       "type": "mcq",
       "q": "Why did Kenji feel dizzy?",
       "opts": [
@@ -4049,7 +4049,7 @@
       "at": 1,
       "whys": [
        null,
-       "Kenji's friends thought this, but the nurse said something different.",
+       "Kenji's friends think this, but Kenji says \"that wasn't it\".",
        "Kenji says he wasn't nervous at all."
       ],
       "letters": true,
@@ -4067,57 +4067,47 @@
         [
          "bm_fable",
          "Kenji",
-         "I'm fine now, thanks. I felt really dizzy after the running race."
+         "Yes, thanks. I just felt dizzy after the running race."
         ],
         [
          "bf_lily",
          "Eva",
-         "Oh no. Were you nervous before the race?"
+         "Were you nervous?"
         ],
         [
          "bm_fable",
          "Kenji",
-         "No, not at all. My friends said I ran too fast. But the nurse said it was the heat. I didn't wear my hat, and I only had a tiny bottle of water all morning."
+         "Not at all. The nurse said it was the heat. I didn't wear my hat, and I only had a little water. My friends think I ran too fast, but that wasn't it."
         ],
         [
          "bf_lily",
          "Eva",
-         "Did you finish the race?"
+         "Did you finish?"
         ],
         [
          "bm_fable",
          "Kenji",
-         "Yes, I came second, not last! But after that, I had to sit in the nurse's room. So I missed the long jump, and that's my best event."
+         "Yes, I came second! But then I had to sit in the nurse's room, so I missed the long jump, my best event."
         ],
         [
          "bf_lily",
          "Eva",
-         "But your team still won the cup!"
+         "Your team still won the cup!"
         ],
         [
          "bm_fable",
          "Kenji",
-         "I know. I was happy for them, but I wanted to be there."
+         "I know, but I wanted to be there."
         ],
         [
          "bf_lily",
          "Eva",
-         "So what will you do next year? Run more slowly? Or not do the race at all?"
+         "Next year, will you run more slowly? Or not run at all?"
         ],
         [
          "bm_fable",
          "Kenji",
-         "No way! I'll take a big bottle of water and wear my hat. And Mum says I should eat a proper breakfast. That day I only had a banana."
-        ],
-        [
-         "bf_lily",
-         "Eva",
-         "What do you have for breakfast now?"
-        ],
-        [
-         "bm_fable",
-         "Kenji",
-         "Eggs and rice. They aren't my favourite food, but they're much better for me than biscuits."
+         "No way! I'll take a big bottle of water and wear my hat. And Mum says I should eat a proper breakfast. That day I only had a banana. Now I have eggs and rice. They're much better for me than biscuits, but they aren't my favourite."
         ]
        ]
       }
@@ -4150,17 +4140,17 @@
         [
          "bm_lewis",
          "Oscar",
-         "Pia, you look happy! How was your grandpa's birthday?"
+         "Pia, how was your grandpa's birthday?"
         ],
         [
          "bf_lily",
          "Pia",
-         "Brilliant! He was seventy on Saturday, and we had a surprise party for him at my aunt's house. Thirty people shouted \"Surprise!\" when he walked in."
+         "Brilliant! He was seventy on Saturday, and we had a surprise party for him. Everyone shouted \"Surprise!\" when he walked in."
         ],
         [
          "bm_lewis",
          "Oscar",
-         "Was he cross? Some people hate surprises."
+         "Was he cross?"
         ],
         [
          "bf_lily",
@@ -4175,7 +4165,7 @@
         [
          "bf_lily",
          "Pia",
-         "My cousins wanted balloons, and the shop near my aunt's house had lots. But Grandpa hates the noise when they pop. So we made paper flowers instead."
+         "My cousins wanted balloons, and the shop had lots. But Grandpa hates the noise when they pop. So we made paper flowers instead."
         ],
         [
          "bm_lewis",
@@ -4222,7 +4212,7 @@
       "hint": {
        "step": "Find the thing that went wrong for Kenji after the race."
       },
-      "worked": "Kenji says \"<b>I missed the long jump, and that's my best event</b>\".",
+      "worked": "Kenji says \"<b>I missed the long jump, my best event</b>\".",
       "type": "mcq",
       "q": "Why was Kenji disappointed?",
       "opts": [
@@ -4251,57 +4241,47 @@
         [
          "bm_fable",
          "Kenji",
-         "I'm fine now, thanks. I felt really dizzy after the running race."
+         "Yes, thanks. I just felt dizzy after the running race."
         ],
         [
          "bf_lily",
          "Eva",
-         "Oh no. Were you nervous before the race?"
+         "Were you nervous?"
         ],
         [
          "bm_fable",
          "Kenji",
-         "No, not at all. My friends said I ran too fast. But the nurse said it was the heat. I didn't wear my hat, and I only had a tiny bottle of water all morning."
+         "Not at all. The nurse said it was the heat. I didn't wear my hat, and I only had a little water. My friends think I ran too fast, but that wasn't it."
         ],
         [
          "bf_lily",
          "Eva",
-         "Did you finish the race?"
+         "Did you finish?"
         ],
         [
          "bm_fable",
          "Kenji",
-         "Yes, I came second, not last! But after that, I had to sit in the nurse's room. So I missed the long jump, and that's my best event."
+         "Yes, I came second! But then I had to sit in the nurse's room, so I missed the long jump, my best event."
         ],
         [
          "bf_lily",
          "Eva",
-         "But your team still won the cup!"
+         "Your team still won the cup!"
         ],
         [
          "bm_fable",
          "Kenji",
-         "I know. I was happy for them, but I wanted to be there."
+         "I know, but I wanted to be there."
         ],
         [
          "bf_lily",
          "Eva",
-         "So what will you do next year? Run more slowly? Or not do the race at all?"
+         "Next year, will you run more slowly? Or not run at all?"
         ],
         [
          "bm_fable",
          "Kenji",
-         "No way! I'll take a big bottle of water and wear my hat. And Mum says I should eat a proper breakfast. That day I only had a banana."
-        ],
-        [
-         "bf_lily",
-         "Eva",
-         "What do you have for breakfast now?"
-        ],
-        [
-         "bm_fable",
-         "Kenji",
-         "Eggs and rice. They aren't my favourite food, but they're much better for me than biscuits."
+         "No way! I'll take a big bottle of water and wear my hat. And Mum says I should eat a proper breakfast. That day I only had a banana. Now I have eggs and rice. They're much better for me than biscuits, but they aren't my favourite."
         ]
        ]
       }
@@ -4322,7 +4302,7 @@
       "whys": [
        null,
        "The cousins wanted balloons.",
-       "The shop near the aunt's house had lots of balloons."
+       "Pia says the shop had lots of balloons."
       ],
       "letters": true,
       "fig": {
@@ -4334,17 +4314,17 @@
         [
          "bm_lewis",
          "Oscar",
-         "Pia, you look happy! How was your grandpa's birthday?"
+         "Pia, how was your grandpa's birthday?"
         ],
         [
          "bf_lily",
          "Pia",
-         "Brilliant! He was seventy on Saturday, and we had a surprise party for him at my aunt's house. Thirty people shouted \"Surprise!\" when he walked in."
+         "Brilliant! He was seventy on Saturday, and we had a surprise party for him. Everyone shouted \"Surprise!\" when he walked in."
         ],
         [
          "bm_lewis",
          "Oscar",
-         "Was he cross? Some people hate surprises."
+         "Was he cross?"
         ],
         [
          "bf_lily",
@@ -4359,7 +4339,7 @@
         [
          "bf_lily",
          "Pia",
-         "My cousins wanted balloons, and the shop near my aunt's house had lots. But Grandpa hates the noise when they pop. So we made paper flowers instead."
+         "My cousins wanted balloons, and the shop had lots. But Grandpa hates the noise when they pop. So we made paper flowers instead."
         ],
         [
          "bm_lewis",
@@ -4412,7 +4392,7 @@
       "opts": [
        "take more to drink",
        "run more slowly",
-       "not do the race at all"
+       "not run the race at all"
       ],
       "at": 0,
       "whys": [
@@ -4435,57 +4415,47 @@
         [
          "bm_fable",
          "Kenji",
-         "I'm fine now, thanks. I felt really dizzy after the running race."
+         "Yes, thanks. I just felt dizzy after the running race."
         ],
         [
          "bf_lily",
          "Eva",
-         "Oh no. Were you nervous before the race?"
+         "Were you nervous?"
         ],
         [
          "bm_fable",
          "Kenji",
-         "No, not at all. My friends said I ran too fast. But the nurse said it was the heat. I didn't wear my hat, and I only had a tiny bottle of water all morning."
+         "Not at all. The nurse said it was the heat. I didn't wear my hat, and I only had a little water. My friends think I ran too fast, but that wasn't it."
         ],
         [
          "bf_lily",
          "Eva",
-         "Did you finish the race?"
+         "Did you finish?"
         ],
         [
          "bm_fable",
          "Kenji",
-         "Yes, I came second, not last! But after that, I had to sit in the nurse's room. So I missed the long jump, and that's my best event."
+         "Yes, I came second! But then I had to sit in the nurse's room, so I missed the long jump, my best event."
         ],
         [
          "bf_lily",
          "Eva",
-         "But your team still won the cup!"
+         "Your team still won the cup!"
         ],
         [
          "bm_fable",
          "Kenji",
-         "I know. I was happy for them, but I wanted to be there."
+         "I know, but I wanted to be there."
         ],
         [
          "bf_lily",
          "Eva",
-         "So what will you do next year? Run more slowly? Or not do the race at all?"
+         "Next year, will you run more slowly? Or not run at all?"
         ],
         [
          "bm_fable",
          "Kenji",
-         "No way! I'll take a big bottle of water and wear my hat. And Mum says I should eat a proper breakfast. That day I only had a banana."
-        ],
-        [
-         "bf_lily",
-         "Eva",
-         "What do you have for breakfast now?"
-        ],
-        [
-         "bm_fable",
-         "Kenji",
-         "Eggs and rice. They aren't my favourite food, but they're much better for me than biscuits."
+         "No way! I'll take a big bottle of water and wear my hat. And Mum says I should eat a proper breakfast. That day I only had a banana. Now I have eggs and rice. They're much better for me than biscuits, but they aren't my favourite."
         ]
        ]
       }
@@ -4518,17 +4488,17 @@
         [
          "bm_lewis",
          "Oscar",
-         "Pia, you look happy! How was your grandpa's birthday?"
+         "Pia, how was your grandpa's birthday?"
         ],
         [
          "bf_lily",
          "Pia",
-         "Brilliant! He was seventy on Saturday, and we had a surprise party for him at my aunt's house. Thirty people shouted \"Surprise!\" when he walked in."
+         "Brilliant! He was seventy on Saturday, and we had a surprise party for him. Everyone shouted \"Surprise!\" when he walked in."
         ],
         [
          "bm_lewis",
          "Oscar",
-         "Was he cross? Some people hate surprises."
+         "Was he cross?"
         ],
         [
          "bf_lily",
@@ -4543,7 +4513,7 @@
         [
          "bf_lily",
          "Pia",
-         "My cousins wanted balloons, and the shop near my aunt's house had lots. But Grandpa hates the noise when they pop. So we made paper flowers instead."
+         "My cousins wanted balloons, and the shop had lots. But Grandpa hates the noise when they pop. So we made paper flowers instead."
         ],
         [
          "bm_lewis",
@@ -4619,57 +4589,47 @@
         [
          "bm_fable",
          "Kenji",
-         "I'm fine now, thanks. I felt really dizzy after the running race."
+         "Yes, thanks. I just felt dizzy after the running race."
         ],
         [
          "bf_lily",
          "Eva",
-         "Oh no. Were you nervous before the race?"
+         "Were you nervous?"
         ],
         [
          "bm_fable",
          "Kenji",
-         "No, not at all. My friends said I ran too fast. But the nurse said it was the heat. I didn't wear my hat, and I only had a tiny bottle of water all morning."
+         "Not at all. The nurse said it was the heat. I didn't wear my hat, and I only had a little water. My friends think I ran too fast, but that wasn't it."
         ],
         [
          "bf_lily",
          "Eva",
-         "Did you finish the race?"
+         "Did you finish?"
         ],
         [
          "bm_fable",
          "Kenji",
-         "Yes, I came second, not last! But after that, I had to sit in the nurse's room. So I missed the long jump, and that's my best event."
+         "Yes, I came second! But then I had to sit in the nurse's room, so I missed the long jump, my best event."
         ],
         [
          "bf_lily",
          "Eva",
-         "But your team still won the cup!"
+         "Your team still won the cup!"
         ],
         [
          "bm_fable",
          "Kenji",
-         "I know. I was happy for them, but I wanted to be there."
+         "I know, but I wanted to be there."
         ],
         [
          "bf_lily",
          "Eva",
-         "So what will you do next year? Run more slowly? Or not do the race at all?"
+         "Next year, will you run more slowly? Or not run at all?"
         ],
         [
          "bm_fable",
          "Kenji",
-         "No way! I'll take a big bottle of water and wear my hat. And Mum says I should eat a proper breakfast. That day I only had a banana."
-        ],
-        [
-         "bf_lily",
-         "Eva",
-         "What do you have for breakfast now?"
-        ],
-        [
-         "bm_fable",
-         "Kenji",
-         "Eggs and rice. They aren't my favourite food, but they're much better for me than biscuits."
+         "No way! I'll take a big bottle of water and wear my hat. And Mum says I should eat a proper breakfast. That day I only had a banana. Now I have eggs and rice. They're much better for me than biscuits, but they aren't my favourite."
         ]
        ]
       }
@@ -4702,17 +4662,17 @@
         [
          "bm_lewis",
          "Oscar",
-         "Pia, you look happy! How was your grandpa's birthday?"
+         "Pia, how was your grandpa's birthday?"
         ],
         [
          "bf_lily",
          "Pia",
-         "Brilliant! He was seventy on Saturday, and we had a surprise party for him at my aunt's house. Thirty people shouted \"Surprise!\" when he walked in."
+         "Brilliant! He was seventy on Saturday, and we had a surprise party for him. Everyone shouted \"Surprise!\" when he walked in."
         ],
         [
          "bm_lewis",
          "Oscar",
-         "Was he cross? Some people hate surprises."
+         "Was he cross?"
         ],
         [
          "bf_lily",
@@ -4727,7 +4687,7 @@
         [
          "bf_lily",
          "Pia",
-         "My cousins wanted balloons, and the shop near my aunt's house had lots. But Grandpa hates the noise when they pop. So we made paper flowers instead."
+         "My cousins wanted balloons, and the shop had lots. But Grandpa hates the noise when they pop. So we made paper flowers instead."
         ],
         [
          "bm_lewis",
@@ -4772,9 +4732,9 @@
     "v": [
      {
       "hint": {
-       "step": "Listen to Kenji's last words. What does <b>better for me</b> mean?"
+       "step": "Listen to what Kenji says about eggs and rice. What does <b>better for me</b> mean?"
       },
-      "worked": "Kenji says \"<b>they're much better for me than biscuits</b>\".",
+      "worked": "Kenji says \"<b>They're much better for me than biscuits</b>\".",
       "type": "mcq",
       "q": "What does Kenji think of eggs and rice?",
       "opts": [
@@ -4803,57 +4763,47 @@
         [
          "bm_fable",
          "Kenji",
-         "I'm fine now, thanks. I felt really dizzy after the running race."
+         "Yes, thanks. I just felt dizzy after the running race."
         ],
         [
          "bf_lily",
          "Eva",
-         "Oh no. Were you nervous before the race?"
+         "Were you nervous?"
         ],
         [
          "bm_fable",
          "Kenji",
-         "No, not at all. My friends said I ran too fast. But the nurse said it was the heat. I didn't wear my hat, and I only had a tiny bottle of water all morning."
+         "Not at all. The nurse said it was the heat. I didn't wear my hat, and I only had a little water. My friends think I ran too fast, but that wasn't it."
         ],
         [
          "bf_lily",
          "Eva",
-         "Did you finish the race?"
+         "Did you finish?"
         ],
         [
          "bm_fable",
          "Kenji",
-         "Yes, I came second, not last! But after that, I had to sit in the nurse's room. So I missed the long jump, and that's my best event."
+         "Yes, I came second! But then I had to sit in the nurse's room, so I missed the long jump, my best event."
         ],
         [
          "bf_lily",
          "Eva",
-         "But your team still won the cup!"
+         "Your team still won the cup!"
         ],
         [
          "bm_fable",
          "Kenji",
-         "I know. I was happy for them, but I wanted to be there."
+         "I know, but I wanted to be there."
         ],
         [
          "bf_lily",
          "Eva",
-         "So what will you do next year? Run more slowly? Or not do the race at all?"
+         "Next year, will you run more slowly? Or not run at all?"
         ],
         [
          "bm_fable",
          "Kenji",
-         "No way! I'll take a big bottle of water and wear my hat. And Mum says I should eat a proper breakfast. That day I only had a banana."
-        ],
-        [
-         "bf_lily",
-         "Eva",
-         "What do you have for breakfast now?"
-        ],
-        [
-         "bm_fable",
-         "Kenji",
-         "Eggs and rice. They aren't my favourite food, but they're much better for me than biscuits."
+         "No way! I'll take a big bottle of water and wear my hat. And Mum says I should eat a proper breakfast. That day I only had a banana. Now I have eggs and rice. They're much better for me than biscuits, but they aren't my favourite."
         ]
        ]
       }
@@ -4886,17 +4836,17 @@
         [
          "bm_lewis",
          "Oscar",
-         "Pia, you look happy! How was your grandpa's birthday?"
+         "Pia, how was your grandpa's birthday?"
         ],
         [
          "bf_lily",
          "Pia",
-         "Brilliant! He was seventy on Saturday, and we had a surprise party for him at my aunt's house. Thirty people shouted \"Surprise!\" when he walked in."
+         "Brilliant! He was seventy on Saturday, and we had a surprise party for him. Everyone shouted \"Surprise!\" when he walked in."
         ],
         [
          "bm_lewis",
          "Oscar",
-         "Was he cross? Some people hate surprises."
+         "Was he cross?"
         ],
         [
          "bf_lily",
@@ -4911,7 +4861,7 @@
         [
          "bf_lily",
          "Pia",
-         "My cousins wanted balloons, and the shop near my aunt's house had lots. But Grandpa hates the noise when they pop. So we made paper flowers instead."
+         "My cousins wanted balloons, and the shop had lots. But Grandpa hates the noise when they pop. So we made paper flowers instead."
         ],
         [
          "bm_lewis",

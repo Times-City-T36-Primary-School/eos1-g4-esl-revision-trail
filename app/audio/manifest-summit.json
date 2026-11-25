@@ -8,12 +8,12 @@
   [
    "bm_george",
    "Dad",
-   "She's got lots of flowers in her garden. What about some green tea? She loves tea."
+   "She's got lots of flowers in her garden. What about some tea? She loves tea."
   ],
   [
    "bf_lily",
    "Emily",
-   "Aunt Hoa always gives her tea! But Grandma's always cold in the evenings."
+   "My aunt always gives her tea! But Grandma's always cold in the evenings."
   ],
   [
    "bm_george",
@@ -35,7 +35,7 @@
   [
    "bf_emma",
    "Mum",
-   "No, half past six is when they give out the lanterns at the park gate. The parade starts at seven o'clock."
+   "No, half past six is when they give out the lanterns. The parade starts at seven o'clock."
   ],
   [
    "bm_lewis",
@@ -45,7 +45,7 @@
   [
    "bf_emma",
    "Mum",
-   "Yes, we'll be at the gate at half past six. And the parade finishes at half past seven."
+   "Yes, let's be there at half past six. The parade finishes at half past seven."
   ]
  ],
  "sm-summit-l1-q3": [
@@ -62,12 +62,12 @@
   [
    "bf_alice",
    "Chi",
-   "Oh no. Is it because of his cough?"
+   "Oh no. Is his cough worse too?"
   ],
   [
    "bf_emma",
    "Mum",
-   "Maybe. His cough is much better now, but the doctor is going to look at his ear this afternoon."
+   "No, his cough is much better now. The doctor will look at his ear this afternoon."
   ]
  ],
  "sm-summit-l1-q4": [
@@ -125,17 +125,7 @@
   [
    "bf_lily",
    "Luna",
-   "Hi, Tam! Did you have a nice weekend?"
-  ],
-  [
-   "bm_lewis",
-   "Tam",
-   "Yes! My cousin got married on Saturday."
-  ],
-  [
-   "bf_lily",
-   "Luna",
-   "Was the wedding in a big hotel?"
+   "Hi, Tam! Was your cousin's wedding in a big hotel?"
   ],
   [
    "bm_lewis",
@@ -145,7 +135,7 @@
   [
    "bf_lily",
    "Luna",
-   "Lovely! Did your mum and dad go with you?"
+   "Lovely! Did your mum and dad go too?"
   ],
   [
    "bm_lewis",
@@ -180,7 +170,7 @@
   [
    "bm_lewis",
    "Tam",
-   "The food was delicious, and the dancing was even more fun. But the fireworks at the end were the best!"
+   "The fireworks at the end were the best! The food was delicious, and the dancing was even more fun."
   ],
   [
    "bf_lily",
