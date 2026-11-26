@@ -3,3 +3,4 @@ tts/
 __pycache__/
 *.pyc
 .DS_Store
+tts_el_cache/

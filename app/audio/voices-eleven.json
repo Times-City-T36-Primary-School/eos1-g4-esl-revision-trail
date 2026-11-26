@@ -1,0 +1,9 @@
+{"model": "eleven_multilingual_v2",
+ "settings": {"stability": 0.6, "similarity_boost": 0.8, "style": 0.0, "use_speaker_boost": true, "speed": 0.95},
+ "voices": {
+  "bf_emma": "Xb7hH8MSUJpSbSDYk0k2", "bf_isabella": "0sGQQaD2G2X1s87kHM5b",
+  "bm_george": "onwK4e9ZLuTAKqWW03F9", "bm_daniel": "9IzcwKmvwJcw58h3KnlH",
+  "bf_lily": "6fZce9LFNG3iEITDfqZZ", "bf_alice": "B5QSQFV9Yu7xHDMZJbWb",
+  "bm_lewis": "kmSVBPu7loj4ayNinwWM", "bm_fable": "yJSTU8D97YocC6Dqg20L"},
+ "names": {"bf_emma": "Alice (woman)", "bf_isabella": "Isabella (woman)", "bm_george": "Daniel (man)", "bm_daniel": "Julian (man)",
+  "bf_lily": "Charlotte (girl)", "bf_alice": "Abigail (girl)", "bm_lewis": "Archie (boy)", "bm_fable": "Charlie (boy)"}}
