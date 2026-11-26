@@ -62,6 +62,9 @@ def tts(text, voice):
                 msg = e.read().decode(errors='replace')[:300]
                 if e.code in (429, 500, 502, 503) and attempt < 3: time.sleep(5 * (attempt + 1)); continue
                 raise SystemExit(f'ElevenLabs error {e.code}: {msg}')
+            except (urllib.error.URLError, ConnectionError, TimeoutError, OSError) as e:    # a dropped connection: wait, try again
+                if attempt < 3: time.sleep(5 * (attempt + 1)); continue
+                raise SystemExit(f'network error: {e}')
         open(p, 'wb').write(data); sent += len(text)
     return np.frombuffer(open(p, 'rb').read(), dtype=np.int16).astype(np.float32) / 32768
 
