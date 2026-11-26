@@ -9,7 +9,7 @@
 | Listening | 15 questions as on the real paper: Part 1 pictures (5), Part 2 notes from a teacher's talk (5), Part 3 a conversation (5). Every recording plays two times on a test paper, like the exam. |
 | Reading and Use of English | 34 questions: Part 1 choose the word (5), Part 2 short texts (7), Part 3 dialogue A to H (5), Part 4 a letter with a word box (7), Part 5 which person (5), Part 6 a longer text (5). |
 | Writing | Task 1 explain and advise (with modal verbs), Task 2 describe a choice (with comparatives); 7 to 8 sentences (60 to 90 words) each. Marked with the school's real Grade 4 rubric: five categories, 0 to 2 marks each, 10 per task (Task achievement and content, Organisation and layout, Grammar range and accuracy, Vocabulary and spelling, Handwriting and fluency (shown on screen as "Fluency")). |
-| Sign-in | Student / Teacher / Visitor; classes 4B01 to 4B09; progress codes; How to use guide; school label "Vinschool Times City T36 Primary School – Advanced Programme". |
+| Sign-in | Student / Teacher / Visitor; classes 4B01 to 4B11 (all 11 classes; 26 November 2026); progress codes; How to use guide; school label "Vinschool Times City T36 Primary School – Advanced Programme". |
 | Look | The Grade 5 paper look with ink cartoon animation, black line-drawing pictures (Fluent Emoji high-contrast), Map and Stops buttons, listening exam mode. |
 | Summit | Open for everyone. Full practice exam: Listening 15 + Reading and Use of English 34 = 49 marks; trophy at 35 (70%); "Practise again" names the stop for each Part. Writing paper on its own card (2 tasks, 35 minutes, self-marked). |
 | Teacher-only labels | The objective code and DOK label under questions show for teachers and TAs only. |
