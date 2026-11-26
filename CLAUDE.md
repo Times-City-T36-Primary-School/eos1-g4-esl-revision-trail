@@ -36,10 +36,10 @@ Never edit `app/src/22-pack-stop*.js` or `22-summit-esl.js` by hand: they are ge
 
 ## Audio
 
-- Engine: Kokoro TTS (`pip install kokoro-onnx soundfile`), model files from the kokoro-onnx GitHub release `model-files-v1.0` (`kokoro-v1.0.onnx`, `voices-v1.0.bin`) saved in `./tts/`. Needs `ffmpeg`. Build v2 (see the header of `scripts/tts_build.py`): exact letter sounds for spelled names, equal loudness, -16 LUFS, 64 kbps.
+- Since 26 November 2026 every recording is made with ElevenLabs voices: `python3 scripts/tts_eleven.py` (or `python3 scripts/tts_eleven.py 4 5 summit`; `--dry` counts the characters first; `BUDGET=5000` stops before that many new characters). The voice map, model and settings are in `app/audio/voices-eleven.json` (women Alice and Isabella, men Daniel and Julian, girls Charlotte and Abigail, boys Archie and Charlie). The ElevenLabs key is never in the project: in the "EOS1 ESL trails" cloud environment the network proxy adds it; elsewhere set `ELEVEN_API_KEY`. Lines already made are kept in `./tts_el_cache` (not in git), so a line is paid for once. The account is on the Creator plan (about 130,000 characters a month; all recordings of one grade are about 32,000).
+- The older free engine (Kokoro, `scripts/tts_build.py`) still works offline as a fallback; model files from the kokoro-onnx GitHub release `model-files-v1.0` in `./tts/`.
+- Same finish either way: 0.75 s between speakers, every line at the same loudness, -16 LUFS, peaks under -1.5 dB, mono MP3 64 kbps, `dist/audio/<stim id>.mp3`. A spelled name in a script (`W-A-L-L-I-S`) is read letter by letter.
 - Clarity check: `python3 scripts/audio_clarity.py <sherpa-onnx whisper model dir>` (`pip install sherpa-onnx`; models from the k2-fsa/sherpa-onnx GitHub release `asr-models`).
-- British voices only: girls/women `bf_emma`, `bf_isabella`, `bf_alice`, `bf_lily`; boys/men `bm_george`, `bm_lewis`, `bm_daniel`, `bm_fable`. Each speaker keeps one voice.
-- A spelled name in a script (`W-A-L-L-I-S`) is read letter by letter. Output: mono MP3, 64 kbps, `dist/audio/<stim id>.mp3`.
 - The app plays `audio/<id>.mp3` relative to the page, so the mp3 files must be published beside `index.html`.
 
 ## Publishing
